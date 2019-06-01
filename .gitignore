@@ -1,0 +1,7 @@
+*.pyc
+apidocs
+*.DS_Store
+.cache/*
+scripts/*.pyc
+.idea*
+*_pycache_
