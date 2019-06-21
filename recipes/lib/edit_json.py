@@ -5,7 +5,7 @@ import sys
 import json
 from time import sleep
 
-from utils import clean_input
+from recipes.lib.utils import clean_input
 
 
 def edit_dict(obj, tabwidth=0):

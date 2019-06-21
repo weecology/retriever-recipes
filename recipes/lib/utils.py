@@ -125,7 +125,5 @@ def get_script_version():
             if script_name not in loaded_files and script_version:
                 scripts.append(','.join([script, str(script_version)]))
                 loaded_files.append(script_name)
-    else:
-        print("No")
     scripts = sorted(scripts, key=str.lower)
     return scripts
