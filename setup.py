@@ -17,7 +17,7 @@ setup(
     description='Retriever Recieps',
     long_description='{a}'.format(a=read('README.md')),
     long_description_content_type='text/markdown',
-    author='Ben Morris, Shivam Negi, Akash Goel, Andrew Zhang, Henry Senyondo, Ethan White',
+    author='Harshit Bansal, Apoorva Pandey, Ben Morris, Shivam Negi, Akash Goel, Andrew Zhang, Henry Senyondo, Ethan White',
     author_email='ethan@weecology.org',
     url='https://github.com/weecology/retriever-recipes',
     classifiers=[
