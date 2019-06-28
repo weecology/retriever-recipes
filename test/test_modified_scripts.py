@@ -9,17 +9,11 @@ import sys
 import shlex
 import subprocess
 import requests
-from imp import reload
 from distutils.version import LooseVersion
 
 sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 from src.utils import get_script_version
 
-ENCODING = 'ISO-8859-1'
-
-reload(sys)
-if hasattr(sys, 'setdefaultencoding'):
-    sys.setdefaultencoding(ENCODING)
 
 file_location = os.path.dirname(os.path.realpath(__file__))
 retriever_recipes_root_dir = os.path.abspath(os.path.join(file_location, os.pardir))
@@ -68,7 +62,7 @@ def get_modified_scripts():
             script_name = os.path.basename(local_script).split('.')[0]
             script = script_name.replace('_', '-')
             modified_list.append(script)
-        elif LooseVersion(local_version) != upstream_versions[local_script]:
+        elif LooseVersion(local_version) > upstream_versions[local_script]:
             script_name = os.path.basename(local_script).split('.')[0]
             script = script_name.replace('_', '-')
             modified_list.append(script)
@@ -148,15 +142,18 @@ def install_modified():
 
     os.chdir("..")
     subprocess.call(['rm', '-r', 'test_modified'])
+    return errors
 
+
+def test_install_modified():
+    assert install_modified() == []
+
+
+if __name__ == "__main__":
+    errors = install_modified()
     if errors:
         print("Engine, Dataset, Error")
         for error in errors:
             print(error)
-        exit(1)
     else:
         print("All tests passed. All scripts are updated to latest version.")
-        exit(0)
-
-if __name__ == "__main__":
-    install_modified()

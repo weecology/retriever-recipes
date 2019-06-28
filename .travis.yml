@@ -4,4 +4,4 @@ services:
   - docker
 
 script:
-  - docker-compose run --service-ports python_recipes python3 test/test_modified_scripts.py
+  - docker-compose run --service-ports python_recipes pytest -v
