@@ -1,0 +1,7 @@
+language: python
+sudo: required
+services:
+  - docker
+
+script:
+  - docker-compose run --service-ports python_recipes pytest -v

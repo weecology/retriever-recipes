@@ -1,0 +1,32 @@
+version: '3'
+
+services:
+  pgdb_recipes:
+    image: kartoza/postgis:11.0-2.5
+    volumes:
+      - ./cli_tools/postgis-data:/var/lib/postgresql
+      - ./cli_tools/:/backups
+    container_name: pgdb_recipes_container
+    environment:
+      - POSTGRES_DB=testdb_retriever
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASS=Password12!
+      - POSTGRES_MULTIPLE_EXTENSIONS=postgis,postgis_topology
+      - ALLOW_IP_RANGE=0.0.0.0/0
+    restart: on-failure
+
+  python_recipes:
+    container_name: recipes_container
+    environment:
+      "IN_DOCKER" : "true"
+      "PGUSER" : "postgres"
+      "PGPASSWORD" : "Password12!"
+      "PGDATABASE" : "testdb_retriever"
+      "PGPORT" : "5432"
+      "PGHOST" : "pgdb_recipes"
+    restart: on-failure
+    build: .
+    depends_on:
+      - pgdb_recipes
+    ports:
+      - 5001:80
