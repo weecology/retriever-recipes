@@ -12,7 +12,7 @@ import requests
 from distutils.version import LooseVersion
 
 sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
-from src.utils import get_script_version
+from recipes.lib.utils import get_script_version
 
 
 file_location = os.path.dirname(os.path.realpath(__file__))

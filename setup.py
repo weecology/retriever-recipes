@@ -6,6 +6,10 @@ from setuptools import setup, find_packages
 
 current_platform = platform.system().lower()
 
+if os.path.exists(".git/hooks"):  # check if we are in git repo
+    os.system("cp hooks/pre-commit .git/hooks/pre-commit")
+    os.system("chmod +x .git/hooks/pre-commit")
+
 def read(*names, **kwargs):
     return open(
         os.path.join(os.path.dirname(__file__), *names),
