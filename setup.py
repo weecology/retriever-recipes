@@ -1,5 +1,6 @@
 import os
 import platform
+import subprocess
 
 from setuptools import setup, find_packages
 
@@ -7,8 +8,8 @@ from setuptools import setup, find_packages
 current_platform = platform.system().lower()
 
 if os.path.exists(".git/hooks"):  # check if we are in git repo
-    os.system("cp hooks/pre-commit .git/hooks/pre-commit")
-    os.system("chmod +x .git/hooks/pre-commit")
+    subprocess.call("cp hooks/pre-commit .git/hooks/pre-commit", shell=True)
+    subprocess.call("chmod +x .git/hooks/pre-commit", shell=True)
 
 def read(*names, **kwargs):
     return open(
