@@ -5,7 +5,8 @@ import re
 import json
 from os.path import join, exists
 
-from recipes.lib.utils import clean_input, is_empty, open_fr, ENCODING
+from recipes.lib.utils import clean_input, is_empty, open_fr
+from recipes.lib.defaults import ENCODING
 
 
 def short_names():

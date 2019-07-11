@@ -2,11 +2,12 @@ import argparse
 import argcomplete
 
 from recipes.lib.utils import get_script_version
+from recipes.lib.defaults import SCRIPT_SEARCH_PATHS
 
 
 script_list = []
 
-script_version_list = get_script_version(['scripts', './', '../scripts', '../'])
+script_version_list = get_script_version(SCRIPT_SEARCH_PATHS)
 for script in script_version_list:
     script = script.split(',')[0]
     if script.endswith('.json'):

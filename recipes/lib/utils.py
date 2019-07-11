@@ -8,7 +8,7 @@ import json
 from os.path import join, exists
 from collections import OrderedDict
 
-ENCODING = 'ISO-8859-1'
+from recipes.lib.defaults import ENCODING
 
 
 def is_empty(val):
