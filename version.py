@@ -3,7 +3,7 @@ from __future__ import absolute_import
 
 import os
 
-from src.utils import get_script_version
+from recipes.lib.utils import get_script_version
 
 
 def write_version_file(scripts):

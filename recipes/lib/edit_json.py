@@ -5,7 +5,8 @@ import sys
 import json
 from time import sleep
 
-from utils import clean_input
+from recipes.lib.utils import clean_input
+from recipes.lib.defaults import SCRIPT_SEARCH_PATHS
 
 
 def edit_dict(obj, tabwidth=0):
@@ -169,9 +170,17 @@ def edit_json(script):
     Note: Name of script is the dataset name.
     """
     json_file = script.replace('-', '_') + '.json'
+    file_path = None
+    for search_path in SCRIPT_SEARCH_PATHS:
+        if os.path.exists(os.path.join(search_path, json_file)):
+            file_path = search_path
+            break
+    if file_path is None:
+        print("Script not found.")
+        return
     try:
         contents = json.load(
-            open(os.path.join('scripts', json_file), 'r'))
+            open(os.path.join(file_path, json_file), 'r'))
     except (IOError, OSError):
         print("Script not found.")
         return
@@ -180,14 +189,15 @@ def edit_json(script):
 
     file_name = contents['name'] + ".json"
     file_name = file_name.replace('-', '_')
-    with open(os.path.join('scripts', file_name), 'w') as output_file:
+
+    with open(os.path.join(file_path, file_name), 'w') as output_file:
         json.dump(contents,
                   output_file,
                   sort_keys=True,
                   indent=4,
                   separators=(',', ': '))
         output_file.write('\n')
-        print("\nScript written to " + os.path.join('scripts', file_name))
+        print("\nScript written to " + os.path.join(file_path, file_name))
         output_file.close()
 
 
