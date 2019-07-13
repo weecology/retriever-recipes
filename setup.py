@@ -4,6 +4,7 @@ import subprocess
 
 from setuptools import setup, find_packages
 
+from recipes.lib.defaults import RETRIEVER_HOME_DIR
 
 current_platform = platform.system().lower()
 
@@ -85,3 +86,8 @@ if current_platform != "windows":
     os.system("activate-global-python-argcomplete")
     # register for the current shell
     os.system(argcomplete_command)
+
+if os.path.exists(RETRIEVER_HOME_DIR):
+    retriever_recipes_path = os.getcwd()
+    with open(os.path.join(RETRIEVER_HOME_DIR, "retriever_recipes_path.txt"), "w+") as f:
+        f.write(retriever_recipes_path)
