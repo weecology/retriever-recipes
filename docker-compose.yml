@@ -18,6 +18,8 @@ services:
   python_recipes:
     container_name: recipes_container
     environment:
+      TZ: America/New_York
+      DEBIAN_FRONTEND: noninteractive
       "IN_DOCKER" : "true"
       "PGUSER" : "postgres"
       "PGPASSWORD" : "Password12!"
