@@ -17,7 +17,7 @@
         {
             "dialect": {},
             "name": "ia_ozone_plot",
-            "path": "IA_OZONE_PLOT.csv",
+            "path": "IA/IA_OZONE_PLOT.csv",
             "schema": {
                 "fields": [
                     {
@@ -133,7 +133,7 @@
         {
             "dialect": {},
             "name": "ia_dwm_residual_pile",
-            "path": "IA_DWM_RESIDUAL_PILE.csv",
+            "path": "IA/IA_DWM_RESIDUAL_PILE.csv",
             "schema": {
                 "fields": [
                     {
@@ -300,7 +300,7 @@
         {
             "dialect": {},
             "name": "ia_tree_grm_estn",
-            "path": "IA_TREE_GRM_ESTN.csv",
+            "path": "IA/IA_TREE_GRM_ESTN.csv",
             "schema": {
                 "fields": [
                     {
@@ -518,7 +518,7 @@
         {
             "dialect": {},
             "name": "ia_dwm_fine_woody_debris",
-            "path": "IA_DWM_FINE_WOODY_DEBRIS.csv",
+            "path": "IA/IA_DWM_FINE_WOODY_DEBRIS.csv",
             "schema": {
                 "fields": [
                     {
@@ -675,7 +675,7 @@
         {
             "dialect": {},
             "name": "ia_county",
-            "path": "IA_COUNTY.csv",
+            "path": "IA/IA_COUNTY.csv",
             "schema": {
                 "fields": [
                     {
@@ -731,7 +731,7 @@
         {
             "dialect": {},
             "name": "ia_subp_cond",
-            "path": "IA_SUBP_COND.csv",
+            "path": "IA/IA_SUBP_COND.csv",
             "schema": {
                 "fields": [
                     {
@@ -831,7 +831,7 @@
         {
             "dialect": {},
             "name": "ia_grnd_cvr",
-            "path": "IA_GRND_CVR.csv",
+            "path": "IA/IA_GRND_CVR.csv",
             "schema": {
                 "fields": [
                     {
@@ -921,7 +921,7 @@
         {
             "dialect": {},
             "name": "ia_lichen_plot_summary",
-            "path": "IA_LICHEN_PLOT_SUMMARY.csv",
+            "path": "IA/IA_LICHEN_PLOT_SUMMARY.csv",
             "schema": {
                 "fields": [
                     {
@@ -999,7 +999,7 @@
         {
             "dialect": {},
             "name": "ia_veg_plot_species",
-            "path": "IA_VEG_PLOT_SPECIES.csv",
+            "path": "IA/IA_VEG_PLOT_SPECIES.csv",
             "schema": {
                 "fields": [
                     {
@@ -1099,7 +1099,7 @@
         {
             "dialect": {},
             "name": "ia_veg_visit",
-            "path": "IA_VEG_VISIT.csv",
+            "path": "IA/IA_VEG_VISIT.csv",
             "schema": {
                 "fields": [
                     {
@@ -1195,7 +1195,7 @@
         {
             "dialect": {},
             "name": "ia_soils_visit",
-            "path": "IA_SOILS_VISIT.csv",
+            "path": "IA/IA_SOILS_VISIT.csv",
             "schema": {
                 "fields": [
                     {
@@ -1271,7 +1271,7 @@
         {
             "dialect": {},
             "name": "ia_lichen_lab",
-            "path": "IA_LICHEN_LAB.csv",
+            "path": "IA/IA_LICHEN_LAB.csv",
             "schema": {
                 "fields": [
                     {
@@ -1349,7 +1349,7 @@
         {
             "dialect": {},
             "name": "ia_sitetree",
-            "path": "IA_SITETREE.csv",
+            "path": "IA/IA_SITETREE.csv",
             "schema": {
                 "fields": [
                     {
@@ -1545,7 +1545,7 @@
         {
             "dialect": {},
             "name": "ia_ozone_biosite_summary",
-            "path": "IA_OZONE_BIOSITE_SUMMARY.csv",
+            "path": "IA/IA_OZONE_BIOSITE_SUMMARY.csv",
             "schema": {
                 "fields": [
                     {
@@ -1665,7 +1665,7 @@
         {
             "dialect": {},
             "name": "ia_survey",
-            "path": "IA_SURVEY.csv",
+            "path": "IA/IA_SURVEY.csv",
             "schema": {
                 "fields": [
                     {
@@ -1750,7 +1750,7 @@
         {
             "dialect": {},
             "name": "ia_pop_estn_unit",
-            "path": "IA_POP_ESTN_UNIT.csv",
+            "path": "IA/IA_POP_ESTN_UNIT.csv",
             "schema": {
                 "fields": [
                     {
@@ -1841,7 +1841,7 @@
         {
             "dialect": {},
             "name": "ia_plotsnap",
-            "path": "IA_PLOTSNAP.csv",
+            "path": "IA/IA_PLOTSNAP.csv",
             "schema": {
                 "fields": [
                     {
@@ -2254,7 +2254,7 @@
         {
             "dialect": {},
             "name": "ia_tree_woodland_stems",
-            "path": "IA_TREE_WOODLAND_STEMS.csv",
+            "path": "IA/IA_TREE_WOODLAND_STEMS.csv",
             "schema": {
                 "fields": [
                     {
@@ -2348,7 +2348,7 @@
         {
             "dialect": {},
             "name": "ia_dwm_visit",
-            "path": "IA_DWM_VISIT.csv",
+            "path": "IA/IA_DWM_VISIT.csv",
             "schema": {
                 "fields": [
                     {
@@ -2476,7 +2476,7 @@
         {
             "dialect": {},
             "name": "ia_tree_grm_midpt",
-            "path": "IA_TREE_GRM_MIDPT.csv",
+            "path": "IA/IA_TREE_GRM_MIDPT.csv",
             "schema": {
                 "fields": [
                     {
@@ -2623,7 +2623,7 @@
         {
             "dialect": {},
             "name": "ia_veg_subplot_spp",
-            "path": "IA_VEG_SUBPLOT_SPP.csv",
+            "path": "IA/IA_VEG_SUBPLOT_SPP.csv",
             "schema": {
                 "fields": [
                     {
@@ -2749,7 +2749,7 @@
         {
             "dialect": {},
             "name": "ia_dwm_transect_segment",
-            "path": "IA_DWM_TRANSECT_SEGMENT.csv",
+            "path": "IA/IA_DWM_TRANSECT_SEGMENT.csv",
             "schema": {
                 "fields": [
                     {
@@ -2869,7 +2869,7 @@
         {
             "dialect": {},
             "name": "ia_tree_grm_component",
-            "path": "IA_TREE_GRM_COMPONENT.csv",
+            "path": "IA/IA_TREE_GRM_COMPONENT.csv",
             "schema": {
                 "fields": [
                     {
@@ -3273,7 +3273,7 @@
         {
             "dialect": {},
             "name": "ia_dwm_duff_litter_fuel",
-            "path": "IA_DWM_DUFF_LITTER_FUEL.csv",
+            "path": "IA/IA_DWM_DUFF_LITTER_FUEL.csv",
             "schema": {
                 "fields": [
                     {
@@ -3397,7 +3397,7 @@
         {
             "dialect": {},
             "name": "ia_seedling_regen",
-            "path": "IA_SEEDLING_REGEN.csv",
+            "path": "IA/IA_SEEDLING_REGEN.csv",
             "schema": {
                 "fields": [
                     {
@@ -3509,7 +3509,7 @@
         {
             "dialect": {},
             "name": "ia_cond",
-            "path": "IA_COND.csv",
+            "path": "IA/IA_COND.csv",
             "schema": {
                 "fields": [
                     {
@@ -4136,7 +4136,7 @@
         {
             "dialect": {},
             "name": "ia_pop_eval_grp",
-            "path": "IA_POP_EVAL_GRP.csv",
+            "path": "IA/IA_POP_EVAL_GRP.csv",
             "schema": {
                 "fields": [
                     {
@@ -4198,7 +4198,7 @@
         {
             "dialect": {},
             "name": "ia_tree_grm_begin",
-            "path": "IA_TREE_GRM_BEGIN.csv",
+            "path": "IA/IA_TREE_GRM_BEGIN.csv",
             "schema": {
                 "fields": [
                     {
@@ -4343,7 +4343,7 @@
         {
             "dialect": {},
             "name": "ia_pop_eval",
-            "path": "IA_POP_EVAL.csv",
+            "path": "IA/IA_POP_EVAL.csv",
             "schema": {
                 "fields": [
                     {
@@ -4446,7 +4446,7 @@
         {
             "dialect": {},
             "name": "ia_ozone_validation",
-            "path": "IA_OZONE_VALIDATION.csv",
+            "path": "IA/IA_OZONE_VALIDATION.csv",
             "schema": {
                 "fields": [
                     {
@@ -4542,7 +4542,7 @@
         {
             "dialect": {},
             "name": "ia_subplot",
-            "path": "IA_SUBPLOT.csv",
+            "path": "IA/IA_SUBPLOT.csv",
             "schema": {
                 "fields": [
                     {
@@ -4763,7 +4763,7 @@
         {
             "dialect": {},
             "name": "ia_ozone_species_summary",
-            "path": "IA_OZONE_SPECIES_SUMMARY.csv",
+            "path": "IA/IA_OZONE_SPECIES_SUMMARY.csv",
             "schema": {
                 "fields": [
                     {
@@ -4915,7 +4915,7 @@
         {
             "dialect": {},
             "name": "ia_pop_eval_attribute",
-            "path": "IA_POP_EVAL_ATTRIBUTE.csv",
+            "path": "IA/IA_POP_EVAL_ATTRIBUTE.csv",
             "schema": {
                 "fields": [
                     {
@@ -4966,7 +4966,7 @@
         {
             "dialect": {},
             "name": "ia_dwm_microplot_fuel",
-            "path": "IA_DWM_MICROPLOT_FUEL.csv",
+            "path": "IA/IA_DWM_MICROPLOT_FUEL.csv",
             "schema": {
                 "fields": [
                     {
@@ -5074,7 +5074,7 @@
         {
             "dialect": {},
             "name": "ia_veg_quadrat",
-            "path": "IA_VEG_QUADRAT.csv",
+            "path": "IA/IA_VEG_QUADRAT.csv",
             "schema": {
                 "fields": [
                     {
@@ -5166,7 +5166,7 @@
         {
             "dialect": {},
             "name": "ia_tree_grm_threshold",
-            "path": "IA_TREE_GRM_THRESHOLD.csv",
+            "path": "IA/IA_TREE_GRM_THRESHOLD.csv",
             "schema": {
                 "fields": [
                     {
@@ -5326,7 +5326,7 @@
         {
             "dialect": {},
             "name": "ia_p2veg_subp_structure",
-            "path": "IA_P2VEG_SUBP_STRUCTURE.csv",
+            "path": "IA/IA_P2VEG_SUBP_STRUCTURE.csv",
             "schema": {
                 "fields": [
                     {
@@ -5418,7 +5418,7 @@
         {
             "dialect": {},
             "name": "ia_subp_cond_chng_mtrx",
-            "path": "IA_SUBP_COND_CHNG_MTRX.csv",
+            "path": "IA/IA_SUBP_COND_CHNG_MTRX.csv",
             "schema": {
                 "fields": [
                     {
@@ -5490,7 +5490,7 @@
         {
             "dialect": {},
             "name": "ia_tree",
-            "path": "IA_TREE.csv",
+            "path": "IA/IA_TREE.csv",
             "schema": {
                 "fields": [
                     {
@@ -6335,7 +6335,7 @@
         {
             "dialect": {},
             "name": "ia_pop_stratum",
-            "path": "IA_POP_STRATUM.csv",
+            "path": "IA/IA_POP_STRATUM.csv",
             "schema": {
                 "fields": [
                     {
@@ -6475,7 +6475,7 @@
         {
             "dialect": {},
             "name": "ia_soils_lab",
-            "path": "IA_SOILS_LAB.csv",
+            "path": "IA/IA_SOILS_LAB.csv",
             "schema": {
                 "fields": [
                     {
@@ -6696,7 +6696,7 @@
         {
             "dialect": {},
             "name": "ia_cond_dwm_calc",
-            "path": "IA_COND_DWM_CALC.csv",
+            "path": "IA/IA_COND_DWM_CALC.csv",
             "schema": {
                 "fields": [
                     {
@@ -7203,7 +7203,7 @@
         {
             "dialect": {},
             "name": "ia_plot_regen",
-            "path": "IA_PLOT_REGEN.csv",
+            "path": "IA/IA_PLOT_REGEN.csv",
             "schema": {
                 "fields": [
                     {
@@ -7278,7 +7278,7 @@
         {
             "dialect": {},
             "name": "ia_seedling",
-            "path": "IA_SEEDLING.csv",
+            "path": "IA/IA_SEEDLING.csv",
             "schema": {
                 "fields": [
                     {
@@ -7418,7 +7418,7 @@
         {
             "dialect": {},
             "name": "ia_ozone_visit",
-            "path": "IA_OZONE_VISIT.csv",
+            "path": "IA/IA_OZONE_VISIT.csv",
             "schema": {
                 "fields": [
                     {
@@ -7542,7 +7542,7 @@
         {
             "dialect": {},
             "name": "ia_invasive_subplot_spp",
-            "path": "IA_INVASIVE_SUBPLOT_SPP.csv",
+            "path": "IA/IA_INVASIVE_SUBPLOT_SPP.csv",
             "schema": {
                 "fields": [
                     {
@@ -7640,7 +7640,7 @@
         {
             "dialect": {},
             "name": "ia_pop_eval_typ",
-            "path": "IA_POP_EVAL_TYP.csv",
+            "path": "IA/IA_POP_EVAL_TYP.csv",
             "schema": {
                 "fields": [
                     {
@@ -7693,7 +7693,7 @@
         {
             "dialect": {},
             "name": "ia_lichen_visit",
-            "path": "IA_LICHEN_VISIT.csv",
+            "path": "IA/IA_LICHEN_VISIT.csv",
             "schema": {
                 "fields": [
                     {
@@ -7857,7 +7857,7 @@
         {
             "dialect": {},
             "name": "ia_dwm_coarse_woody_debris",
-            "path": "IA_DWM_COARSE_WOODY_DEBRIS.csv",
+            "path": "IA/IA_DWM_COARSE_WOODY_DEBRIS.csv",
             "schema": {
                 "fields": [
                     {
@@ -8106,7 +8106,7 @@
         {
             "dialect": {},
             "name": "ia_plotgeom",
-            "path": "IA_PLOTGEOM.csv",
+            "path": "IA/IA_PLOTGEOM.csv",
             "schema": {
                 "fields": [
                     {
@@ -8224,7 +8224,7 @@
         {
             "dialect": {},
             "name": "ia_p2veg_subplot_spp",
-            "path": "IA_P2VEG_SUBPLOT_SPP.csv",
+            "path": "IA/IA_P2VEG_SUBPLOT_SPP.csv",
             "schema": {
                 "fields": [
                     {
@@ -8326,7 +8326,7 @@
         {
             "dialect": {},
             "name": "ia_subplot_regen",
-            "path": "IA_SUBPLOT_REGEN.csv",
+            "path": "IA/IA_SUBPLOT_REGEN.csv",
             "schema": {
                 "fields": [
                     {
@@ -8426,7 +8426,7 @@
         {
             "dialect": {},
             "name": "ia_veg_subplot",
-            "path": "IA_VEG_SUBPLOT.csv",
+            "path": "IA/IA_VEG_SUBPLOT.csv",
             "schema": {
                 "fields": [
                     {
@@ -8578,7 +8578,7 @@
         {
             "dialect": {},
             "name": "ia_pop_plot_stratum_assgn",
-            "path": "IA_POP_PLOT_STRATUM_ASSGN.csv",
+            "path": "IA/IA_POP_PLOT_STRATUM_ASSGN.csv",
             "schema": {
                 "fields": [
                     {
@@ -8661,7 +8661,7 @@
         {
             "dialect": {},
             "name": "ia_soils_erosion",
-            "path": "IA_SOILS_EROSION.csv",
+            "path": "IA/IA_SOILS_EROSION.csv",
             "schema": {
                 "fields": [
                     {
@@ -8753,7 +8753,7 @@
         {
             "dialect": {},
             "name": "ia_ozone_plot_summary",
-            "path": "IA_OZONE_PLOT_SUMMARY.csv",
+            "path": "IA/IA_OZONE_PLOT_SUMMARY.csv",
             "schema": {
                 "fields": [
                     {
@@ -8875,7 +8875,7 @@
         {
             "dialect": {},
             "name": "ia_plot",
-            "path": "IA_PLOT.csv",
+            "path": "IA/IA_PLOT.csv",
             "schema": {
                 "fields": [
                     {
@@ -9177,7 +9177,7 @@
         {
             "dialect": {},
             "name": "ia_tree_regional_biomass",
-            "path": "IA_TREE_REGIONAL_BIOMASS.csv",
+            "path": "IA/IA_TREE_REGIONAL_BIOMASS.csv",
             "schema": {
                 "fields": [
                     {
@@ -9233,7 +9233,7 @@
         {
             "dialect": {},
             "name": "ia_soils_sample_loc",
-            "path": "IA_SOILS_SAMPLE_LOC.csv",
+            "path": "IA/IA_SOILS_SAMPLE_LOC.csv",
             "schema": {
                 "fields": [
                     {
@@ -9365,7 +9365,7 @@
         {
             "dialect": {},
             "name": "ia_boundary",
-            "path": "IA_BOUNDARY.csv",
+            "path": "IA/IA_BOUNDARY.csv",
             "schema": {
                 "fields": [
                     {

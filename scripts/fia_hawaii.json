@@ -17,7 +17,7 @@
         {
             "dialect": {},
             "name": "hi_veg_plot_species",
-            "path": "HI_VEG_PLOT_SPECIES.csv",
+            "path": "HI/HI_VEG_PLOT_SPECIES.csv",
             "schema": {
                 "fields": [
                     {
@@ -111,7 +111,7 @@
         {
             "dialect": {},
             "name": "hi_subplot",
-            "path": "HI_SUBPLOT.csv",
+            "path": "HI/HI_SUBPLOT.csv",
             "schema": {
                 "fields": [
                     {
@@ -332,7 +332,7 @@
         {
             "dialect": {},
             "name": "hi_ozone_plot_summary",
-            "path": "HI_OZONE_PLOT_SUMMARY.csv",
+            "path": "HI/HI_OZONE_PLOT_SUMMARY.csv",
             "schema": {
                 "fields": [
                     {
@@ -450,7 +450,7 @@
         {
             "dialect": {},
             "name": "hi_lichen_plot_summary",
-            "path": "HI_LICHEN_PLOT_SUMMARY.csv",
+            "path": "HI/HI_LICHEN_PLOT_SUMMARY.csv",
             "schema": {
                 "fields": [
                     {
@@ -528,7 +528,7 @@
         {
             "dialect": {},
             "name": "hi_plot",
-            "path": "HI_PLOT.csv",
+            "path": "HI/HI_PLOT.csv",
             "schema": {
                 "fields": [
                     {
@@ -831,7 +831,7 @@
         {
             "dialect": {},
             "name": "hi_seedling_regen",
-            "path": "HI_SEEDLING_REGEN.csv",
+            "path": "HI/HI_SEEDLING_REGEN.csv",
             "schema": {
                 "fields": [
                     {
@@ -941,7 +941,7 @@
         {
             "dialect": {},
             "name": "hi_ozone_biosite_summary",
-            "path": "HI_OZONE_BIOSITE_SUMMARY.csv",
+            "path": "HI/HI_OZONE_BIOSITE_SUMMARY.csv",
             "schema": {
                 "fields": [
                     {
@@ -1059,7 +1059,7 @@
         {
             "dialect": {},
             "name": "hi_tree_grm_midpt",
-            "path": "HI_TREE_GRM_MIDPT.csv",
+            "path": "HI/HI_TREE_GRM_MIDPT.csv",
             "schema": {
                 "fields": [
                     {
@@ -1189,7 +1189,7 @@
         {
             "dialect": {},
             "name": "hi_plotsnap",
-            "path": "HI_PLOTSNAP.csv",
+            "path": "HI/HI_PLOTSNAP.csv",
             "schema": {
                 "fields": [
                     {
@@ -1578,7 +1578,7 @@
         {
             "dialect": {},
             "name": "hi_invasive_subplot_spp",
-            "path": "HI_INVASIVE_SUBPLOT_SPP.csv",
+            "path": "HI/HI_INVASIVE_SUBPLOT_SPP.csv",
             "schema": {
                 "fields": [
                     {
@@ -1676,7 +1676,7 @@
         {
             "dialect": {},
             "name": "hi_tree_grm_estn",
-            "path": "HI_TREE_GRM_ESTN.csv",
+            "path": "HI/HI_TREE_GRM_ESTN.csv",
             "schema": {
                 "fields": [
                     {
@@ -1882,7 +1882,7 @@
         {
             "dialect": {},
             "name": "hi_lichen_lab",
-            "path": "HI_LICHEN_LAB.csv",
+            "path": "HI/HI_LICHEN_LAB.csv",
             "schema": {
                 "fields": [
                     {
@@ -1960,7 +1960,7 @@
         {
             "dialect": {},
             "name": "hi_soils_visit",
-            "path": "HI_SOILS_VISIT.csv",
+            "path": "HI/HI_SOILS_VISIT.csv",
             "schema": {
                 "fields": [
                     {
@@ -2034,7 +2034,7 @@
         {
             "dialect": {},
             "name": "hi_soils_lab",
-            "path": "HI_SOILS_LAB.csv",
+            "path": "HI/HI_SOILS_LAB.csv",
             "schema": {
                 "fields": [
                     {
@@ -2248,7 +2248,7 @@
         {
             "dialect": {},
             "name": "hi_pop_eval_typ",
-            "path": "HI_POP_EVAL_TYP.csv",
+            "path": "HI/HI_POP_EVAL_TYP.csv",
             "schema": {
                 "fields": [
                     {
@@ -2301,7 +2301,7 @@
         {
             "dialect": {},
             "name": "hi_tree_grm_begin",
-            "path": "HI_TREE_GRM_BEGIN.csv",
+            "path": "HI/HI_TREE_GRM_BEGIN.csv",
             "schema": {
                 "fields": [
                     {
@@ -2435,7 +2435,7 @@
         {
             "dialect": {},
             "name": "hi_lichen_visit",
-            "path": "HI_LICHEN_VISIT.csv",
+            "path": "HI/HI_LICHEN_VISIT.csv",
             "schema": {
                 "fields": [
                     {
@@ -2597,7 +2597,7 @@
         {
             "dialect": {},
             "name": "hi_sitetree",
-            "path": "HI_SITETREE.csv",
+            "path": "HI/HI_SITETREE.csv",
             "schema": {
                 "fields": [
                     {
@@ -2791,7 +2791,7 @@
         {
             "dialect": {},
             "name": "hi_pop_plot_stratum_assgn",
-            "path": "HI_POP_PLOT_STRATUM_ASSGN.csv",
+            "path": "HI/HI_POP_PLOT_STRATUM_ASSGN.csv",
             "schema": {
                 "fields": [
                     {
@@ -2874,7 +2874,7 @@
         {
             "dialect": {},
             "name": "hi_tree_grm_threshold",
-            "path": "HI_TREE_GRM_THRESHOLD.csv",
+            "path": "HI/HI_TREE_GRM_THRESHOLD.csv",
             "schema": {
                 "fields": [
                     {
@@ -3016,7 +3016,7 @@
         {
             "dialect": {},
             "name": "hi_tree_woodland_stems",
-            "path": "HI_TREE_WOODLAND_STEMS.csv",
+            "path": "HI/HI_TREE_WOODLAND_STEMS.csv",
             "schema": {
                 "fields": [
                     {
@@ -3110,7 +3110,7 @@
         {
             "dialect": {},
             "name": "hi_ozone_plot",
-            "path": "HI_OZONE_PLOT.csv",
+            "path": "HI/HI_OZONE_PLOT.csv",
             "schema": {
                 "fields": [
                     {
@@ -3224,7 +3224,7 @@
         {
             "dialect": {},
             "name": "hi_pop_estn_unit",
-            "path": "HI_POP_ESTN_UNIT.csv",
+            "path": "HI/HI_POP_ESTN_UNIT.csv",
             "schema": {
                 "fields": [
                     {
@@ -3314,7 +3314,7 @@
         {
             "dialect": {},
             "name": "hi_grnd_cvr",
-            "path": "HI_GRND_CVR.csv",
+            "path": "HI/HI_GRND_CVR.csv",
             "schema": {
                 "fields": [
                     {
@@ -3404,7 +3404,7 @@
         {
             "dialect": {},
             "name": "hi_veg_subplot_spp",
-            "path": "HI_VEG_SUBPLOT_SPP.csv",
+            "path": "HI/HI_VEG_SUBPLOT_SPP.csv",
             "schema": {
                 "fields": [
                     {
@@ -3526,7 +3526,7 @@
         {
             "dialect": {},
             "name": "hi_p2veg_subp_structure",
-            "path": "HI_P2VEG_SUBP_STRUCTURE.csv",
+            "path": "HI/HI_P2VEG_SUBP_STRUCTURE.csv",
             "schema": {
                 "fields": [
                     {
@@ -3618,7 +3618,7 @@
         {
             "dialect": {},
             "name": "hi_dwm_residual_pile",
-            "path": "HI_DWM_RESIDUAL_PILE.csv",
+            "path": "HI/HI_DWM_RESIDUAL_PILE.csv",
             "schema": {
                 "fields": [
                     {
@@ -3780,7 +3780,7 @@
         {
             "dialect": {},
             "name": "hi_dwm_fine_woody_debris",
-            "path": "HI_DWM_FINE_WOODY_DEBRIS.csv",
+            "path": "HI/HI_DWM_FINE_WOODY_DEBRIS.csv",
             "schema": {
                 "fields": [
                     {
@@ -3926,7 +3926,7 @@
         {
             "dialect": {},
             "name": "hi_dwm_microplot_fuel",
-            "path": "HI_DWM_MICROPLOT_FUEL.csv",
+            "path": "HI/HI_DWM_MICROPLOT_FUEL.csv",
             "schema": {
                 "fields": [
                     {
@@ -4032,7 +4032,7 @@
         {
             "dialect": {},
             "name": "hi_tree",
-            "path": "HI_TREE.csv",
+            "path": "HI/HI_TREE.csv",
             "schema": {
                 "fields": [
                     {
@@ -4873,7 +4873,7 @@
         {
             "dialect": {},
             "name": "hi_pop_eval_attribute",
-            "path": "HI_POP_EVAL_ATTRIBUTE.csv",
+            "path": "HI/HI_POP_EVAL_ATTRIBUTE.csv",
             "schema": {
                 "fields": [
                     {
@@ -4925,7 +4925,7 @@
         {
             "dialect": {},
             "name": "hi_veg_subplot",
-            "path": "HI_VEG_SUBPLOT.csv",
+            "path": "HI/HI_VEG_SUBPLOT.csv",
             "schema": {
                 "fields": [
                     {
@@ -5075,7 +5075,7 @@
         {
             "dialect": {},
             "name": "hi_subp_cond",
-            "path": "HI_SUBP_COND.csv",
+            "path": "HI/HI_SUBP_COND.csv",
             "schema": {
                 "fields": [
                     {
@@ -5175,7 +5175,7 @@
         {
             "dialect": {},
             "name": "hi_dwm_transect_segment",
-            "path": "HI_DWM_TRANSECT_SEGMENT.csv",
+            "path": "HI/HI_DWM_TRANSECT_SEGMENT.csv",
             "schema": {
                 "fields": [
                     {
@@ -5289,7 +5289,7 @@
         {
             "dialect": {},
             "name": "hi_p2veg_subplot_spp",
-            "path": "HI_P2VEG_SUBPLOT_SPP.csv",
+            "path": "HI/HI_P2VEG_SUBPLOT_SPP.csv",
             "schema": {
                 "fields": [
                     {
@@ -5395,7 +5395,7 @@
         {
             "dialect": {},
             "name": "hi_dwm_duff_litter_fuel",
-            "path": "HI_DWM_DUFF_LITTER_FUEL.csv",
+            "path": "HI/HI_DWM_DUFF_LITTER_FUEL.csv",
             "schema": {
                 "fields": [
                     {
@@ -5517,7 +5517,7 @@
         {
             "dialect": {},
             "name": "hi_boundary",
-            "path": "HI_BOUNDARY.csv",
+            "path": "HI/HI_BOUNDARY.csv",
             "schema": {
                 "fields": [
                     {
@@ -5621,7 +5621,7 @@
         {
             "dialect": {},
             "name": "hi_county",
-            "path": "HI_COUNTY.csv",
+            "path": "HI/HI_COUNTY.csv",
             "schema": {
                 "fields": [
                     {
@@ -5677,7 +5677,7 @@
         {
             "dialect": {},
             "name": "hi_cond",
-            "path": "HI_COND.csv",
+            "path": "HI/HI_COND.csv",
             "schema": {
                 "fields": [
                     {
@@ -6295,7 +6295,7 @@
         {
             "dialect": {},
             "name": "hi_cond_dwm_calc",
-            "path": "HI_COND_DWM_CALC.csv",
+            "path": "HI/HI_COND_DWM_CALC.csv",
             "schema": {
                 "fields": [
                     {
@@ -6745,7 +6745,7 @@
         {
             "dialect": {},
             "name": "hi_tree_regional_biomass",
-            "path": "HI_TREE_REGIONAL_BIOMASS.csv",
+            "path": "HI/HI_TREE_REGIONAL_BIOMASS.csv",
             "schema": {
                 "fields": [
                     {
@@ -6801,7 +6801,7 @@
         {
             "dialect": {},
             "name": "hi_pop_eval_grp",
-            "path": "HI_POP_EVAL_GRP.csv",
+            "path": "HI/HI_POP_EVAL_GRP.csv",
             "schema": {
                 "fields": [
                     {
@@ -6863,7 +6863,7 @@
         {
             "dialect": {},
             "name": "hi_tree_grm_component",
-            "path": "HI_TREE_GRM_COMPONENT.csv",
+            "path": "HI/HI_TREE_GRM_COMPONENT.csv",
             "schema": {
                 "fields": [
                     {
@@ -7241,7 +7241,7 @@
         {
             "dialect": {},
             "name": "hi_veg_visit",
-            "path": "HI_VEG_VISIT.csv",
+            "path": "HI/HI_VEG_VISIT.csv",
             "schema": {
                 "fields": [
                     {
@@ -7335,7 +7335,7 @@
         {
             "dialect": {},
             "name": "hi_ozone_validation",
-            "path": "HI_OZONE_VALIDATION.csv",
+            "path": "HI/HI_OZONE_VALIDATION.csv",
             "schema": {
                 "fields": [
                     {
@@ -7429,7 +7429,7 @@
         {
             "dialect": {},
             "name": "hi_subp_cond_chng_mtrx",
-            "path": "HI_SUBP_COND_CHNG_MTRX.csv",
+            "path": "HI/HI_SUBP_COND_CHNG_MTRX.csv",
             "schema": {
                 "fields": [
                     {
@@ -7499,7 +7499,7 @@
         {
             "dialect": {},
             "name": "hi_plotgeom",
-            "path": "HI_PLOTGEOM.csv",
+            "path": "HI/HI_PLOTGEOM.csv",
             "schema": {
                 "fields": [
                     {
@@ -7616,7 +7616,7 @@
         {
             "dialect": {},
             "name": "hi_dwm_coarse_woody_debris",
-            "path": "HI_DWM_COARSE_WOODY_DEBRIS.csv",
+            "path": "HI/HI_DWM_COARSE_WOODY_DEBRIS.csv",
             "schema": {
                 "fields": [
                     {
@@ -7846,7 +7846,7 @@
         {
             "dialect": {},
             "name": "hi_soils_erosion",
-            "path": "HI_SOILS_EROSION.csv",
+            "path": "HI/HI_SOILS_EROSION.csv",
             "schema": {
                 "fields": [
                     {
@@ -7936,7 +7936,7 @@
         {
             "dialect": {},
             "name": "hi_pop_stratum",
-            "path": "HI_POP_STRATUM.csv",
+            "path": "HI/HI_POP_STRATUM.csv",
             "schema": {
                 "fields": [
                     {
@@ -8068,7 +8068,7 @@
         {
             "dialect": {},
             "name": "hi_seedling",
-            "path": "HI_SEEDLING.csv",
+            "path": "HI/HI_SEEDLING.csv",
             "schema": {
                 "fields": [
                     {
@@ -8208,7 +8208,7 @@
         {
             "dialect": {},
             "name": "hi_soils_sample_loc",
-            "path": "HI_SOILS_SAMPLE_LOC.csv",
+            "path": "HI/HI_SOILS_SAMPLE_LOC.csv",
             "schema": {
                 "fields": [
                     {
@@ -8338,7 +8338,7 @@
         {
             "dialect": {},
             "name": "hi_survey",
-            "path": "HI_SURVEY.csv",
+            "path": "HI/HI_SURVEY.csv",
             "schema": {
                 "fields": [
                     {
@@ -8422,7 +8422,7 @@
         {
             "dialect": {},
             "name": "hi_ozone_visit",
-            "path": "HI_OZONE_VISIT.csv",
+            "path": "HI/HI_OZONE_VISIT.csv",
             "schema": {
                 "fields": [
                     {
@@ -8544,7 +8544,7 @@
         {
             "dialect": {},
             "name": "hi_subplot_regen",
-            "path": "HI_SUBPLOT_REGEN.csv",
+            "path": "HI/HI_SUBPLOT_REGEN.csv",
             "schema": {
                 "fields": [
                     {
@@ -8642,7 +8642,7 @@
         {
             "dialect": {},
             "name": "hi_plot_regen",
-            "path": "HI_PLOT_REGEN.csv",
+            "path": "HI/HI_PLOT_REGEN.csv",
             "schema": {
                 "fields": [
                     {
@@ -8716,7 +8716,7 @@
         {
             "dialect": {},
             "name": "hi_veg_quadrat",
-            "path": "HI_VEG_QUADRAT.csv",
+            "path": "HI/HI_VEG_QUADRAT.csv",
             "schema": {
                 "fields": [
                     {
@@ -8806,7 +8806,7 @@
         {
             "dialect": {},
             "name": "hi_ozone_species_summary",
-            "path": "HI_OZONE_SPECIES_SUMMARY.csv",
+            "path": "HI/HI_OZONE_SPECIES_SUMMARY.csv",
             "schema": {
                 "fields": [
                     {
@@ -8956,7 +8956,7 @@
         {
             "dialect": {},
             "name": "hi_pop_eval",
-            "path": "HI_POP_EVAL.csv",
+            "path": "HI/HI_POP_EVAL.csv",
             "schema": {
                 "fields": [
                     {
@@ -9058,7 +9058,7 @@
         {
             "dialect": {},
             "name": "hi_dwm_visit",
-            "path": "HI_DWM_VISIT.csv",
+            "path": "HI/HI_DWM_VISIT.csv",
             "schema": {
                 "fields": [
                     {

@@ -17,7 +17,7 @@
         {
             "dialect": {},
             "name": "az_pop_estn_unit",
-            "path": "AZ_POP_ESTN_UNIT.csv",
+            "path": "AZ/AZ_POP_ESTN_UNIT.csv",
             "schema": {
                 "fields": [
                     {
@@ -108,7 +108,7 @@
         {
             "dialect": {},
             "name": "az_dwm_visit",
-            "path": "AZ_DWM_VISIT.csv",
+            "path": "AZ/AZ_DWM_VISIT.csv",
             "schema": {
                 "fields": [
                     {
@@ -236,7 +236,7 @@
         {
             "dialect": {},
             "name": "az_veg_plot_species",
-            "path": "AZ_VEG_PLOT_SPECIES.csv",
+            "path": "AZ/AZ_VEG_PLOT_SPECIES.csv",
             "schema": {
                 "fields": [
                     {
@@ -330,7 +330,7 @@
         {
             "dialect": {},
             "name": "az_ozone_visit",
-            "path": "AZ_OZONE_VISIT.csv",
+            "path": "AZ/AZ_OZONE_VISIT.csv",
             "schema": {
                 "fields": [
                     {
@@ -452,7 +452,7 @@
         {
             "dialect": {},
             "name": "az_ozone_species_summary",
-            "path": "AZ_OZONE_SPECIES_SUMMARY.csv",
+            "path": "AZ/AZ_OZONE_SPECIES_SUMMARY.csv",
             "schema": {
                 "fields": [
                     {
@@ -602,7 +602,7 @@
         {
             "dialect": {},
             "name": "az_subp_cond_chng_mtrx",
-            "path": "AZ_SUBP_COND_CHNG_MTRX.csv",
+            "path": "AZ/AZ_SUBP_COND_CHNG_MTRX.csv",
             "schema": {
                 "fields": [
                     {
@@ -672,7 +672,7 @@
         {
             "dialect": {},
             "name": "az_pop_stratum",
-            "path": "AZ_POP_STRATUM.csv",
+            "path": "AZ/AZ_POP_STRATUM.csv",
             "schema": {
                 "fields": [
                     {
@@ -809,7 +809,7 @@
         {
             "dialect": {},
             "name": "az_p2veg_subp_structure",
-            "path": "AZ_P2VEG_SUBP_STRUCTURE.csv",
+            "path": "AZ/AZ_P2VEG_SUBP_STRUCTURE.csv",
             "schema": {
                 "fields": [
                     {
@@ -901,7 +901,7 @@
         {
             "dialect": {},
             "name": "az_tree_grm_threshold",
-            "path": "AZ_TREE_GRM_THRESHOLD.csv",
+            "path": "AZ/AZ_TREE_GRM_THRESHOLD.csv",
             "schema": {
                 "fields": [
                     {
@@ -1043,7 +1043,7 @@
         {
             "dialect": {},
             "name": "az_plotsnap",
-            "path": "AZ_PLOTSNAP.csv",
+            "path": "AZ/AZ_PLOTSNAP.csv",
             "schema": {
                 "fields": [
                     {
@@ -1443,7 +1443,7 @@
         {
             "dialect": {},
             "name": "az_lichen_visit",
-            "path": "AZ_LICHEN_VISIT.csv",
+            "path": "AZ/AZ_LICHEN_VISIT.csv",
             "schema": {
                 "fields": [
                     {
@@ -1607,7 +1607,7 @@
         {
             "dialect": {},
             "name": "az_sitetree",
-            "path": "AZ_SITETREE.csv",
+            "path": "AZ/AZ_SITETREE.csv",
             "schema": {
                 "fields": [
                     {
@@ -1803,7 +1803,7 @@
         {
             "dialect": {},
             "name": "az_pop_eval_typ",
-            "path": "AZ_POP_EVAL_TYP.csv",
+            "path": "AZ/AZ_POP_EVAL_TYP.csv",
             "schema": {
                 "fields": [
                     {
@@ -1856,7 +1856,7 @@
         {
             "dialect": {},
             "name": "az_dwm_microplot_fuel",
-            "path": "AZ_DWM_MICROPLOT_FUEL.csv",
+            "path": "AZ/AZ_DWM_MICROPLOT_FUEL.csv",
             "schema": {
                 "fields": [
                     {
@@ -1963,7 +1963,7 @@
         {
             "dialect": {},
             "name": "az_veg_quadrat",
-            "path": "AZ_VEG_QUADRAT.csv",
+            "path": "AZ/AZ_VEG_QUADRAT.csv",
             "schema": {
                 "fields": [
                     {
@@ -2053,7 +2053,7 @@
         {
             "dialect": {},
             "name": "az_pop_eval_attribute",
-            "path": "AZ_POP_EVAL_ATTRIBUTE.csv",
+            "path": "AZ/AZ_POP_EVAL_ATTRIBUTE.csv",
             "schema": {
                 "fields": [
                     {
@@ -2104,7 +2104,7 @@
         {
             "dialect": {},
             "name": "az_tree_grm_estn",
-            "path": "AZ_TREE_GRM_ESTN.csv",
+            "path": "AZ/AZ_TREE_GRM_ESTN.csv",
             "schema": {
                 "fields": [
                     {
@@ -2316,7 +2316,7 @@
         {
             "dialect": {},
             "name": "az_ozone_plot_summary",
-            "path": "AZ_OZONE_PLOT_SUMMARY.csv",
+            "path": "AZ/AZ_OZONE_PLOT_SUMMARY.csv",
             "schema": {
                 "fields": [
                     {
@@ -2434,7 +2434,7 @@
         {
             "dialect": {},
             "name": "az_invasive_subplot_spp",
-            "path": "AZ_INVASIVE_SUBPLOT_SPP.csv",
+            "path": "AZ/AZ_INVASIVE_SUBPLOT_SPP.csv",
             "schema": {
                 "fields": [
                     {
@@ -2531,7 +2531,7 @@
         {
             "dialect": {},
             "name": "az_veg_visit",
-            "path": "AZ_VEG_VISIT.csv",
+            "path": "AZ/AZ_VEG_VISIT.csv",
             "schema": {
                 "fields": [
                     {
@@ -2625,7 +2625,7 @@
         {
             "dialect": {},
             "name": "az_veg_subplot",
-            "path": "AZ_VEG_SUBPLOT.csv",
+            "path": "AZ/AZ_VEG_SUBPLOT.csv",
             "schema": {
                 "fields": [
                     {
@@ -2775,7 +2775,7 @@
         {
             "dialect": {},
             "name": "az_grnd_cvr",
-            "path": "AZ_GRND_CVR.csv",
+            "path": "AZ/AZ_GRND_CVR.csv",
             "schema": {
                 "fields": [
                     {
@@ -2865,7 +2865,7 @@
         {
             "dialect": {},
             "name": "az_dwm_coarse_woody_debris",
-            "path": "AZ_DWM_COARSE_WOODY_DEBRIS.csv",
+            "path": "AZ/AZ_DWM_COARSE_WOODY_DEBRIS.csv",
             "schema": {
                 "fields": [
                     {
@@ -3115,7 +3115,7 @@
         {
             "dialect": {},
             "name": "az_dwm_residual_pile",
-            "path": "AZ_DWM_RESIDUAL_PILE.csv",
+            "path": "AZ/AZ_DWM_RESIDUAL_PILE.csv",
             "schema": {
                 "fields": [
                     {
@@ -3281,7 +3281,7 @@
         {
             "dialect": {},
             "name": "az_pop_plot_stratum_assgn",
-            "path": "AZ_POP_PLOT_STRATUM_ASSGN.csv",
+            "path": "AZ/AZ_POP_PLOT_STRATUM_ASSGN.csv",
             "schema": {
                 "fields": [
                     {
@@ -3365,7 +3365,7 @@
         {
             "dialect": {},
             "name": "az_cond",
-            "path": "AZ_COND.csv",
+            "path": "AZ/AZ_COND.csv",
             "schema": {
                 "fields": [
                     {
@@ -3984,7 +3984,7 @@
         {
             "dialect": {},
             "name": "az_subp_cond",
-            "path": "AZ_SUBP_COND.csv",
+            "path": "AZ/AZ_SUBP_COND.csv",
             "schema": {
                 "fields": [
                     {
@@ -4084,7 +4084,7 @@
         {
             "dialect": {},
             "name": "az_tree_regional_biomass",
-            "path": "AZ_TREE_REGIONAL_BIOMASS.csv",
+            "path": "AZ/AZ_TREE_REGIONAL_BIOMASS.csv",
             "schema": {
                 "fields": [
                     {
@@ -4140,7 +4140,7 @@
         {
             "dialect": {},
             "name": "az_plot_regen",
-            "path": "AZ_PLOT_REGEN.csv",
+            "path": "AZ/AZ_PLOT_REGEN.csv",
             "schema": {
                 "fields": [
                     {
@@ -4214,7 +4214,7 @@
         {
             "dialect": {},
             "name": "az_boundary",
-            "path": "AZ_BOUNDARY.csv",
+            "path": "AZ/AZ_BOUNDARY.csv",
             "schema": {
                 "fields": [
                     {
@@ -4317,7 +4317,7 @@
         {
             "dialect": {},
             "name": "az_tree",
-            "path": "AZ_TREE.csv",
+            "path": "AZ/AZ_TREE.csv",
             "schema": {
                 "fields": [
                     {
@@ -5158,7 +5158,7 @@
         {
             "dialect": {},
             "name": "az_county",
-            "path": "AZ_COUNTY.csv",
+            "path": "AZ/AZ_COUNTY.csv",
             "schema": {
                 "fields": [
                     {
@@ -5215,7 +5215,7 @@
         {
             "dialect": {},
             "name": "az_pop_eval_grp",
-            "path": "AZ_POP_EVAL_GRP.csv",
+            "path": "AZ/AZ_POP_EVAL_GRP.csv",
             "schema": {
                 "fields": [
                     {
@@ -5277,7 +5277,7 @@
         {
             "dialect": {},
             "name": "az_lichen_lab",
-            "path": "AZ_LICHEN_LAB.csv",
+            "path": "AZ/AZ_LICHEN_LAB.csv",
             "schema": {
                 "fields": [
                     {
@@ -5356,7 +5356,7 @@
         {
             "dialect": {},
             "name": "az_dwm_fine_woody_debris",
-            "path": "AZ_DWM_FINE_WOODY_DEBRIS.csv",
+            "path": "AZ/AZ_DWM_FINE_WOODY_DEBRIS.csv",
             "schema": {
                 "fields": [
                     {
@@ -5513,7 +5513,7 @@
         {
             "dialect": {},
             "name": "az_veg_subplot_spp",
-            "path": "AZ_VEG_SUBPLOT_SPP.csv",
+            "path": "AZ/AZ_VEG_SUBPLOT_SPP.csv",
             "schema": {
                 "fields": [
                     {
@@ -5635,7 +5635,7 @@
         {
             "dialect": {},
             "name": "az_p2veg_subplot_spp",
-            "path": "AZ_P2VEG_SUBPLOT_SPP.csv",
+            "path": "AZ/AZ_P2VEG_SUBPLOT_SPP.csv",
             "schema": {
                 "fields": [
                     {
@@ -5742,7 +5742,7 @@
         {
             "dialect": {},
             "name": "az_subplot",
-            "path": "AZ_SUBPLOT.csv",
+            "path": "AZ/AZ_SUBPLOT.csv",
             "schema": {
                 "fields": [
                     {
@@ -5962,7 +5962,7 @@
         {
             "dialect": {},
             "name": "az_ozone_validation",
-            "path": "AZ_OZONE_VALIDATION.csv",
+            "path": "AZ/AZ_OZONE_VALIDATION.csv",
             "schema": {
                 "fields": [
                     {
@@ -6056,7 +6056,7 @@
         {
             "dialect": {},
             "name": "az_plotgeom",
-            "path": "AZ_PLOTGEOM.csv",
+            "path": "AZ/AZ_PLOTGEOM.csv",
             "schema": {
                 "fields": [
                     {
@@ -6174,7 +6174,7 @@
         {
             "dialect": {},
             "name": "az_soils_erosion",
-            "path": "AZ_SOILS_EROSION.csv",
+            "path": "AZ/AZ_SOILS_EROSION.csv",
             "schema": {
                 "fields": [
                     {
@@ -6265,7 +6265,7 @@
         {
             "dialect": {},
             "name": "az_subplot_regen",
-            "path": "AZ_SUBPLOT_REGEN.csv",
+            "path": "AZ/AZ_SUBPLOT_REGEN.csv",
             "schema": {
                 "fields": [
                     {
@@ -6363,7 +6363,7 @@
         {
             "dialect": {},
             "name": "az_lichen_plot_summary",
-            "path": "AZ_LICHEN_PLOT_SUMMARY.csv",
+            "path": "AZ/AZ_LICHEN_PLOT_SUMMARY.csv",
             "schema": {
                 "fields": [
                     {
@@ -6442,7 +6442,7 @@
         {
             "dialect": {},
             "name": "az_tree_grm_begin",
-            "path": "AZ_TREE_GRM_BEGIN.csv",
+            "path": "AZ/AZ_TREE_GRM_BEGIN.csv",
             "schema": {
                 "fields": [
                     {
@@ -6576,7 +6576,7 @@
         {
             "dialect": {},
             "name": "az_tree_woodland_stems",
-            "path": "AZ_TREE_WOODLAND_STEMS.csv",
+            "path": "AZ/AZ_TREE_WOODLAND_STEMS.csv",
             "schema": {
                 "fields": [
                     {
@@ -6670,7 +6670,7 @@
         {
             "dialect": {},
             "name": "az_seedling",
-            "path": "AZ_SEEDLING.csv",
+            "path": "AZ/AZ_SEEDLING.csv",
             "schema": {
                 "fields": [
                     {
@@ -6810,7 +6810,7 @@
         {
             "dialect": {},
             "name": "az_ozone_plot",
-            "path": "AZ_OZONE_PLOT.csv",
+            "path": "AZ/AZ_OZONE_PLOT.csv",
             "schema": {
                 "fields": [
                     {
@@ -6924,7 +6924,7 @@
         {
             "dialect": {},
             "name": "az_ozone_biosite_summary",
-            "path": "AZ_OZONE_BIOSITE_SUMMARY.csv",
+            "path": "AZ/AZ_OZONE_BIOSITE_SUMMARY.csv",
             "schema": {
                 "fields": [
                     {
@@ -7042,7 +7042,7 @@
         {
             "dialect": {},
             "name": "az_seedling_regen",
-            "path": "AZ_SEEDLING_REGEN.csv",
+            "path": "AZ/AZ_SEEDLING_REGEN.csv",
             "schema": {
                 "fields": [
                     {
@@ -7152,7 +7152,7 @@
         {
             "dialect": {},
             "name": "az_tree_grm_component",
-            "path": "AZ_TREE_GRM_COMPONENT.csv",
+            "path": "AZ/AZ_TREE_GRM_COMPONENT.csv",
             "schema": {
                 "fields": [
                     {
@@ -7537,7 +7537,7 @@
         {
             "dialect": {},
             "name": "az_soils_lab",
-            "path": "AZ_SOILS_LAB.csv",
+            "path": "AZ/AZ_SOILS_LAB.csv",
             "schema": {
                 "fields": [
                     {
@@ -7758,7 +7758,7 @@
         {
             "dialect": {},
             "name": "az_tree_grm_midpt",
-            "path": "AZ_TREE_GRM_MIDPT.csv",
+            "path": "AZ/AZ_TREE_GRM_MIDPT.csv",
             "schema": {
                 "fields": [
                     {
@@ -7889,7 +7889,7 @@
         {
             "dialect": {},
             "name": "az_soils_sample_loc",
-            "path": "AZ_SOILS_SAMPLE_LOC.csv",
+            "path": "AZ/AZ_SOILS_SAMPLE_LOC.csv",
             "schema": {
                 "fields": [
                     {
@@ -8021,7 +8021,7 @@
         {
             "dialect": {},
             "name": "az_survey",
-            "path": "AZ_SURVEY.csv",
+            "path": "AZ/AZ_SURVEY.csv",
             "schema": {
                 "fields": [
                     {
@@ -8106,7 +8106,7 @@
         {
             "dialect": {},
             "name": "az_plot",
-            "path": "AZ_PLOT.csv",
+            "path": "AZ/AZ_PLOT.csv",
             "schema": {
                 "fields": [
                     {
@@ -8409,7 +8409,7 @@
         {
             "dialect": {},
             "name": "az_cond_dwm_calc",
-            "path": "AZ_COND_DWM_CALC.csv",
+            "path": "AZ/AZ_COND_DWM_CALC.csv",
             "schema": {
                 "fields": [
                     {
@@ -8925,7 +8925,7 @@
         {
             "dialect": {},
             "name": "az_dwm_duff_litter_fuel",
-            "path": "AZ_DWM_DUFF_LITTER_FUEL.csv",
+            "path": "AZ/AZ_DWM_DUFF_LITTER_FUEL.csv",
             "schema": {
                 "fields": [
                     {
@@ -9049,7 +9049,7 @@
         {
             "dialect": {},
             "name": "az_dwm_transect_segment",
-            "path": "AZ_DWM_TRANSECT_SEGMENT.csv",
+            "path": "AZ/AZ_DWM_TRANSECT_SEGMENT.csv",
             "schema": {
                 "fields": [
                     {
@@ -9169,7 +9169,7 @@
         {
             "dialect": {},
             "name": "az_soils_visit",
-            "path": "AZ_SOILS_VISIT.csv",
+            "path": "AZ/AZ_SOILS_VISIT.csv",
             "schema": {
                 "fields": [
                     {
@@ -9245,7 +9245,7 @@
         {
             "dialect": {},
             "name": "az_pop_eval",
-            "path": "AZ_POP_EVAL.csv",
+            "path": "AZ/AZ_POP_EVAL.csv",
             "schema": {
                 "fields": [
                     {

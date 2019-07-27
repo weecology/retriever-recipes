@@ -17,7 +17,7 @@
         {
             "dialect": {},
             "name": "ri_dwm_fine_woody_debris",
-            "path": "RI_DWM_FINE_WOODY_DEBRIS.csv",
+            "path": "RI/RI_DWM_FINE_WOODY_DEBRIS.csv",
             "schema": {
                 "fields": [
                     {
@@ -174,7 +174,7 @@
         {
             "dialect": {},
             "name": "ri_lichen_visit",
-            "path": "RI_LICHEN_VISIT.csv",
+            "path": "RI/RI_LICHEN_VISIT.csv",
             "schema": {
                 "fields": [
                     {
@@ -338,7 +338,7 @@
         {
             "dialect": {},
             "name": "ri_ozone_validation",
-            "path": "RI_OZONE_VALIDATION.csv",
+            "path": "RI/RI_OZONE_VALIDATION.csv",
             "schema": {
                 "fields": [
                     {
@@ -434,7 +434,7 @@
         {
             "dialect": {},
             "name": "ri_veg_subplot_spp",
-            "path": "RI_VEG_SUBPLOT_SPP.csv",
+            "path": "RI/RI_VEG_SUBPLOT_SPP.csv",
             "schema": {
                 "fields": [
                     {
@@ -559,7 +559,7 @@
         {
             "dialect": {},
             "name": "ri_boundary",
-            "path": "RI_BOUNDARY.csv",
+            "path": "RI/RI_BOUNDARY.csv",
             "schema": {
                 "fields": [
                     {
@@ -663,7 +663,7 @@
         {
             "dialect": {},
             "name": "ri_p2veg_subplot_spp",
-            "path": "RI_P2VEG_SUBPLOT_SPP.csv",
+            "path": "RI/RI_P2VEG_SUBPLOT_SPP.csv",
             "schema": {
                 "fields": [
                     {
@@ -765,7 +765,7 @@
         {
             "dialect": {},
             "name": "ri_pop_eval_typ",
-            "path": "RI_POP_EVAL_TYP.csv",
+            "path": "RI/RI_POP_EVAL_TYP.csv",
             "schema": {
                 "fields": [
                     {
@@ -818,7 +818,7 @@
         {
             "dialect": {},
             "name": "ri_cond",
-            "path": "RI_COND.csv",
+            "path": "RI/RI_COND.csv",
             "schema": {
                 "fields": [
                     {
@@ -1444,7 +1444,7 @@
         {
             "dialect": {},
             "name": "ri_plotgeom",
-            "path": "RI_PLOTGEOM.csv",
+            "path": "RI/RI_PLOTGEOM.csv",
             "schema": {
                 "fields": [
                     {
@@ -1561,7 +1561,7 @@
         {
             "dialect": {},
             "name": "ri_dwm_visit",
-            "path": "RI_DWM_VISIT.csv",
+            "path": "RI/RI_DWM_VISIT.csv",
             "schema": {
                 "fields": [
                     {
@@ -1689,7 +1689,7 @@
         {
             "dialect": {},
             "name": "ri_tree_grm_estn",
-            "path": "RI_TREE_GRM_ESTN.csv",
+            "path": "RI/RI_TREE_GRM_ESTN.csv",
             "schema": {
                 "fields": [
                     {
@@ -1906,7 +1906,7 @@
         {
             "dialect": {},
             "name": "ri_lichen_lab",
-            "path": "RI_LICHEN_LAB.csv",
+            "path": "RI/RI_LICHEN_LAB.csv",
             "schema": {
                 "fields": [
                     {
@@ -1984,7 +1984,7 @@
         {
             "dialect": {},
             "name": "ri_ozone_plot_summary",
-            "path": "RI_OZONE_PLOT_SUMMARY.csv",
+            "path": "RI/RI_OZONE_PLOT_SUMMARY.csv",
             "schema": {
                 "fields": [
                     {
@@ -2106,7 +2106,7 @@
         {
             "dialect": {},
             "name": "ri_subp_cond_chng_mtrx",
-            "path": "RI_SUBP_COND_CHNG_MTRX.csv",
+            "path": "RI/RI_SUBP_COND_CHNG_MTRX.csv",
             "schema": {
                 "fields": [
                     {
@@ -2178,7 +2178,7 @@
         {
             "dialect": {},
             "name": "ri_dwm_microplot_fuel",
-            "path": "RI_DWM_MICROPLOT_FUEL.csv",
+            "path": "RI/RI_DWM_MICROPLOT_FUEL.csv",
             "schema": {
                 "fields": [
                     {
@@ -2286,7 +2286,7 @@
         {
             "dialect": {},
             "name": "ri_seedling",
-            "path": "RI_SEEDLING.csv",
+            "path": "RI/RI_SEEDLING.csv",
             "schema": {
                 "fields": [
                     {
@@ -2426,7 +2426,7 @@
         {
             "dialect": {},
             "name": "ri_soils_visit",
-            "path": "RI_SOILS_VISIT.csv",
+            "path": "RI/RI_SOILS_VISIT.csv",
             "schema": {
                 "fields": [
                     {
@@ -2502,7 +2502,7 @@
         {
             "dialect": {},
             "name": "ri_pop_eval_attribute",
-            "path": "RI_POP_EVAL_ATTRIBUTE.csv",
+            "path": "RI/RI_POP_EVAL_ATTRIBUTE.csv",
             "schema": {
                 "fields": [
                     {
@@ -2553,7 +2553,7 @@
         {
             "dialect": {},
             "name": "ri_subp_cond",
-            "path": "RI_SUBP_COND.csv",
+            "path": "RI/RI_SUBP_COND.csv",
             "schema": {
                 "fields": [
                     {
@@ -2653,7 +2653,7 @@
         {
             "dialect": {},
             "name": "ri_tree_grm_threshold",
-            "path": "RI_TREE_GRM_THRESHOLD.csv",
+            "path": "RI/RI_TREE_GRM_THRESHOLD.csv",
             "schema": {
                 "fields": [
                     {
@@ -2813,7 +2813,7 @@
         {
             "dialect": {},
             "name": "ri_ozone_biosite_summary",
-            "path": "RI_OZONE_BIOSITE_SUMMARY.csv",
+            "path": "RI/RI_OZONE_BIOSITE_SUMMARY.csv",
             "schema": {
                 "fields": [
                     {
@@ -2934,7 +2934,7 @@
         {
             "dialect": {},
             "name": "ri_dwm_duff_litter_fuel",
-            "path": "RI_DWM_DUFF_LITTER_FUEL.csv",
+            "path": "RI/RI_DWM_DUFF_LITTER_FUEL.csv",
             "schema": {
                 "fields": [
                     {
@@ -3058,7 +3058,7 @@
         {
             "dialect": {},
             "name": "ri_dwm_transect_segment",
-            "path": "RI_DWM_TRANSECT_SEGMENT.csv",
+            "path": "RI/RI_DWM_TRANSECT_SEGMENT.csv",
             "schema": {
                 "fields": [
                     {
@@ -3175,7 +3175,7 @@
         {
             "dialect": {},
             "name": "ri_pop_estn_unit",
-            "path": "RI_POP_ESTN_UNIT.csv",
+            "path": "RI/RI_POP_ESTN_UNIT.csv",
             "schema": {
                 "fields": [
                     {
@@ -3266,7 +3266,7 @@
         {
             "dialect": {},
             "name": "ri_seedling_regen",
-            "path": "RI_SEEDLING_REGEN.csv",
+            "path": "RI/RI_SEEDLING_REGEN.csv",
             "schema": {
                 "fields": [
                     {
@@ -3378,7 +3378,7 @@
         {
             "dialect": {},
             "name": "ri_tree_grm_midpt",
-            "path": "RI_TREE_GRM_MIDPT.csv",
+            "path": "RI/RI_TREE_GRM_MIDPT.csv",
             "schema": {
                 "fields": [
                     {
@@ -3525,7 +3525,7 @@
         {
             "dialect": {},
             "name": "ri_ozone_plot",
-            "path": "RI_OZONE_PLOT.csv",
+            "path": "RI/RI_OZONE_PLOT.csv",
             "schema": {
                 "fields": [
                     {
@@ -3641,7 +3641,7 @@
         {
             "dialect": {},
             "name": "ri_soils_sample_loc",
-            "path": "RI_SOILS_SAMPLE_LOC.csv",
+            "path": "RI/RI_SOILS_SAMPLE_LOC.csv",
             "schema": {
                 "fields": [
                     {
@@ -3772,7 +3772,7 @@
         {
             "dialect": {},
             "name": "ri_pop_eval",
-            "path": "RI_POP_EVAL.csv",
+            "path": "RI/RI_POP_EVAL.csv",
             "schema": {
                 "fields": [
                     {
@@ -3875,7 +3875,7 @@
         {
             "dialect": {},
             "name": "ri_tree_grm_begin",
-            "path": "RI_TREE_GRM_BEGIN.csv",
+            "path": "RI/RI_TREE_GRM_BEGIN.csv",
             "schema": {
                 "fields": [
                     {
@@ -4020,7 +4020,7 @@
         {
             "dialect": {},
             "name": "ri_veg_visit",
-            "path": "RI_VEG_VISIT.csv",
+            "path": "RI/RI_VEG_VISIT.csv",
             "schema": {
                 "fields": [
                     {
@@ -4116,7 +4116,7 @@
         {
             "dialect": {},
             "name": "ri_veg_quadrat",
-            "path": "RI_VEG_QUADRAT.csv",
+            "path": "RI/RI_VEG_QUADRAT.csv",
             "schema": {
                 "fields": [
                     {
@@ -4207,7 +4207,7 @@
         {
             "dialect": {},
             "name": "ri_cond_dwm_calc",
-            "path": "RI_COND_DWM_CALC.csv",
+            "path": "RI/RI_COND_DWM_CALC.csv",
             "schema": {
                 "fields": [
                     {
@@ -4707,7 +4707,7 @@
         {
             "dialect": {},
             "name": "ri_tree_woodland_stems",
-            "path": "RI_TREE_WOODLAND_STEMS.csv",
+            "path": "RI/RI_TREE_WOODLAND_STEMS.csv",
             "schema": {
                 "fields": [
                     {
@@ -4801,7 +4801,7 @@
         {
             "dialect": {},
             "name": "ri_plot",
-            "path": "RI_PLOT.csv",
+            "path": "RI/RI_PLOT.csv",
             "schema": {
                 "fields": [
                     {
@@ -5103,7 +5103,7 @@
         {
             "dialect": {},
             "name": "ri_p2veg_subp_structure",
-            "path": "RI_P2VEG_SUBP_STRUCTURE.csv",
+            "path": "RI/RI_P2VEG_SUBP_STRUCTURE.csv",
             "schema": {
                 "fields": [
                     {
@@ -5195,7 +5195,7 @@
         {
             "dialect": {},
             "name": "ri_ozone_species_summary",
-            "path": "RI_OZONE_SPECIES_SUMMARY.csv",
+            "path": "RI/RI_OZONE_SPECIES_SUMMARY.csv",
             "schema": {
                 "fields": [
                     {
@@ -5348,7 +5348,7 @@
         {
             "dialect": {},
             "name": "ri_plotsnap",
-            "path": "RI_PLOTSNAP.csv",
+            "path": "RI/RI_PLOTSNAP.csv",
             "schema": {
                 "fields": [
                     {
@@ -5755,7 +5755,7 @@
         {
             "dialect": {},
             "name": "ri_veg_plot_species",
-            "path": "RI_VEG_PLOT_SPECIES.csv",
+            "path": "RI/RI_VEG_PLOT_SPECIES.csv",
             "schema": {
                 "fields": [
                     {
@@ -5855,7 +5855,7 @@
         {
             "dialect": {},
             "name": "ri_tree_grm_component",
-            "path": "RI_TREE_GRM_COMPONENT.csv",
+            "path": "RI/RI_TREE_GRM_COMPONENT.csv",
             "schema": {
                 "fields": [
                     {
@@ -6255,7 +6255,7 @@
         {
             "dialect": {},
             "name": "ri_pop_stratum",
-            "path": "RI_POP_STRATUM.csv",
+            "path": "RI/RI_POP_STRATUM.csv",
             "schema": {
                 "fields": [
                     {
@@ -6392,7 +6392,7 @@
         {
             "dialect": {},
             "name": "ri_pop_eval_grp",
-            "path": "RI_POP_EVAL_GRP.csv",
+            "path": "RI/RI_POP_EVAL_GRP.csv",
             "schema": {
                 "fields": [
                     {
@@ -6454,7 +6454,7 @@
         {
             "dialect": {},
             "name": "ri_county",
-            "path": "RI_COUNTY.csv",
+            "path": "RI/RI_COUNTY.csv",
             "schema": {
                 "fields": [
                     {
@@ -6510,7 +6510,7 @@
         {
             "dialect": {},
             "name": "ri_ozone_visit",
-            "path": "RI_OZONE_VISIT.csv",
+            "path": "RI/RI_OZONE_VISIT.csv",
             "schema": {
                 "fields": [
                     {
@@ -6634,7 +6634,7 @@
         {
             "dialect": {},
             "name": "ri_pop_plot_stratum_assgn",
-            "path": "RI_POP_PLOT_STRATUM_ASSGN.csv",
+            "path": "RI/RI_POP_PLOT_STRATUM_ASSGN.csv",
             "schema": {
                 "fields": [
                     {
@@ -6717,7 +6717,7 @@
         {
             "dialect": {},
             "name": "ri_sitetree",
-            "path": "RI_SITETREE.csv",
+            "path": "RI/RI_SITETREE.csv",
             "schema": {
                 "fields": [
                     {
@@ -6913,7 +6913,7 @@
         {
             "dialect": {},
             "name": "ri_soils_erosion",
-            "path": "RI_SOILS_EROSION.csv",
+            "path": "RI/RI_SOILS_EROSION.csv",
             "schema": {
                 "fields": [
                     {
@@ -7004,7 +7004,7 @@
         {
             "dialect": {},
             "name": "ri_invasive_subplot_spp",
-            "path": "RI_INVASIVE_SUBPLOT_SPP.csv",
+            "path": "RI/RI_INVASIVE_SUBPLOT_SPP.csv",
             "schema": {
                 "fields": [
                     {
@@ -7102,7 +7102,7 @@
         {
             "dialect": {},
             "name": "ri_plot_regen",
-            "path": "RI_PLOT_REGEN.csv",
+            "path": "RI/RI_PLOT_REGEN.csv",
             "schema": {
                 "fields": [
                     {
@@ -7177,7 +7177,7 @@
         {
             "dialect": {},
             "name": "ri_subplot_regen",
-            "path": "RI_SUBPLOT_REGEN.csv",
+            "path": "RI/RI_SUBPLOT_REGEN.csv",
             "schema": {
                 "fields": [
                     {
@@ -7277,7 +7277,7 @@
         {
             "dialect": {},
             "name": "ri_dwm_coarse_woody_debris",
-            "path": "RI_DWM_COARSE_WOODY_DEBRIS.csv",
+            "path": "RI/RI_DWM_COARSE_WOODY_DEBRIS.csv",
             "schema": {
                 "fields": [
                     {
@@ -7526,7 +7526,7 @@
         {
             "dialect": {},
             "name": "ri_veg_subplot",
-            "path": "RI_VEG_SUBPLOT.csv",
+            "path": "RI/RI_VEG_SUBPLOT.csv",
             "schema": {
                 "fields": [
                     {
@@ -7677,7 +7677,7 @@
         {
             "dialect": {},
             "name": "ri_dwm_residual_pile",
-            "path": "RI_DWM_RESIDUAL_PILE.csv",
+            "path": "RI/RI_DWM_RESIDUAL_PILE.csv",
             "schema": {
                 "fields": [
                     {
@@ -7839,7 +7839,7 @@
         {
             "dialect": {},
             "name": "ri_survey",
-            "path": "RI_SURVEY.csv",
+            "path": "RI/RI_SURVEY.csv",
             "schema": {
                 "fields": [
                     {
@@ -7924,7 +7924,7 @@
         {
             "dialect": {},
             "name": "ri_grnd_cvr",
-            "path": "RI_GRND_CVR.csv",
+            "path": "RI/RI_GRND_CVR.csv",
             "schema": {
                 "fields": [
                     {
@@ -8014,7 +8014,7 @@
         {
             "dialect": {},
             "name": "ri_tree_regional_biomass",
-            "path": "RI_TREE_REGIONAL_BIOMASS.csv",
+            "path": "RI/RI_TREE_REGIONAL_BIOMASS.csv",
             "schema": {
                 "fields": [
                     {
@@ -8070,7 +8070,7 @@
         {
             "dialect": {},
             "name": "ri_tree",
-            "path": "RI_TREE.csv",
+            "path": "RI/RI_TREE.csv",
             "schema": {
                 "fields": [
                     {
@@ -8911,7 +8911,7 @@
         {
             "dialect": {},
             "name": "ri_lichen_plot_summary",
-            "path": "RI_LICHEN_PLOT_SUMMARY.csv",
+            "path": "RI/RI_LICHEN_PLOT_SUMMARY.csv",
             "schema": {
                 "fields": [
                     {
@@ -8989,7 +8989,7 @@
         {
             "dialect": {},
             "name": "ri_subplot",
-            "path": "RI_SUBPLOT.csv",
+            "path": "RI/RI_SUBPLOT.csv",
             "schema": {
                 "fields": [
                     {
@@ -9210,7 +9210,7 @@
         {
             "dialect": {},
             "name": "ri_soils_lab",
-            "path": "RI_SOILS_LAB.csv",
+            "path": "RI/RI_SOILS_LAB.csv",
             "schema": {
                 "fields": [
                     {

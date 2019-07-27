@@ -17,7 +17,7 @@
         {
             "dialect": {},
             "name": "il_county",
-            "path": "IL_COUNTY.csv",
+            "path": "IL/IL_COUNTY.csv",
             "schema": {
                 "fields": [
                     {
@@ -73,7 +73,7 @@
         {
             "dialect": {},
             "name": "il_dwm_duff_litter_fuel",
-            "path": "IL_DWM_DUFF_LITTER_FUEL.csv",
+            "path": "IL/IL_DWM_DUFF_LITTER_FUEL.csv",
             "schema": {
                 "fields": [
                     {
@@ -197,7 +197,7 @@
         {
             "dialect": {},
             "name": "il_dwm_transect_segment",
-            "path": "IL_DWM_TRANSECT_SEGMENT.csv",
+            "path": "IL/IL_DWM_TRANSECT_SEGMENT.csv",
             "schema": {
                 "fields": [
                     {
@@ -317,7 +317,7 @@
         {
             "dialect": {},
             "name": "il_cond",
-            "path": "IL_COND.csv",
+            "path": "IL/IL_COND.csv",
             "schema": {
                 "fields": [
                     {
@@ -944,7 +944,7 @@
         {
             "dialect": {},
             "name": "il_subplot",
-            "path": "IL_SUBPLOT.csv",
+            "path": "IL/IL_SUBPLOT.csv",
             "schema": {
                 "fields": [
                     {
@@ -1164,7 +1164,7 @@
         {
             "dialect": {},
             "name": "il_veg_subplot_spp",
-            "path": "IL_VEG_SUBPLOT_SPP.csv",
+            "path": "IL/IL_VEG_SUBPLOT_SPP.csv",
             "schema": {
                 "fields": [
                     {
@@ -1290,7 +1290,7 @@
         {
             "dialect": {},
             "name": "il_dwm_visit",
-            "path": "IL_DWM_VISIT.csv",
+            "path": "IL/IL_DWM_VISIT.csv",
             "schema": {
                 "fields": [
                     {
@@ -1418,7 +1418,7 @@
         {
             "dialect": {},
             "name": "il_subplot_regen",
-            "path": "IL_SUBPLOT_REGEN.csv",
+            "path": "IL/IL_SUBPLOT_REGEN.csv",
             "schema": {
                 "fields": [
                     {
@@ -1518,7 +1518,7 @@
         {
             "dialect": {},
             "name": "il_plotsnap",
-            "path": "IL_PLOTSNAP.csv",
+            "path": "IL/IL_PLOTSNAP.csv",
             "schema": {
                 "fields": [
                     {
@@ -1930,7 +1930,7 @@
         {
             "dialect": {},
             "name": "il_lichen_lab",
-            "path": "IL_LICHEN_LAB.csv",
+            "path": "IL/IL_LICHEN_LAB.csv",
             "schema": {
                 "fields": [
                     {
@@ -2008,7 +2008,7 @@
         {
             "dialect": {},
             "name": "il_sitetree",
-            "path": "IL_SITETREE.csv",
+            "path": "IL/IL_SITETREE.csv",
             "schema": {
                 "fields": [
                     {
@@ -2204,7 +2204,7 @@
         {
             "dialect": {},
             "name": "il_ozone_validation",
-            "path": "IL_OZONE_VALIDATION.csv",
+            "path": "IL/IL_OZONE_VALIDATION.csv",
             "schema": {
                 "fields": [
                     {
@@ -2300,7 +2300,7 @@
         {
             "dialect": {},
             "name": "il_p2veg_subplot_spp",
-            "path": "IL_P2VEG_SUBPLOT_SPP.csv",
+            "path": "IL/IL_P2VEG_SUBPLOT_SPP.csv",
             "schema": {
                 "fields": [
                     {
@@ -2402,7 +2402,7 @@
         {
             "dialect": {},
             "name": "il_veg_subplot",
-            "path": "IL_VEG_SUBPLOT.csv",
+            "path": "IL/IL_VEG_SUBPLOT.csv",
             "schema": {
                 "fields": [
                     {
@@ -2554,7 +2554,7 @@
         {
             "dialect": {},
             "name": "il_ozone_biosite_summary",
-            "path": "IL_OZONE_BIOSITE_SUMMARY.csv",
+            "path": "IL/IL_OZONE_BIOSITE_SUMMARY.csv",
             "schema": {
                 "fields": [
                     {
@@ -2675,7 +2675,7 @@
         {
             "dialect": {},
             "name": "il_soils_erosion",
-            "path": "IL_SOILS_EROSION.csv",
+            "path": "IL/IL_SOILS_EROSION.csv",
             "schema": {
                 "fields": [
                     {
@@ -2767,7 +2767,7 @@
         {
             "dialect": {},
             "name": "il_dwm_coarse_woody_debris",
-            "path": "IL_DWM_COARSE_WOODY_DEBRIS.csv",
+            "path": "IL/IL_DWM_COARSE_WOODY_DEBRIS.csv",
             "schema": {
                 "fields": [
                     {
@@ -3017,7 +3017,7 @@
         {
             "dialect": {},
             "name": "il_soils_sample_loc",
-            "path": "IL_SOILS_SAMPLE_LOC.csv",
+            "path": "IL/IL_SOILS_SAMPLE_LOC.csv",
             "schema": {
                 "fields": [
                     {
@@ -3149,7 +3149,7 @@
         {
             "dialect": {},
             "name": "il_subp_cond_chng_mtrx",
-            "path": "IL_SUBP_COND_CHNG_MTRX.csv",
+            "path": "IL/IL_SUBP_COND_CHNG_MTRX.csv",
             "schema": {
                 "fields": [
                     {
@@ -3221,7 +3221,7 @@
         {
             "dialect": {},
             "name": "il_survey",
-            "path": "IL_SURVEY.csv",
+            "path": "IL/IL_SURVEY.csv",
             "schema": {
                 "fields": [
                     {
@@ -3306,7 +3306,7 @@
         {
             "dialect": {},
             "name": "il_veg_quadrat",
-            "path": "IL_VEG_QUADRAT.csv",
+            "path": "IL/IL_VEG_QUADRAT.csv",
             "schema": {
                 "fields": [
                     {
@@ -3398,7 +3398,7 @@
         {
             "dialect": {},
             "name": "il_subp_cond",
-            "path": "IL_SUBP_COND.csv",
+            "path": "IL/IL_SUBP_COND.csv",
             "schema": {
                 "fields": [
                     {
@@ -3498,7 +3498,7 @@
         {
             "dialect": {},
             "name": "il_tree_grm_midpt",
-            "path": "IL_TREE_GRM_MIDPT.csv",
+            "path": "IL/IL_TREE_GRM_MIDPT.csv",
             "schema": {
                 "fields": [
                     {
@@ -3645,7 +3645,7 @@
         {
             "dialect": {},
             "name": "il_lichen_visit",
-            "path": "IL_LICHEN_VISIT.csv",
+            "path": "IL/IL_LICHEN_VISIT.csv",
             "schema": {
                 "fields": [
                     {
@@ -3809,7 +3809,7 @@
         {
             "dialect": {},
             "name": "il_dwm_fine_woody_debris",
-            "path": "IL_DWM_FINE_WOODY_DEBRIS.csv",
+            "path": "IL/IL_DWM_FINE_WOODY_DEBRIS.csv",
             "schema": {
                 "fields": [
                     {
@@ -3966,7 +3966,7 @@
         {
             "dialect": {},
             "name": "il_ozone_plot",
-            "path": "IL_OZONE_PLOT.csv",
+            "path": "IL/IL_OZONE_PLOT.csv",
             "schema": {
                 "fields": [
                     {
@@ -4082,7 +4082,7 @@
         {
             "dialect": {},
             "name": "il_seedling_regen",
-            "path": "IL_SEEDLING_REGEN.csv",
+            "path": "IL/IL_SEEDLING_REGEN.csv",
             "schema": {
                 "fields": [
                     {
@@ -4194,7 +4194,7 @@
         {
             "dialect": {},
             "name": "il_grnd_cvr",
-            "path": "IL_GRND_CVR.csv",
+            "path": "IL/IL_GRND_CVR.csv",
             "schema": {
                 "fields": [
                     {
@@ -4284,7 +4284,7 @@
         {
             "dialect": {},
             "name": "il_ozone_visit",
-            "path": "IL_OZONE_VISIT.csv",
+            "path": "IL/IL_OZONE_VISIT.csv",
             "schema": {
                 "fields": [
                     {
@@ -4408,7 +4408,7 @@
         {
             "dialect": {},
             "name": "il_tree_grm_component",
-            "path": "IL_TREE_GRM_COMPONENT.csv",
+            "path": "IL/IL_TREE_GRM_COMPONENT.csv",
             "schema": {
                 "fields": [
                     {
@@ -4811,7 +4811,7 @@
         {
             "dialect": {},
             "name": "il_cond_dwm_calc",
-            "path": "IL_COND_DWM_CALC.csv",
+            "path": "IL/IL_COND_DWM_CALC.csv",
             "schema": {
                 "fields": [
                     {
@@ -5320,7 +5320,7 @@
         {
             "dialect": {},
             "name": "il_tree_grm_begin",
-            "path": "IL_TREE_GRM_BEGIN.csv",
+            "path": "IL/IL_TREE_GRM_BEGIN.csv",
             "schema": {
                 "fields": [
                     {
@@ -5465,7 +5465,7 @@
         {
             "dialect": {},
             "name": "il_veg_visit",
-            "path": "IL_VEG_VISIT.csv",
+            "path": "IL/IL_VEG_VISIT.csv",
             "schema": {
                 "fields": [
                     {
@@ -5562,7 +5562,7 @@
         {
             "dialect": {},
             "name": "il_pop_eval_typ",
-            "path": "IL_POP_EVAL_TYP.csv",
+            "path": "IL/IL_POP_EVAL_TYP.csv",
             "schema": {
                 "fields": [
                     {
@@ -5615,7 +5615,7 @@
         {
             "dialect": {},
             "name": "il_pop_stratum",
-            "path": "IL_POP_STRATUM.csv",
+            "path": "IL/IL_POP_STRATUM.csv",
             "schema": {
                 "fields": [
                     {
@@ -5754,7 +5754,7 @@
         {
             "dialect": {},
             "name": "il_tree_grm_threshold",
-            "path": "IL_TREE_GRM_THRESHOLD.csv",
+            "path": "IL/IL_TREE_GRM_THRESHOLD.csv",
             "schema": {
                 "fields": [
                     {
@@ -5914,7 +5914,7 @@
         {
             "dialect": {},
             "name": "il_boundary",
-            "path": "IL_BOUNDARY.csv",
+            "path": "IL/IL_BOUNDARY.csv",
             "schema": {
                 "fields": [
                     {
@@ -6018,7 +6018,7 @@
         {
             "dialect": {},
             "name": "il_plot",
-            "path": "IL_PLOT.csv",
+            "path": "IL/IL_PLOT.csv",
             "schema": {
                 "fields": [
                     {
@@ -6320,7 +6320,7 @@
         {
             "dialect": {},
             "name": "il_tree_regional_biomass",
-            "path": "IL_TREE_REGIONAL_BIOMASS.csv",
+            "path": "IL/IL_TREE_REGIONAL_BIOMASS.csv",
             "schema": {
                 "fields": [
                     {
@@ -6376,7 +6376,7 @@
         {
             "dialect": {},
             "name": "il_soils_visit",
-            "path": "IL_SOILS_VISIT.csv",
+            "path": "IL/IL_SOILS_VISIT.csv",
             "schema": {
                 "fields": [
                     {
@@ -6452,7 +6452,7 @@
         {
             "dialect": {},
             "name": "il_pop_estn_unit",
-            "path": "IL_POP_ESTN_UNIT.csv",
+            "path": "IL/IL_POP_ESTN_UNIT.csv",
             "schema": {
                 "fields": [
                     {
@@ -6543,7 +6543,7 @@
         {
             "dialect": {},
             "name": "il_tree_woodland_stems",
-            "path": "IL_TREE_WOODLAND_STEMS.csv",
+            "path": "IL/IL_TREE_WOODLAND_STEMS.csv",
             "schema": {
                 "fields": [
                     {
@@ -6637,7 +6637,7 @@
         {
             "dialect": {},
             "name": "il_dwm_microplot_fuel",
-            "path": "IL_DWM_MICROPLOT_FUEL.csv",
+            "path": "IL/IL_DWM_MICROPLOT_FUEL.csv",
             "schema": {
                 "fields": [
                     {
@@ -6745,7 +6745,7 @@
         {
             "dialect": {},
             "name": "il_pop_eval_attribute",
-            "path": "IL_POP_EVAL_ATTRIBUTE.csv",
+            "path": "IL/IL_POP_EVAL_ATTRIBUTE.csv",
             "schema": {
                 "fields": [
                     {
@@ -6796,7 +6796,7 @@
         {
             "dialect": {},
             "name": "il_veg_plot_species",
-            "path": "IL_VEG_PLOT_SPECIES.csv",
+            "path": "IL/IL_VEG_PLOT_SPECIES.csv",
             "schema": {
                 "fields": [
                     {
@@ -6896,7 +6896,7 @@
         {
             "dialect": {},
             "name": "il_pop_plot_stratum_assgn",
-            "path": "IL_POP_PLOT_STRATUM_ASSGN.csv",
+            "path": "IL/IL_POP_PLOT_STRATUM_ASSGN.csv",
             "schema": {
                 "fields": [
                     {
@@ -6980,7 +6980,7 @@
         {
             "dialect": {},
             "name": "il_plotgeom",
-            "path": "IL_PLOTGEOM.csv",
+            "path": "IL/IL_PLOTGEOM.csv",
             "schema": {
                 "fields": [
                     {
@@ -7099,7 +7099,7 @@
         {
             "dialect": {},
             "name": "il_invasive_subplot_spp",
-            "path": "IL_INVASIVE_SUBPLOT_SPP.csv",
+            "path": "IL/IL_INVASIVE_SUBPLOT_SPP.csv",
             "schema": {
                 "fields": [
                     {
@@ -7197,7 +7197,7 @@
         {
             "dialect": {},
             "name": "il_dwm_residual_pile",
-            "path": "IL_DWM_RESIDUAL_PILE.csv",
+            "path": "IL/IL_DWM_RESIDUAL_PILE.csv",
             "schema": {
                 "fields": [
                     {
@@ -7365,7 +7365,7 @@
         {
             "dialect": {},
             "name": "il_pop_eval_grp",
-            "path": "IL_POP_EVAL_GRP.csv",
+            "path": "IL/IL_POP_EVAL_GRP.csv",
             "schema": {
                 "fields": [
                     {
@@ -7427,7 +7427,7 @@
         {
             "dialect": {},
             "name": "il_seedling",
-            "path": "IL_SEEDLING.csv",
+            "path": "IL/IL_SEEDLING.csv",
             "schema": {
                 "fields": [
                     {
@@ -7567,7 +7567,7 @@
         {
             "dialect": {},
             "name": "il_tree_grm_estn",
-            "path": "IL_TREE_GRM_ESTN.csv",
+            "path": "IL/IL_TREE_GRM_ESTN.csv",
             "schema": {
                 "fields": [
                     {
@@ -7784,7 +7784,7 @@
         {
             "dialect": {},
             "name": "il_plot_regen",
-            "path": "IL_PLOT_REGEN.csv",
+            "path": "IL/IL_PLOT_REGEN.csv",
             "schema": {
                 "fields": [
                     {
@@ -7859,7 +7859,7 @@
         {
             "dialect": {},
             "name": "il_lichen_plot_summary",
-            "path": "IL_LICHEN_PLOT_SUMMARY.csv",
+            "path": "IL/IL_LICHEN_PLOT_SUMMARY.csv",
             "schema": {
                 "fields": [
                     {
@@ -7937,7 +7937,7 @@
         {
             "dialect": {},
             "name": "il_p2veg_subp_structure",
-            "path": "IL_P2VEG_SUBP_STRUCTURE.csv",
+            "path": "IL/IL_P2VEG_SUBP_STRUCTURE.csv",
             "schema": {
                 "fields": [
                     {
@@ -8029,7 +8029,7 @@
         {
             "dialect": {},
             "name": "il_tree",
-            "path": "IL_TREE.csv",
+            "path": "IL/IL_TREE.csv",
             "schema": {
                 "fields": [
                     {
@@ -8873,7 +8873,7 @@
         {
             "dialect": {},
             "name": "il_ozone_plot_summary",
-            "path": "IL_OZONE_PLOT_SUMMARY.csv",
+            "path": "IL/IL_OZONE_PLOT_SUMMARY.csv",
             "schema": {
                 "fields": [
                     {
@@ -8995,7 +8995,7 @@
         {
             "dialect": {},
             "name": "il_soils_lab",
-            "path": "IL_SOILS_LAB.csv",
+            "path": "IL/IL_SOILS_LAB.csv",
             "schema": {
                 "fields": [
                     {
@@ -9216,7 +9216,7 @@
         {
             "dialect": {},
             "name": "il_pop_eval",
-            "path": "IL_POP_EVAL.csv",
+            "path": "IL/IL_POP_EVAL.csv",
             "schema": {
                 "fields": [
                     {
@@ -9319,7 +9319,7 @@
         {
             "dialect": {},
             "name": "il_ozone_species_summary",
-            "path": "IL_OZONE_SPECIES_SUMMARY.csv",
+            "path": "IL/IL_OZONE_SPECIES_SUMMARY.csv",
             "schema": {
                 "fields": [
                     {

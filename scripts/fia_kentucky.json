@@ -17,7 +17,7 @@
         {
             "dialect": {},
             "name": "ky_lichen_plot_summary",
-            "path": "KY_LICHEN_PLOT_SUMMARY.csv",
+            "path": "KY/KY_LICHEN_PLOT_SUMMARY.csv",
             "schema": {
                 "fields": [
                     {
@@ -95,7 +95,7 @@
         {
             "dialect": {},
             "name": "ky_county",
-            "path": "KY_COUNTY.csv",
+            "path": "KY/KY_COUNTY.csv",
             "schema": {
                 "fields": [
                     {
@@ -152,7 +152,7 @@
         {
             "dialect": {},
             "name": "ky_soils_visit",
-            "path": "KY_SOILS_VISIT.csv",
+            "path": "KY/KY_SOILS_VISIT.csv",
             "schema": {
                 "fields": [
                     {
@@ -228,7 +228,7 @@
         {
             "dialect": {},
             "name": "ky_dwm_duff_litter_fuel",
-            "path": "KY_DWM_DUFF_LITTER_FUEL.csv",
+            "path": "KY/KY_DWM_DUFF_LITTER_FUEL.csv",
             "schema": {
                 "fields": [
                     {
@@ -352,7 +352,7 @@
         {
             "dialect": {},
             "name": "ky_plotgeom",
-            "path": "KY_PLOTGEOM.csv",
+            "path": "KY/KY_PLOTGEOM.csv",
             "schema": {
                 "fields": [
                     {
@@ -471,7 +471,7 @@
         {
             "dialect": {},
             "name": "ky_dwm_transect_segment",
-            "path": "KY_DWM_TRANSECT_SEGMENT.csv",
+            "path": "KY/KY_DWM_TRANSECT_SEGMENT.csv",
             "schema": {
                 "fields": [
                     {
@@ -591,7 +591,7 @@
         {
             "dialect": {},
             "name": "ky_veg_visit",
-            "path": "KY_VEG_VISIT.csv",
+            "path": "KY/KY_VEG_VISIT.csv",
             "schema": {
                 "fields": [
                     {
@@ -685,7 +685,7 @@
         {
             "dialect": {},
             "name": "ky_soils_sample_loc",
-            "path": "KY_SOILS_SAMPLE_LOC.csv",
+            "path": "KY/KY_SOILS_SAMPLE_LOC.csv",
             "schema": {
                 "fields": [
                     {
@@ -816,7 +816,7 @@
         {
             "dialect": {},
             "name": "ky_cond_dwm_calc",
-            "path": "KY_COND_DWM_CALC.csv",
+            "path": "KY/KY_COND_DWM_CALC.csv",
             "schema": {
                 "fields": [
                     {
@@ -1332,7 +1332,7 @@
         {
             "dialect": {},
             "name": "ky_dwm_coarse_woody_debris",
-            "path": "KY_DWM_COARSE_WOODY_DEBRIS.csv",
+            "path": "KY/KY_DWM_COARSE_WOODY_DEBRIS.csv",
             "schema": {
                 "fields": [
                     {
@@ -1582,7 +1582,7 @@
         {
             "dialect": {},
             "name": "ky_p2veg_subplot_spp",
-            "path": "KY_P2VEG_SUBPLOT_SPP.csv",
+            "path": "KY/KY_P2VEG_SUBPLOT_SPP.csv",
             "schema": {
                 "fields": [
                     {
@@ -1684,7 +1684,7 @@
         {
             "dialect": {},
             "name": "ky_ozone_biosite_summary",
-            "path": "KY_OZONE_BIOSITE_SUMMARY.csv",
+            "path": "KY/KY_OZONE_BIOSITE_SUMMARY.csv",
             "schema": {
                 "fields": [
                     {
@@ -1802,7 +1802,7 @@
         {
             "dialect": {},
             "name": "ky_lichen_lab",
-            "path": "KY_LICHEN_LAB.csv",
+            "path": "KY/KY_LICHEN_LAB.csv",
             "schema": {
                 "fields": [
                     {
@@ -1880,7 +1880,7 @@
         {
             "dialect": {},
             "name": "ky_plot",
-            "path": "KY_PLOT.csv",
+            "path": "KY/KY_PLOT.csv",
             "schema": {
                 "fields": [
                     {
@@ -2182,7 +2182,7 @@
         {
             "dialect": {},
             "name": "ky_subp_cond",
-            "path": "KY_SUBP_COND.csv",
+            "path": "KY/KY_SUBP_COND.csv",
             "schema": {
                 "fields": [
                     {
@@ -2283,7 +2283,7 @@
         {
             "dialect": {},
             "name": "ky_boundary",
-            "path": "KY_BOUNDARY.csv",
+            "path": "KY/KY_BOUNDARY.csv",
             "schema": {
                 "fields": [
                     {
@@ -2387,7 +2387,7 @@
         {
             "dialect": {},
             "name": "ky_subplot_regen",
-            "path": "KY_SUBPLOT_REGEN.csv",
+            "path": "KY/KY_SUBPLOT_REGEN.csv",
             "schema": {
                 "fields": [
                     {
@@ -2485,7 +2485,7 @@
         {
             "dialect": {},
             "name": "ky_pop_eval",
-            "path": "KY_POP_EVAL.csv",
+            "path": "KY/KY_POP_EVAL.csv",
             "schema": {
                 "fields": [
                     {
@@ -2589,7 +2589,7 @@
         {
             "dialect": {},
             "name": "ky_tree",
-            "path": "KY_TREE.csv",
+            "path": "KY/KY_TREE.csv",
             "schema": {
                 "fields": [
                     {
@@ -3436,7 +3436,7 @@
         {
             "dialect": {},
             "name": "ky_dwm_visit",
-            "path": "KY_DWM_VISIT.csv",
+            "path": "KY/KY_DWM_VISIT.csv",
             "schema": {
                 "fields": [
                     {
@@ -3564,7 +3564,7 @@
         {
             "dialect": {},
             "name": "ky_soils_erosion",
-            "path": "KY_SOILS_EROSION.csv",
+            "path": "KY/KY_SOILS_EROSION.csv",
             "schema": {
                 "fields": [
                     {
@@ -3655,7 +3655,7 @@
         {
             "dialect": {},
             "name": "ky_survey",
-            "path": "KY_SURVEY.csv",
+            "path": "KY/KY_SURVEY.csv",
             "schema": {
                 "fields": [
                     {
@@ -3740,7 +3740,7 @@
         {
             "dialect": {},
             "name": "ky_ozone_plot",
-            "path": "KY_OZONE_PLOT.csv",
+            "path": "KY/KY_OZONE_PLOT.csv",
             "schema": {
                 "fields": [
                     {
@@ -3854,7 +3854,7 @@
         {
             "dialect": {},
             "name": "ky_ozone_validation",
-            "path": "KY_OZONE_VALIDATION.csv",
+            "path": "KY/KY_OZONE_VALIDATION.csv",
             "schema": {
                 "fields": [
                     {
@@ -3948,7 +3948,7 @@
         {
             "dialect": {},
             "name": "ky_lichen_visit",
-            "path": "KY_LICHEN_VISIT.csv",
+            "path": "KY/KY_LICHEN_VISIT.csv",
             "schema": {
                 "fields": [
                     {
@@ -4110,7 +4110,7 @@
         {
             "dialect": {},
             "name": "ky_pop_eval_typ",
-            "path": "KY_POP_EVAL_TYP.csv",
+            "path": "KY/KY_POP_EVAL_TYP.csv",
             "schema": {
                 "fields": [
                     {
@@ -4163,7 +4163,7 @@
         {
             "dialect": {},
             "name": "ky_dwm_fine_woody_debris",
-            "path": "KY_DWM_FINE_WOODY_DEBRIS.csv",
+            "path": "KY/KY_DWM_FINE_WOODY_DEBRIS.csv",
             "schema": {
                 "fields": [
                     {
@@ -4320,7 +4320,7 @@
         {
             "dialect": {},
             "name": "ky_seedling",
-            "path": "KY_SEEDLING.csv",
+            "path": "KY/KY_SEEDLING.csv",
             "schema": {
                 "fields": [
                     {
@@ -4460,7 +4460,7 @@
         {
             "dialect": {},
             "name": "ky_tree_woodland_stems",
-            "path": "KY_TREE_WOODLAND_STEMS.csv",
+            "path": "KY/KY_TREE_WOODLAND_STEMS.csv",
             "schema": {
                 "fields": [
                     {
@@ -4554,7 +4554,7 @@
         {
             "dialect": {},
             "name": "ky_tree_grm_component",
-            "path": "KY_TREE_GRM_COMPONENT.csv",
+            "path": "KY/KY_TREE_GRM_COMPONENT.csv",
             "schema": {
                 "fields": [
                     {
@@ -4960,7 +4960,7 @@
         {
             "dialect": {},
             "name": "ky_sitetree",
-            "path": "KY_SITETREE.csv",
+            "path": "KY/KY_SITETREE.csv",
             "schema": {
                 "fields": [
                     {
@@ -5156,7 +5156,7 @@
         {
             "dialect": {},
             "name": "ky_tree_grm_threshold",
-            "path": "KY_TREE_GRM_THRESHOLD.csv",
+            "path": "KY/KY_TREE_GRM_THRESHOLD.csv",
             "schema": {
                 "fields": [
                     {
@@ -5314,7 +5314,7 @@
         {
             "dialect": {},
             "name": "ky_veg_subplot_spp",
-            "path": "KY_VEG_SUBPLOT_SPP.csv",
+            "path": "KY/KY_VEG_SUBPLOT_SPP.csv",
             "schema": {
                 "fields": [
                     {
@@ -5436,7 +5436,7 @@
         {
             "dialect": {},
             "name": "ky_dwm_microplot_fuel",
-            "path": "KY_DWM_MICROPLOT_FUEL.csv",
+            "path": "KY/KY_DWM_MICROPLOT_FUEL.csv",
             "schema": {
                 "fields": [
                     {
@@ -5544,7 +5544,7 @@
         {
             "dialect": {},
             "name": "ky_pop_eval_attribute",
-            "path": "KY_POP_EVAL_ATTRIBUTE.csv",
+            "path": "KY/KY_POP_EVAL_ATTRIBUTE.csv",
             "schema": {
                 "fields": [
                     {
@@ -5596,7 +5596,7 @@
         {
             "dialect": {},
             "name": "ky_subplot",
-            "path": "KY_SUBPLOT.csv",
+            "path": "KY/KY_SUBPLOT.csv",
             "schema": {
                 "fields": [
                     {
@@ -5817,7 +5817,7 @@
         {
             "dialect": {},
             "name": "ky_tree_regional_biomass",
-            "path": "KY_TREE_REGIONAL_BIOMASS.csv",
+            "path": "KY/KY_TREE_REGIONAL_BIOMASS.csv",
             "schema": {
                 "fields": [
                     {
@@ -5873,7 +5873,7 @@
         {
             "dialect": {},
             "name": "ky_plotsnap",
-            "path": "KY_PLOTSNAP.csv",
+            "path": "KY/KY_PLOTSNAP.csv",
             "schema": {
                 "fields": [
                     {
@@ -6281,7 +6281,7 @@
         {
             "dialect": {},
             "name": "ky_soils_lab",
-            "path": "KY_SOILS_LAB.csv",
+            "path": "KY/KY_SOILS_LAB.csv",
             "schema": {
                 "fields": [
                     {
@@ -6502,7 +6502,7 @@
         {
             "dialect": {},
             "name": "ky_tree_grm_midpt",
-            "path": "KY_TREE_GRM_MIDPT.csv",
+            "path": "KY/KY_TREE_GRM_MIDPT.csv",
             "schema": {
                 "fields": [
                     {
@@ -6649,7 +6649,7 @@
         {
             "dialect": {},
             "name": "ky_seedling_regen",
-            "path": "KY_SEEDLING_REGEN.csv",
+            "path": "KY/KY_SEEDLING_REGEN.csv",
             "schema": {
                 "fields": [
                     {
@@ -6759,7 +6759,7 @@
         {
             "dialect": {},
             "name": "ky_veg_subplot",
-            "path": "KY_VEG_SUBPLOT.csv",
+            "path": "KY/KY_VEG_SUBPLOT.csv",
             "schema": {
                 "fields": [
                     {
@@ -6909,7 +6909,7 @@
         {
             "dialect": {},
             "name": "ky_subp_cond_chng_mtrx",
-            "path": "KY_SUBP_COND_CHNG_MTRX.csv",
+            "path": "KY/KY_SUBP_COND_CHNG_MTRX.csv",
             "schema": {
                 "fields": [
                     {
@@ -6981,7 +6981,7 @@
         {
             "dialect": {},
             "name": "ky_invasive_subplot_spp",
-            "path": "KY_INVASIVE_SUBPLOT_SPP.csv",
+            "path": "KY/KY_INVASIVE_SUBPLOT_SPP.csv",
             "schema": {
                 "fields": [
                     {
@@ -7079,7 +7079,7 @@
         {
             "dialect": {},
             "name": "ky_tree_grm_begin",
-            "path": "KY_TREE_GRM_BEGIN.csv",
+            "path": "KY/KY_TREE_GRM_BEGIN.csv",
             "schema": {
                 "fields": [
                     {
@@ -7224,7 +7224,7 @@
         {
             "dialect": {},
             "name": "ky_tree_grm_estn",
-            "path": "KY_TREE_GRM_ESTN.csv",
+            "path": "KY/KY_TREE_GRM_ESTN.csv",
             "schema": {
                 "fields": [
                     {
@@ -7442,7 +7442,7 @@
         {
             "dialect": {},
             "name": "ky_cond",
-            "path": "KY_COND.csv",
+            "path": "KY/KY_COND.csv",
             "schema": {
                 "fields": [
                     {
@@ -8069,7 +8069,7 @@
         {
             "dialect": {},
             "name": "ky_pop_eval_grp",
-            "path": "KY_POP_EVAL_GRP.csv",
+            "path": "KY/KY_POP_EVAL_GRP.csv",
             "schema": {
                 "fields": [
                     {
@@ -8131,7 +8131,7 @@
         {
             "dialect": {},
             "name": "ky_veg_plot_species",
-            "path": "KY_VEG_PLOT_SPECIES.csv",
+            "path": "KY/KY_VEG_PLOT_SPECIES.csv",
             "schema": {
                 "fields": [
                     {
@@ -8225,7 +8225,7 @@
         {
             "dialect": {},
             "name": "ky_veg_quadrat",
-            "path": "KY_VEG_QUADRAT.csv",
+            "path": "KY/KY_VEG_QUADRAT.csv",
             "schema": {
                 "fields": [
                     {
@@ -8315,7 +8315,7 @@
         {
             "dialect": {},
             "name": "ky_dwm_residual_pile",
-            "path": "KY_DWM_RESIDUAL_PILE.csv",
+            "path": "KY/KY_DWM_RESIDUAL_PILE.csv",
             "schema": {
                 "fields": [
                     {
@@ -8481,7 +8481,7 @@
         {
             "dialect": {},
             "name": "ky_grnd_cvr",
-            "path": "KY_GRND_CVR.csv",
+            "path": "KY/KY_GRND_CVR.csv",
             "schema": {
                 "fields": [
                     {
@@ -8571,7 +8571,7 @@
         {
             "dialect": {},
             "name": "ky_plot_regen",
-            "path": "KY_PLOT_REGEN.csv",
+            "path": "KY/KY_PLOT_REGEN.csv",
             "schema": {
                 "fields": [
                     {
@@ -8645,7 +8645,7 @@
         {
             "dialect": {},
             "name": "ky_ozone_plot_summary",
-            "path": "KY_OZONE_PLOT_SUMMARY.csv",
+            "path": "KY/KY_OZONE_PLOT_SUMMARY.csv",
             "schema": {
                 "fields": [
                     {
@@ -8763,7 +8763,7 @@
         {
             "dialect": {},
             "name": "ky_p2veg_subp_structure",
-            "path": "KY_P2VEG_SUBP_STRUCTURE.csv",
+            "path": "KY/KY_P2VEG_SUBP_STRUCTURE.csv",
             "schema": {
                 "fields": [
                     {
@@ -8855,7 +8855,7 @@
         {
             "dialect": {},
             "name": "ky_pop_plot_stratum_assgn",
-            "path": "KY_POP_PLOT_STRATUM_ASSGN.csv",
+            "path": "KY/KY_POP_PLOT_STRATUM_ASSGN.csv",
             "schema": {
                 "fields": [
                     {
@@ -8938,7 +8938,7 @@
         {
             "dialect": {},
             "name": "ky_pop_stratum",
-            "path": "KY_POP_STRATUM.csv",
+            "path": "KY/KY_POP_STRATUM.csv",
             "schema": {
                 "fields": [
                     {
@@ -9076,7 +9076,7 @@
         {
             "dialect": {},
             "name": "ky_ozone_species_summary",
-            "path": "KY_OZONE_SPECIES_SUMMARY.csv",
+            "path": "KY/KY_OZONE_SPECIES_SUMMARY.csv",
             "schema": {
                 "fields": [
                     {
@@ -9226,7 +9226,7 @@
         {
             "dialect": {},
             "name": "ky_ozone_visit",
-            "path": "KY_OZONE_VISIT.csv",
+            "path": "KY/KY_OZONE_VISIT.csv",
             "schema": {
                 "fields": [
                     {
@@ -9348,7 +9348,7 @@
         {
             "dialect": {},
             "name": "ky_pop_estn_unit",
-            "path": "KY_POP_ESTN_UNIT.csv",
+            "path": "KY/KY_POP_ESTN_UNIT.csv",
             "schema": {
                 "fields": [
                     {

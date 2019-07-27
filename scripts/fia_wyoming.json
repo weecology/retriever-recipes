@@ -17,7 +17,7 @@
         {
             "dialect": {},
             "name": "wy_veg_subplot_spp",
-            "path": "WY_VEG_SUBPLOT_SPP.csv",
+            "path": "WY/WY_VEG_SUBPLOT_SPP.csv",
             "schema": {
                 "fields": [
                     {
@@ -139,7 +139,7 @@
         {
             "dialect": {},
             "name": "wy_cond",
-            "path": "WY_COND.csv",
+            "path": "WY/WY_COND.csv",
             "schema": {
                 "fields": [
                     {
@@ -759,7 +759,7 @@
         {
             "dialect": {},
             "name": "wy_veg_quadrat",
-            "path": "WY_VEG_QUADRAT.csv",
+            "path": "WY/WY_VEG_QUADRAT.csv",
             "schema": {
                 "fields": [
                     {
@@ -849,7 +849,7 @@
         {
             "dialect": {},
             "name": "wy_ozone_biosite_summary",
-            "path": "WY_OZONE_BIOSITE_SUMMARY.csv",
+            "path": "WY/WY_OZONE_BIOSITE_SUMMARY.csv",
             "schema": {
                 "fields": [
                     {
@@ -967,7 +967,7 @@
         {
             "dialect": {},
             "name": "wy_veg_plot_species",
-            "path": "WY_VEG_PLOT_SPECIES.csv",
+            "path": "WY/WY_VEG_PLOT_SPECIES.csv",
             "schema": {
                 "fields": [
                     {
@@ -1061,7 +1061,7 @@
         {
             "dialect": {},
             "name": "wy_pop_eval",
-            "path": "WY_POP_EVAL.csv",
+            "path": "WY/WY_POP_EVAL.csv",
             "schema": {
                 "fields": [
                     {
@@ -1164,7 +1164,7 @@
         {
             "dialect": {},
             "name": "wy_dwm_coarse_woody_debris",
-            "path": "WY_DWM_COARSE_WOODY_DEBRIS.csv",
+            "path": "WY/WY_DWM_COARSE_WOODY_DEBRIS.csv",
             "schema": {
                 "fields": [
                     {
@@ -1406,7 +1406,7 @@
         {
             "dialect": {},
             "name": "wy_dwm_residual_pile",
-            "path": "WY_DWM_RESIDUAL_PILE.csv",
+            "path": "WY/WY_DWM_RESIDUAL_PILE.csv",
             "schema": {
                 "fields": [
                     {
@@ -1570,7 +1570,7 @@
         {
             "dialect": {},
             "name": "wy_lichen_visit",
-            "path": "WY_LICHEN_VISIT.csv",
+            "path": "WY/WY_LICHEN_VISIT.csv",
             "schema": {
                 "fields": [
                     {
@@ -1732,7 +1732,7 @@
         {
             "dialect": {},
             "name": "wy_soils_erosion",
-            "path": "WY_SOILS_EROSION.csv",
+            "path": "WY/WY_SOILS_EROSION.csv",
             "schema": {
                 "fields": [
                     {
@@ -1823,7 +1823,7 @@
         {
             "dialect": {},
             "name": "wy_seedling",
-            "path": "WY_SEEDLING.csv",
+            "path": "WY/WY_SEEDLING.csv",
             "schema": {
                 "fields": [
                     {
@@ -1963,7 +1963,7 @@
         {
             "dialect": {},
             "name": "wy_survey",
-            "path": "WY_SURVEY.csv",
+            "path": "WY/WY_SURVEY.csv",
             "schema": {
                 "fields": [
                     {
@@ -2048,7 +2048,7 @@
         {
             "dialect": {},
             "name": "wy_ozone_plot",
-            "path": "WY_OZONE_PLOT.csv",
+            "path": "WY/WY_OZONE_PLOT.csv",
             "schema": {
                 "fields": [
                     {
@@ -2162,7 +2162,7 @@
         {
             "dialect": {},
             "name": "wy_pop_stratum",
-            "path": "WY_POP_STRATUM.csv",
+            "path": "WY/WY_POP_STRATUM.csv",
             "schema": {
                 "fields": [
                     {
@@ -2299,7 +2299,7 @@
         {
             "dialect": {},
             "name": "wy_ozone_plot_summary",
-            "path": "WY_OZONE_PLOT_SUMMARY.csv",
+            "path": "WY/WY_OZONE_PLOT_SUMMARY.csv",
             "schema": {
                 "fields": [
                     {
@@ -2417,7 +2417,7 @@
         {
             "dialect": {},
             "name": "wy_subplot_regen",
-            "path": "WY_SUBPLOT_REGEN.csv",
+            "path": "WY/WY_SUBPLOT_REGEN.csv",
             "schema": {
                 "fields": [
                     {
@@ -2515,7 +2515,7 @@
         {
             "dialect": {},
             "name": "wy_dwm_duff_litter_fuel",
-            "path": "WY_DWM_DUFF_LITTER_FUEL.csv",
+            "path": "WY/WY_DWM_DUFF_LITTER_FUEL.csv",
             "schema": {
                 "fields": [
                     {
@@ -2639,7 +2639,7 @@
         {
             "dialect": {},
             "name": "wy_dwm_transect_segment",
-            "path": "WY_DWM_TRANSECT_SEGMENT.csv",
+            "path": "WY/WY_DWM_TRANSECT_SEGMENT.csv",
             "schema": {
                 "fields": [
                     {
@@ -2755,7 +2755,7 @@
         {
             "dialect": {},
             "name": "wy_lichen_plot_summary",
-            "path": "WY_LICHEN_PLOT_SUMMARY.csv",
+            "path": "WY/WY_LICHEN_PLOT_SUMMARY.csv",
             "schema": {
                 "fields": [
                     {
@@ -2833,7 +2833,7 @@
         {
             "dialect": {},
             "name": "wy_pop_eval_typ",
-            "path": "WY_POP_EVAL_TYP.csv",
+            "path": "WY/WY_POP_EVAL_TYP.csv",
             "schema": {
                 "fields": [
                     {
@@ -2886,7 +2886,7 @@
         {
             "dialect": {},
             "name": "wy_ozone_visit",
-            "path": "WY_OZONE_VISIT.csv",
+            "path": "WY/WY_OZONE_VISIT.csv",
             "schema": {
                 "fields": [
                     {
@@ -3008,7 +3008,7 @@
         {
             "dialect": {},
             "name": "wy_subplot",
-            "path": "WY_SUBPLOT.csv",
+            "path": "WY/WY_SUBPLOT.csv",
             "schema": {
                 "fields": [
                     {
@@ -3228,7 +3228,7 @@
         {
             "dialect": {},
             "name": "wy_tree_woodland_stems",
-            "path": "WY_TREE_WOODLAND_STEMS.csv",
+            "path": "WY/WY_TREE_WOODLAND_STEMS.csv",
             "schema": {
                 "fields": [
                     {
@@ -3322,7 +3322,7 @@
         {
             "dialect": {},
             "name": "wy_pop_eval_attribute",
-            "path": "WY_POP_EVAL_ATTRIBUTE.csv",
+            "path": "WY/WY_POP_EVAL_ATTRIBUTE.csv",
             "schema": {
                 "fields": [
                     {
@@ -3373,7 +3373,7 @@
         {
             "dialect": {},
             "name": "wy_plotgeom",
-            "path": "WY_PLOTGEOM.csv",
+            "path": "WY/WY_PLOTGEOM.csv",
             "schema": {
                 "fields": [
                     {
@@ -3491,7 +3491,7 @@
         {
             "dialect": {},
             "name": "wy_dwm_microplot_fuel",
-            "path": "WY_DWM_MICROPLOT_FUEL.csv",
+            "path": "WY/WY_DWM_MICROPLOT_FUEL.csv",
             "schema": {
                 "fields": [
                     {
@@ -3597,7 +3597,7 @@
         {
             "dialect": {},
             "name": "wy_dwm_fine_woody_debris",
-            "path": "WY_DWM_FINE_WOODY_DEBRIS.csv",
+            "path": "WY/WY_DWM_FINE_WOODY_DEBRIS.csv",
             "schema": {
                 "fields": [
                     {
@@ -3754,7 +3754,7 @@
         {
             "dialect": {},
             "name": "wy_tree_grm_threshold",
-            "path": "WY_TREE_GRM_THRESHOLD.csv",
+            "path": "WY/WY_TREE_GRM_THRESHOLD.csv",
             "schema": {
                 "fields": [
                     {
@@ -3896,7 +3896,7 @@
         {
             "dialect": {},
             "name": "wy_lichen_lab",
-            "path": "WY_LICHEN_LAB.csv",
+            "path": "WY/WY_LICHEN_LAB.csv",
             "schema": {
                 "fields": [
                     {
@@ -3974,7 +3974,7 @@
         {
             "dialect": {},
             "name": "wy_soils_lab",
-            "path": "WY_SOILS_LAB.csv",
+            "path": "WY/WY_SOILS_LAB.csv",
             "schema": {
                 "fields": [
                     {
@@ -4188,7 +4188,7 @@
         {
             "dialect": {},
             "name": "wy_boundary",
-            "path": "WY_BOUNDARY.csv",
+            "path": "WY/WY_BOUNDARY.csv",
             "schema": {
                 "fields": [
                     {
@@ -4291,7 +4291,7 @@
         {
             "dialect": {},
             "name": "wy_veg_subplot",
-            "path": "WY_VEG_SUBPLOT.csv",
+            "path": "WY/WY_VEG_SUBPLOT.csv",
             "schema": {
                 "fields": [
                     {
@@ -4441,7 +4441,7 @@
         {
             "dialect": {},
             "name": "wy_cond_dwm_calc",
-            "path": "WY_COND_DWM_CALC.csv",
+            "path": "WY/WY_COND_DWM_CALC.csv",
             "schema": {
                 "fields": [
                     {
@@ -4945,7 +4945,7 @@
         {
             "dialect": {},
             "name": "wy_county",
-            "path": "WY_COUNTY.csv",
+            "path": "WY/WY_COUNTY.csv",
             "schema": {
                 "fields": [
                     {
@@ -5002,7 +5002,7 @@
         {
             "dialect": {},
             "name": "wy_pop_eval_grp",
-            "path": "WY_POP_EVAL_GRP.csv",
+            "path": "WY/WY_POP_EVAL_GRP.csv",
             "schema": {
                 "fields": [
                     {
@@ -5064,7 +5064,7 @@
         {
             "dialect": {},
             "name": "wy_grnd_cvr",
-            "path": "WY_GRND_CVR.csv",
+            "path": "WY/WY_GRND_CVR.csv",
             "schema": {
                 "fields": [
                     {
@@ -5154,7 +5154,7 @@
         {
             "dialect": {},
             "name": "wy_pop_plot_stratum_assgn",
-            "path": "WY_POP_PLOT_STRATUM_ASSGN.csv",
+            "path": "WY/WY_POP_PLOT_STRATUM_ASSGN.csv",
             "schema": {
                 "fields": [
                     {
@@ -5238,7 +5238,7 @@
         {
             "dialect": {},
             "name": "wy_pop_estn_unit",
-            "path": "WY_POP_ESTN_UNIT.csv",
+            "path": "WY/WY_POP_ESTN_UNIT.csv",
             "schema": {
                 "fields": [
                     {
@@ -5329,7 +5329,7 @@
         {
             "dialect": {},
             "name": "wy_subp_cond_chng_mtrx",
-            "path": "WY_SUBP_COND_CHNG_MTRX.csv",
+            "path": "WY/WY_SUBP_COND_CHNG_MTRX.csv",
             "schema": {
                 "fields": [
                     {
@@ -5399,7 +5399,7 @@
         {
             "dialect": {},
             "name": "wy_plot_regen",
-            "path": "WY_PLOT_REGEN.csv",
+            "path": "WY/WY_PLOT_REGEN.csv",
             "schema": {
                 "fields": [
                     {
@@ -5473,7 +5473,7 @@
         {
             "dialect": {},
             "name": "wy_plot",
-            "path": "WY_PLOT.csv",
+            "path": "WY/WY_PLOT.csv",
             "schema": {
                 "fields": [
                     {
@@ -5776,7 +5776,7 @@
         {
             "dialect": {},
             "name": "wy_invasive_subplot_spp",
-            "path": "WY_INVASIVE_SUBPLOT_SPP.csv",
+            "path": "WY/WY_INVASIVE_SUBPLOT_SPP.csv",
             "schema": {
                 "fields": [
                     {
@@ -5873,7 +5873,7 @@
         {
             "dialect": {},
             "name": "wy_tree_grm_component",
-            "path": "WY_TREE_GRM_COMPONENT.csv",
+            "path": "WY/WY_TREE_GRM_COMPONENT.csv",
             "schema": {
                 "fields": [
                     {
@@ -6258,7 +6258,7 @@
         {
             "dialect": {},
             "name": "wy_dwm_visit",
-            "path": "WY_DWM_VISIT.csv",
+            "path": "WY/WY_DWM_VISIT.csv",
             "schema": {
                 "fields": [
                     {
@@ -6386,7 +6386,7 @@
         {
             "dialect": {},
             "name": "wy_ozone_validation",
-            "path": "WY_OZONE_VALIDATION.csv",
+            "path": "WY/WY_OZONE_VALIDATION.csv",
             "schema": {
                 "fields": [
                     {
@@ -6480,7 +6480,7 @@
         {
             "dialect": {},
             "name": "wy_tree_regional_biomass",
-            "path": "WY_TREE_REGIONAL_BIOMASS.csv",
+            "path": "WY/WY_TREE_REGIONAL_BIOMASS.csv",
             "schema": {
                 "fields": [
                     {
@@ -6536,7 +6536,7 @@
         {
             "dialect": {},
             "name": "wy_soils_sample_loc",
-            "path": "WY_SOILS_SAMPLE_LOC.csv",
+            "path": "WY/WY_SOILS_SAMPLE_LOC.csv",
             "schema": {
                 "fields": [
                     {
@@ -6667,7 +6667,7 @@
         {
             "dialect": {},
             "name": "wy_tree_grm_begin",
-            "path": "WY_TREE_GRM_BEGIN.csv",
+            "path": "WY/WY_TREE_GRM_BEGIN.csv",
             "schema": {
                 "fields": [
                     {
@@ -6801,7 +6801,7 @@
         {
             "dialect": {},
             "name": "wy_soils_visit",
-            "path": "WY_SOILS_VISIT.csv",
+            "path": "WY/WY_SOILS_VISIT.csv",
             "schema": {
                 "fields": [
                     {
@@ -6877,7 +6877,7 @@
         {
             "dialect": {},
             "name": "wy_ozone_species_summary",
-            "path": "WY_OZONE_SPECIES_SUMMARY.csv",
+            "path": "WY/WY_OZONE_SPECIES_SUMMARY.csv",
             "schema": {
                 "fields": [
                     {
@@ -7027,7 +7027,7 @@
         {
             "dialect": {},
             "name": "wy_plotsnap",
-            "path": "WY_PLOTSNAP.csv",
+            "path": "WY/WY_PLOTSNAP.csv",
             "schema": {
                 "fields": [
                     {
@@ -7427,7 +7427,7 @@
         {
             "dialect": {},
             "name": "wy_subp_cond",
-            "path": "WY_SUBP_COND.csv",
+            "path": "WY/WY_SUBP_COND.csv",
             "schema": {
                 "fields": [
                     {
@@ -7527,7 +7527,7 @@
         {
             "dialect": {},
             "name": "wy_p2veg_subp_structure",
-            "path": "WY_P2VEG_SUBP_STRUCTURE.csv",
+            "path": "WY/WY_P2VEG_SUBP_STRUCTURE.csv",
             "schema": {
                 "fields": [
                     {
@@ -7619,7 +7619,7 @@
         {
             "dialect": {},
             "name": "wy_tree_grm_estn",
-            "path": "WY_TREE_GRM_ESTN.csv",
+            "path": "WY/WY_TREE_GRM_ESTN.csv",
             "schema": {
                 "fields": [
                     {
@@ -7831,7 +7831,7 @@
         {
             "dialect": {},
             "name": "wy_sitetree",
-            "path": "WY_SITETREE.csv",
+            "path": "WY/WY_SITETREE.csv",
             "schema": {
                 "fields": [
                     {
@@ -8027,7 +8027,7 @@
         {
             "dialect": {},
             "name": "wy_tree_grm_midpt",
-            "path": "WY_TREE_GRM_MIDPT.csv",
+            "path": "WY/WY_TREE_GRM_MIDPT.csv",
             "schema": {
                 "fields": [
                     {
@@ -8158,7 +8158,7 @@
         {
             "dialect": {},
             "name": "wy_p2veg_subplot_spp",
-            "path": "WY_P2VEG_SUBPLOT_SPP.csv",
+            "path": "WY/WY_P2VEG_SUBPLOT_SPP.csv",
             "schema": {
                 "fields": [
                     {
@@ -8264,7 +8264,7 @@
         {
             "dialect": {},
             "name": "wy_seedling_regen",
-            "path": "WY_SEEDLING_REGEN.csv",
+            "path": "WY/WY_SEEDLING_REGEN.csv",
             "schema": {
                 "fields": [
                     {
@@ -8374,7 +8374,7 @@
         {
             "dialect": {},
             "name": "wy_veg_visit",
-            "path": "WY_VEG_VISIT.csv",
+            "path": "WY/WY_VEG_VISIT.csv",
             "schema": {
                 "fields": [
                     {
@@ -8468,7 +8468,7 @@
         {
             "dialect": {},
             "name": "wy_tree",
-            "path": "WY_TREE.csv",
+            "path": "WY/WY_TREE.csv",
             "schema": {
                 "fields": [
                     {

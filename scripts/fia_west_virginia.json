@@ -17,7 +17,7 @@
         {
             "dialect": {},
             "name": "wv_tree_grm_midpt",
-            "path": "WV_TREE_GRM_MIDPT.csv",
+            "path": "WV/WV_TREE_GRM_MIDPT.csv",
             "schema": {
                 "fields": [
                     {
@@ -164,7 +164,7 @@
         {
             "dialect": {},
             "name": "wv_tree_grm_threshold",
-            "path": "WV_TREE_GRM_THRESHOLD.csv",
+            "path": "WV/WV_TREE_GRM_THRESHOLD.csv",
             "schema": {
                 "fields": [
                     {
@@ -324,7 +324,7 @@
         {
             "dialect": {},
             "name": "wv_seedling_regen",
-            "path": "WV_SEEDLING_REGEN.csv",
+            "path": "WV/WV_SEEDLING_REGEN.csv",
             "schema": {
                 "fields": [
                     {
@@ -436,7 +436,7 @@
         {
             "dialect": {},
             "name": "wv_veg_plot_species",
-            "path": "WV_VEG_PLOT_SPECIES.csv",
+            "path": "WV/WV_VEG_PLOT_SPECIES.csv",
             "schema": {
                 "fields": [
                     {
@@ -536,7 +536,7 @@
         {
             "dialect": {},
             "name": "wv_lichen_visit",
-            "path": "WV_LICHEN_VISIT.csv",
+            "path": "WV/WV_LICHEN_VISIT.csv",
             "schema": {
                 "fields": [
                     {
@@ -700,7 +700,7 @@
         {
             "dialect": {},
             "name": "wv_pop_estn_unit",
-            "path": "WV_POP_ESTN_UNIT.csv",
+            "path": "WV/WV_POP_ESTN_UNIT.csv",
             "schema": {
                 "fields": [
                     {
@@ -791,7 +791,7 @@
         {
             "dialect": {},
             "name": "wv_pop_eval_typ",
-            "path": "WV_POP_EVAL_TYP.csv",
+            "path": "WV/WV_POP_EVAL_TYP.csv",
             "schema": {
                 "fields": [
                     {
@@ -844,7 +844,7 @@
         {
             "dialect": {},
             "name": "wv_veg_quadrat",
-            "path": "WV_VEG_QUADRAT.csv",
+            "path": "WV/WV_VEG_QUADRAT.csv",
             "schema": {
                 "fields": [
                     {
@@ -936,7 +936,7 @@
         {
             "dialect": {},
             "name": "wv_tree_grm_begin",
-            "path": "WV_TREE_GRM_BEGIN.csv",
+            "path": "WV/WV_TREE_GRM_BEGIN.csv",
             "schema": {
                 "fields": [
                     {
@@ -1081,7 +1081,7 @@
         {
             "dialect": {},
             "name": "wv_pop_eval_attribute",
-            "path": "WV_POP_EVAL_ATTRIBUTE.csv",
+            "path": "WV/WV_POP_EVAL_ATTRIBUTE.csv",
             "schema": {
                 "fields": [
                     {
@@ -1132,7 +1132,7 @@
         {
             "dialect": {},
             "name": "wv_grnd_cvr",
-            "path": "WV_GRND_CVR.csv",
+            "path": "WV/WV_GRND_CVR.csv",
             "schema": {
                 "fields": [
                     {
@@ -1222,7 +1222,7 @@
         {
             "dialect": {},
             "name": "wv_subplot",
-            "path": "WV_SUBPLOT.csv",
+            "path": "WV/WV_SUBPLOT.csv",
             "schema": {
                 "fields": [
                     {
@@ -1443,7 +1443,7 @@
         {
             "dialect": {},
             "name": "wv_dwm_microplot_fuel",
-            "path": "WV_DWM_MICROPLOT_FUEL.csv",
+            "path": "WV/WV_DWM_MICROPLOT_FUEL.csv",
             "schema": {
                 "fields": [
                     {
@@ -1551,7 +1551,7 @@
         {
             "dialect": {},
             "name": "wv_dwm_coarse_woody_debris",
-            "path": "WV_DWM_COARSE_WOODY_DEBRIS.csv",
+            "path": "WV/WV_DWM_COARSE_WOODY_DEBRIS.csv",
             "schema": {
                 "fields": [
                     {
@@ -1801,7 +1801,7 @@
         {
             "dialect": {},
             "name": "wv_ozone_visit",
-            "path": "WV_OZONE_VISIT.csv",
+            "path": "WV/WV_OZONE_VISIT.csv",
             "schema": {
                 "fields": [
                     {
@@ -1925,7 +1925,7 @@
         {
             "dialect": {},
             "name": "wv_pop_plot_stratum_assgn",
-            "path": "WV_POP_PLOT_STRATUM_ASSGN.csv",
+            "path": "WV/WV_POP_PLOT_STRATUM_ASSGN.csv",
             "schema": {
                 "fields": [
                     {
@@ -2008,7 +2008,7 @@
         {
             "dialect": {},
             "name": "wv_p2veg_subplot_spp",
-            "path": "WV_P2VEG_SUBPLOT_SPP.csv",
+            "path": "WV/WV_P2VEG_SUBPLOT_SPP.csv",
             "schema": {
                 "fields": [
                     {
@@ -2110,7 +2110,7 @@
         {
             "dialect": {},
             "name": "wv_county",
-            "path": "WV_COUNTY.csv",
+            "path": "WV/WV_COUNTY.csv",
             "schema": {
                 "fields": [
                     {
@@ -2167,7 +2167,7 @@
         {
             "dialect": {},
             "name": "wv_dwm_visit",
-            "path": "WV_DWM_VISIT.csv",
+            "path": "WV/WV_DWM_VISIT.csv",
             "schema": {
                 "fields": [
                     {
@@ -2295,7 +2295,7 @@
         {
             "dialect": {},
             "name": "wv_tree",
-            "path": "WV_TREE.csv",
+            "path": "WV/WV_TREE.csv",
             "schema": {
                 "fields": [
                     {
@@ -3140,7 +3140,7 @@
         {
             "dialect": {},
             "name": "wv_lichen_plot_summary",
-            "path": "WV_LICHEN_PLOT_SUMMARY.csv",
+            "path": "WV/WV_LICHEN_PLOT_SUMMARY.csv",
             "schema": {
                 "fields": [
                     {
@@ -3218,7 +3218,7 @@
         {
             "dialect": {},
             "name": "wv_pop_stratum",
-            "path": "WV_POP_STRATUM.csv",
+            "path": "WV/WV_POP_STRATUM.csv",
             "schema": {
                 "fields": [
                     {
@@ -3355,7 +3355,7 @@
         {
             "dialect": {},
             "name": "wv_ozone_plot",
-            "path": "WV_OZONE_PLOT.csv",
+            "path": "WV/WV_OZONE_PLOT.csv",
             "schema": {
                 "fields": [
                     {
@@ -3471,7 +3471,7 @@
         {
             "dialect": {},
             "name": "wv_invasive_subplot_spp",
-            "path": "WV_INVASIVE_SUBPLOT_SPP.csv",
+            "path": "WV/WV_INVASIVE_SUBPLOT_SPP.csv",
             "schema": {
                 "fields": [
                     {
@@ -3569,7 +3569,7 @@
         {
             "dialect": {},
             "name": "wv_ozone_biosite_summary",
-            "path": "WV_OZONE_BIOSITE_SUMMARY.csv",
+            "path": "WV/WV_OZONE_BIOSITE_SUMMARY.csv",
             "schema": {
                 "fields": [
                     {
@@ -3690,7 +3690,7 @@
         {
             "dialect": {},
             "name": "wv_tree_grm_estn",
-            "path": "WV_TREE_GRM_ESTN.csv",
+            "path": "WV/WV_TREE_GRM_ESTN.csv",
             "schema": {
                 "fields": [
                     {
@@ -3911,7 +3911,7 @@
         {
             "dialect": {},
             "name": "wv_tree_woodland_stems",
-            "path": "WV_TREE_WOODLAND_STEMS.csv",
+            "path": "WV/WV_TREE_WOODLAND_STEMS.csv",
             "schema": {
                 "fields": [
                     {
@@ -4005,7 +4005,7 @@
         {
             "dialect": {},
             "name": "wv_sitetree",
-            "path": "WV_SITETREE.csv",
+            "path": "WV/WV_SITETREE.csv",
             "schema": {
                 "fields": [
                     {
@@ -4201,7 +4201,7 @@
         {
             "dialect": {},
             "name": "wv_subp_cond",
-            "path": "WV_SUBP_COND.csv",
+            "path": "WV/WV_SUBP_COND.csv",
             "schema": {
                 "fields": [
                     {
@@ -4301,7 +4301,7 @@
         {
             "dialect": {},
             "name": "wv_plotsnap",
-            "path": "WV_PLOTSNAP.csv",
+            "path": "WV/WV_PLOTSNAP.csv",
             "schema": {
                 "fields": [
                     {
@@ -4708,7 +4708,7 @@
         {
             "dialect": {},
             "name": "wv_plot",
-            "path": "WV_PLOT.csv",
+            "path": "WV/WV_PLOT.csv",
             "schema": {
                 "fields": [
                     {
@@ -5010,7 +5010,7 @@
         {
             "dialect": {},
             "name": "wv_dwm_fine_woody_debris",
-            "path": "WV_DWM_FINE_WOODY_DEBRIS.csv",
+            "path": "WV/WV_DWM_FINE_WOODY_DEBRIS.csv",
             "schema": {
                 "fields": [
                     {
@@ -5167,7 +5167,7 @@
         {
             "dialect": {},
             "name": "wv_p2veg_subp_structure",
-            "path": "WV_P2VEG_SUBP_STRUCTURE.csv",
+            "path": "WV/WV_P2VEG_SUBP_STRUCTURE.csv",
             "schema": {
                 "fields": [
                     {
@@ -5259,7 +5259,7 @@
         {
             "dialect": {},
             "name": "wv_veg_subplot_spp",
-            "path": "WV_VEG_SUBPLOT_SPP.csv",
+            "path": "WV/WV_VEG_SUBPLOT_SPP.csv",
             "schema": {
                 "fields": [
                     {
@@ -5384,7 +5384,7 @@
         {
             "dialect": {},
             "name": "wv_ozone_plot_summary",
-            "path": "WV_OZONE_PLOT_SUMMARY.csv",
+            "path": "WV/WV_OZONE_PLOT_SUMMARY.csv",
             "schema": {
                 "fields": [
                     {
@@ -5506,7 +5506,7 @@
         {
             "dialect": {},
             "name": "wv_veg_subplot",
-            "path": "WV_VEG_SUBPLOT.csv",
+            "path": "WV/WV_VEG_SUBPLOT.csv",
             "schema": {
                 "fields": [
                     {
@@ -5657,7 +5657,7 @@
         {
             "dialect": {},
             "name": "wv_survey",
-            "path": "WV_SURVEY.csv",
+            "path": "WV/WV_SURVEY.csv",
             "schema": {
                 "fields": [
                     {
@@ -5742,7 +5742,7 @@
         {
             "dialect": {},
             "name": "wv_veg_visit",
-            "path": "WV_VEG_VISIT.csv",
+            "path": "WV/WV_VEG_VISIT.csv",
             "schema": {
                 "fields": [
                     {
@@ -5838,7 +5838,7 @@
         {
             "dialect": {},
             "name": "wv_lichen_lab",
-            "path": "WV_LICHEN_LAB.csv",
+            "path": "WV/WV_LICHEN_LAB.csv",
             "schema": {
                 "fields": [
                     {
@@ -5916,7 +5916,7 @@
         {
             "dialect": {},
             "name": "wv_subp_cond_chng_mtrx",
-            "path": "WV_SUBP_COND_CHNG_MTRX.csv",
+            "path": "WV/WV_SUBP_COND_CHNG_MTRX.csv",
             "schema": {
                 "fields": [
                     {
@@ -5988,7 +5988,7 @@
         {
             "dialect": {},
             "name": "wv_pop_eval",
-            "path": "WV_POP_EVAL.csv",
+            "path": "WV/WV_POP_EVAL.csv",
             "schema": {
                 "fields": [
                     {
@@ -6091,7 +6091,7 @@
         {
             "dialect": {},
             "name": "wv_tree_regional_biomass",
-            "path": "WV_TREE_REGIONAL_BIOMASS.csv",
+            "path": "WV/WV_TREE_REGIONAL_BIOMASS.csv",
             "schema": {
                 "fields": [
                     {
@@ -6147,7 +6147,7 @@
         {
             "dialect": {},
             "name": "wv_plot_regen",
-            "path": "WV_PLOT_REGEN.csv",
+            "path": "WV/WV_PLOT_REGEN.csv",
             "schema": {
                 "fields": [
                     {
@@ -6222,7 +6222,7 @@
         {
             "dialect": {},
             "name": "wv_dwm_duff_litter_fuel",
-            "path": "WV_DWM_DUFF_LITTER_FUEL.csv",
+            "path": "WV/WV_DWM_DUFF_LITTER_FUEL.csv",
             "schema": {
                 "fields": [
                     {
@@ -6346,7 +6346,7 @@
         {
             "dialect": {},
             "name": "wv_dwm_transect_segment",
-            "path": "WV_DWM_TRANSECT_SEGMENT.csv",
+            "path": "WV/WV_DWM_TRANSECT_SEGMENT.csv",
             "schema": {
                 "fields": [
                     {
@@ -6466,7 +6466,7 @@
         {
             "dialect": {},
             "name": "wv_ozone_validation",
-            "path": "WV_OZONE_VALIDATION.csv",
+            "path": "WV/WV_OZONE_VALIDATION.csv",
             "schema": {
                 "fields": [
                     {
@@ -6562,7 +6562,7 @@
         {
             "dialect": {},
             "name": "wv_soils_erosion",
-            "path": "WV_SOILS_EROSION.csv",
+            "path": "WV/WV_SOILS_EROSION.csv",
             "schema": {
                 "fields": [
                     {
@@ -6653,7 +6653,7 @@
         {
             "dialect": {},
             "name": "wv_pop_eval_grp",
-            "path": "WV_POP_EVAL_GRP.csv",
+            "path": "WV/WV_POP_EVAL_GRP.csv",
             "schema": {
                 "fields": [
                     {
@@ -6715,7 +6715,7 @@
         {
             "dialect": {},
             "name": "wv_subplot_regen",
-            "path": "WV_SUBPLOT_REGEN.csv",
+            "path": "WV/WV_SUBPLOT_REGEN.csv",
             "schema": {
                 "fields": [
                     {
@@ -6815,7 +6815,7 @@
         {
             "dialect": {},
             "name": "wv_seedling",
-            "path": "WV_SEEDLING.csv",
+            "path": "WV/WV_SEEDLING.csv",
             "schema": {
                 "fields": [
                     {
@@ -6955,7 +6955,7 @@
         {
             "dialect": {},
             "name": "wv_cond",
-            "path": "WV_COND.csv",
+            "path": "WV/WV_COND.csv",
             "schema": {
                 "fields": [
                     {
@@ -7581,7 +7581,7 @@
         {
             "dialect": {},
             "name": "wv_soils_sample_loc",
-            "path": "WV_SOILS_SAMPLE_LOC.csv",
+            "path": "WV/WV_SOILS_SAMPLE_LOC.csv",
             "schema": {
                 "fields": [
                     {
@@ -7712,7 +7712,7 @@
         {
             "dialect": {},
             "name": "wv_plotgeom",
-            "path": "WV_PLOTGEOM.csv",
+            "path": "WV/WV_PLOTGEOM.csv",
             "schema": {
                 "fields": [
                     {
@@ -7830,7 +7830,7 @@
         {
             "dialect": {},
             "name": "wv_dwm_residual_pile",
-            "path": "WV_DWM_RESIDUAL_PILE.csv",
+            "path": "WV/WV_DWM_RESIDUAL_PILE.csv",
             "schema": {
                 "fields": [
                     {
@@ -7997,7 +7997,7 @@
         {
             "dialect": {},
             "name": "wv_soils_visit",
-            "path": "WV_SOILS_VISIT.csv",
+            "path": "WV/WV_SOILS_VISIT.csv",
             "schema": {
                 "fields": [
                     {
@@ -8073,7 +8073,7 @@
         {
             "dialect": {},
             "name": "wv_cond_dwm_calc",
-            "path": "WV_COND_DWM_CALC.csv",
+            "path": "WV/WV_COND_DWM_CALC.csv",
             "schema": {
                 "fields": [
                     {
@@ -8589,7 +8589,7 @@
         {
             "dialect": {},
             "name": "wv_tree_grm_component",
-            "path": "WV_TREE_GRM_COMPONENT.csv",
+            "path": "WV/WV_TREE_GRM_COMPONENT.csv",
             "schema": {
                 "fields": [
                     {
@@ -8993,7 +8993,7 @@
         {
             "dialect": {},
             "name": "wv_boundary",
-            "path": "WV_BOUNDARY.csv",
+            "path": "WV/WV_BOUNDARY.csv",
             "schema": {
                 "fields": [
                     {
@@ -9097,7 +9097,7 @@
         {
             "dialect": {},
             "name": "wv_ozone_species_summary",
-            "path": "WV_OZONE_SPECIES_SUMMARY.csv",
+            "path": "WV/WV_OZONE_SPECIES_SUMMARY.csv",
             "schema": {
                 "fields": [
                     {
@@ -9250,7 +9250,7 @@
         {
             "dialect": {},
             "name": "wv_soils_lab",
-            "path": "WV_SOILS_LAB.csv",
+            "path": "WV/WV_SOILS_LAB.csv",
             "schema": {
                 "fields": [
                     {

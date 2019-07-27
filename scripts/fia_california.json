@@ -17,7 +17,7 @@
         {
             "dialect": {},
             "name": "ca_tree_grm_threshold",
-            "path": "CA_TREE_GRM_THRESHOLD.csv",
+            "path": "CA/CA_TREE_GRM_THRESHOLD.csv",
             "schema": {
                 "fields": [
                     {
@@ -178,7 +178,7 @@
         {
             "dialect": {},
             "name": "ca_veg_plot_species",
-            "path": "CA_VEG_PLOT_SPECIES.csv",
+            "path": "CA/CA_VEG_PLOT_SPECIES.csv",
             "schema": {
                 "fields": [
                     {
@@ -272,7 +272,7 @@
         {
             "dialect": {},
             "name": "ca_cond",
-            "path": "CA_COND.csv",
+            "path": "CA/CA_COND.csv",
             "schema": {
                 "fields": [
                     {
@@ -899,7 +899,7 @@
         {
             "dialect": {},
             "name": "ca_dwm_microplot_fuel",
-            "path": "CA_DWM_MICROPLOT_FUEL.csv",
+            "path": "CA/CA_DWM_MICROPLOT_FUEL.csv",
             "schema": {
                 "fields": [
                     {
@@ -1009,7 +1009,7 @@
         {
             "dialect": {},
             "name": "ca_dwm_residual_pile",
-            "path": "CA_DWM_RESIDUAL_PILE.csv",
+            "path": "CA/CA_DWM_RESIDUAL_PILE.csv",
             "schema": {
                 "fields": [
                     {
@@ -1178,7 +1178,7 @@
         {
             "dialect": {},
             "name": "ca_ozone_biosite_summary",
-            "path": "CA_OZONE_BIOSITE_SUMMARY.csv",
+            "path": "CA/CA_OZONE_BIOSITE_SUMMARY.csv",
             "schema": {
                 "fields": [
                     {
@@ -1298,7 +1298,7 @@
         {
             "dialect": {},
             "name": "ca_pop_eval_attribute",
-            "path": "CA_POP_EVAL_ATTRIBUTE.csv",
+            "path": "CA/CA_POP_EVAL_ATTRIBUTE.csv",
             "schema": {
                 "fields": [
                     {
@@ -1349,7 +1349,7 @@
         {
             "dialect": {},
             "name": "ca_dwm_visit",
-            "path": "CA_DWM_VISIT.csv",
+            "path": "CA/CA_DWM_VISIT.csv",
             "schema": {
                 "fields": [
                     {
@@ -1477,7 +1477,7 @@
         {
             "dialect": {},
             "name": "ca_soils_visit",
-            "path": "CA_SOILS_VISIT.csv",
+            "path": "CA/CA_SOILS_VISIT.csv",
             "schema": {
                 "fields": [
                     {
@@ -1553,7 +1553,7 @@
         {
             "dialect": {},
             "name": "ca_survey",
-            "path": "CA_SURVEY.csv",
+            "path": "CA/CA_SURVEY.csv",
             "schema": {
                 "fields": [
                     {
@@ -1638,7 +1638,7 @@
         {
             "dialect": {},
             "name": "ca_dwm_transect_segment",
-            "path": "CA_DWM_TRANSECT_SEGMENT.csv",
+            "path": "CA/CA_DWM_TRANSECT_SEGMENT.csv",
             "schema": {
                 "fields": [
                     {
@@ -1759,7 +1759,7 @@
         {
             "dialect": {},
             "name": "ca_seedling_regen",
-            "path": "CA_SEEDLING_REGEN.csv",
+            "path": "CA/CA_SEEDLING_REGEN.csv",
             "schema": {
                 "fields": [
                     {
@@ -1869,7 +1869,7 @@
         {
             "dialect": {},
             "name": "ca_cond_dwm_calc",
-            "path": "CA_COND_DWM_CALC.csv",
+            "path": "CA/CA_COND_DWM_CALC.csv",
             "schema": {
                 "fields": [
                     {
@@ -2386,7 +2386,7 @@
         {
             "dialect": {},
             "name": "ca_plotsnap",
-            "path": "CA_PLOTSNAP.csv",
+            "path": "CA/CA_PLOTSNAP.csv",
             "schema": {
                 "fields": [
                     {
@@ -2797,7 +2797,7 @@
         {
             "dialect": {},
             "name": "ca_dwm_duff_litter_fuel",
-            "path": "CA_DWM_DUFF_LITTER_FUEL.csv",
+            "path": "CA/CA_DWM_DUFF_LITTER_FUEL.csv",
             "schema": {
                 "fields": [
                     {
@@ -2924,7 +2924,7 @@
         {
             "dialect": {},
             "name": "ca_tree_grm_midpt",
-            "path": "CA_TREE_GRM_MIDPT.csv",
+            "path": "CA/CA_TREE_GRM_MIDPT.csv",
             "schema": {
                 "fields": [
                     {
@@ -3072,7 +3072,7 @@
         {
             "dialect": {},
             "name": "ca_sitetree",
-            "path": "CA_SITETREE.csv",
+            "path": "CA/CA_SITETREE.csv",
             "schema": {
                 "fields": [
                     {
@@ -3270,7 +3270,7 @@
         {
             "dialect": {},
             "name": "ca_tree_grm_begin",
-            "path": "CA_TREE_GRM_BEGIN.csv",
+            "path": "CA/CA_TREE_GRM_BEGIN.csv",
             "schema": {
                 "fields": [
                     {
@@ -3416,7 +3416,7 @@
         {
             "dialect": {},
             "name": "ca_lichen_visit",
-            "path": "CA_LICHEN_VISIT.csv",
+            "path": "CA/CA_LICHEN_VISIT.csv",
             "schema": {
                 "fields": [
                     {
@@ -3578,7 +3578,7 @@
         {
             "dialect": {},
             "name": "ca_veg_visit",
-            "path": "CA_VEG_VISIT.csv",
+            "path": "CA/CA_VEG_VISIT.csv",
             "schema": {
                 "fields": [
                     {
@@ -3672,7 +3672,7 @@
         {
             "dialect": {},
             "name": "ca_dwm_fine_woody_debris",
-            "path": "CA_DWM_FINE_WOODY_DEBRIS.csv",
+            "path": "CA/CA_DWM_FINE_WOODY_DEBRIS.csv",
             "schema": {
                 "fields": [
                     {
@@ -3829,7 +3829,7 @@
         {
             "dialect": {},
             "name": "ca_subp_cond_chng_mtrx",
-            "path": "CA_SUBP_COND_CHNG_MTRX.csv",
+            "path": "CA/CA_SUBP_COND_CHNG_MTRX.csv",
             "schema": {
                 "fields": [
                     {
@@ -3901,7 +3901,7 @@
         {
             "dialect": {},
             "name": "ca_plot_regen",
-            "path": "CA_PLOT_REGEN.csv",
+            "path": "CA/CA_PLOT_REGEN.csv",
             "schema": {
                 "fields": [
                     {
@@ -3975,7 +3975,7 @@
         {
             "dialect": {},
             "name": "ca_pop_eval_typ",
-            "path": "CA_POP_EVAL_TYP.csv",
+            "path": "CA/CA_POP_EVAL_TYP.csv",
             "schema": {
                 "fields": [
                     {
@@ -4028,7 +4028,7 @@
         {
             "dialect": {},
             "name": "ca_ozone_plot_summary",
-            "path": "CA_OZONE_PLOT_SUMMARY.csv",
+            "path": "CA/CA_OZONE_PLOT_SUMMARY.csv",
             "schema": {
                 "fields": [
                     {
@@ -4149,7 +4149,7 @@
         {
             "dialect": {},
             "name": "ca_grnd_cvr",
-            "path": "CA_GRND_CVR.csv",
+            "path": "CA/CA_GRND_CVR.csv",
             "schema": {
                 "fields": [
                     {
@@ -4242,7 +4242,7 @@
         {
             "dialect": {},
             "name": "ca_soils_erosion",
-            "path": "CA_SOILS_EROSION.csv",
+            "path": "CA/CA_SOILS_EROSION.csv",
             "schema": {
                 "fields": [
                     {
@@ -4333,7 +4333,7 @@
         {
             "dialect": {},
             "name": "ca_subp_cond",
-            "path": "CA_SUBP_COND.csv",
+            "path": "CA/CA_SUBP_COND.csv",
             "schema": {
                 "fields": [
                     {
@@ -4435,7 +4435,7 @@
         {
             "dialect": {},
             "name": "ca_dwm_coarse_woody_debris",
-            "path": "CA_DWM_COARSE_WOODY_DEBRIS.csv",
+            "path": "CA/CA_DWM_COARSE_WOODY_DEBRIS.csv",
             "schema": {
                 "fields": [
                     {
@@ -4687,7 +4687,7 @@
         {
             "dialect": {},
             "name": "ca_veg_subplot_spp",
-            "path": "CA_VEG_SUBPLOT_SPP.csv",
+            "path": "CA/CA_VEG_SUBPLOT_SPP.csv",
             "schema": {
                 "fields": [
                     {
@@ -4809,7 +4809,7 @@
         {
             "dialect": {},
             "name": "ca_subplot_regen",
-            "path": "CA_SUBPLOT_REGEN.csv",
+            "path": "CA/CA_SUBPLOT_REGEN.csv",
             "schema": {
                 "fields": [
                     {
@@ -4907,7 +4907,7 @@
         {
             "dialect": {},
             "name": "ca_county",
-            "path": "CA_COUNTY.csv",
+            "path": "CA/CA_COUNTY.csv",
             "schema": {
                 "fields": [
                     {
@@ -4964,7 +4964,7 @@
         {
             "dialect": {},
             "name": "ca_plot",
-            "path": "CA_PLOT.csv",
+            "path": "CA/CA_PLOT.csv",
             "schema": {
                 "fields": [
                     {
@@ -5266,7 +5266,7 @@
         {
             "dialect": {},
             "name": "ca_boundary",
-            "path": "CA_BOUNDARY.csv",
+            "path": "CA/CA_BOUNDARY.csv",
             "schema": {
                 "fields": [
                     {
@@ -5370,7 +5370,7 @@
         {
             "dialect": {},
             "name": "ca_invasive_subplot_spp",
-            "path": "CA_INVASIVE_SUBPLOT_SPP.csv",
+            "path": "CA/CA_INVASIVE_SUBPLOT_SPP.csv",
             "schema": {
                 "fields": [
                     {
@@ -5467,7 +5467,7 @@
         {
             "dialect": {},
             "name": "ca_tree_grm_estn",
-            "path": "CA_TREE_GRM_ESTN.csv",
+            "path": "CA/CA_TREE_GRM_ESTN.csv",
             "schema": {
                 "fields": [
                     {
@@ -5686,7 +5686,7 @@
         {
             "dialect": {},
             "name": "ca_tree_woodland_stems",
-            "path": "CA_TREE_WOODLAND_STEMS.csv",
+            "path": "CA/CA_TREE_WOODLAND_STEMS.csv",
             "schema": {
                 "fields": [
                     {
@@ -5782,7 +5782,7 @@
         {
             "dialect": {},
             "name": "ca_tree_regional_biomass",
-            "path": "CA_TREE_REGIONAL_BIOMASS.csv",
+            "path": "CA/CA_TREE_REGIONAL_BIOMASS.csv",
             "schema": {
                 "fields": [
                     {
@@ -5838,7 +5838,7 @@
         {
             "dialect": {},
             "name": "ca_plotgeom",
-            "path": "CA_PLOTGEOM.csv",
+            "path": "CA/CA_PLOTGEOM.csv",
             "schema": {
                 "fields": [
                     {
@@ -5956,7 +5956,7 @@
         {
             "dialect": {},
             "name": "ca_lichen_lab",
-            "path": "CA_LICHEN_LAB.csv",
+            "path": "CA/CA_LICHEN_LAB.csv",
             "schema": {
                 "fields": [
                     {
@@ -6034,7 +6034,7 @@
         {
             "dialect": {},
             "name": "ca_veg_subplot",
-            "path": "CA_VEG_SUBPLOT.csv",
+            "path": "CA/CA_VEG_SUBPLOT.csv",
             "schema": {
                 "fields": [
                     {
@@ -6184,7 +6184,7 @@
         {
             "dialect": {},
             "name": "ca_ozone_validation",
-            "path": "CA_OZONE_VALIDATION.csv",
+            "path": "CA/CA_OZONE_VALIDATION.csv",
             "schema": {
                 "fields": [
                     {
@@ -6280,7 +6280,7 @@
         {
             "dialect": {},
             "name": "ca_soils_sample_loc",
-            "path": "CA_SOILS_SAMPLE_LOC.csv",
+            "path": "CA/CA_SOILS_SAMPLE_LOC.csv",
             "schema": {
                 "fields": [
                     {
@@ -6411,7 +6411,7 @@
         {
             "dialect": {},
             "name": "ca_seedling",
-            "path": "CA_SEEDLING.csv",
+            "path": "CA/CA_SEEDLING.csv",
             "schema": {
                 "fields": [
                     {
@@ -6551,7 +6551,7 @@
         {
             "dialect": {},
             "name": "ca_soils_lab",
-            "path": "CA_SOILS_LAB.csv",
+            "path": "CA/CA_SOILS_LAB.csv",
             "schema": {
                 "fields": [
                     {
@@ -6772,7 +6772,7 @@
         {
             "dialect": {},
             "name": "ca_pop_estn_unit",
-            "path": "CA_POP_ESTN_UNIT.csv",
+            "path": "CA/CA_POP_ESTN_UNIT.csv",
             "schema": {
                 "fields": [
                     {
@@ -6862,7 +6862,7 @@
         {
             "dialect": {},
             "name": "ca_ozone_species_summary",
-            "path": "CA_OZONE_SPECIES_SUMMARY.csv",
+            "path": "CA/CA_OZONE_SPECIES_SUMMARY.csv",
             "schema": {
                 "fields": [
                     {
@@ -7014,7 +7014,7 @@
         {
             "dialect": {},
             "name": "ca_veg_quadrat",
-            "path": "CA_VEG_QUADRAT.csv",
+            "path": "CA/CA_VEG_QUADRAT.csv",
             "schema": {
                 "fields": [
                     {
@@ -7104,7 +7104,7 @@
         {
             "dialect": {},
             "name": "ca_pop_plot_stratum_assgn",
-            "path": "CA_POP_PLOT_STRATUM_ASSGN.csv",
+            "path": "CA/CA_POP_PLOT_STRATUM_ASSGN.csv",
             "schema": {
                 "fields": [
                     {
@@ -7187,7 +7187,7 @@
         {
             "dialect": {},
             "name": "ca_p2veg_subp_structure",
-            "path": "CA_P2VEG_SUBP_STRUCTURE.csv",
+            "path": "CA/CA_P2VEG_SUBP_STRUCTURE.csv",
             "schema": {
                 "fields": [
                     {
@@ -7280,7 +7280,7 @@
         {
             "dialect": {},
             "name": "ca_tree",
-            "path": "CA_TREE.csv",
+            "path": "CA/CA_TREE.csv",
             "schema": {
                 "fields": [
                     {
@@ -8126,7 +8126,7 @@
         {
             "dialect": {},
             "name": "ca_p2veg_subplot_spp",
-            "path": "CA_P2VEG_SUBPLOT_SPP.csv",
+            "path": "CA/CA_P2VEG_SUBPLOT_SPP.csv",
             "schema": {
                 "fields": [
                     {
@@ -8233,7 +8233,7 @@
         {
             "dialect": {},
             "name": "ca_ozone_plot",
-            "path": "CA_OZONE_PLOT.csv",
+            "path": "CA/CA_OZONE_PLOT.csv",
             "schema": {
                 "fields": [
                     {
@@ -8349,7 +8349,7 @@
         {
             "dialect": {},
             "name": "ca_pop_eval_grp",
-            "path": "CA_POP_EVAL_GRP.csv",
+            "path": "CA/CA_POP_EVAL_GRP.csv",
             "schema": {
                 "fields": [
                     {
@@ -8411,7 +8411,7 @@
         {
             "dialect": {},
             "name": "ca_ozone_visit",
-            "path": "CA_OZONE_VISIT.csv",
+            "path": "CA/CA_OZONE_VISIT.csv",
             "schema": {
                 "fields": [
                     {
@@ -8535,7 +8535,7 @@
         {
             "dialect": {},
             "name": "ca_lichen_plot_summary",
-            "path": "CA_LICHEN_PLOT_SUMMARY.csv",
+            "path": "CA/CA_LICHEN_PLOT_SUMMARY.csv",
             "schema": {
                 "fields": [
                     {
@@ -8613,7 +8613,7 @@
         {
             "dialect": {},
             "name": "ca_pop_stratum",
-            "path": "CA_POP_STRATUM.csv",
+            "path": "CA/CA_POP_STRATUM.csv",
             "schema": {
                 "fields": [
                     {
@@ -8751,7 +8751,7 @@
         {
             "dialect": {},
             "name": "ca_pop_eval",
-            "path": "CA_POP_EVAL.csv",
+            "path": "CA/CA_POP_EVAL.csv",
             "schema": {
                 "fields": [
                     {
@@ -8854,7 +8854,7 @@
         {
             "dialect": {},
             "name": "ca_subplot",
-            "path": "CA_SUBPLOT.csv",
+            "path": "CA/CA_SUBPLOT.csv",
             "schema": {
                 "fields": [
                     {
@@ -9075,7 +9075,7 @@
         {
             "dialect": {},
             "name": "ca_tree_grm_component",
-            "path": "CA_TREE_GRM_COMPONENT.csv",
+            "path": "CA/CA_TREE_GRM_COMPONENT.csv",
             "schema": {
                 "fields": [
                     {

@@ -17,7 +17,7 @@
         {
             "dialect": {},
             "name": "va_ozone_species_summary",
-            "path": "VA_OZONE_SPECIES_SUMMARY.csv",
+            "path": "VA/VA_OZONE_SPECIES_SUMMARY.csv",
             "schema": {
                 "fields": [
                     {
@@ -167,7 +167,7 @@
         {
             "dialect": {},
             "name": "va_soils_lab",
-            "path": "VA_SOILS_LAB.csv",
+            "path": "VA/VA_SOILS_LAB.csv",
             "schema": {
                 "fields": [
                     {
@@ -388,7 +388,7 @@
         {
             "dialect": {},
             "name": "va_p2veg_subp_structure",
-            "path": "VA_P2VEG_SUBP_STRUCTURE.csv",
+            "path": "VA/VA_P2VEG_SUBP_STRUCTURE.csv",
             "schema": {
                 "fields": [
                     {
@@ -480,7 +480,7 @@
         {
             "dialect": {},
             "name": "va_seedling_regen",
-            "path": "VA_SEEDLING_REGEN.csv",
+            "path": "VA/VA_SEEDLING_REGEN.csv",
             "schema": {
                 "fields": [
                     {
@@ -590,7 +590,7 @@
         {
             "dialect": {},
             "name": "va_veg_subplot_spp",
-            "path": "VA_VEG_SUBPLOT_SPP.csv",
+            "path": "VA/VA_VEG_SUBPLOT_SPP.csv",
             "schema": {
                 "fields": [
                     {
@@ -712,7 +712,7 @@
         {
             "dialect": {},
             "name": "va_tree_grm_midpt",
-            "path": "VA_TREE_GRM_MIDPT.csv",
+            "path": "VA/VA_TREE_GRM_MIDPT.csv",
             "schema": {
                 "fields": [
                     {
@@ -859,7 +859,7 @@
         {
             "dialect": {},
             "name": "va_subp_cond_chng_mtrx",
-            "path": "VA_SUBP_COND_CHNG_MTRX.csv",
+            "path": "VA/VA_SUBP_COND_CHNG_MTRX.csv",
             "schema": {
                 "fields": [
                     {
@@ -931,7 +931,7 @@
         {
             "dialect": {},
             "name": "va_cond",
-            "path": "VA_COND.csv",
+            "path": "VA/VA_COND.csv",
             "schema": {
                 "fields": [
                     {
@@ -1558,7 +1558,7 @@
         {
             "dialect": {},
             "name": "va_pop_estn_unit",
-            "path": "VA_POP_ESTN_UNIT.csv",
+            "path": "VA/VA_POP_ESTN_UNIT.csv",
             "schema": {
                 "fields": [
                     {
@@ -1649,7 +1649,7 @@
         {
             "dialect": {},
             "name": "va_tree_grm_begin",
-            "path": "VA_TREE_GRM_BEGIN.csv",
+            "path": "VA/VA_TREE_GRM_BEGIN.csv",
             "schema": {
                 "fields": [
                     {
@@ -1794,7 +1794,7 @@
         {
             "dialect": {},
             "name": "va_county",
-            "path": "VA_COUNTY.csv",
+            "path": "VA/VA_COUNTY.csv",
             "schema": {
                 "fields": [
                     {
@@ -1851,7 +1851,7 @@
         {
             "dialect": {},
             "name": "va_p2veg_subplot_spp",
-            "path": "VA_P2VEG_SUBPLOT_SPP.csv",
+            "path": "VA/VA_P2VEG_SUBPLOT_SPP.csv",
             "schema": {
                 "fields": [
                     {
@@ -1953,7 +1953,7 @@
         {
             "dialect": {},
             "name": "va_sitetree",
-            "path": "VA_SITETREE.csv",
+            "path": "VA/VA_SITETREE.csv",
             "schema": {
                 "fields": [
                     {
@@ -2149,7 +2149,7 @@
         {
             "dialect": {},
             "name": "va_pop_eval_attribute",
-            "path": "VA_POP_EVAL_ATTRIBUTE.csv",
+            "path": "VA/VA_POP_EVAL_ATTRIBUTE.csv",
             "schema": {
                 "fields": [
                     {
@@ -2200,7 +2200,7 @@
         {
             "dialect": {},
             "name": "va_dwm_microplot_fuel",
-            "path": "VA_DWM_MICROPLOT_FUEL.csv",
+            "path": "VA/VA_DWM_MICROPLOT_FUEL.csv",
             "schema": {
                 "fields": [
                     {
@@ -2308,7 +2308,7 @@
         {
             "dialect": {},
             "name": "va_tree_grm_threshold",
-            "path": "VA_TREE_GRM_THRESHOLD.csv",
+            "path": "VA/VA_TREE_GRM_THRESHOLD.csv",
             "schema": {
                 "fields": [
                     {
@@ -2466,7 +2466,7 @@
         {
             "dialect": {},
             "name": "va_plotsnap",
-            "path": "VA_PLOTSNAP.csv",
+            "path": "VA/VA_PLOTSNAP.csv",
             "schema": {
                 "fields": [
                     {
@@ -2874,7 +2874,7 @@
         {
             "dialect": {},
             "name": "va_survey",
-            "path": "VA_SURVEY.csv",
+            "path": "VA/VA_SURVEY.csv",
             "schema": {
                 "fields": [
                     {
@@ -2959,7 +2959,7 @@
         {
             "dialect": {},
             "name": "va_veg_plot_species",
-            "path": "VA_VEG_PLOT_SPECIES.csv",
+            "path": "VA/VA_VEG_PLOT_SPECIES.csv",
             "schema": {
                 "fields": [
                     {
@@ -3053,7 +3053,7 @@
         {
             "dialect": {},
             "name": "va_invasive_subplot_spp",
-            "path": "VA_INVASIVE_SUBPLOT_SPP.csv",
+            "path": "VA/VA_INVASIVE_SUBPLOT_SPP.csv",
             "schema": {
                 "fields": [
                     {
@@ -3151,7 +3151,7 @@
         {
             "dialect": {},
             "name": "va_soils_visit",
-            "path": "VA_SOILS_VISIT.csv",
+            "path": "VA/VA_SOILS_VISIT.csv",
             "schema": {
                 "fields": [
                     {
@@ -3227,7 +3227,7 @@
         {
             "dialect": {},
             "name": "va_plot_regen",
-            "path": "VA_PLOT_REGEN.csv",
+            "path": "VA/VA_PLOT_REGEN.csv",
             "schema": {
                 "fields": [
                     {
@@ -3301,7 +3301,7 @@
         {
             "dialect": {},
             "name": "va_tree_grm_estn",
-            "path": "VA_TREE_GRM_ESTN.csv",
+            "path": "VA/VA_TREE_GRM_ESTN.csv",
             "schema": {
                 "fields": [
                     {
@@ -3519,7 +3519,7 @@
         {
             "dialect": {},
             "name": "va_ozone_plot_summary",
-            "path": "VA_OZONE_PLOT_SUMMARY.csv",
+            "path": "VA/VA_OZONE_PLOT_SUMMARY.csv",
             "schema": {
                 "fields": [
                     {
@@ -3637,7 +3637,7 @@
         {
             "dialect": {},
             "name": "va_pop_eval_grp",
-            "path": "VA_POP_EVAL_GRP.csv",
+            "path": "VA/VA_POP_EVAL_GRP.csv",
             "schema": {
                 "fields": [
                     {
@@ -3699,7 +3699,7 @@
         {
             "dialect": {},
             "name": "va_pop_plot_stratum_assgn",
-            "path": "VA_POP_PLOT_STRATUM_ASSGN.csv",
+            "path": "VA/VA_POP_PLOT_STRATUM_ASSGN.csv",
             "schema": {
                 "fields": [
                     {
@@ -3783,7 +3783,7 @@
         {
             "dialect": {},
             "name": "va_tree_regional_biomass",
-            "path": "VA_TREE_REGIONAL_BIOMASS.csv",
+            "path": "VA/VA_TREE_REGIONAL_BIOMASS.csv",
             "schema": {
                 "fields": [
                     {
@@ -3839,7 +3839,7 @@
         {
             "dialect": {},
             "name": "va_grnd_cvr",
-            "path": "VA_GRND_CVR.csv",
+            "path": "VA/VA_GRND_CVR.csv",
             "schema": {
                 "fields": [
                     {
@@ -3929,7 +3929,7 @@
         {
             "dialect": {},
             "name": "va_veg_visit",
-            "path": "VA_VEG_VISIT.csv",
+            "path": "VA/VA_VEG_VISIT.csv",
             "schema": {
                 "fields": [
                     {
@@ -4023,7 +4023,7 @@
         {
             "dialect": {},
             "name": "va_plot",
-            "path": "VA_PLOT.csv",
+            "path": "VA/VA_PLOT.csv",
             "schema": {
                 "fields": [
                     {
@@ -4325,7 +4325,7 @@
         {
             "dialect": {},
             "name": "va_subplot",
-            "path": "VA_SUBPLOT.csv",
+            "path": "VA/VA_SUBPLOT.csv",
             "schema": {
                 "fields": [
                     {
@@ -4546,7 +4546,7 @@
         {
             "dialect": {},
             "name": "va_soils_sample_loc",
-            "path": "VA_SOILS_SAMPLE_LOC.csv",
+            "path": "VA/VA_SOILS_SAMPLE_LOC.csv",
             "schema": {
                 "fields": [
                     {
@@ -4677,7 +4677,7 @@
         {
             "dialect": {},
             "name": "va_boundary",
-            "path": "VA_BOUNDARY.csv",
+            "path": "VA/VA_BOUNDARY.csv",
             "schema": {
                 "fields": [
                     {
@@ -4781,7 +4781,7 @@
         {
             "dialect": {},
             "name": "va_dwm_fine_woody_debris",
-            "path": "VA_DWM_FINE_WOODY_DEBRIS.csv",
+            "path": "VA/VA_DWM_FINE_WOODY_DEBRIS.csv",
             "schema": {
                 "fields": [
                     {
@@ -4938,7 +4938,7 @@
         {
             "dialect": {},
             "name": "va_veg_quadrat",
-            "path": "VA_VEG_QUADRAT.csv",
+            "path": "VA/VA_VEG_QUADRAT.csv",
             "schema": {
                 "fields": [
                     {
@@ -5028,7 +5028,7 @@
         {
             "dialect": {},
             "name": "va_subplot_regen",
-            "path": "VA_SUBPLOT_REGEN.csv",
+            "path": "VA/VA_SUBPLOT_REGEN.csv",
             "schema": {
                 "fields": [
                     {
@@ -5126,7 +5126,7 @@
         {
             "dialect": {},
             "name": "va_lichen_lab",
-            "path": "VA_LICHEN_LAB.csv",
+            "path": "VA/VA_LICHEN_LAB.csv",
             "schema": {
                 "fields": [
                     {
@@ -5204,7 +5204,7 @@
         {
             "dialect": {},
             "name": "va_lichen_plot_summary",
-            "path": "VA_LICHEN_PLOT_SUMMARY.csv",
+            "path": "VA/VA_LICHEN_PLOT_SUMMARY.csv",
             "schema": {
                 "fields": [
                     {
@@ -5282,7 +5282,7 @@
         {
             "dialect": {},
             "name": "va_ozone_visit",
-            "path": "VA_OZONE_VISIT.csv",
+            "path": "VA/VA_OZONE_VISIT.csv",
             "schema": {
                 "fields": [
                     {
@@ -5404,7 +5404,7 @@
         {
             "dialect": {},
             "name": "va_subp_cond",
-            "path": "VA_SUBP_COND.csv",
+            "path": "VA/VA_SUBP_COND.csv",
             "schema": {
                 "fields": [
                     {
@@ -5504,7 +5504,7 @@
         {
             "dialect": {},
             "name": "va_soils_erosion",
-            "path": "VA_SOILS_EROSION.csv",
+            "path": "VA/VA_SOILS_EROSION.csv",
             "schema": {
                 "fields": [
                     {
@@ -5595,7 +5595,7 @@
         {
             "dialect": {},
             "name": "va_pop_stratum",
-            "path": "VA_POP_STRATUM.csv",
+            "path": "VA/VA_POP_STRATUM.csv",
             "schema": {
                 "fields": [
                     {
@@ -5733,7 +5733,7 @@
         {
             "dialect": {},
             "name": "va_plotgeom",
-            "path": "VA_PLOTGEOM.csv",
+            "path": "VA/VA_PLOTGEOM.csv",
             "schema": {
                 "fields": [
                     {
@@ -5852,7 +5852,7 @@
         {
             "dialect": {},
             "name": "va_tree_grm_component",
-            "path": "VA_TREE_GRM_COMPONENT.csv",
+            "path": "VA/VA_TREE_GRM_COMPONENT.csv",
             "schema": {
                 "fields": [
                     {
@@ -6257,7 +6257,7 @@
         {
             "dialect": {},
             "name": "va_ozone_biosite_summary",
-            "path": "VA_OZONE_BIOSITE_SUMMARY.csv",
+            "path": "VA/VA_OZONE_BIOSITE_SUMMARY.csv",
             "schema": {
                 "fields": [
                     {
@@ -6375,7 +6375,7 @@
         {
             "dialect": {},
             "name": "va_dwm_visit",
-            "path": "VA_DWM_VISIT.csv",
+            "path": "VA/VA_DWM_VISIT.csv",
             "schema": {
                 "fields": [
                     {
@@ -6503,7 +6503,7 @@
         {
             "dialect": {},
             "name": "va_tree_woodland_stems",
-            "path": "VA_TREE_WOODLAND_STEMS.csv",
+            "path": "VA/VA_TREE_WOODLAND_STEMS.csv",
             "schema": {
                 "fields": [
                     {
@@ -6597,7 +6597,7 @@
         {
             "dialect": {},
             "name": "va_dwm_residual_pile",
-            "path": "VA_DWM_RESIDUAL_PILE.csv",
+            "path": "VA/VA_DWM_RESIDUAL_PILE.csv",
             "schema": {
                 "fields": [
                     {
@@ -6765,7 +6765,7 @@
         {
             "dialect": {},
             "name": "va_seedling",
-            "path": "VA_SEEDLING.csv",
+            "path": "VA/VA_SEEDLING.csv",
             "schema": {
                 "fields": [
                     {
@@ -6905,7 +6905,7 @@
         {
             "dialect": {},
             "name": "va_pop_eval",
-            "path": "VA_POP_EVAL.csv",
+            "path": "VA/VA_POP_EVAL.csv",
             "schema": {
                 "fields": [
                     {
@@ -7008,7 +7008,7 @@
         {
             "dialect": {},
             "name": "va_ozone_validation",
-            "path": "VA_OZONE_VALIDATION.csv",
+            "path": "VA/VA_OZONE_VALIDATION.csv",
             "schema": {
                 "fields": [
                     {
@@ -7102,7 +7102,7 @@
         {
             "dialect": {},
             "name": "va_pop_eval_typ",
-            "path": "VA_POP_EVAL_TYP.csv",
+            "path": "VA/VA_POP_EVAL_TYP.csv",
             "schema": {
                 "fields": [
                     {
@@ -7155,7 +7155,7 @@
         {
             "dialect": {},
             "name": "va_tree",
-            "path": "VA_TREE.csv",
+            "path": "VA/VA_TREE.csv",
             "schema": {
                 "fields": [
                     {
@@ -8001,7 +8001,7 @@
         {
             "dialect": {},
             "name": "va_ozone_plot",
-            "path": "VA_OZONE_PLOT.csv",
+            "path": "VA/VA_OZONE_PLOT.csv",
             "schema": {
                 "fields": [
                     {
@@ -8115,7 +8115,7 @@
         {
             "dialect": {},
             "name": "va_dwm_coarse_woody_debris",
-            "path": "VA_DWM_COARSE_WOODY_DEBRIS.csv",
+            "path": "VA/VA_DWM_COARSE_WOODY_DEBRIS.csv",
             "schema": {
                 "fields": [
                     {
@@ -8364,7 +8364,7 @@
         {
             "dialect": {},
             "name": "va_dwm_transect_segment",
-            "path": "VA_DWM_TRANSECT_SEGMENT.csv",
+            "path": "VA/VA_DWM_TRANSECT_SEGMENT.csv",
             "schema": {
                 "fields": [
                     {
@@ -8484,7 +8484,7 @@
         {
             "dialect": {},
             "name": "va_dwm_duff_litter_fuel",
-            "path": "VA_DWM_DUFF_LITTER_FUEL.csv",
+            "path": "VA/VA_DWM_DUFF_LITTER_FUEL.csv",
             "schema": {
                 "fields": [
                     {
@@ -8608,7 +8608,7 @@
         {
             "dialect": {},
             "name": "va_cond_dwm_calc",
-            "path": "VA_COND_DWM_CALC.csv",
+            "path": "VA/VA_COND_DWM_CALC.csv",
             "schema": {
                 "fields": [
                     {
@@ -9124,7 +9124,7 @@
         {
             "dialect": {},
             "name": "va_veg_subplot",
-            "path": "VA_VEG_SUBPLOT.csv",
+            "path": "VA/VA_VEG_SUBPLOT.csv",
             "schema": {
                 "fields": [
                     {
@@ -9274,7 +9274,7 @@
         {
             "dialect": {},
             "name": "va_lichen_visit",
-            "path": "VA_LICHEN_VISIT.csv",
+            "path": "VA/VA_LICHEN_VISIT.csv",
             "schema": {
                 "fields": [
                     {

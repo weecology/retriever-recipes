@@ -17,7 +17,7 @@
         {
             "dialect": {},
             "name": "ak_plotgeom",
-            "path": "AK_PLOTGEOM.csv",
+            "path": "AK/AK_PLOTGEOM.csv",
             "schema": {
                 "fields": [
                     {
@@ -134,7 +134,7 @@
         {
             "dialect": {},
             "name": "ak_invasive_subplot_spp",
-            "path": "AK_INVASIVE_SUBPLOT_SPP.csv",
+            "path": "AK/AK_INVASIVE_SUBPLOT_SPP.csv",
             "schema": {
                 "fields": [
                     {
@@ -231,7 +231,7 @@
         {
             "dialect": {},
             "name": "ak_dwm_visit",
-            "path": "AK_DWM_VISIT.csv",
+            "path": "AK/AK_DWM_VISIT.csv",
             "schema": {
                 "fields": [
                     {
@@ -359,7 +359,7 @@
         {
             "dialect": {},
             "name": "ak_lichen_lab",
-            "path": "AK_LICHEN_LAB.csv",
+            "path": "AK/AK_LICHEN_LAB.csv",
             "schema": {
                 "fields": [
                     {
@@ -438,7 +438,7 @@
         {
             "dialect": {},
             "name": "ak_plot",
-            "path": "AK_PLOT.csv",
+            "path": "AK/AK_PLOT.csv",
             "schema": {
                 "fields": [
                     {
@@ -741,7 +741,7 @@
         {
             "dialect": {},
             "name": "ak_subp_cond_chng_mtrx",
-            "path": "AK_SUBP_COND_CHNG_MTRX.csv",
+            "path": "AK/AK_SUBP_COND_CHNG_MTRX.csv",
             "schema": {
                 "fields": [
                     {
@@ -812,7 +812,7 @@
         {
             "dialect": {},
             "name": "ak_soils_erosion",
-            "path": "AK_SOILS_EROSION.csv",
+            "path": "AK/AK_SOILS_EROSION.csv",
             "schema": {
                 "fields": [
                     {
@@ -903,7 +903,7 @@
         {
             "dialect": {},
             "name": "ak_boundary",
-            "path": "AK_BOUNDARY.csv",
+            "path": "AK/AK_BOUNDARY.csv",
             "schema": {
                 "fields": [
                     {
@@ -1006,7 +1006,7 @@
         {
             "dialect": {},
             "name": "ak_tree_regional_biomass",
-            "path": "AK_TREE_REGIONAL_BIOMASS.csv",
+            "path": "AK/AK_TREE_REGIONAL_BIOMASS.csv",
             "schema": {
                 "fields": [
                     {
@@ -1062,7 +1062,7 @@
         {
             "dialect": {},
             "name": "ak_pop_plot_stratum_assgn",
-            "path": "AK_POP_PLOT_STRATUM_ASSGN.csv",
+            "path": "AK/AK_POP_PLOT_STRATUM_ASSGN.csv",
             "schema": {
                 "fields": [
                     {
@@ -1145,7 +1145,7 @@
         {
             "dialect": {},
             "name": "ak_veg_plot_species",
-            "path": "AK_VEG_PLOT_SPECIES.csv",
+            "path": "AK/AK_VEG_PLOT_SPECIES.csv",
             "schema": {
                 "fields": [
                     {
@@ -1245,7 +1245,7 @@
         {
             "dialect": {},
             "name": "ak_subplot_regen",
-            "path": "AK_SUBPLOT_REGEN.csv",
+            "path": "AK/AK_SUBPLOT_REGEN.csv",
             "schema": {
                 "fields": [
                     {
@@ -1343,7 +1343,7 @@
         {
             "dialect": {},
             "name": "ak_tree_grm_component",
-            "path": "AK_TREE_GRM_COMPONENT.csv",
+            "path": "AK/AK_TREE_GRM_COMPONENT.csv",
             "schema": {
                 "fields": [
                     {
@@ -1747,7 +1747,7 @@
         {
             "dialect": {},
             "name": "ak_veg_visit",
-            "path": "AK_VEG_VISIT.csv",
+            "path": "AK/AK_VEG_VISIT.csv",
             "schema": {
                 "fields": [
                     {
@@ -1844,7 +1844,7 @@
         {
             "dialect": {},
             "name": "ak_pop_eval_typ",
-            "path": "AK_POP_EVAL_TYP.csv",
+            "path": "AK/AK_POP_EVAL_TYP.csv",
             "schema": {
                 "fields": [
                     {
@@ -1897,7 +1897,7 @@
         {
             "dialect": {},
             "name": "ak_ozone_species_summary",
-            "path": "AK_OZONE_SPECIES_SUMMARY.csv",
+            "path": "AK/AK_OZONE_SPECIES_SUMMARY.csv",
             "schema": {
                 "fields": [
                     {
@@ -2048,7 +2048,7 @@
         {
             "dialect": {},
             "name": "ak_ozone_plot",
-            "path": "AK_OZONE_PLOT.csv",
+            "path": "AK/AK_OZONE_PLOT.csv",
             "schema": {
                 "fields": [
                     {
@@ -2164,7 +2164,7 @@
         {
             "dialect": {},
             "name": "ak_p2veg_subp_structure",
-            "path": "AK_P2VEG_SUBP_STRUCTURE.csv",
+            "path": "AK/AK_P2VEG_SUBP_STRUCTURE.csv",
             "schema": {
                 "fields": [
                     {
@@ -2256,7 +2256,7 @@
         {
             "dialect": {},
             "name": "ak_lichen_visit",
-            "path": "AK_LICHEN_VISIT.csv",
+            "path": "AK/AK_LICHEN_VISIT.csv",
             "schema": {
                 "fields": [
                     {
@@ -2420,7 +2420,7 @@
         {
             "dialect": {},
             "name": "ak_pop_eval",
-            "path": "AK_POP_EVAL.csv",
+            "path": "AK/AK_POP_EVAL.csv",
             "schema": {
                 "fields": [
                     {
@@ -2522,7 +2522,7 @@
         {
             "dialect": {},
             "name": "ak_seedling",
-            "path": "AK_SEEDLING.csv",
+            "path": "AK/AK_SEEDLING.csv",
             "schema": {
                 "fields": [
                     {
@@ -2662,7 +2662,7 @@
         {
             "dialect": {},
             "name": "ak_dwm_residual_pile",
-            "path": "AK_DWM_RESIDUAL_PILE.csv",
+            "path": "AK/AK_DWM_RESIDUAL_PILE.csv",
             "schema": {
                 "fields": [
                     {
@@ -2824,7 +2824,7 @@
         {
             "dialect": {},
             "name": "ak_cond_dwm_calc",
-            "path": "AK_COND_DWM_CALC.csv",
+            "path": "AK/AK_COND_DWM_CALC.csv",
             "schema": {
                 "fields": [
                     {
@@ -3325,7 +3325,7 @@
         {
             "dialect": {},
             "name": "ak_subp_cond",
-            "path": "AK_SUBP_COND.csv",
+            "path": "AK/AK_SUBP_COND.csv",
             "schema": {
                 "fields": [
                     {
@@ -3425,7 +3425,7 @@
         {
             "dialect": {},
             "name": "ak_soils_visit",
-            "path": "AK_SOILS_VISIT.csv",
+            "path": "AK/AK_SOILS_VISIT.csv",
             "schema": {
                 "fields": [
                     {
@@ -3501,7 +3501,7 @@
         {
             "dialect": {},
             "name": "ak_subplot",
-            "path": "AK_SUBPLOT.csv",
+            "path": "AK/AK_SUBPLOT.csv",
             "schema": {
                 "fields": [
                     {
@@ -3722,7 +3722,7 @@
         {
             "dialect": {},
             "name": "ak_tree",
-            "path": "AK_TREE.csv",
+            "path": "AK/AK_TREE.csv",
             "schema": {
                 "fields": [
                     {
@@ -4567,7 +4567,7 @@
         {
             "dialect": {},
             "name": "ak_ozone_validation",
-            "path": "AK_OZONE_VALIDATION.csv",
+            "path": "AK/AK_OZONE_VALIDATION.csv",
             "schema": {
                 "fields": [
                     {
@@ -4662,7 +4662,7 @@
         {
             "dialect": {},
             "name": "ak_pop_stratum",
-            "path": "AK_POP_STRATUM.csv",
+            "path": "AK/AK_POP_STRATUM.csv",
             "schema": {
                 "fields": [
                     {
@@ -4799,7 +4799,7 @@
         {
             "dialect": {},
             "name": "ak_plotsnap",
-            "path": "AK_PLOTSNAP.csv",
+            "path": "AK/AK_PLOTSNAP.csv",
             "schema": {
                 "fields": [
                     {
@@ -5194,7 +5194,7 @@
         {
             "dialect": {},
             "name": "ak_pop_estn_unit",
-            "path": "AK_POP_ESTN_UNIT.csv",
+            "path": "AK/AK_POP_ESTN_UNIT.csv",
             "schema": {
                 "fields": [
                     {
@@ -5283,7 +5283,7 @@
         {
             "dialect": {},
             "name": "ak_survey",
-            "path": "AK_SURVEY.csv",
+            "path": "AK/AK_SURVEY.csv",
             "schema": {
                 "fields": [
                     {
@@ -5368,7 +5368,7 @@
         {
             "dialect": {},
             "name": "ak_cond",
-            "path": "AK_COND.csv",
+            "path": "AK/AK_COND.csv",
             "schema": {
                 "fields": [
                     {
@@ -5988,7 +5988,7 @@
         {
             "dialect": {},
             "name": "ak_sitetree",
-            "path": "AK_SITETREE.csv",
+            "path": "AK/AK_SITETREE.csv",
             "schema": {
                 "fields": [
                     {
@@ -6185,7 +6185,7 @@
         {
             "dialect": {},
             "name": "ak_p2veg_subplot_spp",
-            "path": "AK_P2VEG_SUBPLOT_SPP.csv",
+            "path": "AK/AK_P2VEG_SUBPLOT_SPP.csv",
             "schema": {
                 "fields": [
                     {
@@ -6291,7 +6291,7 @@
         {
             "dialect": {},
             "name": "ak_veg_subplot_spp",
-            "path": "AK_VEG_SUBPLOT_SPP.csv",
+            "path": "AK/AK_VEG_SUBPLOT_SPP.csv",
             "schema": {
                 "fields": [
                     {
@@ -6416,7 +6416,7 @@
         {
             "dialect": {},
             "name": "ak_ozone_biosite_summary",
-            "path": "AK_OZONE_BIOSITE_SUMMARY.csv",
+            "path": "AK/AK_OZONE_BIOSITE_SUMMARY.csv",
             "schema": {
                 "fields": [
                     {
@@ -6535,7 +6535,7 @@
         {
             "dialect": {},
             "name": "ak_ozone_visit",
-            "path": "AK_OZONE_VISIT.csv",
+            "path": "AK/AK_OZONE_VISIT.csv",
             "schema": {
                 "fields": [
                     {
@@ -6659,7 +6659,7 @@
         {
             "dialect": {},
             "name": "ak_dwm_coarse_woody_debris",
-            "path": "AK_DWM_COARSE_WOODY_DEBRIS.csv",
+            "path": "AK/AK_DWM_COARSE_WOODY_DEBRIS.csv",
             "schema": {
                 "fields": [
                     {
@@ -6904,7 +6904,7 @@
         {
             "dialect": {},
             "name": "ak_seedling_regen",
-            "path": "AK_SEEDLING_REGEN.csv",
+            "path": "AK/AK_SEEDLING_REGEN.csv",
             "schema": {
                 "fields": [
                     {
@@ -7014,7 +7014,7 @@
         {
             "dialect": {},
             "name": "ak_dwm_duff_litter_fuel",
-            "path": "AK_DWM_DUFF_LITTER_FUEL.csv",
+            "path": "AK/AK_DWM_DUFF_LITTER_FUEL.csv",
             "schema": {
                 "fields": [
                     {
@@ -7138,7 +7138,7 @@
         {
             "dialect": {},
             "name": "ak_veg_quadrat",
-            "path": "AK_VEG_QUADRAT.csv",
+            "path": "AK/AK_VEG_QUADRAT.csv",
             "schema": {
                 "fields": [
                     {
@@ -7229,7 +7229,7 @@
         {
             "dialect": {},
             "name": "ak_tree_grm_midpt",
-            "path": "AK_TREE_GRM_MIDPT.csv",
+            "path": "AK/AK_TREE_GRM_MIDPT.csv",
             "schema": {
                 "fields": [
                     {
@@ -7376,7 +7376,7 @@
         {
             "dialect": {},
             "name": "ak_dwm_transect_segment",
-            "path": "AK_DWM_TRANSECT_SEGMENT.csv",
+            "path": "AK/AK_DWM_TRANSECT_SEGMENT.csv",
             "schema": {
                 "fields": [
                     {
@@ -7496,7 +7496,7 @@
         {
             "dialect": {},
             "name": "ak_ozone_plot_summary",
-            "path": "AK_OZONE_PLOT_SUMMARY.csv",
+            "path": "AK/AK_OZONE_PLOT_SUMMARY.csv",
             "schema": {
                 "fields": [
                     {
@@ -7615,7 +7615,7 @@
         {
             "dialect": {},
             "name": "ak_lichen_plot_summary",
-            "path": "AK_LICHEN_PLOT_SUMMARY.csv",
+            "path": "AK/AK_LICHEN_PLOT_SUMMARY.csv",
             "schema": {
                 "fields": [
                     {
@@ -7694,7 +7694,7 @@
         {
             "dialect": {},
             "name": "ak_tree_grm_begin",
-            "path": "AK_TREE_GRM_BEGIN.csv",
+            "path": "AK/AK_TREE_GRM_BEGIN.csv",
             "schema": {
                 "fields": [
                     {
@@ -7839,7 +7839,7 @@
         {
             "dialect": {},
             "name": "ak_veg_subplot",
-            "path": "AK_VEG_SUBPLOT.csv",
+            "path": "AK/AK_VEG_SUBPLOT.csv",
             "schema": {
                 "fields": [
                     {
@@ -7990,7 +7990,7 @@
         {
             "dialect": {},
             "name": "ak_grnd_cvr",
-            "path": "AK_GRND_CVR.csv",
+            "path": "AK/AK_GRND_CVR.csv",
             "schema": {
                 "fields": [
                     {
@@ -8080,7 +8080,7 @@
         {
             "dialect": {},
             "name": "ak_tree_grm_threshold",
-            "path": "AK_TREE_GRM_THRESHOLD.csv",
+            "path": "AK/AK_TREE_GRM_THRESHOLD.csv",
             "schema": {
                 "fields": [
                     {
@@ -8240,7 +8240,7 @@
         {
             "dialect": {},
             "name": "ak_soils_lab",
-            "path": "AK_SOILS_LAB.csv",
+            "path": "AK/AK_SOILS_LAB.csv",
             "schema": {
                 "fields": [
                     {
@@ -8460,7 +8460,7 @@
         {
             "dialect": {},
             "name": "ak_tree_grm_estn",
-            "path": "AK_TREE_GRM_ESTN.csv",
+            "path": "AK/AK_TREE_GRM_ESTN.csv",
             "schema": {
                 "fields": [
                     {
@@ -8680,7 +8680,7 @@
         {
             "dialect": {},
             "name": "ak_dwm_fine_woody_debris",
-            "path": "AK_DWM_FINE_WOODY_DEBRIS.csv",
+            "path": "AK/AK_DWM_FINE_WOODY_DEBRIS.csv",
             "schema": {
                 "fields": [
                     {
@@ -8837,7 +8837,7 @@
         {
             "dialect": {},
             "name": "ak_tree_woodland_stems",
-            "path": "AK_TREE_WOODLAND_STEMS.csv",
+            "path": "AK/AK_TREE_WOODLAND_STEMS.csv",
             "schema": {
                 "fields": [
                     {
@@ -8931,7 +8931,7 @@
         {
             "dialect": {},
             "name": "ak_county",
-            "path": "AK_COUNTY.csv",
+            "path": "AK/AK_COUNTY.csv",
             "schema": {
                 "fields": [
                     {
@@ -8987,7 +8987,7 @@
         {
             "dialect": {},
             "name": "ak_pop_eval_attribute",
-            "path": "AK_POP_EVAL_ATTRIBUTE.csv",
+            "path": "AK/AK_POP_EVAL_ATTRIBUTE.csv",
             "schema": {
                 "fields": [
                     {
@@ -9038,7 +9038,7 @@
         {
             "dialect": {},
             "name": "ak_dwm_microplot_fuel",
-            "path": "AK_DWM_MICROPLOT_FUEL.csv",
+            "path": "AK/AK_DWM_MICROPLOT_FUEL.csv",
             "schema": {
                 "fields": [
                     {
@@ -9146,7 +9146,7 @@
         {
             "dialect": {},
             "name": "ak_plot_regen",
-            "path": "AK_PLOT_REGEN.csv",
+            "path": "AK/AK_PLOT_REGEN.csv",
             "schema": {
                 "fields": [
                     {
@@ -9220,7 +9220,7 @@
         {
             "dialect": {},
             "name": "ak_pop_eval_grp",
-            "path": "AK_POP_EVAL_GRP.csv",
+            "path": "AK/AK_POP_EVAL_GRP.csv",
             "schema": {
                 "fields": [
                     {
@@ -9282,7 +9282,7 @@
         {
             "dialect": {},
             "name": "ak_soils_sample_loc",
-            "path": "AK_SOILS_SAMPLE_LOC.csv",
+            "path": "AK/AK_SOILS_SAMPLE_LOC.csv",
             "schema": {
                 "fields": [
                     {

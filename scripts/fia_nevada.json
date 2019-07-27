@@ -17,7 +17,7 @@
         {
             "dialect": {},
             "name": "nv_plot",
-            "path": "NV_PLOT.csv",
+            "path": "NV/NV_PLOT.csv",
             "schema": {
                 "fields": [
                     {
@@ -320,7 +320,7 @@
         {
             "dialect": {},
             "name": "nv_seedling",
-            "path": "NV_SEEDLING.csv",
+            "path": "NV/NV_SEEDLING.csv",
             "schema": {
                 "fields": [
                     {
@@ -460,7 +460,7 @@
         {
             "dialect": {},
             "name": "nv_veg_plot_species",
-            "path": "NV_VEG_PLOT_SPECIES.csv",
+            "path": "NV/NV_VEG_PLOT_SPECIES.csv",
             "schema": {
                 "fields": [
                     {
@@ -554,7 +554,7 @@
         {
             "dialect": {},
             "name": "nv_tree_woodland_stems",
-            "path": "NV_TREE_WOODLAND_STEMS.csv",
+            "path": "NV/NV_TREE_WOODLAND_STEMS.csv",
             "schema": {
                 "fields": [
                     {
@@ -648,7 +648,7 @@
         {
             "dialect": {},
             "name": "nv_subplot",
-            "path": "NV_SUBPLOT.csv",
+            "path": "NV/NV_SUBPLOT.csv",
             "schema": {
                 "fields": [
                     {
@@ -868,7 +868,7 @@
         {
             "dialect": {},
             "name": "nv_ozone_plot_summary",
-            "path": "NV_OZONE_PLOT_SUMMARY.csv",
+            "path": "NV/NV_OZONE_PLOT_SUMMARY.csv",
             "schema": {
                 "fields": [
                     {
@@ -986,7 +986,7 @@
         {
             "dialect": {},
             "name": "nv_ozone_species_summary",
-            "path": "NV_OZONE_SPECIES_SUMMARY.csv",
+            "path": "NV/NV_OZONE_SPECIES_SUMMARY.csv",
             "schema": {
                 "fields": [
                     {
@@ -1136,7 +1136,7 @@
         {
             "dialect": {},
             "name": "nv_pop_eval",
-            "path": "NV_POP_EVAL.csv",
+            "path": "NV/NV_POP_EVAL.csv",
             "schema": {
                 "fields": [
                     {
@@ -1240,7 +1240,7 @@
         {
             "dialect": {},
             "name": "nv_p2veg_subp_structure",
-            "path": "NV_P2VEG_SUBP_STRUCTURE.csv",
+            "path": "NV/NV_P2VEG_SUBP_STRUCTURE.csv",
             "schema": {
                 "fields": [
                     {
@@ -1332,7 +1332,7 @@
         {
             "dialect": {},
             "name": "nv_pop_estn_unit",
-            "path": "NV_POP_ESTN_UNIT.csv",
+            "path": "NV/NV_POP_ESTN_UNIT.csv",
             "schema": {
                 "fields": [
                     {
@@ -1423,7 +1423,7 @@
         {
             "dialect": {},
             "name": "nv_survey",
-            "path": "NV_SURVEY.csv",
+            "path": "NV/NV_SURVEY.csv",
             "schema": {
                 "fields": [
                     {
@@ -1508,7 +1508,7 @@
         {
             "dialect": {},
             "name": "nv_plot_regen",
-            "path": "NV_PLOT_REGEN.csv",
+            "path": "NV/NV_PLOT_REGEN.csv",
             "schema": {
                 "fields": [
                     {
@@ -1582,7 +1582,7 @@
         {
             "dialect": {},
             "name": "nv_tree_grm_begin",
-            "path": "NV_TREE_GRM_BEGIN.csv",
+            "path": "NV/NV_TREE_GRM_BEGIN.csv",
             "schema": {
                 "fields": [
                     {
@@ -1716,7 +1716,7 @@
         {
             "dialect": {},
             "name": "nv_tree_grm_threshold",
-            "path": "NV_TREE_GRM_THRESHOLD.csv",
+            "path": "NV/NV_TREE_GRM_THRESHOLD.csv",
             "schema": {
                 "fields": [
                     {
@@ -1858,7 +1858,7 @@
         {
             "dialect": {},
             "name": "nv_dwm_coarse_woody_debris",
-            "path": "NV_DWM_COARSE_WOODY_DEBRIS.csv",
+            "path": "NV/NV_DWM_COARSE_WOODY_DEBRIS.csv",
             "schema": {
                 "fields": [
                     {
@@ -2107,7 +2107,7 @@
         {
             "dialect": {},
             "name": "nv_boundary",
-            "path": "NV_BOUNDARY.csv",
+            "path": "NV/NV_BOUNDARY.csv",
             "schema": {
                 "fields": [
                     {
@@ -2210,7 +2210,7 @@
         {
             "dialect": {},
             "name": "nv_pop_eval_typ",
-            "path": "NV_POP_EVAL_TYP.csv",
+            "path": "NV/NV_POP_EVAL_TYP.csv",
             "schema": {
                 "fields": [
                     {
@@ -2263,7 +2263,7 @@
         {
             "dialect": {},
             "name": "nv_seedling_regen",
-            "path": "NV_SEEDLING_REGEN.csv",
+            "path": "NV/NV_SEEDLING_REGEN.csv",
             "schema": {
                 "fields": [
                     {
@@ -2373,7 +2373,7 @@
         {
             "dialect": {},
             "name": "nv_pop_plot_stratum_assgn",
-            "path": "NV_POP_PLOT_STRATUM_ASSGN.csv",
+            "path": "NV/NV_POP_PLOT_STRATUM_ASSGN.csv",
             "schema": {
                 "fields": [
                     {
@@ -2457,7 +2457,7 @@
         {
             "dialect": {},
             "name": "nv_lichen_visit",
-            "path": "NV_LICHEN_VISIT.csv",
+            "path": "NV/NV_LICHEN_VISIT.csv",
             "schema": {
                 "fields": [
                     {
@@ -2621,7 +2621,7 @@
         {
             "dialect": {},
             "name": "nv_tree_grm_midpt",
-            "path": "NV_TREE_GRM_MIDPT.csv",
+            "path": "NV/NV_TREE_GRM_MIDPT.csv",
             "schema": {
                 "fields": [
                     {
@@ -2752,7 +2752,7 @@
         {
             "dialect": {},
             "name": "nv_tree_regional_biomass",
-            "path": "NV_TREE_REGIONAL_BIOMASS.csv",
+            "path": "NV/NV_TREE_REGIONAL_BIOMASS.csv",
             "schema": {
                 "fields": [
                     {
@@ -2808,7 +2808,7 @@
         {
             "dialect": {},
             "name": "nv_dwm_microplot_fuel",
-            "path": "NV_DWM_MICROPLOT_FUEL.csv",
+            "path": "NV/NV_DWM_MICROPLOT_FUEL.csv",
             "schema": {
                 "fields": [
                     {
@@ -2915,7 +2915,7 @@
         {
             "dialect": {},
             "name": "nv_pop_eval_attribute",
-            "path": "NV_POP_EVAL_ATTRIBUTE.csv",
+            "path": "NV/NV_POP_EVAL_ATTRIBUTE.csv",
             "schema": {
                 "fields": [
                     {
@@ -2966,7 +2966,7 @@
         {
             "dialect": {},
             "name": "nv_invasive_subplot_spp",
-            "path": "NV_INVASIVE_SUBPLOT_SPP.csv",
+            "path": "NV/NV_INVASIVE_SUBPLOT_SPP.csv",
             "schema": {
                 "fields": [
                     {
@@ -3063,7 +3063,7 @@
         {
             "dialect": {},
             "name": "nv_soils_lab",
-            "path": "NV_SOILS_LAB.csv",
+            "path": "NV/NV_SOILS_LAB.csv",
             "schema": {
                 "fields": [
                     {
@@ -3283,7 +3283,7 @@
         {
             "dialect": {},
             "name": "nv_lichen_plot_summary",
-            "path": "NV_LICHEN_PLOT_SUMMARY.csv",
+            "path": "NV/NV_LICHEN_PLOT_SUMMARY.csv",
             "schema": {
                 "fields": [
                     {
@@ -3362,7 +3362,7 @@
         {
             "dialect": {},
             "name": "nv_soils_visit",
-            "path": "NV_SOILS_VISIT.csv",
+            "path": "NV/NV_SOILS_VISIT.csv",
             "schema": {
                 "fields": [
                     {
@@ -3438,7 +3438,7 @@
         {
             "dialect": {},
             "name": "nv_county",
-            "path": "NV_COUNTY.csv",
+            "path": "NV/NV_COUNTY.csv",
             "schema": {
                 "fields": [
                     {
@@ -3495,7 +3495,7 @@
         {
             "dialect": {},
             "name": "nv_tree",
-            "path": "NV_TREE.csv",
+            "path": "NV/NV_TREE.csv",
             "schema": {
                 "fields": [
                     {
@@ -4338,7 +4338,7 @@
         {
             "dialect": {},
             "name": "nv_plotgeom",
-            "path": "NV_PLOTGEOM.csv",
+            "path": "NV/NV_PLOTGEOM.csv",
             "schema": {
                 "fields": [
                     {
@@ -4456,7 +4456,7 @@
         {
             "dialect": {},
             "name": "nv_dwm_residual_pile",
-            "path": "NV_DWM_RESIDUAL_PILE.csv",
+            "path": "NV/NV_DWM_RESIDUAL_PILE.csv",
             "schema": {
                 "fields": [
                     {
@@ -4620,7 +4620,7 @@
         {
             "dialect": {},
             "name": "nv_tree_grm_estn",
-            "path": "NV_TREE_GRM_ESTN.csv",
+            "path": "NV/NV_TREE_GRM_ESTN.csv",
             "schema": {
                 "fields": [
                     {
@@ -4832,7 +4832,7 @@
         {
             "dialect": {},
             "name": "nv_pop_stratum",
-            "path": "NV_POP_STRATUM.csv",
+            "path": "NV/NV_POP_STRATUM.csv",
             "schema": {
                 "fields": [
                     {
@@ -4969,7 +4969,7 @@
         {
             "dialect": {},
             "name": "nv_p2veg_subplot_spp",
-            "path": "NV_P2VEG_SUBPLOT_SPP.csv",
+            "path": "NV/NV_P2VEG_SUBPLOT_SPP.csv",
             "schema": {
                 "fields": [
                     {
@@ -5075,7 +5075,7 @@
         {
             "dialect": {},
             "name": "nv_ozone_plot",
-            "path": "NV_OZONE_PLOT.csv",
+            "path": "NV/NV_OZONE_PLOT.csv",
             "schema": {
                 "fields": [
                     {
@@ -5189,7 +5189,7 @@
         {
             "dialect": {},
             "name": "nv_subplot_regen",
-            "path": "NV_SUBPLOT_REGEN.csv",
+            "path": "NV/NV_SUBPLOT_REGEN.csv",
             "schema": {
                 "fields": [
                     {
@@ -5287,7 +5287,7 @@
         {
             "dialect": {},
             "name": "nv_ozone_visit",
-            "path": "NV_OZONE_VISIT.csv",
+            "path": "NV/NV_OZONE_VISIT.csv",
             "schema": {
                 "fields": [
                     {
@@ -5409,7 +5409,7 @@
         {
             "dialect": {},
             "name": "nv_cond",
-            "path": "NV_COND.csv",
+            "path": "NV/NV_COND.csv",
             "schema": {
                 "fields": [
                     {
@@ -6029,7 +6029,7 @@
         {
             "dialect": {},
             "name": "nv_soils_erosion",
-            "path": "NV_SOILS_EROSION.csv",
+            "path": "NV/NV_SOILS_EROSION.csv",
             "schema": {
                 "fields": [
                     {
@@ -6120,7 +6120,7 @@
         {
             "dialect": {},
             "name": "nv_veg_quadrat",
-            "path": "NV_VEG_QUADRAT.csv",
+            "path": "NV/NV_VEG_QUADRAT.csv",
             "schema": {
                 "fields": [
                     {
@@ -6210,7 +6210,7 @@
         {
             "dialect": {},
             "name": "nv_grnd_cvr",
-            "path": "NV_GRND_CVR.csv",
+            "path": "NV/NV_GRND_CVR.csv",
             "schema": {
                 "fields": [
                     {
@@ -6300,7 +6300,7 @@
         {
             "dialect": {},
             "name": "nv_dwm_fine_woody_debris",
-            "path": "NV_DWM_FINE_WOODY_DEBRIS.csv",
+            "path": "NV/NV_DWM_FINE_WOODY_DEBRIS.csv",
             "schema": {
                 "fields": [
                     {
@@ -6457,7 +6457,7 @@
         {
             "dialect": {},
             "name": "nv_dwm_visit",
-            "path": "NV_DWM_VISIT.csv",
+            "path": "NV/NV_DWM_VISIT.csv",
             "schema": {
                 "fields": [
                     {
@@ -6585,7 +6585,7 @@
         {
             "dialect": {},
             "name": "nv_tree_grm_component",
-            "path": "NV_TREE_GRM_COMPONENT.csv",
+            "path": "NV/NV_TREE_GRM_COMPONENT.csv",
             "schema": {
                 "fields": [
                     {
@@ -6970,7 +6970,7 @@
         {
             "dialect": {},
             "name": "nv_ozone_validation",
-            "path": "NV_OZONE_VALIDATION.csv",
+            "path": "NV/NV_OZONE_VALIDATION.csv",
             "schema": {
                 "fields": [
                     {
@@ -7064,7 +7064,7 @@
         {
             "dialect": {},
             "name": "nv_dwm_transect_segment",
-            "path": "NV_DWM_TRANSECT_SEGMENT.csv",
+            "path": "NV/NV_DWM_TRANSECT_SEGMENT.csv",
             "schema": {
                 "fields": [
                     {
@@ -7181,7 +7181,7 @@
         {
             "dialect": {},
             "name": "nv_veg_subplot",
-            "path": "NV_VEG_SUBPLOT.csv",
+            "path": "NV/NV_VEG_SUBPLOT.csv",
             "schema": {
                 "fields": [
                     {
@@ -7331,7 +7331,7 @@
         {
             "dialect": {},
             "name": "nv_lichen_lab",
-            "path": "NV_LICHEN_LAB.csv",
+            "path": "NV/NV_LICHEN_LAB.csv",
             "schema": {
                 "fields": [
                     {
@@ -7410,7 +7410,7 @@
         {
             "dialect": {},
             "name": "nv_dwm_duff_litter_fuel",
-            "path": "NV_DWM_DUFF_LITTER_FUEL.csv",
+            "path": "NV/NV_DWM_DUFF_LITTER_FUEL.csv",
             "schema": {
                 "fields": [
                     {
@@ -7534,7 +7534,7 @@
         {
             "dialect": {},
             "name": "nv_soils_sample_loc",
-            "path": "NV_SOILS_SAMPLE_LOC.csv",
+            "path": "NV/NV_SOILS_SAMPLE_LOC.csv",
             "schema": {
                 "fields": [
                     {
@@ -7665,7 +7665,7 @@
         {
             "dialect": {},
             "name": "nv_subp_cond",
-            "path": "NV_SUBP_COND.csv",
+            "path": "NV/NV_SUBP_COND.csv",
             "schema": {
                 "fields": [
                     {
@@ -7765,7 +7765,7 @@
         {
             "dialect": {},
             "name": "nv_cond_dwm_calc",
-            "path": "NV_COND_DWM_CALC.csv",
+            "path": "NV/NV_COND_DWM_CALC.csv",
             "schema": {
                 "fields": [
                     {
@@ -8272,7 +8272,7 @@
         {
             "dialect": {},
             "name": "nv_subp_cond_chng_mtrx",
-            "path": "NV_SUBP_COND_CHNG_MTRX.csv",
+            "path": "NV/NV_SUBP_COND_CHNG_MTRX.csv",
             "schema": {
                 "fields": [
                     {
@@ -8342,7 +8342,7 @@
         {
             "dialect": {},
             "name": "nv_veg_visit",
-            "path": "NV_VEG_VISIT.csv",
+            "path": "NV/NV_VEG_VISIT.csv",
             "schema": {
                 "fields": [
                     {
@@ -8436,7 +8436,7 @@
         {
             "dialect": {},
             "name": "nv_plotsnap",
-            "path": "NV_PLOTSNAP.csv",
+            "path": "NV/NV_PLOTSNAP.csv",
             "schema": {
                 "fields": [
                     {
@@ -8836,7 +8836,7 @@
         {
             "dialect": {},
             "name": "nv_ozone_biosite_summary",
-            "path": "NV_OZONE_BIOSITE_SUMMARY.csv",
+            "path": "NV/NV_OZONE_BIOSITE_SUMMARY.csv",
             "schema": {
                 "fields": [
                     {
@@ -8954,7 +8954,7 @@
         {
             "dialect": {},
             "name": "nv_veg_subplot_spp",
-            "path": "NV_VEG_SUBPLOT_SPP.csv",
+            "path": "NV/NV_VEG_SUBPLOT_SPP.csv",
             "schema": {
                 "fields": [
                     {
@@ -9076,7 +9076,7 @@
         {
             "dialect": {},
             "name": "nv_pop_eval_grp",
-            "path": "NV_POP_EVAL_GRP.csv",
+            "path": "NV/NV_POP_EVAL_GRP.csv",
             "schema": {
                 "fields": [
                     {
@@ -9138,7 +9138,7 @@
         {
             "dialect": {},
             "name": "nv_sitetree",
-            "path": "NV_SITETREE.csv",
+            "path": "NV/NV_SITETREE.csv",
             "schema": {
                 "fields": [
                     {

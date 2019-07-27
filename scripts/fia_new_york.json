@@ -17,7 +17,7 @@
         {
             "dialect": {},
             "name": "ny_dwm_microplot_fuel",
-            "path": "NY_DWM_MICROPLOT_FUEL.csv",
+            "path": "NY/NY_DWM_MICROPLOT_FUEL.csv",
             "schema": {
                 "fields": [
                     {
@@ -125,7 +125,7 @@
         {
             "dialect": {},
             "name": "ny_pop_eval_attribute",
-            "path": "NY_POP_EVAL_ATTRIBUTE.csv",
+            "path": "NY/NY_POP_EVAL_ATTRIBUTE.csv",
             "schema": {
                 "fields": [
                     {
@@ -176,7 +176,7 @@
         {
             "dialect": {},
             "name": "ny_subplot_regen",
-            "path": "NY_SUBPLOT_REGEN.csv",
+            "path": "NY/NY_SUBPLOT_REGEN.csv",
             "schema": {
                 "fields": [
                     {
@@ -276,7 +276,7 @@
         {
             "dialect": {},
             "name": "ny_veg_plot_species",
-            "path": "NY_VEG_PLOT_SPECIES.csv",
+            "path": "NY/NY_VEG_PLOT_SPECIES.csv",
             "schema": {
                 "fields": [
                     {
@@ -376,7 +376,7 @@
         {
             "dialect": {},
             "name": "ny_tree_woodland_stems",
-            "path": "NY_TREE_WOODLAND_STEMS.csv",
+            "path": "NY/NY_TREE_WOODLAND_STEMS.csv",
             "schema": {
                 "fields": [
                     {
@@ -470,7 +470,7 @@
         {
             "dialect": {},
             "name": "ny_soils_erosion",
-            "path": "NY_SOILS_EROSION.csv",
+            "path": "NY/NY_SOILS_EROSION.csv",
             "schema": {
                 "fields": [
                     {
@@ -561,7 +561,7 @@
         {
             "dialect": {},
             "name": "ny_ozone_species_summary",
-            "path": "NY_OZONE_SPECIES_SUMMARY.csv",
+            "path": "NY/NY_OZONE_SPECIES_SUMMARY.csv",
             "schema": {
                 "fields": [
                     {
@@ -714,7 +714,7 @@
         {
             "dialect": {},
             "name": "ny_tree_grm_threshold",
-            "path": "NY_TREE_GRM_THRESHOLD.csv",
+            "path": "NY/NY_TREE_GRM_THRESHOLD.csv",
             "schema": {
                 "fields": [
                     {
@@ -874,7 +874,7 @@
         {
             "dialect": {},
             "name": "ny_plot_regen",
-            "path": "NY_PLOT_REGEN.csv",
+            "path": "NY/NY_PLOT_REGEN.csv",
             "schema": {
                 "fields": [
                     {
@@ -949,7 +949,7 @@
         {
             "dialect": {},
             "name": "ny_dwm_visit",
-            "path": "NY_DWM_VISIT.csv",
+            "path": "NY/NY_DWM_VISIT.csv",
             "schema": {
                 "fields": [
                     {
@@ -1077,7 +1077,7 @@
         {
             "dialect": {},
             "name": "ny_county",
-            "path": "NY_COUNTY.csv",
+            "path": "NY/NY_COUNTY.csv",
             "schema": {
                 "fields": [
                     {
@@ -1133,7 +1133,7 @@
         {
             "dialect": {},
             "name": "ny_grnd_cvr",
-            "path": "NY_GRND_CVR.csv",
+            "path": "NY/NY_GRND_CVR.csv",
             "schema": {
                 "fields": [
                     {
@@ -1223,7 +1223,7 @@
         {
             "dialect": {},
             "name": "ny_cond_dwm_calc",
-            "path": "NY_COND_DWM_CALC.csv",
+            "path": "NY/NY_COND_DWM_CALC.csv",
             "schema": {
                 "fields": [
                     {
@@ -1739,7 +1739,7 @@
         {
             "dialect": {},
             "name": "ny_subp_cond",
-            "path": "NY_SUBP_COND.csv",
+            "path": "NY/NY_SUBP_COND.csv",
             "schema": {
                 "fields": [
                     {
@@ -1840,7 +1840,7 @@
         {
             "dialect": {},
             "name": "ny_cond",
-            "path": "NY_COND.csv",
+            "path": "NY/NY_COND.csv",
             "schema": {
                 "fields": [
                     {
@@ -2467,7 +2467,7 @@
         {
             "dialect": {},
             "name": "ny_pop_eval_typ",
-            "path": "NY_POP_EVAL_TYP.csv",
+            "path": "NY/NY_POP_EVAL_TYP.csv",
             "schema": {
                 "fields": [
                     {
@@ -2520,7 +2520,7 @@
         {
             "dialect": {},
             "name": "ny_sitetree",
-            "path": "NY_SITETREE.csv",
+            "path": "NY/NY_SITETREE.csv",
             "schema": {
                 "fields": [
                     {
@@ -2716,7 +2716,7 @@
         {
             "dialect": {},
             "name": "ny_lichen_plot_summary",
-            "path": "NY_LICHEN_PLOT_SUMMARY.csv",
+            "path": "NY/NY_LICHEN_PLOT_SUMMARY.csv",
             "schema": {
                 "fields": [
                     {
@@ -2795,7 +2795,7 @@
         {
             "dialect": {},
             "name": "ny_dwm_transect_segment",
-            "path": "NY_DWM_TRANSECT_SEGMENT.csv",
+            "path": "NY/NY_DWM_TRANSECT_SEGMENT.csv",
             "schema": {
                 "fields": [
                     {
@@ -2915,7 +2915,7 @@
         {
             "dialect": {},
             "name": "ny_survey",
-            "path": "NY_SURVEY.csv",
+            "path": "NY/NY_SURVEY.csv",
             "schema": {
                 "fields": [
                     {
@@ -3000,7 +3000,7 @@
         {
             "dialect": {},
             "name": "ny_dwm_duff_litter_fuel",
-            "path": "NY_DWM_DUFF_LITTER_FUEL.csv",
+            "path": "NY/NY_DWM_DUFF_LITTER_FUEL.csv",
             "schema": {
                 "fields": [
                     {
@@ -3124,7 +3124,7 @@
         {
             "dialect": {},
             "name": "ny_tree_regional_biomass",
-            "path": "NY_TREE_REGIONAL_BIOMASS.csv",
+            "path": "NY/NY_TREE_REGIONAL_BIOMASS.csv",
             "schema": {
                 "fields": [
                     {
@@ -3180,7 +3180,7 @@
         {
             "dialect": {},
             "name": "ny_soils_visit",
-            "path": "NY_SOILS_VISIT.csv",
+            "path": "NY/NY_SOILS_VISIT.csv",
             "schema": {
                 "fields": [
                     {
@@ -3256,7 +3256,7 @@
         {
             "dialect": {},
             "name": "ny_ozone_plot_summary",
-            "path": "NY_OZONE_PLOT_SUMMARY.csv",
+            "path": "NY/NY_OZONE_PLOT_SUMMARY.csv",
             "schema": {
                 "fields": [
                     {
@@ -3378,7 +3378,7 @@
         {
             "dialect": {},
             "name": "ny_plotsnap",
-            "path": "NY_PLOTSNAP.csv",
+            "path": "NY/NY_PLOTSNAP.csv",
             "schema": {
                 "fields": [
                     {
@@ -3785,7 +3785,7 @@
         {
             "dialect": {},
             "name": "ny_dwm_coarse_woody_debris",
-            "path": "NY_DWM_COARSE_WOODY_DEBRIS.csv",
+            "path": "NY/NY_DWM_COARSE_WOODY_DEBRIS.csv",
             "schema": {
                 "fields": [
                     {
@@ -4035,7 +4035,7 @@
         {
             "dialect": {},
             "name": "ny_lichen_visit",
-            "path": "NY_LICHEN_VISIT.csv",
+            "path": "NY/NY_LICHEN_VISIT.csv",
             "schema": {
                 "fields": [
                     {
@@ -4199,7 +4199,7 @@
         {
             "dialect": {},
             "name": "ny_subplot",
-            "path": "NY_SUBPLOT.csv",
+            "path": "NY/NY_SUBPLOT.csv",
             "schema": {
                 "fields": [
                     {
@@ -4420,7 +4420,7 @@
         {
             "dialect": {},
             "name": "ny_veg_visit",
-            "path": "NY_VEG_VISIT.csv",
+            "path": "NY/NY_VEG_VISIT.csv",
             "schema": {
                 "fields": [
                     {
@@ -4516,7 +4516,7 @@
         {
             "dialect": {},
             "name": "ny_p2veg_subplot_spp",
-            "path": "NY_P2VEG_SUBPLOT_SPP.csv",
+            "path": "NY/NY_P2VEG_SUBPLOT_SPP.csv",
             "schema": {
                 "fields": [
                     {
@@ -4618,7 +4618,7 @@
         {
             "dialect": {},
             "name": "ny_seedling_regen",
-            "path": "NY_SEEDLING_REGEN.csv",
+            "path": "NY/NY_SEEDLING_REGEN.csv",
             "schema": {
                 "fields": [
                     {
@@ -4730,7 +4730,7 @@
         {
             "dialect": {},
             "name": "ny_tree_grm_midpt",
-            "path": "NY_TREE_GRM_MIDPT.csv",
+            "path": "NY/NY_TREE_GRM_MIDPT.csv",
             "schema": {
                 "fields": [
                     {
@@ -4877,7 +4877,7 @@
         {
             "dialect": {},
             "name": "ny_dwm_fine_woody_debris",
-            "path": "NY_DWM_FINE_WOODY_DEBRIS.csv",
+            "path": "NY/NY_DWM_FINE_WOODY_DEBRIS.csv",
             "schema": {
                 "fields": [
                     {
@@ -5034,7 +5034,7 @@
         {
             "dialect": {},
             "name": "ny_dwm_residual_pile",
-            "path": "NY_DWM_RESIDUAL_PILE.csv",
+            "path": "NY/NY_DWM_RESIDUAL_PILE.csv",
             "schema": {
                 "fields": [
                     {
@@ -5202,7 +5202,7 @@
         {
             "dialect": {},
             "name": "ny_ozone_visit",
-            "path": "NY_OZONE_VISIT.csv",
+            "path": "NY/NY_OZONE_VISIT.csv",
             "schema": {
                 "fields": [
                     {
@@ -5326,7 +5326,7 @@
         {
             "dialect": {},
             "name": "ny_ozone_plot",
-            "path": "NY_OZONE_PLOT.csv",
+            "path": "NY/NY_OZONE_PLOT.csv",
             "schema": {
                 "fields": [
                     {
@@ -5442,7 +5442,7 @@
         {
             "dialect": {},
             "name": "ny_tree_grm_begin",
-            "path": "NY_TREE_GRM_BEGIN.csv",
+            "path": "NY/NY_TREE_GRM_BEGIN.csv",
             "schema": {
                 "fields": [
                     {
@@ -5587,7 +5587,7 @@
         {
             "dialect": {},
             "name": "ny_seedling",
-            "path": "NY_SEEDLING.csv",
+            "path": "NY/NY_SEEDLING.csv",
             "schema": {
                 "fields": [
                     {
@@ -5727,7 +5727,7 @@
         {
             "dialect": {},
             "name": "ny_pop_stratum",
-            "path": "NY_POP_STRATUM.csv",
+            "path": "NY/NY_POP_STRATUM.csv",
             "schema": {
                 "fields": [
                     {
@@ -5864,7 +5864,7 @@
         {
             "dialect": {},
             "name": "ny_p2veg_subp_structure",
-            "path": "NY_P2VEG_SUBP_STRUCTURE.csv",
+            "path": "NY/NY_P2VEG_SUBP_STRUCTURE.csv",
             "schema": {
                 "fields": [
                     {
@@ -5956,7 +5956,7 @@
         {
             "dialect": {},
             "name": "ny_veg_subplot_spp",
-            "path": "NY_VEG_SUBPLOT_SPP.csv",
+            "path": "NY/NY_VEG_SUBPLOT_SPP.csv",
             "schema": {
                 "fields": [
                     {
@@ -6081,7 +6081,7 @@
         {
             "dialect": {},
             "name": "ny_ozone_validation",
-            "path": "NY_OZONE_VALIDATION.csv",
+            "path": "NY/NY_OZONE_VALIDATION.csv",
             "schema": {
                 "fields": [
                     {
@@ -6177,7 +6177,7 @@
         {
             "dialect": {},
             "name": "ny_tree",
-            "path": "NY_TREE.csv",
+            "path": "NY/NY_TREE.csv",
             "schema": {
                 "fields": [
                     {
@@ -7024,7 +7024,7 @@
         {
             "dialect": {},
             "name": "ny_pop_eval",
-            "path": "NY_POP_EVAL.csv",
+            "path": "NY/NY_POP_EVAL.csv",
             "schema": {
                 "fields": [
                     {
@@ -7127,7 +7127,7 @@
         {
             "dialect": {},
             "name": "ny_pop_estn_unit",
-            "path": "NY_POP_ESTN_UNIT.csv",
+            "path": "NY/NY_POP_ESTN_UNIT.csv",
             "schema": {
                 "fields": [
                     {
@@ -7218,7 +7218,7 @@
         {
             "dialect": {},
             "name": "ny_veg_quadrat",
-            "path": "NY_VEG_QUADRAT.csv",
+            "path": "NY/NY_VEG_QUADRAT.csv",
             "schema": {
                 "fields": [
                     {
@@ -7310,7 +7310,7 @@
         {
             "dialect": {},
             "name": "ny_plot",
-            "path": "NY_PLOT.csv",
+            "path": "NY/NY_PLOT.csv",
             "schema": {
                 "fields": [
                     {
@@ -7612,7 +7612,7 @@
         {
             "dialect": {},
             "name": "ny_invasive_subplot_spp",
-            "path": "NY_INVASIVE_SUBPLOT_SPP.csv",
+            "path": "NY/NY_INVASIVE_SUBPLOT_SPP.csv",
             "schema": {
                 "fields": [
                     {
@@ -7710,7 +7710,7 @@
         {
             "dialect": {},
             "name": "ny_boundary",
-            "path": "NY_BOUNDARY.csv",
+            "path": "NY/NY_BOUNDARY.csv",
             "schema": {
                 "fields": [
                     {
@@ -7814,7 +7814,7 @@
         {
             "dialect": {},
             "name": "ny_subp_cond_chng_mtrx",
-            "path": "NY_SUBP_COND_CHNG_MTRX.csv",
+            "path": "NY/NY_SUBP_COND_CHNG_MTRX.csv",
             "schema": {
                 "fields": [
                     {
@@ -7886,7 +7886,7 @@
         {
             "dialect": {},
             "name": "ny_lichen_lab",
-            "path": "NY_LICHEN_LAB.csv",
+            "path": "NY/NY_LICHEN_LAB.csv",
             "schema": {
                 "fields": [
                     {
@@ -7965,7 +7965,7 @@
         {
             "dialect": {},
             "name": "ny_pop_eval_grp",
-            "path": "NY_POP_EVAL_GRP.csv",
+            "path": "NY/NY_POP_EVAL_GRP.csv",
             "schema": {
                 "fields": [
                     {
@@ -8027,7 +8027,7 @@
         {
             "dialect": {},
             "name": "ny_soils_sample_loc",
-            "path": "NY_SOILS_SAMPLE_LOC.csv",
+            "path": "NY/NY_SOILS_SAMPLE_LOC.csv",
             "schema": {
                 "fields": [
                     {
@@ -8159,7 +8159,7 @@
         {
             "dialect": {},
             "name": "ny_ozone_biosite_summary",
-            "path": "NY_OZONE_BIOSITE_SUMMARY.csv",
+            "path": "NY/NY_OZONE_BIOSITE_SUMMARY.csv",
             "schema": {
                 "fields": [
                     {
@@ -8280,7 +8280,7 @@
         {
             "dialect": {},
             "name": "ny_veg_subplot",
-            "path": "NY_VEG_SUBPLOT.csv",
+            "path": "NY/NY_VEG_SUBPLOT.csv",
             "schema": {
                 "fields": [
                     {
@@ -8431,7 +8431,7 @@
         {
             "dialect": {},
             "name": "ny_tree_grm_component",
-            "path": "NY_TREE_GRM_COMPONENT.csv",
+            "path": "NY/NY_TREE_GRM_COMPONENT.csv",
             "schema": {
                 "fields": [
                     {
@@ -8837,7 +8837,7 @@
         {
             "dialect": {},
             "name": "ny_plotgeom",
-            "path": "NY_PLOTGEOM.csv",
+            "path": "NY/NY_PLOTGEOM.csv",
             "schema": {
                 "fields": [
                     {
@@ -8954,7 +8954,7 @@
         {
             "dialect": {},
             "name": "ny_tree_grm_estn",
-            "path": "NY_TREE_GRM_ESTN.csv",
+            "path": "NY/NY_TREE_GRM_ESTN.csv",
             "schema": {
                 "fields": [
                     {
@@ -9175,7 +9175,7 @@
         {
             "dialect": {},
             "name": "ny_pop_plot_stratum_assgn",
-            "path": "NY_POP_PLOT_STRATUM_ASSGN.csv",
+            "path": "NY/NY_POP_PLOT_STRATUM_ASSGN.csv",
             "schema": {
                 "fields": [
                     {
@@ -9259,7 +9259,7 @@
         {
             "dialect": {},
             "name": "ny_soils_lab",
-            "path": "NY_SOILS_LAB.csv",
+            "path": "NY/NY_SOILS_LAB.csv",
             "schema": {
                 "fields": [
                     {

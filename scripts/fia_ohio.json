@@ -17,7 +17,7 @@
         {
             "dialect": {},
             "name": "oh_dwm_visit",
-            "path": "OH_DWM_VISIT.csv",
+            "path": "OH/OH_DWM_VISIT.csv",
             "schema": {
                 "fields": [
                     {
@@ -145,7 +145,7 @@
         {
             "dialect": {},
             "name": "oh_p2veg_subplot_spp",
-            "path": "OH_P2VEG_SUBPLOT_SPP.csv",
+            "path": "OH/OH_P2VEG_SUBPLOT_SPP.csv",
             "schema": {
                 "fields": [
                     {
@@ -247,7 +247,7 @@
         {
             "dialect": {},
             "name": "oh_veg_subplot",
-            "path": "OH_VEG_SUBPLOT.csv",
+            "path": "OH/OH_VEG_SUBPLOT.csv",
             "schema": {
                 "fields": [
                     {
@@ -399,7 +399,7 @@
         {
             "dialect": {},
             "name": "oh_ozone_validation",
-            "path": "OH_OZONE_VALIDATION.csv",
+            "path": "OH/OH_OZONE_VALIDATION.csv",
             "schema": {
                 "fields": [
                     {
@@ -495,7 +495,7 @@
         {
             "dialect": {},
             "name": "oh_tree",
-            "path": "OH_TREE.csv",
+            "path": "OH/OH_TREE.csv",
             "schema": {
                 "fields": [
                     {
@@ -1340,7 +1340,7 @@
         {
             "dialect": {},
             "name": "oh_lichen_plot_summary",
-            "path": "OH_LICHEN_PLOT_SUMMARY.csv",
+            "path": "OH/OH_LICHEN_PLOT_SUMMARY.csv",
             "schema": {
                 "fields": [
                     {
@@ -1419,7 +1419,7 @@
         {
             "dialect": {},
             "name": "oh_ozone_species_summary",
-            "path": "OH_OZONE_SPECIES_SUMMARY.csv",
+            "path": "OH/OH_OZONE_SPECIES_SUMMARY.csv",
             "schema": {
                 "fields": [
                     {
@@ -1572,7 +1572,7 @@
         {
             "dialect": {},
             "name": "oh_sitetree",
-            "path": "OH_SITETREE.csv",
+            "path": "OH/OH_SITETREE.csv",
             "schema": {
                 "fields": [
                     {
@@ -1768,7 +1768,7 @@
         {
             "dialect": {},
             "name": "oh_lichen_lab",
-            "path": "OH_LICHEN_LAB.csv",
+            "path": "OH/OH_LICHEN_LAB.csv",
             "schema": {
                 "fields": [
                     {
@@ -1848,7 +1848,7 @@
         {
             "dialect": {},
             "name": "oh_p2veg_subp_structure",
-            "path": "OH_P2VEG_SUBP_STRUCTURE.csv",
+            "path": "OH/OH_P2VEG_SUBP_STRUCTURE.csv",
             "schema": {
                 "fields": [
                     {
@@ -1940,7 +1940,7 @@
         {
             "dialect": {},
             "name": "oh_lichen_visit",
-            "path": "OH_LICHEN_VISIT.csv",
+            "path": "OH/OH_LICHEN_VISIT.csv",
             "schema": {
                 "fields": [
                     {
@@ -2104,7 +2104,7 @@
         {
             "dialect": {},
             "name": "oh_ozone_plot_summary",
-            "path": "OH_OZONE_PLOT_SUMMARY.csv",
+            "path": "OH/OH_OZONE_PLOT_SUMMARY.csv",
             "schema": {
                 "fields": [
                     {
@@ -2226,7 +2226,7 @@
         {
             "dialect": {},
             "name": "oh_pop_eval_typ",
-            "path": "OH_POP_EVAL_TYP.csv",
+            "path": "OH/OH_POP_EVAL_TYP.csv",
             "schema": {
                 "fields": [
                     {
@@ -2279,7 +2279,7 @@
         {
             "dialect": {},
             "name": "oh_cond_dwm_calc",
-            "path": "OH_COND_DWM_CALC.csv",
+            "path": "OH/OH_COND_DWM_CALC.csv",
             "schema": {
                 "fields": [
                     {
@@ -2795,7 +2795,7 @@
         {
             "dialect": {},
             "name": "oh_plotsnap",
-            "path": "OH_PLOTSNAP.csv",
+            "path": "OH/OH_PLOTSNAP.csv",
             "schema": {
                 "fields": [
                     {
@@ -3202,7 +3202,7 @@
         {
             "dialect": {},
             "name": "oh_tree_grm_threshold",
-            "path": "OH_TREE_GRM_THRESHOLD.csv",
+            "path": "OH/OH_TREE_GRM_THRESHOLD.csv",
             "schema": {
                 "fields": [
                     {
@@ -3362,7 +3362,7 @@
         {
             "dialect": {},
             "name": "oh_pop_stratum",
-            "path": "OH_POP_STRATUM.csv",
+            "path": "OH/OH_POP_STRATUM.csv",
             "schema": {
                 "fields": [
                     {
@@ -3499,7 +3499,7 @@
         {
             "dialect": {},
             "name": "oh_tree_regional_biomass",
-            "path": "OH_TREE_REGIONAL_BIOMASS.csv",
+            "path": "OH/OH_TREE_REGIONAL_BIOMASS.csv",
             "schema": {
                 "fields": [
                     {
@@ -3555,7 +3555,7 @@
         {
             "dialect": {},
             "name": "oh_veg_visit",
-            "path": "OH_VEG_VISIT.csv",
+            "path": "OH/OH_VEG_VISIT.csv",
             "schema": {
                 "fields": [
                     {
@@ -3652,7 +3652,7 @@
         {
             "dialect": {},
             "name": "oh_dwm_microplot_fuel",
-            "path": "OH_DWM_MICROPLOT_FUEL.csv",
+            "path": "OH/OH_DWM_MICROPLOT_FUEL.csv",
             "schema": {
                 "fields": [
                     {
@@ -3760,7 +3760,7 @@
         {
             "dialect": {},
             "name": "oh_ozone_visit",
-            "path": "OH_OZONE_VISIT.csv",
+            "path": "OH/OH_OZONE_VISIT.csv",
             "schema": {
                 "fields": [
                     {
@@ -3884,7 +3884,7 @@
         {
             "dialect": {},
             "name": "oh_pop_eval_attribute",
-            "path": "OH_POP_EVAL_ATTRIBUTE.csv",
+            "path": "OH/OH_POP_EVAL_ATTRIBUTE.csv",
             "schema": {
                 "fields": [
                     {
@@ -3935,7 +3935,7 @@
         {
             "dialect": {},
             "name": "oh_ozone_plot",
-            "path": "OH_OZONE_PLOT.csv",
+            "path": "OH/OH_OZONE_PLOT.csv",
             "schema": {
                 "fields": [
                     {
@@ -4051,7 +4051,7 @@
         {
             "dialect": {},
             "name": "oh_tree_woodland_stems",
-            "path": "OH_TREE_WOODLAND_STEMS.csv",
+            "path": "OH/OH_TREE_WOODLAND_STEMS.csv",
             "schema": {
                 "fields": [
                     {
@@ -4145,7 +4145,7 @@
         {
             "dialect": {},
             "name": "oh_veg_quadrat",
-            "path": "OH_VEG_QUADRAT.csv",
+            "path": "OH/OH_VEG_QUADRAT.csv",
             "schema": {
                 "fields": [
                     {
@@ -4237,7 +4237,7 @@
         {
             "dialect": {},
             "name": "oh_dwm_coarse_woody_debris",
-            "path": "OH_DWM_COARSE_WOODY_DEBRIS.csv",
+            "path": "OH/OH_DWM_COARSE_WOODY_DEBRIS.csv",
             "schema": {
                 "fields": [
                     {
@@ -4487,7 +4487,7 @@
         {
             "dialect": {},
             "name": "oh_soils_sample_loc",
-            "path": "OH_SOILS_SAMPLE_LOC.csv",
+            "path": "OH/OH_SOILS_SAMPLE_LOC.csv",
             "schema": {
                 "fields": [
                     {
@@ -4619,7 +4619,7 @@
         {
             "dialect": {},
             "name": "oh_subplot_regen",
-            "path": "OH_SUBPLOT_REGEN.csv",
+            "path": "OH/OH_SUBPLOT_REGEN.csv",
             "schema": {
                 "fields": [
                     {
@@ -4719,7 +4719,7 @@
         {
             "dialect": {},
             "name": "oh_plot",
-            "path": "OH_PLOT.csv",
+            "path": "OH/OH_PLOT.csv",
             "schema": {
                 "fields": [
                     {
@@ -5021,7 +5021,7 @@
         {
             "dialect": {},
             "name": "oh_soils_erosion",
-            "path": "OH_SOILS_EROSION.csv",
+            "path": "OH/OH_SOILS_EROSION.csv",
             "schema": {
                 "fields": [
                     {
@@ -5113,7 +5113,7 @@
         {
             "dialect": {},
             "name": "oh_invasive_subplot_spp",
-            "path": "OH_INVASIVE_SUBPLOT_SPP.csv",
+            "path": "OH/OH_INVASIVE_SUBPLOT_SPP.csv",
             "schema": {
                 "fields": [
                     {
@@ -5211,7 +5211,7 @@
         {
             "dialect": {},
             "name": "oh_grnd_cvr",
-            "path": "OH_GRND_CVR.csv",
+            "path": "OH/OH_GRND_CVR.csv",
             "schema": {
                 "fields": [
                     {
@@ -5301,7 +5301,7 @@
         {
             "dialect": {},
             "name": "oh_subp_cond",
-            "path": "OH_SUBP_COND.csv",
+            "path": "OH/OH_SUBP_COND.csv",
             "schema": {
                 "fields": [
                     {
@@ -5401,7 +5401,7 @@
         {
             "dialect": {},
             "name": "oh_survey",
-            "path": "OH_SURVEY.csv",
+            "path": "OH/OH_SURVEY.csv",
             "schema": {
                 "fields": [
                     {
@@ -5486,7 +5486,7 @@
         {
             "dialect": {},
             "name": "oh_pop_eval_grp",
-            "path": "OH_POP_EVAL_GRP.csv",
+            "path": "OH/OH_POP_EVAL_GRP.csv",
             "schema": {
                 "fields": [
                     {
@@ -5548,7 +5548,7 @@
         {
             "dialect": {},
             "name": "oh_tree_grm_estn",
-            "path": "OH_TREE_GRM_ESTN.csv",
+            "path": "OH/OH_TREE_GRM_ESTN.csv",
             "schema": {
                 "fields": [
                     {
@@ -5768,7 +5768,7 @@
         {
             "dialect": {},
             "name": "oh_boundary",
-            "path": "OH_BOUNDARY.csv",
+            "path": "OH/OH_BOUNDARY.csv",
             "schema": {
                 "fields": [
                     {
@@ -5872,7 +5872,7 @@
         {
             "dialect": {},
             "name": "oh_soils_visit",
-            "path": "OH_SOILS_VISIT.csv",
+            "path": "OH/OH_SOILS_VISIT.csv",
             "schema": {
                 "fields": [
                     {
@@ -5948,7 +5948,7 @@
         {
             "dialect": {},
             "name": "oh_subp_cond_chng_mtrx",
-            "path": "OH_SUBP_COND_CHNG_MTRX.csv",
+            "path": "OH/OH_SUBP_COND_CHNG_MTRX.csv",
             "schema": {
                 "fields": [
                     {
@@ -6020,7 +6020,7 @@
         {
             "dialect": {},
             "name": "oh_tree_grm_component",
-            "path": "OH_TREE_GRM_COMPONENT.csv",
+            "path": "OH/OH_TREE_GRM_COMPONENT.csv",
             "schema": {
                 "fields": [
                     {
@@ -6424,7 +6424,7 @@
         {
             "dialect": {},
             "name": "oh_veg_plot_species",
-            "path": "OH_VEG_PLOT_SPECIES.csv",
+            "path": "OH/OH_VEG_PLOT_SPECIES.csv",
             "schema": {
                 "fields": [
                     {
@@ -6524,7 +6524,7 @@
         {
             "dialect": {},
             "name": "oh_plotgeom",
-            "path": "OH_PLOTGEOM.csv",
+            "path": "OH/OH_PLOTGEOM.csv",
             "schema": {
                 "fields": [
                     {
@@ -6641,7 +6641,7 @@
         {
             "dialect": {},
             "name": "oh_subplot",
-            "path": "OH_SUBPLOT.csv",
+            "path": "OH/OH_SUBPLOT.csv",
             "schema": {
                 "fields": [
                     {
@@ -6862,7 +6862,7 @@
         {
             "dialect": {},
             "name": "oh_dwm_fine_woody_debris",
-            "path": "OH_DWM_FINE_WOODY_DEBRIS.csv",
+            "path": "OH/OH_DWM_FINE_WOODY_DEBRIS.csv",
             "schema": {
                 "fields": [
                     {
@@ -7019,7 +7019,7 @@
         {
             "dialect": {},
             "name": "oh_veg_subplot_spp",
-            "path": "OH_VEG_SUBPLOT_SPP.csv",
+            "path": "OH/OH_VEG_SUBPLOT_SPP.csv",
             "schema": {
                 "fields": [
                     {
@@ -7145,7 +7145,7 @@
         {
             "dialect": {},
             "name": "oh_pop_estn_unit",
-            "path": "OH_POP_ESTN_UNIT.csv",
+            "path": "OH/OH_POP_ESTN_UNIT.csv",
             "schema": {
                 "fields": [
                     {
@@ -7236,7 +7236,7 @@
         {
             "dialect": {},
             "name": "oh_soils_lab",
-            "path": "OH_SOILS_LAB.csv",
+            "path": "OH/OH_SOILS_LAB.csv",
             "schema": {
                 "fields": [
                     {
@@ -7457,7 +7457,7 @@
         {
             "dialect": {},
             "name": "oh_dwm_transect_segment",
-            "path": "OH_DWM_TRANSECT_SEGMENT.csv",
+            "path": "OH/OH_DWM_TRANSECT_SEGMENT.csv",
             "schema": {
                 "fields": [
                     {
@@ -7577,7 +7577,7 @@
         {
             "dialect": {},
             "name": "oh_county",
-            "path": "OH_COUNTY.csv",
+            "path": "OH/OH_COUNTY.csv",
             "schema": {
                 "fields": [
                     {
@@ -7633,7 +7633,7 @@
         {
             "dialect": {},
             "name": "oh_plot_regen",
-            "path": "OH_PLOT_REGEN.csv",
+            "path": "OH/OH_PLOT_REGEN.csv",
             "schema": {
                 "fields": [
                     {
@@ -7708,7 +7708,7 @@
         {
             "dialect": {},
             "name": "oh_seedling",
-            "path": "OH_SEEDLING.csv",
+            "path": "OH/OH_SEEDLING.csv",
             "schema": {
                 "fields": [
                     {
@@ -7848,7 +7848,7 @@
         {
             "dialect": {},
             "name": "oh_dwm_duff_litter_fuel",
-            "path": "OH_DWM_DUFF_LITTER_FUEL.csv",
+            "path": "OH/OH_DWM_DUFF_LITTER_FUEL.csv",
             "schema": {
                 "fields": [
                     {
@@ -7972,7 +7972,7 @@
         {
             "dialect": {},
             "name": "oh_cond",
-            "path": "OH_COND.csv",
+            "path": "OH/OH_COND.csv",
             "schema": {
                 "fields": [
                     {
@@ -8598,7 +8598,7 @@
         {
             "dialect": {},
             "name": "oh_pop_eval",
-            "path": "OH_POP_EVAL.csv",
+            "path": "OH/OH_POP_EVAL.csv",
             "schema": {
                 "fields": [
                     {
@@ -8701,7 +8701,7 @@
         {
             "dialect": {},
             "name": "oh_ozone_biosite_summary",
-            "path": "OH_OZONE_BIOSITE_SUMMARY.csv",
+            "path": "OH/OH_OZONE_BIOSITE_SUMMARY.csv",
             "schema": {
                 "fields": [
                     {
@@ -8822,7 +8822,7 @@
         {
             "dialect": {},
             "name": "oh_tree_grm_begin",
-            "path": "OH_TREE_GRM_BEGIN.csv",
+            "path": "OH/OH_TREE_GRM_BEGIN.csv",
             "schema": {
                 "fields": [
                     {
@@ -8967,7 +8967,7 @@
         {
             "dialect": {},
             "name": "oh_pop_plot_stratum_assgn",
-            "path": "OH_POP_PLOT_STRATUM_ASSGN.csv",
+            "path": "OH/OH_POP_PLOT_STRATUM_ASSGN.csv",
             "schema": {
                 "fields": [
                     {
@@ -9051,7 +9051,7 @@
         {
             "dialect": {},
             "name": "oh_seedling_regen",
-            "path": "OH_SEEDLING_REGEN.csv",
+            "path": "OH/OH_SEEDLING_REGEN.csv",
             "schema": {
                 "fields": [
                     {
@@ -9163,7 +9163,7 @@
         {
             "dialect": {},
             "name": "oh_tree_grm_midpt",
-            "path": "OH_TREE_GRM_MIDPT.csv",
+            "path": "OH/OH_TREE_GRM_MIDPT.csv",
             "schema": {
                 "fields": [
                     {
@@ -9310,7 +9310,7 @@
         {
             "dialect": {},
             "name": "oh_dwm_residual_pile",
-            "path": "OH_DWM_RESIDUAL_PILE.csv",
+            "path": "OH/OH_DWM_RESIDUAL_PILE.csv",
             "schema": {
                 "fields": [
                     {

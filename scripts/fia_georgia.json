@@ -17,7 +17,7 @@
         {
             "dialect": {},
             "name": "ga_tree_grm_midpt",
-            "path": "GA_TREE_GRM_MIDPT.csv",
+            "path": "GA/GA_TREE_GRM_MIDPT.csv",
             "schema": {
                 "fields": [
                     {
@@ -164,7 +164,7 @@
         {
             "dialect": {},
             "name": "ga_seedling_regen",
-            "path": "GA_SEEDLING_REGEN.csv",
+            "path": "GA/GA_SEEDLING_REGEN.csv",
             "schema": {
                 "fields": [
                     {
@@ -274,7 +274,7 @@
         {
             "dialect": {},
             "name": "ga_invasive_subplot_spp",
-            "path": "GA_INVASIVE_SUBPLOT_SPP.csv",
+            "path": "GA/GA_INVASIVE_SUBPLOT_SPP.csv",
             "schema": {
                 "fields": [
                     {
@@ -372,7 +372,7 @@
         {
             "dialect": {},
             "name": "ga_veg_visit",
-            "path": "GA_VEG_VISIT.csv",
+            "path": "GA/GA_VEG_VISIT.csv",
             "schema": {
                 "fields": [
                     {
@@ -466,7 +466,7 @@
         {
             "dialect": {},
             "name": "ga_tree_grm_begin",
-            "path": "GA_TREE_GRM_BEGIN.csv",
+            "path": "GA/GA_TREE_GRM_BEGIN.csv",
             "schema": {
                 "fields": [
                     {
@@ -611,7 +611,7 @@
         {
             "dialect": {},
             "name": "ga_plot",
-            "path": "GA_PLOT.csv",
+            "path": "GA/GA_PLOT.csv",
             "schema": {
                 "fields": [
                     {
@@ -913,7 +913,7 @@
         {
             "dialect": {},
             "name": "ga_tree_grm_threshold",
-            "path": "GA_TREE_GRM_THRESHOLD.csv",
+            "path": "GA/GA_TREE_GRM_THRESHOLD.csv",
             "schema": {
                 "fields": [
                     {
@@ -1071,7 +1071,7 @@
         {
             "dialect": {},
             "name": "ga_plotsnap",
-            "path": "GA_PLOTSNAP.csv",
+            "path": "GA/GA_PLOTSNAP.csv",
             "schema": {
                 "fields": [
                     {
@@ -1479,7 +1479,7 @@
         {
             "dialect": {},
             "name": "ga_soils_visit",
-            "path": "GA_SOILS_VISIT.csv",
+            "path": "GA/GA_SOILS_VISIT.csv",
             "schema": {
                 "fields": [
                     {
@@ -1555,7 +1555,7 @@
         {
             "dialect": {},
             "name": "ga_tree_grm_estn",
-            "path": "GA_TREE_GRM_ESTN.csv",
+            "path": "GA/GA_TREE_GRM_ESTN.csv",
             "schema": {
                 "fields": [
                     {
@@ -1774,7 +1774,7 @@
         {
             "dialect": {},
             "name": "ga_veg_subplot_spp",
-            "path": "GA_VEG_SUBPLOT_SPP.csv",
+            "path": "GA/GA_VEG_SUBPLOT_SPP.csv",
             "schema": {
                 "fields": [
                     {
@@ -1896,7 +1896,7 @@
         {
             "dialect": {},
             "name": "ga_dwm_residual_pile",
-            "path": "GA_DWM_RESIDUAL_PILE.csv",
+            "path": "GA/GA_DWM_RESIDUAL_PILE.csv",
             "schema": {
                 "fields": [
                     {
@@ -2064,7 +2064,7 @@
         {
             "dialect": {},
             "name": "ga_subplot",
-            "path": "GA_SUBPLOT.csv",
+            "path": "GA/GA_SUBPLOT.csv",
             "schema": {
                 "fields": [
                     {
@@ -2285,7 +2285,7 @@
         {
             "dialect": {},
             "name": "ga_tree_regional_biomass",
-            "path": "GA_TREE_REGIONAL_BIOMASS.csv",
+            "path": "GA/GA_TREE_REGIONAL_BIOMASS.csv",
             "schema": {
                 "fields": [
                     {
@@ -2341,7 +2341,7 @@
         {
             "dialect": {},
             "name": "ga_sitetree",
-            "path": "GA_SITETREE.csv",
+            "path": "GA/GA_SITETREE.csv",
             "schema": {
                 "fields": [
                     {
@@ -2537,7 +2537,7 @@
         {
             "dialect": {},
             "name": "ga_subp_cond",
-            "path": "GA_SUBP_COND.csv",
+            "path": "GA/GA_SUBP_COND.csv",
             "schema": {
                 "fields": [
                     {
@@ -2639,7 +2639,7 @@
         {
             "dialect": {},
             "name": "ga_lichen_lab",
-            "path": "GA_LICHEN_LAB.csv",
+            "path": "GA/GA_LICHEN_LAB.csv",
             "schema": {
                 "fields": [
                     {
@@ -2717,7 +2717,7 @@
         {
             "dialect": {},
             "name": "ga_pop_eval_attribute",
-            "path": "GA_POP_EVAL_ATTRIBUTE.csv",
+            "path": "GA/GA_POP_EVAL_ATTRIBUTE.csv",
             "schema": {
                 "fields": [
                     {
@@ -2768,7 +2768,7 @@
         {
             "dialect": {},
             "name": "ga_dwm_microplot_fuel",
-            "path": "GA_DWM_MICROPLOT_FUEL.csv",
+            "path": "GA/GA_DWM_MICROPLOT_FUEL.csv",
             "schema": {
                 "fields": [
                     {
@@ -2876,7 +2876,7 @@
         {
             "dialect": {},
             "name": "ga_ozone_species_summary",
-            "path": "GA_OZONE_SPECIES_SUMMARY.csv",
+            "path": "GA/GA_OZONE_SPECIES_SUMMARY.csv",
             "schema": {
                 "fields": [
                     {
@@ -3026,7 +3026,7 @@
         {
             "dialect": {},
             "name": "ga_tree",
-            "path": "GA_TREE.csv",
+            "path": "GA/GA_TREE.csv",
             "schema": {
                 "fields": [
                     {
@@ -3871,7 +3871,7 @@
         {
             "dialect": {},
             "name": "ga_veg_plot_species",
-            "path": "GA_VEG_PLOT_SPECIES.csv",
+            "path": "GA/GA_VEG_PLOT_SPECIES.csv",
             "schema": {
                 "fields": [
                     {
@@ -3965,7 +3965,7 @@
         {
             "dialect": {},
             "name": "ga_dwm_visit",
-            "path": "GA_DWM_VISIT.csv",
+            "path": "GA/GA_DWM_VISIT.csv",
             "schema": {
                 "fields": [
                     {
@@ -4093,7 +4093,7 @@
         {
             "dialect": {},
             "name": "ga_ozone_plot_summary",
-            "path": "GA_OZONE_PLOT_SUMMARY.csv",
+            "path": "GA/GA_OZONE_PLOT_SUMMARY.csv",
             "schema": {
                 "fields": [
                     {
@@ -4211,7 +4211,7 @@
         {
             "dialect": {},
             "name": "ga_subp_cond_chng_mtrx",
-            "path": "GA_SUBP_COND_CHNG_MTRX.csv",
+            "path": "GA/GA_SUBP_COND_CHNG_MTRX.csv",
             "schema": {
                 "fields": [
                     {
@@ -4283,7 +4283,7 @@
         {
             "dialect": {},
             "name": "ga_p2veg_subp_structure",
-            "path": "GA_P2VEG_SUBP_STRUCTURE.csv",
+            "path": "GA/GA_P2VEG_SUBP_STRUCTURE.csv",
             "schema": {
                 "fields": [
                     {
@@ -4375,7 +4375,7 @@
         {
             "dialect": {},
             "name": "ga_pop_estn_unit",
-            "path": "GA_POP_ESTN_UNIT.csv",
+            "path": "GA/GA_POP_ESTN_UNIT.csv",
             "schema": {
                 "fields": [
                     {
@@ -4466,7 +4466,7 @@
         {
             "dialect": {},
             "name": "ga_pop_eval_typ",
-            "path": "GA_POP_EVAL_TYP.csv",
+            "path": "GA/GA_POP_EVAL_TYP.csv",
             "schema": {
                 "fields": [
                     {
@@ -4519,7 +4519,7 @@
         {
             "dialect": {},
             "name": "ga_grnd_cvr",
-            "path": "GA_GRND_CVR.csv",
+            "path": "GA/GA_GRND_CVR.csv",
             "schema": {
                 "fields": [
                     {
@@ -4609,7 +4609,7 @@
         {
             "dialect": {},
             "name": "ga_ozone_plot",
-            "path": "GA_OZONE_PLOT.csv",
+            "path": "GA/GA_OZONE_PLOT.csv",
             "schema": {
                 "fields": [
                     {
@@ -4723,7 +4723,7 @@
         {
             "dialect": {},
             "name": "ga_lichen_visit",
-            "path": "GA_LICHEN_VISIT.csv",
+            "path": "GA/GA_LICHEN_VISIT.csv",
             "schema": {
                 "fields": [
                     {
@@ -4885,7 +4885,7 @@
         {
             "dialect": {},
             "name": "ga_ozone_biosite_summary",
-            "path": "GA_OZONE_BIOSITE_SUMMARY.csv",
+            "path": "GA/GA_OZONE_BIOSITE_SUMMARY.csv",
             "schema": {
                 "fields": [
                     {
@@ -5003,7 +5003,7 @@
         {
             "dialect": {},
             "name": "ga_veg_subplot",
-            "path": "GA_VEG_SUBPLOT.csv",
+            "path": "GA/GA_VEG_SUBPLOT.csv",
             "schema": {
                 "fields": [
                     {
@@ -5153,7 +5153,7 @@
         {
             "dialect": {},
             "name": "ga_cond_dwm_calc",
-            "path": "GA_COND_DWM_CALC.csv",
+            "path": "GA/GA_COND_DWM_CALC.csv",
             "schema": {
                 "fields": [
                     {
@@ -5669,7 +5669,7 @@
         {
             "dialect": {},
             "name": "ga_boundary",
-            "path": "GA_BOUNDARY.csv",
+            "path": "GA/GA_BOUNDARY.csv",
             "schema": {
                 "fields": [
                     {
@@ -5773,7 +5773,7 @@
         {
             "dialect": {},
             "name": "ga_pop_plot_stratum_assgn",
-            "path": "GA_POP_PLOT_STRATUM_ASSGN.csv",
+            "path": "GA/GA_POP_PLOT_STRATUM_ASSGN.csv",
             "schema": {
                 "fields": [
                     {
@@ -5857,7 +5857,7 @@
         {
             "dialect": {},
             "name": "ga_soils_sample_loc",
-            "path": "GA_SOILS_SAMPLE_LOC.csv",
+            "path": "GA/GA_SOILS_SAMPLE_LOC.csv",
             "schema": {
                 "fields": [
                     {
@@ -5988,7 +5988,7 @@
         {
             "dialect": {},
             "name": "ga_soils_lab",
-            "path": "GA_SOILS_LAB.csv",
+            "path": "GA/GA_SOILS_LAB.csv",
             "schema": {
                 "fields": [
                     {
@@ -6209,7 +6209,7 @@
         {
             "dialect": {},
             "name": "ga_tree_woodland_stems",
-            "path": "GA_TREE_WOODLAND_STEMS.csv",
+            "path": "GA/GA_TREE_WOODLAND_STEMS.csv",
             "schema": {
                 "fields": [
                     {
@@ -6303,7 +6303,7 @@
         {
             "dialect": {},
             "name": "ga_dwm_duff_litter_fuel",
-            "path": "GA_DWM_DUFF_LITTER_FUEL.csv",
+            "path": "GA/GA_DWM_DUFF_LITTER_FUEL.csv",
             "schema": {
                 "fields": [
                     {
@@ -6427,7 +6427,7 @@
         {
             "dialect": {},
             "name": "ga_plotgeom",
-            "path": "GA_PLOTGEOM.csv",
+            "path": "GA/GA_PLOTGEOM.csv",
             "schema": {
                 "fields": [
                     {
@@ -6546,7 +6546,7 @@
         {
             "dialect": {},
             "name": "ga_survey",
-            "path": "GA_SURVEY.csv",
+            "path": "GA/GA_SURVEY.csv",
             "schema": {
                 "fields": [
                     {
@@ -6631,7 +6631,7 @@
         {
             "dialect": {},
             "name": "ga_dwm_transect_segment",
-            "path": "GA_DWM_TRANSECT_SEGMENT.csv",
+            "path": "GA/GA_DWM_TRANSECT_SEGMENT.csv",
             "schema": {
                 "fields": [
                     {
@@ -6751,7 +6751,7 @@
         {
             "dialect": {},
             "name": "ga_cond",
-            "path": "GA_COND.csv",
+            "path": "GA/GA_COND.csv",
             "schema": {
                 "fields": [
                     {
@@ -7379,7 +7379,7 @@
         {
             "dialect": {},
             "name": "ga_soils_erosion",
-            "path": "GA_SOILS_EROSION.csv",
+            "path": "GA/GA_SOILS_EROSION.csv",
             "schema": {
                 "fields": [
                     {
@@ -7470,7 +7470,7 @@
         {
             "dialect": {},
             "name": "ga_p2veg_subplot_spp",
-            "path": "GA_P2VEG_SUBPLOT_SPP.csv",
+            "path": "GA/GA_P2VEG_SUBPLOT_SPP.csv",
             "schema": {
                 "fields": [
                     {
@@ -7572,7 +7572,7 @@
         {
             "dialect": {},
             "name": "ga_plot_regen",
-            "path": "GA_PLOT_REGEN.csv",
+            "path": "GA/GA_PLOT_REGEN.csv",
             "schema": {
                 "fields": [
                     {
@@ -7646,7 +7646,7 @@
         {
             "dialect": {},
             "name": "ga_pop_stratum",
-            "path": "GA_POP_STRATUM.csv",
+            "path": "GA/GA_POP_STRATUM.csv",
             "schema": {
                 "fields": [
                     {
@@ -7784,7 +7784,7 @@
         {
             "dialect": {},
             "name": "ga_seedling",
-            "path": "GA_SEEDLING.csv",
+            "path": "GA/GA_SEEDLING.csv",
             "schema": {
                 "fields": [
                     {
@@ -7924,7 +7924,7 @@
         {
             "dialect": {},
             "name": "ga_subplot_regen",
-            "path": "GA_SUBPLOT_REGEN.csv",
+            "path": "GA/GA_SUBPLOT_REGEN.csv",
             "schema": {
                 "fields": [
                     {
@@ -8022,7 +8022,7 @@
         {
             "dialect": {},
             "name": "ga_pop_eval_grp",
-            "path": "GA_POP_EVAL_GRP.csv",
+            "path": "GA/GA_POP_EVAL_GRP.csv",
             "schema": {
                 "fields": [
                     {
@@ -8084,7 +8084,7 @@
         {
             "dialect": {},
             "name": "ga_tree_grm_component",
-            "path": "GA_TREE_GRM_COMPONENT.csv",
+            "path": "GA/GA_TREE_GRM_COMPONENT.csv",
             "schema": {
                 "fields": [
                     {
@@ -8488,7 +8488,7 @@
         {
             "dialect": {},
             "name": "ga_dwm_coarse_woody_debris",
-            "path": "GA_DWM_COARSE_WOODY_DEBRIS.csv",
+            "path": "GA/GA_DWM_COARSE_WOODY_DEBRIS.csv",
             "schema": {
                 "fields": [
                     {
@@ -8737,7 +8737,7 @@
         {
             "dialect": {},
             "name": "ga_ozone_visit",
-            "path": "GA_OZONE_VISIT.csv",
+            "path": "GA/GA_OZONE_VISIT.csv",
             "schema": {
                 "fields": [
                     {
@@ -8859,7 +8859,7 @@
         {
             "dialect": {},
             "name": "ga_dwm_fine_woody_debris",
-            "path": "GA_DWM_FINE_WOODY_DEBRIS.csv",
+            "path": "GA/GA_DWM_FINE_WOODY_DEBRIS.csv",
             "schema": {
                 "fields": [
                     {
@@ -9016,7 +9016,7 @@
         {
             "dialect": {},
             "name": "ga_lichen_plot_summary",
-            "path": "GA_LICHEN_PLOT_SUMMARY.csv",
+            "path": "GA/GA_LICHEN_PLOT_SUMMARY.csv",
             "schema": {
                 "fields": [
                     {
@@ -9094,7 +9094,7 @@
         {
             "dialect": {},
             "name": "ga_ozone_validation",
-            "path": "GA_OZONE_VALIDATION.csv",
+            "path": "GA/GA_OZONE_VALIDATION.csv",
             "schema": {
                 "fields": [
                     {
@@ -9188,7 +9188,7 @@
         {
             "dialect": {},
             "name": "ga_veg_quadrat",
-            "path": "GA_VEG_QUADRAT.csv",
+            "path": "GA/GA_VEG_QUADRAT.csv",
             "schema": {
                 "fields": [
                     {
@@ -9278,7 +9278,7 @@
         {
             "dialect": {},
             "name": "ga_pop_eval",
-            "path": "GA_POP_EVAL.csv",
+            "path": "GA/GA_POP_EVAL.csv",
             "schema": {
                 "fields": [
                     {
@@ -9382,7 +9382,7 @@
         {
             "dialect": {},
             "name": "ga_county",
-            "path": "GA_COUNTY.csv",
+            "path": "GA/GA_COUNTY.csv",
             "schema": {
                 "fields": [
                     {

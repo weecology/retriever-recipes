@@ -17,7 +17,7 @@
         {
             "dialect": {},
             "name": "ar_ozone_plot_summary",
-            "path": "AR_OZONE_PLOT_SUMMARY.csv",
+            "path": "AR/AR_OZONE_PLOT_SUMMARY.csv",
             "schema": {
                 "fields": [
                     {
@@ -135,7 +135,7 @@
         {
             "dialect": {},
             "name": "ar_ozone_species_summary",
-            "path": "AR_OZONE_SPECIES_SUMMARY.csv",
+            "path": "AR/AR_OZONE_SPECIES_SUMMARY.csv",
             "schema": {
                 "fields": [
                     {
@@ -285,7 +285,7 @@
         {
             "dialect": {},
             "name": "ar_p2veg_subp_structure",
-            "path": "AR_P2VEG_SUBP_STRUCTURE.csv",
+            "path": "AR/AR_P2VEG_SUBP_STRUCTURE.csv",
             "schema": {
                 "fields": [
                     {
@@ -377,7 +377,7 @@
         {
             "dialect": {},
             "name": "ar_ozone_validation",
-            "path": "AR_OZONE_VALIDATION.csv",
+            "path": "AR/AR_OZONE_VALIDATION.csv",
             "schema": {
                 "fields": [
                     {
@@ -471,7 +471,7 @@
         {
             "dialect": {},
             "name": "ar_veg_quadrat",
-            "path": "AR_VEG_QUADRAT.csv",
+            "path": "AR/AR_VEG_QUADRAT.csv",
             "schema": {
                 "fields": [
                     {
@@ -561,7 +561,7 @@
         {
             "dialect": {},
             "name": "ar_boundary",
-            "path": "AR_BOUNDARY.csv",
+            "path": "AR/AR_BOUNDARY.csv",
             "schema": {
                 "fields": [
                     {
@@ -665,7 +665,7 @@
         {
             "dialect": {},
             "name": "ar_tree",
-            "path": "AR_TREE.csv",
+            "path": "AR/AR_TREE.csv",
             "schema": {
                 "fields": [
                     {
@@ -1511,7 +1511,7 @@
         {
             "dialect": {},
             "name": "ar_ozone_visit",
-            "path": "AR_OZONE_VISIT.csv",
+            "path": "AR/AR_OZONE_VISIT.csv",
             "schema": {
                 "fields": [
                     {
@@ -1633,7 +1633,7 @@
         {
             "dialect": {},
             "name": "ar_cond_dwm_calc",
-            "path": "AR_COND_DWM_CALC.csv",
+            "path": "AR/AR_COND_DWM_CALC.csv",
             "schema": {
                 "fields": [
                     {
@@ -2149,7 +2149,7 @@
         {
             "dialect": {},
             "name": "ar_subplot",
-            "path": "AR_SUBPLOT.csv",
+            "path": "AR/AR_SUBPLOT.csv",
             "schema": {
                 "fields": [
                     {
@@ -2370,7 +2370,7 @@
         {
             "dialect": {},
             "name": "ar_pop_stratum",
-            "path": "AR_POP_STRATUM.csv",
+            "path": "AR/AR_POP_STRATUM.csv",
             "schema": {
                 "fields": [
                     {
@@ -2508,7 +2508,7 @@
         {
             "dialect": {},
             "name": "ar_plotgeom",
-            "path": "AR_PLOTGEOM.csv",
+            "path": "AR/AR_PLOTGEOM.csv",
             "schema": {
                 "fields": [
                     {
@@ -2627,7 +2627,7 @@
         {
             "dialect": {},
             "name": "ar_plot",
-            "path": "AR_PLOT.csv",
+            "path": "AR/AR_PLOT.csv",
             "schema": {
                 "fields": [
                     {
@@ -2929,7 +2929,7 @@
         {
             "dialect": {},
             "name": "ar_pop_eval_grp",
-            "path": "AR_POP_EVAL_GRP.csv",
+            "path": "AR/AR_POP_EVAL_GRP.csv",
             "schema": {
                 "fields": [
                     {
@@ -2991,7 +2991,7 @@
         {
             "dialect": {},
             "name": "ar_subp_cond_chng_mtrx",
-            "path": "AR_SUBP_COND_CHNG_MTRX.csv",
+            "path": "AR/AR_SUBP_COND_CHNG_MTRX.csv",
             "schema": {
                 "fields": [
                     {
@@ -3063,7 +3063,7 @@
         {
             "dialect": {},
             "name": "ar_invasive_subplot_spp",
-            "path": "AR_INVASIVE_SUBPLOT_SPP.csv",
+            "path": "AR/AR_INVASIVE_SUBPLOT_SPP.csv",
             "schema": {
                 "fields": [
                     {
@@ -3161,7 +3161,7 @@
         {
             "dialect": {},
             "name": "ar_seedling",
-            "path": "AR_SEEDLING.csv",
+            "path": "AR/AR_SEEDLING.csv",
             "schema": {
                 "fields": [
                     {
@@ -3301,7 +3301,7 @@
         {
             "dialect": {},
             "name": "ar_pop_eval",
-            "path": "AR_POP_EVAL.csv",
+            "path": "AR/AR_POP_EVAL.csv",
             "schema": {
                 "fields": [
                     {
@@ -3404,7 +3404,7 @@
         {
             "dialect": {},
             "name": "ar_soils_sample_loc",
-            "path": "AR_SOILS_SAMPLE_LOC.csv",
+            "path": "AR/AR_SOILS_SAMPLE_LOC.csv",
             "schema": {
                 "fields": [
                     {
@@ -3535,7 +3535,7 @@
         {
             "dialect": {},
             "name": "ar_tree_grm_threshold",
-            "path": "AR_TREE_GRM_THRESHOLD.csv",
+            "path": "AR/AR_TREE_GRM_THRESHOLD.csv",
             "schema": {
                 "fields": [
                     {
@@ -3694,7 +3694,7 @@
         {
             "dialect": {},
             "name": "ar_subplot_regen",
-            "path": "AR_SUBPLOT_REGEN.csv",
+            "path": "AR/AR_SUBPLOT_REGEN.csv",
             "schema": {
                 "fields": [
                     {
@@ -3792,7 +3792,7 @@
         {
             "dialect": {},
             "name": "ar_tree_regional_biomass",
-            "path": "AR_TREE_REGIONAL_BIOMASS.csv",
+            "path": "AR/AR_TREE_REGIONAL_BIOMASS.csv",
             "schema": {
                 "fields": [
                     {
@@ -3848,7 +3848,7 @@
         {
             "dialect": {},
             "name": "ar_plot_regen",
-            "path": "AR_PLOT_REGEN.csv",
+            "path": "AR/AR_PLOT_REGEN.csv",
             "schema": {
                 "fields": [
                     {
@@ -3922,7 +3922,7 @@
         {
             "dialect": {},
             "name": "ar_soils_lab",
-            "path": "AR_SOILS_LAB.csv",
+            "path": "AR/AR_SOILS_LAB.csv",
             "schema": {
                 "fields": [
                     {
@@ -4143,7 +4143,7 @@
         {
             "dialect": {},
             "name": "ar_dwm_microplot_fuel",
-            "path": "AR_DWM_MICROPLOT_FUEL.csv",
+            "path": "AR/AR_DWM_MICROPLOT_FUEL.csv",
             "schema": {
                 "fields": [
                     {
@@ -4251,7 +4251,7 @@
         {
             "dialect": {},
             "name": "ar_pop_eval_attribute",
-            "path": "AR_POP_EVAL_ATTRIBUTE.csv",
+            "path": "AR/AR_POP_EVAL_ATTRIBUTE.csv",
             "schema": {
                 "fields": [
                     {
@@ -4302,7 +4302,7 @@
         {
             "dialect": {},
             "name": "ar_veg_subplot",
-            "path": "AR_VEG_SUBPLOT.csv",
+            "path": "AR/AR_VEG_SUBPLOT.csv",
             "schema": {
                 "fields": [
                     {
@@ -4452,7 +4452,7 @@
         {
             "dialect": {},
             "name": "ar_dwm_residual_pile",
-            "path": "AR_DWM_RESIDUAL_PILE.csv",
+            "path": "AR/AR_DWM_RESIDUAL_PILE.csv",
             "schema": {
                 "fields": [
                     {
@@ -4620,7 +4620,7 @@
         {
             "dialect": {},
             "name": "ar_soils_erosion",
-            "path": "AR_SOILS_EROSION.csv",
+            "path": "AR/AR_SOILS_EROSION.csv",
             "schema": {
                 "fields": [
                     {
@@ -4711,7 +4711,7 @@
         {
             "dialect": {},
             "name": "ar_lichen_lab",
-            "path": "AR_LICHEN_LAB.csv",
+            "path": "AR/AR_LICHEN_LAB.csv",
             "schema": {
                 "fields": [
                     {
@@ -4789,7 +4789,7 @@
         {
             "dialect": {},
             "name": "ar_p2veg_subplot_spp",
-            "path": "AR_P2VEG_SUBPLOT_SPP.csv",
+            "path": "AR/AR_P2VEG_SUBPLOT_SPP.csv",
             "schema": {
                 "fields": [
                     {
@@ -4891,7 +4891,7 @@
         {
             "dialect": {},
             "name": "ar_tree_grm_begin",
-            "path": "AR_TREE_GRM_BEGIN.csv",
+            "path": "AR/AR_TREE_GRM_BEGIN.csv",
             "schema": {
                 "fields": [
                     {
@@ -5037,7 +5037,7 @@
         {
             "dialect": {},
             "name": "ar_tree_woodland_stems",
-            "path": "AR_TREE_WOODLAND_STEMS.csv",
+            "path": "AR/AR_TREE_WOODLAND_STEMS.csv",
             "schema": {
                 "fields": [
                     {
@@ -5131,7 +5131,7 @@
         {
             "dialect": {},
             "name": "ar_tree_grm_estn",
-            "path": "AR_TREE_GRM_ESTN.csv",
+            "path": "AR/AR_TREE_GRM_ESTN.csv",
             "schema": {
                 "fields": [
                     {
@@ -5351,7 +5351,7 @@
         {
             "dialect": {},
             "name": "ar_tree_grm_midpt",
-            "path": "AR_TREE_GRM_MIDPT.csv",
+            "path": "AR/AR_TREE_GRM_MIDPT.csv",
             "schema": {
                 "fields": [
                     {
@@ -5499,7 +5499,7 @@
         {
             "dialect": {},
             "name": "ar_dwm_fine_woody_debris",
-            "path": "AR_DWM_FINE_WOODY_DEBRIS.csv",
+            "path": "AR/AR_DWM_FINE_WOODY_DEBRIS.csv",
             "schema": {
                 "fields": [
                     {
@@ -5656,7 +5656,7 @@
         {
             "dialect": {},
             "name": "ar_seedling_regen",
-            "path": "AR_SEEDLING_REGEN.csv",
+            "path": "AR/AR_SEEDLING_REGEN.csv",
             "schema": {
                 "fields": [
                     {
@@ -5766,7 +5766,7 @@
         {
             "dialect": {},
             "name": "ar_tree_grm_component",
-            "path": "AR_TREE_GRM_COMPONENT.csv",
+            "path": "AR/AR_TREE_GRM_COMPONENT.csv",
             "schema": {
                 "fields": [
                     {
@@ -6171,7 +6171,7 @@
         {
             "dialect": {},
             "name": "ar_dwm_visit",
-            "path": "AR_DWM_VISIT.csv",
+            "path": "AR/AR_DWM_VISIT.csv",
             "schema": {
                 "fields": [
                     {
@@ -6299,7 +6299,7 @@
         {
             "dialect": {},
             "name": "ar_county",
-            "path": "AR_COUNTY.csv",
+            "path": "AR/AR_COUNTY.csv",
             "schema": {
                 "fields": [
                     {
@@ -6356,7 +6356,7 @@
         {
             "dialect": {},
             "name": "ar_sitetree",
-            "path": "AR_SITETREE.csv",
+            "path": "AR/AR_SITETREE.csv",
             "schema": {
                 "fields": [
                     {
@@ -6552,7 +6552,7 @@
         {
             "dialect": {},
             "name": "ar_veg_plot_species",
-            "path": "AR_VEG_PLOT_SPECIES.csv",
+            "path": "AR/AR_VEG_PLOT_SPECIES.csv",
             "schema": {
                 "fields": [
                     {
@@ -6646,7 +6646,7 @@
         {
             "dialect": {},
             "name": "ar_plotsnap",
-            "path": "AR_PLOTSNAP.csv",
+            "path": "AR/AR_PLOTSNAP.csv",
             "schema": {
                 "fields": [
                     {
@@ -7054,7 +7054,7 @@
         {
             "dialect": {},
             "name": "ar_veg_subplot_spp",
-            "path": "AR_VEG_SUBPLOT_SPP.csv",
+            "path": "AR/AR_VEG_SUBPLOT_SPP.csv",
             "schema": {
                 "fields": [
                     {
@@ -7176,7 +7176,7 @@
         {
             "dialect": {},
             "name": "ar_ozone_biosite_summary",
-            "path": "AR_OZONE_BIOSITE_SUMMARY.csv",
+            "path": "AR/AR_OZONE_BIOSITE_SUMMARY.csv",
             "schema": {
                 "fields": [
                     {
@@ -7294,7 +7294,7 @@
         {
             "dialect": {},
             "name": "ar_ozone_plot",
-            "path": "AR_OZONE_PLOT.csv",
+            "path": "AR/AR_OZONE_PLOT.csv",
             "schema": {
                 "fields": [
                     {
@@ -7408,7 +7408,7 @@
         {
             "dialect": {},
             "name": "ar_soils_visit",
-            "path": "AR_SOILS_VISIT.csv",
+            "path": "AR/AR_SOILS_VISIT.csv",
             "schema": {
                 "fields": [
                     {
@@ -7484,7 +7484,7 @@
         {
             "dialect": {},
             "name": "ar_cond",
-            "path": "AR_COND.csv",
+            "path": "AR/AR_COND.csv",
             "schema": {
                 "fields": [
                     {
@@ -8111,7 +8111,7 @@
         {
             "dialect": {},
             "name": "ar_pop_estn_unit",
-            "path": "AR_POP_ESTN_UNIT.csv",
+            "path": "AR/AR_POP_ESTN_UNIT.csv",
             "schema": {
                 "fields": [
                     {
@@ -8202,7 +8202,7 @@
         {
             "dialect": {},
             "name": "ar_subp_cond",
-            "path": "AR_SUBP_COND.csv",
+            "path": "AR/AR_SUBP_COND.csv",
             "schema": {
                 "fields": [
                     {
@@ -8304,7 +8304,7 @@
         {
             "dialect": {},
             "name": "ar_lichen_visit",
-            "path": "AR_LICHEN_VISIT.csv",
+            "path": "AR/AR_LICHEN_VISIT.csv",
             "schema": {
                 "fields": [
                     {
@@ -8466,7 +8466,7 @@
         {
             "dialect": {},
             "name": "ar_dwm_coarse_woody_debris",
-            "path": "AR_DWM_COARSE_WOODY_DEBRIS.csv",
+            "path": "AR/AR_DWM_COARSE_WOODY_DEBRIS.csv",
             "schema": {
                 "fields": [
                     {
@@ -8715,7 +8715,7 @@
         {
             "dialect": {},
             "name": "ar_lichen_plot_summary",
-            "path": "AR_LICHEN_PLOT_SUMMARY.csv",
+            "path": "AR/AR_LICHEN_PLOT_SUMMARY.csv",
             "schema": {
                 "fields": [
                     {
@@ -8793,7 +8793,7 @@
         {
             "dialect": {},
             "name": "ar_pop_eval_typ",
-            "path": "AR_POP_EVAL_TYP.csv",
+            "path": "AR/AR_POP_EVAL_TYP.csv",
             "schema": {
                 "fields": [
                     {
@@ -8846,7 +8846,7 @@
         {
             "dialect": {},
             "name": "ar_veg_visit",
-            "path": "AR_VEG_VISIT.csv",
+            "path": "AR/AR_VEG_VISIT.csv",
             "schema": {
                 "fields": [
                     {
@@ -8940,7 +8940,7 @@
         {
             "dialect": {},
             "name": "ar_dwm_duff_litter_fuel",
-            "path": "AR_DWM_DUFF_LITTER_FUEL.csv",
+            "path": "AR/AR_DWM_DUFF_LITTER_FUEL.csv",
             "schema": {
                 "fields": [
                     {
@@ -9064,7 +9064,7 @@
         {
             "dialect": {},
             "name": "ar_survey",
-            "path": "AR_SURVEY.csv",
+            "path": "AR/AR_SURVEY.csv",
             "schema": {
                 "fields": [
                     {
@@ -9149,7 +9149,7 @@
         {
             "dialect": {},
             "name": "ar_grnd_cvr",
-            "path": "AR_GRND_CVR.csv",
+            "path": "AR/AR_GRND_CVR.csv",
             "schema": {
                 "fields": [
                     {
@@ -9239,7 +9239,7 @@
         {
             "dialect": {},
             "name": "ar_dwm_transect_segment",
-            "path": "AR_DWM_TRANSECT_SEGMENT.csv",
+            "path": "AR/AR_DWM_TRANSECT_SEGMENT.csv",
             "schema": {
                 "fields": [
                     {
@@ -9359,7 +9359,7 @@
         {
             "dialect": {},
             "name": "ar_pop_plot_stratum_assgn",
-            "path": "AR_POP_PLOT_STRATUM_ASSGN.csv",
+            "path": "AR/AR_POP_PLOT_STRATUM_ASSGN.csv",
             "schema": {
                 "fields": [
                     {

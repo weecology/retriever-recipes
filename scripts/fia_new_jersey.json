@@ -17,7 +17,7 @@
         {
             "dialect": {},
             "name": "nj_ozone_species_summary",
-            "path": "NJ_OZONE_SPECIES_SUMMARY.csv",
+            "path": "NJ/NJ_OZONE_SPECIES_SUMMARY.csv",
             "schema": {
                 "fields": [
                     {
@@ -170,7 +170,7 @@
         {
             "dialect": {},
             "name": "nj_subp_cond_chng_mtrx",
-            "path": "NJ_SUBP_COND_CHNG_MTRX.csv",
+            "path": "NJ/NJ_SUBP_COND_CHNG_MTRX.csv",
             "schema": {
                 "fields": [
                     {
@@ -242,7 +242,7 @@
         {
             "dialect": {},
             "name": "nj_p2veg_subp_structure",
-            "path": "NJ_P2VEG_SUBP_STRUCTURE.csv",
+            "path": "NJ/NJ_P2VEG_SUBP_STRUCTURE.csv",
             "schema": {
                 "fields": [
                     {
@@ -334,7 +334,7 @@
         {
             "dialect": {},
             "name": "nj_cond",
-            "path": "NJ_COND.csv",
+            "path": "NJ/NJ_COND.csv",
             "schema": {
                 "fields": [
                     {
@@ -960,7 +960,7 @@
         {
             "dialect": {},
             "name": "nj_seedling_regen",
-            "path": "NJ_SEEDLING_REGEN.csv",
+            "path": "NJ/NJ_SEEDLING_REGEN.csv",
             "schema": {
                 "fields": [
                     {
@@ -1072,7 +1072,7 @@
         {
             "dialect": {},
             "name": "nj_sitetree",
-            "path": "NJ_SITETREE.csv",
+            "path": "NJ/NJ_SITETREE.csv",
             "schema": {
                 "fields": [
                     {
@@ -1268,7 +1268,7 @@
         {
             "dialect": {},
             "name": "nj_tree_grm_midpt",
-            "path": "NJ_TREE_GRM_MIDPT.csv",
+            "path": "NJ/NJ_TREE_GRM_MIDPT.csv",
             "schema": {
                 "fields": [
                     {
@@ -1415,7 +1415,7 @@
         {
             "dialect": {},
             "name": "nj_soils_visit",
-            "path": "NJ_SOILS_VISIT.csv",
+            "path": "NJ/NJ_SOILS_VISIT.csv",
             "schema": {
                 "fields": [
                     {
@@ -1491,7 +1491,7 @@
         {
             "dialect": {},
             "name": "nj_dwm_coarse_woody_debris",
-            "path": "NJ_DWM_COARSE_WOODY_DEBRIS.csv",
+            "path": "NJ/NJ_DWM_COARSE_WOODY_DEBRIS.csv",
             "schema": {
                 "fields": [
                     {
@@ -1740,7 +1740,7 @@
         {
             "dialect": {},
             "name": "nj_county",
-            "path": "NJ_COUNTY.csv",
+            "path": "NJ/NJ_COUNTY.csv",
             "schema": {
                 "fields": [
                     {
@@ -1796,7 +1796,7 @@
         {
             "dialect": {},
             "name": "nj_ozone_validation",
-            "path": "NJ_OZONE_VALIDATION.csv",
+            "path": "NJ/NJ_OZONE_VALIDATION.csv",
             "schema": {
                 "fields": [
                     {
@@ -1892,7 +1892,7 @@
         {
             "dialect": {},
             "name": "nj_tree_grm_begin",
-            "path": "NJ_TREE_GRM_BEGIN.csv",
+            "path": "NJ/NJ_TREE_GRM_BEGIN.csv",
             "schema": {
                 "fields": [
                     {
@@ -2037,7 +2037,7 @@
         {
             "dialect": {},
             "name": "nj_soils_lab",
-            "path": "NJ_SOILS_LAB.csv",
+            "path": "NJ/NJ_SOILS_LAB.csv",
             "schema": {
                 "fields": [
                     {
@@ -2258,7 +2258,7 @@
         {
             "dialect": {},
             "name": "nj_pop_eval_grp",
-            "path": "NJ_POP_EVAL_GRP.csv",
+            "path": "NJ/NJ_POP_EVAL_GRP.csv",
             "schema": {
                 "fields": [
                     {
@@ -2320,7 +2320,7 @@
         {
             "dialect": {},
             "name": "nj_tree_grm_estn",
-            "path": "NJ_TREE_GRM_ESTN.csv",
+            "path": "NJ/NJ_TREE_GRM_ESTN.csv",
             "schema": {
                 "fields": [
                     {
@@ -2540,7 +2540,7 @@
         {
             "dialect": {},
             "name": "nj_lichen_lab",
-            "path": "NJ_LICHEN_LAB.csv",
+            "path": "NJ/NJ_LICHEN_LAB.csv",
             "schema": {
                 "fields": [
                     {
@@ -2619,7 +2619,7 @@
         {
             "dialect": {},
             "name": "nj_plotsnap",
-            "path": "NJ_PLOTSNAP.csv",
+            "path": "NJ/NJ_PLOTSNAP.csv",
             "schema": {
                 "fields": [
                     {
@@ -3026,7 +3026,7 @@
         {
             "dialect": {},
             "name": "nj_tree_grm_component",
-            "path": "NJ_TREE_GRM_COMPONENT.csv",
+            "path": "NJ/NJ_TREE_GRM_COMPONENT.csv",
             "schema": {
                 "fields": [
                     {
@@ -3430,7 +3430,7 @@
         {
             "dialect": {},
             "name": "nj_soils_sample_loc",
-            "path": "NJ_SOILS_SAMPLE_LOC.csv",
+            "path": "NJ/NJ_SOILS_SAMPLE_LOC.csv",
             "schema": {
                 "fields": [
                     {
@@ -3561,7 +3561,7 @@
         {
             "dialect": {},
             "name": "nj_subplot",
-            "path": "NJ_SUBPLOT.csv",
+            "path": "NJ/NJ_SUBPLOT.csv",
             "schema": {
                 "fields": [
                     {
@@ -3782,7 +3782,7 @@
         {
             "dialect": {},
             "name": "nj_p2veg_subplot_spp",
-            "path": "NJ_P2VEG_SUBPLOT_SPP.csv",
+            "path": "NJ/NJ_P2VEG_SUBPLOT_SPP.csv",
             "schema": {
                 "fields": [
                     {
@@ -3884,7 +3884,7 @@
         {
             "dialect": {},
             "name": "nj_invasive_subplot_spp",
-            "path": "NJ_INVASIVE_SUBPLOT_SPP.csv",
+            "path": "NJ/NJ_INVASIVE_SUBPLOT_SPP.csv",
             "schema": {
                 "fields": [
                     {
@@ -3982,7 +3982,7 @@
         {
             "dialect": {},
             "name": "nj_survey",
-            "path": "NJ_SURVEY.csv",
+            "path": "NJ/NJ_SURVEY.csv",
             "schema": {
                 "fields": [
                     {
@@ -4067,7 +4067,7 @@
         {
             "dialect": {},
             "name": "nj_tree_regional_biomass",
-            "path": "NJ_TREE_REGIONAL_BIOMASS.csv",
+            "path": "NJ/NJ_TREE_REGIONAL_BIOMASS.csv",
             "schema": {
                 "fields": [
                     {
@@ -4123,7 +4123,7 @@
         {
             "dialect": {},
             "name": "nj_ozone_plot",
-            "path": "NJ_OZONE_PLOT.csv",
+            "path": "NJ/NJ_OZONE_PLOT.csv",
             "schema": {
                 "fields": [
                     {
@@ -4239,7 +4239,7 @@
         {
             "dialect": {},
             "name": "nj_pop_plot_stratum_assgn",
-            "path": "NJ_POP_PLOT_STRATUM_ASSGN.csv",
+            "path": "NJ/NJ_POP_PLOT_STRATUM_ASSGN.csv",
             "schema": {
                 "fields": [
                     {
@@ -4322,7 +4322,7 @@
         {
             "dialect": {},
             "name": "nj_grnd_cvr",
-            "path": "NJ_GRND_CVR.csv",
+            "path": "NJ/NJ_GRND_CVR.csv",
             "schema": {
                 "fields": [
                     {
@@ -4412,7 +4412,7 @@
         {
             "dialect": {},
             "name": "nj_pop_estn_unit",
-            "path": "NJ_POP_ESTN_UNIT.csv",
+            "path": "NJ/NJ_POP_ESTN_UNIT.csv",
             "schema": {
                 "fields": [
                     {
@@ -4503,7 +4503,7 @@
         {
             "dialect": {},
             "name": "nj_veg_plot_species",
-            "path": "NJ_VEG_PLOT_SPECIES.csv",
+            "path": "NJ/NJ_VEG_PLOT_SPECIES.csv",
             "schema": {
                 "fields": [
                     {
@@ -4603,7 +4603,7 @@
         {
             "dialect": {},
             "name": "nj_veg_subplot_spp",
-            "path": "NJ_VEG_SUBPLOT_SPP.csv",
+            "path": "NJ/NJ_VEG_SUBPLOT_SPP.csv",
             "schema": {
                 "fields": [
                     {
@@ -4728,7 +4728,7 @@
         {
             "dialect": {},
             "name": "nj_plot",
-            "path": "NJ_PLOT.csv",
+            "path": "NJ/NJ_PLOT.csv",
             "schema": {
                 "fields": [
                     {
@@ -5030,7 +5030,7 @@
         {
             "dialect": {},
             "name": "nj_veg_subplot",
-            "path": "NJ_VEG_SUBPLOT.csv",
+            "path": "NJ/NJ_VEG_SUBPLOT.csv",
             "schema": {
                 "fields": [
                     {
@@ -5181,7 +5181,7 @@
         {
             "dialect": {},
             "name": "nj_pop_eval_typ",
-            "path": "NJ_POP_EVAL_TYP.csv",
+            "path": "NJ/NJ_POP_EVAL_TYP.csv",
             "schema": {
                 "fields": [
                     {
@@ -5234,7 +5234,7 @@
         {
             "dialect": {},
             "name": "nj_lichen_visit",
-            "path": "NJ_LICHEN_VISIT.csv",
+            "path": "NJ/NJ_LICHEN_VISIT.csv",
             "schema": {
                 "fields": [
                     {
@@ -5398,7 +5398,7 @@
         {
             "dialect": {},
             "name": "nj_boundary",
-            "path": "NJ_BOUNDARY.csv",
+            "path": "NJ/NJ_BOUNDARY.csv",
             "schema": {
                 "fields": [
                     {
@@ -5502,7 +5502,7 @@
         {
             "dialect": {},
             "name": "nj_dwm_fine_woody_debris",
-            "path": "NJ_DWM_FINE_WOODY_DEBRIS.csv",
+            "path": "NJ/NJ_DWM_FINE_WOODY_DEBRIS.csv",
             "schema": {
                 "fields": [
                     {
@@ -5659,7 +5659,7 @@
         {
             "dialect": {},
             "name": "nj_subp_cond",
-            "path": "NJ_SUBP_COND.csv",
+            "path": "NJ/NJ_SUBP_COND.csv",
             "schema": {
                 "fields": [
                     {
@@ -5759,7 +5759,7 @@
         {
             "dialect": {},
             "name": "nj_cond_dwm_calc",
-            "path": "NJ_COND_DWM_CALC.csv",
+            "path": "NJ/NJ_COND_DWM_CALC.csv",
             "schema": {
                 "fields": [
                     {
@@ -6266,7 +6266,7 @@
         {
             "dialect": {},
             "name": "nj_dwm_residual_pile",
-            "path": "NJ_DWM_RESIDUAL_PILE.csv",
+            "path": "NJ/NJ_DWM_RESIDUAL_PILE.csv",
             "schema": {
                 "fields": [
                     {
@@ -6428,7 +6428,7 @@
         {
             "dialect": {},
             "name": "nj_dwm_microplot_fuel",
-            "path": "NJ_DWM_MICROPLOT_FUEL.csv",
+            "path": "NJ/NJ_DWM_MICROPLOT_FUEL.csv",
             "schema": {
                 "fields": [
                     {
@@ -6536,7 +6536,7 @@
         {
             "dialect": {},
             "name": "nj_pop_eval_attribute",
-            "path": "NJ_POP_EVAL_ATTRIBUTE.csv",
+            "path": "NJ/NJ_POP_EVAL_ATTRIBUTE.csv",
             "schema": {
                 "fields": [
                     {
@@ -6587,7 +6587,7 @@
         {
             "dialect": {},
             "name": "nj_tree_grm_threshold",
-            "path": "NJ_TREE_GRM_THRESHOLD.csv",
+            "path": "NJ/NJ_TREE_GRM_THRESHOLD.csv",
             "schema": {
                 "fields": [
                     {
@@ -6747,7 +6747,7 @@
         {
             "dialect": {},
             "name": "nj_veg_visit",
-            "path": "NJ_VEG_VISIT.csv",
+            "path": "NJ/NJ_VEG_VISIT.csv",
             "schema": {
                 "fields": [
                     {
@@ -6843,7 +6843,7 @@
         {
             "dialect": {},
             "name": "nj_plotgeom",
-            "path": "NJ_PLOTGEOM.csv",
+            "path": "NJ/NJ_PLOTGEOM.csv",
             "schema": {
                 "fields": [
                     {
@@ -6960,7 +6960,7 @@
         {
             "dialect": {},
             "name": "nj_lichen_plot_summary",
-            "path": "NJ_LICHEN_PLOT_SUMMARY.csv",
+            "path": "NJ/NJ_LICHEN_PLOT_SUMMARY.csv",
             "schema": {
                 "fields": [
                     {
@@ -7039,7 +7039,7 @@
         {
             "dialect": {},
             "name": "nj_ozone_biosite_summary",
-            "path": "NJ_OZONE_BIOSITE_SUMMARY.csv",
+            "path": "NJ/NJ_OZONE_BIOSITE_SUMMARY.csv",
             "schema": {
                 "fields": [
                     {
@@ -7160,7 +7160,7 @@
         {
             "dialect": {},
             "name": "nj_subplot_regen",
-            "path": "NJ_SUBPLOT_REGEN.csv",
+            "path": "NJ/NJ_SUBPLOT_REGEN.csv",
             "schema": {
                 "fields": [
                     {
@@ -7260,7 +7260,7 @@
         {
             "dialect": {},
             "name": "nj_tree_woodland_stems",
-            "path": "NJ_TREE_WOODLAND_STEMS.csv",
+            "path": "NJ/NJ_TREE_WOODLAND_STEMS.csv",
             "schema": {
                 "fields": [
                     {
@@ -7354,7 +7354,7 @@
         {
             "dialect": {},
             "name": "nj_plot_regen",
-            "path": "NJ_PLOT_REGEN.csv",
+            "path": "NJ/NJ_PLOT_REGEN.csv",
             "schema": {
                 "fields": [
                     {
@@ -7429,7 +7429,7 @@
         {
             "dialect": {},
             "name": "nj_pop_stratum",
-            "path": "NJ_POP_STRATUM.csv",
+            "path": "NJ/NJ_POP_STRATUM.csv",
             "schema": {
                 "fields": [
                     {
@@ -7566,7 +7566,7 @@
         {
             "dialect": {},
             "name": "nj_soils_erosion",
-            "path": "NJ_SOILS_EROSION.csv",
+            "path": "NJ/NJ_SOILS_EROSION.csv",
             "schema": {
                 "fields": [
                     {
@@ -7657,7 +7657,7 @@
         {
             "dialect": {},
             "name": "nj_seedling",
-            "path": "NJ_SEEDLING.csv",
+            "path": "NJ/NJ_SEEDLING.csv",
             "schema": {
                 "fields": [
                     {
@@ -7797,7 +7797,7 @@
         {
             "dialect": {},
             "name": "nj_ozone_plot_summary",
-            "path": "NJ_OZONE_PLOT_SUMMARY.csv",
+            "path": "NJ/NJ_OZONE_PLOT_SUMMARY.csv",
             "schema": {
                 "fields": [
                     {
@@ -7919,7 +7919,7 @@
         {
             "dialect": {},
             "name": "nj_ozone_visit",
-            "path": "NJ_OZONE_VISIT.csv",
+            "path": "NJ/NJ_OZONE_VISIT.csv",
             "schema": {
                 "fields": [
                     {
@@ -8043,7 +8043,7 @@
         {
             "dialect": {},
             "name": "nj_dwm_visit",
-            "path": "NJ_DWM_VISIT.csv",
+            "path": "NJ/NJ_DWM_VISIT.csv",
             "schema": {
                 "fields": [
                     {
@@ -8171,7 +8171,7 @@
         {
             "dialect": {},
             "name": "nj_tree",
-            "path": "NJ_TREE.csv",
+            "path": "NJ/NJ_TREE.csv",
             "schema": {
                 "fields": [
                     {
@@ -9016,7 +9016,7 @@
         {
             "dialect": {},
             "name": "nj_pop_eval",
-            "path": "NJ_POP_EVAL.csv",
+            "path": "NJ/NJ_POP_EVAL.csv",
             "schema": {
                 "fields": [
                     {
@@ -9119,7 +9119,7 @@
         {
             "dialect": {},
             "name": "nj_veg_quadrat",
-            "path": "NJ_VEG_QUADRAT.csv",
+            "path": "NJ/NJ_VEG_QUADRAT.csv",
             "schema": {
                 "fields": [
                     {
@@ -9211,7 +9211,7 @@
         {
             "dialect": {},
             "name": "nj_dwm_duff_litter_fuel",
-            "path": "NJ_DWM_DUFF_LITTER_FUEL.csv",
+            "path": "NJ/NJ_DWM_DUFF_LITTER_FUEL.csv",
             "schema": {
                 "fields": [
                     {
@@ -9335,7 +9335,7 @@
         {
             "dialect": {},
             "name": "nj_dwm_transect_segment",
-            "path": "NJ_DWM_TRANSECT_SEGMENT.csv",
+            "path": "NJ/NJ_DWM_TRANSECT_SEGMENT.csv",
             "schema": {
                 "fields": [
                     {
