@@ -17,7 +17,7 @@
         {
             "dialect": {},
             "name": "al_plotgeom",
-            "path": "AL/AL_PLOTGEOM.csv",
+            "path": "AL_PLOTGEOM.csv",
             "schema": {
                 "fields": [
                     {
@@ -136,7 +136,7 @@
         {
             "dialect": {},
             "name": "al_lichen_lab",
-            "path": "AL/AL_LICHEN_LAB.csv",
+            "path": "AL_LICHEN_LAB.csv",
             "schema": {
                 "fields": [
                     {
@@ -209,12 +209,12 @@
                     }
                 ]
             },
-            "url": "FILL"
+            "url": "https://apps.fs.usda.gov/fia/datamart/CSV/AL.zip"
         },
         {
             "dialect": {},
             "name": "al_pop_plot_stratum_assgn",
-            "path": "AL/AL_POP_PLOT_STRATUM_ASSGN.csv",
+            "path": "AL_POP_PLOT_STRATUM_ASSGN.csv",
             "schema": {
                 "fields": [
                     {
@@ -293,12 +293,12 @@
                     }
                 ]
             },
-            "url": "FILL"
+            "url": "https://apps.fs.usda.gov/fia/datamart/CSV/AL.zip"
         },
         {
             "dialect": {},
             "name": "al_pop_eval_grp",
-            "path": "AL/AL_POP_EVAL_GRP.csv",
+            "path": "AL_POP_EVAL_GRP.csv",
             "schema": {
                 "fields": [
                     {
@@ -355,12 +355,12 @@
                     }
                 ]
             },
-            "url": "FILL"
+            "url": "https://apps.fs.usda.gov/fia/datamart/CSV/AL.zip"
         },
         {
             "dialect": {},
             "name": "al_dwm_duff_litter_fuel",
-            "path": "AL/AL_DWM_DUFF_LITTER_FUEL.csv",
+            "path": "AL_DWM_DUFF_LITTER_FUEL.csv",
             "schema": {
                 "fields": [
                     {
@@ -479,12 +479,12 @@
                     }
                 ]
             },
-            "url": "FILL"
+            "url": "https://apps.fs.usda.gov/fia/datamart/CSV/AL.zip"
         },
         {
             "dialect": {},
             "name": "al_tree_regional_biomass",
-            "path": "AL/AL_TREE_REGIONAL_BIOMASS.csv",
+            "path": "AL_TREE_REGIONAL_BIOMASS.csv",
             "schema": {
                 "fields": [
                     {
@@ -535,12 +535,12 @@
                     }
                 ]
             },
-            "url": "FILL"
+            "url": "https://apps.fs.usda.gov/fia/datamart/CSV/AL.zip"
         },
         {
             "dialect": {},
             "name": "al_dwm_transect_segment",
-            "path": "AL/AL_DWM_TRANSECT_SEGMENT.csv",
+            "path": "AL_DWM_TRANSECT_SEGMENT.csv",
             "schema": {
                 "fields": [
                     {
@@ -655,12 +655,12 @@
                     }
                 ]
             },
-            "url": "FILL"
+            "url": "https://apps.fs.usda.gov/fia/datamart/CSV/AL.zip"
         },
         {
             "dialect": {},
             "name": "al_tree",
-            "path": "AL/AL_TREE.csv",
+            "path": "AL_TREE.csv",
             "schema": {
                 "fields": [
                     {
@@ -1501,12 +1501,12 @@
                     }
                 ]
             },
-            "url": "FILL"
+            "url": "https://apps.fs.usda.gov/fia/datamart/CSV/AL.zip"
         },
         {
             "dialect": {},
             "name": "al_boundary",
-            "path": "AL/AL_BOUNDARY.csv",
+            "path": "AL_BOUNDARY.csv",
             "schema": {
                 "fields": [
                     {
@@ -1605,12 +1605,12 @@
                     }
                 ]
             },
-            "url": "FILL"
+            "url": "https://apps.fs.usda.gov/fia/datamart/CSV/AL.zip"
         },
         {
             "dialect": {},
             "name": "al_ozone_validation",
-            "path": "AL/AL_OZONE_VALIDATION.csv",
+            "path": "AL_OZONE_VALIDATION.csv",
             "schema": {
                 "fields": [
                     {
@@ -1699,12 +1699,12 @@
                     }
                 ]
             },
-            "url": "FILL"
+            "url": "https://apps.fs.usda.gov/fia/datamart/CSV/AL.zip"
         },
         {
             "dialect": {},
             "name": "al_tree_grm_component",
-            "path": "AL/AL_TREE_GRM_COMPONENT.csv",
+            "path": "AL_TREE_GRM_COMPONENT.csv",
             "schema": {
                 "fields": [
                     {
@@ -2104,12 +2104,12 @@
                     }
                 ]
             },
-            "url": "FILL"
+            "url": "https://apps.fs.usda.gov/fia/datamart/CSV/AL.zip"
         },
         {
             "dialect": {},
             "name": "al_tree_grm_begin",
-            "path": "AL/AL_TREE_GRM_BEGIN.csv",
+            "path": "AL_TREE_GRM_BEGIN.csv",
             "schema": {
                 "fields": [
                     {
@@ -2249,12 +2249,12 @@
                     }
                 ]
             },
-            "url": "FILL"
+            "url": "https://apps.fs.usda.gov/fia/datamart/CSV/AL.zip"
         },
         {
             "dialect": {},
             "name": "al_dwm_visit",
-            "path": "AL/AL_DWM_VISIT.csv",
+            "path": "AL_DWM_VISIT.csv",
             "schema": {
                 "fields": [
                     {
@@ -2377,12 +2377,12 @@
                     }
                 ]
             },
-            "url": "FILL"
+            "url": "https://apps.fs.usda.gov/fia/datamart/CSV/AL.zip"
         },
         {
             "dialect": {},
             "name": "al_dwm_coarse_woody_debris",
-            "path": "AL/AL_DWM_COARSE_WOODY_DEBRIS.csv",
+            "path": "AL_DWM_COARSE_WOODY_DEBRIS.csv",
             "schema": {
                 "fields": [
                     {
@@ -2626,12 +2626,12 @@
                     }
                 ]
             },
-            "url": "FILL"
+            "url": "https://apps.fs.usda.gov/fia/datamart/CSV/AL.zip"
         },
         {
             "dialect": {},
             "name": "al_cond_dwm_calc",
-            "path": "AL/AL_COND_DWM_CALC.csv",
+            "path": "AL_COND_DWM_CALC.csv",
             "schema": {
                 "fields": [
                     {
@@ -3142,12 +3142,12 @@
                     }
                 ]
             },
-            "url": "FILL"
+            "url": "https://apps.fs.usda.gov/fia/datamart/CSV/AL.zip"
         },
         {
             "dialect": {},
             "name": "al_tree_grm_midpt",
-            "path": "AL/AL_TREE_GRM_MIDPT.csv",
+            "path": "AL_TREE_GRM_MIDPT.csv",
             "schema": {
                 "fields": [
                     {
@@ -3289,12 +3289,12 @@
                     }
                 ]
             },
-            "url": "FILL"
+            "url": "https://apps.fs.usda.gov/fia/datamart/CSV/AL.zip"
         },
         {
             "dialect": {},
             "name": "al_seedling_regen",
-            "path": "AL/AL_SEEDLING_REGEN.csv",
+            "path": "AL_SEEDLING_REGEN.csv",
             "schema": {
                 "fields": [
                     {
@@ -3399,12 +3399,12 @@
                     }
                 ]
             },
-            "url": "FILL"
+            "url": "https://apps.fs.usda.gov/fia/datamart/CSV/AL.zip"
         },
         {
             "dialect": {},
             "name": "al_ozone_plot",
-            "path": "AL/AL_OZONE_PLOT.csv",
+            "path": "AL_OZONE_PLOT.csv",
             "schema": {
                 "fields": [
                     {
@@ -3513,12 +3513,12 @@
                     }
                 ]
             },
-            "url": "FILL"
+            "url": "https://apps.fs.usda.gov/fia/datamart/CSV/AL.zip"
         },
         {
             "dialect": {},
             "name": "al_subp_cond_chng_mtrx",
-            "path": "AL/AL_SUBP_COND_CHNG_MTRX.csv",
+            "path": "AL_SUBP_COND_CHNG_MTRX.csv",
             "schema": {
                 "fields": [
                     {
@@ -3585,12 +3585,12 @@
                     }
                 ]
             },
-            "url": "FILL"
+            "url": "https://apps.fs.usda.gov/fia/datamart/CSV/AL.zip"
         },
         {
             "dialect": {},
             "name": "al_soils_visit",
-            "path": "AL/AL_SOILS_VISIT.csv",
+            "path": "AL_SOILS_VISIT.csv",
             "schema": {
                 "fields": [
                     {
@@ -3661,12 +3661,12 @@
                     }
                 ]
             },
-            "url": "FILL"
+            "url": "https://apps.fs.usda.gov/fia/datamart/CSV/AL.zip"
         },
         {
             "dialect": {},
             "name": "al_subp_cond",
-            "path": "AL/AL_SUBP_COND.csv",
+            "path": "AL_SUBP_COND.csv",
             "schema": {
                 "fields": [
                     {
@@ -3761,12 +3761,12 @@
                     }
                 ]
             },
-            "url": "FILL"
+            "url": "https://apps.fs.usda.gov/fia/datamart/CSV/AL.zip"
         },
         {
             "dialect": {},
             "name": "al_soils_sample_loc",
-            "path": "AL/AL_SOILS_SAMPLE_LOC.csv",
+            "path": "AL_SOILS_SAMPLE_LOC.csv",
             "schema": {
                 "fields": [
                     {
@@ -3892,12 +3892,12 @@
                     }
                 ]
             },
-            "url": "FILL"
+            "url": "https://apps.fs.usda.gov/fia/datamart/CSV/AL.zip"
         },
         {
             "dialect": {},
             "name": "al_pop_eval",
-            "path": "AL/AL_POP_EVAL.csv",
+            "path": "AL_POP_EVAL.csv",
             "schema": {
                 "fields": [
                     {
@@ -3995,12 +3995,12 @@
                     }
                 ]
             },
-            "url": "FILL"
+            "url": "https://apps.fs.usda.gov/fia/datamart/CSV/AL.zip"
         },
         {
             "dialect": {},
             "name": "al_subplot_regen",
-            "path": "AL/AL_SUBPLOT_REGEN.csv",
+            "path": "AL_SUBPLOT_REGEN.csv",
             "schema": {
                 "fields": [
                     {
@@ -4093,12 +4093,12 @@
                     }
                 ]
             },
-            "url": "FILL"
+            "url": "https://apps.fs.usda.gov/fia/datamart/CSV/AL.zip"
         },
         {
             "dialect": {},
             "name": "al_seedling",
-            "path": "AL/AL_SEEDLING.csv",
+            "path": "AL_SEEDLING.csv",
             "schema": {
                 "fields": [
                     {
@@ -4233,12 +4233,12 @@
                     }
                 ]
             },
-            "url": "FILL"
+            "url": "https://apps.fs.usda.gov/fia/datamart/CSV/AL.zip"
         },
         {
             "dialect": {},
             "name": "al_ozone_species_summary",
-            "path": "AL/AL_OZONE_SPECIES_SUMMARY.csv",
+            "path": "AL_OZONE_SPECIES_SUMMARY.csv",
             "schema": {
                 "fields": [
                     {
@@ -4383,12 +4383,12 @@
                     }
                 ]
             },
-            "url": "FILL"
+            "url": "https://apps.fs.usda.gov/fia/datamart/CSV/AL.zip"
         },
         {
             "dialect": {},
             "name": "al_soils_erosion",
-            "path": "AL/AL_SOILS_EROSION.csv",
+            "path": "AL_SOILS_EROSION.csv",
             "schema": {
                 "fields": [
                     {
@@ -4474,12 +4474,12 @@
                     }
                 ]
             },
-            "url": "FILL"
+            "url": "https://apps.fs.usda.gov/fia/datamart/CSV/AL.zip"
         },
         {
             "dialect": {},
             "name": "al_veg_visit",
-            "path": "AL/AL_VEG_VISIT.csv",
+            "path": "AL_VEG_VISIT.csv",
             "schema": {
                 "fields": [
                     {
@@ -4568,12 +4568,12 @@
                     }
                 ]
             },
-            "url": "FILL"
+            "url": "https://apps.fs.usda.gov/fia/datamart/CSV/AL.zip"
         },
         {
             "dialect": {},
             "name": "al_p2veg_subplot_spp",
-            "path": "AL/AL_P2VEG_SUBPLOT_SPP.csv",
+            "path": "AL_P2VEG_SUBPLOT_SPP.csv",
             "schema": {
                 "fields": [
                     {
@@ -4670,12 +4670,12 @@
                     }
                 ]
             },
-            "url": "FILL"
+            "url": "https://apps.fs.usda.gov/fia/datamart/CSV/AL.zip"
         },
         {
             "dialect": {},
             "name": "al_plot",
-            "path": "AL/AL_PLOT.csv",
+            "path": "AL_PLOT.csv",
             "schema": {
                 "fields": [
                     {
@@ -4972,12 +4972,12 @@
                     }
                 ]
             },
-            "url": "FILL"
+            "url": "https://apps.fs.usda.gov/fia/datamart/CSV/AL.zip"
         },
         {
             "dialect": {},
             "name": "al_subplot",
-            "path": "AL/AL_SUBPLOT.csv",
+            "path": "AL_SUBPLOT.csv",
             "schema": {
                 "fields": [
                     {
@@ -5193,12 +5193,12 @@
                     }
                 ]
             },
-            "url": "FILL"
+            "url": "https://apps.fs.usda.gov/fia/datamart/CSV/AL.zip"
         },
         {
             "dialect": {},
             "name": "al_veg_plot_species",
-            "path": "AL/AL_VEG_PLOT_SPECIES.csv",
+            "path": "AL_VEG_PLOT_SPECIES.csv",
             "schema": {
                 "fields": [
                     {
@@ -5287,12 +5287,12 @@
                     }
                 ]
             },
-            "url": "FILL"
+            "url": "https://apps.fs.usda.gov/fia/datamart/CSV/AL.zip"
         },
         {
             "dialect": {},
             "name": "al_plotsnap",
-            "path": "AL/AL_PLOTSNAP.csv",
+            "path": "AL_PLOTSNAP.csv",
             "schema": {
                 "fields": [
                     {
@@ -5695,12 +5695,12 @@
                     }
                 ]
             },
-            "url": "FILL"
+            "url": "https://apps.fs.usda.gov/fia/datamart/CSV/AL.zip"
         },
         {
             "dialect": {},
             "name": "al_tree_woodland_stems",
-            "path": "AL/AL_TREE_WOODLAND_STEMS.csv",
+            "path": "AL_TREE_WOODLAND_STEMS.csv",
             "schema": {
                 "fields": [
                     {
@@ -5789,12 +5789,12 @@
                     }
                 ]
             },
-            "url": "FILL"
+            "url": "https://apps.fs.usda.gov/fia/datamart/CSV/AL.zip"
         },
         {
             "dialect": {},
             "name": "al_dwm_residual_pile",
-            "path": "AL/AL_DWM_RESIDUAL_PILE.csv",
+            "path": "AL_DWM_RESIDUAL_PILE.csv",
             "schema": {
                 "fields": [
                     {
@@ -5957,12 +5957,12 @@
                     }
                 ]
             },
-            "url": "FILL"
+            "url": "https://apps.fs.usda.gov/fia/datamart/CSV/AL.zip"
         },
         {
             "dialect": {},
             "name": "al_sitetree",
-            "path": "AL/AL_SITETREE.csv",
+            "path": "AL_SITETREE.csv",
             "schema": {
                 "fields": [
                     {
@@ -6153,12 +6153,12 @@
                     }
                 ]
             },
-            "url": "FILL"
+            "url": "https://apps.fs.usda.gov/fia/datamart/CSV/AL.zip"
         },
         {
             "dialect": {},
             "name": "al_tree_grm_estn",
-            "path": "AL/AL_TREE_GRM_ESTN.csv",
+            "path": "AL_TREE_GRM_ESTN.csv",
             "schema": {
                 "fields": [
                     {
@@ -6371,12 +6371,12 @@
                     }
                 ]
             },
-            "url": "FILL"
+            "url": "https://apps.fs.usda.gov/fia/datamart/CSV/AL.zip"
         },
         {
             "dialect": {},
             "name": "al_veg_quadrat",
-            "path": "AL/AL_VEG_QUADRAT.csv",
+            "path": "AL_VEG_QUADRAT.csv",
             "schema": {
                 "fields": [
                     {
@@ -6461,12 +6461,12 @@
                     }
                 ]
             },
-            "url": "FILL"
+            "url": "https://apps.fs.usda.gov/fia/datamart/CSV/AL.zip"
         },
         {
             "dialect": {},
             "name": "al_veg_subplot_spp",
-            "path": "AL/AL_VEG_SUBPLOT_SPP.csv",
+            "path": "AL_VEG_SUBPLOT_SPP.csv",
             "schema": {
                 "fields": [
                     {
@@ -6583,12 +6583,12 @@
                     }
                 ]
             },
-            "url": "FILL"
+            "url": "https://apps.fs.usda.gov/fia/datamart/CSV/AL.zip"
         },
         {
             "dialect": {},
             "name": "al_ozone_biosite_summary",
-            "path": "AL/AL_OZONE_BIOSITE_SUMMARY.csv",
+            "path": "AL_OZONE_BIOSITE_SUMMARY.csv",
             "schema": {
                 "fields": [
                     {
@@ -6701,12 +6701,12 @@
                     }
                 ]
             },
-            "url": "FILL"
+            "url": "https://apps.fs.usda.gov/fia/datamart/CSV/AL.zip"
         },
         {
             "dialect": {},
             "name": "al_ozone_visit",
-            "path": "AL/AL_OZONE_VISIT.csv",
+            "path": "AL_OZONE_VISIT.csv",
             "schema": {
                 "fields": [
                     {
@@ -6823,12 +6823,12 @@
                     }
                 ]
             },
-            "url": "FILL"
+            "url": "https://apps.fs.usda.gov/fia/datamart/CSV/AL.zip"
         },
         {
             "dialect": {},
             "name": "al_county",
-            "path": "AL/AL_COUNTY.csv",
+            "path": "AL_COUNTY.csv",
             "schema": {
                 "fields": [
                     {
@@ -6880,12 +6880,12 @@
                     }
                 ]
             },
-            "url": "FILL"
+            "url": "https://apps.fs.usda.gov/fia/datamart/CSV/AL.zip"
         },
         {
             "dialect": {},
             "name": "al_pop_eval_typ",
-            "path": "AL/AL_POP_EVAL_TYP.csv",
+            "path": "AL_POP_EVAL_TYP.csv",
             "schema": {
                 "fields": [
                     {
@@ -6933,12 +6933,12 @@
                     }
                 ]
             },
-            "url": "FILL"
+            "url": "https://apps.fs.usda.gov/fia/datamart/CSV/AL.zip"
         },
         {
             "dialect": {},
             "name": "al_lichen_visit",
-            "path": "AL/AL_LICHEN_VISIT.csv",
+            "path": "AL_LICHEN_VISIT.csv",
             "schema": {
                 "fields": [
                     {
@@ -7095,12 +7095,12 @@
                     }
                 ]
             },
-            "url": "FILL"
+            "url": "https://apps.fs.usda.gov/fia/datamart/CSV/AL.zip"
         },
         {
             "dialect": {},
             "name": "al_pop_stratum",
-            "path": "AL/AL_POP_STRATUM.csv",
+            "path": "AL_POP_STRATUM.csv",
             "schema": {
                 "fields": [
                     {
@@ -7233,12 +7233,12 @@
                     }
                 ]
             },
-            "url": "FILL"
+            "url": "https://apps.fs.usda.gov/fia/datamart/CSV/AL.zip"
         },
         {
             "dialect": {},
             "name": "al_ozone_plot_summary",
-            "path": "AL/AL_OZONE_PLOT_SUMMARY.csv",
+            "path": "AL_OZONE_PLOT_SUMMARY.csv",
             "schema": {
                 "fields": [
                     {
@@ -7351,12 +7351,12 @@
                     }
                 ]
             },
-            "url": "FILL"
+            "url": "https://apps.fs.usda.gov/fia/datamart/CSV/AL.zip"
         },
         {
             "dialect": {},
             "name": "al_invasive_subplot_spp",
-            "path": "AL/AL_INVASIVE_SUBPLOT_SPP.csv",
+            "path": "AL_INVASIVE_SUBPLOT_SPP.csv",
             "schema": {
                 "fields": [
                     {
@@ -7449,12 +7449,12 @@
                     }
                 ]
             },
-            "url": "FILL"
+            "url": "https://apps.fs.usda.gov/fia/datamart/CSV/AL.zip"
         },
         {
             "dialect": {},
             "name": "al_grnd_cvr",
-            "path": "AL/AL_GRND_CVR.csv",
+            "path": "AL_GRND_CVR.csv",
             "schema": {
                 "fields": [
                     {
@@ -7539,12 +7539,12 @@
                     }
                 ]
             },
-            "url": "FILL"
+            "url": "https://apps.fs.usda.gov/fia/datamart/CSV/AL.zip"
         },
         {
             "dialect": {},
             "name": "al_pop_eval_attribute",
-            "path": "AL/AL_POP_EVAL_ATTRIBUTE.csv",
+            "path": "AL_POP_EVAL_ATTRIBUTE.csv",
             "schema": {
                 "fields": [
                     {
@@ -7590,12 +7590,12 @@
                     }
                 ]
             },
-            "url": "FILL"
+            "url": "https://apps.fs.usda.gov/fia/datamart/CSV/AL.zip"
         },
         {
             "dialect": {},
             "name": "al_dwm_microplot_fuel",
-            "path": "AL/AL_DWM_MICROPLOT_FUEL.csv",
+            "path": "AL_DWM_MICROPLOT_FUEL.csv",
             "schema": {
                 "fields": [
                     {
@@ -7698,12 +7698,12 @@
                     }
                 ]
             },
-            "url": "FILL"
+            "url": "https://apps.fs.usda.gov/fia/datamart/CSV/AL.zip"
         },
         {
             "dialect": {},
             "name": "al_tree_grm_threshold",
-            "path": "AL/AL_TREE_GRM_THRESHOLD.csv",
+            "path": "AL_TREE_GRM_THRESHOLD.csv",
             "schema": {
                 "fields": [
                     {
@@ -7856,12 +7856,12 @@
                     }
                 ]
             },
-            "url": "FILL"
+            "url": "https://apps.fs.usda.gov/fia/datamart/CSV/AL.zip"
         },
         {
             "dialect": {},
             "name": "al_pop_estn_unit",
-            "path": "AL/AL_POP_ESTN_UNIT.csv",
+            "path": "AL_POP_ESTN_UNIT.csv",
             "schema": {
                 "fields": [
                     {
@@ -7947,12 +7947,12 @@
                     }
                 ]
             },
-            "url": "FILL"
+            "url": "https://apps.fs.usda.gov/fia/datamart/CSV/AL.zip"
         },
         {
             "dialect": {},
             "name": "al_p2veg_subp_structure",
-            "path": "AL/AL_P2VEG_SUBP_STRUCTURE.csv",
+            "path": "AL_P2VEG_SUBP_STRUCTURE.csv",
             "schema": {
                 "fields": [
                     {
@@ -8039,12 +8039,12 @@
                     }
                 ]
             },
-            "url": "FILL"
+            "url": "https://apps.fs.usda.gov/fia/datamart/CSV/AL.zip"
         },
         {
             "dialect": {},
             "name": "al_cond",
-            "path": "AL/AL_COND.csv",
+            "path": "AL_COND.csv",
             "schema": {
                 "fields": [
                     {
@@ -8666,12 +8666,12 @@
                     }
                 ]
             },
-            "url": "FILL"
+            "url": "https://apps.fs.usda.gov/fia/datamart/CSV/AL.zip"
         },
         {
             "dialect": {},
             "name": "al_survey",
-            "path": "AL/AL_SURVEY.csv",
+            "path": "AL_SURVEY.csv",
             "schema": {
                 "fields": [
                     {
@@ -8751,12 +8751,12 @@
                     }
                 ]
             },
-            "url": "FILL"
+            "url": "https://apps.fs.usda.gov/fia/datamart/CSV/AL.zip"
         },
         {
             "dialect": {},
             "name": "al_dwm_fine_woody_debris",
-            "path": "AL/AL_DWM_FINE_WOODY_DEBRIS.csv",
+            "path": "AL_DWM_FINE_WOODY_DEBRIS.csv",
             "schema": {
                 "fields": [
                     {
@@ -8908,12 +8908,12 @@
                     }
                 ]
             },
-            "url": "FILL"
+            "url": "https://apps.fs.usda.gov/fia/datamart/CSV/AL.zip"
         },
         {
             "dialect": {},
             "name": "al_lichen_plot_summary",
-            "path": "AL/AL_LICHEN_PLOT_SUMMARY.csv",
+            "path": "AL_LICHEN_PLOT_SUMMARY.csv",
             "schema": {
                 "fields": [
                     {
@@ -8986,12 +8986,12 @@
                     }
                 ]
             },
-            "url": "FILL"
+            "url": "https://apps.fs.usda.gov/fia/datamart/CSV/AL.zip"
         },
         {
             "dialect": {},
             "name": "al_plot_regen",
-            "path": "AL/AL_PLOT_REGEN.csv",
+            "path": "AL_PLOT_REGEN.csv",
             "schema": {
                 "fields": [
                     {
@@ -9060,12 +9060,12 @@
                     }
                 ]
             },
-            "url": "FILL"
+            "url": "https://apps.fs.usda.gov/fia/datamart/CSV/AL.zip"
         },
         {
             "dialect": {},
             "name": "al_veg_subplot",
-            "path": "AL/AL_VEG_SUBPLOT.csv",
+            "path": "AL_VEG_SUBPLOT.csv",
             "schema": {
                 "fields": [
                     {
@@ -9210,12 +9210,12 @@
                     }
                 ]
             },
-            "url": "FILL"
+            "url": "https://apps.fs.usda.gov/fia/datamart/CSV/AL.zip"
         },
         {
             "dialect": {},
             "name": "al_soils_lab",
-            "path": "AL/AL_SOILS_LAB.csv",
+            "path": "AL_SOILS_LAB.csv",
             "schema": {
                 "fields": [
                     {
@@ -9431,7 +9431,7 @@
                     }
                 ]
             },
-            "url": "FILL"
+            "url": "https://apps.fs.usda.gov/fia/datamart/CSV/AL.zip"
         }
     ],
     "retriever": "True",
