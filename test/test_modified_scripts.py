@@ -31,6 +31,17 @@ if docker_or_travis == "true":
     os_password = 'Password12!'
     pgdb_host = "pgdb_recipes"
 
+global_modified_scripts = []
+
+spatial_datasets = [
+        "forest-inventory-analysis",
+        "prism-climate",
+        "vertnet",
+        "NPN",
+        "mammal-super-tree"
+    ]
+spatial_datasets_list = [dataset.lower() for dataset in spatial_datasets]
+
 
 def setup_module():
     """Make sure that you are in the source main directory.
@@ -39,15 +50,27 @@ def setup_module():
     and not the .retriever's script directory.
     """
     os.chdir(retriever_recipes_root_dir)
+    if os.path.exists("test_modified"):
+        subprocess.call(['rm', '-r', 'test_modified'])
+    get_modified_scripts()
+    os.makedirs("test_modified")
+    os.chdir("test_modified")
+
+
+def teardown_module():
+    """Cleanup temporary output files and return to root directory."""
+    os.chdir("..")
+    subprocess.call(['rm', '-r', 'test_modified'])
 
 
 def get_modified_scripts():
     """Get modified script list, using version.txt in repo and master upstream"""
+    global global_modified_scripts
     modified_list = []
     version_file = requests.get(
         "https://raw.githubusercontent.com/weecology/retriever-recipes/retriever-recipes-dev/version.txt")
     local_repo_scripts = get_script_version()
-
+    print(os.getcwd())
     upstream_versions = {}
     version_file = version_file.text.splitlines()[1:]
     for line in version_file:
@@ -66,51 +89,96 @@ def get_modified_scripts():
             script_name = os.path.basename(local_script).split('.')[0]
             script = script_name.replace('_', '-')
             modified_list.append(script)
-    return modified_list
+    global_modified_scripts = modified_list
 
 
-def install_modified():
-    """Installs modified scripts and returns any errors found"""
+def test_install_csv():
+    """Installs modified scripts using csv engine"""
     try:
         import retriever as rt
     except ImportError:
-        print("Retriever is not installed. Skipping tests...")
         return
 
-    setup_module()
+    errors = []
+    for script in global_modified_scripts:
+        if script not in spatial_datasets_list:
+            try:
+                rt.install_csv(script, table_name='{db}_{table}.csv', debug=True)
+            except KeyboardInterrupt:
+                pass
+            except Exception as e:
+                errors.append(("csv", script, e))
+    assert errors == []
 
-    spatial_datasets = [
-        "forest-inventory-analysis",
-        "prism-climate",
-        "vertnet",
-        "NPN",
-        "mammal-super-tree"
-    ]
-    spatial_datasets_list = [dataset.lower() for dataset in spatial_datasets]
 
-    modified_scripts = get_modified_scripts()
-    if modified_scripts is None:
-        print("No new scripts found. Database is up to date.")
-        sys.exit()
-    if os.path.exists("test_modified"):
-        subprocess.call(['rm', '-r', 'test_modified'])
-    os.makedirs("test_modified")
-    os.chdir("test_modified")
+def test_install_xml():
+    """Installs modified scripts using xml engine"""
+    try:
+        import retriever as rt
+    except ImportError:
+        return
+
+    errors = []
+    for script in global_modified_scripts:
+        if script not in spatial_datasets_list:
+            try:
+                rt.install_xml(script, table_name='{db}_{table}.xml', debug=True)
+            except KeyboardInterrupt:
+                pass
+            except Exception as e:
+                errors.append(("xml", script, e))
+    assert errors == []
+
+
+def test_install_json():
+    """Installs modified scripts using json engine"""
+    try:
+        import retriever as rt
+    except ImportError:
+        return
+
+    errors = []
+    for script in global_modified_scripts:
+        if script not in spatial_datasets_list:
+            try:
+                rt.install_json(script, table_name='{db}_{table}.json', debug=True)
+            except KeyboardInterrupt:
+                pass
+            except Exception as e:
+                errors.append(("json", script, e))
+    assert errors == []
+
+
+def test_install_sqlite():
+    """Installs modified scripts using sqlite engine"""
+    try:
+        import retriever as rt
+    except ImportError:
+        return
+
     dbfile = os.path.normpath(os.path.join(os.getcwd(), 'testdb_retriever.sqlite'))
 
-    engine_test = {
-        rt.install_xml: ["xml", {'table_name': '{db}_{table}.xml', 'debug': True}],
-
-        rt.install_json: ["json", {'table_name': '{db}_{table}.json', 'debug': True}],
-
-        rt.install_csv: ["csv", {'table_name': '{db}_{table}.csv', 'debug': True}],
-
-        rt.install_sqlite: ["sqlite", {'file': dbfile,
-                            'table_name': '{db}_{table}', 'debug': True}]
-    }
-    
     errors = []
-    for script in modified_scripts:
+    for script in global_modified_scripts:
+        if script not in spatial_datasets_list:
+            try:
+                rt.install_sqlite(script, file=dbfile, table_name='{db}_{table}', debug=True)
+            except KeyboardInterrupt:
+                pass
+            except Exception as e:
+                errors.append(("sqlite", script, e))
+    assert errors == []
+
+
+def test_install_postgres():
+    """Installs modified scripts using postgres engine"""
+    try:
+        import retriever as rt
+    except ImportError:
+        return
+
+    errors = []
+    for script in global_modified_scripts:
         if script in spatial_datasets_list:
             args = {'user': 'postgres',
                     'password': os_password,
@@ -127,33 +195,6 @@ def install_modified():
             except KeyboardInterrupt:
                 pass
             except Exception as e:
-                print("ERROR.")
                 errors.append(("postgres", script, e))
             continue
-        for install_function in engine_test:
-            args = engine_test[install_function]
-            try:
-                install_function(script, **(args[1]))
-            except KeyboardInterrupt:
-                pass
-            except Exception as e:
-                print("ERROR.")
-                errors.append((args[0], script, e))
-
-    os.chdir("..")
-    subprocess.call(['rm', '-r', 'test_modified'])
-    return errors
-
-
-def test_install_modified():
-    assert install_modified() == []
-
-
-if __name__ == "__main__":
-    errors = install_modified()
-    if errors:
-        print("Engine, Dataset, Error")
-        for error in errors:
-            print(error)
-    else:
-        print("All tests passed. All scripts are updated to latest version.")
+    assert errors == []
