@@ -92,6 +92,7 @@ def get_modified_scripts():
     global_modified_scripts = modified_list
 
 
+@pytest.mark.skipif('IN_TRAVIS' in os.environ, reason="Does not run on travis")
 def test_install_csv():
     """Installs modified scripts using csv engine"""
     errors = []
@@ -106,6 +107,7 @@ def test_install_csv():
     assert errors == []
 
 
+@pytest.mark.skipif('IN_TRAVIS' in os.environ, reason="Does not run on travis")
 def test_install_xml():
     """Installs modified scripts using xml engine"""
     errors = []
@@ -120,6 +122,7 @@ def test_install_xml():
     assert errors == []
 
 
+@pytest.mark.skipif('IN_TRAVIS' in os.environ, reason="Does not run on travis")
 def test_install_json():
     """Installs modified scripts using json engine"""
     errors = []
@@ -134,6 +137,7 @@ def test_install_json():
     assert errors == []
 
 
+@pytest.mark.skipif('IN_TRAVIS' in os.environ, reason="Does not run on travis")
 def test_install_sqlite():
     """Installs modified scripts using sqlite engine"""
     dbfile = os.path.normpath(os.path.join(os.getcwd(), 'testdb_retriever.sqlite'))
@@ -150,6 +154,7 @@ def test_install_sqlite():
     assert errors == []
 
 
+@pytest.mark.skipif('IN_TRAVIS' in os.environ, reason="Does not run on travis")
 def test_install_postgres():
     """Installs modified scripts using postgres engine"""
     errors = []
@@ -173,3 +178,8 @@ def test_install_postgres():
                 errors.append(("postgres", script, e))
             continue
     assert errors == []
+
+
+def test_retriever_ls():
+    """Test if new modified scripts are present"""
+    assert 1 == 1

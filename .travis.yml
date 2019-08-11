@@ -4,4 +4,4 @@ services:
   - docker
 
 script:
-  - docker-compose run --service-ports python_recipes pytest -v -k "not sqlite"
+  - docker-compose run -e IN_TRAVIS=true --service-ports python_recipes pytest -v -k "not sqlite"
