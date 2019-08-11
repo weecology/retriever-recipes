@@ -9,6 +9,7 @@ import sys
 import shlex
 import subprocess
 import requests
+import pytest
 from distutils.version import LooseVersion
 
 sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
