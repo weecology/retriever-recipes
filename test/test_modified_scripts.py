@@ -70,7 +70,7 @@ def get_modified_scripts():
     global global_modified_scripts
     modified_list = []
     version_file = requests.get(
-        "https://raw.githubusercontent.com/weecology/retriever-recipes/retriever-recipes-dev/version.txt")
+        "https://raw.githubusercontent.com/weecology/retriever-recipes/master/version.txt")
     local_repo_scripts = get_script_version()
     upstream_versions = {}
     version_file = version_file.text.splitlines()[1:]
