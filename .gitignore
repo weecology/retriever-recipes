@@ -1,0 +1,10 @@
+*.pyc
+dist/
+build/
+retriever_recipes.egg-info
+apidocs
+*.DS_Store
+.cache/*
+scripts/*.pyc
+.idea*
+*_pycache_
