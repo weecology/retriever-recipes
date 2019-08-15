@@ -16,9 +16,10 @@ To facilitate the use of recipes as a command-line utility, the user can simply 
 ## Installation
 
 ```
-git clone https://www.github.com/weecology/retriever-recipes.git
-cd retriever-recipes
-python setup.py install
+    git clone https://www.github.com/weecology/retriever-recipes.git
+    cd retriever-recipes
+    python setup.py install
+
 ```
 
 ## Using the Command Line
@@ -26,18 +27,18 @@ python setup.py install
 To see the full list of command line options and datasets run `retriever-recipes --help`. The output will look like this:
 
 ```
-usage: retriever-recipes [-h] {new_json,edit_json,delete_json,help} ...
+    usage: retriever-recipes [-h] {new_json,edit_json,delete_json,help} ...
 
-positional arguments:
-  {new_json,edit_json,delete_json,help}
-                        sub-command help
-    new_json            CLI to create retriever json script
-    edit_json           CLI to edit retriever json script
-    delete_json         CLI to remove retriever json script
-    help
+    positional arguments:
+      {new_json,edit_json,delete_json,help}
+                            sub-command help
+        new_json            CLI to create retriever json script
+        edit_json           CLI to edit retriever json script
+        delete_json         CLI to remove retriever json script
+        help
 
-optional arguments:
-  -h, --help            show this help message and exit
+    optional arguments:
+      -h, --help            show this help message and exit
 ```
 
 ### Examples
@@ -45,19 +46,23 @@ optional arguments:
 Some example usages of the CLI interface are:
 
 1. Add a new JSON script: 
+
 ```
-retriever-recipes new_json
+    retriever-recipes new_json
 ```
 
 2. Delete an existing JSON script: 
+
 ```
-retriever-recipes delete_json dataset
+    retriever-recipes delete_json dataset
 ```
 
 3. Edit an existing JSON script: 
+
 ```
-retriever-recipes edit_json dataset`
+    retriever-recipes edit_json dataset`
 ```
 
 ## Website
+
 For more information, see the [Data Retriever website](https://www.data-retriever.org/). 

@@ -13,7 +13,8 @@ def short_names():
     search_path = 'scripts'
     shortnames = set()
     if exists(search_path):
-        data_packages = [file_i for file_i in os.listdir(search_path) if file_i.endswith(".json")]
+        data_packages = [file_i for file_i in os.listdir(
+            search_path) if file_i.endswith(".json")]
         for script in data_packages:
             script_name = '.'.join(script.split('.')[:-1])
             script_name = script_name.replace('_', '-')
@@ -148,7 +149,8 @@ def create_json():
     contents['description'] = clean_input("description: ", ignore_empty=True)
     contents['citation'] = clean_input("citations (separated by ';'): ",
                                        split_char=';', ignore_empty=True)
-    contents['homepage'] = clean_input("homepage (for the entire dataset): ", ignore_empty=True)
+    contents['homepage'] = clean_input("homepage (for the entire dataset): ",
+                                       ignore_empty=True)
     contents['keywords'] = clean_input("keywords (separated by ';'): ",
                                        split_char=';', ignore_empty=True)
     contents['resources'] = []
@@ -187,11 +189,13 @@ def create_json():
             # set table schema
             table['schema'] = {}
             table['schema']["fields"] = []
-            print("Enter columns [format = name, type, (optional) size] (press return to skip):\n\n")
+            print("Enter columns [format = name, type, "
+                  "(optional) size] (press return to skip):\n\n")
             while True:
                 # get column list (optional)
                 try:
-                    col_list = clean_input("", split_char=',', ignore_empty=True)
+                    col_list = clean_input(
+                        "", split_char=',', ignore_empty=True)
                     if not col_list:
                         break
                     if not isinstance(col_list, list):
@@ -216,7 +220,8 @@ def create_json():
             if isCT.lower() in ["y", "yes"]:
                 ct_column = clean_input("Crosstab column name: ")
                 ct_names = []
-                print("Enter names of crosstab column values (Press return after each name):\n")
+                print("Enter names of crosstab column values "
+                      "(Press return after each name):\n")
                 name = clean_input()
                 while name != "":
                     ct_names.append(name)
