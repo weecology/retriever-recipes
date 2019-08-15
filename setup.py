@@ -12,10 +12,12 @@ if os.path.exists(".git/hooks"):  # check if we are in git repo
     subprocess.call("cp hooks/pre-commit .git/hooks/pre-commit", shell=True)
     subprocess.call("chmod +x .git/hooks/pre-commit", shell=True)
 
+
 def read(*names, **kwargs):
     return open(
         os.path.join(os.path.dirname(__file__), *names),
     ).read()
+
 
 setup(
     name='retriever-recipes',

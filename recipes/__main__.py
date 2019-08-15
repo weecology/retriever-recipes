@@ -36,5 +36,6 @@ def main():
                 delete_json(json_file)
             return
 
+
 if __name__ == "__main__":
     main()

@@ -106,7 +106,8 @@ def get_script_version(search_paths=['scripts']):
     scripts = []
     for search_path in search_paths:
         if exists(search_path):
-            data_packages = [file_i for file_i in os.listdir(search_path) if file_i.endswith(".json")]
+            data_packages = [file_i for file_i in os.listdir(
+                search_path) if file_i.endswith(".json")]
             for script in data_packages:
                 script_name = '.'.join(script.split('.')[:-1])
                 script_version = read_json(os.path.join(search_path, script))
@@ -117,7 +118,8 @@ def get_script_version(search_paths=['scripts']):
             files = [file for file in os.listdir(search_path)
                      if file[-3:] == ".py" and file[0] != "_" and
                      ('#retriever' in
-                      ' '.join(open_fr(join(search_path, file), encoding=ENCODING).readlines()[:2]).lower())
+                      ' '.join(open_fr(join(search_path, file),
+                                       encoding=ENCODING).readlines()[:2]).lower())
                      ]
             for script in files:
                 script_name = '.'.join(script.split('.')[:-1])

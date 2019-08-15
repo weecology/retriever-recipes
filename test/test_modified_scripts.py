@@ -1,6 +1,3 @@
-"""This module, when run, attempts to install datasets for modified Retriever
-scripts in the /scripts folder
-"""
 from __future__ import absolute_import
 from __future__ import print_function
 
@@ -36,12 +33,12 @@ if docker_or_travis == "true":
 global_modified_scripts = []
 
 spatial_datasets = [
-        "forest-inventory-analysis",
-        "prism-climate",
-        "vertnet",
-        "NPN",
-        "mammal-super-tree"
-    ]
+    "forest-inventory-analysis",
+    "prism-climate",
+    "vertnet",
+    "NPN",
+    "mammal-super-tree"
+]
 spatial_datasets_list = [dataset.lower() for dataset in spatial_datasets]
 
 
@@ -147,7 +144,8 @@ def test_install_sqlite():
     for script in global_modified_scripts:
         if script not in spatial_datasets_list:
             try:
-                rt.install_sqlite(script, file=dbfile, table_name='{db}_{table}', debug=True)
+                rt.install_sqlite(script, file=dbfile,
+                                  table_name='{db}_{table}', debug=True)
             except KeyboardInterrupt:
                 pass
             except Exception as e:
@@ -169,7 +167,8 @@ def test_install_postgres():
                     'database_name': 'testschema',
                     'table_name': '{db}.{table}',
                     'debug': True}
-            cmd = 'psql -U postgres -d ' + testdb_retriever +' -h ' + pgdb_host + ' -w -c \"DROP SCHEMA IF EXISTS testschema CASCADE\"'
+            cmd = 'psql -U postgres -d ' + testdb_retriever + ' -h ' + \
+                pgdb_host + ' -w -c \"DROP SCHEMA IF EXISTS testschema CASCADE\"'
             subprocess.call(shlex.split(cmd))
             try:
                 rt.install_postgres(script, **args)
