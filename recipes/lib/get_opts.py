@@ -27,7 +27,7 @@ help_parser = subparsers.add_parser('help', help='')
 # ..............................................................
 # Subparsers With Arguments
 # ..............................................................
-edit_json_parser.add_argument('dataset', nargs=1, help='dataset name', choices=script_list)
-delete_json_parser.add_argument('dataset', nargs=1, help='dataset name', choices=script_list)
+edit_json_parser.add_argument('dataset', help='dataset name', choices=script_list)
+delete_json_parser.add_argument('dataset', help='dataset name', choices=script_list)
 
 argcomplete.autocomplete(parser)
