@@ -156,7 +156,7 @@ def create_json():
     contents['retriever'] = "True"
     contents['retriever_minimum_version'] = "2.0.dev"
     contents['encoding'] = clean_input("encoding: ", ignore_empty=True)
-    if is_empty(clean_input("encoding: ", ignore_empty=True)):
+    if is_empty(contents['encoding']):
         contents['encoding'] = ENCODING
     contents['version'] = "1.0.0"
 
