@@ -1,0 +1,107 @@
+{
+    "citation": "India Meteorological Department (IMD)",
+    "description": "Month wise all India rainfall data from 1901-2017. The sub-division wise rainfall and its departure from normal for each month and season has been provided in the data.",
+    "encoding": "ISO-8859-1",
+    "homepage": "https://data.gov.in/resources/sub-divisional-monthly-rainfall-1901-2017",
+    "keywords": [
+        "rainfall",
+        "weather",
+        "monsoon",
+        "meteorology"
+    ],
+    "name": "rainfall-in-india",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ",",
+                "missingValues": "NA"
+            },
+            "name": "Sub_Division_IMD_2017",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "SUBDIVISION",
+                        "type": "char"
+                    },
+                    {
+                        "name": "YEAR",
+                        "type": "int"
+                    },
+                    {
+                        "name": "JAN",
+                        "type": "double"
+                    },
+                    {
+                        "name": "FEB",
+                        "type": "double"
+                    },
+                    {
+                        "name": "MAR",
+                        "type": "double"
+                    },
+                    {
+                        "name": "APR",
+                        "type": "double"
+                    },
+                    {
+                        "name": "MAY",
+                        "type": "double"
+                    },
+                    {
+                        "name": "JUN",
+                        "type": "double"
+                    },
+                    {
+                        "name": "JUL",
+                        "type": "double"
+                    },
+                    {
+                        "name": "AUG",
+                        "type": "double"
+                    },
+                    {
+                        "name": "SEP",
+                        "type": "double"
+                    },
+                    {
+                        "name": "OCT",
+                        "type": "double"
+                    },
+                    {
+                        "name": "NOV",
+                        "type": "double"
+                    },
+                    {
+                        "name": "DEC",
+                        "type": "double"
+                    },
+                    {
+                        "name": "ANNUAL",
+                        "type": "double"
+                    },
+                    {
+                        "name": "JF",
+                        "type": "double"
+                    },
+                    {
+                        "name": "MAM",
+                        "type": "double"
+                    },
+                    {
+                        "name": "JJAS",
+                        "type": "double"
+                    },
+                    {
+                        "name": "OND",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "https://data.gov.in/sites/default/files/datafile/Sub_Division_IMD_2017.csv"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.0.dev",
+    "title": "Rainfall in India",
+    "version": "1.0.0"
+}
