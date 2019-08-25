@@ -130,7 +130,6 @@ def create_json():
     Takes input from user via command line.
     """
     contents = {}
-    tableurls = {}
 
     invalid_name = True
     script_exists = True
@@ -174,7 +173,6 @@ def create_json():
             table['name'] = clean_input("table-name: ")
             table['url'] = clean_input("table-url: ")
             table['dialect'] = {}
-            tableurls[table['name']] = table['url']
 
             # get table properties (dialect)
             # refer retriever.lib.table.Table
@@ -235,7 +233,6 @@ def create_json():
         "Would you like to add a Message? (y,N): ", ignore_empty=True)
     if give_message.lower() in ["y", "yes"]:
         contents['message'] = clean_input("Provide your Message: ", ignore_empty=True)
-    contents['urls'] = tableurls
     file_name = contents['name'] + ".json"
     file_name = file_name.replace('-', '_')
     with open(os.path.join('scripts', file_name), 'w') as output_file:
