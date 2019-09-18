@@ -1,0 +1,1258 @@
+{
+    "citation": "",
+    "description": "Boston, BuildBPS compiles data that can be used to guide and inform decisions related to school building investments",
+    "homepage": "https://data.boston.gov/dataset/buildbps-facilities-and-educational-data-for-boston-public-schools",
+    "encoding": "latin-1",
+    "keywords": [
+        "education"
+    ],
+    "licenses": [
+        {
+            "name": "Open Data Commons Public Domain Dedication and License (PDDL)"
+        }
+    ],
+    "name": "boston-buildbps",
+    "resources": [
+        {
+            "dialect": {
+                "do_not_bulk_insert": "True",
+                "delimiter": ",",
+                "missingValues": [
+                    "N/A", " $-", "\\n"
+                ]
+            },
+            "name": "buildbpss",
+            "path": "buildbpss.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "smma_identifier",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_only_for_map",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "bps_school_name",
+                        "size": "52",
+                        "type": "char"
+                    },
+                    {
+                        "name": "bps_historical_name",
+                        "size": "30",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_abbreviated_name",
+                        "size": "21",
+                        "type": "char"
+                    },
+                    {
+                        "name": "bps_address",
+                        "size": "51",
+                        "type": "char"
+                    },
+                    {
+                        "name": "bra_neighborhood",
+                        "size": "21",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_latitude",
+                        "type": "double"
+                    },
+                    {
+                        "name": "smma_longitude",
+                        "type": "double"
+                    },
+                    {
+                        "name": "smma_typology",
+                        "size": "17",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_educational_program",
+                        "size": "22",
+                        "type": "char"
+                    },
+                    {
+                        "name": "bps_grades_offered",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "bps_property_status",
+                        "size": "15",
+                        "type": "char"
+                    },
+                    {
+                        "name": "bps_total_gsf",
+                        "type": "int"
+                    },
+                    {
+                        "name": "bps_gsf",
+                        "type": "double"
+                    },
+                    {
+                        "name": "smma_site_sf",
+                        "type": "int"
+                    },
+                    {
+                        "name": "smma_site_acres",
+                        "type": "double"
+                    },
+                    {
+                        "name": "bps_year_founded",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "bps_year_built",
+                        "type": "int"
+                    },
+                    {
+                        "name": "msba_year_reno",
+                        "size": "23",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_era",
+                        "size": "12",
+                        "type": "char"
+                    },
+                    {
+                        "name": "bps_plans",
+                        "size": "65",
+                        "type": "char"
+                    },
+                    {
+                        "name": "bps_principal",
+                        "size": "68",
+                        "type": "char"
+                    },
+                    {
+                        "name": "bps_open",
+                        "size": "35",
+                        "type": "char"
+                    },
+                    {
+                        "name": "bps_close",
+                        "size": "25",
+                        "type": "char"
+                    },
+                    {
+                        "name": "doe_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "doe_total",
+                        "type": "int"
+                    },
+                    {
+                        "name": "doe_pk",
+                        "type": "int"
+                    },
+                    {
+                        "name": "doe_k",
+                        "type": "int"
+                    },
+                    {
+                        "name": "doe_1",
+                        "type": "int"
+                    },
+                    {
+                        "name": "doe_2",
+                        "type": "int"
+                    },
+                    {
+                        "name": "doe_3",
+                        "type": "int"
+                    },
+                    {
+                        "name": "doe_4",
+                        "type": "int"
+                    },
+                    {
+                        "name": "doe_5",
+                        "type": "int"
+                    },
+                    {
+                        "name": "doe_6",
+                        "type": "int"
+                    },
+                    {
+                        "name": "doe_7",
+                        "type": "int"
+                    },
+                    {
+                        "name": "doe_8",
+                        "type": "int"
+                    },
+                    {
+                        "name": "doe_9",
+                        "type": "int"
+                    },
+                    {
+                        "name": "doe_10",
+                        "type": "int"
+                    },
+                    {
+                        "name": "doe_11",
+                        "type": "int"
+                    },
+                    {
+                        "name": "doe_12",
+                        "type": "int"
+                    },
+                    {
+                        "name": "doe_sp",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsf_student_value",
+                        "type": "int"
+                    },
+                    {
+                        "name": "bps_kwh",
+                        "type": "int"
+                    },
+                    {
+                        "name": "bps_electric_bill",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "bps_therms",
+                        "type": "int"
+                    },
+                    {
+                        "name": "bps_gas_bill",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "bps_water_ft_cubic",
+                        "type": "int"
+                    },
+                    {
+                        "name": "bps_water_bill",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "bps_total_energy_cost",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "climate_priority",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "climate_risk",
+                        "size": "20",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_fa_visit_date",
+                        "size": "27",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_fa_status",
+                        "size": "12",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_fa_school_enrollment",
+                        "type": "int"
+                    },
+                    {
+                        "name": "smma_fa_enrollment_building",
+                        "type": "int"
+                    },
+                    {
+                        "name": "smma_fa_major_investments",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_fa_existing_pv",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_fa_space_solar",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_fa_roof_membrane",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_fa_facade",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_fa_windows",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_fa_boilers",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_fa_heating_distribution_systems",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_fa_ventilation_distribution_systems",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_fa_electrical_service",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_fa_means_egress",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_fa_fp_sprinklers",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_fa_life_safety",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_fa_security_entry",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_fa_lighting_quantity_control",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_fa_toilets_fixtures",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_fa_plumbing_distribution_systems",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_fa_accessibility",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_fa_deterioration_roof",
+                        "size": "12",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_fa_deterioration_floor",
+                        "size": "12",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_fa_deterioration_walls_columns",
+                        "size": "12",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_fa_deterioration_foundations",
+                        "size": "12",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_fa_deterioration_facade",
+                        "size": "12",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_fa_lateral_system_identifiable",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_fa_overall_building_condition",
+                        "size": "12",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_fa_mhc_inventory",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_fa_mhc_register",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_fa_emergency_shelter",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_fa_community_use_spaces",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_fa_overall_community_building",
+                        "size": "12",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_fa_building_suitability_school",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_fa_susceptible_climate_change_now",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_fa_susceptible_climate_change_2100",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_fa_site_major_investments_10_years",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_fa_building_expandable_current_site",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_fa_parking_quality",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_fa_neighborhood_streets",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_fa_dropoff_pickup",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_fa_walkways_curbs_sidewalks",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_fa_maabada_accessibility",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_fa_site_lighting",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_fa_fencing",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_fa_drainage",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_fa_play_areas",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_fa_walls_slopes",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_fa_overall_site_condition",
+                        "size": "12",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_fa_mhc_archaeological_assets",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_fa_mass_transit",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_fa_bikable",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_fa_walkable",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_fa_overall_community_site",
+                        "size": "12",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_fa_site_suitability_school",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "visit_date_date",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_es_status",
+                        "size": "12",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_building_originally_designed",
+                        "size": "22",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_grade_configuration_best_suited_prek_to_1",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_grade_configuration_best_suited_prek_to_3",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_grade_configuration_best_suited_prek_to_5",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_grade_configuration_best_suited_prek_to_6",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_grade_configuration_best_suited_4_to_6",
+                        "type": "int"
+                    },
+                    {
+                        "name": "smma_ea_grade_configuration_best_suited_6_to_8",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_grade_configuration_best_suited_7_to_8",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_grade_configuration_best_suited_6_to_12",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_grade_configuration_best_suited_7_to_12",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_grade_configuration_best_suited_9_to_12",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_building_ventilation",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_building_natural_daylighting",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_building_lighting_quality_quantity",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_building_air_quality",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_building_acoustical",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_building_technology_power",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_building_technology_wireless",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_building_technology_interactive",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_building_furniture",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_building_finishes",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_building_environment_inviting_stimulating_comfortable",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_building_adjacencies_learning_environments",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_building_outdoor_classrooms",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_overall_efe_learning_environments",
+                        "size": "12",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_site_includes_playgrounds",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_site_includes_accessible",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_site_includes_playfields",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_change_typology_easily",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_transformed_educationally",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_swing_space",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_85percent_to_115percent_utilization",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_educational_program",
+                        "size": "45",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_efe_s_overall_all",
+                        "size": "12",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_es_adequacy_prek",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_es_adequacy_kindergarten",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_es_adequacy_classroom",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_es_adequacy_sped_ss",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_es_adequacy_sped_resource",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_es_adequacy_art",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_es_adequacy_music",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_es_adequacy_gymnasium",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_es_adequacy_media_center",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_es_adequacy_cafeteria",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_es_adequacy_stage",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_es_adequacy_medical",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_es_adequacy_administration",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_es_adequacy_custodial",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_es_adequacy_network",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_es_adequacy_other_1",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_es_adequacy_other_2",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_es_adequacy_other_3",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_es_overall_efe_spaces",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_ms_adequacy_classroom",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_ms_adequacy_science",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_ms_adequacy_sped_ss",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_ms_adequacy_sped_resource",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_ms_adequacy_art",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_ms_adequacy_music",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_ms_adequacy_vocations",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_ms_adequacy_gymnasium",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_ms_adequacy_media_center",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_ms_adequacy_cafeteria",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_ms_adequacy_stage",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_ms_adequacy_medical",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_ms_adequacy_administration",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_ms_adequacy_custodial",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_ms_adequacy_network",
+                        "type": "int"
+                    },
+                    {
+                        "name": "smma_ea_ms_adequacy_other_1",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_ms_adequacy_other_2",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_ms_adequacy_other_3",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_ms_overall_efe_spaces",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_hs712_adequacy_classroom",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_hs712_adequacy_teacherplanning",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_hs712_adequacy_small_group",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_hs712_adequacy_science",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_hs712_adequacy_sped_ss",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_hs712_adequacy_sped_resource",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_hs712_adequacy_art",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_hs712_adequacy_music",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_hs712_adequacy_vocations",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_hs712_adequacy_gymnasium",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_hs712_adequacy_gynasiumalternatives",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_hs712_adequacy_media_center",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_hs712_adequacy_cafeteria",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_hs712_adequacy_auditorium",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_hs712_adequacy_stage",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_hs712_adequacy_medical",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_hs712_adequacy_administration",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_hs712_adequacy_custodial",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_hs712_adequacy_network",
+                        "type": "int"
+                    },
+                    {
+                        "name": "smma_ea_hs712_adequacy_other_1",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_hs712_adequacy_other_2",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_hs712_adequacy_other_3",
+                        "type": "int"
+                    },
+                    {
+                        "name": "smma_ea_hs712_overall_efe_spaces",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_hs912_adequacy_classroom",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_hs912_adequacy_teacherplanning",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_hs912_adequacy_small_group",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_hs912_adequacy_science",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_hs912_adequacy_sped_ss",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_hs912_adequacy_sped_resource",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_hs912_adequacy_art",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_hs912_adequacy_music",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_hs912_adequacy_vocations",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_hs912_adequacy_gymnasium",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_hs912_adequacy_gynasiumalternatives",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_hs912_adequacy_media_center",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_hs912_adequacy_cafeteria",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_hs912_adequacy_auditorium",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_hs912_adequacy_stage",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_hs912_adequacy_medical",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_hs912_adequacy_administration",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_hs912_adequacy_custodial",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_hs912_adequacy_network",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_hs912_adequacy_other_1",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_hs912_adequacy_other_2",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_hs912_adequacy_other_3",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_hs912_overall_efe_spaces",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_k8_adequacy_pre_k",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_k8_adequacy_kindergarten",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_k8_adequacy_classroom_grades_1_5",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_k8_adequacy_classroom_grades_6_8",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_k8_adequacy_science",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_k8_adequacy_sped_ss",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_k8_adequacy_small_group",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_k8_adequacy_art_grades_1_5",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_k8_adequacy_art_grades_6_8",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_k8_adequacy_music",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_k8_adequacy_vocations",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_k8_adequacy_gymnasium",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_k8_adequacy_media_center",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_k8_adequacy_cafeteria",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_k8_adequacy_stage",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_k8_adequacy_medical",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_k8_adequacy_administration",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_k8_adequacy_custodial",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_k8_adequacy_network",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_k8_adequacy_other_1",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_k8_adequacy_other_2",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_k8_adequacy_other_3",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smma_ea_k8_overall_efe_spaces",
+                        "size": "12",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/b2c5a9d3-609d-49ec-906c-b0e850a8d62a/resource/33c5f44a-3c67-4390-a1d5-1bf018e4728c/download/buildbps.csv"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "BUILDBPS: Facilities and educational data for boston public schools",
+    "version": "1.0.0"
+}
