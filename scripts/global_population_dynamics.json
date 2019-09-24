@@ -1,0 +1,497 @@
+{
+    "citation": "John Prendergast, Ellen Bazeley-White, Owen Smith, John Lawton, Pablo Inchausti, et al. 2010. The Global Population Dynamics Database. Knowledge Network for Biocomplexity. doi:10.5063/F1BZ63Z8.",
+    "description": "GDPP conatins animal and plant population data, with about five thousand separate time series, population counts, taxonomic details of about 1400 species.",
+    "homepage": "https://knb.ecoinformatics.org/view/doi:10.5063/F1BZ63Z8",
+    "keywords": ["Time series data", "animal populations", "plant populations", "count data"],
+    "licenses": [{"name": "CC-BY"}],
+    "encoding": "latin-1",
+    "name": "global-population-dynamics",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "biotope",
+            "path": "df35b.238.1.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "biotopeid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "habitatname",
+                        "size": "88",
+                        "type": "char"
+                    },
+                    {
+                        "name": "biotopetype",
+                        "size": "37",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://knb.ecoinformatics.org/knb/d1/mn/v2/object/df35b.238.1"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "data",
+            "path": "df35b.233.1.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "dataid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "mainid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "population",
+                        "type": "double"
+                    },
+                    {
+                        "name": "populationuntransformed",
+                        "type": "double"
+                    },
+                    {
+                        "name": "sampleyear",
+                        "type": "int"
+                    },
+                    {
+                        "name": "timeperiodid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "generation",
+                        "type": "int"
+                    },
+                    {
+                        "name": "seriesstep",
+                        "type": "int"
+                    },
+                    {
+                        "name": "decimalyearbegin",
+                        "type": "double"
+                    },
+                    {
+                        "name": "decimalyearend",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "https://knb.ecoinformatics.org/knb/d1/mn/v2/object/df35b.233.1"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "datasource",
+            "path": "df35b.237.1.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "datasourceid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "author",
+                        "size": "149",
+                        "type": "char"
+                    },
+                    {
+                        "name": "year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "title",
+                        "size": "217",
+                        "type": "char"
+                    },
+                    {
+                        "name": "reference",
+                        "size": "252",
+                        "type": "char"
+                    },
+                    {
+                        "name": "availability",
+                        "size": "13",
+                        "type": "char"
+                    },
+                    {
+                        "name": "contactaddress",
+                        "size": "160",
+                        "type": "char"
+                    },
+                    {
+                        "name": "datamedium",
+                        "size": "43",
+                        "type": "char"
+                    },
+                    {
+                        "name": "notes",
+                        "size": "361",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://knb.ecoinformatics.org/knb/d1/mn/v2/object/df35b.237.1"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "location",
+            "path": "df35b.239.1.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "locationid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "exactname",
+                        "size": "131",
+                        "type": "char"
+                    },
+                    {
+                        "name": "townname",
+                        "size": "46",
+                        "type": "char"
+                    },
+                    {
+                        "name": "countystateprovince",
+                        "size": "80",
+                        "type": "char"
+                    },
+                    {
+                        "name": "country",
+                        "size": "63",
+                        "type": "char"
+                    },
+                    {
+                        "name": "continent",
+                        "size": "32",
+                        "type": "char"
+                    },
+                    {
+                        "name": "ocean",
+                        "size": "20",
+                        "type": "char"
+                    },
+                    {
+                        "name": "longitudedegrees",
+                        "type": "int"
+                    },
+                    {
+                        "name": "longitudeminutes",
+                        "type": "double"
+                    },
+                    {
+                        "name": "eorw",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "latitudedegrees",
+                        "type": "int"
+                    },
+                    {
+                        "name": "latitudeminutes",
+                        "type": "double"
+                    },
+                    {
+                        "name": "nors",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "longdd",
+                        "type": "double"
+                    },
+                    {
+                        "name": "latdd",
+                        "type": "double"
+                    },
+                    {
+                        "name": "north",
+                        "type": "double"
+                    },
+                    {
+                        "name": "east",
+                        "type": "double"
+                    },
+                    {
+                        "name": "south",
+                        "type": "double"
+                    },
+                    {
+                        "name": "west",
+                        "type": "double"
+                    },
+                    {
+                        "name": "altitude",
+                        "type": "double"
+                    },
+                    {
+                        "name": "area",
+                        "type": "double"
+                    },
+                    {
+                        "name": "notes",
+                        "size": "255",
+                        "type": "char"
+                    },
+                    {
+                        "name": "spatialaccuracy",
+                        "type": "int"
+                    },
+                    {
+                        "name": "locationextent",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://knb.ecoinformatics.org/knb/d1/mn/v2/object/df35b.239.1"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "main",
+            "path": "df35b.234.1.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "mainid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "taxonid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "datasourceid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "biotopeid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "locationid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "samplingunits",
+                        "size": "34",
+                        "type": "char"
+                    },
+                    {
+                        "name": "samplingprotocol",
+                        "size": "20",
+                        "type": "char"
+                    },
+                    {
+                        "name": "sourcedimension",
+                        "size": "22",
+                        "type": "char"
+                    },
+                    {
+                        "name": "samplingeffort",
+                        "size": "21",
+                        "type": "char"
+                    },
+                    {
+                        "name": "spatialdensity",
+                        "size": "22",
+                        "type": "char"
+                    },
+                    {
+                        "name": "sourcetransform",
+                        "size": "13",
+                        "type": "char"
+                    },
+                    {
+                        "name": "sourcetransformreference",
+                        "size": "35",
+                        "type": "char"
+                    },
+                    {
+                        "name": "associateddatasets",
+                        "size": "84",
+                        "type": "char"
+                    },
+                    {
+                        "name": "reliability",
+                        "type": "int"
+                    },
+                    {
+                        "name": "startyear",
+                        "type": "int"
+                    },
+                    {
+                        "name": "endyear",
+                        "type": "int"
+                    },
+                    {
+                        "name": "samplingfrequency",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "datasetlength",
+                        "type": "int"
+                    },
+                    {
+                        "name": "notes",
+                        "size": "800",
+                        "type": "char"
+                    },
+                    {
+                        "name": "siblyfittedtheta",
+                        "type": "double"
+                    },
+                    {
+                        "name": "siblythetacilower",
+                        "type": "double"
+                    },
+                    {
+                        "name": "siblythetaciupper",
+                        "type": "double"
+                    },
+                    {
+                        "name": "siblyextremeneffect",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "siblyreturnrate",
+                        "type": "double"
+                    },
+                    {
+                        "name": "siblycarryingcapacity",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "https://knb.ecoinformatics.org/knb/d1/mn/v2/object/df35b.234.1"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "taxon",
+            "path": "df35b.236.1.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "taxonid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "taxonname",
+                        "size": "50",
+                        "type": "char"
+                    },
+                    {
+                        "name": "woldacode",
+                        "size": "30",
+                        "type": "char"
+                    },
+                    {
+                        "name": "authority",
+                        "size": "28",
+                        "type": "char"
+                    },
+                    {
+                        "name": "taxonomiclevel",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "commonname",
+                        "size": "80",
+                        "type": "char"
+                    },
+                    {
+                        "name": "taxonomicphylum",
+                        "size": "30",
+                        "type": "char"
+                    },
+                    {
+                        "name": "taxonomicclass",
+                        "size": "34",
+                        "type": "char"
+                    },
+                    {
+                        "name": "taxonomicorder",
+                        "size": "32",
+                        "type": "char"
+                    },
+                    {
+                        "name": "taxonomicfamily",
+                        "size": "28",
+                        "type": "char"
+                    },
+                    {
+                        "name": "taxonomicgenus",
+                        "size": "17",
+                        "type": "char"
+                    },
+                    {
+                        "name": "notes",
+                        "size": "247",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://knb.ecoinformatics.org/knb/d1/mn/v2/object/df35b.236.1"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "timeperiod",
+            "path": "df35b.235.1.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "timeperiodid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "timeperiod",
+                        "size": "23",
+                        "type": "char"
+                    },
+                    {
+                        "name": "timeperiodgroup",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "timeperiodorder",
+                        "type": "int"
+                    },
+                    {
+                        "name": "begin",
+                        "type": "double"
+                    },
+                    {
+                        "name": "end",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "https://knb.ecoinformatics.org/knb/d1/mn/v2/object/df35b.235.1"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "Global Population Dynamics Database",
+    "version": "1.0.0"
+}
