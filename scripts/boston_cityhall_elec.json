@@ -1,5 +1,5 @@
 {
-    "citation": "Department of Innovation and Technology",
+    "citation": "",
     "description": "Electric power load at City Hall (1 City Hall Square) measured every 15 minutes. And it is continously updated.",
     "homepage": "https://data.boston.gov/dataset/city-hall-electricity-usage",
     "keywords": ["City Hall", "Demand", "Electricity", "Energy", "Load", "Meter", "Power"],
@@ -11,7 +11,7 @@
     "name": "boston-cityhall-electricity-usage",
     "resources": [
         {
-            "dialect": {"datatime_utc":"Numerical", "total_demand_KW":"Numerical"},
+            "dialect": {},
             "name": "Boston-Energy-Consumption",
             "path":"tmp7mv7ycav.csv",
             "schema": {
