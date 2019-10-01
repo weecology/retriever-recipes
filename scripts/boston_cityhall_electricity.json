@@ -12,7 +12,7 @@
     "resources": [
         {
             "dialect": {"datatime_utc":"Numerical", "total_demand_KW":"Numerical"},
-            "name": "Energy-Consumption",
+            "name": "Boston-Energy-Consumption",
             "path":"tmp7mv7ycav.csv",
             "schema": {
                 "fields": [
