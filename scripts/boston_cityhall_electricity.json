@@ -1,18 +1,19 @@
 {
-    "citation": "FILL",
-    "description": "FILL",
-    "homepage": "FILL",
-    "keywords": [],
+    "citation": "Department of Innovation and Technology",
+    "description": "Electric power load at City Hall (1 City Hall Square) measured every 15 minutes. And it is continously updated.",
+    "homepage": "https://data.boston.gov/dataset/city-hall-electricity-usage",
+    "keywords": ["City Hall", "Demand", "Electricity", "Energy", "Load", "Meter", "Power"],
     "licenses": [
         {
-            "name": "FILL"
+            "name": "Open Data Commons Public Domain Dedication and License (PDDL)"
         }
     ],
-    "name": "FILL",
+    "name": "boston-cityhall-electricity-usage",
     "resources": [
         {
-            "dialect": {},
-            "name": "tmp7mv7ycav",
+            "dialect": {"datatime_utc":"Numerical", "total_demand_KW":"Numerical"},
+            "name": "Energy-Consumption",
+            "path":"tmp7mv7ycav.csv",
             "schema": {
                 "fields": [
                     {
@@ -25,11 +26,11 @@
                     }
                 ]
             },
-            "url": "FILL"
+            "url": "https://data.boston.gov/dataset/1b894599-21ff-478f-937d-653954977951/resource/f123e65d-dc0e-4c83-9348-ed46fec498c0/download/tmpbqoqcb2x.csv"
         }
     ],
     "retriever": "True",
     "retriever_minimum_version": "2.1.0",
-    "title": "FILL",
+    "title": "Boston-CityHall-Energy-Consumption",
     "version": "1.0.0"
 }
