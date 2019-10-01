@@ -11,7 +11,9 @@
     "name": "boston-cityhall-electricity-usage",
     "resources": [
         {
-            "dialect": {},
+            "dialect": {
+                "delimiter": ","
+            },
             "name": "Boston-Energy-Consumption",
             "path":"tmp7mv7ycav.csv",
             "schema": {
