@@ -3,6 +3,7 @@ abalone_age.json,1.2.2
 airports.json,1.0.3
 antarctic_breed_bird.json,1.2.2
 aquatic_animal_excretion.py,1.1.6
+arsenic_contamination_bangladesh.json,1.0.0
 biodiversity_response.json,1.0.2
 biomass_allometry_db.py,1.4.4
 biotime.json,1.1.1
