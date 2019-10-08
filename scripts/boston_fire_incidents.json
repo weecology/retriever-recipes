@@ -1,0 +1,4380 @@
+{
+    "citation": "N/A",
+    "description": "Fire incidents, to be shared with state and federal governments for reporting. Supports resource allocation. Monthly data files will be posted when all incidents for the previous month have been logged.",
+    "homepage": "https://data.boston.gov/dataset/fire-incident-reporting",
+    "keywords": [
+        "Analyze Boston", "Monthly"
+    ],
+    "licenses": [
+        {
+            "name": "PDDL"
+        }
+    ],
+    "name": "boston-fire-incidents",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "incident_type_code_list",
+            "path": "incident-type-code-list.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "category",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "grp",
+                        "type": "int"
+                    },
+                    {
+                        "name": "code",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "descript",
+                        "size": "50",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/ac9e373a-1303-4563-b28e-29070229fdfe/resource/29a6ef10-2e09-4e67-a4d3-9c2865c8b7ee/download/incident-type-code-list.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "property_use_code_list",
+            "path": "property-use-code-list.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "category",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "grp",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "code",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "descript",
+                        "size": "50",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/ac9e373a-1303-4563-b28e-29070229fdfe/resource/e2819183-5029-42da-b9ab-2e90e044e6e3/download/property-use-code-list.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "data_2012",
+            "path": "2012-bostonfireincidentopendata.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "incident_number",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "exposure_number",
+                        "type": "int"
+                    },
+                    {
+                        "name": "alarm_date",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "alarm_time",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "incident_type",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "incident_description",
+                        "size": "50",
+                        "type": "char"
+                    },
+                    {
+                        "name": "estimated_property_loss",
+                        "type": "int"
+                    },
+                    {
+                        "name": "estimated_content_loss",
+                        "type": "int"
+                    },
+                    {
+                        "name": "district",
+                        "type": "int"
+                    },
+                    {
+                        "name": "city_section",
+                        "type": "int"
+                    },
+                    {
+                        "name": "neighborhood",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "zip",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "property_use",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "property_description",
+                        "size": "50",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_number",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_prefix",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_name",
+                        "size": "25",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_type",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_suffix",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "address_2",
+                        "size": "40",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xstreet_prefix",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xstreet_name",
+                        "size": "25",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xstreet_type",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xstreet_suffix",
+                        "size": "3",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/ac9e373a-1303-4563-b28e-29070229fdfe/resource/64d6aa98-a3aa-4080-a316-b6d493082091/download/2012-bostonfireincidentopendata.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "data_2013",
+            "path": "2013-bostonfireincidentopendata.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "incident_number",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "exposure_number",
+                        "type": "int"
+                    },
+                    {
+                        "name": "alarm_date",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "alarm_time",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "incident_type",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "incident_description",
+                        "size": "50",
+                        "type": "char"
+                    },
+                    {
+                        "name": "estimated_property_loss",
+                        "type": "int"
+                    },
+                    {
+                        "name": "estimated_content_loss",
+                        "type": "int"
+                    },
+                    {
+                        "name": "district",
+                        "type": "int"
+                    },
+                    {
+                        "name": "city_section",
+                        "type": "int"
+                    },
+                    {
+                        "name": "neighborhood",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "zip",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "property_use",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "property_description",
+                        "size": "50",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_number",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_prefix",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_name",
+                        "size": "25",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_type",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_suffix",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "address_2",
+                        "size": "39",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xstreet_prefix",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xstreet_name",
+                        "size": "25",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xstreet_type",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xstreet_suffix",
+                        "size": "4",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/ac9e373a-1303-4563-b28e-29070229fdfe/resource/76771c63-2d95-4095-bf3d-5f22844350d8/download/2013-bostonfireincidentopendata.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "data_2014",
+            "path": "2014-bostonfireincidentopendata.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "incident_number",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "exposure_number",
+                        "type": "int"
+                    },
+                    {
+                        "name": "alarm_date",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "alarm_time",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "incident_type",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "incident_description",
+                        "size": "50",
+                        "type": "char"
+                    },
+                    {
+                        "name": "estimated_property_loss",
+                        "type": "int"
+                    },
+                    {
+                        "name": "estimated_content_loss",
+                        "type": "int"
+                    },
+                    {
+                        "name": "district",
+                        "type": "int"
+                    },
+                    {
+                        "name": "city_section",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "neighborhood",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "zip",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "property_use",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "property_description",
+                        "size": "50",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_number",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_prefix",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_name",
+                        "size": "25",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_type",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_suffix",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "address_2",
+                        "size": "40",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xstreet_prefix",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xstreet_name",
+                        "size": "25",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xstreet_type",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xstreet_suffix",
+                        "size": "4",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/ac9e373a-1303-4563-b28e-29070229fdfe/resource/516a5882-65f3-47f1-8e1d-08ce04cfe851/download/2014-bostonfireincidentopendata.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "data_2015",
+            "path": "2015-bostonfireincidentopendata.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "incident_number",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "exposure_number",
+                        "type": "int"
+                    },
+                    {
+                        "name": "alarm_date",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "alarm_time",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "incident_type",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "incident_description",
+                        "size": "50",
+                        "type": "char"
+                    },
+                    {
+                        "name": "estimated_property_loss",
+                        "type": "int"
+                    },
+                    {
+                        "name": "estimated_content_loss",
+                        "type": "int"
+                    },
+                    {
+                        "name": "district",
+                        "type": "int"
+                    },
+                    {
+                        "name": "city_section",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "neighborhood",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "zip",
+                        "type": "int"
+                    },
+                    {
+                        "name": "property_use",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "property_description",
+                        "size": "50",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_number",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_prefix",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_name",
+                        "size": "25",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_type",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_suffix",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "address_2",
+                        "size": "40",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xstreet_prefix",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xstreet_name",
+                        "size": "25",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xstreet_type",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xstreet_suffix",
+                        "size": "4",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/ac9e373a-1303-4563-b28e-29070229fdfe/resource/0a3febff-2bbf-45d6-a446-8e3868fb41d4/download/2015-bostonfireincidentopendata.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "data_2016",
+            "path": "2016-bostonfireincidentopendata-1.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "incident_number",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "exposure_number",
+                        "type": "int"
+                    },
+                    {
+                        "name": "alarm_date",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "alarm_time",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "incident_type",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "incident_description",
+                        "size": "50",
+                        "type": "char"
+                    },
+                    {
+                        "name": "estimated_property_loss",
+                        "type": "int"
+                    },
+                    {
+                        "name": "estimated_content_loss",
+                        "type": "int"
+                    },
+                    {
+                        "name": "district",
+                        "type": "int"
+                    },
+                    {
+                        "name": "city_section",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "neighborhood",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "zip",
+                        "type": "int"
+                    },
+                    {
+                        "name": "property_use",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "property_description",
+                        "size": "50",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_number",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_prefix",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_name",
+                        "size": "25",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_type",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_suffix",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "address_2",
+                        "size": "40",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xstreet_prefix",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xstreet_name",
+                        "size": "25",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xstreet_type",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xstreet_suffix",
+                        "size": "4",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/ac9e373a-1303-4563-b28e-29070229fdfe/resource/f9a21363-aff6-4840-a2d0-c738cb1c30a1/download/2016-bostonfireincidentopendata-1.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "january_2017_data",
+            "path": "january.2017-bostonfireincidents-1.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "incident_number",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "exposure_number",
+                        "type": "int"
+                    },
+                    {
+                        "name": "alarm_date",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "alarm_time",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "incident_type",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "incident_description",
+                        "size": "50",
+                        "type": "char"
+                    },
+                    {
+                        "name": "estimated_property_loss",
+                        "type": "int"
+                    },
+                    {
+                        "name": "estimated_content_loss",
+                        "type": "int"
+                    },
+                    {
+                        "name": "district",
+                        "type": "int"
+                    },
+                    {
+                        "name": "city_section",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "neighborhood",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "zip",
+                        "type": "int"
+                    },
+                    {
+                        "name": "property_use",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "property_description",
+                        "size": "50",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_number",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_prefix",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_name",
+                        "size": "25",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_type",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_suffix",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "address_2",
+                        "size": "40",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xstreet_prefix",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xstreet_name",
+                        "size": "25",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xstreet_type",
+                        "type": "int"
+                    },
+                    {
+                        "name": "xstreet_suffix",
+                        "size": "4",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/ac9e373a-1303-4563-b28e-29070229fdfe/resource/ce5cb864-bd01-4707-b381-9e204b4db73f/download/january.2017-bostonfireincidents-1.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "february_2017_data",
+            "path": "february.2017-bostonfireincidents-2.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "incident_number",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "exposure_number",
+                        "type": "int"
+                    },
+                    {
+                        "name": "alarm_date",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "alarm_time",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "incident_type",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "incident_description",
+                        "size": "50",
+                        "type": "char"
+                    },
+                    {
+                        "name": "estimated_property_loss",
+                        "type": "int"
+                    },
+                    {
+                        "name": "estimated_content_loss",
+                        "type": "int"
+                    },
+                    {
+                        "name": "district",
+                        "type": "int"
+                    },
+                    {
+                        "name": "city_section",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "neighborhood",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "zip",
+                        "type": "int"
+                    },
+                    {
+                        "name": "property_use",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "property_description",
+                        "size": "50",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_number",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_prefix",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_name",
+                        "size": "25",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_type",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_suffix",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "address_2",
+                        "size": "40",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xstreet_prefix",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xstreet_name",
+                        "size": "24",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xstreet_type",
+                        "type": "int"
+                    },
+                    {
+                        "name": "xstreet_suffix",
+                        "size": "4",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/ac9e373a-1303-4563-b28e-29070229fdfe/resource/0f59c8e6-e028-4dba-a6aa-87bd3304c766/download/february.2017-bostonfireincidents-2.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "march_2017_data",
+            "path": "march.2017-bostonfireincidents.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "incident_number",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "exposure_number",
+                        "type": "int"
+                    },
+                    {
+                        "name": "alarm_date",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "alarm_time",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "incident_type",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "incident_description",
+                        "size": "50",
+                        "type": "char"
+                    },
+                    {
+                        "name": "estimated_property_loss",
+                        "type": "int"
+                    },
+                    {
+                        "name": "estimated_content_loss",
+                        "type": "int"
+                    },
+                    {
+                        "name": "district",
+                        "type": "int"
+                    },
+                    {
+                        "name": "city_section",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "neighborhood",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "zip",
+                        "type": "int"
+                    },
+                    {
+                        "name": "property_use",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "property_description",
+                        "size": "50",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_number",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_prefix",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_name",
+                        "size": "25",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_type",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_suffix",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "address_2",
+                        "size": "40",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xstreet_prefix",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xstreet_name",
+                        "size": "25",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xstreet_type",
+                        "type": "int"
+                    },
+                    {
+                        "name": "xstreet_suffix",
+                        "size": "4",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/ac9e373a-1303-4563-b28e-29070229fdfe/resource/418bb785-5d50-428c-a445-d9635434ba62/download/march.2017-bostonfireincidents.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "april_2017_data",
+            "path": "april.2017-bostonfireincidentopendata.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "incident_number",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "exposure_number",
+                        "type": "int"
+                    },
+                    {
+                        "name": "alarm_date",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "alarm_time",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "incident_type",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "incident_description",
+                        "size": "50",
+                        "type": "char"
+                    },
+                    {
+                        "name": "estimated_property_loss",
+                        "type": "double"
+                    },
+                    {
+                        "name": "estimated_content_loss",
+                        "type": "double"
+                    },
+                    {
+                        "name": "district",
+                        "type": "int"
+                    },
+                    {
+                        "name": "city_section",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "neighborhood",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "zip",
+                        "type": "int"
+                    },
+                    {
+                        "name": "property_use",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "property_description",
+                        "size": "50",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_number",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_prefix",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_name",
+                        "size": "25",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_suffix",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_type",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "address_2",
+                        "size": "40",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xstreet_prefix",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xstreet_name",
+                        "size": "25",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xstreet_suffix",
+                        "type": "int"
+                    },
+                    {
+                        "name": "xstreet_type",
+                        "size": "4",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/ac9e373a-1303-4563-b28e-29070229fdfe/resource/966caaf1-ecbc-4e91-8407-22e6cab7594a/download/april.2017-bostonfireincidentopendata.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "may_2017_data",
+            "path": "may.2017-bostonfireincidentopendata.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "incident_number",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "exposure_number",
+                        "type": "int"
+                    },
+                    {
+                        "name": "alarm_date",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "alarm_time",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "incident_type",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "incident_description",
+                        "size": "50",
+                        "type": "char"
+                    },
+                    {
+                        "name": "estimated_property_loss",
+                        "type": "double"
+                    },
+                    {
+                        "name": "estimated_content_loss",
+                        "type": "double"
+                    },
+                    {
+                        "name": "district",
+                        "type": "int"
+                    },
+                    {
+                        "name": "city_section",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "neighborhood",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "zip",
+                        "type": "int"
+                    },
+                    {
+                        "name": "property_use",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "property_description",
+                        "size": "50",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_number",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_prefix",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_name",
+                        "size": "25",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_suffix",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_type",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "address_2",
+                        "size": "40",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xstreet_prefix",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xstreet_name",
+                        "size": "25",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xstreet_suffix",
+                        "type": "int"
+                    },
+                    {
+                        "name": "xstreet_type",
+                        "size": "4",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/ac9e373a-1303-4563-b28e-29070229fdfe/resource/9d91dbc7-9875-4cd9-a772-3b363a4b193f/download/may.2017-bostonfireincidentopendata.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "june_2017_data",
+            "path": "june.2017-bostonfireincidentopendata.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "incident_number",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "exposure_number",
+                        "type": "int"
+                    },
+                    {
+                        "name": "alarm_date",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "alarm_time",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "incident_type",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "incident_description",
+                        "size": "50",
+                        "type": "char"
+                    },
+                    {
+                        "name": "estimated_property_loss",
+                        "type": "double"
+                    },
+                    {
+                        "name": "estimated_content_loss",
+                        "type": "double"
+                    },
+                    {
+                        "name": "district",
+                        "type": "int"
+                    },
+                    {
+                        "name": "city_section",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "neighborhood",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "zip",
+                        "type": "int"
+                    },
+                    {
+                        "name": "property_use",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "property_description",
+                        "size": "50",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_number",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_prefix",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_name",
+                        "size": "25",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_suffix",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_type",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "address_2",
+                        "size": "40",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xstreet_prefix",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xstreet_name",
+                        "size": "25",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xstreet_suffix",
+                        "type": "int"
+                    },
+                    {
+                        "name": "xstreet_type",
+                        "size": "4",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/ac9e373a-1303-4563-b28e-29070229fdfe/resource/755c4739-3ffc-4b71-aed2-40eb47256cb4/download/june.2017-bostonfireincidentopendata.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "july_2017_data_",
+            "path": "july.2017-bostonfireincidentopendata.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "incident_number",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "exposure_number",
+                        "type": "int"
+                    },
+                    {
+                        "name": "alarm_date",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "alarm_time",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "incident_type",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "incident_description",
+                        "size": "50",
+                        "type": "char"
+                    },
+                    {
+                        "name": "estimated_property_loss",
+                        "type": "double"
+                    },
+                    {
+                        "name": "estimated_content_loss",
+                        "type": "double"
+                    },
+                    {
+                        "name": "district",
+                        "type": "int"
+                    },
+                    {
+                        "name": "city_section",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "neighborhood",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "zip",
+                        "type": "int"
+                    },
+                    {
+                        "name": "property_use",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "property_description",
+                        "size": "50",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_number",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_prefix",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_name",
+                        "size": "25",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_suffix",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_type",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "address_2",
+                        "size": "40",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xstreet_prefix",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xstreet_name",
+                        "size": "25",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xstreet_suffix",
+                        "type": "int"
+                    },
+                    {
+                        "name": "xstreet_type",
+                        "size": "4",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/ac9e373a-1303-4563-b28e-29070229fdfe/resource/32cced02-0939-4a30-8c16-4708df591a86/download/july.2017-bostonfireincidentopendata.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "august_2017_data_",
+            "path": "august.2017-bostonfireincidentopendata.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "incident_number",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "exposure_number",
+                        "type": "int"
+                    },
+                    {
+                        "name": "alarm_date",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "alarm_time",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "incident_type",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "incident_description",
+                        "size": "50",
+                        "type": "char"
+                    },
+                    {
+                        "name": "estimated_property_loss",
+                        "type": "double"
+                    },
+                    {
+                        "name": "estimated_content_loss",
+                        "type": "double"
+                    },
+                    {
+                        "name": "district",
+                        "type": "int"
+                    },
+                    {
+                        "name": "city_section",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "neighborhood",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "zip",
+                        "type": "int"
+                    },
+                    {
+                        "name": "property_use",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "property_description",
+                        "size": "50",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_number",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_prefix",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_name",
+                        "size": "25",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_suffix",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_type",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "address_2",
+                        "size": "40",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xstreet_prefix",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xstreet_name",
+                        "size": "25",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xstreet_suffix",
+                        "type": "int"
+                    },
+                    {
+                        "name": "xstreet_type",
+                        "size": "4",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/ac9e373a-1303-4563-b28e-29070229fdfe/resource/9f27c0f7-c1a5-4ce3-8e68-52c32df47fd4/download/august.2017-bostonfireincidentopendata.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "september_2017_data",
+            "path": "september.2017-bostonfireincidentopendata.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "incident_number",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "exposure_number",
+                        "type": "int"
+                    },
+                    {
+                        "name": "alarm_date",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "alarm_time",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "incident_type",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "incident_description",
+                        "size": "50",
+                        "type": "char"
+                    },
+                    {
+                        "name": "estimated_property_loss",
+                        "type": "double"
+                    },
+                    {
+                        "name": "estimated_content_loss",
+                        "type": "double"
+                    },
+                    {
+                        "name": "district",
+                        "type": "int"
+                    },
+                    {
+                        "name": "city_section",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "neighborhood",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "zip",
+                        "type": "int"
+                    },
+                    {
+                        "name": "property_use",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "property_description",
+                        "size": "50",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_number",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_prefix",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_name",
+                        "size": "25",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_suffix",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_type",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "address_2",
+                        "size": "40",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xstreet_prefix",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xstreet_name",
+                        "size": "25",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xstreet_suffix",
+                        "type": "int"
+                    },
+                    {
+                        "name": "xstreet_type",
+                        "size": "4",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/ac9e373a-1303-4563-b28e-29070229fdfe/resource/14683ec2-c53a-46e0-b6de-67ec123629f0/download/september.2017-bostonfireincidentopendata.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "october_2017_data",
+            "path": "october.2017-bostonfireincidentopendata.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "incident_number",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "exposure_number",
+                        "type": "int"
+                    },
+                    {
+                        "name": "alarm_date",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "alarm_time",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "incident_type",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "incident_description",
+                        "size": "50",
+                        "type": "char"
+                    },
+                    {
+                        "name": "estimated_property_loss",
+                        "type": "double"
+                    },
+                    {
+                        "name": "estimated_content_loss",
+                        "type": "double"
+                    },
+                    {
+                        "name": "district",
+                        "type": "int"
+                    },
+                    {
+                        "name": "city_section",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "neighborhood",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "zip",
+                        "type": "int"
+                    },
+                    {
+                        "name": "property_use",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "property_description",
+                        "size": "50",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_number",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_prefix",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_name",
+                        "size": "25",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_suffix",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_type",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "address_2",
+                        "size": "40",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xstreet_prefix",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xstreet_name",
+                        "size": "25",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xstreet_suffix",
+                        "type": "int"
+                    },
+                    {
+                        "name": "xstreet_type",
+                        "size": "4",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/ac9e373a-1303-4563-b28e-29070229fdfe/resource/8608b9db-71e2-4acb-9691-75b3c66fdd17/download/october.2017-bostonfireincidentopendata.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "november_2017_data",
+            "path": "november.2017-bostonfireincidentopendata.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "incident_number",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "exposure_number",
+                        "type": "int"
+                    },
+                    {
+                        "name": "alarm_date",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "alarm_time",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "incident_type",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "incident_description",
+                        "size": "50",
+                        "type": "char"
+                    },
+                    {
+                        "name": "estimated_property_loss",
+                        "type": "double"
+                    },
+                    {
+                        "name": "estimated_content_loss",
+                        "type": "double"
+                    },
+                    {
+                        "name": "district",
+                        "type": "int"
+                    },
+                    {
+                        "name": "city_section",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "neighborhood",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "zip",
+                        "type": "int"
+                    },
+                    {
+                        "name": "property_use",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "property_description",
+                        "size": "50",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_number",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_prefix",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_name",
+                        "size": "25",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_suffix",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_type",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "address_2",
+                        "size": "40",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xstreet_prefix",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xstreet_name",
+                        "size": "25",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xstreet_suffix",
+                        "type": "int"
+                    },
+                    {
+                        "name": "xstreet_type",
+                        "size": "4",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/ac9e373a-1303-4563-b28e-29070229fdfe/resource/d969a70d-2734-4e75-b2ae-e64aec289892/download/november.2017-bostonfireincidentopendata.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "december_2017_data",
+            "path": "december.2017-bostonfireincidentopendata.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "incident_number",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "exposure_number",
+                        "type": "int"
+                    },
+                    {
+                        "name": "alarm_date",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "alarm_time",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "incident_type",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "incident_description",
+                        "size": "50",
+                        "type": "char"
+                    },
+                    {
+                        "name": "estimated_property_loss",
+                        "type": "double"
+                    },
+                    {
+                        "name": "estimated_content_loss",
+                        "type": "double"
+                    },
+                    {
+                        "name": "district",
+                        "type": "int"
+                    },
+                    {
+                        "name": "city_section",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "neighborhood",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "zip",
+                        "type": "int"
+                    },
+                    {
+                        "name": "property_use",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "property_description",
+                        "size": "50",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_number",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_prefix",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_name",
+                        "size": "25",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_suffix",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_type",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "address_2",
+                        "size": "40",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xstreet_prefix",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xstreet_name",
+                        "size": "25",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xstreet_suffix",
+                        "type": "int"
+                    },
+                    {
+                        "name": "xstreet_type",
+                        "size": "4",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/ac9e373a-1303-4563-b28e-29070229fdfe/resource/8f4f497e-d93c-4f2f-b754-bfc69e2700a0/download/december.2017-bostonfireincidentopendata.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "january_2018_data",
+            "path": "january.2018-bostonfireincidentopendata.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "incident_number",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "exposure_number",
+                        "type": "int"
+                    },
+                    {
+                        "name": "alarm_date",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "alarm_time",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "incident_type",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "incident_description",
+                        "size": "50",
+                        "type": "char"
+                    },
+                    {
+                        "name": "estimated_property_loss",
+                        "type": "double"
+                    },
+                    {
+                        "name": "estimated_content_loss",
+                        "type": "double"
+                    },
+                    {
+                        "name": "district",
+                        "type": "int"
+                    },
+                    {
+                        "name": "city_section",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "neighborhood",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "zip",
+                        "type": "int"
+                    },
+                    {
+                        "name": "property_use",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "property_description",
+                        "size": "50",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_number",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_prefix",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_name",
+                        "size": "25",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_suffix",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_type",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "address_2",
+                        "size": "40",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xstreet_prefix",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xstreet_name",
+                        "size": "25",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xstreet_suffix",
+                        "type": "int"
+                    },
+                    {
+                        "name": "xstreet_type",
+                        "size": "4",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/ac9e373a-1303-4563-b28e-29070229fdfe/resource/0511abbd-d94f-49e9-b596-1e87b35a2ce8/download/january.2018-bostonfireincidentopendata.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "march_2018_data",
+            "path": "march.2018-bostonfireincidentopendata.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "incident_number",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "exposure_number",
+                        "type": "int"
+                    },
+                    {
+                        "name": "alarm_date",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "alarm_time",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "incident_type",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "incident_description",
+                        "size": "50",
+                        "type": "char"
+                    },
+                    {
+                        "name": "estimated_property_loss",
+                        "type": "double"
+                    },
+                    {
+                        "name": "estimated_content_loss",
+                        "type": "double"
+                    },
+                    {
+                        "name": "district",
+                        "type": "int"
+                    },
+                    {
+                        "name": "city_section",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "neighborhood",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "zip",
+                        "type": "int"
+                    },
+                    {
+                        "name": "property_use",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "property_description",
+                        "size": "50",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_number",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_prefix",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_name",
+                        "size": "25",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_suffix",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_type",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "address_2",
+                        "size": "40",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xstreet_prefix",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xstreet_name",
+                        "size": "24",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xstreet_suffix",
+                        "type": "int"
+                    },
+                    {
+                        "name": "xstreet_type",
+                        "size": "4",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/ac9e373a-1303-4563-b28e-29070229fdfe/resource/70c463da-80ec-4d40-8273-aa8d0f695095/download/march.2018-bostonfireincidentopendata.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "april_2018_data",
+            "path": "april.2018-bostonfireincidentopendata.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "incident_number",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "exposure_number",
+                        "type": "int"
+                    },
+                    {
+                        "name": "alarm_date",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "alarm_time",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "incident_type",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "incident_description",
+                        "size": "50",
+                        "type": "char"
+                    },
+                    {
+                        "name": "estimated_property_loss",
+                        "type": "double"
+                    },
+                    {
+                        "name": "estimated_content_loss",
+                        "type": "double"
+                    },
+                    {
+                        "name": "district",
+                        "type": "int"
+                    },
+                    {
+                        "name": "city_section",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "neighborhood",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "zip",
+                        "type": "int"
+                    },
+                    {
+                        "name": "property_use",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "property_description",
+                        "size": "50",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_number",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_prefix",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_name",
+                        "size": "25",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_suffix",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_type",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "address_2",
+                        "size": "40",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xstreet_prefix",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xstreet_name",
+                        "size": "25",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xstreet_suffix",
+                        "type": "int"
+                    },
+                    {
+                        "name": "xstreet_type",
+                        "size": "4",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/ac9e373a-1303-4563-b28e-29070229fdfe/resource/8eebb3ef-c656-4c5e-b5c4-e5484e387533/download/april.2018-bostonfireincidentopendata.csv"
+        },
+
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "may_2018_data",
+            "path": "may.2018-bostonfireincidentopendata.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "incident_number",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "exposure_number",
+                        "type": "int"
+                    },
+                    {
+                        "name": "alarm_date",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "alarm_time",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "incident_type",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "incident_description",
+                        "size": "50",
+                        "type": "char"
+                    },
+                    {
+                        "name": "estimated_property_loss",
+                        "type": "double"
+                    },
+                    {
+                        "name": "estimated_content_loss",
+                        "type": "double"
+                    },
+                    {
+                        "name": "district",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "city_section",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "neighborhood",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "zip",
+                        "type": "int"
+                    },
+                    {
+                        "name": "property_use",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "property_description",
+                        "size": "50",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_number",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_prefix",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_name",
+                        "size": "25",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_suffix",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_type",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "address_2",
+                        "size": "40",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xstreet_prefix",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xstreet_name",
+                        "size": "25",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xstreet_suffix",
+                        "type": "int"
+                    },
+                    {
+                        "name": "xstreet_type",
+                        "size": "4",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/ac9e373a-1303-4563-b28e-29070229fdfe/resource/9a3021d0-19d5-4522-9c69-7fdb9fc60ecf/download/may.2018-bostonfireincidentopendata.csv"
+        },
+
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "june_2018_data",
+            "path": "june.2018-bostonfireincidentopendata.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "incident_number",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "exposure_number",
+                        "type": "int"
+                    },
+                    {
+                        "name": "alarm_date",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "alarm_time",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "incident_type",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "incident_description",
+                        "size": "50",
+                        "type": "char"
+                    },
+                    {
+                        "name": "estimated_property_loss",
+                        "type": "double"
+                    },
+                    {
+                        "name": "estimated_content_loss",
+                        "type": "double"
+                    },
+                    {
+                        "name": "district",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "city_section",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "neighborhood",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "zip",
+                        "type": "int"
+                    },
+                    {
+                        "name": "property_use",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "property_description",
+                        "size": "50",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_number",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_prefix",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_name",
+                        "size": "25",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_suffix",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_type",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "address_2",
+                        "size": "40",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xstreet_prefix",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xstreet_name",
+                        "size": "25",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xstreet_suffix",
+                        "type": "int"
+                    },
+                    {
+                        "name": "xstreet_type",
+                        "size": "4",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/ac9e373a-1303-4563-b28e-29070229fdfe/resource/06fcfff1-993f-461a-9d69-c38f6bc103c9/download/june.2018-bostonfireincidentopendata.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "july_2018_data",
+            "path": "july.2018-bostonfireincidentopendata.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "incident_number",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "exposure_number",
+                        "type": "int"
+                    },
+                    {
+                        "name": "alarm_date",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "alarm_time",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "incident_type",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "incident_description",
+                        "size": "50",
+                        "type": "char"
+                    },
+                    {
+                        "name": "estimated_property_loss",
+                        "type": "double"
+                    },
+                    {
+                        "name": "estimated_content_loss",
+                        "type": "double"
+                    },
+                    {
+                        "name": "district",
+                        "type": "int"
+                    },
+                    {
+                        "name": "city_section",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "neighborhood",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "zip",
+                        "type": "int"
+                    },
+                    {
+                        "name": "property_use",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "property_description",
+                        "size": "50",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_number",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_prefix",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_name",
+                        "size": "25",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_suffix",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_type",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "address_2",
+                        "size": "40",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xstreet_prefix",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xstreet_name",
+                        "size": "25",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xstreet_suffix",
+                        "type": "int"
+                    },
+                    {
+                        "name": "xstreet_type",
+                        "size": "4",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/ac9e373a-1303-4563-b28e-29070229fdfe/resource/950a6113-b1a8-4e11-8e7e-93a1784e9906/download/july.2018-bostonfireincidentopendata.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "august_2018_data",
+            "path": "august.2018-bostonfireincidentopendata.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "incident_number",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "exposure_number",
+                        "type": "int"
+                    },
+                    {
+                        "name": "alarm_date",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "alarm_time",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "incident_type",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "incident_description",
+                        "size": "50",
+                        "type": "char"
+                    },
+                    {
+                        "name": "estimated_property_loss",
+                        "type": "double"
+                    },
+                    {
+                        "name": "estimated_content_loss",
+                        "type": "double"
+                    },
+                    {
+                        "name": "district",
+                        "type": "int"
+                    },
+                    {
+                        "name": "city_section",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "neighborhood",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "zip",
+                        "type": "int"
+                    },
+                    {
+                        "name": "property_use",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "property_description",
+                        "size": "50",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_number",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_prefix",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_name",
+                        "size": "25",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_suffix",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_type",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "address_2",
+                        "size": "40",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xstreet_prefix",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xstreet_name",
+                        "size": "25",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xstreet_suffix",
+                        "type": "int"
+                    },
+                    {
+                        "name": "xstreet_type",
+                        "size": "4",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/ac9e373a-1303-4563-b28e-29070229fdfe/resource/2eb323d1-0df0-4e56-8496-e5c8588f667a/download/august.2018-bostonfireincidentopendata.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "september_2018_data",
+            "path": "september.2018-bostonfireincidentopendata.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "incident_number",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "exposure_number",
+                        "type": "int"
+                    },
+                    {
+                        "name": "alarm_date",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "alarm_time",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "incident_type",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "incident_description",
+                        "size": "50",
+                        "type": "char"
+                    },
+                    {
+                        "name": "estimated_property_loss",
+                        "type": "double"
+                    },
+                    {
+                        "name": "estimated_content_loss",
+                        "type": "double"
+                    },
+                    {
+                        "name": "district",
+                        "type": "int"
+                    },
+                    {
+                        "name": "city_section",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "neighborhood",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "zip",
+                        "type": "int"
+                    },
+                    {
+                        "name": "property_use",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "property_description",
+                        "size": "50",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_number",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_prefix",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_name",
+                        "size": "25",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_suffix",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_type",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "address_2",
+                        "size": "40",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xstreet_prefix",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xstreet_name",
+                        "size": "25",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xstreet_suffix",
+                        "type": "int"
+                    },
+                    {
+                        "name": "xstreet_type",
+                        "size": "4",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/ac9e373a-1303-4563-b28e-29070229fdfe/resource/5cd71efe-77ea-48a0-bc4e-92686db26d50/download/september.2018-bostonfireincidentopendata.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "october_2018_data",
+            "path": "october.2018-bostonfireincidentopendata.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "incident_number",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "exposure_number",
+                        "type": "int"
+                    },
+                    {
+                        "name": "alarm_date",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "alarm_time",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "incident_type",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "incident_description",
+                        "size": "50",
+                        "type": "char"
+                    },
+                    {
+                        "name": "estimated_property_loss",
+                        "type": "double"
+                    },
+                    {
+                        "name": "estimated_content_loss",
+                        "type": "double"
+                    },
+                    {
+                        "name": "district",
+                        "type": "int"
+                    },
+                    {
+                        "name": "city_section",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "neighborhood",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "zip",
+                        "type": "int"
+                    },
+                    {
+                        "name": "property_use",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "property_description",
+                        "size": "50",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_number",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_prefix",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_name",
+                        "size": "25",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_suffix",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_type",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "address_2",
+                        "size": "40",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xstreet_prefix",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xstreet_name",
+                        "size": "25",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xstreet_suffix",
+                        "type": "int"
+                    },
+                    {
+                        "name": "xstreet_type",
+                        "size": "4",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/ac9e373a-1303-4563-b28e-29070229fdfe/resource/220a4ce5-a991-4336-a19b-159881d7c2e7/download/october.2018-bostonfireincidentopendata.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "november_2018_data",
+            "path": "november.2018-bostonfireincidentopendata.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "incident_number",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "exposure_number",
+                        "type": "int"
+                    },
+                    {
+                        "name": "alarm_date",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "alarm_time",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "incident_type",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "incident_description",
+                        "size": "50",
+                        "type": "char"
+                    },
+                    {
+                        "name": "estimated_property_loss",
+                        "type": "double"
+                    },
+                    {
+                        "name": "estimated_content_loss",
+                        "type": "double"
+                    },
+                    {
+                        "name": "district",
+                        "type": "int"
+                    },
+                    {
+                        "name": "city_section",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "neighborhood",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "zip",
+                        "type": "int"
+                    },
+                    {
+                        "name": "property_use",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "property_description",
+                        "size": "50",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_number",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_prefix",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_name",
+                        "size": "25",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_suffix",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_type",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "address_2",
+                        "size": "40",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xstreet_prefix",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xstreet_name",
+                        "size": "25",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xstreet_suffix",
+                        "type": "int"
+                    },
+                    {
+                        "name": "xstreet_type",
+                        "size": "4",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/ac9e373a-1303-4563-b28e-29070229fdfe/resource/2344310c-c9d1-4176-ad3b-ab8ec629a3ca/download/november.2018-bostonfireincidentopendata.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "december_2018_data",
+            "path": "december.2018-bostonfireincidentopendata.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "incident_number",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "exposure_number",
+                        "type": "int"
+                    },
+                    {
+                        "name": "alarm_date",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "alarm_time",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "incident_type",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "incident_description",
+                        "size": "50",
+                        "type": "char"
+                    },
+                    {
+                        "name": "estimated_property_loss",
+                        "type": "double"
+                    },
+                    {
+                        "name": "estimated_content_loss",
+                        "type": "double"
+                    },
+                    {
+                        "name": "district",
+                        "type": "int"
+                    },
+                    {
+                        "name": "city_section",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "neighborhood",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "zip",
+                        "type": "int"
+                    },
+                    {
+                        "name": "property_use",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "property_description",
+                        "size": "50",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_number",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_prefix",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_name",
+                        "size": "25",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_suffix",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_type",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "address_2",
+                        "size": "40",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xstreet_prefix",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xstreet_name",
+                        "size": "25",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xstreet_suffix",
+                        "type": "int"
+                    },
+                    {
+                        "name": "xstreet_type",
+                        "size": "4",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/ac9e373a-1303-4563-b28e-29070229fdfe/resource/0f43b12d-ad2c-4759-8d2b-2b3b3c262082/download/december.2018-bostonfireincidentopendata.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "january_2019_data",
+            "path": "january.2019-bostonfireincidentopendata.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "incident_number",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "exposure_number",
+                        "type": "int"
+                    },
+                    {
+                        "name": "alarm_date",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "alarm_time",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "incident_type",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "incident_description",
+                        "size": "50",
+                        "type": "char"
+                    },
+                    {
+                        "name": "estimated_property_loss",
+                        "type": "double"
+                    },
+                    {
+                        "name": "estimated_content_loss",
+                        "type": "double"
+                    },
+                    {
+                        "name": "district",
+                        "type": "int"
+                    },
+                    {
+                        "name": "city_section",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "neighborhood",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "zip",
+                        "type": "int"
+                    },
+                    {
+                        "name": "property_use",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "property_description",
+                        "size": "50",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_number",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_prefix",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_name",
+                        "size": "25",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_suffix",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_type",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "address_2",
+                        "size": "40",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xstreet_prefix",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xstreet_name",
+                        "size": "25",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xstreet_suffix",
+                        "type": "int"
+                    },
+                    {
+                        "name": "xstreet_type",
+                        "size": "4",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/ac9e373a-1303-4563-b28e-29070229fdfe/resource/eb956b37-9f40-4a82-bbd4-a54a5b91117a/download/january.2019-bostonfireincidentopendata.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "february_2019_data",
+            "path": "february.2019-bostonfireincidentopendata.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "incident_number",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "exposure_number",
+                        "type": "int"
+                    },
+                    {
+                        "name": "alarm_date",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "alarm_time",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "incident_type",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "incident_description",
+                        "size": "50",
+                        "type": "char"
+                    },
+                    {
+                        "name": "estimated_property_loss",
+                        "type": "double"
+                    },
+                    {
+                        "name": "estimated_content_loss",
+                        "type": "double"
+                    },
+                    {
+                        "name": "district",
+                        "type": "int"
+                    },
+                    {
+                        "name": "city_section",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "neighborhood",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "zip",
+                        "type": "int"
+                    },
+                    {
+                        "name": "property_use",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "property_description",
+                        "size": "50",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_number",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_prefix",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_name",
+                        "size": "25",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_suffix",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_type",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "address_2",
+                        "size": "40",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xstreet_prefix",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xstreet_name",
+                        "size": "25",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xstreet_suffix",
+                        "type": "int"
+                    },
+                    {
+                        "name": "xstreet_type",
+                        "size": "4",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/ac9e373a-1303-4563-b28e-29070229fdfe/resource/58785b34-6fe7-4245-a0bc-8be813560935/download/february.2019-bostonfireincidentopendata.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "march_2019_data",
+            "path": "march.2019-bostonfireincidentopendata.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "incident_number",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "exposure_number",
+                        "type": "int"
+                    },
+                    {
+                        "name": "alarm_date",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "alarm_time",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "incident_type",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "incident_description",
+                        "size": "50",
+                        "type": "char"
+                    },
+                    {
+                        "name": "estimated_property_loss",
+                        "type": "double"
+                    },
+                    {
+                        "name": "estimated_content_loss",
+                        "type": "double"
+                    },
+                    {
+                        "name": "district",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "city_section",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "neighborhood",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "zip",
+                        "type": "int"
+                    },
+                    {
+                        "name": "property_use",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "property_description",
+                        "size": "50",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_number",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_prefix",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_name",
+                        "size": "25",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_suffix",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_type",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "address_2",
+                        "size": "40",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xstreet_prefix",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xstreet_name",
+                        "size": "20",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xstreet_suffix",
+                        "type": "int"
+                    },
+                    {
+                        "name": "xstreet_type",
+                        "size": "4",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/ac9e373a-1303-4563-b28e-29070229fdfe/resource/0a427464-097b-44b1-90ef-da14b595668e/download/march.2019-bostonfireincidentopendata.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "april_2019_data",
+            "path": "april.2019-bostonfireincidentopendata.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "incident_number",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "exposure_number",
+                        "type": "int"
+                    },
+                    {
+                        "name": "alarm_date",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "alarm_time",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "incident_type",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "incident_description",
+                        "size": "50",
+                        "type": "char"
+                    },
+                    {
+                        "name": "estimated_property_loss",
+                        "type": "double"
+                    },
+                    {
+                        "name": "estimated_content_loss",
+                        "type": "double"
+                    },
+                    {
+                        "name": "district",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "city_section",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "neighborhood",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "zip",
+                        "type": "int"
+                    },
+                    {
+                        "name": "property_use",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "property_description",
+                        "size": "50",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_number",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_prefix",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_name",
+                        "size": "25",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_suffix",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_type",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "address_2",
+                        "size": "40",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xstreet_prefix",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xstreet_name",
+                        "size": "25",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xstreet_suffix",
+                        "type": "int"
+                    },
+                    {
+                        "name": "xstreet_type",
+                        "size": "4",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/ac9e373a-1303-4563-b28e-29070229fdfe/resource/832f1265-dffc-4638-81dc-3834b26dde1d/download/april.2019-bostonfireincidentopendata.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "may_2019_data",
+            "path": "may.2019-bostonfireincidentopendata.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "incident_number",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "exposure_number",
+                        "type": "int"
+                    },
+                    {
+                        "name": "alarm_date",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "alarm_time",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "incident_type",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "incident_description",
+                        "size": "50",
+                        "type": "char"
+                    },
+                    {
+                        "name": "estimated_property_loss",
+                        "type": "double"
+                    },
+                    {
+                        "name": "estimated_content_loss",
+                        "type": "double"
+                    },
+                    {
+                        "name": "district",
+                        "type": "int"
+                    },
+                    {
+                        "name": "city_section",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "neighborhood",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "zip",
+                        "type": "int"
+                    },
+                    {
+                        "name": "property_use",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "property_description",
+                        "size": "50",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_number",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_prefix",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_name",
+                        "size": "25",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_suffix",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_type",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "address_2",
+                        "size": "40",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xstreet_prefix",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xstreet_name",
+                        "size": "25",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xstreet_suffix",
+                        "type": "int"
+                    },
+                    {
+                        "name": "xstreet_type",
+                        "size": "4",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/ac9e373a-1303-4563-b28e-29070229fdfe/resource/0f0b5646-f7db-46fb-9951-b1251cbd9453/download/may.2019-bostonfireincidentopendata.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "june_2019_data",
+            "path": "june.2019-bostonfireincidentopendata.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "incident_number",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "exposure_number",
+                        "type": "int"
+                    },
+                    {
+                        "name": "alarm_date",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "alarm_time",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "incident_type",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "incident_description",
+                        "size": "50",
+                        "type": "char"
+                    },
+                    {
+                        "name": "estimated_property_loss",
+                        "type": "double"
+                    },
+                    {
+                        "name": "estimated_content_loss",
+                        "type": "double"
+                    },
+                    {
+                        "name": "district",
+                        "type": "int"
+                    },
+                    {
+                        "name": "city_section",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "neighborhood",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "zip",
+                        "type": "int"
+                    },
+                    {
+                        "name": "property_use",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "property_description",
+                        "size": "50",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_number",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_prefix",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_name",
+                        "size": "25",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_suffix",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_type",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "address_2",
+                        "size": "40",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xstreet_prefix",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xstreet_name",
+                        "size": "25",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xstreet_suffix",
+                        "type": "int"
+                    },
+                    {
+                        "name": "xstreet_type",
+                        "size": "4",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/ac9e373a-1303-4563-b28e-29070229fdfe/resource/1813f391-aa2d-40a3-89ef-ad351c1c79d0/download/june.2019-bostonfireincidentopendata.csv"
+        }
+
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "Boston fire incidents",
+    "version": "1.0.0"
+}

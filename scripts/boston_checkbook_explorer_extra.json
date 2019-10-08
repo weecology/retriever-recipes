@@ -1,0 +1,105 @@
+{
+    "citation": "N/A",
+    "description": "The Checkbook Explorer web application provides up-to-date financial information about the City’s expenditures, allowing users to interact with data on how the City is spending money. The data is updated monthly, with certain personal information omitted in order to ensure privacy. More data is in boston-checkbook-explorer",
+    "homepage": "https://data.boston.gov/dataset/checkbook-explorer",
+    "keywords": [
+        "Analyze Boston", "semimonthly update"
+    ],
+    "licenses": [
+        {
+            "name": "PDDL"
+        }
+    ],
+    "name": "boston-checkbook-explorer-extra",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "checkbook_explorerfy14",
+            "path": "checkbook-explorerfy14.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "voucher",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "voucher_line",
+                        "type": "int"
+                    },
+                    {
+                        "name": "distribution_line",
+                        "type": "int"
+                    },
+                    {
+                        "name": "entered",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "month_number",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fiscal_month",
+                        "type": "int"
+                    },
+                    {
+                        "name": "month",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "fiscal_year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "vendor_name",
+                        "size": "40",
+                        "type": "char"
+                    },
+                    {
+                        "name": "account",
+                        "type": "int"
+                    },
+                    {
+                        "name": "account_descr",
+                        "size": "30",
+                        "type": "char"
+                    },
+                    {
+                        "name": "dept",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "department_name",
+                        "size": "30",
+                        "type": "char"
+                    },
+                    {
+                        "name": "program",
+                        "size": "30",
+                        "type": "char"
+                    },
+                    {
+                        "name": "monetary_amount",
+                        "size": "16",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/eed1e776-e26e-4123-a3a4-648f286bfa1e/resource/a452fad3-d107-4957-82b1-47d905389559/download/checkbook-explorerfy14.csv"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "Boston checkbook explorer",
+    "version": "1.0.0"
+}

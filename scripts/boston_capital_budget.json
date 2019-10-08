@@ -1,0 +1,126 @@
+{
+    "citation": "N/A",
+    "description": "This data set is the FY20-24 Imagine Boston Capital plan.",
+    "homepage": "https://data.boston.gov/dataset/capital-budget",
+    "keywords": [
+        "Analyze Boston"
+    ],
+    "licenses": [
+        {
+            "name": "PDDL"
+        }
+    ],
+    "name": "boston-capital-budget",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "boston_capital_plan",
+            "path": "boston-fy20-fy24-capital-plan.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "department",
+                        "size": "39",
+                        "type": "char"
+                    },
+                    {
+                        "name": "project_name",
+                        "size": "54",
+                        "type": "char"
+                    },
+                    {
+                        "name": "scope_of_work",
+                        "size": "256",
+                        "type": "char"
+                    },
+                    {
+                        "name": "pm_department",
+                        "size": "38",
+                        "type": "char"
+                    },
+                    {
+                        "name": "project_status",
+                        "size": "23",
+                        "type": "char"
+                    },
+                    {
+                        "name": "neighborhood",
+                        "size": "30",
+                        "type": "char"
+                    },
+                    {
+                        "name": "authorization_existing",
+                        "type": "int"
+                    },
+                    {
+                        "name": "authorization_fy",
+                        "type": "int"
+                    },
+                    {
+                        "name": "authorization_future",
+                        "type": "int"
+                    },
+                    {
+                        "name": "grant_existing",
+                        "type": "int"
+                    },
+                    {
+                        "name": "grant_fy",
+                        "type": "int"
+                    },
+                    {
+                        "name": "grant_future",
+                        "type": "int"
+                    },
+                    {
+                        "name": "go_expended",
+                        "type": "int"
+                    },
+                    {
+                        "name": "capital_year_0",
+                        "type": "int"
+                    },
+                    {
+                        "name": "capitalyear_1",
+                        "type": "int"
+                    },
+                    {
+                        "name": "capital_year_25",
+                        "type": "int"
+                    },
+                    {
+                        "name": "grant_expended",
+                        "type": "int"
+                    },
+                    {
+                        "name": "grant_year_0",
+                        "type": "int"
+                    },
+                    {
+                        "name": "grant_year_1",
+                        "type": "int"
+                    },
+                    {
+                        "name": "grantyear_25",
+                        "type": "int"
+                    },
+                    {
+                        "name": "external_funds",
+                        "type": "int"
+                    },
+                    {
+                        "name": "total_project_budget",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/bb903d90-eacb-4c42-8c03-e25ede06317a/resource/bf8883a8-abb5-4d7e-8ef8-1525cf27a766/download/boston-fy20-fy24-capital-plan.csv"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "Boston capital budget",
+    "version": "1.0.0"
+}

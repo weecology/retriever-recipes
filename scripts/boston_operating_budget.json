@@ -1,0 +1,72 @@
+{
+    "citation": "N/A",
+    "description": "Boston FY20 recommended operating budget",
+    "homepage": "https://data.boston.gov/dataset/",
+    "keywords": [
+        "Analyze Boston"
+    ],
+    "licenses": [
+        {
+            "name": "PDDL"
+        }
+    ],
+    "name": "boston-operating-budget",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "expense_open_data",
+            "path": "expense-open-data-for-csv.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "cabinet",
+                        "size": "34",
+                        "type": "char"
+                    },
+                    {
+                        "name": "dept",
+                        "size": "39",
+                        "type": "char"
+                    },
+                    {
+                        "name": "program",
+                        "size": "39",
+                        "type": "char"
+                    },
+                    {
+                        "name": "expense_category",
+                        "size": "29",
+                        "type": "char"
+                    },
+                    {
+                        "name": "fy17_actual",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "fy18_actual",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "budget",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "budget",
+                        "size": "11",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/c21c1fb9-392b-49d7-b418-f53cea9b76ed/resource/a7054fcd-3dab-499e-8171-d75aff7548fe/download/expense-open-data-for-csv.csv"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "Boston operating budget",
+    "version": "1.0.0"
+}

@@ -1,0 +1,182 @@
+{
+    "citation": "N/A",
+    "description": "This is a legacy dataset which contains detailed information on the timing and location of street sweeping service throughout the City. Daily street cleaning takes place April 1 to November 30 in most Boston neighborhoods (weather permitting), and over 400 curb miles of streets are maintained under the Daytime Street Sweeping Program.",
+    "homepage": "https://data.boston.gov/dataset/street-sweeping-schedules",
+    "keywords": [
+        "Analyze Boston", "legacy portal", "parking", "street sweeping", "regular update"
+    ],
+    "licenses": [
+        {
+            "name": "PDDL"
+        }
+    ],
+    "name": "boston-street-sweeping",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "street_sweeping",
+            "path": "tmp7eagwdab.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "mainid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "st_name",
+                        "size": "30",
+                        "type": "char"
+                    },
+                    {
+                        "name": "dist",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "distname",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "starttime",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "endtime",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "side",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "from",
+                        "size": "30",
+                        "type": "char"
+                    },
+                    {
+                        "name": "to",
+                        "size": "25",
+                        "type": "char"
+                    },
+                    {
+                        "name": "miles",
+                        "type": "double"
+                    },
+                    {
+                        "name": "section",
+                        "type": "int"
+                    },
+                    {
+                        "name": "oneway",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "week1",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "week2",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "week3",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "week4",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "week5",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "sunday",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "monday",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "tuesday",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "wednesday",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "thursday",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "friday",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "saturday",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "everyday",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "yearround",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "northendpilot",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "timestamp",
+                        "size": "22",
+                        "type": "char"
+                    },
+                    {
+                        "name": "parent",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "losta",
+                        "type": "int"
+                    },
+                    {
+                        "name": "hista",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/00c015a1-2b62-4072-a71e-79b292ce9670/resource/9fdbdcad-67c8-4b23-b6ec-861e77d56227/download/tmp7eagwdab.csv"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "Boston street sweeping",
+    "version": "1.0.0"
+}

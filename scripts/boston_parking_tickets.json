@@ -1,0 +1,41 @@
+{
+    "citation": "N/A",
+    "description": "This is a legacy dataset showing daily pageviews for the Department of the Park Clerk's online portal for paying parking tickets for the year 2014.",
+    "homepage": "https://data.boston.gov/dataset/parking-tickets-portal-web-statistics",
+    "keywords": [
+        "Analyze Boston", "city services", "hubhacks", "legacy portal", "online", "parking", "payments", "website"
+    ],
+    "licenses": [
+        {
+            "name": "PDDL"
+        }
+    ],
+    "name": "boston-parking-tickets",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "parking_tickets",
+            "path": "parking-tickets-portal-web-statistics.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "day_index",
+                        "size": "22",
+                        "type": "char"
+                    },
+                    {
+                        "name": "pageviews",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/cee3228f-a239-4dea-8e27-2db176e8fd4f/resource/94ac9d44-c6d6-441c-9c57-12dca571a02f/download/parking-tickets-portal-web-statistics.csv"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "Boston parking tickets portal web statistics",
+    "version": "1.0.0"
+}

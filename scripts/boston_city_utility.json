@@ -1,0 +1,154 @@
+{
+    "citation": "N/A",
+    "description": "Monthly utility, 2011 through present, for all City of Boston accounts. This data comes from Boston’s Enterprise Energy Management System. ",
+    "homepage": "https://data.boston.gov/dataset/city-of-boston-utility-data",
+    "keywords": [
+        "Analyze Boston", "Electric", "Energy", "Gas", "Steam", "Utility", "Water", "Monthly update"
+    ],
+    "licenses": [
+        {
+            "name": "PDDL"
+        }
+    ],
+    "name": "boston-city-utility",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "utility_data",
+            "path": "tmp3u951smm.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "invoiceid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "accountnumber",
+                        "size": "21",
+                        "type": "char"
+                    },
+                    {
+                        "name": "energytypename",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "invoicedate",
+                        "size": "19",
+                        "type": "char"
+                    },
+                    {
+                        "name": "fromdate",
+                        "size": "19",
+                        "type": "char"
+                    },
+                    {
+                        "name": "todate",
+                        "size": "19",
+                        "type": "char"
+                    },
+                    {
+                        "name": "usageperioddays",
+                        "type": "int"
+                    },
+                    {
+                        "name": "usageperiod",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "deliverycost",
+                        "type": "double"
+                    },
+                    {
+                        "name": "supplycost",
+                        "type": "double"
+                    },
+                    {
+                        "name": "totalcost",
+                        "type": "double"
+                    },
+                    {
+                        "name": "totalconsumption",
+                        "type": "double"
+                    },
+                    {
+                        "name": "demandkw",
+                        "type": "double"
+                    },
+                    {
+                        "name": "uomname",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "line1",
+                        "size": "92",
+                        "type": "char"
+                    },
+                    {
+                        "name": "city",
+                        "size": "13",
+                        "type": "char"
+                    },
+                    {
+                        "name": "zip",
+                        "type": "int"
+                    },
+                    {
+                        "name": "statename",
+                        "size": "13",
+                        "type": "char"
+                    },
+                    {
+                        "name": "abbreviation",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "countryname",
+                        "size": "13",
+                        "type": "char"
+                    },
+                    {
+                        "name": "sitename",
+                        "size": "44",
+                        "type": "char"
+                    },
+                    {
+                        "name": "currency",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "combinedrecords",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "codedescription",
+                        "size": "39",
+                        "type": "char"
+                    },
+                    {
+                        "name": "linktoecapresent",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "departmentname",
+                        "size": "14",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/e8c755cb-8ba5-4146-8e40-82fd35a8ef9d/resource/35fad26c-1400-46b0-846c-3bb6ca8f74d0/download/tmp3u951smm.csv"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "Boston city utility",
+    "version": "1.0.0"
+}

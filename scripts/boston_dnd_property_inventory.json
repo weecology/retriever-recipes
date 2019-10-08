@@ -1,0 +1,83 @@
+{
+    "citation": "N/A",
+    "description": "The Department of Neighborhood Development (DND) takes care of city owned property, including the maintanence of buildings and vacant land. This is a legacy dataset that provides information on these properties including the size, location, potential use, and more.",
+    "homepage": "https://data.boston.gov/dataset/department-of-neighborhood-development-property-inventory",
+    "keywords": [
+        "Analyze Boston", "development", "housing", "legacy portal", "neighborhood", "property"
+    ],
+    "licenses": [
+        {
+            "name": "PDDL"
+        }
+    ],
+    "name": "boston-dnd-property-inventory",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "property_inventory",
+            "path": "department-of-neighborhood-development-property-inventory.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "parcel_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "lotsize",
+                        "type": "int"
+                    },
+                    {
+                        "name": "propertytype",
+                        "type": "int"
+                    },
+                    {
+                        "name": "zipcode",
+                        "type": "int"
+                    },
+                    {
+                        "name": "neighborhood",
+                        "size": "20",
+                        "type": "char"
+                    },
+                    {
+                        "name": "potential_use",
+                        "size": "25",
+                        "type": "char"
+                    },
+                    {
+                        "name": "streetnum",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "streetname",
+                        "size": "19",
+                        "type": "char"
+                    },
+                    {
+                        "name": "streetsuffix",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "address",
+                        "size": "24",
+                        "type": "char"
+                    },
+                    {
+                        "name": "location",
+                        "size": "37",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/d81952b9-95ec-41f4-89ec-c973f4f2e52e/resource/ae101391-b13b-4dca-830e-ec0c695145ed/download/department-of-neighborhood-development-property-inventory.csv"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "Boston Department of Neighborhood Development (DND) property inventory",
+    "version": "1.0.0"
+}

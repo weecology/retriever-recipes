@@ -1,0 +1,97 @@
+{
+    "citation": "N/A",
+    "description": "This dataset contains a list of restaurants that met the City's standards to become licensed food service establishments.",
+    "homepage": "https://data.boston.gov/dataset/active-food-establishment-licenses",
+    "keywords": [
+        "Analyze Boston", "business", "food", "inspections", "restaurants"
+    ],
+    "licenses": [
+        {
+            "name": "PDDL"
+        }
+    ],
+    "name": "boston-active-food-establishment-licenses",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "licenses-data",
+            "path": "tmpzg0l39x0.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "businessname",
+                        "size": "50",
+                        "type": "char"
+                    },
+                    {
+                        "name": "dbaname",
+                        "size": "30",
+                        "type": "char"
+                    },
+                    {
+                        "name": "address",
+                        "size": "28",
+                        "type": "char"
+                    },
+                    {
+                        "name": "city",
+                        "size": "27",
+                        "type": "char"
+                    },
+                    {
+                        "name": "state",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "zip",
+                        "type": "int"
+                    },
+                    {
+                        "name": "licstatus",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "licensecat",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "descript",
+                        "size": "29",
+                        "type": "char"
+                    },
+                    {
+                        "name": "licenseadddttm",
+                        "size": "19",
+                        "type": "char"
+                    },
+                    {
+                        "name": "dayphn",
+                        "type": "int"
+                    },
+                    {
+                        "name": "property_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "latitude",
+                        "type": "double"
+                    },
+                    {
+                        "name": "longitude",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/5e4182e3-ba1e-4511-88f8-08a70383e1b6/resource/f1e13724-284d-478c-b8bc-ef042aa5b70b/download/tmpcq17pgjo.csv"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "Boston active food establishment licenses",
+    "version": "1.0.0"
+}

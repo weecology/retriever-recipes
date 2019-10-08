@@ -1,0 +1,57 @@
+{
+    "citation": "N/A",
+    "description": "This is a legacy dataset containing all signals received from the trash receptacles for the calendar year 2014",
+    "homepage": "https://data.boston.gov/dataset/big-belly-alerts-2014",
+    "keywords": [
+        "Analyze Boston", "big belly", "hubhacks", "legacy portal", "public works", "sanitation", "trash"
+    ],
+    "licenses": [
+        {
+            "name": "PDDL"
+        }
+    ],
+    "name": "boston-big-belly-alerts",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "big_belly_alerts",
+            "path": "big-belly-alerts-2014.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "description",
+                        "size": "86",
+                        "type": "char"
+                    },
+                    {
+                        "name": "timestamp",
+                        "size": "22",
+                        "type": "char"
+                    },
+                    {
+                        "name": "fullness",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "collection",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "location",
+                        "size": "27",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/big-belly-alerts-2014"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "Boston big belly alerts 2014",
+    "version": "1.0.0"
+}

@@ -1,0 +1,170 @@
+{
+    "citation": "N/A",
+    "description": "This data set includes all channels of engagement in which a service request is created.",
+    "homepage": "https://data.boston.gov/dataset/311-service-requests",
+    "keywords": [
+        "Analyze Boston", "311", "CRM", "Case management", "city services", "daily update"
+    ],
+    "licenses": [
+        {
+            "name": "PDDL"
+        }
+    ],
+    "name": "boston-threeoneone-service-requests",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "service_requests",
+            "path": "tmp_ey_84rq.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "case_enquiry_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "open_dt",
+                        "size": "19",
+                        "type": "char"
+                    },
+                    {
+                        "name": "target_dt",
+                        "size": "19",
+                        "type": "char"
+                    },
+                    {
+                        "name": "closed_dt",
+                        "size": "19",
+                        "type": "char"
+                    },
+                    {
+                        "name": "ontime",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "case_status",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "closure_reason",
+                        "size": "4000",
+                        "type": "char"
+                    },
+                    {
+                        "name": "case_title",
+                        "size": "200",
+                        "type": "char"
+                    },
+                    {
+                        "name": "subject",
+                        "size": "33",
+                        "type": "char"
+                    },
+                    {
+                        "name": "reason",
+                        "size": "33",
+                        "type": "char"
+                    },
+                    {
+                        "name": "type",
+                        "size": "49",
+                        "type": "char"
+                    },
+                    {
+                        "name": "queue",
+                        "size": "59",
+                        "type": "char"
+                    },
+                    {
+                        "name": "department",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "submittedphoto",
+                        "size": "185",
+                        "type": "char"
+                    },
+                    {
+                        "name": "closedphoto",
+                        "size": "108",
+                        "type": "char"
+                    },
+                    {
+                        "name": "location",
+                        "size": "99",
+                        "type": "char"
+                    },
+                    {
+                        "name": "fire_district",
+                        "type": "int"
+                    },
+                    {
+                        "name": "pwd_district",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "city_council_district",
+                        "type": "int"
+                    },
+                    {
+                        "name": "police_district",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "neighborhood",
+                        "size": "44",
+                        "type": "char"
+                    },
+                    {
+                        "name": "neighborhood_services_district",
+                        "type": "int"
+                    },
+                    {
+                        "name": "ward",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "precinct",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "location_street_name",
+                        "size": "78",
+                        "type": "char"
+                    },
+                    {
+                        "name": "location_zipcode",
+                        "type": "int"
+                    },
+                    {
+                        "name": "latitude",
+                        "type": "double"
+                    },
+                    {
+                        "name": "longitude",
+                        "type": "double"
+                    },
+                    {
+                        "name": "source",
+                        "size": "20",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/8048697b-ad64-4bfc-b090-ee00169f2323/resource/2968e2c0-d479-49ba-a884-4ef523ada3c0/download/tmp_ey_84rq.csv"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "Boston threeoneone service requests",
+    "version": "1.0.0"
+}
