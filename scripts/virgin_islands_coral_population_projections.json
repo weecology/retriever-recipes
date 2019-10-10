@@ -1,0 +1,370 @@
+{
+    "citation": "Edmunds, P.J., 2015. A quarter-century demographic analysis of the Caribbean coral, Orbicella annularis, and projections of population size over the next century. Limnology and Oceanography, 60, pp.840-855.",
+    "description": "Populations Dynamics and Population Projections data, Long-term Coral Reef Community Dynamics,  http://coralreefs.csun.edu/legal/use-policy/",
+    "homepage": "http://coralreefs.csun.edu/data/data-catalogue/",
+    "keywords": ["Corals", "Virgin Islands", "Coral Reef", "Time Series", "Populations", "Ocean Acidification", "Reef Resistance and Resilience", "Population and Community Dynamics", "Coral Reefs", "Marine environments", "Polyps", "Scleractinian Coral", "Community", "Demographics"],
+    "licenses": [{"name": "CC BY 4.0"}],
+    "name": "virgin-islands-coral-population-projections",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "coral_cover",
+            "path": "CSUN_USVI_Fig2_coral_cover_20150311.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "month",
+                        "type": "int"
+                    },
+                    {
+                        "name": "mean",
+                        "type": "double"
+                    },
+                    {
+                        "name": "se",
+                        "type": "double"
+                    },
+                    {
+                        "name": "n",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "http://mcrlter.msi.ucsb.edu/external/vinp/coral/.data/knb-csun-usvi.110/CSUN_USVI_Fig2_coral_cover_20150311.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "population_density",
+            "path": "CSUN_USVI_Fig2_population_density_20150311.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "mean",
+                        "type": "double"
+                    },
+                    {
+                        "name": "se",
+                        "type": "double"
+                    },
+                    {
+                        "name": "n",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "http://mcrlter.msi.ucsb.edu/external/vinp/coral/.data/knb-csun-usvi.110/CSUN_USVI_Fig2_population_density_20150311.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "population_size",
+            "path": "CSUN_USVI_Fig2_population_size_20150311.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "size_class_i",
+                        "type": "int"
+                    },
+                    {
+                        "name": "size_class_ii",
+                        "type": "int"
+                    },
+                    {
+                        "name": "size_class_iii",
+                        "type": "int"
+                    },
+                    {
+                        "name": "size_class_iv",
+                        "type": "int"
+                    },
+                    {
+                        "name": "n",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "http://mcrlter.msi.ucsb.edu/external/vinp/coral/.data/knb-csun-usvi.110/CSUN_USVI_Fig2_population_size_20150311.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "stats_constrast",
+            "path": "CSUN_USVI_Fig2_stats_constrast_20150311.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "transect",
+                        "type": "int"
+                    },
+                    {
+                        "name": "quadrat",
+                        "type": "int"
+                    },
+                    {
+                        "name": "percent_cover",
+                        "type": "double"
+                    },
+                    {
+                        "name": "density",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "http://mcrlter.msi.ucsb.edu/external/vinp/coral/.data/knb-csun-usvi.110/CSUN_USVI_Fig2_stats_constrast_20150311.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "juvenile_density",
+            "path": "CSUN_USVI_Fig3_juvenile_density_20150311.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "mean",
+                        "type": "double"
+                    },
+                    {
+                        "name": "se",
+                        "type": "double"
+                    },
+                    {
+                        "name": "n",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "http://mcrlter.msi.ucsb.edu/external/vinp/coral/.data/knb-csun-usvi.110/CSUN_USVI_Fig3_juvenile_density_20150311.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "fission_fusion",
+            "path": "CSUN_USVI_Fig4_fission_fusion_20150311.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "year_range",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "n",
+                        "type": "int"
+                    },
+                    {
+                        "name": "percent_fission",
+                        "type": "double"
+                    },
+                    {
+                        "name": "percent_fusion",
+                        "type": "double"
+                    },
+                    {
+                        "name": "fission_i",
+                        "type": "double"
+                    },
+                    {
+                        "name": "fission_ii",
+                        "type": "double"
+                    },
+                    {
+                        "name": "fission_iii",
+                        "type": "double"
+                    },
+                    {
+                        "name": "fission_iv",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "http://mcrlter.msi.ucsb.edu/external/vinp/coral/.data/knb-csun-usvi.110/CSUN_USVI_Fig4_fission_fusion_20150311.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "mortality",
+            "path": "CSUN_USVI_Fig5_mortality_20150311.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "year_range",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "size_class",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "mean",
+                        "type": "double"
+                    },
+                    {
+                        "name": "percentile2_5",
+                        "type": "double"
+                    },
+                    {
+                        "name": "percentile97_4",
+                        "type": "double"
+                    },
+                    {
+                        "name": "neg_95ci",
+                        "type": "double"
+                    },
+                    {
+                        "name": "pos_95ci",
+                        "type": "double"
+                    },
+                    {
+                        "name": "n",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "http://mcrlter.msi.ucsb.edu/external/vinp/coral/.data/knb-csun-usvi.110/CSUN_USVI_Fig5_mortality_20150311.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "projections",
+            "path": "CSUN_USVI_Fig6_projections_20150311.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "projection",
+                        "type": "int"
+                    },
+                    {
+                        "name": "size_class",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "area",
+                        "type": "double"
+                    },
+                    {
+                        "name": "percentage",
+                        "type": "double"
+                    },
+                    {
+                        "name": "percent_cover",
+                        "type": "double"
+                    },
+                    {
+                        "name": "density",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "http://mcrlter.msi.ucsb.edu/external/vinp/coral/.data/knb-csun-usvi.110/CSUN_USVI_Fig6_projections_20150311.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "population_growth",
+            "path": "CSUN_USVI_Fig7_population_growth_20150311.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "year",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "site",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "population_growth_lamda",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "growth_2_5_percent",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "growth_97_5_percent",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "growth_neg_95",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "growth_pos_95",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "damping_ratio_rho",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "damping_2_5_percent",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "damping_97_5_percent",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "damping_neg_95",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "damping_pos_95",
+                        "size": "5",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "http://mcrlter.msi.ucsb.edu/external/vinp/coral/.data/knb-csun-usvi.110/CSUN_USVI_Fig7_population_growth_20150311.csv"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "Virgin Islands National Park: Population Projections for Orbicella annularis",
+    "version": "1.0.0"
+}

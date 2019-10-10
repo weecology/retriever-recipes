@@ -1,0 +1,188 @@
+{
+    "citation": "N/A",
+    "description": "Coral Time-Series Data from St John and St Thomas Islands,  http://coralreefs.csun.edu/legal/use-policy/",
+    "homepage": "http://coralreefs.csun.edu/data/data-catalogue/",
+    "keywords": [
+        "Virgin Islands",
+        "Coral Reef",
+        "Time Series",
+        "Physical Environmental Conditions",
+        "Octocoral Community Ecology",
+        "Scleractinia Community Ecology"
+    ],
+    "encoding": "latin-1",
+    "licenses": [{"name": "CC BY 4.0" }],
+    "name": "virgin-islands-coral-scleractinian-corals",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ",",
+                "missingValues": [" ","nd"]
+            },
+            "name": "yawzi_tektite",
+            "path": "CSUN_USVI_yawzi_tektite_20181007.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "record_id",
+                        "type": "pk-auto"
+                    },
+                    {
+                        "name": "rdate",
+                        "size": "20",
+                        "type": "char"
+                    },
+                    {
+                        "name": "site",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "transect",
+                        "type": "int"
+                    },
+                    {
+                        "name": "quadrat",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "percentcover_allcoral",
+                        "type": "double"
+                    },
+                    {
+                        "name": "percentcover_macroalgae",
+                        "type": "double"
+                    },
+                    {
+                        "name": "percentcover_ctb",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "https://portal.edirepository.org/nis/dataviewer?packageid=edi.291.1&entityid=8161eb809525300f714daed595d04f1b"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "random",
+            "path": "CSUN_USVI_random_20181007.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "site",
+                        "size": "20",
+                        "type": "char"
+                    },
+                    {
+                        "name": "quadrat",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "percentcover_all",
+                        "type": "double"
+                    },
+                    {
+                        "name": "percentcover_macroalgae",
+                        "type": "double"
+                    },
+                    {
+                        "name": "percentcover_ctb",
+                        "type": "double"
+                    },
+                    {
+                        "name": "orbicella",
+                        "type": "double"
+                    },
+                    {
+                        "name": "montastrea_cavernosa",
+                        "type": "double"
+                    },
+                    {
+                        "name": "agaricia",
+                        "type": "double"
+                    },
+                    {
+                        "name": "colpophyllia",
+                        "type": "double"
+                    },
+                    {
+                        "name": "dendrogyra",
+                        "type": "double"
+                    },
+                    {
+                        "name": "dichocoenia",
+                        "type": "double"
+                    },
+                    {
+                        "name": "diploria",
+                        "type": "double"
+                    },
+                    {
+                        "name": "eusmilia",
+                        "type": "double"
+                    },
+                    {
+                        "name": "favia",
+                        "type": "double"
+                    },
+                    {
+                        "name": "madracis",
+                        "type": "double"
+                    },
+                    {
+                        "name": "meandrina",
+                        "type": "double"
+                    },
+                    {
+                        "name": "mussa",
+                        "type": "double"
+                    },
+                    {
+                        "name": "porites",
+                        "type": "double"
+                    },
+                    {
+                        "name": "stephanocoenia",
+                        "type": "double"
+                    },
+                    {
+                        "name": "siderastrea",
+                        "type": "double"
+                    },
+                    {
+                        "name": "manicina",
+                        "type": "double"
+                    },
+                    {
+                        "name": "mycetopohyllia",
+                        "type": "double"
+                    },
+                    {
+                        "name": "acropora",
+                        "type": "double"
+                    },
+                    {
+                        "name": "isophyllastrea",
+                        "type": "double"
+                    },
+                    {
+                        "name": "scolymia",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "https://portal.edirepository.org/nis/dataviewer?packageid=edi.291.1&entityid=964764c5763d75d2f7ab9235bdeaddc7"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "Virgin islands coral scleractinian corals",
+    "version": "1.0.0"
+}
