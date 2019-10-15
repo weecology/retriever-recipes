@@ -1,0 +1,926 @@
+{
+    "citation": "",
+    "description": "This data is the rain Chemistry data used in Fernow Experimental Forest Monitoring, part of National Atmospheric Deposition Program, State of West Virginia (WV), ",
+    "homepage": "http://nadp.slh.wisc.edu/data/sites/siteDetails.aspx?net=NTN&id=WV18",
+    "keywords": ["Precipitation chemistry", "climatology", "Meteorology", "Monitoring", "temperature", "climate", "Monongahela National Forest", "West Virginia", "fernow"],
+    "licenses": [{"name": ""}],
+    "name": "fernow-nadp-rain-chemistry",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "ntn_weakly",
+            "path": "NTN-WV18-w.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "siteid",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "labno",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "dateon",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "dateoff",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "yrmonth",
+                        "type": "int"
+                    },
+                    {
+                        "name": "ph",
+                        "type": "double"
+                    },
+                    {
+                        "name": "conduc",
+                        "type": "double"
+                    },
+                    {
+                        "name": "flagca",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "ca",
+                        "type": "double"
+                    },
+                    {
+                        "name": "flagmg",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "mg",
+                        "type": "double"
+                    },
+                    {
+                        "name": "flagk",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "k",
+                        "type": "double"
+                    },
+                    {
+                        "name": "flagna",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "na",
+                        "type": "double"
+                    },
+                    {
+                        "name": "flagnh4",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "nh4",
+                        "type": "double"
+                    },
+                    {
+                        "name": "flagno3",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "no3",
+                        "type": "double"
+                    },
+                    {
+                        "name": "flagcl",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "cl",
+                        "type": "double"
+                    },
+                    {
+                        "name": "flagso4",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "so4",
+                        "type": "double"
+                    },
+                    {
+                        "name": "flagbr",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "br",
+                        "type": "double"
+                    },
+                    {
+                        "name": "svol",
+                        "type": "double"
+                    },
+                    {
+                        "name": "ppt",
+                        "type": "double"
+                    },
+                    {
+                        "name": "subppt",
+                        "type": "double"
+                    },
+                    {
+                        "name": "valcode",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "invalcode",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "modifiedon",
+                        "size": "22",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "http://nadp.slh.wisc.edu/datalib/ntn/weekly/NTN-WV18-w.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "annual_precipitation_weighted_mean",
+            "path": "NTN-WV18-cy.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "siteid",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "seas",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "yr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "criteria1",
+                        "type": "int"
+                    },
+                    {
+                        "name": "criteria2",
+                        "type": "int"
+                    },
+                    {
+                        "name": "criteria3",
+                        "type": "int"
+                    },
+                    {
+                        "name": "ca",
+                        "type": "double"
+                    },
+                    {
+                        "name": "mg",
+                        "type": "double"
+                    },
+                    {
+                        "name": "k",
+                        "type": "double"
+                    },
+                    {
+                        "name": "na",
+                        "type": "double"
+                    },
+                    {
+                        "name": "nh4",
+                        "type": "double"
+                    },
+                    {
+                        "name": "no3",
+                        "type": "double"
+                    },
+                    {
+                        "name": "cl",
+                        "type": "double"
+                    },
+                    {
+                        "name": "so4",
+                        "type": "double"
+                    },
+                    {
+                        "name": "br",
+                        "type": "double"
+                    },
+                    {
+                        "name": "ph",
+                        "type": "double"
+                    },
+                    {
+                        "name": "conduc",
+                        "type": "double"
+                    },
+                    {
+                        "name": "svol",
+                        "type": "double"
+                    },
+                    {
+                        "name": "ppt",
+                        "type": "double"
+                    },
+                    {
+                        "name": "fullchemlab",
+                        "type": "int"
+                    },
+                    {
+                        "name": "dayssample",
+                        "type": "int"
+                    },
+                    {
+                        "name": "startdate",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "lastdate",
+                        "size": "16",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "http://nadp.slh.wisc.edu/datalib/ntn/cy/NTN-WV18-cy.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "annual_depositions",
+            "path": "NTN-WV18-cydep.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "siteid",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "seas",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "yr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "criteria1",
+                        "type": "int"
+                    },
+                    {
+                        "name": "criteria2",
+                        "type": "int"
+                    },
+                    {
+                        "name": "criteria3",
+                        "type": "int"
+                    },
+                    {
+                        "name": "ca",
+                        "type": "double"
+                    },
+                    {
+                        "name": "mg",
+                        "type": "double"
+                    },
+                    {
+                        "name": "k",
+                        "type": "double"
+                    },
+                    {
+                        "name": "na",
+                        "type": "double"
+                    },
+                    {
+                        "name": "nh4",
+                        "type": "double"
+                    },
+                    {
+                        "name": "no3",
+                        "type": "double"
+                    },
+                    {
+                        "name": "totaln",
+                        "type": "double"
+                    },
+                    {
+                        "name": "cl",
+                        "type": "double"
+                    },
+                    {
+                        "name": "so4",
+                        "type": "double"
+                    },
+                    {
+                        "name": "br",
+                        "type": "double"
+                    },
+                    {
+                        "name": "hplus",
+                        "type": "double"
+                    },
+                    {
+                        "name": "svol",
+                        "type": "double"
+                    },
+                    {
+                        "name": "ppt",
+                        "type": "double"
+                    },
+                    {
+                        "name": "fullchemlab",
+                        "type": "int"
+                    },
+                    {
+                        "name": "dayssample",
+                        "type": "int"
+                    },
+                    {
+                        "name": "startdate",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "lastdate",
+                        "size": "16",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "http://nadp.slh.wisc.edu/datalib/ntn/cydep/NTN-WV18-cydep.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "seasonal_depositions",
+            "path": "NTN-WV18-sdep.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "siteid",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "seas",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "yr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "criteria1",
+                        "type": "int"
+                    },
+                    {
+                        "name": "criteria2",
+                        "type": "int"
+                    },
+                    {
+                        "name": "criteria3",
+                        "type": "int"
+                    },
+                    {
+                        "name": "ca",
+                        "type": "double"
+                    },
+                    {
+                        "name": "mg",
+                        "type": "double"
+                    },
+                    {
+                        "name": "k",
+                        "type": "double"
+                    },
+                    {
+                        "name": "na",
+                        "type": "double"
+                    },
+                    {
+                        "name": "nh4",
+                        "type": "double"
+                    },
+                    {
+                        "name": "no3",
+                        "type": "double"
+                    },
+                    {
+                        "name": "totaln",
+                        "type": "double"
+                    },
+                    {
+                        "name": "cl",
+                        "type": "double"
+                    },
+                    {
+                        "name": "so4",
+                        "type": "double"
+                    },
+                    {
+                        "name": "br",
+                        "type": "double"
+                    },
+                    {
+                        "name": "hplus",
+                        "type": "double"
+                    },
+                    {
+                        "name": "svol",
+                        "type": "double"
+                    },
+                    {
+                        "name": "ppt",
+                        "type": "double"
+                    },
+                    {
+                        "name": "fullchemlab",
+                        "type": "int"
+                    },
+                    {
+                        "name": "dayssample",
+                        "type": "int"
+                    },
+                    {
+                        "name": "startdate",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "lastdate",
+                        "size": "16",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "http://nadp.slh.wisc.edu/datalib/ntn/seasdep/NTN-WV18-sdep.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "monthly_averages",
+            "path": "NTN-WV18-m.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "siteid",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "month",
+                        "type": "int"
+                    },
+                    {
+                        "name": "yr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "criteria1",
+                        "type": "int"
+                    },
+                    {
+                        "name": "criteria2",
+                        "type": "int"
+                    },
+                    {
+                        "name": "criteria3",
+                        "type": "int"
+                    },
+                    {
+                        "name": "ca",
+                        "type": "double"
+                    },
+                    {
+                        "name": "mg",
+                        "type": "double"
+                    },
+                    {
+                        "name": "k",
+                        "type": "double"
+                    },
+                    {
+                        "name": "na",
+                        "type": "double"
+                    },
+                    {
+                        "name": "nh4",
+                        "type": "double"
+                    },
+                    {
+                        "name": "no3",
+                        "type": "double"
+                    },
+                    {
+                        "name": "cl",
+                        "type": "double"
+                    },
+                    {
+                        "name": "so4",
+                        "type": "double"
+                    },
+                    {
+                        "name": "br",
+                        "type": "double"
+                    },
+                    {
+                        "name": "ph",
+                        "type": "double"
+                    },
+                    {
+                        "name": "conduc",
+                        "type": "double"
+                    },
+                    {
+                        "name": "svol",
+                        "type": "double"
+                    },
+                    {
+                        "name": "ppt",
+                        "type": "double"
+                    },
+                    {
+                        "name": "fullchemlab",
+                        "type": "int"
+                    },
+                    {
+                        "name": "dayssample",
+                        "type": "int"
+                    },
+                    {
+                        "name": "startdate",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "lastdate",
+                        "size": "16",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "http://nadp.slh.wisc.edu/datalib/ntn/monthly/NTN-WV18-m.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "daily_precipitation",
+            "path": "NTN-WV18-d.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "siteid",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "labno",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "starttime",
+                        "size": "22",
+                        "type": "char"
+                    },
+                    {
+                        "name": "endtime",
+                        "size": "22",
+                        "type": "char"
+                    },
+                    {
+                        "name": "amount",
+                        "type": "double"
+                    },
+                    {
+                        "name": "type",
+                        "size": "1",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "http://nadp.slh.wisc.edu/datalib/ntn/daily/NTN-WV18-d.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "seasonal_precipitation_weighted_mean",
+            "path": "NTN-WV18-s.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "siteid",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "seas",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "yr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "criteria1",
+                        "type": "int"
+                    },
+                    {
+                        "name": "criteria2",
+                        "type": "int"
+                    },
+                    {
+                        "name": "criteria3",
+                        "type": "int"
+                    },
+                    {
+                        "name": "ca",
+                        "type": "double"
+                    },
+                    {
+                        "name": "mg",
+                        "type": "double"
+                    },
+                    {
+                        "name": "k",
+                        "type": "double"
+                    },
+                    {
+                        "name": "na",
+                        "type": "double"
+                    },
+                    {
+                        "name": "nh4",
+                        "type": "double"
+                    },
+                    {
+                        "name": "no3",
+                        "type": "double"
+                    },
+                    {
+                        "name": "cl",
+                        "type": "double"
+                    },
+                    {
+                        "name": "so4",
+                        "type": "double"
+                    },
+                    {
+                        "name": "br",
+                        "type": "double"
+                    },
+                    {
+                        "name": "ph",
+                        "type": "double"
+                    },
+                    {
+                        "name": "conduc",
+                        "type": "double"
+                    },
+                    {
+                        "name": "svol",
+                        "type": "double"
+                    },
+                    {
+                        "name": "ppt",
+                        "type": "double"
+                    },
+                    {
+                        "name": "fullchemlab",
+                        "type": "int"
+                    },
+                    {
+                        "name": "dayssample",
+                        "type": "int"
+                    },
+                    {
+                        "name": "startdate",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "lastdate",
+                        "size": "16",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "http://nadp.slh.wisc.edu/datalib/ntn/seas/NTN-WV18-s.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "annual_averages_water_year",
+            "path": "NTN-WV18-wy.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "siteid",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "seas",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "yr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "criteria1",
+                        "type": "int"
+                    },
+                    {
+                        "name": "criteria2",
+                        "type": "int"
+                    },
+                    {
+                        "name": "criteria3",
+                        "type": "int"
+                    },
+                    {
+                        "name": "ca",
+                        "type": "double"
+                    },
+                    {
+                        "name": "mg",
+                        "type": "double"
+                    },
+                    {
+                        "name": "k",
+                        "type": "double"
+                    },
+                    {
+                        "name": "na",
+                        "type": "double"
+                    },
+                    {
+                        "name": "nh4",
+                        "type": "double"
+                    },
+                    {
+                        "name": "no3",
+                        "type": "double"
+                    },
+                    {
+                        "name": "cl",
+                        "type": "double"
+                    },
+                    {
+                        "name": "so4",
+                        "type": "double"
+                    },
+                    {
+                        "name": "br",
+                        "type": "double"
+                    },
+                    {
+                        "name": "ph",
+                        "type": "double"
+                    },
+                    {
+                        "name": "conduc",
+                        "type": "double"
+                    },
+                    {
+                        "name": "svol",
+                        "type": "double"
+                    },
+                    {
+                        "name": "ppt",
+                        "type": "double"
+                    },
+                    {
+                        "name": "fullchemlab",
+                        "type": "int"
+                    },
+                    {
+                        "name": "dayssample",
+                        "type": "int"
+                    },
+                    {
+                        "name": "startdate",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "lastdate",
+                        "size": "16",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "http://nadp.slh.wisc.edu/datalib/ntn/wy/NTN-WV18-wy.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "amon_site_wv18_biweekly",
+            "path": "WV18-rep.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "nadpid",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "siteid",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "replicate",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "startdate",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "enddate",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "exptime",
+                        "type": "int"
+                    },
+                    {
+                        "name": "airvol",
+                        "type": "double"
+                    },
+                    {
+                        "name": "extractvol",
+                        "type": "double"
+                    },
+                    {
+                        "name": "nh4",
+                        "type": "double"
+                    },
+                    {
+                        "name": "conc",
+                        "type": "double"
+                    },
+                    {
+                        "name": "qr",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "notes",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "chngdate",
+                        "size": "16",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "http://nadp.slh.wisc.edu/dataLib/Amon/csv/WV18-rep.csv"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "NTN Site WV18, Rain Chemistry data, National Atmospheric Deposition Program, State of West Virginia (WV)",
+    "version": "1.0.0"
+}

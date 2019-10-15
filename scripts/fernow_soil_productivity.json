@@ -1,0 +1,413 @@
+{
+    "citation": "",
+    "description": "Fernow experimental Forest, LTREB, Soil Productivity, See Data policy",
+    "homepage": "http://www.as.wvu.edu/fernow/data.html",
+    "keywords": ["Watersheds", "LTREB", "Forest Ecosystems", "Soil Chemistry"],
+    "licenses": [{"name": ""}],
+    "name": "fernow-soil-productivity",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ",",
+                "missingValues": [" "],
+                "header_rows": 6
+            },
+            "name": "ltsp_tree_inventory_data",
+            "xls_sheets": [3, "LTSP Tree Inventory 2009.xlsx"],
+            "path": "ltsp_tree_inventory_2009_data.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "block",
+                        "type": "int"
+                    },
+                    {
+                        "name": "treatment",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "plot",
+                        "type": "int"
+                    },
+                    {
+                        "name": "square",
+                        "type": "int"
+                    },
+                    {
+                        "name": "square_area_m2",
+                        "type": "double"
+                    },
+                    {
+                        "name": "record_date",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "species",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "tree_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "branch",
+                        "type": "int"
+                    },
+                    {
+                        "name": "tree_status",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "dbh_cm",
+                        "type": "double"
+                    },
+                    {
+                        "name": "basal_area_cm2",
+                        "type": "double"
+                    },
+                    {
+                        "name": "notes",
+                        "size": "87",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "http://www.as.wvu.edu/fernow/Assests/Data%20Sets/LTSP%20Tree%20Inventory%202009.xlsx"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "header_rows": 6
+            },
+            "name": "tree_inventory_sample_square_areas",
+            "xls_sheets": [4, "LTSP Tree Inventory 2009.xlsx"],
+            "path": "tree_inventory_sample_square_areas.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "plot",
+                        "type": "int"
+                    },
+                    {
+                        "name": "treatment",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "square",
+                        "type": "int"
+                    },
+                    {
+                        "name": "vleft",
+                        "type": "double"
+                    },
+                    {
+                        "name": "vright",
+                        "type": "double"
+                    },
+                    {
+                        "name": "top",
+                        "type": "double"
+                    },
+                    {
+                        "name": "bottom",
+                        "type": "double"
+                    },
+                    {
+                        "name": "diag",
+                        "type": "double"
+                    },
+                    {
+                        "name": "s1",
+                        "type": "double"
+                    },
+                    {
+                        "name": "s2",
+                        "type": "double"
+                    },
+                    {
+                        "name": "a1",
+                        "type": "double"
+                    },
+                    {
+                        "name": "a2",
+                        "type": "double"
+                    },
+                    {
+                        "name": "area",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "http://www.as.wvu.edu/fernow/Assests/Data%20Sets/LTSP%20Tree%20Inventory%202009.xlsx"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "header_rows": 17
+            },
+            "name": "ltsp_damage_assessment_data",
+            "path": "ltsp_damage_assessment_data.csv",
+            "xls_sheets": [3, "LTSP Damage assessment 2011.xlsx"],
+            "schema": {
+                "fields": [
+                    {
+                        "name": "block",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plot",
+                        "type": "int"
+                    },
+                    {
+                        "name": "square",
+                        "type": "int"
+                    },
+                    {
+                        "name": "treatment",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "record_date",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "species",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "branch_no",
+                        "type": "int"
+                    },
+                    {
+                        "name": "tree_status",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "damage_type",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "degree_of_bending_leaning",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "dbh_cm",
+                        "type": "double"
+                    },
+                    {
+                        "name": "stump_sprout_y_n",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "notes",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "degree_of_overhead_coverage",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "http://www.as.wvu.edu/fernow/Assests/Data%20Sets/LTSP%20Damage%20assessment%202011.xlsx"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "header_rows": 7
+            },
+            "name": "ltsp_damage_qualitative_cover",
+            "xls_sheets": [4, "LTSP Damage assessment 2011.xlsx"],
+            "path": "ltsp_damage_qualitative_cover.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "block",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plot",
+                        "type": "int"
+                    },
+                    {
+                        "name": "square",
+                        "type": "int"
+                    },
+                    {
+                        "name": "treatment",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "record_date",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "qualitative_canopy_coverage_analysis_scale_1_5",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "http://www.as.wvu.edu/fernow/Assests/Data%20Sets/LTSP%20Damage%20assessment%202011.xlsx"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "header_rows": 7
+            },
+            "name": "ltsp_lysimeter_chemistry_data",
+            "xls_sheets": [2, "LTSP Lysimeter Chemistry Data 1996 to 2010.xlsx"],
+            "path": "ltsp_lysimeter_chemistry_data.csv",
+            "citation": "  Adams, M.B. 2015. Fernow Experimental Forest LTSP Lysimeter Chemistry Data, 1996-2010. ",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "record_date",
+                        "type": "int"
+                    },
+                    {
+                        "name": "year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "month",
+                        "type": "int"
+                    },
+                    {
+                        "name": "day",
+                        "type": "int"
+                    },
+                    {
+                        "name": "treatment",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "block",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plot",
+                        "type": "int"
+                    },
+                    {
+                        "name": "within_plot_location",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "ph",
+                        "type": "double"
+                    },
+                    {
+                        "name": "cond_us_cm",
+                        "type": "double"
+                    },
+                    {
+                        "name": "acidity_mg_caco3_l",
+                        "type": "double"
+                    },
+                    {
+                        "name": "anc_ueq",
+                        "type": "double"
+                    },
+                    {
+                        "name": "cl_mg_l",
+                        "type": "double"
+                    },
+                    {
+                        "name": "no3_mg_l",
+                        "type": "double"
+                    },
+                    {
+                        "name": "so4_mg_l",
+                        "type": "double"
+                    },
+                    {
+                        "name": "ca_mg_l",
+                        "type": "double"
+                    },
+                    {
+                        "name": "mg_mg_l",
+                        "type": "double"
+                    },
+                    {
+                        "name": "na_mg_l",
+                        "type": "double"
+                    },
+                    {
+                        "name": "k_mg_l",
+                        "type": "double"
+                    },
+                    {
+                        "name": "nh4_mg_l",
+                        "type": "double"
+                    },
+                    {
+                        "name": "no3_cl_ratio_mass",
+                        "type": "double"
+                    },
+                    {
+                        "name": "empty_field",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "cl_ueq_l",
+                        "type": "int"
+                    },
+                    {
+                        "name": "no3_ueq_l",
+                        "type": "double"
+                    },
+                    {
+                        "name": "so4_ueq_l",
+                        "type": "double"
+                    },
+                    {
+                        "name": "ca_ueq_l",
+                        "type": "double"
+                    },
+                    {
+                        "name": "mg_ueq_l",
+                        "type": "double"
+                    },
+                    {
+                        "name": "na_ueq_l",
+                        "type": "double"
+                    },
+                    {
+                        "name": "k_ueq_l",
+                        "type": "double"
+                    },
+                    {
+                        "name": "nh4_ueq_l",
+                        "type": "double"
+                    },
+                    {
+                        "name": "no3_cl_ratio_ueq",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "http://www.as.wvu.edu/fernow/Assests/Data%20Sets/LTSP%20Lysimeter%20Chemistry%20Data%201996%20to%202010.xlsx"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "Long-Term Soil Productivity (LTSP) Experiment, Fernow experimental Forest, LTREB",
+    "version": "1.0.0"
+}

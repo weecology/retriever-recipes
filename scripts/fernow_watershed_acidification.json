@@ -1,0 +1,701 @@
+{
+    "citation": "",
+    "description": "Fernow experimental Forest, LTREB, See Data policy",
+    "homepage": "http://www.as.wvu.edu/fernow/data.html",
+    "keywords": ["Watersheds", "LTREB", "Forest Ecosystems", "Soil Chemistry"],
+    "licenses": [{"name": ""}],
+    "name": "fernow-watershed-acidification",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "leaf_litterfall_data",
+            "xls_sheets": [6, "Fernow Experimental Forest autumnal leaf litterfall data.xlsx"],
+            "path": "leaf_litterfall_data.csv",
+            "citation":"Data Set Citation = Adams, M.B. 2013. Fernow Experimental Forest autumnal leaf litterfall data, 1988-2013. Parsons, WV. USA: Department of Agriculture, Forest Service, North Central Research Station.",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "watershed",
+                        "type": "int"
+                    },
+                    {
+                        "name": "record_date",
+                        "type": "int"
+                    },
+                    {
+                        "name": "year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "trap",
+                        "type": "int"
+                    },
+                    {
+                        "name": "dry_wt_g",
+                        "type": "double"
+                    },
+                    {
+                        "name": "leaf_mass_mt_ha",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "http://www.as.wvu.edu/fernow/Assests/Data%20Sets/Fernow%20Experimental%20Forest%20autumnal%20leaf%20litterfall%20data.xlsx"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "xls_sheets": [3, "WS 3 and 7 Soil chemistry data 2011.xlsx"],
+            "name": "soil_chemistry_plot_coordinates",
+            "path": "soil_chemistry_plot_coordinates.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "lab_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "watershed",
+                        "type": "int"
+                    },
+                    {
+                        "name": "original_plot",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "recoded_plot",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "recoded_column_id",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "recoded_row_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "utm_easting_m",
+                        "type": "int"
+                    },
+                    {
+                        "name": "utm_northing_m",
+                        "type": "int"
+                    },
+                    {
+                        "name": "notes",
+                        "size": "43",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "http://www.as.wvu.edu/fernow/Assests/Data%20Sets/WS%203%20and%207%20Soil%20chemistry%20data%202011.xlsx"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "header_rows": 6
+            },
+            "name": "soil_chemistry_data",
+            "xls_sheets": [4, "WS 3 and 7 Soil chemistry data 2011.xlsx" ],
+            "path": "ws37Soil_chemistry_data_2011.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "lab_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "watershed",
+                        "type": "int"
+                    },
+                    {
+                        "name": "original_plot",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "recoded_plot",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "recoded_column_id",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "recoded_row_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "utm_easting_m",
+                        "type": "int"
+                    },
+                    {
+                        "name": "utm_northing_m",
+                        "type": "int"
+                    },
+                    {
+                        "name": "cores",
+                        "type": "int"
+                    },
+                    {
+                        "name": "date_collected",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "notes",
+                        "size": "39",
+                        "type": "char"
+                    },
+                    {
+                        "name": "total_wet_mass_g_pre_seived",
+                        "type": "double"
+                    },
+                    {
+                        "name": "total_wet_mass_g_seived",
+                        "type": "double"
+                    },
+                    {
+                        "name": "c_sample_65c_tin_mass_g",
+                        "type": "double"
+                    },
+                    {
+                        "name": "seived_65c_wet_mass_g",
+                        "type": "double"
+                    },
+                    {
+                        "name": "c_sample_65c_dry_mass_tin_mass_g",
+                        "type": "double"
+                    },
+                    {
+                        "name": "c_sample_65c_dry_mass_g",
+                        "type": "double"
+                    },
+                    {
+                        "name": "c_sample_110c_tin_mass_g",
+                        "type": "double"
+                    },
+                    {
+                        "name": "seived_110c_wet_mass_g",
+                        "type": "double"
+                    },
+                    {
+                        "name": "c_sample_110c_dry_mass_tin_mass_g",
+                        "type": "double"
+                    },
+                    {
+                        "name": "c_sample_110c_dry_mass_g",
+                        "type": "double"
+                    },
+                    {
+                        "name": "seived_soil_percent_moisture_65_c",
+                        "type": "double"
+                    },
+                    {
+                        "name": "seived_soil_percent_moisture_110_c",
+                        "type": "double"
+                    },
+                    {
+                        "name": "bulk_denisty_of_seived_soil_dried_65_c_g_cm3",
+                        "type": "double"
+                    },
+                    {
+                        "name": "bulk_denisty_of_seived_soil_dried_110_c_g_cm3",
+                        "type": "double"
+                    },
+                    {
+                        "name": "pre_incubation_wet_mass_g",
+                        "type": "double"
+                    },
+                    {
+                        "name": "cup_mass_g_without_lid_28_day",
+                        "type": "double"
+                    },
+                    {
+                        "name": "pre_incubation_dry_mass_110_c_g",
+                        "type": "double"
+                    },
+                    {
+                        "name": "initial_extract_no3_n_concentration_mg_n_l",
+                        "type": "double"
+                    },
+                    {
+                        "name": "initial_amount_of_extractable_no3_n_ug_n_g_dry",
+                        "type": "double"
+                    },
+                    {
+                        "name": "post_incubation_wet_mass_g",
+                        "type": "double"
+                    },
+                    {
+                        "name": "cup_mass_g_without_lid",
+                        "type": "double"
+                    },
+                    {
+                        "name": "post_incubation_dry_mass_110_c_g",
+                        "type": "double"
+                    },
+                    {
+                        "name": "final_extract_no3_n_concentration_mg_n_l",
+                        "type": "double"
+                    },
+                    {
+                        "name": "final_amount_of_extractable_no3_n_ug_n_g_dry",
+                        "type": "double"
+                    },
+                    {
+                        "name": "net_nitrification_rate_ug_n_g_day",
+                        "type": "double"
+                    },
+                    {
+                        "name": "aerial_net_nitrification_rate_mg_n_m2_day",
+                        "type": "double"
+                    },
+                    {
+                        "name": "initial_extract_nh4_n_concentration_mg_n_l",
+                        "type": "double"
+                    },
+                    {
+                        "name": "initial_amount_of_extractable_nh4_n_ug_n_g_dry",
+                        "type": "double"
+                    },
+                    {
+                        "name": "final_extract_nh4_n_concentration_mg_n_l",
+                        "type": "double"
+                    },
+                    {
+                        "name": "final_amount_of_extractablenh4_n_ug_n_g_dry",
+                        "type": "double"
+                    },
+                    {
+                        "name": "net_n_mineralization_rate_ug_n_g_day",
+                        "type": "double"
+                    },
+                    {
+                        "name": "aerial_net_n_mineralization_rate_mg_n_m2_day",
+                        "type": "double"
+                    },
+                    {
+                        "name": "percent_nitrification_percent",
+                        "type": "double"
+                    },
+                    {
+                        "name": "g_dry_weight_equivalent_ph_testing",
+                        "type": "double"
+                    },
+                    {
+                        "name": "mass_used_for_ph",
+                        "type": "double"
+                    },
+                    {
+                        "name": "ph_in_water",
+                        "type": "double"
+                    },
+                    {
+                        "name": "ph_in_0_1_m_calcium_chloride",
+                        "type": "double"
+                    },
+                    {
+                        "name": "percent_c",
+                        "type": "double"
+                    },
+                    {
+                        "name": "percent_n",
+                        "type": "double"
+                    },
+                    {
+                        "name": "mass_c_n_ratio",
+                        "type": "double"
+                    },
+                    {
+                        "name": "c_mass_to_5_cm_g_m2",
+                        "type": "double"
+                    },
+                    {
+                        "name": "n_mass_to_5_cm_g_m2",
+                        "type": "double"
+                    },
+                    {
+                        "name": "al_meq_100_g",
+                        "type": "double"
+                    },
+                    {
+                        "name": "ca_meq_100_g",
+                        "type": "double"
+                    },
+                    {
+                        "name": "fe_meq_100_g",
+                        "type": "double"
+                    },
+                    {
+                        "name": "k_meq_100_g",
+                        "type": "double"
+                    },
+                    {
+                        "name": "mg_meq_100_g",
+                        "type": "double"
+                    },
+                    {
+                        "name": "mn_meq_100_g",
+                        "type": "double"
+                    },
+                    {
+                        "name": "na_meq_100_g",
+                        "type": "double"
+                    },
+                    {
+                        "name": "p_mg_p_100_g",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "http://www.as.wvu.edu/fernow/Assests/Data%20Sets/WS%203%20and%207%20Soil%20chemistry%20data%202011.xlsx"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "header_rows": 6
+            },
+            "name": "lysimeter_solution_chemistry",
+            "xls_sheets": [2, "WS 3 and WS 4 Lysimeter Data 1989 to 2012.xlsx"],
+            "citation": "Adams, M.B. 2016. Fernow Experimental Forest lysimeter data, 2004-2011. Parsons, WV. USA: Department of Agriculture, Forest Service, North Central Research Station.",
+            "path": "lysimeter_solution_chemistry.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "ws",
+                        "type": "int"
+                    },
+                    {
+                        "name": "record_date",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "month",
+                        "type": "int"
+                    },
+                    {
+                        "name": "day",
+                        "type": "int"
+                    },
+                    {
+                        "name": "pit",
+                        "type": "int"
+                    },
+                    {
+                        "name": "depth",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "volume_ml",
+                        "type": "int"
+                    },
+                    {
+                        "name": "ph",
+                        "type": "double"
+                    },
+                    {
+                        "name": "cond_us_cm",
+                        "type": "double"
+                    },
+                    {
+                        "name": "acidity_mg_caco3_l",
+                        "type": "double"
+                    },
+                    {
+                        "name": "anc_ueq_l",
+                        "type": "double"
+                    },
+                    {
+                        "name": "cl_mg_l",
+                        "type": "double"
+                    },
+                    {
+                        "name": "no3_mg_l",
+                        "type": "double"
+                    },
+                    {
+                        "name": "so4_mg_l",
+                        "type": "double"
+                    },
+                    {
+                        "name": "ca_mg_l",
+                        "type": "double"
+                    },
+                    {
+                        "name": "mg_mg_l",
+                        "type": "double"
+                    },
+                    {
+                        "name": "na_mg_l",
+                        "type": "double"
+                    },
+                    {
+                        "name": "k_mg_l",
+                        "type": "double"
+                    },
+                    {
+                        "name": "nh4_mg_l",
+                        "type": "double"
+                    },
+                    {
+                        "name": "empty_field",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "cl_ueq_l",
+                        "type": "int"
+                    },
+                    {
+                        "name": "no3_ueq_l",
+                        "type": "double"
+                    },
+                    {
+                        "name": "so4_ueq_l",
+                        "type": "double"
+                    },
+                    {
+                        "name": "ca_ueq_l",
+                        "type": "double"
+                    },
+                    {
+                        "name": "mg_ueq_l",
+                        "type": "double"
+                    },
+                    {
+                        "name": "na_ueq_l",
+                        "type": "double"
+                    },
+                    {
+                        "name": "k_ueq_l",
+                        "type": "double"
+                    },
+                    {
+                        "name": "nh4_ueq_l",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "http://www.as.wvu.edu/fernow/Assests/Data%20Sets/WS%203%20and%20WS%204%20Lysimeter%20Data%201989%20to%202012.xlsx"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "header_rows": 5
+            },
+            "name": "root_plot_locations",
+            "xls_sheets": [2, "WS 3 and 7 Root Data.xlsx"],
+            "path": "root_plot_locations.csv",
+            "citation": "Adams, M.B. 2016. Fernow Experimental Forest Watershed Acidification Root Data, 1991. Parsons, WV. USA: Department of Agriculture, Forest Service, North Central Research Station.",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "plot",
+                        "type": "int"
+                    },
+                    {
+                        "name": "latitude",
+                        "type": "double"
+                    },
+                    {
+                        "name": "longitude",
+                        "type": "double"
+                    },
+                    {
+                        "name": "utm_zone_17_s_northing",
+                        "type": "double"
+                    },
+                    {
+                        "name": "utm_zone_17_s_easting",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "http://www.as.wvu.edu/fernow/Assests/Data%20Sets/WS%203%20and%207%20Root%20Data.xlsx"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "header_rows": 2
+            },
+            "name": "root_mass",
+            "xls_sheets": [3, "WS 3 and 7 Root Data.xlsx"],
+            "path": "root_mass.csv",
+            "citation": "Adams, M.B. 2016. Fernow Experimental Forest Watershed Acidification Root Data, 1991. Parsons, WV. USA: Department of Agriculture, Forest Service, North Central Research Station.",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "watershed",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plot",
+                        "type": "int"
+                    },
+                    {
+                        "name": "record_date",
+                        "size": "12",
+                        "type": "char"
+                    },
+                    {
+                        "name": "horizon",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "fine_root_g",
+                        "type": "double"
+                    },
+                    {
+                        "name": "coarse_root_g",
+                        "type": "double"
+                    },
+                    {
+                        "name": "rock_vol_ml",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fine_root_g_m2",
+                        "type": "double"
+                    },
+                    {
+                        "name": "coarse_root_g_m2",
+                        "type": "double"
+                    },
+                    {
+                        "name": "rock_vol_ml_m2",
+                        "type": "double"
+                    },
+                    {
+                        "name": "plot_fine_roots_g",
+                        "type": "double"
+                    },
+                    {
+                        "name": "plot_coarse_roots_g",
+                        "type": "double"
+                    },
+                    {
+                        "name": "plot_rock_vol_ml",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plot_rock_free_vol_ml",
+                        "type": "double"
+                    },
+                    {
+                        "name": "plot_fine_roots_per_vol_g_ml",
+                        "type": "double"
+                    },
+                    {
+                        "name": "plot_coarse_roots_per_vol_g_ml",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "http://www.as.wvu.edu/fernow/Assests/Data%20Sets/WS%203%20and%207%20Root%20Data.xlsx"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "header_rows": 1
+            },
+            "name": "root_elemental_concentrations",
+            "xls_sheets": [4, "WS 3 and 7 Root Data.xlsx"],
+            "path": "root_elemental_concentrations.csv",
+            "citation": "Adams, M.B. 2016. Fernow Experimental Forest Watershed Acidification Root Data, 1991. Parsons, WV. USA: Department of Agriculture, Forest Service, North Central Research Station.",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "ws",
+                        "type": "int"
+                    },
+                    {
+                        "name": "horizon",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "diameter_coarse_or_fine",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "record_date",
+                        "size": "12",
+                        "type": "char"
+                    },
+                    {
+                        "name": "sample",
+                        "type": "int"
+                    },
+                    {
+                        "name": "n_percent",
+                        "type": "double"
+                    },
+                    {
+                        "name": "ca_ppm",
+                        "type": "int"
+                    },
+                    {
+                        "name": "k_ppm",
+                        "type": "int"
+                    },
+                    {
+                        "name": "mg_ppm",
+                        "type": "int"
+                    },
+                    {
+                        "name": "p_ppm",
+                        "type": "int"
+                    },
+                    {
+                        "name": "al_ppm",
+                        "type": "int"
+                    },
+                    {
+                        "name": "b_ppm",
+                        "type": "double"
+                    },
+                    {
+                        "name": "cu_ppm",
+                        "type": "double"
+                    },
+                    {
+                        "name": "fe_ppm",
+                        "type": "int"
+                    },
+                    {
+                        "name": "mn_ppm",
+                        "type": "int"
+                    },
+                    {
+                        "name": "zn_ppm",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "http://www.as.wvu.edu/fernow/Assests/Data%20Sets/WS%203%20and%207%20Root%20Data.xlsx"
+        }
+
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "Whole Watershed Acidification Experiment, Fernow experimental Forest, LTREB",
+    "version": "1.0.0"
+}
