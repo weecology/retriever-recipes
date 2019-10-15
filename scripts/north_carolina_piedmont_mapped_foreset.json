@@ -1,0 +1,1189 @@
+{
+    "archived": "zip",
+    "citation": "",
+    "description": "Mapped Forest Stands of North Carolina Piedmont Forest LTREB Project",
+    "homepage": "http://labs.bio.unc.edu/Peet/PEL/df.htm",
+    "keywords": ["North Carolina", "Forest", "tree", "spatial patterns", "gap dynamics", "demographic"],
+    "licenses": [{"name": ""}],
+    "name": "north-carolina-piedmont-mapped-foreset",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "map_97_stemdata",
+            "path": "map_97_stemdata.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "plotnumber",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plotstemid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "cloneplotstemid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "phase",
+                        "type": "int"
+                    },
+                    {
+                        "name": "transect",
+                        "type": "int"
+                    },
+                    {
+                        "name": "columns",
+                        "type": "int"
+                    },
+                    {
+                        "name": "row",
+                        "type": "int"
+                    },
+                    {
+                        "name": "x",
+                        "type": "int"
+                    },
+                    {
+                        "name": "y",
+                        "type": "int"
+                    },
+                    {
+                        "name": "speciescode",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "scientificname",
+                        "size": "33",
+                        "type": "char"
+                    },
+                    {
+                        "name": "stemnotes",
+                        "type": "int"
+                    },
+                    {
+                        "name": "year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "conditioncode",
+                        "type": "int"
+                    },
+                    {
+                        "name": "diameter",
+                        "type": "double"
+                    },
+                    {
+                        "name": "heightclass",
+                        "type": "int"
+                    },
+                    {
+                        "name": "height",
+                        "type": "int"
+                    },
+                    {
+                        "name": "hurricane1_uproot",
+                        "type": "int"
+                    },
+                    {
+                        "name": "hurricane2_breakage",
+                        "type": "int"
+                    },
+                    {
+                        "name": "hurricane3_leaning",
+                        "type": "int"
+                    },
+                    {
+                        "name": "hurricane4_leanedon",
+                        "type": "int"
+                    },
+                    {
+                        "name": "downedazimuth",
+                        "type": "int"
+                    },
+                    {
+                        "name": "yearly_remarks",
+                        "size": "99",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "http://labs.bio.unc.edu/Peet/PEL/df/data/map_97_stemdata.csv.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "map_91_stemdata",
+            "path": "map_91_stemdata.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "plotnumber",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plotstemid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "cloneplotstemid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "phase",
+                        "type": "int"
+                    },
+                    {
+                        "name": "transect",
+                        "type": "int"
+                    },
+                    {
+                        "name": "columns",
+                        "type": "int"
+                    },
+                    {
+                        "name": "row",
+                        "type": "int"
+                    },
+                    {
+                        "name": "x",
+                        "type": "int"
+                    },
+                    {
+                        "name": "y",
+                        "type": "int"
+                    },
+                    {
+                        "name": "speciescode",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "scientificname",
+                        "size": "30",
+                        "type": "char"
+                    },
+                    {
+                        "name": "stemnotes",
+                        "type": "int"
+                    },
+                    {
+                        "name": "year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "conditioncode",
+                        "type": "int"
+                    },
+                    {
+                        "name": "diameter",
+                        "type": "double"
+                    },
+                    {
+                        "name": "heightclass",
+                        "type": "int"
+                    },
+                    {
+                        "name": "height",
+                        "type": "double"
+                    },
+                    {
+                        "name": "hurricane1_uproot",
+                        "type": "int"
+                    },
+                    {
+                        "name": "hurricane2_breakage",
+                        "type": "int"
+                    },
+                    {
+                        "name": "hurricane3_leaning",
+                        "type": "int"
+                    },
+                    {
+                        "name": "hurricane4_leanedon",
+                        "type": "int"
+                    },
+                    {
+                        "name": "downedazimuth",
+                        "type": "int"
+                    },
+                    {
+                        "name": "yearly_remarks",
+                        "size": "43",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "http://labs.bio.unc.edu/Peet/PEL/df/data/map_91_stemdata.csv.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "map_96_stemdata",
+            "path": "map_96_stemdata.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "plotnumber",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plotstemid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "cloneplotstemid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "phase",
+                        "type": "int"
+                    },
+                    {
+                        "name": "transect",
+                        "type": "int"
+                    },
+                    {
+                        "name": "columns",
+                        "type": "int"
+                    },
+                    {
+                        "name": "row",
+                        "type": "int"
+                    },
+                    {
+                        "name": "x",
+                        "type": "double"
+                    },
+                    {
+                        "name": "y",
+                        "type": "double"
+                    },
+                    {
+                        "name": "speciescode",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "scientificname",
+                        "size": "15",
+                        "type": "char"
+                    },
+                    {
+                        "name": "stemnotes",
+                        "type": "int"
+                    },
+                    {
+                        "name": "year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "conditioncode",
+                        "type": "int"
+                    },
+                    {
+                        "name": "diameter",
+                        "type": "double"
+                    },
+                    {
+                        "name": "heightclass",
+                        "type": "int"
+                    },
+                    {
+                        "name": "height",
+                        "type": "double"
+                    },
+                    {
+                        "name": "hurricane1_uproot",
+                        "type": "int"
+                    },
+                    {
+                        "name": "hurricane2_breakage",
+                        "type": "int"
+                    },
+                    {
+                        "name": "hurricane3_leaning",
+                        "type": "int"
+                    },
+                    {
+                        "name": "hurricane4_leanedon",
+                        "type": "int"
+                    },
+                    {
+                        "name": "downedazimuth",
+                        "type": "int"
+                    },
+                    {
+                        "name": "yearly_remarks",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "http://labs.bio.unc.edu/Peet/PEL/df/data/map_96_stemdata.csv.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "map_7_stemdata",
+            "path": "map_7_stemdata.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "plotnumber",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plotstemid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "cloneplotstemid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "phase",
+                        "type": "int"
+                    },
+                    {
+                        "name": "transect",
+                        "type": "int"
+                    },
+                    {
+                        "name": "columns",
+                        "type": "int"
+                    },
+                    {
+                        "name": "row",
+                        "type": "int"
+                    },
+                    {
+                        "name": "x",
+                        "type": "int"
+                    },
+                    {
+                        "name": "y",
+                        "type": "int"
+                    },
+                    {
+                        "name": "speciescode",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "scientificname",
+                        "size": "33",
+                        "type": "char"
+                    },
+                    {
+                        "name": "stemnotes",
+                        "size": "124",
+                        "type": "char"
+                    },
+                    {
+                        "name": "year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "conditioncode",
+                        "type": "int"
+                    },
+                    {
+                        "name": "diameter",
+                        "type": "double"
+                    },
+                    {
+                        "name": "heightclass",
+                        "type": "int"
+                    },
+                    {
+                        "name": "height",
+                        "type": "int"
+                    },
+                    {
+                        "name": "hurricane1_uproot",
+                        "type": "int"
+                    },
+                    {
+                        "name": "hurricane2_breakage",
+                        "type": "int"
+                    },
+                    {
+                        "name": "hurricane3_leaning",
+                        "type": "int"
+                    },
+                    {
+                        "name": "hurricane4_leanedon",
+                        "type": "int"
+                    },
+                    {
+                        "name": "downedazimuth",
+                        "type": "int"
+                    },
+                    {
+                        "name": "yearly_remarks",
+                        "size": "76",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "http://labs.bio.unc.edu/Peet/PEL/df/data/map_7_stemdata.csv.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "map_12_stemdata",
+            "path": "map_12_stemdata.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "plotnumber",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plotstemid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "cloneplotstemid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "phase",
+                        "type": "int"
+                    },
+                    {
+                        "name": "transect",
+                        "type": "int"
+                    },
+                    {
+                        "name": "columns",
+                        "type": "int"
+                    },
+                    {
+                        "name": "row",
+                        "type": "int"
+                    },
+                    {
+                        "name": "x",
+                        "type": "int"
+                    },
+                    {
+                        "name": "y",
+                        "type": "int"
+                    },
+                    {
+                        "name": "speciescode",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "scientificname",
+                        "size": "33",
+                        "type": "char"
+                    },
+                    {
+                        "name": "stemnotes",
+                        "type": "int"
+                    },
+                    {
+                        "name": "year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "conditioncode",
+                        "type": "int"
+                    },
+                    {
+                        "name": "diameter",
+                        "type": "double"
+                    },
+                    {
+                        "name": "heightclass",
+                        "type": "int"
+                    },
+                    {
+                        "name": "height",
+                        "type": "double"
+                    },
+                    {
+                        "name": "hurricane1_uproot",
+                        "type": "int"
+                    },
+                    {
+                        "name": "hurricane2_breakage",
+                        "type": "int"
+                    },
+                    {
+                        "name": "hurricane3_leaning",
+                        "type": "int"
+                    },
+                    {
+                        "name": "hurricane4_leanedon",
+                        "type": "int"
+                    },
+                    {
+                        "name": "downedazimuth",
+                        "type": "int"
+                    },
+                    {
+                        "name": "yearly_remarks",
+                        "size": "50",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "http://labs.bio.unc.edu/Peet/PEL/df/data/map_12_stemdata.csv.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "map_13_stemdata",
+            "path": "map_13_stemdata.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "plotnumber",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plotstemid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "cloneplotstemid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "phase",
+                        "type": "int"
+                    },
+                    {
+                        "name": "transect",
+                        "type": "int"
+                    },
+                    {
+                        "name": "columns",
+                        "type": "int"
+                    },
+                    {
+                        "name": "row",
+                        "type": "int"
+                    },
+                    {
+                        "name": "x",
+                        "type": "double"
+                    },
+                    {
+                        "name": "y",
+                        "type": "double"
+                    },
+                    {
+                        "name": "speciescode",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "scientificname",
+                        "size": "33",
+                        "type": "char"
+                    },
+                    {
+                        "name": "stemnotes",
+                        "type": "int"
+                    },
+                    {
+                        "name": "year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "conditioncode",
+                        "type": "int"
+                    },
+                    {
+                        "name": "diameter",
+                        "type": "double"
+                    },
+                    {
+                        "name": "heightclass",
+                        "type": "int"
+                    },
+                    {
+                        "name": "height",
+                        "type": "int"
+                    },
+                    {
+                        "name": "hurricane1_uproot",
+                        "type": "int"
+                    },
+                    {
+                        "name": "hurricane2_breakage",
+                        "type": "int"
+                    },
+                    {
+                        "name": "hurricane3_leaning",
+                        "type": "int"
+                    },
+                    {
+                        "name": "hurricane4_leanedon",
+                        "type": "int"
+                    },
+                    {
+                        "name": "downedazimuth",
+                        "type": "int"
+                    },
+                    {
+                        "name": "yearly_remarks",
+                        "size": "16",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "http://labs.bio.unc.edu/Peet/PEL/df/data/map_13_stemdata.csv.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "map_14_stemdata",
+            "path": "map_14_stemdata.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "plotnumber",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plotstemid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "cloneplotstemid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "phase",
+                        "type": "int"
+                    },
+                    {
+                        "name": "transect",
+                        "type": "int"
+                    },
+                    {
+                        "name": "columns",
+                        "type": "int"
+                    },
+                    {
+                        "name": "row",
+                        "type": "int"
+                    },
+                    {
+                        "name": "x",
+                        "type": "double"
+                    },
+                    {
+                        "name": "y",
+                        "type": "double"
+                    },
+                    {
+                        "name": "speciescode",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "scientificname",
+                        "size": "33",
+                        "type": "char"
+                    },
+                    {
+                        "name": "stemnotes",
+                        "type": "int"
+                    },
+                    {
+                        "name": "year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "conditioncode",
+                        "type": "int"
+                    },
+                    {
+                        "name": "diameter",
+                        "type": "double"
+                    },
+                    {
+                        "name": "heightclass",
+                        "type": "int"
+                    },
+                    {
+                        "name": "height",
+                        "type": "int"
+                    },
+                    {
+                        "name": "hurricane1_uproot",
+                        "type": "int"
+                    },
+                    {
+                        "name": "hurricane2_breakage",
+                        "type": "int"
+                    },
+                    {
+                        "name": "hurricane3_leaning",
+                        "type": "int"
+                    },
+                    {
+                        "name": "hurricane4_leanedon",
+                        "type": "int"
+                    },
+                    {
+                        "name": "downedazimuth",
+                        "type": "int"
+                    },
+                    {
+                        "name": "yearly_remarks",
+                        "size": "16",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "http://labs.bio.unc.edu/Peet/PEL/df/data/map_14_stemdata.csv.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "map_4_stemdata",
+            "path": "map_4_stemdata.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "plotnumber",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plotstemid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "cloneplotstemid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "phase",
+                        "type": "int"
+                    },
+                    {
+                        "name": "transect",
+                        "type": "int"
+                    },
+                    {
+                        "name": "columns",
+                        "type": "int"
+                    },
+                    {
+                        "name": "row",
+                        "type": "int"
+                    },
+                    {
+                        "name": "x",
+                        "type": "int"
+                    },
+                    {
+                        "name": "y",
+                        "type": "int"
+                    },
+                    {
+                        "name": "speciescode",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "scientificname",
+                        "size": "33",
+                        "type": "char"
+                    },
+                    {
+                        "name": "stemnotes",
+                        "type": "int"
+                    },
+                    {
+                        "name": "year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "conditioncode",
+                        "type": "int"
+                    },
+                    {
+                        "name": "diameter",
+                        "type": "double"
+                    },
+                    {
+                        "name": "heightclass",
+                        "type": "int"
+                    },
+                    {
+                        "name": "height",
+                        "type": "int"
+                    },
+                    {
+                        "name": "hurricane1_uproot",
+                        "type": "int"
+                    },
+                    {
+                        "name": "hurricane2_breakage",
+                        "type": "int"
+                    },
+                    {
+                        "name": "hurricane3_leaning",
+                        "type": "int"
+                    },
+                    {
+                        "name": "hurricane4_leanedon",
+                        "type": "int"
+                    },
+                    {
+                        "name": "downedazimuth",
+                        "type": "int"
+                    },
+                    {
+                        "name": "yearly_remarks",
+                        "size": "19",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "http://labs.bio.unc.edu/Peet/PEL/df/data/map_4_stemdata.csv.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "map_93_stemdata",
+            "path": "map_93_stemdata.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "plotnumber",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plotstemid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "cloneplotstemid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "phase",
+                        "type": "int"
+                    },
+                    {
+                        "name": "transect",
+                        "type": "int"
+                    },
+                    {
+                        "name": "columns",
+                        "type": "int"
+                    },
+                    {
+                        "name": "row",
+                        "type": "int"
+                    },
+                    {
+                        "name": "x",
+                        "type": "double"
+                    },
+                    {
+                        "name": "y",
+                        "type": "double"
+                    },
+                    {
+                        "name": "speciescode",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "scientificname",
+                        "size": "33",
+                        "type": "char"
+                    },
+                    {
+                        "name": "stemnotes",
+                        "type": "int"
+                    },
+                    {
+                        "name": "year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "conditioncode",
+                        "type": "int"
+                    },
+                    {
+                        "name": "diameter",
+                        "type": "double"
+                    },
+                    {
+                        "name": "heightclass",
+                        "type": "int"
+                    },
+                    {
+                        "name": "height",
+                        "type": "int"
+                    },
+                    {
+                        "name": "hurricane1_uproot",
+                        "type": "int"
+                    },
+                    {
+                        "name": "hurricane2_breakage",
+                        "type": "int"
+                    },
+                    {
+                        "name": "hurricane3_leaning",
+                        "type": "int"
+                    },
+                    {
+                        "name": "hurricane4_leanedon",
+                        "type": "int"
+                    },
+                    {
+                        "name": "downedazimuth",
+                        "type": "int"
+                    },
+                    {
+                        "name": "yearly_remarks",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "http://labs.bio.unc.edu/Peet/PEL/df/data/map_93_stemdata.csv.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "map_92_stemdata",
+            "path": "map_92_stemdata.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "plotnumber",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plotstemid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "cloneplotstemid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "phase",
+                        "type": "int"
+                    },
+                    {
+                        "name": "transect",
+                        "type": "int"
+                    },
+                    {
+                        "name": "columns",
+                        "type": "int"
+                    },
+                    {
+                        "name": "row",
+                        "type": "int"
+                    },
+                    {
+                        "name": "x",
+                        "type": "int"
+                    },
+                    {
+                        "name": "y",
+                        "type": "int"
+                    },
+                    {
+                        "name": "speciescode",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "scientificname",
+                        "size": "30",
+                        "type": "char"
+                    },
+                    {
+                        "name": "stemnotes",
+                        "type": "int"
+                    },
+                    {
+                        "name": "year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "conditioncode",
+                        "type": "int"
+                    },
+                    {
+                        "name": "diameter",
+                        "type": "double"
+                    },
+                    {
+                        "name": "heightclass",
+                        "type": "int"
+                    },
+                    {
+                        "name": "height",
+                        "type": "double"
+                    },
+                    {
+                        "name": "hurricane1_uproot",
+                        "type": "int"
+                    },
+                    {
+                        "name": "hurricane2_breakage",
+                        "type": "int"
+                    },
+                    {
+                        "name": "hurricane3_leaning",
+                        "type": "int"
+                    },
+                    {
+                        "name": "hurricane4_leanedon",
+                        "type": "int"
+                    },
+                    {
+                        "name": "downedazimuth",
+                        "type": "int"
+                    },
+                    {
+                        "name": "yearly_remarks",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "http://labs.bio.unc.edu/Peet/PEL/df/data/map_92_stemdata.csv.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "map_95_stemdata",
+            "path": "map_95_stemdata.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "plotnumber",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plotstemid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "cloneplotstemid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "phase",
+                        "type": "int"
+                    },
+                    {
+                        "name": "transect",
+                        "type": "int"
+                    },
+                    {
+                        "name": "columns",
+                        "type": "int"
+                    },
+                    {
+                        "name": "row",
+                        "type": "int"
+                    },
+                    {
+                        "name": "x",
+                        "type": "int"
+                    },
+                    {
+                        "name": "y",
+                        "type": "int"
+                    },
+                    {
+                        "name": "speciescode",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "scientificname",
+                        "size": "23",
+                        "type": "char"
+                    },
+                    {
+                        "name": "stemnotes",
+                        "type": "int"
+                    },
+                    {
+                        "name": "year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "conditioncode",
+                        "type": "int"
+                    },
+                    {
+                        "name": "diameter",
+                        "type": "double"
+                    },
+                    {
+                        "name": "heightclass",
+                        "type": "int"
+                    },
+                    {
+                        "name": "height",
+                        "type": "double"
+                    },
+                    {
+                        "name": "hurricane1_uproot",
+                        "type": "int"
+                    },
+                    {
+                        "name": "hurricane2_breakage",
+                        "type": "int"
+                    },
+                    {
+                        "name": "hurricane3_leaning",
+                        "type": "int"
+                    },
+                    {
+                        "name": "hurricane4_leanedon",
+                        "type": "int"
+                    },
+                    {
+                        "name": "downedazimuth",
+                        "type": "int"
+                    },
+                    {
+                        "name": "yearly_remarks",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "http://labs.bio.unc.edu/Peet/PEL/df/data/map_95_stemdata.csv.zip"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "The North Carolina Piedmont Forest LTREB Project, Mapped Forest Stands",
+    "version": "1.0.0"
+}
