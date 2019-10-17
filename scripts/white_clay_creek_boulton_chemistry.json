@@ -1,0 +1,173 @@
+{
+    "citation": "Karwan, D., O. Lazareva, A. Aufdenkampe (2018). Third-order White Clay Creek and Boulton Run - Climate, Stable Isotopes, Stream Water Chemistry (2011-2012), HydroShare, https://doi.org/10.4211/hs.ff7435cd22d94914ad3a674c40b229e9",
+    "description": "Deuterium and Oxygen-18 measured on stream water samples collected during baseflow, stormflow conditions, time-integrated and bulk precipitation",
+    "homepage": "https://www.hydroshare.org/resource/ff7435cd22d94914ad3a674c40b229e9/",
+    "keywords": ["Hydrology", "water isotopes", "White Clay Creek Watershed"],
+    "licenses": [{ "name": ""}],
+    "encoding": "latin-1",
+    "name": "white-clay-creek-boulton-chemistry",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "crb_methods",
+            "path": "CRB_METHODS.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "term",
+                        "size": "33",
+                        "type": "char"
+                    },
+                    {
+                        "name": "definition",
+                        "size": "133",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://www.hydroshare.org/resource/ff7435cd22d94914ad3a674c40b229e9/data/contents/CRB_METHODS.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "crb_sites",
+            "path": "CRB_SITES.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sitecode",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "sitename",
+                        "size": "78",
+                        "type": "char"
+                    },
+                    {
+                        "name": "latitude",
+                        "type": "double"
+                    },
+                    {
+                        "name": "longitude",
+                        "type": "double"
+                    },
+                    {
+                        "name": "latlongdatum",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "elevation",
+                        "type": "double"
+                    },
+                    {
+                        "name": "verticaldatum",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "localx",
+                        "type": "int"
+                    },
+                    {
+                        "name": "localy",
+                        "type": "int"
+                    },
+                    {
+                        "name": "localprojection",
+                        "size": "21",
+                        "type": "char"
+                    },
+                    {
+                        "name": "posaccuracy",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://www.hydroshare.org/resource/ff7435cd22d94914ad3a674c40b229e9/data/contents/CRB_SITES.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "header_rows": 29
+            },
+            "name": "czo_crb_wcc_karwan_stableisotope",
+            "path": "CZO_CRB_WCC_KARWAN_STABLEISOTOPE.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sitecode",
+                        "size": "12",
+                        "type": "char"
+                    },
+                    {
+                        "name": "date_time",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "deuterium_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "oxygen_18_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "deuterium_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "oxygen_18_grab",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "https://www.hydroshare.org/resource/ff7435cd22d94914ad3a674c40b229e9/data/contents/CZO_CRB_WCC_KARWAN_STABLEISOTOPE.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "header_rows": 27
+            },
+            "name": "czo_crb_boulton_precip_stableisotope",
+            "path": "CZO_CRB_BOULTON_PRECIP_STABLEISOTOPE.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sitecode",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "start_date_time",
+                        "size": "15",
+                        "type": "char"
+                    },
+                    {
+                        "name": "end_date_time",
+                        "size": "15",
+                        "type": "char"
+                    },
+                    {
+                        "name": "deuterium",
+                        "type": "double"
+                    },
+                    {
+                        "name": "oxygen_18",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "https://czo.stroudcenter.org/data/wp-content/uploads/sites/5/2019/10/CZO_CRB_BOULTON_PRECIP_STABLEISOTOPE.csv"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "Third-order and Upper watershed White Clay Creek and Boulton Run – Climate, Stable Isotopes, Stream Water Chemistry,Precipitation Stable Isotopes (2011-2012)",
+    "version": "1.0.0"
+}

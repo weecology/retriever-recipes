@@ -154,6 +154,16 @@ vertnet_birds.py,1.1.2
 vertnet_fishes.py,1.1.3
 vertnet_mammals.py,1.1.3
 vertnet_reptiles.py,1.1.3
+white_clay_creek_avondale_soil.json,1.0.0
+white_clay_creek_boulton_chemistry.json,1.0.0
+white_clay_creek_chlorophyll.json,1.0.0
+white_clay_creek_christina_chemistry.json,1.0.0
+white_clay_creek_christina_sediment.json,1.0.0
+white_clay_creek_christina_temperatures.json,1.0.0
+white_clay_creek_streamflow.json,1.0.0
+white_clay_creek_swrc_meteorology.json,1.0.0
+white_clay_creek_waterlevels.json,1.0.0
+white_clay_dissolved_carbon .json,1.0.0
 wine_composition.json,1.1.1
 wine_quality.json,1.1.2
 wood_density.py,1.3.4

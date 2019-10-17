@@ -1,0 +1,1802 @@
+{
+    "citation": "Continuous streamflow data collected by Stroud Water Research Center",
+    "description": "Continuous streamflow data collected by the Stroud Water Research Center within the 3rd-order research watershed, White Clay Creek above McCue Road.",
+    "homepage": "https://czo.stroudcenter.org/data/white-clay-creek-stage-streamflow-discharge-1968-2012/",
+    "keywords": ["hydrology"," white clay creek", "gage height", "stage", "discharge", "stroud water research center", "christina river"],
+    "licenses": [{ "name": ""}],
+    "name": "white-clay-creek-streamflow",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ",",
+                "header_rows": 2
+            },
+            "name": "crb_wcc_stageflow_1968",
+            "path": "CRB_WCC_STAGEFLOW_1968.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "date_time_est",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "gage_height_ft_from_continuous_record",
+                        "type": "double"
+                    },
+                    {
+                        "name": "gage_height_ft",
+                        "type": "double"
+                    },
+                    {
+                        "name": "discharge_cfs_from_continuous_record",
+                        "type": "double"
+                    },
+                    {
+                        "name": "discharge_cfs",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "https://czo.stroudcenter.org/data/wp-content/uploads/sites/5/2014/10/CRB_WCC_STAGEFLOW_1968.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "header_rows": 2
+            },
+            "name": "crb_wcc_stageflow_1969",
+            "path": "CRB_WCC_STAGEFLOW_1969.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "date_time",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "gage_height_ft_from_continuous_record",
+                        "type": "double"
+                    },
+                    {
+                        "name": "gage_height_ft",
+                        "type": "double"
+                    },
+                    {
+                        "name": "discharge_cfs_from_continuous_record",
+                        "type": "double"
+                    },
+                    {
+                        "name": "discharge_cfs",
+                        "size": "7",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://czo.stroudcenter.org/data/wp-content/uploads/sites/5/2014/10/CRB_WCC_STAGEFLOW_1969.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "header_rows": 2
+            },
+            "name": "crb_wcc_stageflow_1970",
+            "path": "CRB_WCC_STAGEFLOW_1970.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "date_time_est",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "gage_height_ft_from_continuous_record",
+                        "type": "double"
+                    },
+                    {
+                        "name": "gage_height_ft",
+                        "type": "double"
+                    },
+                    {
+                        "name": "discharge_cfs_from_continuous_record",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "discharge_cfs",
+                        "size": "7",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://czo.stroudcenter.org/data/wp-content/uploads/sites/5/2014/10/CRB_WCC_STAGEFLOW_1970.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "header_rows": 2
+            },
+            "name": "crb_wcc_stageflow_1971",
+            "path": "CRB_WCC_STAGEFLOW_1971.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "date_time_est",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "gage_height_ft_from_continuous_record",
+                        "type": "double"
+                    },
+                    {
+                        "name": "gage_height_ft",
+                        "type": "double"
+                    },
+                    {
+                        "name": "discharge_cfs_from_continuous_record",
+                        "type": "double"
+                    },
+                    {
+                        "name": "discharge_cfs",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "https://czo.stroudcenter.org/data/wp-content/uploads/sites/5/2014/10/CRB_WCC_STAGEFLOW_1971.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "header_rows": 2
+            },
+            "name": "crb_wcc_stageflow_1972",
+            "path": "CRB_WCC_STAGEFLOW_1972.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "date_time_est",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "gage_height_ft_from_continuous_record",
+                        "type": "double"
+                    },
+                    {
+                        "name": "gage_height_ft",
+                        "type": "double"
+                    },
+                    {
+                        "name": "discharge_cfs_from_continuous_record",
+                        "type": "double"
+                    },
+                    {
+                        "name": "discharge_cfs",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "https://czo.stroudcenter.org/data/wp-content/uploads/sites/5/2014/10/CRB_WCC_STAGEFLOW_1972.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "header_rows": 2
+            },
+            "name": "crb_wcc_stageflow_1973",
+            "path": "CRB_WCC_STAGEFLOW_1973.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "date_time_est",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "gage_height_ft_from_continuous_record",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "gage_height_ft",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "discharge_cfs_from_continuous_record",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "discharge_cfs",
+                        "size": "8",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://czo.stroudcenter.org/data/wp-content/uploads/sites/5/2014/10/CRB_WCC_STAGEFLOW_1973.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "header_rows": 2
+            },
+            "name": "crb_wcc_stageflow_1974",
+            "path": "CRB_WCC_STAGEFLOW_1974.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "date_time_est",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "gage_height_ft_from_continuous_record",
+                        "type": "double"
+                    },
+                    {
+                        "name": "gage_height_ft",
+                        "type": "double"
+                    },
+                    {
+                        "name": "discharge_cfs_from_continuous_record",
+                        "type": "double"
+                    },
+                    {
+                        "name": "discharge_cfs",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "https://czo.stroudcenter.org/data/wp-content/uploads/sites/5/2014/10/CRB_WCC_STAGEFLOW_1974.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "header_rows": 2
+            },
+            "name": "crb_wcc_stageflow_1975",
+            "path": "CRB_WCC_STAGEFLOW_1975.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "date_time_est",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "gage_height_ft_from_continuous_record",
+                        "type": "double"
+                    },
+                    {
+                        "name": "gage_height_ft",
+                        "type": "double"
+                    },
+                    {
+                        "name": "discharge_cfs_from_continuous_record",
+                        "type": "double"
+                    },
+                    {
+                        "name": "discharge_cfs",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "https://czo.stroudcenter.org/data/wp-content/uploads/sites/5/2014/10/CRB_WCC_STAGEFLOW_1975.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "header_rows": 2
+            },
+            "name": "crb_wcc_stageflow_1976",
+            "path": "CRB_WCC_STAGEFLOW_1976.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "date_time_est",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "gage_height_ft_from_continuous_record",
+                        "type": "double"
+                    },
+                    {
+                        "name": "gage_height_ft",
+                        "type": "double"
+                    },
+                    {
+                        "name": "discharge_cfs_from_continuous_record",
+                        "type": "double"
+                    },
+                    {
+                        "name": "discharge_cfs",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "https://czo.stroudcenter.org/data/wp-content/uploads/sites/5/2014/10/CRB_WCC_STAGEFLOW_1976.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "header_rows": 2
+            },
+            "name": "crb_wcc_stageflow_1977",
+            "path": "CRB_WCC_STAGEFLOW_1977.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "date_time_est",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "gage_height_ft_from_continuous_record",
+                        "type": "double"
+                    },
+                    {
+                        "name": "gage_height_ft",
+                        "type": "double"
+                    },
+                    {
+                        "name": "discharge_cfs_from_continuous_record",
+                        "type": "double"
+                    },
+                    {
+                        "name": "discharge_cfs",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "https://czo.stroudcenter.org/data/wp-content/uploads/sites/5/2014/10/CRB_WCC_STAGEFLOW_1977.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "header_rows": 2
+            },
+            "name": "crb_wcc_stageflow_1978",
+            "path": "CRB_WCC_STAGEFLOW_1978.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "date_time_est",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "gage_height_ft_from_continuous_record",
+                        "type": "double"
+                    },
+                    {
+                        "name": "gage_height_ft",
+                        "type": "double"
+                    },
+                    {
+                        "name": "discharge_cfs_from_continuous_record",
+                        "type": "double"
+                    },
+                    {
+                        "name": "discharge_cfs",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "https://czo.stroudcenter.org/data/wp-content/uploads/sites/5/2014/10/CRB_WCC_STAGEFLOW_1978.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "header_rows": 2
+            },
+            "name": "crb_wcc_stageflow_1979",
+            "path": "CRB_WCC_STAGEFLOW_1979.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "date_time_est",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "gage_height_ft_from_continuous_record",
+                        "type": "double"
+                    },
+                    {
+                        "name": "gage_height_ft",
+                        "type": "double"
+                    },
+                    {
+                        "name": "discharge_cfs_from_continuous_record",
+                        "type": "double"
+                    },
+                    {
+                        "name": "discharge_cfs",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "https://czo.stroudcenter.org/data/wp-content/uploads/sites/5/2014/10/CRB_WCC_STAGEFLOW_1979.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "header_rows": 2
+            },
+            "name": "crb_wcc_stageflow_1980",
+            "path": "CRB_WCC_STAGEFLOW_1980.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "date_time_est",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "gage_height_ft_from_continuous_record",
+                        "type": "double"
+                    },
+                    {
+                        "name": "gage_height_ft",
+                        "type": "double"
+                    },
+                    {
+                        "name": "discharge_cfs_from_continuous_record",
+                        "type": "double"
+                    },
+                    {
+                        "name": "discharge_cfs",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "https://czo.stroudcenter.org/data/wp-content/uploads/sites/5/2014/10/CRB_WCC_STAGEFLOW_1980.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "header_rows": 2
+            },
+            "name": "crb_wcc_stageflow_1981",
+            "path": "CRB_WCC_STAGEFLOW_1981.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "date_time_est",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "gage_height_ft_from_continuous_record",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "gage_height_ft",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "discharge_cfs_from_continuous_record",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "discharge_cfs",
+                        "size": "8",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://czo.stroudcenter.org/data/wp-content/uploads/sites/5/2014/10/CRB_WCC_STAGEFLOW_1981.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "header_rows": 2
+            },
+            "name": "crb_wcc_stageflow_1982",
+            "path": "CRB_WCC_STAGEFLOW_1982.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "date_time_est",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "gage_height_ft_from_continuous_record",
+                        "type": "double"
+                    },
+                    {
+                        "name": "gage_height_ft",
+                        "type": "double"
+                    },
+                    {
+                        "name": "discharge_cfs_from_continuous_record",
+                        "type": "double"
+                    },
+                    {
+                        "name": "discharge_cfs",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "https://czo.stroudcenter.org/data/wp-content/uploads/sites/5/2014/10/CRB_WCC_STAGEFLOW_1982.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "header_rows": 2
+            },
+            "name": "crb_wcc_stageflow_1983",
+            "path": "CRB_WCC_STAGEFLOW_1983.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "date_time_est",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "gage_height_ft_from_continuous_record",
+                        "type": "double"
+                    },
+                    {
+                        "name": "gage_height_ft",
+                        "type": "double"
+                    },
+                    {
+                        "name": "discharge_cfs_from_continuous_record",
+                        "type": "double"
+                    },
+                    {
+                        "name": "discharge_cfs",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "https://czo.stroudcenter.org/data/wp-content/uploads/sites/5/2014/10/CRB_WCC_STAGEFLOW_1983.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "header_rows": 2
+            },
+            "name": "crb_wcc_stageflow_1984",
+            "path": "CRB_WCC_STAGEFLOW_1984.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "date_time_est",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "gage_height_ft_from_continuous_record",
+                        "type": "double"
+                    },
+                    {
+                        "name": "gage_height_ft",
+                        "type": "double"
+                    },
+                    {
+                        "name": "discharge_cfs_from_continuous_record",
+                        "type": "double"
+                    },
+                    {
+                        "name": "discharge_cfs",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "https://czo.stroudcenter.org/data/wp-content/uploads/sites/5/2014/10/CRB_WCC_STAGEFLOW_1984.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "header_rows": 2
+            },
+            "name": "crb_wcc_stageflow_1985",
+            "path": "CRB_WCC_STAGEFLOW_1985.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "date_time_est",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "gage_height_ft_from_continuous_record",
+                        "type": "double"
+                    },
+                    {
+                        "name": "gage_height_ft",
+                        "type": "double"
+                    },
+                    {
+                        "name": "discharge_cfs_from_continuous_record",
+                        "type": "double"
+                    },
+                    {
+                        "name": "discharge_cfs",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "https://czo.stroudcenter.org/data/wp-content/uploads/sites/5/2014/10/CRB_WCC_STAGEFLOW_1985.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "header_rows": 2
+            },
+            "name": "crb_wcc_stageflow_1986",
+            "path": "CRB_WCC_STAGEFLOW_1986.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "date_time_est",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "gage_height_ft_from_continuous_record",
+                        "type": "double"
+                    },
+                    {
+                        "name": "gage_height_ft",
+                        "type": "double"
+                    },
+                    {
+                        "name": "discharge_cfs_from_continuous_record",
+                        "type": "double"
+                    },
+                    {
+                        "name": "discharge_cfs",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "https://czo.stroudcenter.org/data/wp-content/uploads/sites/5/2014/10/CRB_WCC_STAGEFLOW_1986.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "header_rows": 2
+            },
+            "name": "crb_wcc_stageflow_1987",
+            "path": "CRB_WCC_STAGEFLOW_1987.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "date_time_est",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "gage_height_ft_from_continuous_record",
+                        "type": "double"
+                    },
+                    {
+                        "name": "gage_height_ft",
+                        "type": "double"
+                    },
+                    {
+                        "name": "discharge_cfs_from_continuous_record",
+                        "type": "double"
+                    },
+                    {
+                        "name": "discharge_cfs",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "https://czo.stroudcenter.org/data/wp-content/uploads/sites/5/2014/10/CRB_WCC_STAGEFLOW_1987.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "header_rows": 2
+            },
+            "name": "crb_wcc_stageflow_1988",
+            "path": "CRB_WCC_STAGEFLOW_1988.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "date_time_est",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "gage_height_ft_from_continuous_record",
+                        "type": "double"
+                    },
+                    {
+                        "name": "gage_height_ft",
+                        "type": "double"
+                    },
+                    {
+                        "name": "discharge_cfs_from_continuous_record",
+                        "type": "double"
+                    },
+                    {
+                        "name": "discharge_cfs",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "https://czo.stroudcenter.org/data/wp-content/uploads/sites/5/2014/10/CRB_WCC_STAGEFLOW_1988.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "header_rows": 2
+            },
+            "name": "crb_wcc_stageflow_1989",
+            "path": "CRB_WCC_STAGEFLOW_1989.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "date_time_est",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "gage_height_ft_from_continuous_record",
+                        "type": "double"
+                    },
+                    {
+                        "name": "gage_height_ft",
+                        "type": "double"
+                    },
+                    {
+                        "name": "discharge_cfs_from_continuous_record",
+                        "type": "double"
+                    },
+                    {
+                        "name": "discharge_cfs",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "https://czo.stroudcenter.org/data/wp-content/uploads/sites/5/2014/10/CRB_WCC_STAGEFLOW_1989.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "header_rows": 2
+            },
+            "name": "crb_wcc_stageflow_1990",
+            "path": "CRB_WCC_STAGEFLOW_1990.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "date_time_est",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "gage_height_ft_from_continuous_record",
+                        "type": "double"
+                    },
+                    {
+                        "name": "gage_height_ft",
+                        "type": "double"
+                    },
+                    {
+                        "name": "discharge_cfs_from_continuous_record",
+                        "type": "double"
+                    },
+                    {
+                        "name": "discharge_cfs",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "https://czo.stroudcenter.org/data/wp-content/uploads/sites/5/2014/10/CRB_WCC_STAGEFLOW_1990.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "header_rows": 2
+            },
+            "name": "crb_wcc_stageflow_1991",
+            "path": "CRB_WCC_STAGEFLOW_1991.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "date_time_est",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "gage_height_ft_from_continuous_record",
+                        "type": "double"
+                    },
+                    {
+                        "name": "gage_height_ft",
+                        "type": "double"
+                    },
+                    {
+                        "name": "discharge_cfs_from_continuous_record",
+                        "type": "double"
+                    },
+                    {
+                        "name": "discharge_cfs",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "https://czo.stroudcenter.org/data/wp-content/uploads/sites/5/2014/10/CRB_WCC_STAGEFLOW_1991.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "header_rows": 2
+            },
+            "name": "crb_wcc_stageflow_1992",
+            "path": "CRB_WCC_STAGEFLOW_1992.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "date_time_est",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "gage_height_ft_from_continuous_record",
+                        "type": "double"
+                    },
+                    {
+                        "name": "gage_height_ft",
+                        "type": "double"
+                    },
+                    {
+                        "name": "discharge_cfs_from_continuous_record",
+                        "type": "double"
+                    },
+                    {
+                        "name": "discharge_cfs",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "https://czo.stroudcenter.org/data/wp-content/uploads/sites/5/2014/10/CRB_WCC_STAGEFLOW_1992.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "header_rows": 2
+            },
+            "name": "crb_wcc_stageflow_1993",
+            "path": "CRB_WCC_STAGEFLOW_1993.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "date_time_est",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "gage_height_ft_from_continuous_record",
+                        "type": "double"
+                    },
+                    {
+                        "name": "gage_height_ft",
+                        "type": "double"
+                    },
+                    {
+                        "name": "discharge_cfs_from_continuous_record",
+                        "type": "double"
+                    },
+                    {
+                        "name": "discharge_cfs",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "https://czo.stroudcenter.org/data/wp-content/uploads/sites/5/2014/10/CRB_WCC_STAGEFLOW_1993.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "header_rows": 2
+            },
+            "name": "crb_wcc_stageflow_1994",
+            "path": "CRB_WCC_STAGEFLOW_1994.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "date_time_est",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "gage_height_ft_from_continuous_record",
+                        "type": "double"
+                    },
+                    {
+                        "name": "gage_height_ft",
+                        "type": "double"
+                    },
+                    {
+                        "name": "discharge_cfs_from_continuous_record",
+                        "type": "double"
+                    },
+                    {
+                        "name": "discharge_cfs",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "https://czo.stroudcenter.org/data/wp-content/uploads/sites/5/2014/10/CRB_WCC_STAGEFLOW_1994.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "header_rows": 2
+            },
+            "name": "crb_wcc_stageflow_1995",
+            "path": "CRB_WCC_STAGEFLOW_1995.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "date_time_est",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "gage_height_ft_from_continuous_record",
+                        "type": "double"
+                    },
+                    {
+                        "name": "gage_height_ft",
+                        "type": "double"
+                    },
+                    {
+                        "name": "discharge_cfs_from_continuous_record",
+                        "type": "double"
+                    },
+                    {
+                        "name": "discharge_cfs",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "https://czo.stroudcenter.org/data/wp-content/uploads/sites/5/2014/10/CRB_WCC_STAGEFLOW_1995.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "header_rows": 2
+            },
+            "name": "crb_wcc_stageflow_1996",
+            "path": "CRB_WCC_STAGEFLOW_1996.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "date_time_est",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "gage_height_ft_from_continuous_record",
+                        "type": "double"
+                    },
+                    {
+                        "name": "gage_height_ft",
+                        "type": "double"
+                    },
+                    {
+                        "name": "discharge_cfs_from_continuous_record",
+                        "type": "double"
+                    },
+                    {
+                        "name": "discharge_cfs",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "https://czo.stroudcenter.org/data/wp-content/uploads/sites/5/2014/10/CRB_WCC_STAGEFLOW_1996.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "header_rows": 2
+            },
+            "name": "crb_wcc_stageflow_1997",
+            "path": "CRB_WCC_STAGEFLOW_1997.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "date_time_est",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "gage_height_ft_from_continuous_record",
+                        "type": "double"
+                    },
+                    {
+                        "name": "gage_height_ft",
+                        "type": "double"
+                    },
+                    {
+                        "name": "discharge_cfs_from_continuous_record",
+                        "type": "double"
+                    },
+                    {
+                        "name": "discharge_cfs",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "https://czo.stroudcenter.org/data/wp-content/uploads/sites/5/2014/10/CRB_WCC_STAGEFLOW_1997.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "header_rows": 2
+            },
+            "name": "crb_wcc_stageflow_1998",
+            "path": "CRB_WCC_STAGEFLOW_1998.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "date_time_est",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "gage_height_ft_from_continuous_record",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "gage_height_ft",
+                        "type": "double"
+                    },
+                    {
+                        "name": "discharge_cfs_from_continuous_record",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "discharge_cfs",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "https://czo.stroudcenter.org/data/wp-content/uploads/sites/5/2014/10/CRB_WCC_STAGEFLOW_1998.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "header_rows": 2
+            },
+            "name": "crb_wcc_stageflow_1999",
+            "path": "CRB_WCC_STAGEFLOW_1999.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "date_time_est",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "gage_height_ft_from_continuous_record",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "gage_height_ft",
+                        "type": "double"
+                    },
+                    {
+                        "name": "discharge_cfs_from_continuous_record",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "discharge_cfs",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "https://czo.stroudcenter.org/data/wp-content/uploads/sites/5/2014/10/CRB_WCC_STAGEFLOW_1999.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "header_rows": 2
+            },
+            "name": "crb_wcc_stageflow_2000",
+            "path": "CRB_WCC_STAGEFLOW_2000.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "date_time_est",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "gage_height_ft_from_continuous_record",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "gage_height_ft",
+                        "type": "int"
+                    },
+                    {
+                        "name": "discharge_cfs_from_continuous_record",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "discharge_cfs",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://czo.stroudcenter.org/data/wp-content/uploads/sites/5/2014/10/CRB_WCC_STAGEFLOW_2000.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "header_rows": 2
+            },
+            "name": "crb_wcc_stageflow_2001",
+            "path": "CRB_WCC_STAGEFLOW_2001.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "date_time_est",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "gage_height_ft_from_continuous_record",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "gage_height_ft",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "discharge_cfs_from_continuous_record",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "discharge_cfs",
+                        "size": "8",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://czo.stroudcenter.org/data/wp-content/uploads/sites/5/2014/10/CRB_WCC_STAGEFLOW_2001.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "header_rows": 2
+            },
+            "name": "crb_wcc_stageflow_2002",
+            "path": "CRB_WCC_STAGEFLOW_2002.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "date_time_est",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "gage_height_ft_from_continuous_record",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "gage_height_ft",
+                        "type": "int"
+                    },
+                    {
+                        "name": "discharge_cfs_from_continuous_record",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "discharge_cfs",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://czo.stroudcenter.org/data/wp-content/uploads/sites/5/2014/10/CRB_WCC_STAGEFLOW_2002.csv"
+        },
+
+        {
+            "dialect": {
+                "delimiter": ",",
+                "header_rows": 2
+            },
+            "name": "crb_wcc_stageflow_2003",
+            "path": "CRB_WCC_STAGEFLOW_2003.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "date_time_est",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "gage_height_ft_from_continuous_record",
+                        "type": "double"
+                    },
+                    {
+                        "name": "gage_height_ft",
+                        "type": "int"
+                    },
+                    {
+                        "name": "discharge_cfs_from_continuous_record",
+                        "type": "double"
+                    },
+                    {
+                        "name": "discharge_cfs",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://czo.stroudcenter.org/data/wp-content/uploads/sites/5/2014/10/CRB_WCC_STAGEFLOW_2003.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "header_rows": 2
+            },
+            "name": "crb_wcc_stageflow_2004",
+            "path": "CRB_WCC_STAGEFLOW_2004.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "date_time_est",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "gage_height_ft_from_continuous_record",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "gage_height_ft",
+                        "type": "int"
+                    },
+                    {
+                        "name": "discharge_cfs_from_continuous_record",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "discharge_cfs",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://czo.stroudcenter.org/data/wp-content/uploads/sites/5/2014/10/CRB_WCC_STAGEFLOW_2004.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "header_rows": 2
+            },
+            "name": "crb_wcc_stageflow_2005",
+            "path": "CRB_WCC_STAGEFLOW_2005.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "date_time_est",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "gage_height_ft_from_continuous_record",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "gage_height_ft",
+                        "type": "int"
+                    },
+                    {
+                        "name": "discharge_cfs_from_continuous_record",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "discharge_cfs",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://czo.stroudcenter.org/data/wp-content/uploads/sites/5/2014/10/CRB_WCC_STAGEFLOW_2005.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "header_rows": 2
+            },
+            "name": "crb_wcc_stageflow_2006",
+            "path": "CRB_WCC_STAGEFLOW_2006.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "date_time_est",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "gage_height_ft_from_continuous_record",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "gage_height_ft",
+                        "type": "int"
+                    },
+                    {
+                        "name": "discharge_cfs_from_continuous_record",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "discharge_cfs",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://czo.stroudcenter.org/data/wp-content/uploads/sites/5/2014/10/CRB_WCC_STAGEFLOW_2006.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "header_rows": 2
+            },
+            "name": "crb_wcc_stageflow_2007",
+            "path": "CRB_WCC_STAGEFLOW_2007.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "date_time_est",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "gage_height_ft_from_continuous_record",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "gage_height_ft",
+                        "type": "int"
+                    },
+                    {
+                        "name": "discharge_cfs_from_continuous_record",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "discharge_cfs",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://czo.stroudcenter.org/data/wp-content/uploads/sites/5/2014/10/CRB_WCC_STAGEFLOW_2007.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "header_rows": 2
+            },
+            "name": "crb_wcc_stageflow_2008",
+            "path": "CRB_WCC_STAGEFLOW_2008.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "date_time_est",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "gage_height_ft_from_continuous_record",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "gage_height_ft",
+                        "type": "int"
+                    },
+                    {
+                        "name": "discharge_cfs_from_continuous_record",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "discharge_cfs",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://czo.stroudcenter.org/data/wp-content/uploads/sites/5/2014/10/CRB_WCC_STAGEFLOW_2008.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "header_rows": 2
+            },
+            "name": "crb_wcc_stageflow_2009",
+            "path": "CRB_WCC_STAGEFLOW_2009.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "date_time_est",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "gage_height_ft_from_continuous_record",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "gage_height_ft",
+                        "type": "int"
+                    },
+                    {
+                        "name": "discharge_cfs_from_continuous_record",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "discharge_cfs",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://czo.stroudcenter.org/data/wp-content/uploads/sites/5/2014/10/CRB_WCC_STAGEFLOW_2009.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "header_rows": 2
+            },
+            "name": "crb_wcc_stageflow_2010",
+            "path": "CRB_WCC_STAGEFLOW_2010.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "date_time_est",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "gage_height_ft_from_continuous_record",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "gage_height_ft",
+                        "type": "int"
+                    },
+                    {
+                        "name": "discharge_cfs_from_continuous_record",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "discharge_cfs",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://czo.stroudcenter.org/data/wp-content/uploads/sites/5/2014/10/CRB_WCC_STAGEFLOW_2010.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "header_rows": 2
+            },
+            "name": "crb_wcc_stageflow_2011",
+            "path": "CRB_WCC_STAGEFLOW_2011.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "date_time_est",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "gage_height_ft_from_continuous_record",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "gage_height_ft",
+                        "type": "int"
+                    },
+                    {
+                        "name": "discharge_cfs_from_continuous_record",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "discharge_cfs",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://czo.stroudcenter.org/data/wp-content/uploads/sites/5/2014/10/CRB_WCC_STAGEFLOW_2011.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "header_rows": 2
+            },
+            "name": "crb_wcc_stageflow_2012",
+            "path": "CRB_WCC_STAGEFLOW_2012.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "date_time_est",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "gage_height_ft_from_continuous_record",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "gage_height_ft",
+                        "type": "int"
+                    },
+                    {
+                        "name": "discharge_cfs_from_continuous_record",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "discharge_cfs",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://czo.stroudcenter.org/data/wp-content/uploads/sites/5/2014/10/CRB_WCC_STAGEFLOW_2012.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "header_rows": 34
+            },
+            "name": "crb_wcc_stageflow_2013",
+            "path": "CRB_WCC_STAGEFLOW_2013.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "date_time_est",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "gage_height_m_from_continuous_record_measured_in_reference_to_sea_level",
+                        "type": "double"
+                    },
+                    {
+                        "name": "discharge_cfs_from_continuous_record",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "https://czo.stroudcenter.org/data/wp-content/uploads/sites/5/2015/04/CRB_WCC_STAGEFLOW_2013.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "header_rows": 34
+            },
+            "name": "crb_wcc_stageflow_2014",
+            "path": "CRB_WCC_STAGEFLOW_2014.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "date_time_est",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "gage_height_m_from_continuous_record_measured_in_reference_to_sea_level",
+                        "type": "double"
+                    },
+                    {
+                        "name": "discharge_cfs_from_continuous_record",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "https://czo.stroudcenter.org/data/wp-content/uploads/sites/5/2015/04/CRB_WCC_STAGEFLOW_2014.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "header_rows": 31
+            },
+            "name": "wcc926_stage_2009",
+            "path": "WCC926_STAGE_2009.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sitecode",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "datetime",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "gage_height",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "https://czo.stroudcenter.org/data/wp-content/uploads/sites/5/2014/10/WCC926_STAGE_2009.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "header_rows": 31
+            },
+            "name": "wcc926_stage_2010",
+            "path": "WCC926_STAGE_2010.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sitecode",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "datetime",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "gage_height",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "https://czo.stroudcenter.org/data/wp-content/uploads/sites/5/2014/10/WCC926_STAGE_2010.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "header_rows": 31
+            },
+            "name": "wcc926_stage_2011",
+            "path": "WCC926_STAGE_2011.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sitecode",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "datetime",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "gage_height",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "https://czo.stroudcenter.org/data/wp-content/uploads/sites/5/2014/10/WCC926_STAGE_2011.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "header_rows": 31
+            },
+            "name": "wcc926_stage_2012",
+            "path": "WCC926_STAGE_2012.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sitecode",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "datetime",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "gage_height",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "https://czo.stroudcenter.org/data/wp-content/uploads/sites/5/2014/10/WCC926_STAGE_2012.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "header_rows": 31
+            },
+            "name": "wcc926_stage_2013",
+            "path": "WCC926_STAGE_2013.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sitecode",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "datetime",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "gage_height",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "https://czo.stroudcenter.org/data/wp-content/uploads/sites/5/2015/05/WCC926_STAGE_2013.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "header_rows": 31
+            },
+            "name": "wcc926_stage_2014",
+            "path": "WCC926_STAGE_2014.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sitecode",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "datetime",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "gage_height",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "https://czo.stroudcenter.org/data/wp-content/uploads/sites/5/2015/05/WCC926_STAGE_2014.csv"
+        }
+
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "White Clay Creek Stage, Streamflow or Discharge (1968-2014)",
+    "version": "1.0.0"
+}
+
