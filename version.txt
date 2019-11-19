@@ -116,6 +116,7 @@ mapped_plant_quads_mt.json,1.2.1
 marine_recruitment_data.json,1.0.1
 mediter_basin_plant_traits.json,1.0.1
 mt_st_helens_veg.json,1.2.3
+nadp_precipitation_chemistry.json,1.0.0
 nd_gain.json,1.0.3
 nematode_traits.json,1.0.1
 ngreatplains_flowering_dates.json,1.0.2
