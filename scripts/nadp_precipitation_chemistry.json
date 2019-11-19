@@ -8,7 +8,8 @@
     "resources": [
         {
             "dialect": {
-                "delimiter": ","
+                "delimiter": ",",
+                "missingValues": ["-9", "-9.00"]
             },
             "name": "ntnsites",
             "path": "NTNsites.csv",
@@ -72,7 +73,9 @@
         },
         {
             "dialect": {
-                "delimiter": ","
+                "delimiter": ",",
+                "missingValues": ["-9", "-9.00"]
+
             },
             "name": "ntn_all_annual_Precipitation_wmean",
             "path": "NTN-All-cy.csv",
@@ -180,7 +183,9 @@
         },
         {
             "dialect": {
-                "delimiter": ","
+                "delimiter": ",",
+                "missingValues": ["-9", "-9.00"]
+
             },
             "name": "annual_depositions",
             "path": "NTN-All-cydep.csv",
@@ -288,7 +293,9 @@
         },
         {
             "dialect": {
-                "delimiter": ","
+                "delimiter": ",",
+                "missingValues": ["-9", "-9.00"]
+
             },
             "name": "ntn_all_monthly",
             "path": "NTN-All-m.csv",
@@ -395,7 +402,9 @@
         },
         {
             "dialect": {
-                "delimiter": ","
+                "delimiter": ",",
+                "missingValues": ["-9", "-9.00"]
+
             },
             "name": "ntn_all_Seasonal",
             "path": "NTN-All-s.csv",
@@ -503,7 +512,9 @@
         },
         {
             "dialect": {
-                "delimiter": ","
+                "delimiter": ",",
+                "missingValues": ["-9", "-9.00"]
+
             },
             "name": "ntn_all_seasonal_depositions",
             "path": "NTN-All-sdep.csv",
@@ -611,7 +622,9 @@
         },
         {
             "dialect": {
-                "delimiter": ","
+                "delimiter": ",",
+                "missingValues": ["-9", "-9.00"]
+
             },
             "name": "ntn_all_weekly",
             "path": "NTN-All-w.csv",
@@ -763,7 +776,9 @@
         },
         {
             "dialect": {
-                "delimiter": ","
+                "delimiter": ",",
+                "missingValues": ["-9", "-9.00"]
+
             },
             "name": "annual_water_year",
             "path": "NTN-All-wy.csv",
@@ -871,7 +886,9 @@
         },
         {
             "dialect": {
-                "delimiter": ","
+                "delimiter": ",",
+                "missingValues": ["-9", "-9.00"]
+
             },
             "name": "mdn_all_annual_contaminated",
             "path": "MDN-all-a-i.csv",
@@ -930,7 +947,9 @@
         },
         {
             "dialect": {
-                "delimiter": ","
+                "delimiter": ",",
+                "missingValues": ["-9", "-9.00"]
+
             },
             "name": "mdn_all_a",
             "path": "MDN-all-a.csv",
@@ -989,7 +1008,9 @@
         },
         {
             "dialect": {
-                "delimiter": ","
+                "delimiter": ",",
+                "missingValues": ["-9", "-9.00"]
+
             },
             "name": "mdn_all_weekly_contaminated",
             "path": "MDN-All-w-i.csv",
@@ -1060,7 +1081,9 @@
         },
         {
             "dialect": {
-                "delimiter": ","
+                "delimiter": ",",
+                "missingValues": ["-9", "-9.00"]
+
             },
             "name": "mdn_all_weekly",
             "path": "MDN-All-w.csv",
@@ -1131,7 +1154,9 @@
         },
         {
             "dialect": {
-                "delimiter": ","
+                "delimiter": ",",
+                "missingValues": ["-9", "-9.00"]
+
             },
             "name": "mdnsites",
             "path": "MDNsites.csv",
@@ -1195,7 +1220,9 @@
         },
         {
             "dialect": {
-                "delimiter": ","
+                "delimiter": ",",
+                "missingValues": ["-9", "-9.00"]
+
             },
             "name": "airmon_all",
             "path": "AIRMoN-ALL.csv",
@@ -1315,7 +1342,9 @@
         },
         {
             "dialect": {
-                "delimiter": ","
+                "delimiter": ",",
+                "missingValues": ["-9", "-9.00"]
+
             },
             "name": "airmonsites",
             "path": "AIRMONsites.csv",
@@ -1379,7 +1408,9 @@
         },
         {
             "dialect": {
-                "delimiter": ","
+                "delimiter": ",",
+                "missingValues": ["-9", "-9.00"]
+
             },
             "archived": "zip",
             "name": "amnet_all",
@@ -1442,7 +1473,9 @@
         },
         {
             "dialect": {
-                "delimiter": ","
+                "delimiter": ",",
+                "missingValues": ["-9", "-9.00"]
+
             },
             "name": "amnetsites",
             "path": "AMNETsites.csv",
@@ -1506,7 +1539,9 @@
         },
         {
             "dialect": {
-                "delimiter": ","
+                "delimiter": ",",
+                "missingValues": ["-9", "-9.00"]
+
             },
             "name": "amonsites",
             "path": "AMONsites.csv",
@@ -1570,9 +1605,11 @@
         },
         {
             "dialect": {
-                "delimiter": ","
+                "delimiter": ",",
+                "missingValues": ["-9", "-9.00"]
+
             },
-            "name": "AMoN_data_all_rep",
+            "name": "amon_data_all_rep",
             "path": "all-rep.csv",
             "schema": {
                 "fields": [
