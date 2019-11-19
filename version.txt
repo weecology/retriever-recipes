@@ -98,6 +98,7 @@ forest_fires_portugal.json,1.1.4
 forest_inventory_analysis.py,1.4.4
 forest_plots_michigan.json,1.2.2
 forest_plots_wghats.py,1.3.2
+foster_ltreb.json,1.0.0
 fray_jorge_ecology.json,1.4.2
 gdp.json,1.0.2
 gentry_forest_transects.py,1.4.4
@@ -152,6 +153,7 @@ socean_diet_data.py,1.0.4
 sonoran_desert.json,1.0.0
 species_exctinction_rates.json,1.0.1
 streamflow_conditions.json,1.0.1
+sycamore_creek_macroinvertebrate.json,1.0.0
 transparencia_dados_abertos_brasil.json,1.0.0
 tree_canopy_geometries.json,1.0.1
 tree_demog_wghats.py,1.3.2
