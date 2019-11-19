@@ -9,6 +9,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 2
             },
             "name": "crb_wcc_stageflow_1968",
@@ -43,6 +44,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 2
             },
             "name": "crb_wcc_stageflow_1969",
@@ -78,6 +80,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 2
             },
             "name": "crb_wcc_stageflow_1970",
@@ -114,6 +117,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 2
             },
             "name": "crb_wcc_stageflow_1971",
@@ -148,6 +152,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 2
             },
             "name": "crb_wcc_stageflow_1972",
@@ -182,6 +187,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 2
             },
             "name": "crb_wcc_stageflow_1973",
@@ -220,6 +226,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 2
             },
             "name": "crb_wcc_stageflow_1974",
@@ -254,6 +261,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 2
             },
             "name": "crb_wcc_stageflow_1975",
@@ -288,6 +296,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 2
             },
             "name": "crb_wcc_stageflow_1976",
@@ -322,6 +331,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 2
             },
             "name": "crb_wcc_stageflow_1977",
@@ -356,6 +366,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 2
             },
             "name": "crb_wcc_stageflow_1978",
@@ -390,6 +401,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 2
             },
             "name": "crb_wcc_stageflow_1979",
@@ -424,6 +436,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 2
             },
             "name": "crb_wcc_stageflow_1980",
@@ -458,6 +471,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 2
             },
             "name": "crb_wcc_stageflow_1981",
@@ -496,6 +510,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 2
             },
             "name": "crb_wcc_stageflow_1982",
@@ -530,6 +545,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 2
             },
             "name": "crb_wcc_stageflow_1983",
@@ -564,6 +580,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 2
             },
             "name": "crb_wcc_stageflow_1984",
@@ -598,6 +615,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 2
             },
             "name": "crb_wcc_stageflow_1985",
@@ -632,6 +650,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 2
             },
             "name": "crb_wcc_stageflow_1986",
@@ -666,6 +685,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 2
             },
             "name": "crb_wcc_stageflow_1987",
@@ -700,6 +720,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 2
             },
             "name": "crb_wcc_stageflow_1988",
@@ -734,6 +755,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 2
             },
             "name": "crb_wcc_stageflow_1989",
@@ -768,6 +790,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 2
             },
             "name": "crb_wcc_stageflow_1990",
@@ -802,6 +825,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 2
             },
             "name": "crb_wcc_stageflow_1991",
@@ -836,6 +860,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 2
             },
             "name": "crb_wcc_stageflow_1992",
@@ -870,6 +895,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 2
             },
             "name": "crb_wcc_stageflow_1993",
@@ -904,6 +930,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 2
             },
             "name": "crb_wcc_stageflow_1994",
@@ -938,6 +965,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 2
             },
             "name": "crb_wcc_stageflow_1995",
@@ -972,6 +1000,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 2
             },
             "name": "crb_wcc_stageflow_1996",
@@ -1006,6 +1035,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 2
             },
             "name": "crb_wcc_stageflow_1997",
@@ -1040,6 +1070,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 2
             },
             "name": "crb_wcc_stageflow_1998",
@@ -1076,6 +1107,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 2
             },
             "name": "crb_wcc_stageflow_1999",
@@ -1112,6 +1144,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 2
             },
             "name": "crb_wcc_stageflow_2000",
@@ -1148,6 +1181,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 2
             },
             "name": "crb_wcc_stageflow_2001",
@@ -1186,6 +1220,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 2
             },
             "name": "crb_wcc_stageflow_2002",
@@ -1223,6 +1258,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 2
             },
             "name": "crb_wcc_stageflow_2003",
@@ -1257,6 +1293,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 2
             },
             "name": "crb_wcc_stageflow_2004",
@@ -1293,6 +1330,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 2
             },
             "name": "crb_wcc_stageflow_2005",
@@ -1329,6 +1367,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 2
             },
             "name": "crb_wcc_stageflow_2006",
@@ -1365,6 +1404,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 2
             },
             "name": "crb_wcc_stageflow_2007",
@@ -1401,6 +1441,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 2
             },
             "name": "crb_wcc_stageflow_2008",
@@ -1437,6 +1478,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 2
             },
             "name": "crb_wcc_stageflow_2009",
@@ -1473,6 +1515,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 2
             },
             "name": "crb_wcc_stageflow_2010",
@@ -1509,6 +1552,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 2
             },
             "name": "crb_wcc_stageflow_2011",
@@ -1545,6 +1589,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 2
             },
             "name": "crb_wcc_stageflow_2012",
@@ -1581,6 +1626,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 34
             },
             "name": "crb_wcc_stageflow_2013",
@@ -1607,6 +1653,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 34
             },
             "name": "crb_wcc_stageflow_2014",
@@ -1633,6 +1680,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 31
             },
             "name": "wcc926_stage_2009",
@@ -1660,6 +1708,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 31
             },
             "name": "wcc926_stage_2010",
@@ -1687,6 +1736,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 31
             },
             "name": "wcc926_stage_2011",
@@ -1714,6 +1764,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 31
             },
             "name": "wcc926_stage_2012",
@@ -1741,6 +1792,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 31
             },
             "name": "wcc926_stage_2013",
@@ -1768,6 +1820,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 31
             },
             "name": "wcc926_stage_2014",

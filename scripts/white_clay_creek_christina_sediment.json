@@ -9,6 +9,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 25
             },
             "name": "crb_suspended_sediment_1993",
@@ -40,6 +41,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 25
             },
             "name": "crb_suspended_sediment_1994",
@@ -71,6 +73,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 27
             },
             "name": "crb_suspended_sediment_1995",
@@ -110,6 +113,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 47
             },
             "name": "crb_suspended_sediment_1996",
@@ -229,6 +233,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 37
             },
             "name": "crb_suspended_sediment_1997",
@@ -308,6 +313,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 41
             },
             "name": "crb_suspended_sediment_1998",
@@ -403,6 +409,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 119
             },
             "name": "crb_suspended_sediment_1999",
@@ -482,6 +489,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 35
             },
             "name": "crb_suspended_sediment_2000",
@@ -553,6 +561,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 27
             },
             "name": "crb_suspended_sediment_2001",
@@ -592,6 +601,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 27
             },
             "name": "crb_suspended_sediment_2002",
@@ -631,6 +641,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 27
             },
             "name": "crb_suspended_sediment_2003",
@@ -670,6 +681,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 27
             },
             "name": "crb_suspended_sediment_2004",
@@ -709,6 +721,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 32
             },
             "name": "crb_suspended_sediment_2005",
@@ -768,6 +781,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 48
             },
             "name": "crb_suspended_sediment_2006",
@@ -891,6 +905,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 58
             },
             "name": "crb_suspended_sediment_2007",
@@ -1054,6 +1069,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 56
             },
             "name": "crb_suspended_sediment_2008",
@@ -1209,6 +1225,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 119
             },
             "name": "crb_suspended_sediment_2009",
@@ -1616,6 +1633,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 92
             },
             "name": "crb_suspended_sediment_2010",
@@ -1915,6 +1933,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 105
             },
             "name": "crb_suspended_sediment_2011",

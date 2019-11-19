@@ -9,6 +9,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 83
             },
             "name": "czo_crb_wcc_2010_chem_grab",
@@ -260,6 +261,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 83
             },
             "name": "czo_crb_wcc_2012_chem_auto",
@@ -511,6 +513,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 75
             },
             "name": "czo_crb_wcc_chem_grab_2008",
@@ -730,6 +733,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 83
             },
             "name": "czo_crb_wcc_2011_chem_auto",
@@ -982,6 +986,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 83
             },
             "name": "czo_crb_wcc_2009_chem_grab",
@@ -1233,6 +1238,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 75
             },
             "name": "czo_crb_wcc_chem_auto_2008",
@@ -1452,6 +1458,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows":75
             },
             "name": "czo_crb_wcc_chem_auto_2006",
@@ -1672,6 +1679,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 75
             },
             "name": "czo_crb_wcc_chem_auto_2007",
@@ -1891,6 +1899,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 75
             },
             "name": "czo_crb_wcc_chem_auto_2005",
@@ -2110,6 +2119,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 75
             },
             "name": "czo_crb_wcc_chem_auto_2004",
@@ -2329,6 +2339,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 75
             },
             "name": "czo_crb_wcc_chem_auto_2001",
@@ -2548,6 +2559,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 83
             },
             "name": "czo_crb_wcc_2009_chem_auto",
@@ -2799,6 +2811,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 75
             },
             "name": "czo_crb_wcc_chem_auto_2003",
@@ -3018,6 +3031,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 75
             },
             "name": "czo_crb_wcc_chem_auto_2002",
@@ -3237,6 +3251,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 83
             },
             "name": "czo_crb_wcc_2010_chem_auto",
@@ -3488,6 +3503,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 75
             },
             "name": "czo_crb_wcc_chem_grab_2007",
@@ -3707,6 +3723,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 83
             },
             "name": "czo_crb_wcc_2012_chem_grab",
@@ -3959,6 +3976,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 75
             },
             "name": "czo_crb_wcc_chem_grab_2006",
@@ -4178,6 +4196,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 75
             },
             "name": "czo_crb_wcc_chem_grab_2004",
@@ -4397,6 +4416,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 75
             },
             "name": "czo_crb_wcc_chem_grab_2005",
@@ -4616,6 +4636,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 75
             },
             "name": "czo_crb_wcc_chem_grab_2001",
@@ -4839,6 +4860,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 75
             },
             "name": "czo_crb_wcc_chem_grab_2002",
@@ -5062,6 +5084,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 83
             },
             "name": "czo_crb_wcc_2011_chem_grab",
@@ -5313,6 +5336,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 75
             },
             "name": "czo_crb_wcc_chem_grab_2003",

@@ -9,6 +9,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 2
             },
             "name": "crb_well_waterlevel_1988_2008",
@@ -40,6 +41,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 2
             },
             "name": "crb_well_waterlevel_2009",
@@ -71,6 +73,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 2
             },
             "name": "crb_well_waterlevel_2010",
@@ -102,6 +105,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 2
             },
             "name": "crb_well_waterlevel_2011",
@@ -133,6 +137,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 2
             },
             "name": "crb_well_waterlevel_2012",

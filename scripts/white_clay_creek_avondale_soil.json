@@ -9,6 +9,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 38
             },
             "name": "swrccrn_2014_hourly_soil",
@@ -67,6 +68,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 6
             },
             "name": "swrccrn_2013_hourly_soil_data",
@@ -125,6 +127,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 38
             },
             "name": "swrccrn_2015_hourly_soil",
@@ -183,6 +186,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 6
             },
             "name": "swrccrn_2012_hourly_soil_data",

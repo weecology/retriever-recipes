@@ -9,7 +9,8 @@
     "resources": [
         {
             "dialect": {
-                "delimiter": ","
+                "delimiter": ",",
+                "missingValues": ["-9999"]
             },
             "name": "crb_methods",
             "path": "CRB_METHODS.csv",
@@ -31,7 +32,8 @@
         },
         {
             "dialect": {
-                "delimiter": ","
+                "delimiter": ",",
+                "missingValues": ["-9999"]
             },
             "name": "crb_sites",
             "path": "CRB_SITES.csv",
@@ -93,6 +95,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 29
             },
             "name": "czo_crb_wcc_karwan_stableisotope",
@@ -132,6 +135,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 27
             },
             "name": "czo_crb_boulton_precip_stableisotope",

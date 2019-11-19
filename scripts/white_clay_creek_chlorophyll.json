@@ -9,6 +9,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 32
             },
             "name": "wcc_chla_2001",
@@ -64,6 +65,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 32
             },
             "name": "wcc_chla_2002",
@@ -119,6 +121,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 32
             },
             "name": "wcc_chla_2003",
@@ -174,6 +177,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 32
             },
             "name": "wcc_chla_2004",
@@ -229,6 +233,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 32
             },
             "name": "wcc_chla_2005",
@@ -284,6 +289,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 32
             },
             "name": "wcc_chla_2006",
@@ -339,6 +345,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 32
             },
             "name": "wcc_chla_2007",
@@ -394,6 +401,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 32
             },
             "name": "wcc_chla_2008",
@@ -449,6 +457,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 32
             },
             "name": "wcc_chla_2009",
@@ -504,6 +513,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 32
             },
             "name": "wcc_chla_2010",
@@ -559,6 +569,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 32
             },
             "name": "wcc_chla_2011",
@@ -614,6 +625,7 @@
         {
             "dialect": {
                 "delimiter": ",",
+                "missingValues": ["-9999"],
                 "header_rows": 32
             },
             "name": "wcc_chla_2012",
