@@ -25,6 +25,15 @@ dicerandra_frutescens.json,1.0.2
 ecoregions_us.json,1.0.1
 elton_traits.json,1.2.1
 fao_global_capture_product.py,1.0.0
+fernow_air_temperature.json,1.0.0
+fernow_biomass.json,1.0.0
+fernow_forest_streamflow.json,1.0.0
+fernow_nadp_rain_chemistry.json,1.0.0
+fernow_precipitation.json,1.0.0
+fernow_precipitation_chemistry.json,1.0.0
+fernow_soil_productivity.json,1.0.0
+fernow_stream_chemistry.json,1.0.0
+fernow_watershed_acidification.json,1.0.0
 fia_alabama.json,1.0.0
 fia_alaska.json,1.0.0
 fia_american_samoa.json,1.0.0
