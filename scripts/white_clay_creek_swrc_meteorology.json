@@ -1,0 +1,47 @@
+{
+    "citation": "Tsang, Y.-P., Hourly Precipitation at Stroud Water Research Center 1996-2010",
+    "description": "Meteorological data collected at Stroud Water Research Center",
+    "homepage": "https://czo.stroudcenter.org/data/stroud-water-research-center-precipitation-meteorology-1996-2010/",
+    "keywords": ["Precipitation", "white clay creek", "stroud water research center"],
+    "licenses": [{"name": ""}],
+    "name": "white-clay-creek-swrc-meteorology",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": "\t",
+                "header_rows": 20
+            },
+            "name": "swrc_1996_2010_hourly_precip",
+            "path": "SWRC_1996_2010_HOURLY_PRECIP.dat",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "month",
+                        "type": "int"
+                    },
+                    {
+                        "name": "record_date",
+                        "type": "int"
+                    },
+                    {
+                        "name": "hour",
+                        "type": "int"
+                    },
+                    {
+                        "name": "precipitation_mm",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "https://czo.stroudcenter.org/data/wp-content/uploads/sites/5/2014/10/SWRC_1996_2010_HOURLY_PRECIP.dat"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "Stroud Water Research Center - Precipitation, Meteorology (1996-2010)",
+    "version": "1.0.0"
+}
