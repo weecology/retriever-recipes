@@ -1,0 +1,237 @@
+{
+    "citation": "Sweeney, B.; Funk, D.; Newbold, J. D.; Kaplan, L. A.; Damiano, S. G.; Kline, F.; West, H.(2013). Christina River Basin - Stream Water Temperatures (2007-2012). Stroud Water Research Center.",
+    "description": "Stream Temperature data collected by Stroud Water Research Center",
+    "homepage": "https://czo.stroudcenter.org/data/christina-river-basin-stream-water-temperatures-2007-2012/",
+    "keywords": ["strem temperature", "Stroud Water Research Center", "Christina River", "White Clay Creek"],
+    "licenses": [{"name": ""}],
+    "encoding": "latin-1",
+    "name": "white-clay-creek-christina-temperatures",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ",",
+                "header_rows": 28
+            },
+            "name": "crbczo_stream_temps_2014",
+            "path": "CRBCZO_STREAM_TEMPS_2014.txt",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "site",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "date_time_est",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "temperature_c",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "https://204qha3m3nad2e3tnv1oi7m9-wpengine.netdna-ssl.com/data/wp-content/uploads/sites/5/2015/08/CRBCZO_STREAM_TEMPS_2014.txt"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "header_rows": 2
+            },
+            "name": "crbczo_stream_temps_2010",
+            "path": "CRBCZO_STREAM_TEMPS_2010.txt",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "site",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "date_time_est",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "temperature_c",
+                        "size": "9",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://204qha3m3nad2e3tnv1oi7m9-wpengine.netdna-ssl.com/data/wp-content/uploads/sites/5/2014/10/CRBCZO_STREAM_TEMPS_2010.txt"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "header_rows": 2
+            },
+            "name": "crbczo_stream_temps_2011",
+            "path": "CRBCZO_STREAM_TEMPS_2011.txt",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "site",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "date_time_est",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "temperature_c",
+                        "size": "9",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://204qha3m3nad2e3tnv1oi7m9-wpengine.netdna-ssl.com/data/wp-content/uploads/sites/5/2014/10/CRBCZO_STREAM_TEMPS_2011.txt"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "header_rows": 2
+            },
+            "name": "crbczo_stream_temps_2012",
+            "path": "CRBCZO_STREAM_TEMPS_2012.txt",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "site",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "date_time_est",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "temperature_c",
+                        "size": "9",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://204qha3m3nad2e3tnv1oi7m9-wpengine.netdna-ssl.com/data/wp-content/uploads/sites/5/2014/10/CRBCZO_STREAM_TEMPS_2012.txt"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "header_rows": 28
+            },
+            "name": "crbczo_stream_temps_2013",
+            "path": "CRBCZO_STREAM_TEMPS_2013.txt",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "site",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "date_time_est",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "temperature_c",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "https://204qha3m3nad2e3tnv1oi7m9-wpengine.netdna-ssl.com/data/wp-content/uploads/sites/5/2015/08/CRBCZO_STREAM_TEMPS_2013.txt"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "header_rows": 2
+            },
+            "name": "crbczo_stream_temps_2007",
+            "path": "CRBCZO_STREAM_TEMPS_2007.txt",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "site",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "date_time_est",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "temperature_c",
+                        "size": "9",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://204qha3m3nad2e3tnv1oi7m9-wpengine.netdna-ssl.com/data/wp-content/uploads/sites/5/2014/10/CRBCZO_STREAM_TEMPS_2007.txt"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "header_rows": 2
+            },
+            "name": "crbczo_stream_temps_2008",
+            "path": "CRBCZO_STREAM_TEMPS_2008.txt",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "site",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "date_time_est",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "temperature_c",
+                        "size": "9",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://204qha3m3nad2e3tnv1oi7m9-wpengine.netdna-ssl.com/data/wp-content/uploads/sites/5/2014/10/CRBCZO_STREAM_TEMPS_2008.txt"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "header_rows": 2
+            },
+            "name": "crbczo_stream_temps_2009",
+            "path": "CRBCZO_STREAM_TEMPS_2009.txt",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "site",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "date_time_est",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "temperature_c",
+                        "size": "9",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://204qha3m3nad2e3tnv1oi7m9-wpengine.netdna-ssl.com/data/wp-content/uploads/sites/5/2014/10/CRBCZO_STREAM_TEMPS_2009.txt"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "Christina River Basin – Stream Water Temperatures (2007-2014)",
+    "version": "1.0.0"
+}

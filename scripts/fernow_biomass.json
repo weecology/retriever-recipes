@@ -1,0 +1,40 @@
+{
+    "citation": "Tajchman, S.J., H. Fu, J.N. Kochenderfer, and C. Pan. 1995. Spatial characteristics of topography, energy exchange, and forest cover in a central Appalachian watershed. Proceedings, 10th Central Hardwood Forest Conference. USDA Forest Service Northeast Forest Experimental Station General Technical Report NE-197.",
+    "description": "Fernow experimental Forest in central Appalachia. LTREB WS 4 Biomass, See Data policy",
+    "homepage": "http://www.as.wvu.edu/fernow/data.html",
+    "keywords": ["Watersheds", "biomass", "LTREB", "Forest Ecosystems"],
+    "licenses": [{"name": ""}],
+    "name": "fernow-biomass",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ",",
+                "header_rows": 2
+            },
+            "name": "ws_biomass_data",
+            "xls_sheets": [3,"WS4_AGBiomass_1990_1993.xls"],
+            "path": "WS4_AGBiomass_data.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "easting_m",
+                        "type": "double"
+                    },
+                    {
+                        "name": "northing_m",
+                        "type": "double"
+                    },
+                    {
+                        "name": "air_dry_aboveground_biomass_mt_ha",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "http://www.as.wvu.edu/fernow/Assests/Data%20Sets/WS4_AGBiomass_1990_1993.xls"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "Fernow experimental Forest in central Appalachia. LTREB WS 4 Biomass",
+    "version": "1.0.0"
+}

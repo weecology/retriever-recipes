@@ -1,0 +1,2290 @@
+{
+    "citation": "Aufdenkampe, A.K.; Newbold, J.D.; Anderson, B. A.; Richardson, D.; Damiano, S.G. (2013). Christina River Basin - Stream Suspended Sediment (1993-2012). Stroud Water Research Center.",
+    "description": "The data contains the total suspended solids (TSS) and Volatile Suspended Solids (VSS) from White Clay Creek near the Stroud Water Research Center, Avondale, PA, USA",
+    "homepage": "https://czo.stroudcenter.org/data/christina-river-basin-stream-suspended-sediment-1993-2012/",
+    "keywords": ["Stroud Water", "Research Center", "Christina River", "White Clay Creek"],
+    "licenses": [{"name": ""}],
+    "name": "wwhite-clay-creek-christina-sediment",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ",",
+                "missingValues": ["-9999"],
+                "header_rows": 25
+            },
+            "name": "crb_suspended_sediment_1993",
+            "path": "CRB_SUSPENDED_SEDIMENT_1993.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sitecode",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "datetime",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "col3_sts_sestss_whole07_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col4_svs_sestss_whole07_grab",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "https://czo.stroudcenter.org/data/wp-content/uploads/sites/5/2014/10/CRB_SUSPENDED_SEDIMENT_1993.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "missingValues": ["-9999"],
+                "header_rows": 25
+            },
+            "name": "crb_suspended_sediment_1994",
+            "path": "CRB_SUSPENDED_SEDIMENT_1994.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sitecode",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "datetime",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "col3_sts_sestss_whole07_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col4_svs_sestss_whole07_grab",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "https://czo.stroudcenter.org/data/wp-content/uploads/sites/5/2014/10/CRB_SUSPENDED_SEDIMENT_1994.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "missingValues": ["-9999"],
+                "header_rows": 27
+            },
+            "name": "crb_suspended_sediment_1995",
+            "path": "CRB_SUSPENDED_SEDIMENT_1995.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sitecode",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "datetime",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "col3_sts_sestss_whole07_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col4_svs_stss_whole07_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col5_sts_sestss_whole07_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col6_svs_stss_whole07_grab",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "https://czo.stroudcenter.org/data/wp-content/uploads/sites/5/2014/10/CRB_SUSPENDED_SEDIMENT_1995.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "missingValues": ["-9999"],
+                "header_rows": 47
+            },
+            "name": "crb_suspended_sediment_1996",
+            "path": "CRB_SUSPENDED_SEDIMENT_1996.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sitecode",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "datetime",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "col3_stp_sestss_07_10_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col4_stp_sestss_10_20_auto",
+                        "type": "int"
+                    },
+                    {
+                        "name": "col5_stp_sestss_106_1000_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col6_stp_sestss_20_53_auto",
+                        "type": "int"
+                    },
+                    {
+                        "name": "col7_stp_sestss_53_106_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col8_stp_sestss_whole07_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col9_svs_sestss_07_10_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col10_svs_sestss_10_20_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col11_svs_sestss_106_1000_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col12_svs_sestss_20_53_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col13_svs_sestss_53_106_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col14_svs_sestss_whole07_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col15_stp_sestss_07_10_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col16_stp_sestss_10_20_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col17_stp_sestss_106_1000_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col18_stp_sestss_20_53_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col19_stp_sestss_53_106_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col20_stp_sestss_whole07_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col21_svs_sestss_07_10_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col22_svs_sestss_10_20_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col23_svs_sestss_106_1000_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col24_svs_sestss_20_53_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col25_svs_sestss_53_106_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col26_svs_sestss_whole07_grab",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "https://czo.stroudcenter.org/data/wp-content/uploads/sites/5/2014/10/CRB_SUSPENDED_SEDIMENT_1996.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "missingValues": ["-9999"],
+                "header_rows": 37
+            },
+            "name": "crb_suspended_sediment_1997",
+            "path": "CRB_SUSPENDED_SEDIMENT_1997.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sitecode",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "datetime",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "col3_sts_sestss_whole07_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col4_svssestss_whole07_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col5_sts_sestss_07_10_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col6_sts_sestss_10_20_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col7_sts_sestss_106_1000_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col8_sts_sestss_20_53_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col9_sts_sestss_53_106_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col10_sts_sestss_whole07_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col11_svssestss_07_10_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col12_svssestss_10_20_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col13_svssestss_106_1000_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col14_svssestss_20_53_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col15_svssestss_53_106_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col16_svssestss_whole07_grab",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "https://czo.stroudcenter.org/data/wp-content/uploads/sites/5/2014/10/CRB_SUSPENDED_SEDIMENT_1997.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "missingValues": ["-9999"],
+                "header_rows": 41
+            },
+            "name": "crb_suspended_sediment_1998",
+            "path": "CRB_SUSPENDED_SEDIMENT_1998.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sitecode",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "datetime",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "col3_sts_sestss_07_10_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col4_sts_sestss_ge10_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col5_sts_sestss_whole07_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col6_svs_sestss_07_10_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col7_svs_sestss_ge10_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col8_svs_sestss_whole07_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col9_sts_sestss_07_10_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col10_sts_sestss_10_20_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col11_sts_sestss_106_1000_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col12_sts_sestss_20_53_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col13_sts_sestss_53_106_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col14_sts_sestss_whole07_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col15_svs_sestss_07_10_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col16_svs_sestss_10_20_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col17_svs_sestss_106_1000_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col18_svs_sestss_20_53_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col19_svs_sestss_53_106_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col20_svs_sestss_whole07_grab",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "https://czo.stroudcenter.org/data/wp-content/uploads/sites/5/2014/10/CRB_SUSPENDED_SEDIMENT_1998.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "missingValues": ["-9999"],
+                "header_rows": 119
+            },
+            "name": "crb_suspended_sediment_1999",
+            "path": "CRB_SUSPENDED_SEDIMENT_1999.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sitecode",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "datetime",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "col3_sst_sestss_whole07_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col4_svs_sestss_whole07_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col5_sst_sestss_07_10_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col6_sst_sestss_10_20_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col7_sst_sestss_106_1000_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col8_sst_sestss_20_53_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col9_sst_sestss_53_106_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col10_sst_sestss_whole07_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col11_svs_sestss_07_10_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col12_svs_sestss_10_20_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col13_svs_sestss_106_1000_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col14_svs_sestss_20_53_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col15_svs_sestss_53_106_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col16_svs_sestss_whole07_grabwcclab",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "https://czo.stroudcenter.org/data/wp-content/uploads/sites/5/2014/10/CRB_SUSPENDED_SEDIMENT_2009.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "missingValues": ["-9999"],
+                "header_rows": 35
+            },
+            "name": "crb_suspended_sediment_2000",
+            "path": "CRB_SUSPENDED_SEDIMENT_2000.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sitecode",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "datetime",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "col3_sts_sestss_07_10_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col4_sts_sestss_10_20_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col5_sts_sestss_106_1000_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col6_sts_sestss_20_53_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col7_sts_sestss_53_106_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col8_sts_sestss_whole07_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col9_svs_sestss_07_10_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col10_svs_sestss_10_20_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col11_svs_sestss_106_1000_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col12_svs_sestss_20_53_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col13_svs_sestss_53_106_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col14_svs_sestss_whole07_grab",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "https://czo.stroudcenter.org/data/wp-content/uploads/sites/5/2014/10/CRB_SUSPENDED_SEDIMENT_2000.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "missingValues": ["-9999"],
+                "header_rows": 27
+            },
+            "name": "crb_suspended_sediment_2001",
+            "path": "CRB_SUSPENDED_SEDIMENT_2001.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sitecode",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "datetime",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "col3_sts_sestss_whole07_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col4_svs_ssestss_whole07_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col5_sts_ssestss_whole07_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col6_svs_ssestss_whole07_grab",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "https://czo.stroudcenter.org/data/wp-content/uploads/sites/5/2014/10/CRB_SUSPENDED_SEDIMENT_2001.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "missingValues": ["-9999"],
+                "header_rows": 27
+            },
+            "name": "crb_suspended_sediment_2002",
+            "path": "CRB_SUSPENDED_SEDIMENT_2002.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sitecode",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "datetime",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "col3_sts_sestss_whole07_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col4_svs_sestss_whole07_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col5_sts_sestss_whole07_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col6_svs_sestss_whole07_grab",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "https://czo.stroudcenter.org/data/wp-content/uploads/sites/5/2014/10/CRB_SUSPENDED_SEDIMENT_2002.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "missingValues": ["-9999"],
+                "header_rows": 27
+            },
+            "name": "crb_suspended_sediment_2003",
+            "path": "CRB_SUSPENDED_SEDIMENT_2003.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sitecode",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "col2_datetime",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "col3_sts_sestss_whole07_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col4_svs_sestss_whole07_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col5_sts_sestss_whole07_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col6_svs_sestss_whole07_grab",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "https://czo.stroudcenter.org/data/wp-content/uploads/sites/5/2014/10/CRB_SUSPENDED_SEDIMENT_2003.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "missingValues": ["-9999"],
+                "header_rows": 27
+            },
+            "name": "crb_suspended_sediment_2004",
+            "path": "CRB_SUSPENDED_SEDIMENT_2004.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sitecode",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "datetime",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "col3_sts_sestss_whole07_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col4_svs_sestss_whole07_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col5_sts_sestss_whole07_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col6_svs_sestss_whole07_grab",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "https://czo.stroudcenter.org/data/wp-content/uploads/sites/5/2014/10/CRB_SUSPENDED_SEDIMENT_2004.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "missingValues": ["-9999"],
+                "header_rows": 32
+            },
+            "name": "crb_suspended_sediment_2005",
+            "path": "CRB_SUSPENDED_SEDIMENT_2005.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sitecode",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "datetime",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "col3_sts_sestss_whole07_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col4_svs_sestss_whole07_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col5_carbon_13_sestea_whole07_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col6_c_to_n_sestea_whole07_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col7_sts_sestss_whole07_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col8_n15_sestea_whole07_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col9_carbon_particulate_sestea_whole07_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col10_svs_sestss_whole07_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col11_nitrogen_particulate_sestea_whole07_grab",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "https://czo.stroudcenter.org/data/wp-content/uploads/sites/5/2014/10/CRB_SUSPENDED_SEDIMENT_2005.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "missingValues": ["-9999"],
+                "header_rows": 48
+            },
+            "name": "crb_suspended_sediment_2006",
+            "path": "CRB_SUSPENDED_SEDIMENT_2006.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sitecode",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "datetime",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "col3_c_13_sestea_whole07_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col4_c_to_n_sestea_whole07_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col5_sts_sestss_whole045_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col6_sts_sestss_whole07_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col7_n_15_sestea_whole07_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col8_carbon_particulate_sestea_whole07_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col9_svs_sestss_whole07_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col10_nitrogen_particulate_sestea_whole07_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col11_c_13_sestea_07_63_grab",
+                        "type": "int"
+                    },
+                    {
+                        "name": "col12_c_13_sestea_ge63_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col13_c_13_sestea_whole07_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col14_c_to_n_sestea_07_63_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col15_c_to_n_sestea_ge63_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col16_c_to_n_sestea_whole07_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col17_sts_sestss_07_63_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col18_sts_sestss_ge63_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col19_sts_sestss_whole07_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col20_n_15_sestea_07_63_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col21_n_15_sestea_ge63_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col22_n_15_sestea_whole07_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col23_carbon_particulate_sestea_07_63_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col24_carbon_particulate_sestea_whole07_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col25_svs_sestss_whole07_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col26_nitrogen_particulate_sestea_07_63_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col27_nitrogen_particulate_sestea_whole07_grab",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "https://czo.stroudcenter.org/data/wp-content/uploads/sites/5/2014/10/CRB_SUSPENDED_SEDIMENT_2006.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "missingValues": ["-9999"],
+                "header_rows": 58
+            },
+            "name": "crb_suspended_sediment_2007",
+            "path": "CRB_SUSPENDED_SEDIMENT_2007.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sitecode",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "datetime",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "col3_c13_sestea_whole07_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col4_c_to_n_sestea_whole07_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col5_sts_sestss_whole07_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col6_n15_sestea_whole07_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col7_carbon_particulate_sestea_whole07_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col8_nitrogen_particulate_sestea_whole07_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col9_c13_sestea_07_63_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col10_c13_sestea_ge63_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col11_c13_sestea_whole07_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col12_c_to_n_sestea_07_63_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col13_c_to_n_sestea_ge63_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col14_c_to_n_sestea_whole07_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col15_sts_sestss_045_10_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col16_sts_sestss_07_10_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col17_sts_sestss_07_63_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col18_sts_sestss_10_20_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col19_sts_sestss_20_53_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col20_sts_sestss_53_106_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col21_sts_sestss_ge106_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col22_sts_sestss_ge63_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col23_sts_sestss_whole045_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col24_sts_sestss_whole07_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col25_n15_sestea_07_63_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col26_n15_sestea_ge63_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col27_n15_sestea_whole07_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col28_carbon_particulate_sestea_07_63_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col29_carbon_particulate_sestea_whole07_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col30_svs_sestss_07_10_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col31_svs_sestss_10_20_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col32_svs_sestss_20_53_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col33_svs_sestss_53_106_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col34_svs_sestss_ge106_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col35_svs_sestss_whole07_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col36_nitrogen_particulate_sestea_07_63_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col37_nitrogen_particulate_sestea_whole07_grab",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "https://czo.stroudcenter.org/data/wp-content/uploads/sites/5/2014/10/CRB_SUSPENDED_SEDIMENT_2007.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "missingValues": ["-9999"],
+                "header_rows": 56
+            },
+            "name": "crb_suspended_sediment_2008",
+            "path": "CRB_SUSPENDED_SEDIMENT_2008.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sitecode",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "datetime",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "col3_c_13_sestea_whole07_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col4_c_to_n_sestea_whole07_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col5_sts_sestss_whole07_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col6_n15_sestea_whole07_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col7_carbon_particulate_sestea_whole07_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col8_nitrogen_particulate_sestea_whole07_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col9_c_13_sestea_07_63_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col10_c_13_sestea_ge10_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col11_c_13_sestea_whole07_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col12_c_to_n_sestea_07_63_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col13_c_to_n_sestea_ge10_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col14_c_to_n_sestea_whole07_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col15_sts_sestss_045_08_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col16_sts_sestss_07_63_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col17_sts_sestss_08_2_grab",
+                        "type": "int"
+                    },
+                    {
+                        "name": "col18_sts_sestss_10_20_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col19_sts_sestss_2_5_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col20_sts_sestss_20_53_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col21_sts_sestss_5_10_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col22_sts_sestss_53_106_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col23_sts_sestss_ge10_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col24_sts_sestss_ge106_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col25_sts_sestss_ge63_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col26_sts_sestss_whole07_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col27_n15_sestea_07_63_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col28_n15_sestea_ge10_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col29_n15_sestea_whole07_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col30_carbon_particulate_sestea_07_63_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col31_carbon_particulate_sestea_ge10_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col32_carbon_particulate_sestea_whole07_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col33_nitrogen_particulate_sestea_07_63_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col34_nitrogen_particulate_sestea_ge10_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col35_nitrogen_particulate_sestea_whole07_grab",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "https://czo.stroudcenter.org/data/wp-content/uploads/sites/5/2014/10/CRB_SUSPENDED_SEDIMENT_2008.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "missingValues": ["-9999"],
+                "header_rows": 119
+            },
+            "name": "crb_suspended_sediment_2009",
+            "path": "CRB_SUSPENDED_SEDIMENT_2009.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sitecode",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "datetime",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "col3_c13_sestea_07_20_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col4_c13_sestea_10_20_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col5_c13_sestea_20_53_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col6_c13_sestea_53_106_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col7_c13_sestea_ge106_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col8_c13_sestea_ge20_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col9_c13_sestea_whole07_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col10c_to_n_sestea_07_20_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col11c_to_n_sestea_10_20_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col12c_to_n_sestea_20_53_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col13c_to_n_sestea_53_106_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col14c_to_n_sestea_ge106_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col15c_to_n_sestea_ge20_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col16c_to_n_sestea_whole07_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col17_sts_sestss_07_20_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col18_sts_sestss_10_20_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col19_sts_sestss_20_53_auto",
+                        "type": "int"
+                    },
+                    {
+                        "name": "col20_sts_sestss_53_106_auto",
+                        "type": "int"
+                    },
+                    {
+                        "name": "col21_sts_sestss_ge106_auto",
+                        "type": "int"
+                    },
+                    {
+                        "name": "col22_sts_sestss_ge20_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col23_sts_sestss_whole045_auto",
+                        "type": "int"
+                    },
+                    {
+                        "name": "col24_sts_sestss_whole07_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col25_n15_sestea_07_20_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col26_n15_sestea_10_20_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col27_n15_sestea_20_53_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col28_n15_sestea_53_106_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col29_n15_sestea_ge106_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col30_n15_sestea_ge20_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col31_n15_sestea_whole07_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col32_carbon_particulate_sestea_07_20_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col33_carbon_particulate_sestea_10_20_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col34_carbon_particulate_sestea_20_53_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col35_carbon_particulate_sestea_53_106_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col36_carbon_particulate_sestea_ge106_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col37_carbon_particulate_sestea_ge20_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col38_carbon_particulate_sestea_whole07_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col39_nitrogen_particulate_sestea_07_20_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col40_nitrogen_particulate_sestea_10_20_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col41_nitrogen_particulate_sestea_20_53_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col42_nitrogen_particulate_sestea_53_106_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col43_nitrogen_particulate_sestea_ge106_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col44_nitrogen_particulate_sestea_ge20_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col45_nitrogen_particulate_sestea_whole07_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col46_c13_sestea_07_53_grab",
+                        "type": "int"
+                    },
+                    {
+                        "name": "col47_c13_sestea_07_63_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col48_c13_sestea_10_20_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col49_c13_sestea_20_53_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col50_c13_sestea_53_106_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col51_c13_sestea_ge106_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col52_c13_sestea_ge53_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col53_c13_sestea_whole07_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col54c_to_n_sestea_07_53_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col55c_to_n_sestea_07_63_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col56c_to_n_sestea_10_20_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col57c_to_n_sestea_20_53_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col58c_to_n_sestea_53_106_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col59c_to_n_sestea_ge106_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col60c_to_n_sestea_ge53_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col61c_to_n_sestea_whole07_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col62_sts_sestss_07_53_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col63_sts_sestss_07_63_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col64_sts_sestss_10_20_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col65_sts_sestss_20_53_grab",
+                        "type": "int"
+                    },
+                    {
+                        "name": "col66_sts_sestss_53_106_grab",
+                        "type": "int"
+                    },
+                    {
+                        "name": "col67_sts_sestss_ge106_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col68_sts_sestss_ge53_grab",
+                        "type": "int"
+                    },
+                    {
+                        "name": "col69_sts_sestss_ge63_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col70_sts_sestss_whole045_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col71_sts_sestss_whole07_grab",
+                        "type": "int"
+                    },
+                    {
+                        "name": "col72_n15_sestea_07_53_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col73_n15_sestea_07_63_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col74_n15_sestea_10_20_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col75_n15_sestea_20_53_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col76_n15_sestea_53_106_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col77_n15_sestea_ge106_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col78_n15_sestea_ge53_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col79_n15_sestea_whole07_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col80_carbon_particulate_sestea_07_53_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col81_carbon_particulate_sestea_07_63_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col82_carbon_particulate_sestea_10_20_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col83_carbon_particulate_sestea_20_53_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col84_carbon_particulate_sestea_53_106_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col85_carbon_particulate_sestea_ge106_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col86_carbon_particulate_sestea_ge53_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col87_carbon_particulate_sestea_whole07_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col88_svs_sestss_07_53_grab",
+                        "type": "int"
+                    },
+                    {
+                        "name": "col89_svs_sestss_ge53_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col90_svs_sestss_whole07_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col91_nitrogen_particulate_sestea_07_53_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col92_nitrogen_particulate_sestea_07_63_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col93_nitrogen_particulate_sestea_10_20_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col94_nitrogen_particulate_sestea_20_53_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col95_nitrogen_particulate_sestea_53_106_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col96_nitrogen_particulate_sestea_ge106_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col97_nitrogen_particulate_sestea_ge53_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col98_nitrogen_particulate_sestea_whole07_grab",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "https://czo.stroudcenter.org/data/wp-content/uploads/sites/5/2014/10/CRB_SUSPENDED_SEDIMENT_2009.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "missingValues": ["-9999"],
+                "header_rows": 92
+            },
+            "name": "crb_suspended_sediment_2010",
+            "path": "CRB_SUSPENDED_SEDIMENT_2010.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sitecode",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "datetime",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "col3_c_13_sestea_07_10_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col4_c_13_sestea_07_20_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col5_c_13_sestea_ge10_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col6_c_13_sestea_ge20_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col7_c_13_sestea_whole07_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col8_c_to_n_sestea_07_10_auto",
+                        "type": "int"
+                    },
+                    {
+                        "name": "col9_c_to_n_sestea_07_20_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col10_c_to_n_sestea_ge10_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col11_c_to_n_sestea_ge20_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col12_c_to_n_sestea_whole07_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col13_sts_sestss_07_10_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col14_sts_sestss_07_20_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col15_sts_sestss_ge10_auto",
+                        "type": "int"
+                    },
+                    {
+                        "name": "col16_sts_sestss_ge20_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col17_sts_sestss_whole045_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col18_sts_sestss_whole07_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col19_n_15_sestea_07_10_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col20_n_15_sestea_07_20_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col21_n_15_sestea_ge10_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col22_n_15_sestea_ge20_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col23_n_15_sestea_whole07_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col24_carbon_particulate_sestea_07_10_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col25_carbon_particulate_sestea_07_20_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col26_carbon_particulate_sestea_ge10_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col27_carbon_particulate_sestea_ge20_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col28_carbon_particulate_sestea_whole07_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col29_svs_sestss_ge20_auto",
+                        "type": "int"
+                    },
+                    {
+                        "name": "col30_nitrogen_particulate_sestea_07_10_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col31_nitrogen_particulate_sestea_07_20_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col32_nitrogen_particulate_sestea_ge10_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col33_nitrogen_particulate_sestea_ge20_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col34_nitrogen_particulate_sestea_whole07_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col35_c_13_sestea_07_10_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col36_c_13_sestea_07_63_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col37_c_13_sestea_ge10_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col38_c_13_sestea_ge20_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col39_c_13_sestea_ge63_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col40_c_13_sestea_whole07_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col41_c_to_n_sestea_07_10_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col42_c_to_n_sestea_07_63_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col43_c_to_n_sestea_ge10_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col44_c_to_n_sestea_ge20_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col45_c_to_n_sestea_ge63_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col46_c_to_n_sestea_whole07_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col47_sts_sestss_07_10_grab",
+                        "type": "int"
+                    },
+                    {
+                        "name": "col48_sts_sestss_07_20_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col49_sts_sestss_07_63_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col50_sts_sestss_ge10_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col51_sts_sestss_ge20_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col52_sts_sestss_ge63_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col53_sts_sestss_whole07_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col54_n_15_sestea_07_10_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col55_n_15_sestea_07_63_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col56_n_15_sestea_ge10_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col57_n_15_sestea_ge20_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col58_n_15_sestea_ge63_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col59_n_15_sestea_whole07_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col60_carbon_particulate_sestea_07_10_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col61_carbon_particulate_sestea_07_63_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col62_carbon_particulate_sestea_ge10_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col63_carbon_particulate_sestea_ge20_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col64_carbon_particulate_sestea_ge63_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col65_carbon_particulate_sestea_whole07_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col66_nitrogen_particulate_sestea_07_10_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col67_nitrogen_particulate_sestea_07_63_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col68_nitrogen_particulate_sestea_ge10_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col69_nitrogen_particulate_sestea_ge20_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col70_nitrogen_particulate_sestea_ge63_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col71_nitrogen_particulate_sestea_whole07_grab",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "https://czo.stroudcenter.org/data/wp-content/uploads/sites/5/2014/10/CRB_SUSPENDED_SEDIMENT_2010.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "missingValues": ["-9999"],
+                "header_rows": 105
+            },
+            "name": "crb_suspended_sediment_2011",
+            "path": "CRB_SUSPENDED_SEDIMENT_2011.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sitecode",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "datetime",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "col3_svs_sestss_whole07_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col4_carbon_13_sestea_whole07_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col5_c_to_n_sestea_whole07_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col6_sts_sestss_whole045_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col7_sts_sestss_whole07_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col8_nitrogen_15_sestea_whole07_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col9_carbon_particulate_sestea_whole07_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col10_svs_sestss_whole07_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col11_nitrogen_particulate_sestea_whole07_auto",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col12_svs_sestss_07_10_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col13_svs_sestss_07_63_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col14_svs_sestss_10_20_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col15_svs_sestss_20_30_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col16_svs_sestss_30_50_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col17_svs_sestss_50_106_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col18_svs_sestss_ge106_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col19_svs_sestss_ge63_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col20_svs_sestss_whole07_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col21_carbon_13_sestea_07_10_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col22_carbon_13_sestea_07_63_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col23_carbon_13_sestea_10_20_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col24_carbon_13_sestea_20_30_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col25_carbon_13_sestea_30_50_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col26_carbon_13_sestea_50_106_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col27_carbon_13_sestea_ge106_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col28_carbon_13_sestea_ge63_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col29_carbon_13_sestea_whole07_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col30_c_to_n_sestea_07_10_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col31_c_to_n_sestea_07_63_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col32_c_to_n_sestea_10_20_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col33_c_to_n_sestea_20_30_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col34_c_to_n_sestea_30_50_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col35_c_to_n_sestea_50_106_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col36_c_to_n_sestea_ge106_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col37_c_to_n_sestea_ge63_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col38_c_to_n_sestea_whole07_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col39_sts_sestss_07_10_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col40_sts_sestss_07_63_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col41_sts_sestss_10_20_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col42_sts_sestss_20_30_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col43_sts_sestss_30_50_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col44_sts_sestss_50_106_grab",
+                        "type": "int"
+                    },
+                    {
+                        "name": "col45_sts_sestss_ge106_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col46_sts_sestss_ge63_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col47_sts_sestss_whole045_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col48_sts_sestss_whole07_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col49_nitrogen_15_sestea_07_10_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col50_nitrogen_15_sestea_07_63_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col51_nitrogen_15_sestea_10_20_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col52_nitrogen_15_sestea_20_30_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col53_nitrogen_15_sestea_30_50_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col54_nitrogen_15_sestea_50_106_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col55_nitrogen_15_sestea_ge106_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col56_nitrogen_15_sestea_ge63_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col57_nitrogen_15_sestea_whole07_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col58_carbon_particulate_sestea_07_10_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col59_carbon_particulate_sestea_07_63_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col60_carbon_particulate_sestea_10_20_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col61_carbon_particulate_sestea_20_30_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col62_carbon_particulate_sestea_30_50_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col63_carbon_particulate_sestea_50_106_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col64_carbon_particulate_sestea_ge106_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col65_carbon_particulate_sestea_ge63_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col66_carbon_particulate_sestea_whole07_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col67_svs_sestss_07_10_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col68_svs_sestss_07_63_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col69_svs_sestss_10_20_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col70_svs_sestss_20_30_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col71_svs_sestss_30_50_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col72_svs_sestss_50_106_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col73_svs_sestss_ge106_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col74_svs_sestss_ge63_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col75_svs_sestss_whole07_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col76_nitrogen_particulate_sestea_07_10_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col77_nitrogen_particulate_sestea_07_63_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col78_nitrogen_particulate_sestea_10_20_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col79_nitrogen_particulate_sestea_20_30_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col80_nitrogen_particulate_sestea_30_50_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col81_nitrogen_particulate_sestea_50_106_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col82_nitrogen_particulate_sestea_ge106_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col83_nitrogen_particulate_sestea_ge63_grab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col84_nitrogen_particulate_sestea_whole07_grab",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "https://czo.stroudcenter.org/data/wp-content/uploads/sites/5/2014/10/CRB_SUSPENDED_SEDIMENT_2011.csv"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "Christina River Basin – Stream Suspended Sediment (1993-2012)",
+    "version": "1.0.0"
+}

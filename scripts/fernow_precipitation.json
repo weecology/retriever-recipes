@@ -1,0 +1,41 @@
+{
+    "archived": "zip",
+    "citation": "Edwards, Pamela J.; Wood, Frederica. 2011. Fernow Experimental Forest daily precipitation. Newtown Square, PA: U.S. Department of Agriculture, Forest Service, Northern Research Station. Data publication updated 19 September 2017. https://doi.org/10.2737/RDS-2011-0014",
+    "description": "The data publication contains daily watershed-weighted precipitation measured for nine watersheds on the Fernow Experimental Forest from 1951 to 2015.",
+    "homepage": "https://www.fs.usda.gov/rds/archive/catalog/RDS-2011-0014",
+    "keywords": ["Precipitation","biota", "climatology", "Meteorology", "Animal ecology", "Hydrology", "watersheds", "sedimentation", "Plant ecology", "Forest & Plant Health", "Monitoring", "temperature", "climate", "Monongahela National Forest", "West Virginia"],
+    "licenses": [{"name": ""}],
+    "name": "fernow-precipitation",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "precipitation",
+            "path": "Data/Fernow_Precipitation.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "watershed",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "date_mm_dd_yyyy",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "precipitation_mm",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "https://www.fs.usda.gov/rds/archive/products/RDS-2011-0014/RDS-2011-0014.zip"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "Fernow Experimental Forest daily precipitation",
+    "version": "1.0.0"
+}

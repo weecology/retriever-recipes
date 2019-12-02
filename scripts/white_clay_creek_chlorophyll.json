@@ -1,0 +1,687 @@
+{
+    "citation": "Newbold, J. D.; Damiano, S. G. (2013). White Clay Creek - Chlorophyll (2001-2012). Stroud Water Research Center.",
+    "description": "Stream Chlorophyll and Pheophytin data collected by Stroud Water Research Center",
+    "homepage": "https://czo.stroudcenter.org/data/white-clay-creek-chlorophyll-pheophytin-2001-2012/",
+    "keywords": ["white clay creek", "christina river", "stroud water research center"],
+    "licenses": [{"name": ""}],
+    "name": "white-clay-creek-chlorophyll",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ",",
+                "missingValues": ["-9999"],
+                "header_rows": 32
+            },
+            "name": "wcc_chla_2001",
+            "path": "WCC_CHLA_2001.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sitecode",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "datetime",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "col3_chlorophyll",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col4_chlorophyll",
+                        "type": "int"
+                    },
+                    {
+                        "name": "col5_chlorophyll",
+                        "type": "int"
+                    },
+                    {
+                        "name": "col6_chlorophyll",
+                        "type": "int"
+                    },
+                    {
+                        "name": "col7_pheophytin",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col8_pheophytin",
+                        "type": "int"
+                    },
+                    {
+                        "name": "col9_pheophytin",
+                        "type": "int"
+                    },
+                    {
+                        "name": "col10_pheophytin",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://czo.stroudcenter.org/data/wp-content/uploads/sites/5/2014/10/WCC_CHLA_2001.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "missingValues": ["-9999"],
+                "header_rows": 32
+            },
+            "name": "wcc_chla_2002",
+            "path": "WCC_CHLA_2002.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sitecode",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "datetime",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "col3_chlorophyll",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col4_chlorophyll",
+                        "type": "int"
+                    },
+                    {
+                        "name": "col5_chlorophyll",
+                        "type": "int"
+                    },
+                    {
+                        "name": "col6_chlorophyll",
+                        "type": "int"
+                    },
+                    {
+                        "name": "col7_pheophytin",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col8_pheophytin",
+                        "type": "int"
+                    },
+                    {
+                        "name": "col9_pheophytin",
+                        "type": "int"
+                    },
+                    {
+                        "name": "col10_pheophytin",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://czo.stroudcenter.org/data/wp-content/uploads/sites/5/2014/10/WCC_CHLA_2002.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "missingValues": ["-9999"],
+                "header_rows": 32
+            },
+            "name": "wcc_chla_2003",
+            "path": "WCC_CHLA_2003.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sitecode",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "datetime",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "col3_chlorophyll",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col4_chlorophyll",
+                        "type": "int"
+                    },
+                    {
+                        "name": "col5_chlorophyll",
+                        "type": "int"
+                    },
+                    {
+                        "name": "col6_chlorophyll",
+                        "type": "int"
+                    },
+                    {
+                        "name": "col7_pheophytin",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col8_pheophytin",
+                        "type": "int"
+                    },
+                    {
+                        "name": "col9_pheophytin",
+                        "type": "int"
+                    },
+                    {
+                        "name": "col10_pheophytin",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://czo.stroudcenter.org/data/wp-content/uploads/sites/5/2014/10/WCC_CHLA_2003.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "missingValues": ["-9999"],
+                "header_rows": 32
+            },
+            "name": "wcc_chla_2004",
+            "path": "WCC_CHLA_2004.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sitecode",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "datetime",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "col3_chlorophyll",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col4_chlorophyll",
+                        "type": "int"
+                    },
+                    {
+                        "name": "col5_chlorophyll",
+                        "type": "int"
+                    },
+                    {
+                        "name": "col6_chlorophyll",
+                        "type": "int"
+                    },
+                    {
+                        "name": "col7_pheophytin",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col8_pheophytin",
+                        "type": "int"
+                    },
+                    {
+                        "name": "col9_pheophytin",
+                        "type": "int"
+                    },
+                    {
+                        "name": "col10_pheophytin",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://czo.stroudcenter.org/data/wp-content/uploads/sites/5/2014/10/WCC_CHLA_2004.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "missingValues": ["-9999"],
+                "header_rows": 32
+            },
+            "name": "wcc_chla_2005",
+            "path": "WCC_CHLA_2005.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sitecode",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "datetime",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "col3_chlorophyll",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col4_chlorophyll",
+                        "type": "int"
+                    },
+                    {
+                        "name": "col5_chlorophyll",
+                        "type": "int"
+                    },
+                    {
+                        "name": "col6_chlorophyll",
+                        "type": "int"
+                    },
+                    {
+                        "name": "col7_pheophytin",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col8_pheophytin",
+                        "type": "int"
+                    },
+                    {
+                        "name": "col9_pheophytin",
+                        "type": "int"
+                    },
+                    {
+                        "name": "col10_pheophytin",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://czo.stroudcenter.org/data/wp-content/uploads/sites/5/2014/10/WCC_CHLA_2005.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "missingValues": ["-9999"],
+                "header_rows": 32
+            },
+            "name": "wcc_chla_2006",
+            "path": "WCC_CHLA_2006.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sitecode",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "datetime",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "col3_chlorophyll",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col4_chlorophyll",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col5_chlorophyll",
+                        "type": "int"
+                    },
+                    {
+                        "name": "col6_chlorophyll",
+                        "type": "int"
+                    },
+                    {
+                        "name": "col7_pheophytin",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col8_pheophytin",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col9_pheophytin",
+                        "type": "int"
+                    },
+                    {
+                        "name": "col10_pheophytin",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://czo.stroudcenter.org/data/wp-content/uploads/sites/5/2014/10/WCC_CHLA_2006.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "missingValues": ["-9999"],
+                "header_rows": 32
+            },
+            "name": "wcc_chla_2007",
+            "path": "WCC_CHLA_2007.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sitecode",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "datetime",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "col3_chlorophyll",
+                        "type": "int"
+                    },
+                    {
+                        "name": "col4_chlorophyll",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col5_chlorophyll",
+                        "type": "int"
+                    },
+                    {
+                        "name": "col6_chlorophyll",
+                        "type": "int"
+                    },
+                    {
+                        "name": "col7_pheophytin",
+                        "type": "int"
+                    },
+                    {
+                        "name": "col8_pheophytin",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col9_pheophytin",
+                        "type": "int"
+                    },
+                    {
+                        "name": "col10_pheophytin",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://czo.stroudcenter.org/data/wp-content/uploads/sites/5/2014/10/WCC_CHLA_2007.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "missingValues": ["-9999"],
+                "header_rows": 32
+            },
+            "name": "wcc_chla_2008",
+            "path": "WCC_CHLA_2008.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sitecode",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "datetime",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "col3_chlorophyll",
+                        "type": "int"
+                    },
+                    {
+                        "name": "col4_chlorophyll",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col5_chlorophyll",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col6_chlorophyll",
+                        "type": "int"
+                    },
+                    {
+                        "name": "col7_pheophytin",
+                        "type": "int"
+                    },
+                    {
+                        "name": "col8_pheophytin",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col9_pheophytin",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col10_pheophytin",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://czo.stroudcenter.org/data/wp-content/uploads/sites/5/2014/10/WCC_CHLA_2008.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "missingValues": ["-9999"],
+                "header_rows": 32
+            },
+            "name": "wcc_chla_2009",
+            "path": "WCC_CHLA_2009.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sitecode",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "datetime",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "col3_chlorophyll",
+                        "type": "int"
+                    },
+                    {
+                        "name": "col4_chlorophyll",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col5_chlorophyll",
+                        "type": "int"
+                    },
+                    {
+                        "name": "col6_chlorophyll",
+                        "type": "int"
+                    },
+                    {
+                        "name": "col7_pheophytin",
+                        "type": "int"
+                    },
+                    {
+                        "name": "col8_pheophytin",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col9_pheophytin",
+                        "type": "int"
+                    },
+                    {
+                        "name": "col10_pheophytin",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://czo.stroudcenter.org/data/wp-content/uploads/sites/5/2014/10/WCC_CHLA_2009.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "missingValues": ["-9999"],
+                "header_rows": 32
+            },
+            "name": "wcc_chla_2010",
+            "path": "WCC_CHLA_2010.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sitecode",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "datetime",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "col3_chlorophyll",
+                        "type": "int"
+                    },
+                    {
+                        "name": "col4_chlorophyll",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col5_chlorophyll",
+                        "type": "int"
+                    },
+                    {
+                        "name": "col6_chlorophyll",
+                        "type": "int"
+                    },
+                    {
+                        "name": "col7_pheophytin",
+                        "type": "int"
+                    },
+                    {
+                        "name": "col8_pheophytin",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col9_pheophytin",
+                        "type": "int"
+                    },
+                    {
+                        "name": "col10_pheophytin",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://czo.stroudcenter.org/data/wp-content/uploads/sites/5/2014/10/WCC_CHLA_2010.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "missingValues": ["-9999"],
+                "header_rows": 32
+            },
+            "name": "wcc_chla_2011",
+            "path": "WCC_CHLA_2011.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sitecode",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "datetime",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "col3_chlorophyll",
+                        "type": "int"
+                    },
+                    {
+                        "name": "col4_chlorophyll",
+                        "type": "int"
+                    },
+                    {
+                        "name": "col5_chlorophyll",
+                        "type": "int"
+                    },
+                    {
+                        "name": "col6_chlorophyll",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col7_pheophytin",
+                        "type": "int"
+                    },
+                    {
+                        "name": "col8_pheophytin",
+                        "type": "int"
+                    },
+                    {
+                        "name": "col9_pheophytin",
+                        "type": "int"
+                    },
+                    {
+                        "name": "col10_pheophytin",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "https://czo.stroudcenter.org/data/wp-content/uploads/sites/5/2014/10/WCC_CHLA_2011.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "missingValues": ["-9999"],
+                "header_rows": 32
+            },
+            "name": "wcc_chla_2012",
+            "path": "WCC_CHLA_2012.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sitecode",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "datetime",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "col3_chlorophyll",
+                        "type": "int"
+                    },
+                    {
+                        "name": "col4_chlorophyll",
+                        "type": "int"
+                    },
+                    {
+                        "name": "col5_chlorophyll",
+                        "type": "int"
+                    },
+                    {
+                        "name": "col6_chlorophyll",
+                        "type": "double"
+                    },
+                    {
+                        "name": "col7_pheophytin",
+                        "type": "int"
+                    },
+                    {
+                        "name": "col8_pheophytin",
+                        "type": "int"
+                    },
+                    {
+                        "name": "col9_pheophytin",
+                        "type": "int"
+                    },
+                    {
+                        "name": "col10_pheophytin",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "https://czo.stroudcenter.org/data/wp-content/uploads/sites/5/2014/10/WCC_CHLA_2012.csv"
+        }
+
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "White Clay Creek – Chlorophyll – Pheophytin (2001-2012)",
+    "version": "1.0.0"
+}
