@@ -179,3 +179,4 @@ white_clay_dissolved_carbon .json,1.0.0
 wine_composition.json,1.1.1
 wine_quality.json,1.1.2
 wood_density.py,1.3.4
+zipcodes.json,1.0.0
