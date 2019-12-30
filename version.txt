@@ -25,6 +25,7 @@ dicerandra_frutescens.json,1.0.2
 ecoregions_us.json,1.0.1
 elton_traits.json,1.2.1
 fao_global_capture_product.py,1.0.0
+felix_riese_hyperspectral_soilmoisture.json,1.0.0
 fernow_air_temperature.json,1.0.0
 fernow_biomass.json,1.0.0
 fernow_forest_streamflow.json,1.0.0
@@ -158,6 +159,15 @@ transparencia_dados_abertos_brasil.json,1.0.0
 tree_canopy_geometries.json,1.0.1
 tree_demog_wghats.py,1.3.2
 turtle_offspring_nesting.json,1.0.2
+usda_agriculture_plants_database.py,1.0.0
+usda_dietary_supplement_ingredient_data.json,1.0.0
+usda_mafcl_fooddatacenteral_alldatatypes.json,1.0.0
+usda_mafcl_fooddatacenteral_brandedfoods.json,1.0.0
+usda_mafcl_fooddatacenteral_fndds.json,1.0.0
+usda_mafcl_fooddatacenteral_foundationfoods.json,1.0.0
+usda_mafcl_fooddatacenteral_srlegacy.json,1.0.0
+usda_mafcl_fooddatacenteral_supportingdata.json,1.0.0
+usda_mafcl_standard_reference.py,1.0.0
 usgs_elevation.py,1.0.0
 veg_plots_sdl.json,2.0.1
 vertnet.py,1.4.2

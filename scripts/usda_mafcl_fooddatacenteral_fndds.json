@@ -1,0 +1,356 @@
+{
+    "archived": "zip",
+    "citation": "U.S. Department of Agriculture, Agricultural Research Service. FoodData Central, 2019. fdc.nal.usda.gov",
+    "description": "The data shows the nutrient and food component values and weights for foods and beverages reported in America dietary survey component of the National Health and Nutrition Examination Survey",
+    "homepage": "https://www.ars.usda.gov/northeast-area/beltsville-md-bhnrc/beltsville-human-nutrition-research-center/methods-and-application-of-food-composition-laboratory/mafcl-site-pages/database-links/",
+    "keywords": ["chemical analysis", " food", " FoodData Central", " agricultural", " MAFCL", " Food Surveys", "  Dietary Supplement ", "Diet", " USDA NHANES", " nutrition", " health"],
+    "licenses": [{"name": "" }],
+    "name": "usda-mafcl-fooddatacenteral-fndds",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ",",
+                "do_not_bulk_insert": "True"
+            },
+            "name": "food_attribute",
+            "path": "food_attribute.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fdc_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "seq_num",
+                        "type": "int"
+                    },
+                    {
+                        "name": "food_attribute_type_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "name",
+                        "type": "int"
+                    },
+                    {
+                        "name": "value",
+                        "size": "109",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_survey_food_csv_%202019-04-02.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "do_not_bulk_insert": "True"
+            },
+            "name": "food_update_log_entry",
+            "path": "food_update_log_entry.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "description",
+                        "size": "194",
+                        "type": "char"
+                    },
+                    {
+                        "name": "last_updated",
+                        "size": "10",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_survey_food_csv_%202019-04-02.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "do_not_bulk_insert": "True"
+            },
+            "name": "all_downloaded_table_record_counts",
+            "path": "all_downloaded_table_record_counts.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "tables",
+                        "size": "21",
+                        "type": "char"
+                    },
+                    {
+                        "name": "number_of_records",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_survey_food_csv_%202019-04-02.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "do_not_bulk_insert": "True"
+            },
+            "name": "food",
+            "path": "food.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "fdc_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "data_type",
+                        "size": "17",
+                        "type": "char"
+                    },
+                    {
+                        "name": "description",
+                        "size": "194",
+                        "type": "char"
+                    },
+                    {
+                        "name": "food_category_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "publication_date",
+                        "size": "10",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_survey_food_csv_%202019-04-02.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "do_not_bulk_insert": "True"
+            },
+            "name": "food_nutrient",
+            "path": "food_nutrient.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fdc_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "nutrient_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "amount",
+                        "type": "double"
+                    },
+                    {
+                        "name": "data_points",
+                        "type": "int"
+                    },
+                    {
+                        "name": "derivation_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "min",
+                        "type": "int"
+                    },
+                    {
+                        "name": "max",
+                        "type": "int"
+                    },
+                    {
+                        "name": "median",
+                        "type": "int"
+                    },
+                    {
+                        "name": "footnote",
+                        "type": "int"
+                    },
+                    {
+                        "name": "min_year_acquired",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_survey_food_csv_%202019-04-02.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "do_not_bulk_insert": "True"
+            },
+            "name": "input_food",
+            "path": "input_food.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fdc_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fdc_id_of_input_food",
+                        "type": "int"
+                    },
+                    {
+                        "name": "seq_num",
+                        "type": "int"
+                    },
+                    {
+                        "name": "amount",
+                        "type": "double"
+                    },
+                    {
+                        "name": "sr_code",
+                        "type": "int"
+                    },
+                    {
+                        "name": "sr_description",
+                        "size": "144",
+                        "type": "char"
+                    },
+                    {
+                        "name": "unit",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "portion_code",
+                        "type": "int"
+                    },
+                    {
+                        "name": "portion_description",
+                        "size": "68",
+                        "type": "char"
+                    },
+                    {
+                        "name": "gram_weight",
+                        "type": "double"
+                    },
+                    {
+                        "name": "retention_code",
+                        "type": "int"
+                    },
+                    {
+                        "name": "survey_flag",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_survey_food_csv_%202019-04-02.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "do_not_bulk_insert": "True"
+            },
+            "name": "food_portion",
+            "path": "food_portion.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fdc_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "seq_num",
+                        "type": "int"
+                    },
+                    {
+                        "name": "amount",
+                        "type": "int"
+                    },
+                    {
+                        "name": "measure_unit_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "portion_description",
+                        "size": "114",
+                        "type": "char"
+                    },
+                    {
+                        "name": "modifier",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gram_weight",
+                        "type": "double"
+                    },
+                    {
+                        "name": "data_points",
+                        "type": "int"
+                    },
+                    {
+                        "name": "footnote",
+                        "type": "int"
+                    },
+                    {
+                        "name": "min_year_acquired",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_survey_food_csv_%202019-04-02.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "do_not_bulk_insert": "True"
+            },
+            "name": "survey_fndds_food",
+            "path": "survey_fndds_food.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "fdc_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "food_code",
+                        "type": "int"
+                    },
+                    {
+                        "name": "wweia_category_code",
+                        "type": "int"
+                    },
+                    {
+                        "name": "start_date",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "end_date",
+                        "size": "10",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_survey_food_csv_%202019-04-02.zip"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "Food and Nutrient Database for Dietary Studies 2013-2014 (FNDDS 2013-2014)",
+    "version": "1.0.0"
+}
