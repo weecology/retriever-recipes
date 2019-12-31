@@ -1,0 +1,61 @@
+{
+    "citation": "N/A",
+    "description": "Coral Time-Series Data from St John and St Thomas Islands,  http://coralreefs.csun.edu/legal/use-policy/",
+    "homepage": "http://coralreefs.csun.edu/data/data-catalogue/",
+    "keywords": [ "Virgin Islands", "Coral Reef", "Time Series", "Physical Environmental Conditions", "Scleractinia Community Ecology", "Marine environments", "Polyps", "Scleractinian Coral", "Community", "Demographics", "Ocean Acidification"],
+    "licenses": [{"name": "CC BY 4.0" }],
+    "name": "virgin-islands-coral-taxonomy",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "taxa",
+            "path": "CSUN_USVI_coral_taxa_20130924.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "phylum",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "classes",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "ordered",
+                        "size": "12",
+                        "type": "char"
+                    },
+                    {
+                        "name": "family",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "genus",
+                        "size": "12",
+                        "type": "char"
+                    },
+                    {
+                        "name": "species",
+                        "size": "24",
+                        "type": "char"
+                    },
+                    {
+                        "name": "category",
+                        "size": "11",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "http://mcrlter.msi.ucsb.edu/external/vinp/coral/.data/knb-csun-usvi.104/CSUN_USVI_coral_taxa_20130924.csv"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "Virgin islands coral taxonomy",
+    "version": "1.0.0"
+}

@@ -1,0 +1,123 @@
+{
+    "citation": "Edmunds P. 2016. Virgin Islands National Park: Coral Reef: Juvenile Coral. Environmental Data Initiative. https://doi.org/10.6073/pasta/cd413c7d15f1d73f48def3f8167bf486. Dataset accessed 10/10/2019.",
+    "description": "juvenile scleractinians data, Coral Time-Series Data from St John and St Thomas Islands,  http://coralreefs.csun.edu/legal/use-policy/",
+    "homepage": "http://coralreefs.csun.edu/data/data-catalogue/",
+    "keywords": ["Virgin Islands", "Coral Reef", "Time Series", "Scleractinia Community Ecology"],
+    "licenses": [{"name": "CC BY 4.0"}],
+    "name": "virgin-islands-coral-juvenile",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "juveniles",
+            "path": "CSUN_USVI_juveniles_wide_20181007.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "site",
+                        "size": "12",
+                        "type": "char"
+                    },
+                    {
+                        "name": "quadrat",
+                        "type": "int"
+                    },
+                    {
+                        "name": "year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "acropora",
+                        "type": "int"
+                    },
+                    {
+                        "name": "agaricia",
+                        "type": "int"
+                    },
+                    {
+                        "name": "colpohyllia",
+                        "type": "int"
+                    },
+                    {
+                        "name": "dichocoenia",
+                        "type": "int"
+                    },
+                    {
+                        "name": "diploria",
+                        "type": "int"
+                    },
+                    {
+                        "name": "eusmilia",
+                        "type": "int"
+                    },
+                    {
+                        "name": "favia",
+                        "type": "int"
+                    },
+                    {
+                        "name": "helioseris",
+                        "type": "int"
+                    },
+                    {
+                        "name": "isophyllastrea",
+                        "type": "int"
+                    },
+                    {
+                        "name": "madracis",
+                        "type": "int"
+                    },
+                    {
+                        "name": "manicina",
+                        "type": "int"
+                    },
+                    {
+                        "name": "meandrina",
+                        "type": "int"
+                    },
+                    {
+                        "name": "montastraea",
+                        "type": "int"
+                    },
+                    {
+                        "name": "mycetophyllia",
+                        "type": "int"
+                    },
+                    {
+                        "name": "porites",
+                        "type": "int"
+                    },
+                    {
+                        "name": "scolymia",
+                        "type": "int"
+                    },
+                    {
+                        "name": "siderastrea",
+                        "type": "int"
+                    },
+                    {
+                        "name": "stephanocoenia",
+                        "type": "int"
+                    },
+                    {
+                        "name": "orbicella",
+                        "type": "int"
+                    },
+                    {
+                        "name": "total",
+                        "type": "int"
+                    },
+                    {
+                        "name": "total_less_sr_and_ff",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://portal.edirepository.org/nis/dataviewer?packageid=edi.295.1&entityid=9a178864bcb301118a52ef998ee45811"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "Virgin Islands National Park: Coral Reef: Juvenile Coral",
+    "version": "1.0.0"
+}

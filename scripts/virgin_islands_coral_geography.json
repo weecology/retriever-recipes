@@ -1,0 +1,57 @@
+{
+    "citation": "N/A",
+    "description": "This is a reference dataset containing the site locations, year established, and types of surveys,  http://coralreefs.csun.edu/legal/use-policy/",
+    "homepage": "http://coralreefs.csun.edu/data/data-catalogue/",
+    "keywords": ["Virgin Islands", "Time Series", "Physical Environmental Conditions", "Ecology", "Corals", "Populations", "Carbonate", "rocks", "Marine environments", "Polyps", "Community", "Demographics"],
+    "licenses": [{"name": "CC BY 4.0"}],
+    "name": "virgin-islands-coral-geography",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "survey_sites",
+            "path": "CSUN_USVI_survey_sites_20110330.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "begin_date",
+                        "type": "int"
+                    },
+                    {
+                        "name": "site_type",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "site_number",
+                        "type": "int"
+                    },
+                    {
+                        "name": "location",
+                        "size": "24",
+                        "type": "char"
+                    },
+                    {
+                        "name": "longitude",
+                        "type": "double"
+                    },
+                    {
+                        "name": "latitude",
+                        "type": "double"
+                    },
+                    {
+                        "name": "depth",
+                        "size": "6",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "http://mcrlter.msi.ucsb.edu/external/vinp/coral/.data/knb-csun-usvi.103/CSUN_USVI_survey_sites_20110330.csv"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "Virgin Islands National Park, Geography of Sites",
+    "version": "1.0.0"
+}

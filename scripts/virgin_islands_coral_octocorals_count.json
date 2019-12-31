@@ -1,0 +1,254 @@
+{
+    "citation": "Edmunds, P.J., Tsounis, G. & Lasker, H.R. Hydrobiologia (2016) 767: 347. https://doi.org/10.1007/s10750-015-2555-z",
+    "description": "These data describe coral reef community structure by density based on the analysis of color photographs along the south coast of St. John from as early as 1987, http://coralreefs.csun.edu/legal/use-policy/",
+    "homepage": "http://coralreefs.csun.edu/data/data-catalogue/",
+    "keywords": [
+        "Virgin Islands", "Coral Reef", 
+        "Time Series", "Corals", "Populations",
+        "Carbonate rocks", "Coral Reefs", 
+        "Marine environments", "Polyps", 
+        "Scleractinian Coral", "Community",
+         "Demographics", "Octocorallia", 
+         "Octocorallia Coral", "Ocean Acidification", 
+         "Population and Community Dynamics"
+    ],
+    "licenses": [{"name": "CC BY 4.0"}],
+    "name": "virgin-islands-coral-octocorals-count",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "random_sites_long",
+            "path": "CSUN_USVI_random_octocorals_long_20160202.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "site",
+                        "size": "19",
+                        "type": "char"
+                    },
+                    {
+                        "name": "year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "slide",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "taxa",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "count",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "http://mcrlter.msi.ucsb.edu/external/vinp/coral/.data/knb-csun-usvi.111/CSUN_USVI_random_octocorals_long_20160202.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "random_sites_wide",
+            "path": "CSUN_USVI_random_octocorals_wide_20160202.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "site",
+                        "size": "19",
+                        "type": "char"
+                    },
+                    {
+                        "name": "year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "slide",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "briareum",
+                        "type": "int"
+                    },
+                    {
+                        "name": "erythropodium",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plexaura",
+                        "type": "int"
+                    },
+                    {
+                        "name": "pseudoplexaura",
+                        "type": "int"
+                    },
+                    {
+                        "name": "eunicea",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plexaurella",
+                        "type": "int"
+                    },
+                    {
+                        "name": "muricea",
+                        "type": "int"
+                    },
+                    {
+                        "name": "muriceopsis",
+                        "type": "int"
+                    },
+                    {
+                        "name": "antillogorgia",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gorgonia",
+                        "type": "int"
+                    },
+                    {
+                        "name": "pterogorgia",
+                        "type": "int"
+                    },
+                    {
+                        "name": "total_unknown",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "http://mcrlter.msi.ucsb.edu/external/vinp/coral/.data/knb-csun-usvi.111/CSUN_USVI_random_octocorals_wide_20160202.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "tektite_yawzi_long",
+            "path": "CSUN_USVI_tektite_yawzi_octocorals_long_20160202.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "site",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "transect",
+                        "type": "int"
+                    },
+                    {
+                        "name": "slide",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "taxa",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "count",
+                        "size": "2",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "http://mcrlter.msi.ucsb.edu/external/vinp/coral/.data/knb-csun-usvi.111/CSUN_USVI_tektite_yawzi_octocorals_long_20160202.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "tektite_yawzi_wide",
+            "path": "CSUN_USVI_tektite_yawzi_octocorals_wide_20160202.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "site",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "transect",
+                        "type": "int"
+                    },
+                    {
+                        "name": "slide",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "briareum",
+                        "type": "int"
+                    },
+                    {
+                        "name": "erythropodium",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plexaura",
+                        "type": "int"
+                    },
+                    {
+                        "name": "pseudoplexaura",
+                        "type": "int"
+                    },
+                    {
+                        "name": "eunicea",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plexaurella",
+                        "type": "int"
+                    },
+                    {
+                        "name": "muricea",
+                        "type": "int"
+                    },
+                    {
+                        "name": "muriceopsis",
+                        "type": "int"
+                    },
+                    {
+                        "name": "antillogorgia",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gorgonia",
+                        "type": "int"
+                    },
+                    {
+                        "name": "pterogorgia",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plexaurids",
+                        "type": "int"
+                    },
+                    {
+                        "name": "unknown",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "http://mcrlter.msi.ucsb.edu/external/vinp/coral/.data/knb-csun-usvi.111/CSUN_USVI_tektite_yawzi_octocorals_wide_20160202.csv"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "Virgin Islands National Park: Population Dynamics of Octocorals",
+    "version": "1.0.0"
+}
