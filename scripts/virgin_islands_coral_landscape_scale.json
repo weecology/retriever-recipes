@@ -1,0 +1,60 @@
+{
+    "citation": "N/A",
+    "description": "Percent cover on tiles at landscape-scale sites, Download data after acceptance of MCR LTER Data Use Agreement, http://coralreefs.csun.edu/legal/use-policy/",
+    "homepage": "http://coralreefs.csun.edu/data/data-catalogue/",
+    "keywords": ["Virgin Islands", "Time Series", "Scleractinia", "Corals", "Populations", "Carbonate rocks", "Coral Reefs", "Marine environments", "Polyps", "Community", "Demographics"],
+    "licenses": [{"name": "CC BY 4.0"}],
+    "name": "virgin-islands-coral-landscape-scale",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "coral_cover_landscape",
+            "path": "CSUN_USVI_coral_cover_landscape_20140519.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "site",
+                        "size": "15",
+                        "type": "char"
+                    },
+                    {
+                        "name": "island",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "shore",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "code",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "classification",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "taxonomy",
+                        "size": "23",
+                        "type": "char"
+                    },
+                    {
+                        "name": "percent_cover",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "http://mcrlter.msi.ucsb.edu/external/vinp/coral/.data/knb-csun-usvi.108/CSUN_USVI_coral_cover_landscape_20140519.csv"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "Virgin Islands National Park: Landscape-scale Variation in Community Structure",
+    "version": "1.0.0"
+}

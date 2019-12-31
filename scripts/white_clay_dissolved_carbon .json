@@ -1,0 +1,50 @@
+{
+    "citation": "Kaplan L. A. 2019. Dissolved organic carbon concentrations in White Clay Creek, Pennsylvania, 1977-2017. Environmental Data Initiative. https://doi.org/10.6073/pasta/60deae3675ff30109bf7a35cceaf719d. Dataset accessed 10/15/2019.",
+    "description": "The data is of dissolved organic carbon concentrations were measured over a period of 4 decades in a 3rd-order reach of White Clay Creek, a stream with a forested riparian zone in the Southeastern Pennsylvania Piedmont",
+    "homepage": "https://portal.edirepository.org/nis/mapbrowse?packageid=edi.386.1",
+    "keywords": ["Southeastern Pennsylvania", "carbon", "Stream water", "biogeochemistry"],
+    "licenses": [{"name": ""}],
+    "name": "white-clay-dissolved-carbon",
+    "resources": [
+            {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "wccdoc_1977to2017",
+            "path": "WCCDOC_1977to2017.CSV",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "datetime",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "site",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "method",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "sampletype",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "doc",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "https://portal.edirepository.org/nis/dataviewer?packageid=edi.386.1&entityid=3f802081eda955b2b0b405b55b85d11c"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "Dissolved organic carbon concentrations in White Clay Creek, Pennsylvania, 1977-2017",
+    "version": "1.0.0"
+}

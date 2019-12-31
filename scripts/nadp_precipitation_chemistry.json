@@ -1,0 +1,1685 @@
+{
+    "citation": "",
+    "description": "The National Atmospheric Deposition Program (NADP) monitors precipitation chemistry. The data contains long term record of total mercury (Hg), ammonia gas",
+    "homepage": "http://nadp.slh.wisc.edu/data/",
+    "keywords": ["precipitation chemistry", "mercury", "ammonia", "LTREB", "Forest Ecosystems", "Time series"],
+    "licenses": [{"name": ""}],
+    "name": "nadp-precipitation-chemistry",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ",",
+                "missingValues": ["-9", "-9.00"]
+            },
+            "name": "ntnsites",
+            "path": "NTNsites.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "network",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "siteid",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "sitename",
+                        "size": "58",
+                        "type": "char"
+                    },
+                    {
+                        "name": "county",
+                        "size": "20",
+                        "type": "char"
+                    },
+                    {
+                        "name": "state",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "latitude",
+                        "type": "double"
+                    },
+                    {
+                        "name": "longitude",
+                        "type": "double"
+                    },
+                    {
+                        "name": "elevation",
+                        "type": "int"
+                    },
+                    {
+                        "name": "status",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "startdate",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "stopdate",
+                        "size": "16",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "http://nadp.slh.wisc.edu/data/sites/CSV/?net=NTN"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "missingValues": ["-9", "-9.00"]
+
+            },
+            "name": "ntn_all_annual_Precipitation_wmean",
+            "path": "NTN-All-cy.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "siteid",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "seas",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "yr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "criteria1",
+                        "type": "int"
+                    },
+                    {
+                        "name": "criteria2",
+                        "type": "int"
+                    },
+                    {
+                        "name": "criteria3",
+                        "type": "int"
+                    },
+                    {
+                        "name": "ca",
+                        "type": "double"
+                    },
+                    {
+                        "name": "mg",
+                        "type": "double"
+                    },
+                    {
+                        "name": "k",
+                        "type": "double"
+                    },
+                    {
+                        "name": "na",
+                        "type": "double"
+                    },
+                    {
+                        "name": "nh4",
+                        "type": "double"
+                    },
+                    {
+                        "name": "no3",
+                        "type": "double"
+                    },
+                    {
+                        "name": "cl",
+                        "type": "double"
+                    },
+                    {
+                        "name": "so4",
+                        "type": "double"
+                    },
+                    {
+                        "name": "br",
+                        "type": "double"
+                    },
+                    {
+                        "name": "ph",
+                        "type": "double"
+                    },
+                    {
+                        "name": "conduc",
+                        "type": "double"
+                    },
+                    {
+                        "name": "svol",
+                        "type": "double"
+                    },
+                    {
+                        "name": "ppt",
+                        "type": "double"
+                    },
+                    {
+                        "name": "fullchemlab",
+                        "type": "int"
+                    },
+                    {
+                        "name": "dayssample",
+                        "type": "int"
+                    },
+                    {
+                        "name": "startdate",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "lastdate",
+                        "size": "16",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "http://nadp.slh.wisc.edu/datalib/ntn/cy/NTN-All-cy.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "missingValues": ["-9", "-9.00"]
+
+            },
+            "name": "annual_depositions",
+            "path": "NTN-All-cydep.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "siteid",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "seas",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "yr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "criteria1",
+                        "type": "int"
+                    },
+                    {
+                        "name": "criteria2",
+                        "type": "int"
+                    },
+                    {
+                        "name": "criteria3",
+                        "type": "int"
+                    },
+                    {
+                        "name": "ca",
+                        "type": "double"
+                    },
+                    {
+                        "name": "mg",
+                        "type": "double"
+                    },
+                    {
+                        "name": "k",
+                        "type": "double"
+                    },
+                    {
+                        "name": "na",
+                        "type": "double"
+                    },
+                    {
+                        "name": "nh4",
+                        "type": "double"
+                    },
+                    {
+                        "name": "no3",
+                        "type": "double"
+                    },
+                    {
+                        "name": "totaln",
+                        "type": "double"
+                    },
+                    {
+                        "name": "cl",
+                        "type": "double"
+                    },
+                    {
+                        "name": "so4",
+                        "type": "double"
+                    },
+                    {
+                        "name": "br",
+                        "type": "double"
+                    },
+                    {
+                        "name": "hplus",
+                        "type": "double"
+                    },
+                    {
+                        "name": "svol",
+                        "type": "double"
+                    },
+                    {
+                        "name": "ppt",
+                        "type": "double"
+                    },
+                    {
+                        "name": "fullchemlab",
+                        "type": "int"
+                    },
+                    {
+                        "name": "dayssample",
+                        "type": "int"
+                    },
+                    {
+                        "name": "startdate",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "lastdate",
+                        "size": "16",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "http://nadp.slh.wisc.edu/datalib/ntn/cydep/NTN-All-cydep.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "missingValues": ["-9", "-9.00"]
+
+            },
+            "name": "ntn_all_monthly",
+            "path": "NTN-All-m.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "siteid",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "month",
+                        "type": "int"
+                    },
+                    {
+                        "name": "yr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "criteria1",
+                        "type": "int"
+                    },
+                    {
+                        "name": "criteria2",
+                        "type": "int"
+                    },
+                    {
+                        "name": "criteria3",
+                        "type": "int"
+                    },
+                    {
+                        "name": "ca",
+                        "type": "double"
+                    },
+                    {
+                        "name": "mg",
+                        "type": "double"
+                    },
+                    {
+                        "name": "k",
+                        "type": "double"
+                    },
+                    {
+                        "name": "na",
+                        "type": "double"
+                    },
+                    {
+                        "name": "nh4",
+                        "type": "double"
+                    },
+                    {
+                        "name": "no3",
+                        "type": "double"
+                    },
+                    {
+                        "name": "cl",
+                        "type": "double"
+                    },
+                    {
+                        "name": "so4",
+                        "type": "double"
+                    },
+                    {
+                        "name": "br",
+                        "type": "double"
+                    },
+                    {
+                        "name": "ph",
+                        "type": "double"
+                    },
+                    {
+                        "name": "conduc",
+                        "type": "double"
+                    },
+                    {
+                        "name": "svol",
+                        "type": "double"
+                    },
+                    {
+                        "name": "ppt",
+                        "type": "double"
+                    },
+                    {
+                        "name": "fullchemlab",
+                        "type": "int"
+                    },
+                    {
+                        "name": "dayssample",
+                        "type": "int"
+                    },
+                    {
+                        "name": "startdate",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "lastdate",
+                        "size": "16",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "http://nadp.slh.wisc.edu/datalib/ntn/monthly/NTN-All-m.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "missingValues": ["-9", "-9.00"]
+
+            },
+            "name": "ntn_all_Seasonal",
+            "path": "NTN-All-s.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "siteid",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "seas",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "yr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "criteria1",
+                        "type": "int"
+                    },
+                    {
+                        "name": "criteria2",
+                        "type": "int"
+                    },
+                    {
+                        "name": "criteria3",
+                        "type": "int"
+                    },
+                    {
+                        "name": "ca",
+                        "type": "double"
+                    },
+                    {
+                        "name": "mg",
+                        "type": "double"
+                    },
+                    {
+                        "name": "k",
+                        "type": "double"
+                    },
+                    {
+                        "name": "na",
+                        "type": "double"
+                    },
+                    {
+                        "name": "nh4",
+                        "type": "double"
+                    },
+                    {
+                        "name": "no3",
+                        "type": "double"
+                    },
+                    {
+                        "name": "cl",
+                        "type": "double"
+                    },
+                    {
+                        "name": "so4",
+                        "type": "double"
+                    },
+                    {
+                        "name": "br",
+                        "type": "double"
+                    },
+                    {
+                        "name": "ph",
+                        "type": "double"
+                    },
+                    {
+                        "name": "conduc",
+                        "type": "double"
+                    },
+                    {
+                        "name": "svol",
+                        "type": "double"
+                    },
+                    {
+                        "name": "ppt",
+                        "type": "double"
+                    },
+                    {
+                        "name": "fullchemlab",
+                        "type": "int"
+                    },
+                    {
+                        "name": "dayssample",
+                        "type": "int"
+                    },
+                    {
+                        "name": "startdate",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "lastdate",
+                        "size": "16",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "http://nadp.slh.wisc.edu/datalib/ntn/seas/NTN-All-s.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "missingValues": ["-9", "-9.00"]
+
+            },
+            "name": "ntn_all_seasonal_depositions",
+            "path": "NTN-All-sdep.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "siteid",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "seas",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "yr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "criteria1",
+                        "type": "int"
+                    },
+                    {
+                        "name": "criteria2",
+                        "type": "int"
+                    },
+                    {
+                        "name": "criteria3",
+                        "type": "int"
+                    },
+                    {
+                        "name": "ca",
+                        "type": "double"
+                    },
+                    {
+                        "name": "mg",
+                        "type": "double"
+                    },
+                    {
+                        "name": "k",
+                        "type": "double"
+                    },
+                    {
+                        "name": "na",
+                        "type": "double"
+                    },
+                    {
+                        "name": "nh4",
+                        "type": "double"
+                    },
+                    {
+                        "name": "no3",
+                        "type": "double"
+                    },
+                    {
+                        "name": "totaln",
+                        "type": "double"
+                    },
+                    {
+                        "name": "cl",
+                        "type": "double"
+                    },
+                    {
+                        "name": "so4",
+                        "type": "double"
+                    },
+                    {
+                        "name": "br",
+                        "type": "double"
+                    },
+                    {
+                        "name": "hplus",
+                        "type": "double"
+                    },
+                    {
+                        "name": "svol",
+                        "type": "double"
+                    },
+                    {
+                        "name": "ppt",
+                        "type": "double"
+                    },
+                    {
+                        "name": "fullchemlab",
+                        "type": "int"
+                    },
+                    {
+                        "name": "dayssample",
+                        "type": "int"
+                    },
+                    {
+                        "name": "startdate",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "lastdate",
+                        "size": "16",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "http://nadp.slh.wisc.edu/datalib/ntn/seasdep/NTN-All-sdep.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "missingValues": ["-9", "-9.00"]
+
+            },
+            "name": "ntn_all_weekly",
+            "path": "NTN-All-w.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "siteid",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "labno",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "dateon",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "dateoff",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "yrmonth",
+                        "type": "int"
+                    },
+                    {
+                        "name": "ph",
+                        "type": "double"
+                    },
+                    {
+                        "name": "conduc",
+                        "type": "double"
+                    },
+                    {
+                        "name": "flagca",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "ca",
+                        "type": "double"
+                    },
+                    {
+                        "name": "flagmg",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "mg",
+                        "type": "double"
+                    },
+                    {
+                        "name": "flagk",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "k",
+                        "type": "double"
+                    },
+                    {
+                        "name": "flagna",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "na",
+                        "type": "double"
+                    },
+                    {
+                        "name": "flagnh4",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "nh4",
+                        "type": "double"
+                    },
+                    {
+                        "name": "flagno3",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "no3",
+                        "type": "double"
+                    },
+                    {
+                        "name": "flagcl",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "cl",
+                        "type": "double"
+                    },
+                    {
+                        "name": "flagso4",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "so4",
+                        "type": "double"
+                    },
+                    {
+                        "name": "flagbr",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "br",
+                        "type": "double"
+                    },
+                    {
+                        "name": "svol",
+                        "type": "double"
+                    },
+                    {
+                        "name": "ppt",
+                        "type": "double"
+                    },
+                    {
+                        "name": "subppt",
+                        "type": "double"
+                    },
+                    {
+                        "name": "valcode",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "invalcode",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "modifiedon",
+                        "size": "22",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "http://nadp.slh.wisc.edu/datalib/ntn/weekly/NTN-All-w.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "missingValues": ["-9", "-9.00"]
+
+            },
+            "name": "annual_water_year",
+            "path": "NTN-All-wy.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "siteid",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "seas",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "yr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "criteria1",
+                        "type": "int"
+                    },
+                    {
+                        "name": "criteria2",
+                        "type": "int"
+                    },
+                    {
+                        "name": "criteria3",
+                        "type": "int"
+                    },
+                    {
+                        "name": "ca",
+                        "type": "double"
+                    },
+                    {
+                        "name": "mg",
+                        "type": "double"
+                    },
+                    {
+                        "name": "k",
+                        "type": "double"
+                    },
+                    {
+                        "name": "na",
+                        "type": "double"
+                    },
+                    {
+                        "name": "nh4",
+                        "type": "double"
+                    },
+                    {
+                        "name": "no3",
+                        "type": "double"
+                    },
+                    {
+                        "name": "cl",
+                        "type": "double"
+                    },
+                    {
+                        "name": "so4",
+                        "type": "double"
+                    },
+                    {
+                        "name": "br",
+                        "type": "double"
+                    },
+                    {
+                        "name": "ph",
+                        "type": "double"
+                    },
+                    {
+                        "name": "conduc",
+                        "type": "double"
+                    },
+                    {
+                        "name": "svol",
+                        "type": "double"
+                    },
+                    {
+                        "name": "ppt",
+                        "type": "double"
+                    },
+                    {
+                        "name": "fullchemlab",
+                        "type": "int"
+                    },
+                    {
+                        "name": "dayssample",
+                        "type": "int"
+                    },
+                    {
+                        "name": "startdate",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "lastdate",
+                        "size": "16",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "http://nadp.slh.wisc.edu/datalib/ntn/wy/NTN-All-wy.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "missingValues": ["-9", "-9.00"]
+
+            },
+            "name": "mdn_all_annual_contaminated",
+            "path": "MDN-all-a-i.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "siteid",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "yr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "startdate",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "enddate",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "ppt",
+                        "type": "double"
+                    },
+                    {
+                        "name": "hgconc",
+                        "type": "double"
+                    },
+                    {
+                        "name": "hgdep",
+                        "type": "double"
+                    },
+                    {
+                        "name": "crit1",
+                        "type": "int"
+                    },
+                    {
+                        "name": "crit2",
+                        "type": "int"
+                    },
+                    {
+                        "name": "crit3",
+                        "type": "int"
+                    },
+                    {
+                        "name": "samplecount",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "http://nadp.slh.wisc.edu/datalib/mdn/annual/MDN-all-a-i.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "missingValues": ["-9", "-9.00"]
+
+            },
+            "name": "mdn_all_a",
+            "path": "MDN-all-a.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "siteid",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "yr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "startdate",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "enddate",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "ppt",
+                        "type": "double"
+                    },
+                    {
+                        "name": "hgconc",
+                        "type": "double"
+                    },
+                    {
+                        "name": "hgdep",
+                        "type": "double"
+                    },
+                    {
+                        "name": "crit1",
+                        "type": "int"
+                    },
+                    {
+                        "name": "crit2",
+                        "type": "int"
+                    },
+                    {
+                        "name": "crit3",
+                        "type": "int"
+                    },
+                    {
+                        "name": "samplecount",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "http://nadp.slh.wisc.edu/datalib/mdn/annual/MDN-all-a.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "missingValues": ["-9", "-9.00"]
+
+            },
+            "name": "mdn_all_weekly_contaminated",
+            "path": "MDN-All-w-i.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "siteid",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "dateon",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "dateoff",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "yrmonth",
+                        "type": "int"
+                    },
+                    {
+                        "name": "sampletype",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "qr",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "notes",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "rgppt",
+                        "type": "double"
+                    },
+                    {
+                        "name": "svol",
+                        "type": "double"
+                    },
+                    {
+                        "name": "subppt",
+                        "type": "double"
+                    },
+                    {
+                        "name": "hgconc",
+                        "type": "double"
+                    },
+                    {
+                        "name": "hgdep",
+                        "type": "double"
+                    },
+                    {
+                        "name": "datemod",
+                        "size": "16",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "http://nadp.slh.wisc.edu/datalib/mdn/weekly/MDN-All-w-i.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "missingValues": ["-9", "-9.00"]
+
+            },
+            "name": "mdn_all_weekly",
+            "path": "MDN-All-w.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "siteid",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "dateon",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "dateoff",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "yrmonth",
+                        "type": "int"
+                    },
+                    {
+                        "name": "sampletype",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "qr",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "notes",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "rgppt",
+                        "type": "double"
+                    },
+                    {
+                        "name": "svol",
+                        "type": "double"
+                    },
+                    {
+                        "name": "subppt",
+                        "type": "double"
+                    },
+                    {
+                        "name": "hgconc",
+                        "type": "double"
+                    },
+                    {
+                        "name": "hgdep",
+                        "type": "double"
+                    },
+                    {
+                        "name": "datemod",
+                        "size": "16",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "http://nadp.slh.wisc.edu/datalib/mdn/weekly/MDN-All-w.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "missingValues": ["-9", "-9.00"]
+
+            },
+            "name": "mdnsites",
+            "path": "MDNsites.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "network",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "siteid",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "sitename",
+                        "size": "50",
+                        "type": "char"
+                    },
+                    {
+                        "name": "county",
+                        "size": "21",
+                        "type": "char"
+                    },
+                    {
+                        "name": "state",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "latitude",
+                        "type": "double"
+                    },
+                    {
+                        "name": "longitude",
+                        "type": "double"
+                    },
+                    {
+                        "name": "elevation",
+                        "type": "int"
+                    },
+                    {
+                        "name": "status",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "startdate",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "stopdate",
+                        "size": "16",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "http://nadp.slh.wisc.edu/data/sites/CSV/?net=MDN"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "missingValues": ["-9", "-9.00"]
+
+            },
+            "name": "airmon_all",
+            "path": "AIRMoN-ALL.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "siteid",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "labno",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "dateon",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "dateoff",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "subppt",
+                        "type": "double"
+                    },
+                    {
+                        "name": "pptnws",
+                        "type": "double"
+                    },
+                    {
+                        "name": "pptbel",
+                        "type": "double"
+                    },
+                    {
+                        "name": "svol",
+                        "type": "double"
+                    },
+                    {
+                        "name": "labtype",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "qrcode",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "sp",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "sl",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "phlab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "phfield",
+                        "type": "double"
+                    },
+                    {
+                        "name": "conduclab",
+                        "type": "double"
+                    },
+                    {
+                        "name": "conducfield",
+                        "type": "double"
+                    },
+                    {
+                        "name": "ca",
+                        "type": "double"
+                    },
+                    {
+                        "name": "mg",
+                        "type": "double"
+                    },
+                    {
+                        "name": "k",
+                        "type": "double"
+                    },
+                    {
+                        "name": "na",
+                        "type": "double"
+                    },
+                    {
+                        "name": "nh4",
+                        "type": "double"
+                    },
+                    {
+                        "name": "no3",
+                        "type": "double"
+                    },
+                    {
+                        "name": "cl",
+                        "type": "double"
+                    },
+                    {
+                        "name": "so4",
+                        "type": "double"
+                    },
+                    {
+                        "name": "po4",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "http://nadp.slh.wisc.edu/datalib/AIRMoN/AIRMoN-ALL.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "missingValues": ["-9", "-9.00"]
+
+            },
+            "name": "airmonsites",
+            "path": "AIRMONsites.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "network",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "siteid",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "sitename",
+                        "size": "23",
+                        "type": "char"
+                    },
+                    {
+                        "name": "county",
+                        "size": "12",
+                        "type": "char"
+                    },
+                    {
+                        "name": "state",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "latitude",
+                        "type": "double"
+                    },
+                    {
+                        "name": "longitude",
+                        "type": "double"
+                    },
+                    {
+                        "name": "elevation",
+                        "type": "int"
+                    },
+                    {
+                        "name": "status",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "startdate",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "stopdate",
+                        "size": "16",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "http://nadp.slh.wisc.edu/data/sites/CSV?net=AIRMoN"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "missingValues": ["-9", "-9.00"]
+
+            },
+            "archived": "zip",
+            "name": "amnet_all",
+            "path": "AMNet-ALL.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "siteid",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "collstart",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "collend",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "colltime",
+                        "type": "int"
+                    },
+                    {
+                        "name": "pbm",
+                        "type": "double"
+                    },
+                    {
+                        "name": "pbmval",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "gom",
+                        "type": "double"
+                    },
+                    {
+                        "name": "gomval",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "gem",
+                        "type": "double"
+                    },
+                    {
+                        "name": "gemvalpct",
+                        "type": "double"
+                    },
+                    {
+                        "name": "gemval",
+                        "size": "1",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "http://nadp.slh.wisc.edu/datalib/AMNet/AMNet-All.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "missingValues": ["-9", "-9.00"]
+
+            },
+            "name": "amnetsites",
+            "path": "AMNETsites.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "network",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "siteid",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "sitename",
+                        "size": "49",
+                        "type": "char"
+                    },
+                    {
+                        "name": "county",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "state",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "latitude",
+                        "type": "double"
+                    },
+                    {
+                        "name": "longitude",
+                        "type": "double"
+                    },
+                    {
+                        "name": "elevation",
+                        "type": "int"
+                    },
+                    {
+                        "name": "status",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "startdate",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "stopdate",
+                        "size": "16",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "http://nadp.slh.wisc.edu/data/sites/CSV?net=AMNet"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "missingValues": ["-9", "-9.00"]
+
+            },
+            "name": "amonsites",
+            "path": "AMONsites.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "network",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "siteid",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "sitename",
+                        "size": "43",
+                        "type": "char"
+                    },
+                    {
+                        "name": "county",
+                        "size": "19",
+                        "type": "char"
+                    },
+                    {
+                        "name": "state",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "latitude",
+                        "type": "double"
+                    },
+                    {
+                        "name": "longitude",
+                        "type": "double"
+                    },
+                    {
+                        "name": "elevation",
+                        "type": "int"
+                    },
+                    {
+                        "name": "status",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "startdate",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "stopdate",
+                        "size": "16",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "http://nadp.slh.wisc.edu/data/sites/CSV?net=AMoN"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "missingValues": ["-9", "-9.00"]
+
+            },
+            "name": "amon_data_all_rep",
+            "path": "all-rep.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "nadpid",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "siteid",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "replicate",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "startdate",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "enddate",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "exptime",
+                        "type": "int"
+                    },
+                    {
+                        "name": "airvol",
+                        "type": "double"
+                    },
+                    {
+                        "name": "extractvol",
+                        "type": "double"
+                    },
+                    {
+                        "name": "nh4",
+                        "type": "double"
+                    },
+                    {
+                        "name": "conc",
+                        "type": "double"
+                    },
+                    {
+                        "name": "qr",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "notes",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "chngdate",
+                        "size": "16",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "http://nadp.slh.wisc.edu/dataLib/AMoN/csv/all-rep.csv"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "The National Atmospheric Deposition Program (NADP) precipitation chemistry",
+    "version": "1.0.0"
+}

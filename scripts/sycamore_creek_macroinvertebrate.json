@@ -1,0 +1,112 @@
+{
+    "citation": "",
+    "description": "This data shows how long-term climate variability influences the structure and function of desert streams",
+    "homepage": "https://sustainability.asu.edu/caplter/data/view/knb-lter-cap.375.8/",
+    "keywords": ["biodiversity", "phoenix", "populations", "Biogeochemical Patterns", "climate", "floods", "long term", "arizona"],
+    "licenses": [{"name": ""}],
+    "name": "sycamore-creek-macroinvertebrate",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "insects",
+            "path": "266_insects_1.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "taxa_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "parallel",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "size_less2",
+                        "type": "int"
+                    },
+                    {
+                        "name": "size_2_5",
+                        "type": "int"
+                    },
+                    {
+                        "name": "size_greater5",
+                        "type": "int"
+                    },
+                    {
+                        "name": "sample_date",
+                        "size": "19",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "http://data.gios.asu.edu/datasets/cap/266_insects_1.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "macroinvertebrates",
+            "path": "375_macroinvertebrates.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sample_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "taxon_id",
+                        "size": "19",
+                        "type": "char"
+                    },
+                    {
+                        "name": "individuals",
+                        "type": "int"
+                    },
+                    {
+                        "name": "sample_date",
+                        "size": "12",
+                        "type": "char"
+                    },
+                    {
+                        "name": "days_past_flood",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "http://data.gios.asu.edu/datasets/cap/375_macroinvertebrates.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "insect_taxa",
+            "path": "266_insect_taxa_1.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "taxa",
+                        "size": "15",
+                        "type": "char"
+                    },
+                    {
+                        "name": "taxa_id",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "http://data.gios.asu.edu/datasets/cap/266_insects_1.csv"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "Sycamore Creek macroinvertebrate collections after flooding event",
+    "version": "1.0.0"
+}
+

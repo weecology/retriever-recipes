@@ -1,0 +1,1426 @@
+{
+    "citation": "",
+    "description": "The data is used towards understanding and predicting the potential effects of accelerated human activity on biological diversity and ecosystem sustainability",
+    "homepage": "https://foster.ku.edu/ltreb-datasets",
+    "keywords": ["LTREB", "community assembly", "Kansas"],
+    "licenses": [{"name": ""}],
+    "name": "foster-ltreb",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "e_two_plant_biomass",
+            "path": "E_two_Plant_biomass.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "uid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "month",
+                        "type": "int"
+                    },
+                    {
+                        "name": "block",
+                        "type": "int"
+                    },
+                    {
+                        "name": "subplot",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plot",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fert",
+                        "type": "int"
+                    },
+                    {
+                        "name": "seed",
+                        "type": "int"
+                    },
+                    {
+                        "name": "hay",
+                        "type": "int"
+                    },
+                    {
+                        "name": "live_biomass",
+                        "type": "double"
+                    },
+                    {
+                        "name": "litter_biomass",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "https://foster.ku.edu/sites/foster.ku.edu/files/files/E2%20Plant%20Biomass%206%2016.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "e_one_plant_biomass",
+            "path": "E_one_Plant_biomass.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "uid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "month",
+                        "type": "int"
+                    },
+                    {
+                        "name": "unit",
+                        "type": "int"
+                    },
+                    {
+                        "name": "block",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gradient",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plot",
+                        "type": "int"
+                    },
+                    {
+                        "name": "seed",
+                        "type": "int"
+                    },
+                    {
+                        "name": "n",
+                        "type": "int"
+                    },
+                    {
+                        "name": "p",
+                        "type": "int"
+                    },
+                    {
+                        "name": "live_biomass",
+                        "type": "double"
+                    },
+                    {
+                        "name": "litter_biomass",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "https://foster.ku.edu/sites/foster.ku.edu/files/files/E1%20Plant%20Biomass%206%2016.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "e_one_plant_species_compostion",
+            "path": "E_one_Plant_species_compostion.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "uid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "month",
+                        "type": "int"
+                    },
+                    {
+                        "name": "unit",
+                        "type": "int"
+                    },
+                    {
+                        "name": "block",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gradient",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plot",
+                        "type": "int"
+                    },
+                    {
+                        "name": "seed",
+                        "type": "int"
+                    },
+                    {
+                        "name": "n",
+                        "type": "int"
+                    },
+                    {
+                        "name": "p",
+                        "type": "int"
+                    },
+                    {
+                        "name": "acalypha_virginica",
+                        "type": "double"
+                    },
+                    {
+                        "name": "acer_rubrum",
+                        "type": "double"
+                    },
+                    {
+                        "name": "achillea_millefolium",
+                        "type": "double"
+                    },
+                    {
+                        "name": "agrostis_hyemalis",
+                        "type": "double"
+                    },
+                    {
+                        "name": "agrostis_species",
+                        "type": "int"
+                    },
+                    {
+                        "name": "ambrosia_artemisiifolia",
+                        "type": "double"
+                    },
+                    {
+                        "name": "amorpha_canescens",
+                        "type": "double"
+                    },
+                    {
+                        "name": "andropogon_gerardi",
+                        "type": "double"
+                    },
+                    {
+                        "name": "andropogon_virginicus",
+                        "type": "double"
+                    },
+                    {
+                        "name": "antennaria_neglecta",
+                        "type": "double"
+                    },
+                    {
+                        "name": "apocynum_cannabinum",
+                        "type": "double"
+                    },
+                    {
+                        "name": "arenaria_species",
+                        "type": "double"
+                    },
+                    {
+                        "name": "aristida_oligantha",
+                        "type": "double"
+                    },
+                    {
+                        "name": "artemisia_ludoviciana",
+                        "type": "double"
+                    },
+                    {
+                        "name": "asclepias_syriaca",
+                        "type": "double"
+                    },
+                    {
+                        "name": "asclepias_tuberosa",
+                        "type": "double"
+                    },
+                    {
+                        "name": "asclepias_verticillata",
+                        "type": "double"
+                    },
+                    {
+                        "name": "asclepias_viridis",
+                        "type": "double"
+                    },
+                    {
+                        "name": "astragalus_canadensis",
+                        "type": "double"
+                    },
+                    {
+                        "name": "symphyotrichum_ericoides",
+                        "type": "double"
+                    },
+                    {
+                        "name": "aster_species",
+                        "type": "double"
+                    },
+                    {
+                        "name": "symphyotrichum_novae_angliae",
+                        "type": "double"
+                    },
+                    {
+                        "name": "symphyotrichum_pilosum",
+                        "type": "double"
+                    },
+                    {
+                        "name": "symphyotrichum_praealtum",
+                        "type": "double"
+                    },
+                    {
+                        "name": "barbarea_vulgaris",
+                        "type": "double"
+                    },
+                    {
+                        "name": "bouteloua_curtipendula",
+                        "type": "double"
+                    },
+                    {
+                        "name": "bromus_inermis",
+                        "type": "double"
+                    },
+                    {
+                        "name": "carex_brevior",
+                        "type": "double"
+                    },
+                    {
+                        "name": "carex_bushii",
+                        "type": "double"
+                    },
+                    {
+                        "name": "carex_species",
+                        "type": "double"
+                    },
+                    {
+                        "name": "carduus_nutans",
+                        "type": "double"
+                    },
+                    {
+                        "name": "chamaecrista_fasciculata",
+                        "type": "double"
+                    },
+                    {
+                        "name": "celtis_occidentalis",
+                        "type": "double"
+                    },
+                    {
+                        "name": "cerastium_fontanum",
+                        "type": "double"
+                    },
+                    {
+                        "name": "cichorium_intybus",
+                        "type": "double"
+                    },
+                    {
+                        "name": "cirsium_altissimum",
+                        "type": "double"
+                    },
+                    {
+                        "name": "cirsium_arvense",
+                        "type": "double"
+                    },
+                    {
+                        "name": "cirsium_vulgare",
+                        "type": "double"
+                    },
+                    {
+                        "name": "convolvulus_arvensis",
+                        "type": "double"
+                    },
+                    {
+                        "name": "conyza_canadensis",
+                        "type": "double"
+                    },
+                    {
+                        "name": "cornus_drummondi",
+                        "type": "double"
+                    },
+                    {
+                        "name": "cynanchum_laeve",
+                        "type": "double"
+                    },
+                    {
+                        "name": "dactylis_glomerata",
+                        "type": "double"
+                    },
+                    {
+                        "name": "daucus_carota",
+                        "type": "double"
+                    },
+                    {
+                        "name": "desmodium_canadense",
+                        "type": "double"
+                    },
+                    {
+                        "name": "desmanthus_illinoensis",
+                        "type": "double"
+                    },
+                    {
+                        "name": "dichanthelium_species",
+                        "type": "double"
+                    },
+                    {
+                        "name": "dichanthelium_oliganthes",
+                        "type": "double"
+                    },
+                    {
+                        "name": "digitaria_sanguinalis",
+                        "type": "double"
+                    },
+                    {
+                        "name": "echinacea_pallida",
+                        "type": "double"
+                    },
+                    {
+                        "name": "elymus_canadensis",
+                        "type": "double"
+                    },
+                    {
+                        "name": "eragrostis_spectabilis",
+                        "type": "double"
+                    },
+                    {
+                        "name": "eragrostis_trichodes",
+                        "type": "double"
+                    },
+                    {
+                        "name": "erechtites_hieraciifolia",
+                        "type": "double"
+                    },
+                    {
+                        "name": "erigeron_annuus",
+                        "type": "double"
+                    },
+                    {
+                        "name": "erigeron_strigosus",
+                        "type": "double"
+                    },
+                    {
+                        "name": "eryngium_yuccifolium",
+                        "type": "double"
+                    },
+                    {
+                        "name": "eupatorium_altissimum",
+                        "type": "double"
+                    },
+                    {
+                        "name": "chamaesyce_maculata",
+                        "type": "double"
+                    },
+                    {
+                        "name": "chamaesyce_nutans",
+                        "type": "double"
+                    },
+                    {
+                        "name": "eupatorium_serotinum",
+                        "type": "double"
+                    },
+                    {
+                        "name": "schedonorus_arundinaceus",
+                        "type": "double"
+                    },
+                    {
+                        "name": "festuca_ovina",
+                        "type": "double"
+                    },
+                    {
+                        "name": "fragaria_virginiana",
+                        "type": "double"
+                    },
+                    {
+                        "name": "unknown_species_a",
+                        "type": "double"
+                    },
+                    {
+                        "name": "galium_species",
+                        "type": "double"
+                    },
+                    {
+                        "name": "gaura_longiflora",
+                        "type": "double"
+                    },
+                    {
+                        "name": "geranium_carolinianum",
+                        "type": "double"
+                    },
+                    {
+                        "name": "geum_canadense",
+                        "type": "double"
+                    },
+                    {
+                        "name": "gleditsia_triacanthos",
+                        "type": "double"
+                    },
+                    {
+                        "name": "pseudognaphalium_obtusifolium",
+                        "type": "double"
+                    },
+                    {
+                        "name": "hedeoma_hispida",
+                        "type": "double"
+                    },
+                    {
+                        "name": "helianthus_annuus",
+                        "type": "double"
+                    },
+                    {
+                        "name": "heliopsis_helianthoides",
+                        "type": "double"
+                    },
+                    {
+                        "name": "helianthus_maximiliani",
+                        "type": "double"
+                    },
+                    {
+                        "name": "helianthus_pauciflorus",
+                        "type": "int"
+                    },
+                    {
+                        "name": "hesperis_matronalis",
+                        "type": "double"
+                    },
+                    {
+                        "name": "hibiscus_trionum",
+                        "type": "double"
+                    },
+                    {
+                        "name": "ipomoea_lacunosa",
+                        "type": "double"
+                    },
+                    {
+                        "name": "iva_annua",
+                        "type": "double"
+                    },
+                    {
+                        "name": "juncus_species",
+                        "type": "double"
+                    },
+                    {
+                        "name": "juncus_interior",
+                        "type": "double"
+                    },
+                    {
+                        "name": "juniperus_virginiana",
+                        "type": "double"
+                    },
+                    {
+                        "name": "brickellia_eupatorioides",
+                        "type": "double"
+                    },
+                    {
+                        "name": "lactuca_canadensis",
+                        "type": "double"
+                    },
+                    {
+                        "name": "lactuca_saligna",
+                        "type": "double"
+                    },
+                    {
+                        "name": "lactuca_serriola",
+                        "type": "double"
+                    },
+                    {
+                        "name": "lactuca_species",
+                        "type": "double"
+                    },
+                    {
+                        "name": "lamium_amplexicaule",
+                        "type": "double"
+                    },
+                    {
+                        "name": "digitaria_cognata",
+                        "type": "double"
+                    },
+                    {
+                        "name": "lepidium_virginicum",
+                        "type": "double"
+                    },
+                    {
+                        "name": "lespedeza_capitata",
+                        "type": "double"
+                    },
+                    {
+                        "name": "lespedeza_cuneata",
+                        "type": "double"
+                    },
+                    {
+                        "name": "kummerowia_stipulacea",
+                        "type": "double"
+                    },
+                    {
+                        "name": "liatris_pycnostachya",
+                        "type": "double"
+                    },
+                    {
+                        "name": "linaria_vulgaris",
+                        "type": "double"
+                    },
+                    {
+                        "name": "medicago_sativa",
+                        "type": "double"
+                    },
+                    {
+                        "name": "melilotus_alba",
+                        "type": "double"
+                    },
+                    {
+                        "name": "melilotus_officinalis",
+                        "type": "double"
+                    },
+                    {
+                        "name": "mirabilis_nyctaginea",
+                        "type": "double"
+                    },
+                    {
+                        "name": "mollugo_verticillata",
+                        "type": "double"
+                    },
+                    {
+                        "name": "monarda_fistulosa",
+                        "type": "double"
+                    },
+                    {
+                        "name": "morus_alba",
+                        "type": "double"
+                    },
+                    {
+                        "name": "myosotis_verna",
+                        "type": "double"
+                    },
+                    {
+                        "name": "oenothera_biennis",
+                        "type": "double"
+                    },
+                    {
+                        "name": "oenothera_missouriensis",
+                        "type": "double"
+                    },
+                    {
+                        "name": "oxalis_stricta",
+                        "type": "double"
+                    },
+                    {
+                        "name": "panicum_capillare",
+                        "type": "double"
+                    },
+                    {
+                        "name": "panicum_virgatum",
+                        "type": "double"
+                    },
+                    {
+                        "name": "parthenocissus_quinquefolia",
+                        "type": "double"
+                    },
+                    {
+                        "name": "penstemon_albidus",
+                        "type": "double"
+                    },
+                    {
+                        "name": "dalea_candida",
+                        "type": "double"
+                    },
+                    {
+                        "name": "dalea_purpurea",
+                        "type": "double"
+                    },
+                    {
+                        "name": "phleum_pratense",
+                        "type": "double"
+                    },
+                    {
+                        "name": "physalis_pumila",
+                        "type": "double"
+                    },
+                    {
+                        "name": "physalis",
+                        "type": "double"
+                    },
+                    {
+                        "name": "poa_compressa",
+                        "type": "double"
+                    },
+                    {
+                        "name": "poa_pratensis",
+                        "type": "double"
+                    },
+                    {
+                        "name": "polygonum_convolvulus",
+                        "type": "double"
+                    },
+                    {
+                        "name": "polygonum_pensylvanicum",
+                        "type": "double"
+                    },
+                    {
+                        "name": "polygonum_ramosissimum",
+                        "type": "double"
+                    },
+                    {
+                        "name": "populus_deltoides",
+                        "type": "double"
+                    },
+                    {
+                        "name": "potentilla_recta",
+                        "type": "double"
+                    },
+                    {
+                        "name": "prunus",
+                        "type": "int"
+                    },
+                    {
+                        "name": "pycnanthemum_tenuifolium",
+                        "type": "double"
+                    },
+                    {
+                        "name": "ratibida_pinnata",
+                        "type": "double"
+                    },
+                    {
+                        "name": "rhus_typhina",
+                        "type": "double"
+                    },
+                    {
+                        "name": "robinia_pseudo_acacia",
+                        "type": "double"
+                    },
+                    {
+                        "name": "rubus",
+                        "type": "double"
+                    },
+                    {
+                        "name": "rudbeckia_hirta",
+                        "type": "double"
+                    },
+                    {
+                        "name": "rumex_crispus",
+                        "type": "double"
+                    },
+                    {
+                        "name": "salvia_azurea",
+                        "type": "double"
+                    },
+                    {
+                        "name": "schizachyrium_scoparium",
+                        "type": "double"
+                    },
+                    {
+                        "name": "setaria_faberii",
+                        "type": "double"
+                    },
+                    {
+                        "name": "setaria_glauca",
+                        "type": "double"
+                    },
+                    {
+                        "name": "sida_spinosa",
+                        "type": "double"
+                    },
+                    {
+                        "name": "silene_antirrhina",
+                        "type": "double"
+                    },
+                    {
+                        "name": "silphium_laciniatum",
+                        "type": "double"
+                    },
+                    {
+                        "name": "silphium_perfoliatum",
+                        "type": "double"
+                    },
+                    {
+                        "name": "solidago_canadensis",
+                        "type": "double"
+                    },
+                    {
+                        "name": "solanum_carolienense",
+                        "type": "double"
+                    },
+                    {
+                        "name": "euthamia_gymnospermoides",
+                        "type": "double"
+                    },
+                    {
+                        "name": "oligoneuron_rigidum",
+                        "type": "double"
+                    },
+                    {
+                        "name": "solanum_rostratum",
+                        "type": "double"
+                    },
+                    {
+                        "name": "sonchus_asper",
+                        "type": "double"
+                    },
+                    {
+                        "name": "sorghastrum_nutans",
+                        "type": "double"
+                    },
+                    {
+                        "name": "unknown_species_b",
+                        "type": "double"
+                    },
+                    {
+                        "name": "sporobolus_cryptandrus",
+                        "type": "double"
+                    },
+                    {
+                        "name": "stellaria_media",
+                        "type": "double"
+                    },
+                    {
+                        "name": "symphoricarpos_orbiculatus",
+                        "type": "double"
+                    },
+                    {
+                        "name": "taraxacum_officinale",
+                        "type": "double"
+                    },
+                    {
+                        "name": "teucrium_canadense",
+                        "type": "double"
+                    },
+                    {
+                        "name": "torilis_arvensis",
+                        "type": "double"
+                    },
+                    {
+                        "name": "toxicodendron_radicans",
+                        "type": "double"
+                    },
+                    {
+                        "name": "tragopogon_dubius",
+                        "type": "double"
+                    },
+                    {
+                        "name": "tripsacum_dactyloides",
+                        "type": "double"
+                    },
+                    {
+                        "name": "tridens_flavus",
+                        "type": "double"
+                    },
+                    {
+                        "name": "trifolium_pratense",
+                        "type": "double"
+                    },
+                    {
+                        "name": "trifolium_repens",
+                        "type": "double"
+                    },
+                    {
+                        "name": "ulmus_rubra",
+                        "type": "double"
+                    },
+                    {
+                        "name": "unknown_forb_a",
+                        "type": "double"
+                    },
+                    {
+                        "name": "unknown_grass_a",
+                        "type": "double"
+                    },
+                    {
+                        "name": "unknown_species_c",
+                        "type": "double"
+                    },
+                    {
+                        "name": "unknown_species_c_extra",
+                        "type": "double"
+                    },
+                    {
+                        "name": "unknown_woody_a",
+                        "type": "double"
+                    },
+                    {
+                        "name": "vernonia_baldwini",
+                        "type": "double"
+                    },
+                    {
+                        "name": "veronica_peregrina",
+                        "type": "double"
+                    },
+                    {
+                        "name": "verbena_stricta",
+                        "type": "double"
+                    },
+                    {
+                        "name": "verbascum_thapsus",
+                        "type": "double"
+                    },
+                    {
+                        "name": "verbena_urticifolia",
+                        "type": "double"
+                    },
+                    {
+                        "name": "vicia_villosa",
+                        "type": "double"
+                    },
+                    {
+                        "name": "vitis",
+                        "type": "double"
+                    },
+                    {
+                        "name": "zizia_aurea",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "https://foster.ku.edu/sites/foster.ku.edu/files/files/E1%20Plant%20Species%20Compostion%206%2016.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "e_two_plant_species_composition",
+            "path": "E_two_Plant Species_composition.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "uid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "month",
+                        "type": "int"
+                    },
+                    {
+                        "name": "block",
+                        "type": "int"
+                    },
+                    {
+                        "name": "mainplot",
+                        "type": "int"
+                    },
+                    {
+                        "name": "subplot",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fert",
+                        "type": "int"
+                    },
+                    {
+                        "name": "seed",
+                        "type": "int"
+                    },
+                    {
+                        "name": "hay",
+                        "type": "int"
+                    },
+                    {
+                        "name": "acalypha_virginica",
+                        "type": "double"
+                    },
+                    {
+                        "name": "acer_rubrum",
+                        "type": "double"
+                    },
+                    {
+                        "name": "achillea_millefolium",
+                        "type": "double"
+                    },
+                    {
+                        "name": "agrostis_species",
+                        "type": "double"
+                    },
+                    {
+                        "name": "ambrosia_artemisiifolia",
+                        "type": "double"
+                    },
+                    {
+                        "name": "amorpha_canescens",
+                        "type": "double"
+                    },
+                    {
+                        "name": "andropogon_gerardi",
+                        "type": "double"
+                    },
+                    {
+                        "name": "andropogon_virginicus",
+                        "type": "double"
+                    },
+                    {
+                        "name": "antennaria_neglecta",
+                        "type": "double"
+                    },
+                    {
+                        "name": "apocynum_cannabinum",
+                        "type": "double"
+                    },
+                    {
+                        "name": "arenaria_species",
+                        "type": "double"
+                    },
+                    {
+                        "name": "aristida_oligantha",
+                        "type": "double"
+                    },
+                    {
+                        "name": "asclepias_syriaca",
+                        "type": "double"
+                    },
+                    {
+                        "name": "asclepias_tuberosa",
+                        "type": "double"
+                    },
+                    {
+                        "name": "asclepias_verticillata",
+                        "type": "double"
+                    },
+                    {
+                        "name": "asclepias_viridis",
+                        "type": "double"
+                    },
+                    {
+                        "name": "aster_species",
+                        "type": "double"
+                    },
+                    {
+                        "name": "symphyotrichum_novae_angliae",
+                        "type": "double"
+                    },
+                    {
+                        "name": "symphyotrichum_pilosum",
+                        "type": "double"
+                    },
+                    {
+                        "name": "symphyotrichum_praealtum",
+                        "type": "double"
+                    },
+                    {
+                        "name": "bouteloua_curtipendula",
+                        "type": "double"
+                    },
+                    {
+                        "name": "bouteloua_gracilis",
+                        "type": "double"
+                    },
+                    {
+                        "name": "bromus_inermis",
+                        "type": "double"
+                    },
+                    {
+                        "name": "bromus_tectorum",
+                        "type": "double"
+                    },
+                    {
+                        "name": "carex_species",
+                        "type": "double"
+                    },
+                    {
+                        "name": "carduus_nutans",
+                        "type": "double"
+                    },
+                    {
+                        "name": "carex_pensylvanica",
+                        "type": "double"
+                    },
+                    {
+                        "name": "chamaecrista_fasciculata",
+                        "type": "double"
+                    },
+                    {
+                        "name": "cerastium_fontanum",
+                        "type": "double"
+                    },
+                    {
+                        "name": "leucanthemum_vulgare",
+                        "type": "double"
+                    },
+                    {
+                        "name": "cirsium_altissimum",
+                        "type": "double"
+                    },
+                    {
+                        "name": "cirsium_vulgare",
+                        "type": "double"
+                    },
+                    {
+                        "name": "conyza_canadensis",
+                        "type": "double"
+                    },
+                    {
+                        "name": "cornus_drummondi",
+                        "type": "double"
+                    },
+                    {
+                        "name": "croton_capitatus",
+                        "type": "double"
+                    },
+                    {
+                        "name": "cornus_drummondii",
+                        "type": "double"
+                    },
+                    {
+                        "name": "desmodium_species",
+                        "type": "double"
+                    },
+                    {
+                        "name": "desmodium_canadense",
+                        "type": "double"
+                    },
+                    {
+                        "name": "desmanthus_illinoensis",
+                        "type": "double"
+                    },
+                    {
+                        "name": "dichanthelium_acuminatum",
+                        "type": "double"
+                    },
+                    {
+                        "name": "dichanthelium_oliganthes",
+                        "type": "double"
+                    },
+                    {
+                        "name": "digitaria_species",
+                        "type": "double"
+                    },
+                    {
+                        "name": "echinacea_pallida",
+                        "type": "double"
+                    },
+                    {
+                        "name": "echinacea_purpurea",
+                        "type": "double"
+                    },
+                    {
+                        "name": "eragrostis_spectabilis",
+                        "type": "double"
+                    },
+                    {
+                        "name": "erigeron_strigosus",
+                        "type": "double"
+                    },
+                    {
+                        "name": "eryngium_yuccifolium",
+                        "type": "double"
+                    },
+                    {
+                        "name": "eupatorium_altissimum",
+                        "type": "double"
+                    },
+                    {
+                        "name": "chamaesyce_maculata",
+                        "type": "double"
+                    },
+                    {
+                        "name": "eupatorium_serotinum",
+                        "type": "double"
+                    },
+                    {
+                        "name": "schedonorus_arundinaceus",
+                        "type": "double"
+                    },
+                    {
+                        "name": "fragaria_virginiana",
+                        "type": "double"
+                    },
+                    {
+                        "name": "galium_species",
+                        "type": "double"
+                    },
+                    {
+                        "name": "pseudognaphalium_obtusifolium",
+                        "type": "double"
+                    },
+                    {
+                        "name": "hedeoma_hispida",
+                        "type": "double"
+                    },
+                    {
+                        "name": "heliopsis_helianthoides",
+                        "type": "double"
+                    },
+                    {
+                        "name": "helianthus_maximiliani",
+                        "type": "double"
+                    },
+                    {
+                        "name": "hypericum_perforatum",
+                        "type": "double"
+                    },
+                    {
+                        "name": "juncus_species",
+                        "type": "double"
+                    },
+                    {
+                        "name": "juncus_tenuis",
+                        "type": "double"
+                    },
+                    {
+                        "name": "juniperus_virginiana",
+                        "type": "double"
+                    },
+                    {
+                        "name": "brickellia_eupatorioides",
+                        "type": "double"
+                    },
+                    {
+                        "name": "lactuca_species",
+                        "type": "double"
+                    },
+                    {
+                        "name": "lamium_amplexicaule",
+                        "type": "double"
+                    },
+                    {
+                        "name": "digitaria_cognata",
+                        "type": "double"
+                    },
+                    {
+                        "name": "lepidium_virginicum",
+                        "type": "double"
+                    },
+                    {
+                        "name": "lespedeza_capitata",
+                        "type": "double"
+                    },
+                    {
+                        "name": "lespedeza_cuneata",
+                        "type": "double"
+                    },
+                    {
+                        "name": "kummerowia_stipulacea",
+                        "type": "double"
+                    },
+                    {
+                        "name": "liatris_pycnostachya",
+                        "type": "double"
+                    },
+                    {
+                        "name": "linaria_vulgaris",
+                        "type": "double"
+                    },
+                    {
+                        "name": "medicago_lupulina",
+                        "type": "double"
+                    },
+                    {
+                        "name": "monarda_fistulosa",
+                        "type": "double"
+                    },
+                    {
+                        "name": "myosotis_verna",
+                        "type": "double"
+                    },
+                    {
+                        "name": "unkforbe",
+                        "type": "double"
+                    },
+                    {
+                        "name": "oxalis_stricta",
+                        "type": "double"
+                    },
+                    {
+                        "name": "panicum_capillare",
+                        "type": "double"
+                    },
+                    {
+                        "name": "panicum_virgatum",
+                        "type": "double"
+                    },
+                    {
+                        "name": "penstemon_albidus",
+                        "type": "double"
+                    },
+                    {
+                        "name": "penstemon_digitalis",
+                        "type": "double"
+                    },
+                    {
+                        "name": "dalea_candida",
+                        "type": "double"
+                    },
+                    {
+                        "name": "dalea_purpurea",
+                        "type": "double"
+                    },
+                    {
+                        "name": "phleum_pratense",
+                        "type": "double"
+                    },
+                    {
+                        "name": "physalis_pumila",
+                        "type": "double"
+                    },
+                    {
+                        "name": "physalis_species",
+                        "type": "double"
+                    },
+                    {
+                        "name": "physalis_pubescens",
+                        "type": "double"
+                    },
+                    {
+                        "name": "plantago_species",
+                        "type": "double"
+                    },
+                    {
+                        "name": "poa_compressa",
+                        "type": "double"
+                    },
+                    {
+                        "name": "poa_pratensis",
+                        "type": "double"
+                    },
+                    {
+                        "name": "polygonum_pennsylvanicum",
+                        "type": "double"
+                    },
+                    {
+                        "name": "polygonum_persicaria",
+                        "type": "double"
+                    },
+                    {
+                        "name": "potentilla_recta",
+                        "type": "double"
+                    },
+                    {
+                        "name": "ratibida_columnifera",
+                        "type": "double"
+                    },
+                    {
+                        "name": "ratibida_pinnata",
+                        "type": "double"
+                    },
+                    {
+                        "name": "rubus_species",
+                        "type": "double"
+                    },
+                    {
+                        "name": "rudbeckia_hirta",
+                        "type": "double"
+                    },
+                    {
+                        "name": "rumex_crispus",
+                        "type": "double"
+                    },
+                    {
+                        "name": "salvia_azurea",
+                        "type": "double"
+                    },
+                    {
+                        "name": "schizachyrium_scoparium",
+                        "type": "double"
+                    },
+                    {
+                        "name": "senna_marilandica",
+                        "type": "double"
+                    },
+                    {
+                        "name": "solidago_canadensis",
+                        "type": "double"
+                    },
+                    {
+                        "name": "solanum_carolienense",
+                        "type": "double"
+                    },
+                    {
+                        "name": "euthamia_gymnospermoides",
+                        "type": "double"
+                    },
+                    {
+                        "name": "oligoneuron_rigidum",
+                        "type": "double"
+                    },
+                    {
+                        "name": "sorghastrum_nutans",
+                        "type": "double"
+                    },
+                    {
+                        "name": "sporobolus_cryptandrus",
+                        "type": "double"
+                    },
+                    {
+                        "name": "stellaria_media",
+                        "type": "double"
+                    },
+                    {
+                        "name": "symphoricarpos_orbiculatus",
+                        "type": "double"
+                    },
+                    {
+                        "name": "teucrium_canadense",
+                        "type": "double"
+                    },
+                    {
+                        "name": "toxicodendron_radicans",
+                        "type": "double"
+                    },
+                    {
+                        "name": "tragopogon_dubius",
+                        "type": "double"
+                    },
+                    {
+                        "name": "tridens_flavus",
+                        "type": "double"
+                    },
+                    {
+                        "name": "trifolium_pratense",
+                        "type": "double"
+                    },
+                    {
+                        "name": "trifolium_repens",
+                        "type": "double"
+                    },
+                    {
+                        "name": "tripsacum_dactyloides",
+                        "type": "double"
+                    },
+                    {
+                        "name": "ulmus_rubra",
+                        "type": "double"
+                    },
+                    {
+                        "name": "verbascum_thapsus",
+                        "type": "double"
+                    },
+                    {
+                        "name": "unkforba",
+                        "type": "double"
+                    },
+                    {
+                        "name": "unkforbb",
+                        "type": "double"
+                    },
+                    {
+                        "name": "unkforbc",
+                        "type": "double"
+                    },
+                    {
+                        "name": "unkforbd",
+                        "type": "double"
+                    },
+                    {
+                        "name": "unkgrass",
+                        "type": "double"
+                    },
+                    {
+                        "name": "vernonia_baldwini",
+                        "type": "double"
+                    },
+                    {
+                        "name": "verbena_hastata",
+                        "type": "double"
+                    },
+                    {
+                        "name": "veronica_peregrina",
+                        "type": "double"
+                    },
+                    {
+                        "name": "verbena_stricta",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "https://foster.ku.edu/sites/foster.ku.edu/files/files/E2%20Plant%20Species%20Composition%206%2016.csv"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "Long-term studies of secondary succession and community assembly in the prairie-forest ecotone of eastern Kansas (NSF LTREB # 0950100)",
+    "version": "1.0.0"
+}

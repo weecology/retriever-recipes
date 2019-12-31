@@ -1,0 +1,340 @@
+{
+    "citation": "Levitan, D.R., Edmunds, P.J. & Levitan, K.E. Oecologia (2014) 175: 117. https://doi.org/10.1007/s00442-013-2871-9",
+    "description": "Long-term Coral Reef Community Dynamics, St. John, Virgin Islands National Park, CSUN. http://coralreefs.csun.edu/legal/use-policy/",
+    "homepage": "http://coralreefs.csun.edu/data/data-catalogue/",
+    "keywords": ["Virgin Islands", "Coral Reef", "Time Series", "Scleractinia", "Scleractinian Coral", "Community", "Demographics", "Community Dynamics", "Population Dynamics"],
+    "licenses": [{"name": "CC BY 4.0"}],
+    "name": "virgin-islands-coral-diadema-antillarum",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "fig1a",
+            "path": "CSUN_USVI_Diadema_Oecologia_Fig1A.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "site",
+                        "size": "29",
+                        "type": "char"
+                    },
+                    {
+                        "name": "year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "depth",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "density",
+                        "size": "5",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "http://mcrlter.msi.ucsb.edu/external/vinp/coral/.data/knb-csun-usvi.109/CSUN_USVI_Diadema_Oecologia_Fig1A.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "fig1b",
+            "path": "CSUN_USVI_Diadema_Oecologia_Fig1B.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "site",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "avg_diameter",
+                        "type": "double"
+                    },
+                    {
+                        "name": "max_diameter",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "http://mcrlter.msi.ucsb.edu/external/vinp/coral/.data/knb-csun-usvi.109/CSUN_USVI_Diadema_Oecologia_Fig1B.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "fig1c",
+            "path": "CSUN_USVI_Diadema_Oecologia_Fig1C.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "site",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "depth",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "mortality",
+                        "type": "double"
+                    },
+                    {
+                        "name": "recruitment",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "http://mcrlter.msi.ucsb.edu/external/vinp/coral/.data/knb-csun-usvi.109/CSUN_USVI_Diadema_Oecologia_Fig1C.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "fig2",
+            "path": "CSUN_USVI_Diadema_Oecologia_Fig2.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "site",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "depth",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "density",
+                        "type": "double"
+                    },
+                    {
+                        "name": "survey_type",
+                        "size": "9",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "http://mcrlter.msi.ucsb.edu/external/vinp/coral/.data/knb-csun-usvi.109/CSUN_USVI_Diadema_Oecologia_Fig2.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "fig3a",
+            "path": "CSUN_USVI_Diadema_Oecologia_Fig3A.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "site",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "adults_count",
+                        "type": "int"
+                    },
+                    {
+                        "name": "juveniles_count",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "http://mcrlter.msi.ucsb.edu/external/vinp/coral/.data/knb-csun-usvi.109/CSUN_USVI_Diadema_Oecologia_Fig3A.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "csun_usvi_diadema_oecologia_fig3b",
+            "path": "CSUN_USVI_Diadema_Oecologia_Fig3B.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "site",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "closest_urchin_distance",
+                        "type": "int"
+                    },
+                    {
+                        "name": "algal_dry_weight",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "http://mcrlter.msi.ucsb.edu/external/vinp/coral/.data/knb-csun-usvi.109/CSUN_USVI_Diadema_Oecologia_Fig3B.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "fig3c",
+            "path": "CSUN_USVI_Diadema_Oecologia_Fig3C.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "count_per_quadrat",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "site",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "count",
+                        "size": "2",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "http://mcrlter.msi.ucsb.edu/external/vinp/coral/.data/knb-csun-usvi.109/CSUN_USVI_Diadema_Oecologia_Fig3C.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "fig4ab",
+            "path": "CSUN_USVI_Diadema_Oecologia_Fig4AB.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "site",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "adults_count",
+                        "type": "int"
+                    },
+                    {
+                        "name": "juveniles_count",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "http://mcrlter.msi.ucsb.edu/external/vinp/coral/.data/knb-csun-usvi.109/CSUN_USVI_Diadema_Oecologia_Fig4AB.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "fig4cd",
+            "path": "CSUN_USVI_Diadema_Oecologia_Fig4CD.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "site",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "annual_mortality",
+                        "type": "double"
+                    },
+                    {
+                        "name": "prior_year_density",
+                        "size": "5",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "http://mcrlter.msi.ucsb.edu/external/vinp/coral/.data/knb-csun-usvi.109/CSUN_USVI_Diadema_Oecologia_Fig4CD.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "fig5a",
+            "path": "CSUN_USVI_Diadema_Oecologia_Fig5A.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "site",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "density",
+                        "type": "double"
+                    },
+                    {
+                        "name": "predicted_density",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "http://mcrlter.msi.ucsb.edu/external/vinp/coral/.data/knb-csun-usvi.109/CSUN_USVI_Diadema_Oecologia_Fig5A.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "fig5b",
+            "path": "CSUN_USVI_Diadema_Oecologia_Fig5B.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "ann0al_recr0itment",
+                        "type": "double"
+                    },
+                    {
+                        "name": "ann0al_mortality",
+                        "type": "double"
+                    },
+                    {
+                        "name": "eq0ilibri0m_density",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "http://mcrlter.msi.ucsb.edu/external/vinp/coral/.data/knb-csun-usvi.109/CSUN_USVI_Diadema_Oecologia_Fig5B.csv"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "Virgin Islands National Park: Population Dynamics of Diadema antillarum",
+    "version": "1.0.0"
+}

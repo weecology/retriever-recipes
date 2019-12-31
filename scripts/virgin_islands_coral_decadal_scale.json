@@ -1,0 +1,329 @@
+{
+    "citation": "Edmunds PJ (2013) Decadal-scale changes in the community structure of coral reefs of St. John, US Virgin Islands. Mar Ecol Prog Ser 489:107-123. https://doi.org/10.3354/meps10424",
+    "description": "Long-term Coral Reef Community Dynamics, Coral Time-Series Data from St John and St Thomas Islands,  http://coralreefs.csun.edu/legal/use-policy/",
+    "homepage": "http://coralreefs.csun.edu/data/data-catalogue/",
+    "keywords": ["Virgin Islands", "Coral Reef", "Time Series", "Ecology", "Scleractinia Community Ecology"],
+    "licenses": [{"name": "CC BY 4.0"}],
+    "name": "virgin-islands-coral-decadal-scale",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "fig1a",
+            "path": "CSUN_USVI_Edmunds_MEPS_fig1A.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "site",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "record_date",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "quadrat",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "date_code",
+                        "type": "int"
+                    },
+                    {
+                        "name": "percent_coral",
+                        "type": "double"
+                    },
+                    {
+                        "name": "percent_macroalgae",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "percent_ctb",
+                        "size": "4",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "http://mcrlter.msi.ucsb.edu/external/vinp/coral/.data/knb-csun-usvi.107/CSUN_USVI_Edmunds_MEPS_fig1A.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "fig1b",
+            "path": "CSUN_USVI_Edmunds_MEPS_fig1B.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "site",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "record_date",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "quadrat",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "date_code",
+                        "type": "int"
+                    },
+                    {
+                        "name": "percent_coral",
+                        "type": "double"
+                    },
+                    {
+                        "name": "percent_macroalgae",
+                        "type": "double"
+                    },
+                    {
+                        "name": "percent_ctb",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "http://mcrlter.msi.ucsb.edu/external/vinp/coral/.data/knb-csun-usvi.107/CSUN_USVI_Edmunds_MEPS_fig1B.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "fig1c",
+            "path": "CSUN_USVI_Edmunds_MEPS_fig1C.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "site",
+                        "size": "20",
+                        "type": "char"
+                    },
+                    {
+                        "name": "year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "date_code",
+                        "type": "int"
+                    },
+                    {
+                        "name": "quadrat",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "percent_coral",
+                        "type": "double"
+                    },
+                    {
+                        "name": "percent_macroalgae",
+                        "type": "double"
+                    },
+                    {
+                        "name": "percent_ctb",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "http://mcrlter.msi.ucsb.edu/external/vinp/coral/.data/knb-csun-usvi.107/CSUN_USVI_Edmunds_MEPS_fig1C.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "fig2",
+            "path": "CSUN_USVI_Edmunds_MEPS_fig2.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "site",
+                        "size": "20",
+                        "type": "char"
+                    },
+                    {
+                        "name": "year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "date_code",
+                        "type": "int"
+                    },
+                    {
+                        "name": "quadrat",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "montastrea",
+                        "type": "double"
+                    },
+                    {
+                        "name": "agaricia",
+                        "type": "double"
+                    },
+                    {
+                        "name": "dichocoenia",
+                        "type": "double"
+                    },
+                    {
+                        "name": "diploria",
+                        "type": "double"
+                    },
+                    {
+                        "name": "porites",
+                        "type": "double"
+                    },
+                    {
+                        "name": "stephanocoenia",
+                        "type": "double"
+                    },
+                    {
+                        "name": "siderastrea",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "http://mcrlter.msi.ucsb.edu/external/vinp/coral/.data/knb-csun-usvi.107/CSUN_USVI_Edmunds_MEPS_fig2.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "fig2sup",
+            "path": "CSUN_USVI_Edmunds_MEPS_fig2Sup.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "site",
+                        "size": "12",
+                        "type": "char"
+                    },
+                    {
+                        "name": "record_date",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "temperature",
+                        "type": "double"
+                    },
+                    {
+                        "name": "source",
+                        "size": "8",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "http://mcrlter.msi.ucsb.edu/external/vinp/coral/.data/knb-csun-usvi.107/CSUN_USVI_Edmunds_MEPS_fig2Sup.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "fig3and4",
+            "path": "CSUN_USVI_Edmunds_MEPS_fig3and4.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "small_colonies",
+                        "type": "int"
+                    },
+                    {
+                        "name": "juvenile_corals",
+                        "type": "int"
+                    },
+                    {
+                        "name": "agaricia",
+                        "type": "int"
+                    },
+                    {
+                        "name": "diplora",
+                        "type": "int"
+                    },
+                    {
+                        "name": "favia",
+                        "type": "int"
+                    },
+                    {
+                        "name": "montastraea",
+                        "type": "int"
+                    },
+                    {
+                        "name": "porites",
+                        "type": "int"
+                    },
+                    {
+                        "name": "siderastrea_small_colonies",
+                        "type": "int"
+                    },
+                    {
+                        "name": "siderastrea_siderea",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "http://mcrlter.msi.ucsb.edu/external/vinp/coral/.data/knb-csun-usvi.107/CSUN_USVI_Edmunds_MEPS_fig3and4.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "fig3sup",
+            "path": "CSUN_USVI_Edmunds_MEPS_fig3Sup.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "porites",
+                        "type": "int"
+                    },
+                    {
+                        "name": "favia",
+                        "type": "int"
+                    },
+                    {
+                        "name": "siderasrea_radians",
+                        "type": "int"
+                    },
+                    {
+                        "name": "siderastea_siderea",
+                        "type": "int"
+                    },
+                    {
+                        "name": "diplora",
+                        "type": "int"
+                    },
+                    {
+                        "name": "agaricia",
+                        "type": "int"
+                    },
+                    {
+                        "name": "montastraea",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "http://mcrlter.msi.ucsb.edu/external/vinp/coral/.data/knb-csun-usvi.107/CSUN_USVI_Edmunds_MEPS_fig3Sup.csv"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "Virgin Islands National Park: Coral Reef: Decadal-scale changes in community structure from 1987 to 2011",
+    "version": "1.0.0"
+}

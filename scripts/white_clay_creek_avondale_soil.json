@@ -1,0 +1,250 @@
+{
+    "citation": "Bell, J.E., M.A. Palecki, C.B. Baker, W.G. Collins, J.H. Lawrimore, R.D. Leeper, M.E. Hall, J. Kochendorfer, T.P. Meyers, T. Wilson, and H.J. Diamond. 2013: U.S. Climate Reference Network Soil Moisture and Temperature Observations. J. Hydrometeorol., doi: 10.1175/JHM-D-12-0146.1. See http://www.ncdc.noaa.gov/crn/publications.html.",
+    "description": "The U.S. Climate Reference Network (USCRN) developed by the National Oceanic and Atmospheric Administration (NOAA) provide future long-term homogeneous temperature and precipitation observations that can be coupled to long-term historical observations for the detection and attribution of present and future climate change.",
+    "homepage": "https://czo.stroudcenter.org/data/pa-avondale-2n-soil-moisture-soil-temperature-noaa-crn-2011-2013/",
+    "keywords": ["climate", "Volumetric water content", "Temperature", "Soil Moisture", "Soil", "white clay creek", "stroud water research cente"],
+    "licenses": [{"name": ""}],
+    "name": "white-clay-creek-avondale-soil",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ",",
+                "missingValues": ["-9999"],
+                "header_rows": 38
+            },
+            "name": "swrccrn_2014_hourly_soil",
+            "path": "SWRCCRN_2014_HOURLY_SOIL.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "date_time",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "soil_moisture_5cm",
+                        "type": "double"
+                    },
+                    {
+                        "name": "soil_moisture_10cm",
+                        "type": "double"
+                    },
+                    {
+                        "name": "soil_moisture_20cm",
+                        "type": "double"
+                    },
+                    {
+                        "name": "soil_moisture_50cm",
+                        "type": "double"
+                    },
+                    {
+                        "name": "soil_moisture_100cm",
+                        "type": "double"
+                    },
+                    {
+                        "name": "soil_temperature_5cm",
+                        "type": "double"
+                    },
+                    {
+                        "name": "soil_temperature_10cm",
+                        "type": "double"
+                    },
+                    {
+                        "name": "soil_temperature_20cm",
+                        "type": "double"
+                    },
+                    {
+                        "name": "soil_temperature_50cm",
+                        "type": "double"
+                    },
+                    {
+                        "name": "soil_temperature_100cm",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "https://czo.stroudcenter.org/data/wp-content/uploads/sites/5/2015/07/SWRCCRN_2014_HOURLY_SOIL.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "missingValues": ["-9999"],
+                "header_rows": 6
+            },
+            "name": "swrccrn_2013_hourly_soil_data",
+            "path": "SWRCCRN_2013_HOURLY_SOIL_DATA.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "date_time",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "soil_moisture_5cm",
+                        "type": "double"
+                    },
+                    {
+                        "name": "soil_moisture_10cm",
+                        "type": "double"
+                    },
+                    {
+                        "name": "soil_moisture_20cm",
+                        "type": "double"
+                    },
+                    {
+                        "name": "soil_moisture_50cm",
+                        "type": "double"
+                    },
+                    {
+                        "name": "soil_moisture_100cm",
+                        "type": "double"
+                    },
+                    {
+                        "name": "soil_temperature_5cm",
+                        "type": "double"
+                    },
+                    {
+                        "name": "soil_temperature_10cm",
+                        "type": "double"
+                    },
+                    {
+                        "name": "soil_temperature_20cm",
+                        "type": "double"
+                    },
+                    {
+                        "name": "soil_temperature_50cm",
+                        "type": "double"
+                    },
+                    {
+                        "name": "soil_temperature_100cm",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "https://czo.stroudcenter.org/data/wp-content/uploads/sites/5/2014/10/SWRCCRN_2013_HOURLY_SOIL_DATA.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "missingValues": ["-9999"],
+                "header_rows": 38
+            },
+            "name": "swrccrn_2015_hourly_soil",
+            "path": "SWRCCRN_2015_HOURLY_SOIL.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "date_time",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "soil_moisture_5cm",
+                        "type": "double"
+                    },
+                    {
+                        "name": "soil_moisture_10cm",
+                        "type": "double"
+                    },
+                    {
+                        "name": "soil_moisture_20cm",
+                        "type": "double"
+                    },
+                    {
+                        "name": "soil_moisture_50cm",
+                        "type": "double"
+                    },
+                    {
+                        "name": "soil_moisture_100cm",
+                        "type": "double"
+                    },
+                    {
+                        "name": "soil_temperature_5cm",
+                        "type": "double"
+                    },
+                    {
+                        "name": "soil_temperature_10cm",
+                        "type": "double"
+                    },
+                    {
+                        "name": "soil_temperature_20cm",
+                        "type": "double"
+                    },
+                    {
+                        "name": "soil_temperature_50cm",
+                        "type": "double"
+                    },
+                    {
+                        "name": "soil_temperature_100cm",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "https://czo.stroudcenter.org/data/wp-content/uploads/sites/5/2015/07/SWRCCRN_2015_HOURLY_SOIL.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "missingValues": ["-9999"],
+                "header_rows": 6
+            },
+            "name": "swrccrn_2012_hourly_soil_data",
+            "path": "SWRCCRN_2012_HOURLY_SOIL_DATA.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "date_time",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "soil_moisture_5cm",
+                        "type": "double"
+                    },
+                    {
+                        "name": "soil_moisture_10cm",
+                        "type": "double"
+                    },
+                    {
+                        "name": "soil_moisture_20cm",
+                        "type": "double"
+                    },
+                    {
+                        "name": "soil_moisture_50cm",
+                        "type": "double"
+                    },
+                    {
+                        "name": "soil_moisture_100cm",
+                        "type": "double"
+                    },
+                    {
+                        "name": "soil_temperature_5cm",
+                        "type": "double"
+                    },
+                    {
+                        "name": "soil_temperature_10cm",
+                        "type": "double"
+                    },
+                    {
+                        "name": "soil_temperature_20cm",
+                        "type": "double"
+                    },
+                    {
+                        "name": "soil_temperature_50cm",
+                        "type": "double"
+                    },
+                    {
+                        "name": "soil_temperature_100cm",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "https://czo.stroudcenter.org/data/wp-content/uploads/sites/5/2014/10/SWRCCRN_2012_HOURLY_SOIL_DATA.csv"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "PA Avondale 2N - Soil Moisture, Soil Temperature - NOAA CRN (2011-2015)",
+    "version": "1.0.0"
+}

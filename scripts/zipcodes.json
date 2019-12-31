@@ -1,0 +1,183 @@
+{
+    "citation": "Coven, D. S., (2012). Free Zipcode Database: [Unique Zipcode | All Locations data file]. Retrieved from http://federalgovernmentzipcodes.us ",
+    "description": "Zipcode data",
+    "homepage": "http://federalgovernmentzipcodes.us/license.html",
+    "keywords": ["zipcodes", "spatial"],
+    "licenses": [{"name": ""}],
+    "name": "zipcodes",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "free_zipcode_database",
+            "path": "free-zipcode-database.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "recordnumber",
+                        "type": "int"
+                    },
+                    {
+                        "name": "zipcode",
+                        "type": "int"
+                    },
+                    {
+                        "name": "zipcodetype",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "city",
+                        "size": "28",
+                        "type": "char"
+                    },
+                    {
+                        "name": "state",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "locationtype",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "lat",
+                        "type": "double"
+                    },
+                    {
+                        "name": "lon",
+                        "type": "double"
+                    },
+                    {
+                        "name": "xaxis",
+                        "size": "50,30",
+                        "type": "decimal"
+                    },
+                    {
+                        "name": "yaxis",
+                        "type": "double"
+                    },
+                    {
+                        "name": "zaxis",
+                        "type": "double"
+                    },
+                    {
+                        "name": "worldregion",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "country",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "locationtext",
+                        "size": "32",
+                        "type": "char"
+                    },
+                    {
+                        "name": "location",
+                        "size": "52",
+                        "type": "char"
+                    },
+                    {
+                        "name": "decommisioned",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "taxreturnsfiled",
+                        "type": "int"
+                    },
+                    {
+                        "name": "estimatedpopulation",
+                        "type": "int"
+                    },
+                    {
+                        "name": "totalwages",
+                        "type": "int"
+                    },
+                    {
+                        "name": "notes",
+                        "size": "124",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "http://federalgovernmentzipcodes.us/free-zipcode-database.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "free_zipcode_database_primary",
+            "path": "free-zipcode-database-Primary.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "zipcode",
+                        "type": "int"
+                    },
+                    {
+                        "name": "zipcodetype",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "city",
+                        "size": "27",
+                        "type": "char"
+                    },
+                    {
+                        "name": "state",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "locationtype",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "lat",
+                        "type": "double"
+                    },
+                    {
+                        "name": "lon",
+                        "type": "double"
+                    },
+                    {
+                        "name": "location",
+                        "size": "52",
+                        "type": "char"
+                    },
+                    {
+                        "name": "decommisioned",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "taxreturnsfiled",
+                        "type": "int"
+                    },
+                    {
+                        "name": "estimatedpopulation",
+                        "type": "int"
+                    },
+                    {
+                        "name": "totalwages",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "http://federalgovernmentzipcodes.us/free-zipcode-database-Primary.csv"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "Zipcodes dataset",
+    "version": "1.0.0"
+}

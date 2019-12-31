@@ -1,0 +1,85 @@
+{
+    "archived": "zip",
+    "citation": "Edwards, Pamela J.; Wood, Frederica. 2011. Fernow Experimental Forest precipitation chemistry. Newtown Square, PA: U.S. Department of Agriculture, Forest Service, Northern Research Station. Data publication updated 17 August 2017. https://doi.org/10.2737/RDS-2011-0016",
+    "description": "The data publication contains weekly precipitation chemistry from two weather stations on the Fernow Experimental Forest from 1983 to 2015",
+    "homepage": "https://www.fs.usda.gov/rds/archive/catalog/RDS-2011-0016",
+    "keywords": ["Precipitation chemistry","biota", "climatology", "Meteorology", "Animal ecology", "Hydrology", "watersheds", "sedimentation", "Plant ecology", "Forest & Plant Health", "Monitoring", "temperature", "climate", "Monongahela National Forest", "West Virginia"],
+    "licenses": [{"name": ""}],
+    "name": "fernow-precipitation-chemistry",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "fernow_precip_chemistry",
+            "path": "Data/Fernow_Precip_Chemistry.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "weather_station",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "date_mm_dd_yyyy",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "ph",
+                        "type": "double"
+                    },
+                    {
+                        "name": "electrical_conductivity_us_cm",
+                        "type": "double"
+                    },
+                    {
+                        "name": "acidity_mg_caco3_l",
+                        "type": "double"
+                    },
+                    {
+                        "name": "acid_neutralizing_capacity_ueq_l",
+                        "type": "double"
+                    },
+                    {
+                        "name": "calcium_mg_l",
+                        "type": "double"
+                    },
+                    {
+                        "name": "magnesium_mg_l",
+                        "type": "double"
+                    },
+                    {
+                        "name": "sodium_mg_l",
+                        "type": "double"
+                    },
+                    {
+                        "name": "potassium_mg_l",
+                        "type": "double"
+                    },
+                    {
+                        "name": "ammonium_mg_l",
+                        "type": "double"
+                    },
+                    {
+                        "name": "chloride_mg_l",
+                        "type": "double"
+                    },
+                    {
+                        "name": "nitrate_mg_l",
+                        "type": "double"
+                    },
+                    {
+                        "name": "sulfate_mg_l",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "https://www.fs.usda.gov/rds/archive/products/RDS-2011-0016/RDS-2011-0016.zip"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "Fernow Experimental Forest precipitation chemistry",
+    "version": "1.0.0"
+}

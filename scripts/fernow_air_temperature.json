@@ -1,0 +1,46 @@
+{
+    "archived": "zip",
+    "citation": "Edwards, Pamela J.; Wood, Frederica. 2011. Fernow Experimental Forest daily air temperature. Newtown Square, PA: U.S. Department of Agriculture, Forest Service, Northern Research Station. Data publication updated 17 August 2017. https://doi.org/10.2737/RDS-2011-0013",
+    "description": "The data publication contains daily maximum and minimum air temperature measured at two weather stations on the Fernow Experimental Forest from 1951 to 2015",
+    "homepage": "https://www.fs.usda.gov/rds/archive/catalog/RDS-2011-0013",
+    "keywords": ["biota", "climatology", "Meteorology", "Animal ecology", "Hydrology", "watersheds", "sedimentation", "Plant ecology", "Forest & Plant Health", "Monitoring", "temperature", "climate", "Monongahela National Forest", "West Virginia"],
+    "licenses": [{"name": ""}],
+    "name": "fernow-air-temperature",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "air_temperature",
+            "path": "Data/Fernow_Air_Temperature.csv",
+
+            "schema": {
+                "fields": [
+                    {
+                        "name": "weather_station",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "date_mm_dd_yyyy",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "max_daily_temperature_degrees_c",
+                        "type": "double"
+                    },
+                    {
+                        "name": "min_daily_temperature_degrees_c",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "https://www.fs.usda.gov/rds/archive/products/RDS-2011-0013/RDS-2011-0013.zip"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "Fernow Experimental Forest daily air temperature",
+    "version": "1.0.0"
+}
