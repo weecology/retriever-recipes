@@ -132,6 +132,9 @@ nematode_traits.json,1.0.1
 ngreatplains_flowering_dates.json,1.0.2
 nla.json,1.0.0
 noaa_fisheries_trade.py,1.0.0
+north_carolina_piedmont_mapped_foreset.json,1.0.0
+north_carolina_piedmont_permanent_plots.json,1.0.0
+north_carolina_piedmont_seedlng_sampling.json,1.0.0
 npn.py,2.1.4
 nyc_tree_count.json,1.0.1
 pantheria.py,1.3.3

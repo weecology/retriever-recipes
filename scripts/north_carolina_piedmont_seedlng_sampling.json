@@ -1,0 +1,775 @@
+{
+    "archived": "zip",
+    "citation": "",
+    "description": "The data shows the Seedling and Sapling Plots information from North Carolina Piedmont Forest LTREB Project",
+    "homepage": "http://labs.bio.unc.edu/Peet/PEL/df.htm",
+    "keywords": ["North Carolina", "Forest", "tree"],
+    "licenses": [{"name": ""}],
+    "name": "north-carolina-piedmont_seedlng_sampling",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "seedling_7_stemdata",
+            "path": "seedling_7_stemdata.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "plotnumber",
+                        "type": "int"
+                    },
+                    {
+                        "name": "transect",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plotstemid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "cloneplotstemid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "speciescode",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "scientificname",
+                        "size": "41",
+                        "type": "char"
+                    },
+                    {
+                        "name": "x",
+                        "type": "int"
+                    },
+                    {
+                        "name": "y",
+                        "type": "int"
+                    },
+                    {
+                        "name": "year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "conditioncode",
+                        "type": "int"
+                    },
+                    {
+                        "name": "seedlingcrownclass",
+                        "type": "int"
+                    },
+                    {
+                        "name": "basaldiameter",
+                        "type": "int"
+                    },
+                    {
+                        "name": "seedlingheight",
+                        "type": "int"
+                    },
+                    {
+                        "name": "leafcount",
+                        "type": "int"
+                    },
+                    {
+                        "name": "seedlingage",
+                        "type": "int"
+                    },
+                    {
+                        "name": "hurricane1_uproot",
+                        "type": "int"
+                    },
+                    {
+                        "name": "hurricane2_breakage",
+                        "type": "int"
+                    },
+                    {
+                        "name": "hurricane3_leaning",
+                        "type": "int"
+                    },
+                    {
+                        "name": "hurricane4_leanedon",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "http://labs.bio.unc.edu/Peet/PEL/df/data/seedling_7_stemdata.csv.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "sapling_4_stemdata",
+            "path": "sapling_4_stemdata.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "plotnumber",
+                        "type": "int"
+                    },
+                    {
+                        "name": "transect",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plotstemid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "cloneplotstemid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "speciescode",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "scientificname",
+                        "size": "33",
+                        "type": "char"
+                    },
+                    {
+                        "name": "x",
+                        "type": "int"
+                    },
+                    {
+                        "name": "y",
+                        "type": "int"
+                    },
+                    {
+                        "name": "year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "conditioncode",
+                        "type": "int"
+                    },
+                    {
+                        "name": "saplingdiameter",
+                        "type": "int"
+                    },
+                    {
+                        "name": "saplingheight",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "http://labs.bio.unc.edu/Peet/PEL/df/data/sapling_4_stemdata.csv.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "sapling_12_stemdata",
+            "path": "sapling_12_stemdata.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "plotnumber",
+                        "type": "int"
+                    },
+                    {
+                        "name": "transect",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plotstemid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "cloneplotstemid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "speciescode",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "scientificname",
+                        "size": "33",
+                        "type": "char"
+                    },
+                    {
+                        "name": "x",
+                        "type": "int"
+                    },
+                    {
+                        "name": "y",
+                        "type": "int"
+                    },
+                    {
+                        "name": "year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "conditioncode",
+                        "type": "int"
+                    },
+                    {
+                        "name": "saplingdiameter",
+                        "type": "int"
+                    },
+                    {
+                        "name": "saplingheight",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "http://labs.bio.unc.edu/Peet/PEL/df/data/sapling_12_stemdata.csv.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "sapling_14_stemdata",
+            "path": "sapling_14_stemdata.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "plotnumber",
+                        "type": "int"
+                    },
+                    {
+                        "name": "transect",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plotstemid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "cloneplotstemid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "speciescode",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "scientificname",
+                        "size": "32",
+                        "type": "char"
+                    },
+                    {
+                        "name": "x",
+                        "type": "int"
+                    },
+                    {
+                        "name": "y",
+                        "type": "int"
+                    },
+                    {
+                        "name": "year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "conditioncode",
+                        "type": "int"
+                    },
+                    {
+                        "name": "saplingdiameter",
+                        "type": "int"
+                    },
+                    {
+                        "name": "saplingheight",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "http://labs.bio.unc.edu/Peet/PEL/df/data/sapling_14_stemdata.csv.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "sapling_13_stemdata",
+            "path": "sapling_13_stemdata.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "plotnumber",
+                        "type": "int"
+                    },
+                    {
+                        "name": "transect",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plotstemid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "cloneplotstemid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "speciescode",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "scientificname",
+                        "size": "23",
+                        "type": "char"
+                    },
+                    {
+                        "name": "x",
+                        "type": "int"
+                    },
+                    {
+                        "name": "y",
+                        "type": "int"
+                    },
+                    {
+                        "name": "year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "conditioncode",
+                        "type": "int"
+                    },
+                    {
+                        "name": "saplingdiameter",
+                        "type": "double"
+                    },
+                    {
+                        "name": "saplingheight",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "http://labs.bio.unc.edu/Peet/PEL/df/data/sapling_13_stemdata.csv.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "seedling_14_stemdata",
+            "path": "seedling_14_stemdata.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "plotnumber",
+                        "type": "int"
+                    },
+                    {
+                        "name": "transect",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plotstemid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "cloneplotstemid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "speciescode",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "scientificname",
+                        "size": "41",
+                        "type": "char"
+                    },
+                    {
+                        "name": "x",
+                        "type": "int"
+                    },
+                    {
+                        "name": "y",
+                        "type": "int"
+                    },
+                    {
+                        "name": "year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "conditioncode",
+                        "type": "int"
+                    },
+                    {
+                        "name": "seedlingcrownclass",
+                        "type": "int"
+                    },
+                    {
+                        "name": "basaldiameter",
+                        "type": "int"
+                    },
+                    {
+                        "name": "seedlingheight",
+                        "type": "int"
+                    },
+                    {
+                        "name": "leafcount",
+                        "type": "int"
+                    },
+                    {
+                        "name": "seedlingage",
+                        "type": "int"
+                    },
+                    {
+                        "name": "hurricane1_uproot",
+                        "type": "int"
+                    },
+                    {
+                        "name": "hurricane2_breakage",
+                        "type": "int"
+                    },
+                    {
+                        "name": "hurricane3_leaning",
+                        "type": "int"
+                    },
+                    {
+                        "name": "hurricane4_leanedon",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "http://labs.bio.unc.edu/Peet/PEL/df/data/seedling_14_stemdata.csv.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "seedling_13_stemdata",
+            "path": "seedling_13_stemdata.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "plotnumber",
+                        "type": "int"
+                    },
+                    {
+                        "name": "transect",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plotstemid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "cloneplotstemid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "speciescode",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "scientificname",
+                        "size": "41",
+                        "type": "char"
+                    },
+                    {
+                        "name": "x",
+                        "type": "int"
+                    },
+                    {
+                        "name": "y",
+                        "type": "int"
+                    },
+                    {
+                        "name": "year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "conditioncode",
+                        "type": "int"
+                    },
+                    {
+                        "name": "seedlingcrownclass",
+                        "type": "int"
+                    },
+                    {
+                        "name": "basaldiameter",
+                        "type": "int"
+                    },
+                    {
+                        "name": "seedlingheight",
+                        "type": "int"
+                    },
+                    {
+                        "name": "leafcount",
+                        "type": "int"
+                    },
+                    {
+                        "name": "seedlingage",
+                        "type": "int"
+                    },
+                    {
+                        "name": "hurricane1_uproot",
+                        "type": "int"
+                    },
+                    {
+                        "name": "hurricane2_breakage",
+                        "type": "int"
+                    },
+                    {
+                        "name": "hurricane3_leaning",
+                        "type": "int"
+                    },
+                    {
+                        "name": "hurricane4_leanedon",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "http://labs.bio.unc.edu/Peet/PEL/df/data/seedling_13_stemdata.csv.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "seedling_4_stemdata",
+            "path": "seedling_4_stemdata.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "plotnumber",
+                        "type": "int"
+                    },
+                    {
+                        "name": "transect",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plotstemid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "cloneplotstemid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "speciescode",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "scientificname",
+                        "size": "41",
+                        "type": "char"
+                    },
+                    {
+                        "name": "x",
+                        "type": "int"
+                    },
+                    {
+                        "name": "y",
+                        "type": "int"
+                    },
+                    {
+                        "name": "year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "conditioncode",
+                        "type": "int"
+                    },
+                    {
+                        "name": "seedlingcrownclass",
+                        "type": "int"
+                    },
+                    {
+                        "name": "basaldiameter",
+                        "type": "int"
+                    },
+                    {
+                        "name": "seedlingheight",
+                        "type": "int"
+                    },
+                    {
+                        "name": "leafcount",
+                        "type": "int"
+                    },
+                    {
+                        "name": "seedlingage",
+                        "type": "int"
+                    },
+                    {
+                        "name": "hurricane1_uproot",
+                        "type": "int"
+                    },
+                    {
+                        "name": "hurricane2_breakage",
+                        "type": "int"
+                    },
+                    {
+                        "name": "hurricane3_leaning",
+                        "type": "int"
+                    },
+                    {
+                        "name": "hurricane4_leanedon",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "http://labs.bio.unc.edu/Peet/PEL/df/data/seedling_4_stemdata.csv.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "seedling_12_stemdata",
+            "path": "seedling_12_stemdata.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "plotnumber",
+                        "type": "int"
+                    },
+                    {
+                        "name": "transect",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plotstemid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "cloneplotstemid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "speciescode",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "scientificname",
+                        "size": "41",
+                        "type": "char"
+                    },
+                    {
+                        "name": "x",
+                        "type": "int"
+                    },
+                    {
+                        "name": "y",
+                        "type": "int"
+                    },
+                    {
+                        "name": "year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "conditioncode",
+                        "type": "int"
+                    },
+                    {
+                        "name": "seedlingcrownclass",
+                        "type": "int"
+                    },
+                    {
+                        "name": "basaldiameter",
+                        "type": "int"
+                    },
+                    {
+                        "name": "seedlingheight",
+                        "type": "int"
+                    },
+                    {
+                        "name": "leafcount",
+                        "type": "int"
+                    },
+                    {
+                        "name": "seedlingage",
+                        "type": "int"
+                    },
+                    {
+                        "name": "hurricane1_uproot",
+                        "type": "int"
+                    },
+                    {
+                        "name": "hurricane2_breakage",
+                        "type": "int"
+                    },
+                    {
+                        "name": "hurricane3_leaning",
+                        "type": "int"
+                    },
+                    {
+                        "name": "hurricane4_leanedon",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "http://labs.bio.unc.edu/Peet/PEL/df/data/seedling_12_stemdata.csv.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "sapling_7_stemdata",
+            "path": "sapling_7_stemdata.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "plotnumber",
+                        "type": "int"
+                    },
+                    {
+                        "name": "transect",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plotstemid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "cloneplotstemid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "speciescode",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "scientificname",
+                        "size": "33",
+                        "type": "char"
+                    },
+                    {
+                        "name": "x",
+                        "type": "int"
+                    },
+                    {
+                        "name": "y",
+                        "type": "int"
+                    },
+                    {
+                        "name": "year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "conditioncode",
+                        "type": "int"
+                    },
+                    {
+                        "name": "saplingdiameter",
+                        "type": "int"
+                    },
+                    {
+                        "name": "saplingheight",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "http://labs.bio.unc.edu/Peet/PEL/df/data/sapling_7_stemdata.csv.zip"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "The North Carolina Piedmont Forest LTREB Project, Seedling and Sapling Plots",
+    "version": "1.0.0"
+}
