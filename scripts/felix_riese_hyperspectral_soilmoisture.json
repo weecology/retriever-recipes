@@ -1,0 +1,669 @@
+{
+    "archived": "zip",
+    "citation": "Felix M. Riese and Sina Keller, “Introducing a Framework of Self-Organizing Maps for Regression of Soil Moisture with Hyperspectral Data,” in *2018 IEEE International Geoscience and Remote Sensing Symposium (IGARSS)*, Valencia, Spain, 2018,",
+    "description": "Hyperspectral and soil-moisture data from a field campaign based on a soil sample. Karlsruhe (Germany), 2017",
+    "homepage": "https://zenodo.org/record/2530634#.Xf7thC2ZOuU",
+    "keywords": ["Hyperspectral", "soil", "moisture","Germany", "Remote Sensing"],
+    "licenses": [{"name": "GNU GPLv2"}],
+    "name": "felix-riese-hyperspectral-soilmoisture",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "soilmoisture_dataset",
+            "path": "felixriese-hyperspectral-soilmoisture-dataset-62b1e40/soilmoisture_dataset.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "index_number",
+                        "type": "int"
+                    },
+                    {
+                        "name": "datetime",
+                        "size": "19",
+                        "type": "char"
+                    },
+                    {
+                        "name": "soil_moisture",
+                        "type": "double"
+                    },
+                    {
+                        "name": "soil_temperature",
+                        "type": "double"
+                    },
+                    {
+                        "name": "band454",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band458",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band462",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band466",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band470",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band474",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band478",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band482",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band486",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band490",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band494",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band498",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band502",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band506",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band510",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band514",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band518",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band522",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band526",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band530",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band534",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band538",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band542",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band546",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band550",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band554",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band558",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band562",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band566",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band570",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band574",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band578",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band582",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band586",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band590",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band594",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band598",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band602",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band606",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band610",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band614",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band618",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band622",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band626",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band630",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band634",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band638",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band642",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band646",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band650",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band654",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band658",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band662",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band666",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band670",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band674",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band678",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band682",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band686",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band690",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band694",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band698",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band702",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band706",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band710",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band714",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band718",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band722",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band726",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band730",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band734",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band738",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band742",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band746",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band750",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band754",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band758",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band762",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band766",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band770",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band774",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band778",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band782",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band786",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band790",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band794",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band798",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band802",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band806",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band810",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band814",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band818",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band822",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band826",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band830",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band834",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band838",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band842",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band846",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band850",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band854",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band858",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band862",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band866",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band870",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band874",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band878",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band882",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band886",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band890",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band894",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band898",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band902",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band906",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band910",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band914",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band918",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band922",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band926",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band930",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band934",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band938",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band942",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band946",
+                        
+                        "type": "double"
+                    },
+                    {
+                        "name": "band950",
+                        
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "https://zenodo.org/record/2530634/files/felixriese/hyperspectral-soilmoisture-dataset-v1.0.3.zip"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "Hyperspectral benchmark dataset on soil moisture",
+    "version": "1.0.0"
+}

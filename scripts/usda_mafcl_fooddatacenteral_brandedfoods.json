@@ -1,0 +1,261 @@
+{
+    "archived": "zip",
+    "citation": "U.S. Department of Agriculture, Agricultural Research Service. FoodData Central, 2019. fdc.nal.usda.gov",
+    "description": "The data is compiled from public-private partnership that provides values for nutrients in branded and private label foods that appear on the product label",
+    "homepage": "https://www.ars.usda.gov/northeast-area/beltsville-md-bhnrc/beltsville-human-nutrition-research-center/methods-and-application-of-food-composition-laboratory/mafcl-site-pages/database-links/",
+    "keywords": ["chemical analysis", " food", " FoodData Central", " agricultural", " MAFCL", " Food Surveys", "  Dietary Supplement ", "Diet", " USDA NHANES", " nutrition", " health"],
+    "licenses": [{"name": "" }],
+    "name": "usda-mafcl-fooddatacenteral-brandedfoods",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ",",
+                "do_not_bulk_insert": "True"
+            },
+            "name": "branded_food",
+            "path": "branded_food.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "fdc_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "brand_owner",
+                        "size": "78",
+                        "type": "char"
+                    },
+                    {
+                        "name": "gtin_upc",
+                        "size": "15",
+                        "type": "char"
+                    },
+                    {
+                        "name": "ingredients",
+                        "size": "4000",
+                        "type": "char"
+                    },
+                    {
+                        "name": "serving_size",
+                        "type": "double"
+                    },
+                    {
+                        "name": "serving_size_unit",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "household_serving_fulltext",
+                        "size": "122",
+                        "type": "char"
+                    },
+                    {
+                        "name": "branded_food_category",
+                        "size": "72",
+                        "type": "char"
+                    },
+                    {
+                        "name": "data_source",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "modified_date",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "available_date",
+                        "size": "10",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_branded_food_csv_2019-12-17.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "do_not_bulk_insert": "True"
+            },
+            "name": "food_attribute",
+            "path": "food_attribute.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fdc_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "seq_num",
+                        "type": "int"
+                    },
+                    {
+                        "name": "food_attribute_type_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "name",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "value",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_branded_food_csv_2019-12-17.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "do_not_bulk_insert": "True"
+            },
+            "name": "food_update_log_entry",
+            "path": "food_update_log_entry.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "description",
+                        "size": "255",
+                        "type": "char"
+                    },
+                    {
+                        "name": "last_updated",
+                        "size": "10",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_branded_food_csv_2019-12-17.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "do_not_bulk_insert": "True"
+            },
+            "name": "all_downloaded_table_record_counts",
+            "path": "all_downloaded_table_record_counts.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "tables",
+                        "size": "21",
+                        "type": "char"
+                    },
+                    {
+                        "name": "number_of_records",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_branded_food_csv_2019-12-17.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "do_not_bulk_insert": "True"
+            },
+            "name": "food",
+            "path": "food.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "fdc_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "data_type",
+                        "size": "12",
+                        "type": "char"
+                    },
+                    {
+                        "name": "description",
+                        "size": "255",
+                        "type": "char"
+                    },
+                    {
+                        "name": "food_category_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "publication_date",
+                        "size": "10",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_branded_food_csv_2019-12-17.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "do_not_bulk_insert": "True"
+            },
+            "name": "food_nutrient",
+            "path": "food_nutrient.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fdc_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "nutrient_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "amount",
+                        "type": "double"
+                    },
+                    {
+                        "name": "data_points",
+                        "type": "int"
+                    },
+                    {
+                        "name": "derivation_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "min",
+                        "type": "int"
+                    },
+                    {
+                        "name": "max",
+                        "type": "int"
+                    },
+                    {
+                        "name": "median",
+                        "type": "int"
+                    },
+                    {
+                        "name": "footnote",
+                        "type": "int"
+                    },
+                    {
+                        "name": "min_year_acquired",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_branded_food_csv_2019-12-17.zip"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "USDA Global Branded Food Products Database (Branded Foods)",
+    "version": "1.0.0"
+}

@@ -1,0 +1,1115 @@
+{
+    "archived": "zip",
+    "citation": "U.S. Department of Agriculture, Agricultural Research Service. FoodData Central, 2019. fdc.nal.usda.gov",
+    "description": "The datasets contains files for all of the FoodData Central data types",
+    "homepage": "https://www.ars.usda.gov/northeast-area/beltsville-md-bhnrc/beltsville-human-nutrition-research-center/methods-and-application-of-food-composition-laboratory/mafcl-site-pages/database-links/",
+    "keywords": ["chemical analysis", " food", " FoodData Central", " agricultural", " MAFCL", " Food Surveys", "  Dietary Supplement ", "Diet", " USDA NHANES", " nutrition", " health"],
+    "licenses": [{"name": "" }],
+    "name": "usda-mafcl-fooddatacenteral-alldatatypes",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ",",
+                "do_not_bulk_insert": "True"
+            },
+            "name": "food_calorie_conversion_factor",
+            "path": "food_calorie_conversion_factor.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "food_nutrient_conversion_factor_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "protein_value",
+                        "type": "double"
+                    },
+                    {
+                        "name": "fat_value",
+                        "type": "double"
+                    },
+                    {
+                        "name": "carbohydrate_value",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_csv_2019-12-17.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "do_not_bulk_insert": "True"
+            },
+            "name": "food_nutrient_derivation",
+            "path": "food_nutrient_derivation.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "code",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "description",
+                        "size": "263",
+                        "type": "char"
+                    },
+                    {
+                        "name": "source_id",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_csv_2019-12-17.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "do_not_bulk_insert": "True"
+            },
+            "name": "sr_legacy_food",
+            "path": "sr_legacy_food.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "fdc_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "ndb_number",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_csv_2019-12-17.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "do_not_bulk_insert": "True"
+            },
+            "name": "branded_food",
+            "path": "branded_food.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "fdc_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "brand_owner",
+                        "size": "78",
+                        "type": "char"
+                    },
+                    {
+                        "name": "gtin_upc",
+                        "size": "15",
+                        "type": "char"
+                    },
+                    {
+                        "name": "ingredients",
+                        "size": "4000",
+                        "type": "char"
+                    },
+                    {
+                        "name": "serving_size",
+                        "type": "double"
+                    },
+                    {
+                        "name": "serving_size_unit",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "household_serving_fulltext",
+                        "size": "122",
+                        "type": "char"
+                    },
+                    {
+                        "name": "branded_food_category",
+                        "size": "72",
+                        "type": "char"
+                    },
+                    {
+                        "name": "data_source",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "modified_date",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "available_date",
+                        "size": "10",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_csv_2019-12-17.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "do_not_bulk_insert": "True"
+            },
+            "name": "food_nutrient_conversion_factor",
+            "path": "food_nutrient_conversion_factor.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fdc_id",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_csv_2019-12-17.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "do_not_bulk_insert": "True"
+            },
+            "name": "food_attribute_type",
+            "path": "food_attribute_type.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "name",
+                        "size": "22",
+                        "type": "char"
+                    },
+                    {
+                        "name": "description",
+                        "size": "62",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_csv_2019-12-17.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "do_not_bulk_insert": "True"
+            },
+            "name": "food_attribute",
+            "path": "food_attribute.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fdc_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "seq_num",
+                        "type": "int"
+                    },
+                    {
+                        "name": "food_attribute_type_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "name",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "value",
+                        "size": "109",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_csv_2019-12-17.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "do_not_bulk_insert": "True"
+            },
+            "name": "market_acquisition",
+            "path": "market_acquisition.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "fdc_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "brand_description",
+                        "size": "64",
+                        "type": "char"
+                    },
+                    {
+                        "name": "expiration_date",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "label_weight",
+                        "type": "int"
+                    },
+                    {
+                        "name": "location",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "acquisition_date",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "sales_type",
+                        "size": "19",
+                        "type": "char"
+                    },
+                    {
+                        "name": "sample_lot_nbr",
+                        "size": "25",
+                        "type": "char"
+                    },
+                    {
+                        "name": "sell_by_date",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "store_city",
+                        "size": "35",
+                        "type": "char"
+                    },
+                    {
+                        "name": "store_name",
+                        "size": "36",
+                        "type": "char"
+                    },
+                    {
+                        "name": "store_state",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "upc_code",
+                        "size": "14",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_csv_2019-12-17.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "do_not_bulk_insert": "True"
+            },
+            "name": "retention_factor",
+            "path": "retention_factor.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "code",
+                        "type": "int"
+                    },
+                    {
+                        "name": "food_group_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "description",
+                        "size": "40",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_csv_2019-12-17.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "do_not_bulk_insert": "True"
+            },
+            "name": "foundation_food",
+            "path": "foundation_food.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "fdc_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "ndb_number",
+                        "type": "int"
+                    },
+                    {
+                        "name": "footnote",
+                        "size": "254",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_csv_2019-12-17.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "do_not_bulk_insert": "True"
+            },
+            "name": "food_update_log_entry",
+            "path": "food_update_log_entry.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "description",
+                        "size": "255",
+                        "type": "char"
+                    },
+                    {
+                        "name": "last_updated",
+                        "size": "10",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_csv_2019-12-17.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "do_not_bulk_insert": "True"
+            },
+            "name": "measure_unit",
+            "path": "measure_unit.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "name",
+                        "size": "16",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_csv_2019-12-17.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "do_not_bulk_insert": "True"
+            },
+            "name": "sub_sample_result",
+            "path": "sub_sample_result.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "food_nutrient_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "adjusted_amount",
+                        "type": "double"
+                    },
+                    {
+                        "name": "lab_method_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "nutrient_name",
+                        "size": "39",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_csv_2019-12-17.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "do_not_bulk_insert": "True"
+            },
+            "name": "nutrient",
+            "path": "nutrient.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "name",
+                        "size": "40",
+                        "type": "char"
+                    },
+                    {
+                        "name": "unit_name",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "nutrient_nbr",
+                        "type": "double"
+                    },
+                    {
+                        "name": "rank",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_csv_2019-12-17.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "do_not_bulk_insert": "True"
+            },
+            "name": "all_downloaded_table_record_counts",
+            "path": "all_downloaded_table_record_counts.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "tables",
+                        "size": "31",
+                        "type": "char"
+                    },
+                    {
+                        "name": "number_of_records",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_csv_2019-12-17.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "do_not_bulk_insert": "True"
+            },
+            "name": "food",
+            "path": "food.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "fdc_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "data_type",
+                        "size": "24",
+                        "type": "char"
+                    },
+                    {
+                        "name": "description",
+                        "size": "255",
+                        "type": "char"
+                    },
+                    {
+                        "name": "food_category_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "publication_date",
+                        "size": "10",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_csv_2019-12-17.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "do_not_bulk_insert": "True"
+            },
+            "name": "wweia_food_category",
+            "path": "wweia_food_category.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "wweia_food_category_code",
+                        "type": "int"
+                    },
+                    {
+                        "name": "wweia_food_category_description",
+                        "size": "48",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_csv_2019-12-17.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "do_not_bulk_insert": "True"
+            },
+            "name": "lab_method_nutrient",
+            "path": "lab_method_nutrient.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "lab_method_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "nutrient_id",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_csv_2019-12-17.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "do_not_bulk_insert": "True"
+            },
+            "name": "food_nutrient",
+            "path": "food_nutrient.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fdc_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "nutrient_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "amount",
+                        "type": "double"
+                    },
+                    {
+                        "name": "data_points",
+                        "type": "int"
+                    },
+                    {
+                        "name": "derivation_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "min",
+                        "type": "double"
+                    },
+                    {
+                        "name": "max",
+                        "type": "double"
+                    },
+                    {
+                        "name": "median",
+                        "type": "double"
+                    },
+                    {
+                        "name": "footnote",
+                        "size": "199",
+                        "type": "char"
+                    },
+                    {
+                        "name": "min_year_acquired",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_csv_2019-12-17.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "do_not_bulk_insert": "True"
+            },
+            "name": "sample_food",
+            "path": "sample_food.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "fdc_id",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_csv_2019-12-17.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "do_not_bulk_insert": "True"
+            },
+            "name": "input_food",
+            "path": "input_food.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fdc_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fdc_id_of_input_food",
+                        "type": "int"
+                    },
+                    {
+                        "name": "seq_num",
+                        "type": "int"
+                    },
+                    {
+                        "name": "amount",
+                        "type": "double"
+                    },
+                    {
+                        "name": "sr_code",
+                        "type": "int"
+                    },
+                    {
+                        "name": "sr_description",
+                        "size": "144",
+                        "type": "char"
+                    },
+                    {
+                        "name": "unit",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "portion_code",
+                        "type": "int"
+                    },
+                    {
+                        "name": "portion_description",
+                        "size": "68",
+                        "type": "char"
+                    },
+                    {
+                        "name": "gram_weight",
+                        "type": "double"
+                    },
+                    {
+                        "name": "retention_code",
+                        "type": "int"
+                    },
+                    {
+                        "name": "survey_flag",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_csv_2019-12-17.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "do_not_bulk_insert": "True"
+            },
+            "name": "lab_method_code",
+            "path": "lab_method_code.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "lab_method_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "code",
+                        "size": "26",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_csv_2019-12-17.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "do_not_bulk_insert": "True"
+            },
+            "name": "agricultural_acquisition",
+            "path": "agricultural_acquisition.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "fdc_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "acquisition_date",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "market_class",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "treatment",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "state",
+                        "size": "2",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_csv_2019-12-17.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "do_not_bulk_insert": "True"
+            },
+            "name": "acquisition_sample",
+            "path": "acquisition_sample.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "fdc_id_of_sample_food",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fdc_id_of_acquisition_food",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_csv_2019-12-17.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "do_not_bulk_insert": "True"
+            },
+            "name": "food_nutrient_source",
+            "path": "food_nutrient_source.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "code",
+                        "type": "int"
+                    },
+                    {
+                        "name": "description",
+                        "size": "73",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_csv_2019-12-17.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "do_not_bulk_insert": "True"
+            },
+            "name": "food_protein_conversion_factor",
+            "path": "food_protein_conversion_factor.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "food_nutrient_conversion_factor_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "value",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_csv_2019-12-17.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "do_not_bulk_insert": "True"
+            },
+            "name": "sub_sample_food",
+            "path": "sub_sample_food.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "fdc_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fdc_id_of_sample_food",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_csv_2019-12-17.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "do_not_bulk_insert": "True"
+            },
+            "name": "food_portion",
+            "path": "food_portion.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fdc_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "seq_num",
+                        "type": "int"
+                    },
+                    {
+                        "name": "amount",
+                        "type": "double"
+                    },
+                    {
+                        "name": "measure_unit_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "portion_description",
+                        "size": "114",
+                        "type": "char"
+                    },
+                    {
+                        "name": "modifier",
+                        "size": "77",
+                        "type": "char"
+                    },
+                    {
+                        "name": "gram_weight",
+                        "type": "double"
+                    },
+                    {
+                        "name": "data_points",
+                        "type": "int"
+                    },
+                    {
+                        "name": "footnote",
+                        "type": "int"
+                    },
+                    {
+                        "name": "min_year_acquired",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_csv_2019-12-17.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "do_not_bulk_insert": "True"
+            },
+            "name": "food_component",
+            "path": "food_component.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fdc_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "name",
+                        "size": "26",
+                        "type": "char"
+                    },
+                    {
+                        "name": "pct_weight",
+                        "type": "double"
+                    },
+                    {
+                        "name": "is_refuse",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "gram_weight",
+                        "type": "double"
+                    },
+                    {
+                        "name": "data_points",
+                        "type": "int"
+                    },
+                    {
+                        "name": "min_year_acquired",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_csv_2019-12-17.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "do_not_bulk_insert": "True"
+            },
+            "name": "survey_fndds_food",
+            "path": "survey_fndds_food.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "fdc_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "food_code",
+                        "type": "int"
+                    },
+                    {
+                        "name": "wweia_category_code",
+                        "type": "int"
+                    },
+                    {
+                        "name": "start_date",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "end_date",
+                        "size": "10",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_csv_2019-12-17.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "do_not_bulk_insert": "True"
+            },
+            "name": "lab_method",
+            "path": "lab_method.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "description",
+                        "size": "43",
+                        "type": "char"
+                    },
+                    {
+                        "name": "technique",
+                        "size": "31",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_csv_2019-12-17.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "do_not_bulk_insert": "True"
+            },
+            "name": "food_category",
+            "path": "food_category.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "code",
+                        "type": "int"
+                    },
+                    {
+                        "name": "description",
+                        "size": "35",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_csv_2019-12-17.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "do_not_bulk_insert": "True"
+            },
+            "name": "nutrient_incoming_name",
+            "path": "nutrient_incoming_name.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "name",
+                        "size": "41",
+                        "type": "char"
+                    },
+                    {
+                        "name": "nutrient_id",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_csv_2019-12-17.zip"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "All FoodData Central data types",
+    "version": "1.0.0"
+}

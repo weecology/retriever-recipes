@@ -1,0 +1,581 @@
+{
+    "citation": "US Department of Agriculture, Agricultural Research Service, Nutrient Data Laboratory and US Department of Health and Human Services, National Institutes of Health, Office of Dietary Supplements. Dietary Supplement Ingredient Database (DSID) release 4.0, August 2017. Available from: https://dsid.usda.nih.gov",
+    "description": "This is the fourth release of the Dietary Supplement Ingredient Database (DSID-4) which reports national estimates for ingredient levels in dietary supplements (DS), based on chemical analysis",
+    "homepage": "https://dietarysupplementdatabase.usda.nih.gov/Data_Files.php",
+    "keywords": ["Dietary", "Agriculture", "foods", "chemical analysis"],
+    "licenses": [{"name": ""}],
+    "name": "usda-dietary-supplement-ingredient-data",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ",",
+                "missingValues": ["*Not Reported"],
+                 "header_rows": 2
+            },
+            "name": "dsidingredientsandunits",
+            "path": "DSID4AppendixA_DSIDIngredientsandUnits.csv",
+            "xls_sheets": [0, "DSID4AppendixA_DSIDIngredientsandUnits.xls"],
+            "schema": {
+                "fields": [
+                    {
+                        "name": "dsid_ingredient_name",
+                        "size": "27",
+                        "type": "char"
+                    },
+                    {
+                        "name": "tag_name",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "dsid_units",
+                        "size": "30",
+                        "type": "char"
+                    },
+                    {
+                        "name": "usda_standard_reference_nutrient_number",
+                        "type": "int"
+                    },
+                    {
+                        "name": "sr_units",
+                        "size": "40",
+                        "type": "char"
+                    },
+                    {
+                        "name": "nhanes_units",
+                        "size": "15",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://dietarysupplementdatabase.usda.nih.gov/dsid_database/DSID4AppendixA_DSIDIngredientsandUnits.xls"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                 "header_rows": 2
+            },
+            "name": "DSIDProductCategories",
+            "path": "DSID4AppendixB_DSIDProductCategories.csv",
+            "xls_sheets": [0, "DSID4AppendixB_DSIDProductCategories.xls"],
+            "schema": {
+                "fields": [
+                    {
+                        "name": "dsid_category_code",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "dsid_study_category",
+                        "size": "45",
+                        "type": "char"
+                    },
+                    {
+                        "name": "dsid_study_category_description",
+                        "size": "250",
+                        "type": "char"
+                    },
+                    {
+                        "name": "reported_as",
+                        "size": "15",
+                        "type": "char"
+                    },
+                    {
+                        "name": "dsid_linked_to_nhanes_2003-04_application",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "dsid_linked_to_nhanes_2005-06_application",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "dsid_linked_to_nhanes_2007-08_application",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "dsid_linked_to_nhanes_2009-10_application",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "dsid_linked_to_nhanes_2011-12_application",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "dsid_linked_to_nhanes_2013-14_application",
+                        "size": "1",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://dietarysupplementdatabase.usda.nih.gov/dsid_database/DSID4AppendixB_DSIDProductCategories.xls"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                 "header_rows": 3
+            },
+            "name": "table1",
+            "path": "Table1.csv",
+            "xls_sheets": [0, "Table1_DSID4.xlsx"],
+            "schema": {
+                "fields": [
+                    {
+                        "name": "dsid_category_code",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "dsid_ingredient_name",
+                        "size": "13",
+                        "type": "char"
+                    },
+                    {
+                        "name": "dsid_unit",
+                        "size": "12",
+                        "type": "char"
+                    },
+                    {
+                        "name": "minimum_labeled_level_in_regress",
+                        "type": "double"
+                    },
+                    {
+                        "name": "maximum_labeled_level_in_regress",
+                        "type": "double"
+                    },
+                    {
+                        "name": "prediction_of_the_mean_intercept",
+                        "type": "double"
+                    },
+                    {
+                        "name": "prediction_of_the_mean_linear",
+                        "type": "double"
+                    },
+                    {
+                        "name": "prediction_of_the_mean_quadratic",
+                        "type": "double"
+                    },
+                    {
+                        "name": "se_of_the_predicted_mean_intercept",
+                        "type": "double"
+                    },
+                    {
+                        "name": "se_of_the_predicted_mean_linear",
+                        "type": "double"
+                    },
+                    {
+                        "name": "se_of_the_predicted_mean_quadrat",
+                        "type": "double"
+                    },
+                    {
+                        "name": "se_of_the_predicted_mean_cubic",
+                        "type": "double"
+                    },
+                    {
+                        "name": "se_of_the_predicted_mean_quartic",
+                        "type": "double"
+                    },
+                    {
+                        "name": "se_of_the_predicted_mean_quintic",
+                        "type": "double"
+                    },
+                    {
+                        "name": "se_of_the_predicted_mean_sextic",
+                        "type": "double"
+                    },
+                    {
+                        "name": "se_of_the_predicted_mean_septic",
+                        "type": "double"
+                    },
+                    {
+                        "name": "se_of_the_predicted_mean_octic",
+                        "type": "double"
+                    },
+                    {
+                        "name": "se_of_the_predicted_mean_nonic",
+                        "type": "double"
+                    },
+                    {
+                        "name": "se_of_the_predicted_observation_intercept",
+                        "type": "double"
+                    },
+                    {
+                        "name": "se_of_the_predicted_observation_linear",
+                        "type": "double"
+                    },
+                    {
+                        "name": "se_of_the_predicted_observation_quadratic",
+                        "type": "double"
+                    },
+                    {
+                        "name": "se_of_the_predicted_observation_cubic",
+                        "type": "double"
+                    },
+                    {
+                        "name": "se_of_the_predicted_observation_quartic",
+                        "type": "double"
+                    },
+                    {
+                        "name": "se_of_the_predicted_observation_quintic",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "https://dietarysupplementdatabase.usda.nih.gov/dsid_database/Table1_DSID4.xlsx"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                 "header_rows": 2
+            },
+            "name": "table2",
+            "path": "Table2.csv",
+            "xls_sheets": [0, "Table2_DSID4.xlsx"],
+            "schema": {
+                "fields": [
+                    {
+                        "name": "dsid_study_category_code",
+                        "type": "int"
+                    },
+                    {
+                        "name": "dsid_ingredient_name",
+                        "size": "27",
+                        "type": "char"
+                    },
+                    {
+                        "name": "nhanes_supplement_label_value_pe",
+                        "type": "double"
+                    },
+                    {
+                        "name": "unit_per_serving",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "predicted_mean_value_per_serving",
+                        "type": "double"
+                    },
+                    {
+                        "name": "standard_error_of_predicted_mean",
+                        "type": "double"
+                    },
+                    {
+                        "name": "standard_error_of_predicted_obse",
+                        "type": "double"
+                    },
+                    {
+                        "name": "predicted_difference_from_labe",
+                        "type": "double"
+                    },
+                    {
+                        "name": "dsid_linking_code",
+                        "type": "double"
+                    },
+                    {
+                        "name": "nhanes_2003_04",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "nhanes_2005_06",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "nhanes_2007_08",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "nhanes_2009_10",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "nhanes_2011_12",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "nhanes_2013_14",
+                        "size": "1",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://dietarysupplementdatabase.usda.nih.gov/dsid_database/Table%202_DSID4.xlsx"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                 "header_rows": 2
+            },
+            "name": "table3",
+            "path": "Table3.csv",
+            "xls_sheets": [0,"Table3_DSID4.xlsx"],
+            "schema": {
+                "fields": [
+                    {
+                        "name": "dsid_category_code",
+                        "type": "int"
+                    },
+                    {
+                        "name": "dsid_linking_code_nhanes_2003_04",
+                        "type": "double"
+                    },
+                    {
+                        "name": "dsid_ingredient_name",
+                        "size": "12",
+                        "type": "char"
+                    },
+                    {
+                        "name": "nhanes_ingredient_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "label_amount_per_serving",
+                        "type": "double"
+                    },
+                    {
+                        "name": "unit_per_serving",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "nhanes_supplement_id",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://dietarysupplementdatabase.usda.nih.gov/dsid_database/Table3_DSID4.xlsx"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                 "header_rows": 2
+            },
+            "name": "table4",
+            "path": "Table4.csv",
+            "xls_sheets": [0, "Table4_DSID4.xlsx"],
+            "schema": {
+                "fields": [
+                    {
+                        "name": "dsid_category_code",
+                        "type": "int"
+                    },
+                    {
+                        "name": "dsid_linking_code_to_nhanes_2005_06",
+                        "type": "double"
+                    },
+                    {
+                        "name": "dsid_ingredient_name",
+                        "size": "27",
+                        "type": "char"
+                    },
+                    {
+                        "name": "nhanes_ingredient_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "label_amount_per_serving",
+                        "type": "double"
+                    },
+                    {
+                        "name": "unit_per_serving",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "nhanes_supplement_id",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://dietarysupplementdatabase.usda.nih.gov/dsid_database/Table4_DSID4.xlsx"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                 "header_rows": 2
+            },
+            "name": "table5",
+            "path": "Table5.csv",
+            "xls_sheets": [0, "Table5_DSID4.xlsx"],
+            "schema": {
+                "fields": [
+                    {
+                        "name": "dsid_category_code",
+                        "type": "int"
+                    },
+                    {
+                        "name": "dsid_linking_code_to_nhanes_2007_08",
+                        "type": "double"
+                    },
+                    {
+                        "name": "dsid_ingredient_name",
+                        "size": "27",
+                        "type": "char"
+                    },
+                    {
+                        "name": "nhanes_ingredient_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "label_amount_per_serving",
+                        "type": "double"
+                    },
+                    {
+                        "name": "unit_per_serving",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "nhanes_supplement_id",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://dietarysupplementdatabase.usda.nih.gov/dsid_database/Table5_DSID4.xlsx"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                 "header_rows": 2
+            },
+            "name": "table6",
+            "path": "Table6.csv",
+            "xls_sheets": [0, "Table6_DSID4.xlsx"],
+            "schema": {
+                "fields": [
+                    {
+                        "name": "dsid_category_code",
+                        "type": "int"
+                    },
+                    {
+                        "name": "dsid_linking_code_nhanes_2009_10",
+                        "type": "double"
+                    },
+                    {
+                        "name": "dsid_ingredient_name",
+                        "size": "27",
+                        "type": "char"
+                    },
+                    {
+                        "name": "nhanes_ingredient_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "label_amount_per_serving",
+                        "type": "double"
+                    },
+                    {
+                        "name": "unit_per_serving",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "nhanes_supplement_id",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://dietarysupplementdatabase.usda.nih.gov/dsid_database/Table6_DSID4.xlsx"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                 "header_rows": 2
+            },
+            "name": "table7",
+            "path": "Table7.csv",
+            "xls_sheets": [0, "Table7_DSID4.xlsx"],
+            "schema": {
+                "fields": [
+                    {
+                        "name": "dsid_category_code",
+                        "type": "int"
+                    },
+                    {
+                        "name": "dsid_linking_code_to_nhanes_2011_12",
+                        "type": "double"
+                    },
+                    {
+                        "name": "dsid_ingredient_name",
+                        "size": "12",
+                        "type": "char"
+                    },
+                    {
+                        "name": "nhanes_ingredient_id",
+                        "type": "double"
+                    },
+                    {
+                        "name": "label_amount_per_serving",
+                        "type": "double"
+                    },
+                    {
+                        "name": "unit_per_serving",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "nhanes_supplement_id",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://dietarysupplementdatabase.usda.nih.gov/dsid_database/Table7_DSID4.xlsx"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                 "header_rows": 2
+            },
+            "name": "table8",
+            "path": "Table8.csv",
+            "xls_sheets": [0, "Table8_DSID4.xlsx"],
+            "schema": {
+                "fields": [
+                    {
+                        "name": "dsid_category_code",
+                        "type": "int"
+                    },
+                    {
+                        "name": "dsid_linking_code_to_nhanes_2013_14",
+                        "type": "double"
+                    },
+                    {
+                        "name": "dsid_ingredient_name",
+                        "size": "12",
+                        "type": "char"
+                    },
+                    {
+                        "name": "nhanes_ingredient_id",
+                        "type": "double"
+                    },
+                    {
+                        "name": "label_amount_per_serving",
+                        "type": "double"
+                    },
+                    {
+                        "name": "unit_per_serving",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "nhanes_supplement_id",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "https://dietarysupplementdatabase.usda.nih.gov/dsid_database/Table8_DSID4.xlsx"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "Dietary Supplement Ingredient Database (DSID-4),",
+    "version": "1.0.0"
+}
