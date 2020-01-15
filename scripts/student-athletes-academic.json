@@ -1,0 +1,4165 @@
+{
+    "citation": "",
+    "description": "NCAA data from its member institutions on the academic performance of their student-athletes. Dataset include the graduation rates for all NCAA member institutions in Divisions I and II ",
+    "homepage": "http://www.ncaa.org/about/resources/research/shared-ncaa-research-data",
+    "keywords": [
+        "NCAA",
+        "student",
+        "athetes",
+        "academic",
+        "performance"
+    ],
+    "name": "student-athletes-academic",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ",",
+                "header_rows": 1
+            },
+            "name": "div_1_national_aggregation_overall",
+            "path": "div_1_national_aggregation_overall.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sport_code",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "datatab_fed_rate",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_2011",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_2010",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_2009",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_2008",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_2007",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_2006",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_2005",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_2004",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_2003",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_2002",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_2001",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_2000",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_1999",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_1998",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_1997",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_1996",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_1995",
+                        "type": "int"
+                    },
+                    {
+                        "name": "datatab_gsr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_2011",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_2010",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_2009",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_2008",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_2007",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_2006",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_2005",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_2004",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_2003",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_2002",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_2001",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_2000",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_1999",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_1998",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_1997",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_1996",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_1995",
+                        "type": "int"
+                    },
+                    {
+                        "name": "datatab_fed_numerator",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_num_2011",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_num_2010",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_num_2009",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_num_2008",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_num_2007",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_num_2006",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_num_2005",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_num_2004",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_num_2003",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_num_2002",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_num_2001",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_num_2000",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_num_1999",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_num_1998",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_num_1997",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_num_1996",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_num_1995",
+                        "type": "int"
+                    },
+                    {
+                        "name": "datatab_fed_denominator",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_den_2011",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_den_2010",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_den_2009",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_den_2008",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_den_2007",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_den_2006",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_den_2005",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_den_2004",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_den_2003",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_den_2002",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_den_2001",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_den_2000",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_den_1999",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_den_1998",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_den_1997",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_den_1996",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_den_1995",
+                        "type": "double"
+                    },
+                    {
+                        "name": "datatab_gsr_numberator",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_num_2011",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_num_2010",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_num_2009",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_num_2008",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_num_2007",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_num_2006",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_num_2005",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_num_2004",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_num_2003",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_num_2002",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_num_2001",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_num_2000",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_num_1999",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_num_1998",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_num_1997",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_num_1996",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_num_1995",
+                        "type": "int"
+                    },
+                    {
+                        "name": "datatab_gsr_denominator",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_den_2011",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_den_2010",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_den_2009",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_den_2008",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_den_2007",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_den_2006",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_den_2005",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_den_2004",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_den_2003",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_den_2002",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_den_2001",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_den_2000",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_den_1999",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_den_1998",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_den_1997",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_den_1996",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_den_1995",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "https://ncaaorg.s3.amazonaws.com/research/gradrates/data/2018RES_File1-DINationalAggregationOverall.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "header_rows": 1
+            },
+            "name": "div_1_national_aggregation_student_body",
+            "path": "div_1_national_aggregation_student_body.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "gender_sb",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "ethnicity_sb",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "fed_num_2011_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_num_2010_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_num_2009_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_num_2008_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_num_2007_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_num_2006_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_num_2005_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_num_2004_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_num_2003_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_num_2002_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_num_2001_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_num_2000_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_num_1999_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_num_1998_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_num_1997_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_num_1996_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_num_1995_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_den_2011_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_den_2010_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_den_2009_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_den_2008_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_den_2007_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_den_2006_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_den_2005_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_den_2004_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_den_2003_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_den_2002_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_den_2001_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_den_2000_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_den_1999_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_den_1998_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_den_1997_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_den_1996_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_den_1995_sb",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://ncaaorg.s3.amazonaws.com/research/gradrates/data/2018RES_File3-DINationalAggregationSB.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "header_rows": 1
+            },
+            "name": "div_1_national_aggregation_student_athletes",
+            "path": "div_1_national_aggregation_student_athletes.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sport_code_sa",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "gender_sa",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "ethnicity_sa",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "datatab_fed_num",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_num_2011_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_num_2010_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_num_2009_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_num_2008_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_num_2007_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_num_2006_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_num_2005_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_num_2004_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_num_2003_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_num_2002_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_num_2001_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_num_2000_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_num_1999_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_num_1998_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_num_1997_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_num_1996_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_num_1995_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "datatab_fed_den",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_den_2011_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_den_2010_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_den_2009_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_den_2008_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_den_2007_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_den_2006_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_den_2005_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_den_2004_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_den_2003_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_den_2002_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_den_2001_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_den_2000_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_den_1999_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_den_1998_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_den_1997_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_den_1996_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_den_1995_sa",
+                        "type": "double"
+                    },
+                    {
+                        "name": "datatab_gsr_num",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_num_2011_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_num_2010_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_num_2009_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_num_2008_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_num_2007_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_num_2006_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_num_2005_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_num_2004_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_num_2003_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_num_2002_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_num_2001_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_num_2000_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_num_1999_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_num_1998_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_num_1997_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_num_1996_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_num_1995_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "datatab_gsr_den",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_den_2011_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_den_2010_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_den_2009_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_den_2008_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_den_2007_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_den_2006_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_den_2005_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_den_2004_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_den_2003_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_den_2002_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_den_2001_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_den_2000_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_den_1999_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_den_1998_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_den_1997_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_den_1996_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_den_1995_sa",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "https://ncaaorg.s3.amazonaws.com/research/gradrates/data/2018RES_File2-DINationalAggregationSA.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "header_rows": 1
+            },
+            "name": "div_1_school_student_athletes_and_student_body",
+            "path": "div_1_school_student_athletes_and_student_body.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "datatab_school_info",
+                        "type": "int"
+                    },
+                    {
+                        "name": "scl_unitid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "scl_name",
+                        "size": "58",
+                        "type": "char"
+                    },
+                    {
+                        "name": "scl_division",
+                        "type": "int"
+                    },
+                    {
+                        "name": "scl_subdivision",
+                        "type": "int"
+                    },
+                    {
+                        "name": "scl_conference",
+                        "size": "34",
+                        "type": "char"
+                    },
+                    {
+                        "name": "div1_fb_conference",
+                        "size": "35",
+                        "type": "char"
+                    },
+                    {
+                        "name": "scl_hbcu",
+                        "type": "int"
+                    },
+                    {
+                        "name": "scl_private",
+                        "type": "int"
+                    },
+                    {
+                        "name": "datatab_4yr_overall_fed_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_n_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "datatab_4yr_overall_gsr_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_n_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "datatab_4yr_gender_fed_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_n_male_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_male_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_n_female_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_female_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "datatab_4yr_gender_gsr_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_n_male_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_male_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_n_female_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_female_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "datatab_4yr_race_fed_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_aa_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_hsp_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_other_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_wh_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "datatab_4yr_race_gsr_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_aa_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_hsp_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_other_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_wh_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "datatab_4yr_genderrace_fed_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_male_aa_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_male_hsp_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_male_other_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_male_wh_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_female_aa_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_female_hsp_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_female_other_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_female_wh_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "datatab_4yr_genderrace_gsr_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_male_aa_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_male_hsp_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_male_other_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_male_wh_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_female_aa_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_female_hsp_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_female_other_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_female_wh_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "datatab_singleyr_overall_fed_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_n_2011_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_n_2010_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_n_2009_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_n_2008_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_n_2007_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_n_2006_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_n_2005_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_n_2004_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_n_2003_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_n_2002_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_n_2001_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_n_2000_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_n_1999_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_n_1998_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_n_1997_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_n_1996_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_n_1995_sa",
+                        "type": "double"
+                    },
+                    {
+                        "name": "fed_rate_2011_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_2010_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_2009_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_2008_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_2007_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_2006_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_2005_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_2004_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_2003_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_2002_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_2001_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_2000_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_1999_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_1998_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_1997_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_1996_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_1995_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "datatab_singleyr_overall_gsr_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_n_2011_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_n_2010_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_n_2009_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_n_2008_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_n_2007_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_n_2006_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_n_2005_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_n_2004_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_n_2003_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_n_2002_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_n_2001_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_n_2000_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_n_1999_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_n_1998_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_n_1997_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_n_1996_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_n_1995_sa",
+                        "type": "double"
+                    },
+                    {
+                        "name": "gsr_2011_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_2010_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_2009_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_2008_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_2007_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_2006_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_2005_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_2004_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_2003_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_2002_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_2001_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_2000_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_1999_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_1998_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_1997_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_1996_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_1995_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "datatab_singleyr_gender_fed_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_male_2011_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_male_2010_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_male_2009_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_male_2008_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_male_2007_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_male_2006_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_male_2005_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_male_2004_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_male_2003_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_male_2002_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_male_2001_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_male_2000_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_male_1999_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_male_1998_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_male_1997_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_male_1996_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_male_1995_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_female_2011_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_female_2010_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_female_2009_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_female_2008_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_female_2007_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_female_2006_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_female_2005_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_female_2004_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_female_2003_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_female_2002_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_female_2001_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_female_2000_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_female_1999_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_female_1998_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_female_1997_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_female_1996_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_female_1995_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "datatab_singleyr_gender_gsr_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_male_2011_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_male_2010_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_male_2009_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_male_2008_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_male_2007_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_male_2006_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_male_2005_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_male_2004_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_male_2003_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_male_2002_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_male_2001_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_male_2000_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_male_1999_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_male_1998_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_male_1997_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_male_1996_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_male_1995_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_female_2011_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_female_2010_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_female_2009_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_female_2008_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_female_2007_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_female_2006_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_female_2005_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_female_2004_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_female_2003_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_female_2002_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_female_2001_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_female_2000_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_female_1999_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_female_1998_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_female_1997_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_female_1996_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr_female_1995_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "datatab_4yr_overall_fed_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_n_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "datatab_4yr_gender_fed_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_n_male_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_male_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_n_female_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_female_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "datatab_4yr_race_fed_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_aa_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_hsp_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_other_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_wh_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "datatab_4yr_genderrace_fed_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_male_aa_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_male_hsp_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_male_other_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_male_wh_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_female_aa_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_female_hsp_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_female_other_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_female_wh_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "datatab_singleyr_overall_fed_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_2011_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_2010_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_2009_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_2008_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_2007_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_2006_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_2005_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_2004_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_2003_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_2002_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_2001_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_2000_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_1999_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_1998_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_1997_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_1996_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_1995_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "datatab_singleyr_gender_fed_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_male_2011_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_male_2010_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_male_2009_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_male_2008_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_male_2007_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_male_2006_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_male_2005_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_male_2004_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_male_2003_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_male_2002_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_male_2001_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_male_2000_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_male_1999_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_male_1998_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_male_1997_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_male_1996_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_male_1995_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_female_2011_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_female_2010_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_female_2009_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_female_2008_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_female_2007_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_female_2006_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_female_2005_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_female_2004_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_female_2003_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_female_2002_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_female_2001_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_female_2000_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_female_1999_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_female_1998_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_female_1997_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_female_1996_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_female_1995_sb",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://ncaaorg.s3.amazonaws.com/research/gradrates/data/2018RES_File4-DISchoolAggregationSASB.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "header_rows": 1
+            },
+            "name": "div_1_squad_lvl_graduation_success_rate.",
+            "path": "div_1_squad_lvl_graduation_success_rate..csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "scl_unitid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "scl_name",
+                        "size": "58",
+                        "type": "char"
+                    },
+                    {
+                        "name": "scl_division",
+                        "type": "int"
+                    },
+                    {
+                        "name": "scl_subdivision",
+                        "type": "int"
+                    },
+                    {
+                        "name": "scl_conference",
+                        "size": "34",
+                        "type": "char"
+                    },
+                    {
+                        "name": "div1_fb_conference",
+                        "size": "35",
+                        "type": "char"
+                    },
+                    {
+                        "name": "scl_hbcu",
+                        "type": "int"
+                    },
+                    {
+                        "name": "scl_private",
+                        "type": "int"
+                    },
+                    {
+                        "name": "sport",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "sponsored",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gsr",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://ncaaorg.s3.amazonaws.com/research/gradrates/data/2018RES_File5-DISquadAggregationSA.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "header_rows": 1
+            },
+            "name": "div_2_national_aggregation_overall",
+            "path": "div_2_national_aggregation_overall.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sport_code",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "datatab_fed_rate",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_2011",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_2010",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_2009",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_2008",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_2007",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_2006",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_2005",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_2004",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_2003",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_2002",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_2001",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_2000",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_1999",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_1998",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_1997",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_1996",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_1995",
+                        "type": "int"
+                    },
+                    {
+                        "name": "datatab_asr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_2011",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_2010",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_2009",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_2008",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_2007",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_2006",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_2005",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_2004",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_2003",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_2002",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_2001",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_2000",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_1999",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_1998",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_1997",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_1996",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_1995",
+                        "type": "int"
+                    },
+                    {
+                        "name": "datatab_fed_numerator",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_num_2011",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_num_2010",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_num_2009",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_num_2008",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_num_2007",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_num_2006",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_num_2005",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_num_2004",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_num_2003",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_num_2002",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_num_2001",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_num_2000",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_num_1999",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_num_1998",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_num_1997",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_num_1996",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_num_1995",
+                        "type": "int"
+                    },
+                    {
+                        "name": "datatab_fed_denominator",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_den_2011",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_den_2010",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_den_2009",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_den_2008",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_den_2007",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_den_2006",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_den_2005",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_den_2004",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_den_2003",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_den_2002",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_den_2001",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_den_2000",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_den_1999",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_den_1998",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_den_1997",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_den_1996",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_den_1995",
+                        "type": "int"
+                    },
+                    {
+                        "name": "datatab_asr_numerator",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_num_2011",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_num_2010",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_num_2009",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_num_2008",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_num_2007",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_num_2006",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_num_2005",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_num_2004",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_num_2003",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_num_2002",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_num_2001",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_num_2000",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_num_1999",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_num_1998",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_num_1997",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_num_1996",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_num_1995",
+                        "type": "int"
+                    },
+                    {
+                        "name": "datatab_asr_denominator",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_den_2011",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_den_2010",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_den_2009",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_den_2008",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_den_2007",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_den_2006",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_den_2005",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_den_2004",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_den_2003",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_den_2002",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_den_2001",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_den_2000",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_den_1999",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_den_1998",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_den_1997",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_den_1996",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_den_1995",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://ncaaorg.s3.amazonaws.com/research/gradrates/data/2018RES_File6-DIINationalAggregationOverall.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "header_rows": 1
+            },
+            "name": "div_2_national_aggregation_student_body",
+            "path": "div_2_national_aggregation_student_body.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "gender_sb",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "ethnicity_sb",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "fed_num_2011_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_num_2010_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_num_2009_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_num_2008_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_num_2007_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_num_2006_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_num_2005_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_num_2004_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_num_2003_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_num_2002_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_num_2001_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_num_2000_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_num_1999_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_num_1998_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_num_1997_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_num_1996_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_num_1995_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_den_2011_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_den_2010_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_den_2009_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_den_2008_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_den_2007_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_den_2006_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_den_2005_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_den_2004_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_den_2003_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_den_2002_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_den_2001_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_den_2000_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_den_1999_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_den_1998_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_den_1997_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_den_1996_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_den_1995_sb",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://ncaaorg.s3.amazonaws.com/research/gradrates/data/2018RES_File8-DIINationalAggregationSB.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "header_rows": 1
+            },
+            "name": "div_2_national_aggregation_student_athletes",
+            "path": "div_2_national_aggregation_student_athletes.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sport_code_sa",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "gender_sa",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "ethnicity_sa",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "datatab_fed_num",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_num_2011_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_num_2010_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_num_2009_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_num_2008_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_num_2007_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_num_2006_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_num_2005_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_num_2004_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_num_2003_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_num_2002_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_num_2001_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_num_2000_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_num_1999_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_num_1998_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_num_1997_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_num_1996_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_num_1995_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "datatab_fed_den",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_den_2011_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_den_2010_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_den_2009_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_den_2008_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_den_2007_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_den_2006_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_den_2005_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_den_2004_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_den_2003_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_den_2002_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_den_2001_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_den_2000_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_den_1999_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_den_1998_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_den_1997_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_den_1996_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_den_1995_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "datatab_asr_num",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_num_2011_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_num_2010_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_num_2009_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_num_2008_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_num_2007_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_num_2006_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_num_2005_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_num_2004_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_num_2003_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_num_2002_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_num_2001_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_num_2000_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_num_1999_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_num_1998_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_num_1997_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_num_1996_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_num_1995_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "datatab_asr_den",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_den_2011_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_den_2010_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_den_2009_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_den_2008_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_den_2007_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_den_2006_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_den_2005_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_den_2004_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_den_2003_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_den_2002_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_den_2001_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_den_2000_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_den_1999_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_den_1998_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_den_1997_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_den_1996_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_den_1995_sa",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://ncaaorg.s3.amazonaws.com/research/gradrates/data/2018RES_File7-DIINationalAggregationSA.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "header_rows": 1
+            },
+            "name": "div_2_school_student_athletes_and_student_body",
+            "path": "div_2_school_student_athletes_and_student_body.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "datatab_school_info",
+                        "type": "int"
+                    },
+                    {
+                        "name": "scl_unitid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "scl_name",
+                        "size": "47",
+                        "type": "char"
+                    },
+                    {
+                        "name": "scl_division",
+                        "type": "int"
+                    },
+                    {
+                        "name": "scl_subdivision",
+                        "type": "int"
+                    },
+                    {
+                        "name": "scl_conference",
+                        "size": "49",
+                        "type": "char"
+                    },
+                    {
+                        "name": "scl_hbcu",
+                        "type": "int"
+                    },
+                    {
+                        "name": "scl_private",
+                        "type": "int"
+                    },
+                    {
+                        "name": "datatab_4yr_overall_fed_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_n_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "datatab_4yr_overall_asr_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_n_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "datatab_4yr_gender_fed_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_n_male_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_male_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_n_female_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_female_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "datatab_4yr_gender_asr_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_n_male_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_male_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_n_female_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_female_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "datatab_4yr_race_fed_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_aa_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_hsp_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_other_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_wh_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "datatab_4yr_race_asr_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_aa_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_hsp_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_other_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_wh_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "datatab_4yr_genderrace_fed_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_male_aa_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_male_hsp_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_male_other_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_male_wh_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_female_aa_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_female_hsp_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_female_other_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_female_wh_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "datatab_4yr_genderrace_asr_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_male_aa_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_male_hsp_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_male_other_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_male_wh_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_female_aa_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_female_hsp_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_female_other_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_female_wh_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "datatab_singleyr_overall_fed_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_n_2011_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_n_2010_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_n_2009_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_n_2008_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_n_2007_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_n_2006_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_n_2005_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_n_2004_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_n_2003_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_n_2002_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_n_2001_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_n_2000_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_n_1999_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_n_1998_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_n_1997_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_n_1996_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_n_1995_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_2011_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_2010_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_2009_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_2008_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_2007_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_2006_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_2005_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_2004_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_2003_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_2002_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_2001_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_2000_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_1999_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_1998_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_1997_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_1996_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_1995_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "datatab_singleyr_overall_asr_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_n_2011_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_n_2010_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_n_2009_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_n_2008_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_n_2007_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_n_2006_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_n_2005_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_n_2004_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_n_2003_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_n_2002_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_n_2001_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_n_2000_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_n_1999_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_n_1998_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_n_1997_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_n_1996_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_n_1995_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_2011_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_2010_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_2009_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_2008_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_2007_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_2006_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_2005_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_2004_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_2003_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_2002_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_2001_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_2000_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_1999_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_1998_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_1997_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_1996_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_1995_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "datatab_singleyr_gender_fed_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_male_2011_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_male_2010_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_male_2009_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_male_2008_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_male_2007_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_male_2006_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_male_2005_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_male_2004_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_male_2003_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_male_2002_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_male_2001_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_male_2000_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_male_1999_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_male_1998_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_male_1997_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_male_1996_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_male_1995_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_female_2011_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_female_2010_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_female_2009_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_female_2008_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_female_2007_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_female_2006_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_female_2005_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_female_2004_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_female_2003_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_female_2002_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_female_2001_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_female_2000_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_female_1999_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_female_1998_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_female_1997_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_female_1996_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_female_1995_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "datatab_singleyr_gender_asr_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_male_2011_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_male_2010_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_male_2009_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_male_2008_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_male_2007_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_male_2006_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_male_2005_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_male_2004_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_male_2003_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_male_2002_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_male_2001_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_male_2000_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_male_1999_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_male_1998_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_male_1997_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_male_1996_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_male_1995_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_female_2011_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_female_2010_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_female_2009_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_female_2008_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_female_2007_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_female_2006_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_female_2005_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_female_2004_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_female_2003_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_female_2002_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_female_2001_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_female_2000_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_female_1999_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_female_1998_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_female_1997_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_female_1996_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr_female_1995_sa",
+                        "type": "int"
+                    },
+                    {
+                        "name": "datatab_4yr_overall_fed_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_n_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "datatab_4yr_gender_fed_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_n_male_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_male_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_n_female_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_female_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "datatab_4yr_race_fed_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_aa_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_hsp_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_other_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_wh_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "datatab_4yr_genderrace_fed_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_male_aa_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_male_hsp_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_male_other_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_male_wh_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_female_aa_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_female_hsp_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_female_other_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_female_wh_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "datatab_singleyr_overall_fed_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_2011_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_2010_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_2009_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_2008_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_2007_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_2006_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_2005_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_2004_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_2003_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_2002_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_2001_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_2000_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_1999_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_1998_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_1997_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_1996_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_1995_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "datatab_singleyr_gender_fed_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_male_2011_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_male_2010_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_male_2009_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_male_2008_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_male_2007_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_male_2006_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_male_2005_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_male_2004_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_male_2003_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_male_2002_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_male_2001_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_male_2000_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_male_1999_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_male_1998_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_male_1997_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_male_1996_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_male_1995_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_female_2011_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_female_2010_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_female_2009_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_female_2008_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_female_2007_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_female_2006_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_female_2005_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_female_2004_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_female_2003_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_female_2002_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_female_2001_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_female_2000_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_female_1999_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_female_1998_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_female_1997_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_female_1996_sb",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate_female_1995_sb",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://ncaaorg.s3.amazonaws.com/research/gradrates/data/2018RES_File9-DIISchoolAggregationSASB.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "header_rows": 1
+            },
+            "name": "div_2_squad_lvl_graduation_success_rate",
+            "path": "div_2_squad_lvl_graduation_success_rate.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "scl_unitid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "scl_name",
+                        "size": "47",
+                        "type": "char"
+                    },
+                    {
+                        "name": "scl_division",
+                        "type": "int"
+                    },
+                    {
+                        "name": "scl_subdivision",
+                        "type": "int"
+                    },
+                    {
+                        "name": "scl_conference",
+                        "size": "49",
+                        "type": "char"
+                    },
+                    {
+                        "name": "scl_hbcu",
+                        "type": "int"
+                    },
+                    {
+                        "name": "scl_private",
+                        "type": "int"
+                    },
+                    {
+                        "name": "sport",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "sponsored",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fed_rate",
+                        "type": "int"
+                    },
+                    {
+                        "name": "asr",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://ncaaorg.s3.amazonaws.com/research/gradrates/data/2018RES_File10-DIISquadAggregationSA.csv"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "NCAA data from its member institutions on the academic performance of their student-athletes",
+    "version": "1.0.0"
+}
