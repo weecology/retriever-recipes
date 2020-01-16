@@ -1,6 +1,6 @@
 {
     "citation": "",
-    "description": "NCAA data from its member institutions on the academic performance of their student-athletes. Dataset include the graduation rates for all NCAA member institutions in Divisions I and II ",
+    "description": "NCAA Students graduation rates in Divisions I and II and team-level Academic Progress Rates",
     "homepage": "http://www.ncaa.org/about/resources/research/shared-ncaa-research-data",
     "keywords": [
         "NCAA",
@@ -9,7 +9,7 @@
         "academic",
         "performance"
     ],
-    "name": "student-athletes-academic",
+    "name": "ncaa_student_athletes_academic",
     "resources": [
         {
             "dialect": {
@@ -2029,8 +2029,8 @@
                 "delimiter": ",",
                 "header_rows": 1
             },
-            "name": "div_1_squad_lvl_graduation_success_rate.",
-            "path": "div_1_squad_lvl_graduation_success_rate..csv",
+            "name": "div_1_squad_lvl_graduation_success_rate",
+            "path": "div_1_squad_lvl_graduation_success_rate.csv",
             "schema": {
                 "fields": [
                     {
@@ -4160,6 +4160,6 @@
     ],
     "retriever": "True",
     "retriever_minimum_version": "2.1.0",
-    "title": "NCAA data from its member institutions on the academic performance of their student-athletes",
+    "title": "NCAA Students Academic Progress Rates",
     "version": "1.0.0"
 }

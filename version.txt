@@ -128,6 +128,7 @@ marine_recruitment_data.json,1.0.1
 mediter_basin_plant_traits.json,1.0.1
 mt_st_helens_veg.json,1.2.3
 nadp_precipitation_chemistry.json,1.0.0
+ncaa_student_athletes_academic.json,1.0.0
 nd_gain.json,1.0.3
 nematode_traits.json,1.0.1
 ngreatplains_flowering_dates.json,1.0.2
@@ -157,7 +158,6 @@ socean_diet_data.py,1.0.4
 sonoran_desert.json,1.0.0
 species_exctinction_rates.json,1.0.1
 streamflow_conditions.json,1.0.1
-student_athletes_academic.json,1.0.0
 sycamore_creek_macroinvertebrate.json,1.0.0
 transparencia_dados_abertos_brasil.json,1.0.0
 tree_canopy_geometries.json,1.0.1
