@@ -17,7 +17,7 @@
                 "header_rows": 1
             },
             "name": "div_1_national_aggregation_overall",
-            "path": "div_1_national_aggregation_overall.csv",
+            "path": "2018RES_File1-DINationalAggregationOverall.txt",
             "schema": {
                 "fields": [
                     {
@@ -467,7 +467,7 @@
                 "header_rows": 1
             },
             "name": "div_1_national_aggregation_student_body",
-            "path": "div_1_national_aggregation_student_body.csv",
+            "path": "2018RES_File3-DINationalAggregationSB.txt",
             "schema": {
                 "fields": [
                     {
@@ -626,7 +626,7 @@
                 "header_rows": 1
             },
             "name": "div_1_national_aggregation_student_athletes",
-            "path": "div_1_national_aggregation_student_athletes.csv",
+            "path": "2018RES_File2-DINationalAggregationSA.txt",
             "schema": {
                 "fields": [
                     {
@@ -942,7 +942,7 @@
                 "header_rows": 1
             },
             "name": "div_1_school_student_athletes_and_student_body",
-            "path": "div_1_school_student_athletes_and_student_body.csv",
+            "path": "2018RES_File4-DISchoolAggregationSASB.txt",
             "schema": {
                 "fields": [
                     {
@@ -2030,7 +2030,7 @@
                 "header_rows": 1
             },
             "name": "div_1_squad_lvl_graduation_success_rate",
-            "path": "div_1_squad_lvl_graduation_success_rate.csv",
+            "path": "2018RES_File5-DISquadAggregationSA.txt",
             "schema": {
                 "fields": [
                     {
@@ -2095,7 +2095,7 @@
                 "header_rows": 1
             },
             "name": "div_2_national_aggregation_overall",
-            "path": "div_2_national_aggregation_overall.csv",
+            "path": "2018RES_File6-DIINationalAggregationOverall.txt",
             "schema": {
                 "fields": [
                     {
@@ -2545,7 +2545,7 @@
                 "header_rows": 1
             },
             "name": "div_2_national_aggregation_student_body",
-            "path": "div_2_national_aggregation_student_body.csv",
+            "path": "2018RES_File8-DIINationalAggregationSB.txt",
             "schema": {
                 "fields": [
                     {
@@ -2704,7 +2704,7 @@
                 "header_rows": 1
             },
             "name": "div_2_national_aggregation_student_athletes",
-            "path": "div_2_national_aggregation_student_athletes.csv",
+            "path": "2018RES_File7-DIINationalAggregationSA.txt",
             "schema": {
                 "fields": [
                     {
@@ -3020,7 +3020,7 @@
                 "header_rows": 1
             },
             "name": "div_2_school_student_athletes_and_student_body",
-            "path": "div_2_school_student_athletes_and_student_body.csv",
+            "path": "2018RES_File9-DIISchoolAggregationSASB.txt",
             "schema": {
                 "fields": [
                     {
@@ -4103,7 +4103,7 @@
                 "header_rows": 1
             },
             "name": "div_2_squad_lvl_graduation_success_rate",
-            "path": "div_2_squad_lvl_graduation_success_rate.csv",
+            "path": "2018RES_File10-DIISquadAggregationSA.txt",
             "schema": {
                 "fields": [
                     {
