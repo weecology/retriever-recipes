@@ -1,0 +1,108 @@
+{
+    "citation": "Stapp P. 2013. SGS-LTER Long-Term Monitoring Project: Small Mammals on Trapping Webs on the Central Plains Experimental Range, Nunn, Colorado, USA 1994 -2006, ARS Study Number 118. Environmental Data Initiative. https://doi.org/10.6073/pasta/2e311b4e40fea38e573890f473807ba9. Dataset accessed 1/30/2020.",
+    "description": "SGS-LTER Long-Term Monitoring Project: Small Mammals on Trapping Webs on the Central Plains Experimental Range, Nunn, Colorado, USA 1994 -2006, ARS Study Number 118",
+    "homepage": "https://portal.lternet.edu/nis/mapbrowse?packageid=knb-lter-sgs.137.17",
+    "keywords": ["populations",  "mammals",  "population dynamics",  "community dynamics",  "rodents",  "grasslands",  "shrublands"],
+    "licenses": [{"name": "CC BY"}],
+    "name": "shortgrass-steppe-lter",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": "\t",
+                "missingValues": ["."]
+            },
+            "name": "shortgrass_data",
+            "path": "LTMntrSmlMamWebs.txt",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sample",
+                        "type": "int"
+                    },
+                    {
+                        "name": "session",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "veg",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "day",
+                        "type": "int"
+                    },
+                    {
+                        "name": "month",
+                        "type": "int"
+                    },
+                    {
+                        "name": "year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "web",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "night",
+                        "type": "int"
+                    },
+                    {
+                        "name": "trap",
+                        "type": "int"
+                    },
+                    {
+                        "name": "capt",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "tag",
+                        "type": "int"
+                    },
+                    {
+                        "name": "spp",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "age",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "sex",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "reprod",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "wt",
+                        "type": "double"
+                    },
+                    {
+                        "name": "notes",
+                        "size": "111",
+                        "type": "char"
+                    },
+                    {
+                        "name": "stapp_comments",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://portal.lternet.edu/nis/dataviewer?packageid=knb-lter-sgs.137.17&entityid=c4cc7f18abefa0d98a356c6936710ab1"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "Shortgrass Steppe Long Term Ecological Research (SGS-LTER) Program data",
+    "version": "1.0.0"
+}
