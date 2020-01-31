@@ -1,0 +1,111 @@
+{
+    "citation": "Ushio M, Hsieh CH, Masuda R, Deyle RE, Ye H, Chang CW, Sugihara G, Kondoh M (2018) Fluctuating interaction entwork and time-varying stability of a natural fish community Nature 554 (7692): 360–363 doi:101038/nature25504",
+    "description": "Fluctuating interaction network and time-varying stability of a natural fish community",
+    "homepage": "https://github.com/ong8181/dynamic-stability",
+    "keywords": ["fish community"],
+    "licenses": [{"name": "MIT"}],
+    "name": "ushio-maizuru-fish-community",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "maizuru",
+            "path": "Maizuru_dominant_sp.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "date_tag",
+                        "size": "13",
+                        "type": "char"
+                    },
+                    {
+                        "name": "surf_t",
+                        "type": "double"
+                    },
+                    {
+                        "name": "bot_t",
+                        "type": "double"
+                    },
+                    {
+                        "name": "aurelia_sp",
+                        "type": "double"
+                    },
+                    {
+                        "name": "engraulis_japonicus",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plotosus_japonicus",
+                        "type": "int"
+                    },
+                    {
+                        "name": "sebastes_inermis",
+                        "type": "int"
+                    },
+                    {
+                        "name": "trachurus_japonicus",
+                        "type": "int"
+                    },
+                    {
+                        "name": "girella_punctata",
+                        "type": "int"
+                    },
+                    {
+                        "name": "pseudolabrus_sieboldi",
+                        "type": "int"
+                    },
+                    {
+                        "name": "parajulis_poecilepterus",
+                        "type": "int"
+                    },
+                    {
+                        "name": "halichoeres_tenuispinis",
+                        "type": "int"
+                    },
+                    {
+                        "name": "chaenogobius_gulosus",
+                        "type": "double"
+                    },
+                    {
+                        "name": "pterogobius_zonoleucus",
+                        "type": "double"
+                    },
+                    {
+                        "name": "tridentiger_trigonocephalus",
+                        "type": "double"
+                    },
+                    {
+                        "name": "siganus_fuscescens",
+                        "type": "int"
+                    },
+                    {
+                        "name": "sphyraena_pinguis",
+                        "type": "int"
+                    },
+                    {
+                        "name": "rudarius_ercodes",
+                        "type": "double"
+                    },
+                    {
+                        "name": "y",
+                        "type": "int"
+                    },
+                    {
+                        "name": "m",
+                        "type": "int"
+                    },
+                    {
+                        "name": "d",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://raw.githubusercontent.com/ong8181/dynamic-stability/master/data/Maizuru_dominant_sp.csv"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "Maizuru Bay fish community",
+    "version": "1.0.0"
+}

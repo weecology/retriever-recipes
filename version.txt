@@ -172,6 +172,7 @@ usda_mafcl_fooddatacenteral_srlegacy.json,1.0.0
 usda_mafcl_fooddatacenteral_supportingdata.json,1.0.0
 usda_mafcl_standard_reference.py,1.0.0
 usgs_elevation.py,1.0.0
+ushio_maizuru_fish_community.json,1.0.0
 veg_plots_sdl.json,2.0.1
 vertnet.py,1.4.2
 vertnet_amphibians.py,1.1.2
