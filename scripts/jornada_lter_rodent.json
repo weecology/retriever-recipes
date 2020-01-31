@@ -1,0 +1,116 @@
+{
+    "citation": "Bestelmeyer B., D. Lightfoot, R. Schooley. 2019. Rodent data from trapping webs in the long-term Small Mammal Exclusion Study (SMES) at Jornada Basin LTER, 1995-2007. Environmental Data Initiative. https://doi.org/10.6073/pasta/0c38baecb2e10b4fe70d187ba6f08dda. Dataset accessed 1/30/2020.",
+    "description": "This data package contains rodent trapping data from plots with various levels of herbivore exclusion on the Jornada Experimental Range (JER) and Chihuahuan Desert Rangeland Research Center (CDRRC) lands.",
+    "homepage": "https://portal.lternet.edu/nis/mapbrowse?packageid=knb-lter-jrn.210086009.74",
+    "keywords": ["land use", "herbivory", "deserts", "grasslands", "shrubs", "long term monitoring", "populations", "consumers", "abundance", "long term", "small mammals", "rabbits", "vertebrates", "fauna", "trapping"],
+    "licenses": [{"name": "CC BY"}],
+    "name": "jornada-lter-rodent",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "smes_rodent_trapping",
+            "path": "JRNStudy_086_smes_rodent_trapping_data.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "season",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "record_date",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "habitat",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "night",
+                        "type": "int"
+                    },
+                    {
+                        "name": "web",
+                        "type": "int"
+                    },
+                    {
+                        "name": "trap",
+                        "type": "int"
+                    },
+                    {
+                        "name": "recap",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "spp",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "sex",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "age",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "weight",
+                        "type": "int"
+                    },
+                    {
+                        "name": "repro",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "recond",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "incomplete",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "marked",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "dead",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "closed",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "newborn",
+                        "size": "2",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://portal.lternet.edu/nis/dataviewer?packageid=knb-lter-jrn.210086009.74&entityid=13a46a4f5f39850e42ea0ba710db71e8"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "Rodent data from trapping webs in the long-term Small Mammal Exclusion Study (SMES) at Jornada Basin LTER, 1995-2007",
+    "version": "1.0.0"
+}
