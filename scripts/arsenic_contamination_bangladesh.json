@@ -1,0 +1,1470 @@
+{
+    "citation": "BGS and DPHE.  2001.  Arsenic contamination of groundwater in Bangladesh. Kinniburgh, D G and Smedley, P L (Editors). British Geological Survey Technical Report WC/00/19. British Geological Survey: Keyworth.",
+    "description": "Bangladesh, Arsenic contamination of groundwater",
+    "homepage": "http://www.bgs.ac.uk/research/groundwater/health/arsenic/Bangladesh/data.html",
+    "keywords": [" arsenic, bangladesh, water quality, survey, surface geology"],
+    "licenses": [{"name": ""}],
+    "name": "arsenic-contamination-bangladesh",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ",",
+                "header_rows": 6,
+                "missingValue": [" "]
+            },
+            "name": "nationalhydrochemical",
+            "path": "NationalSurveyData.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sample_id",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "sample_field_id",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "sample_date",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "lat_deg",
+                        "type": "double"
+                    },
+                    {
+                        "name": "long_deg",
+                        "type": "double"
+                    },
+                    {
+                        "name": "year_construction",
+                        "type": "int"
+                    },
+                    {
+                        "name": "well_type",
+                        "size": "24",
+                        "type": "char"
+                    },
+                    {
+                        "name": "well_depth",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "division",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "district",
+                        "size": "13",
+                        "type": "char"
+                    },
+                    {
+                        "name": "thana",
+                        "size": "18",
+                        "type": "char"
+                    },
+                    {
+                        "name": "union_field",
+                        "size": "21",
+                        "type": "char"
+                    },
+                    {
+                        "name": "mouza",
+                        "size": "32",
+                        "type": "char"
+                    },
+                    {
+                        "name": "geocode",
+                        "type": "double"
+                    },
+                    {
+                        "name": "as_field",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "al",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "b",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "ba",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "ca",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "co",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "cr",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "cu",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "fe",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "k",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "li",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "mg",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "mn",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "na",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "p",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "si",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "so4",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "sr",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "v",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "zn",
+                        "size": "7",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "http://www.bgs.ac.uk/downloads/directDownload.cfm?id=2214&noexcl=true&t=DPHE%2FBGS%20National%20Hydrochemical%20Survey"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "header_rows": 6,
+                "missingValue": [" "]
+            },
+            "name": "additionalnhs",
+            "path": "NatSurvExtendedData.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sample_id",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "sample_field_id",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "sample_date",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "lat_deg",
+                        "type": "double"
+                    },
+                    {
+                        "name": "long_deg",
+                        "type": "double"
+                    },
+                    {
+                        "name": "year_construction",
+                        "type": "int"
+                    },
+                    {
+                        "name": "well_type",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "well_depth",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "division",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "district",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "thana",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "union_field",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "mouza",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "geocode",
+                        "type": "double"
+                    },
+                    {
+                        "name": "al",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "be",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "cd",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "ce",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "co",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "cr",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "cs",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "cu",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "dy",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "er",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "eu",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "gd",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "ho",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "la",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "li",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "lu",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "mo",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "nd",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "ni",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "pb",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "pr",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "rb",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "sb",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "sm",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "sn",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "tb",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "th",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "tl",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "tm",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "v",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "y",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "yb",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "zn",
+                        "size": "4",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "http://www.bgs.ac.uk/downloads/directDownload.cfm?id=2215&noexcl=true&t=Additional%20NHS%20data%20for%20some%20trace%20elements%20in%20sel"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "header_rows": 6,
+                "missingValue": [" "]
+            },
+            "name": "bwdbsurvey",
+            "path": "BWDBSurveyData.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sample_id",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "sample_field_id",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "sample_date",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "lat_deg",
+                        "type": "double"
+                    },
+                    {
+                        "name": "long_deg",
+                        "type": "double"
+                    },
+                    {
+                        "name": "well_type",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "well_depth",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "division",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "district",
+                        "size": "13",
+                        "type": "char"
+                    },
+                    {
+                        "name": "thana",
+                        "size": "18",
+                        "type": "char"
+                    },
+                    {
+                        "name": "union_field",
+                        "size": "17",
+                        "type": "char"
+                    },
+                    {
+                        "name": "mouza",
+                        "size": "21",
+                        "type": "char"
+                    },
+                    {
+                        "name": "geocode",
+                        "type": "double"
+                    },
+                    {
+                        "name": "as_field",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "al",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "b",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "ba",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "be",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "ca",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "cd",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "ce",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "cl",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "co",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "cr",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "cs",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "cu",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "dy",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "er",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "eu",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "f",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "fe",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "gd",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "hco3",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "ho",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "i",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "k",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "la",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "li",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "lu",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "mg",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "mn",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "mo",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "na",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "nd",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "nh4_n",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "ni",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "no2_n",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "no3_n",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "p",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "pb",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "pr",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "rb",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "sb",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "si",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "sm",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "sn",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "so4",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "sr",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "tb",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "tl",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "tm",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "v",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "y",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "yb",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "zn",
+                        "size": "7",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "http://www.bgs.ac.uk/downloads/directDownload.cfm?id=2216&noexcl=true&t=BWDB%20Water%20Quality%20Monitoring%20Network"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "header_rows": 6,
+                "missingValue": [" "]
+            },
+            "name": "specialstudyareas",
+            "path": "SpecialStudyData.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sample_id",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "sample_field_id",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "sample_date",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "lat_deg",
+                        "type": "double"
+                    },
+                    {
+                        "name": "long_deg",
+                        "type": "double"
+                    },
+                    {
+                        "name": "year_construction",
+                        "type": "int"
+                    },
+                    {
+                        "name": "well_type",
+                        "size": "26",
+                        "type": "char"
+                    },
+                    {
+                        "name": "well_depth",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "division",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "district",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "thana",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "union_field",
+                        "size": "21",
+                        "type": "char"
+                    },
+                    {
+                        "name": "mouza",
+                        "size": "32",
+                        "type": "char"
+                    },
+                    {
+                        "name": "geocode",
+                        "type": "double"
+                    },
+                    {
+                        "name": "al",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "asiii",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "astot",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "b",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "ba",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "be",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "br",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "ca",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "cd",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "ce",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "cl",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "co",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "cr",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "cs",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "cu",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "d13c",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "d18o",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "d2h",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "d34s",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "diss_o2",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "doc",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "dy",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "eh",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "er",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "eu",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "f",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "fe",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "ga",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "gd",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "ge",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "hco3",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "ho",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "i",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "k",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "la",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "li",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "lu",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "mg",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "mn",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "mo",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "na",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "nd",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "nh4_n",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "ni",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "no2_n",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "no3_n",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "ptot",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "pb",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "ph",
+                        "type": "double"
+                    },
+                    {
+                        "name": "pr",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "rb",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "sb",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "sec",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "se",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "si",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "sm",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "sn",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "so4",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "sr",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "t",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "tb",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "th",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "tl",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "tm",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "v",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "y",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "yb",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "zn",
+                        "size": "4",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "http://www.bgs.ac.uk/downloads/directDownload.cfm?id=2217&noexcl=true&t=Special%20Study%20Areas"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "header_rows": 6
+            },
+            "name": "villagesurvey ",
+            "path": "MandariSurveyData.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sample_id",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "sample_field_id",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "sample_date",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "lat_deg",
+                        "type": "double"
+                    },
+                    {
+                        "name": "long_deg",
+                        "type": "double"
+                    },
+                    {
+                        "name": "year_construction",
+                        "type": "int"
+                    },
+                    {
+                        "name": "well_type",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "well_depth",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "division",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "district",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "thana",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "union_field",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "geocode",
+                        "type": "double"
+                    },
+                    {
+                        "name": "as_arsenator",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "as_lab",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "al",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "b",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "ba",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "ca",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "co",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "cr",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "cu",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "d13c",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "d18o",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "d2h",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "fe",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "k",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "li",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "mg",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "mn",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "mo",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "na",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "p",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "si",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "so",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "sr",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "v",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "zn",
+                        "size": "7",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "http://www.bgs.ac.uk/downloads/directDownload.cfm?id=2218&noexcl=true&t=Village%20survey"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "header_rows": 17
+            },
+            "name": "coastlinedistricts",
+            "path": "BLatLong.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "longitude",
+                        "type": "double"
+                    },
+                    {
+                        "name": "latitude",
+                        "type": "double"
+                    },
+                    {
+                        "name": "type",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "http://www.bgs.ac.uk/downloads/directDownload.cfm?id=2219&noexcl=true&t=Bangladesh%20coastline%20and%20districts"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "surfacegeology",
+            "path": "NHSGeology.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sample_id",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "sample_field_id",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "geol_unit",
+                        "size": "25",
+                        "type": "char"
+                    },
+                    {
+                        "name": "gsb_abbrev",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "lithology",
+                        "size": "15",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "http://www.bgs.ac.uk/downloads/directDownload.cfm?id=2220&noexcl=true&t=Surface%20geology%20classification"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "Arsenic contamination of groundwater in Bangladesh data",
+    "version": "1.0.0"
+}
