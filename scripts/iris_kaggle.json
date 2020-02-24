@@ -1,11 +1,12 @@
 {
+    "archived": "zip",
     "citation": "R. A. Fisher. 1936. The Use of Multiple Measurements in Taxonomic Problems. and Asuncion, A. & Newman, D.J. (2007). UCI Machine Learning Repository [http://www.ics.uci.edu/~mlearn/MLRepository.html]. Irvine, CA: University of California, School of Information and Computer Science.",
     "description": "Famous dataset from R. A. Fisher. This dataset has been corrected. Information Source: Asuncion, A. & Newman, D.J. (2007). UCI Machine Learning Repository [http://www.ics.uci.edu/~mlearn/MLRepository.html]. Irvine, CA: University of California, School of Information and Computer Science.",
     "homepage": "https://www.kaggle.com/uciml/iris",
     "keywords": [
-        "plants",
-        "literature-compilation",
-        "categorical"
+        "biology",
+        "gardening and landscaping",
+        "botany"
     ],
     "name": "iris_kaggle",
     "resources": [
@@ -15,26 +16,27 @@
                 "header_rows": 0
             },
             "name": "Iris",
+            "path": "Iris.csv",
             "schema": {
                 "fields": [
                     {
-                        "name": "sepal_length",
+                        "name": "SepalLengthCm",
                         "type": "double"
                     },
                     {
-                        "name": "sepal_width",
+                        "name": "SepalWidthCm",
                         "type": "double"
                     },
                     {
-                        "name": "petal_length",
+                        "name": "PetalLengthCm",
                         "type": "double"
                     },
                     {
-                        "name": "petal_width",
+                        "name": "PetalWidthCm",
                         "type": "double"
                     },
                     {
-                        "name": "class",
+                        "name": "Species",
                         "size": "20",
                         "type": "char"
                     }
