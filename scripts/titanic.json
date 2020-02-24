@@ -1,0 +1,155 @@
+{
+    "archived": "zip",
+    "citation": "https://www.kaggle.com/c/titanic/data [probably have to update this",
+    "description": "The data has been split into two groups:\t\ntraining set (train.csv)\ntest set (test.csv)\nThe training set should be used to build your machine learning models. For the training set, we provide the outcome (also known as the “ground truth”) for each passenger. Your model will be based on “features” like passengers’ gender and class. You can also use feature engineering to create new features.\nThe test set should be used to see how well your model performs on unseen data. For the test set, we do not provide the ground truth for each passenger. It is your job to predict these outcomes. For each passenger in the test set, use the model you trained to predict whether or not they survived the sinking of the Titanic.\nWe also include gender_submission.csv, a set of predictions that assume all and only female passengers survive, as an example of what a submission file should look like.",
+    "homepage": "https://www.kaggle.com/c/titanic",
+    "keywords": [
+        "NA"
+    ],
+    "name": "titanic",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ",",
+                "header_rows": 0
+            },
+            "name": "gender_submission",
+            "path": "gender_submission.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "PassengerId",
+                        "type": "double"
+                    },
+                    {
+                        "name": "Survived",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "kaggle:competition:titanic"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "header_rows": 0
+            },
+            "name": "train",
+            "path": "train.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "PassengerId",
+                        "type": "double"
+                    },
+                    {
+                        "name": "Survived",
+                        "type": "double"
+                    },
+                    {
+                        "name": "Pclass",
+                        "type": "double"
+                    },
+                    {
+                        "name": "Name",
+                        "type": "char"
+                    },
+                    {
+                        "name": "Sex",
+                        "type": "char"
+                    },
+                    {
+                        "name": "Age",
+                        "type": "double"
+                    },
+                    {
+                        "name": "SibSp",
+                        "type": "double"
+                    },
+                    {
+                        "name": "Parch",
+                        "type": "double"
+                    },
+                    {
+                        "name": "Ticket",
+                        "type": "char"
+                    },
+                    {
+                        "name": "Fare",
+                        "type": "float"
+                    },
+                    {
+                        "name": "Cabin",
+                        "type": "char"
+                    },
+                    {
+                        "name": "Embarked",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "kaggle:competition:titanic"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "header_rows": 0
+            },
+            "name": "test",
+            "path": "test.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "PassengerId",
+                        "type": "double"
+                    },
+                    {
+                        "name": "Pclass",
+                        "type": "double"
+                    },
+                    {
+                        "name": "Name",
+                        "type": "char"
+                    },
+                    {
+                        "name": "Sex",
+                        "type": "char"
+                    },
+                    {
+                        "name": "Age",
+                        "type": "double"
+                    },
+                    {
+                        "name": "SibSp",
+                        "type": "double"
+                    },
+                    {
+                        "name": "Parch",
+                        "type": "double"
+                    },
+                    {
+                        "name": "Ticket",
+                        "type": "char"
+                    },
+                    {
+                        "name": "Fare",
+                        "type": "float"
+                    },
+                    {
+                        "name": "Cabin",
+                        "type": "char"
+                    },
+                    {
+                        "name": "Embarked",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "kaggle:competition:titanic"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.0.dev",
+    "title": "Iris Plants Database",
+    "version": "1.2.1"
+}
