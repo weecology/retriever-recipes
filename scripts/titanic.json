@@ -31,7 +31,7 @@
                     }
                 ]
             },
-            "url": "kaggle:competition:titanic"
+            "url": "titanic"
         },
         {
             "dialect": {
@@ -92,7 +92,7 @@
                     }
                 ]
             },
-            "url": "kaggle:competition:titanic"
+            "url": "titanic"
         },
         {
             "dialect": {
@@ -149,11 +149,12 @@
                     }
                 ]
             },
-            "url": "kaggle:competition:titanic"
+            "url": "titanic"
         }
     ],
-    "retriever": "True",
+    "kaggle": "True",
+    "data_source": "competition",
     "retriever_minimum_version": "2.0.dev",
-    "title": "Titanic: Machine Learning from Disaste",
+    "title": "Titanic: Machine Learning from Disaster",
     "version": "1.2.1"
 }

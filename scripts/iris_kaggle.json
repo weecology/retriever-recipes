@@ -42,10 +42,11 @@
                     }
                 ]
             },
-            "url": "kaggle:dataset:uciml/iris"
+            "url": "uciml/iris"
         }
     ],
-    "retriever": "True",
+    "kaggle": "True",
+    "data_source": "dataset",
     "retriever_minimum_version": "2.0.dev",
     "title": "Iris Plants Database",
     "version": "1.2.1"
