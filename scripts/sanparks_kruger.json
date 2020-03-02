@@ -1,0 +1,58 @@
+{
+    "citation": "Census totals for large herbivores in the Kruger National Park summarized by year and region 1965-1997",
+    "description": "These summary totals were derived from the annual reports on the census results for each year held by the Scientific Services Division of SANParks. Those for 1965-1976 were derived from aerial count totals corrected on the basis of differential ground counts. Those for 1977-1997 were the count totals recorded in the annual “Ecological Aerial Surveys” following a standard methodology.",
+    "homepage": "http://dataknp.sanparks.org/sanparks/metacat/judithk.814.4/sanparks",
+    "keywords": [
+        "SANParks, South Africa",
+        "Kruger National Park, South Africa",
+        "Census data"
+
+    ],
+    "name": "sanparks_kruger",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": "\t",
+                "missingValues": "NA"
+            },
+            "name": "judithk.815.1-815.1",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "year",
+                        "type": "double"
+                    },
+                    {
+                        "name": "Species",
+                        "type": "char"
+                    },
+                    {
+                        "name": "South",
+                        "type": "double"
+                    },
+                    {
+                        "name": "Central",
+                        "type": "double"
+                    },
+                    {
+                        "name": "North",
+                        "type": "double"
+                    },
+                    {
+                        "name": "FarNorth",
+                        "type": "double"
+                    },
+                    {
+                        "name": "TOTAL",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "http://dataknp.sanparks.org/sanparks/metacat?action=read&qformat=sanparks&sessionid=&docid=judithk.815.1"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.0.dev",
+    "title": "Census totals for large herbivores in the Kruger National Park summarized by year and region 1965-1997",
+    "version": "1.0.0"
+}
