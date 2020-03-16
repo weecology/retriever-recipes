@@ -1,0 +1,2087 @@
+{
+    "archived": "zip",
+    "citation": "Fick, S.E. and R.J. Hijmans, 2017. Worldclim 2: New 1-km spatial resolution climate surfaces for global land areas. International Journal of Climatology.",
+    "datum": "WGS 84",
+    "description": "WorldClim variables at 2.5 minutes, minimum temperature (°C), maximum temperature (°C), precipitation (mm), solar radiation (kJ m-2 day-1), wind speed (m s-1), water vapor pressure (kPa), Bioclimatic variables",
+    "driver": "GTiff",
+    "homepage": "http://worldclim.org/version2",
+    "keywords": ["average", "monthly", "climate", "minimum", "mean", "maximum", "temperature", "precipitation", "Bioclimatic", "GeoTiff", "Geospatial"],
+    "licenses": [],
+    "name": "worldclim-twofive",
+    "projection": "GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST],AUTHORITY[\"EPSG\",\"4326\"]]",
+    "resources": [
+        {
+            "band_name": "wc2.0_2.5m_tavg_09_1",
+            "color_table": null,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "wc2_0_2_5m_tavg_09",
+            "no_data_value": -3.4e+38,
+            "other_paths": "",
+            "path": "wc2.0_2.5m_tavg_09.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 36.420000610352,
+                "mean": 1.0,
+                "minimum": -62.663999938965,
+                "stddev": 1.0
+            },
+            "url": "http://biogeo.ucdavis.edu/data/worldclim/v2.0/tif/base/wc2.0_2.5m_tavg.zip"
+        },
+        {
+            "band_name": "wc2.0_2.5m_tavg_08_1",
+            "color_table": null,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "wc2_0_2_5m_tavg_08",
+            "no_data_value": -3.4e+38,
+            "other_paths": "",
+            "path": "wc2.0_2.5m_tavg_08.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 44.271999969482,
+                "mean": 1.0,
+                "minimum": -64.62399810791,
+                "stddev": 1.0
+            },
+            "url": "http://biogeo.ucdavis.edu/data/worldclim/v2.0/tif/base/wc2.0_2.5m_tavg.zip"
+        },
+        {
+            "band_name": "wc2.0_2.5m_tavg_06_1",
+            "color_table": null,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "wc2_0_2_5m_tavg_06",
+            "no_data_value": -3.4e+38,
+            "other_paths": "",
+            "path": "wc2.0_2.5m_tavg_06.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 38.400001525879,
+                "mean": 1.0,
+                "minimum": -63.180000305176,
+                "stddev": 1.0
+            },
+            "url": "http://biogeo.ucdavis.edu/data/worldclim/v2.0/tif/base/wc2.0_2.5m_tavg.zip"
+        },
+        {
+            "band_name": "wc2.0_2.5m_tavg_12_1",
+            "color_table": null,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "wc2_0_2_5m_tavg_12",
+            "no_data_value": -3.4e+38,
+            "other_paths": "",
+            "path": "wc2.0_2.5m_tavg_12.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 33.716000366211,
+                "mean": 1.0,
+                "minimum": -45.424000854492,
+                "stddev": 1.0
+            },
+            "url": "http://biogeo.ucdavis.edu/data/worldclim/v2.0/tif/base/wc2.0_2.5m_tavg.zip"
+        },
+        {
+            "band_name": "wc2.0_2.5m_tavg_07_1",
+            "color_table": null,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "wc2_0_2_5m_tavg_07",
+            "no_data_value": -3.4e+38,
+            "other_paths": "",
+            "path": "wc2.0_2.5m_tavg_07.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 43.28,
+                "mean": 1.0,
+                "minimum": -66.800003051758,
+                "stddev": 1.0
+            },
+            "url": "http://biogeo.ucdavis.edu/data/worldclim/v2.0/tif/base/wc2.0_2.5m_tavg.zip"
+        },
+        {
+            "band_name": "wc2.0_2.5m_tavg_11_1",
+            "color_table": null,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "wc2_0_2_5m_tavg_11",
+            "no_data_value": -3.4e+38,
+            "other_paths": "",
+            "path": "wc2.0_2.5m_tavg_11.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 33.603998565674,
+                "mean": 1.0,
+                "minimum": -42.0,
+                "stddev": 1.0
+            },
+            "url": "http://biogeo.ucdavis.edu/data/worldclim/v2.0/tif/base/wc2.0_2.5m_tavg.zip"
+        },
+        {
+            "band_name": "wc2.0_2.5m_tavg_05_1",
+            "color_table": null,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "wc2_0_2_5m_tavg_05",
+            "no_data_value": -3.4e+38,
+            "other_paths": "",
+            "path": "wc2.0_2.5m_tavg_05.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 36.344000244141,
+                "mean": 1.0,
+                "minimum": -63.599998474121,
+                "stddev": 1.0
+            },
+            "url": "http://biogeo.ucdavis.edu/data/worldclim/v2.0/tif/base/wc2.0_2.5m_tavg.zip"
+        },
+        {
+            "band_name": "wc2.0_2.5m_tavg_04_1",
+            "color_table": null,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "wc2_0_2_5m_tavg_04",
+            "no_data_value": -3.4e+38,
+            "other_paths": "",
+            "path": "wc2.0_2.5m_tavg_04.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 34.696000671387,
+                "mean": 1.0,
+                "minimum": -63.0,
+                "stddev": 1.0
+            },
+            "url": "http://biogeo.ucdavis.edu/data/worldclim/v2.0/tif/base/wc2.0_2.5m_tavg.zip"
+        },
+        {
+            "band_name": "wc2.0_2.5m_tavg_10_1",
+            "color_table": null,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "wc2_0_2_5m_tavg_10",
+            "no_data_value": -3.4e+38,
+            "other_paths": "",
+            "path": "wc2.0_2.5m_tavg_10.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 34.127999725342,
+                "mean": 1.0,
+                "minimum": -54.440000915527,
+                "stddev": 1.0
+            },
+            "url": "http://biogeo.ucdavis.edu/data/worldclim/v2.0/tif/base/wc2.0_2.5m_tavg.zip"
+        },
+        {
+            "band_name": "wc2.0_2.5m_tavg_01_1",
+            "color_table": null,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "wc2_0_2_5m_tavg_01",
+            "no_data_value": -3.4e+38,
+            "other_paths": "",
+            "path": "wc2.0_2.5m_tavg_01.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 34.311999511719,
+                "mean": 1.0,
+                "minimum": -46.791999969482,
+                "stddev": 1.0
+            },
+            "url": "http://biogeo.ucdavis.edu/data/worldclim/v2.0/tif/base/wc2.0_2.5m_tavg.zip"
+        },
+        {
+            "band_name": "wc2.0_2.5m_tavg_03_1",
+            "color_table": null,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "wc2_0_2_5m_tavg_03",
+            "no_data_value": -3.4e+38,
+            "other_paths": "",
+            "path": "wc2.0_2.5m_tavg_03.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 34.380000762939,
+                "mean": 1.0,
+                "minimum": -57.159999847412,
+                "stddev": 1.0
+            },
+            "url": "http://biogeo.ucdavis.edu/data/worldclim/v2.0/tif/base/wc2.0_2.5m_tavg.zip"
+        },
+        {
+            "band_name": "wc2.0_2.5m_tavg_02_1",
+            "color_table": null,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "wc2_0_2_5m_tavg_02",
+            "no_data_value": -3.4e+38,
+            "other_paths": "",
+            "path": "wc2.0_2.5m_tavg_02.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 33.200000762939,
+                "mean": 1.0,
+                "minimum": -44.559999084473,
+                "stddev": 1.0
+            },
+            "url": "http://biogeo.ucdavis.edu/data/worldclim/v2.0/tif/base/wc2.0_2.5m_tavg.zip"
+        },
+        {
+            "band_name": "wc2.0_2.5m_srad_01_1",
+            "color_table": null,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "wc2_0_2_5m_srad_01",
+            "no_data_value": 65535.0,
+            "other_paths": "",
+            "path": "wc2.0_2.5m_srad_01.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 40029.0,
+                "mean": 1.0,
+                "minimum": 0.0,
+                "stddev": 1.0
+            },
+            "url": "http://biogeo.ucdavis.edu/data/worldclim/v2.0/tif/base/wc2.0_2.5m_srad.zip"
+        },
+        {
+            "band_name": "wc2.0_2.5m_srad_02_1",
+            "color_table": null,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "wc2_0_2_5m_srad_02",
+            "no_data_value": 65535.0,
+            "other_paths": "",
+            "path": "wc2.0_2.5m_srad_02.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 28931.0,
+                "mean": 1.0,
+                "minimum": 0.0,
+                "stddev": 1.0
+            },
+            "url": "http://biogeo.ucdavis.edu/data/worldclim/v2.0/tif/base/wc2.0_2.5m_srad.zip"
+        },
+        {
+            "band_name": "wc2.0_2.5m_srad_03_1",
+            "color_table": null,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "wc2_0_2_5m_srad_03",
+            "no_data_value": 65535.0,
+            "other_paths": "",
+            "path": "wc2.0_2.5m_srad_03.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 25317.0,
+                "mean": 1.0,
+                "minimum": 0.0,
+                "stddev": 1.0
+            },
+            "url": "http://biogeo.ucdavis.edu/data/worldclim/v2.0/tif/base/wc2.0_2.5m_srad.zip"
+        },
+        {
+            "band_name": "wc2.0_2.5m_srad_07_1",
+            "color_table": null,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "wc2_0_2_5m_srad_07",
+            "no_data_value": 65535.0,
+            "other_paths": "",
+            "path": "wc2.0_2.5m_srad_07.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 29679.0,
+                "mean": 1.0,
+                "minimum": 0.0,
+                "stddev": 1.0
+            },
+            "url": "http://biogeo.ucdavis.edu/data/worldclim/v2.0/tif/base/wc2.0_2.5m_srad.zip"
+        },
+        {
+            "band_name": "wc2.0_2.5m_srad_12_1",
+            "color_table": null,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "wc2_0_2_5m_srad_12",
+            "no_data_value": 65535.0,
+            "other_paths": "",
+            "path": "wc2.0_2.5m_srad_12.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 45554.0,
+                "mean": 1.0,
+                "minimum": 0.0,
+                "stddev": 1.0
+            },
+            "url": "http://biogeo.ucdavis.edu/data/worldclim/v2.0/tif/base/wc2.0_2.5m_srad.zip"
+        },
+        {
+            "band_name": "wc2.0_2.5m_srad_06_1",
+            "color_table": null,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "wc2_0_2_5m_srad_06",
+            "no_data_value": 65535.0,
+            "other_paths": "",
+            "path": "wc2.0_2.5m_srad_06.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 30552.0,
+                "mean": 1.0,
+                "minimum": 0.0,
+                "stddev": 1.0
+            },
+            "url": "http://biogeo.ucdavis.edu/data/worldclim/v2.0/tif/base/wc2.0_2.5m_srad.zip"
+        },
+        {
+            "band_name": "wc2.0_2.5m_srad_10_1",
+            "color_table": null,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "wc2_0_2_5m_srad_10",
+            "no_data_value": 65535.0,
+            "other_paths": "",
+            "path": "wc2.0_2.5m_srad_10.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 27460.0,
+                "mean": 1.0,
+                "minimum": 0.0,
+                "stddev": 1.0
+            },
+            "url": "http://biogeo.ucdavis.edu/data/worldclim/v2.0/tif/base/wc2.0_2.5m_srad.zip"
+        },
+        {
+            "band_name": "wc2.0_2.5m_srad_04_1",
+            "color_table": null,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "wc2_0_2_5m_srad_04",
+            "no_data_value": 65535.0,
+            "other_paths": "",
+            "path": "wc2.0_2.5m_srad_04.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 26231.0,
+                "mean": 1.0,
+                "minimum": 0.0,
+                "stddev": 1.0
+            },
+            "url": "http://biogeo.ucdavis.edu/data/worldclim/v2.0/tif/base/wc2.0_2.5m_srad.zip"
+        },
+        {
+            "band_name": "wc2.0_2.5m_srad_05_1",
+            "color_table": null,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "wc2_0_2_5m_srad_05",
+            "no_data_value": 65535.0,
+            "other_paths": "",
+            "path": "wc2.0_2.5m_srad_05.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 28864.0,
+                "mean": 1.0,
+                "minimum": 0.0,
+                "stddev": 1.0
+            },
+            "url": "http://biogeo.ucdavis.edu/data/worldclim/v2.0/tif/base/wc2.0_2.5m_srad.zip"
+        },
+        {
+            "band_name": "wc2.0_2.5m_srad_11_1",
+            "color_table": null,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "wc2_0_2_5m_srad_11",
+            "no_data_value": 65535.0,
+            "other_paths": "",
+            "path": "wc2.0_2.5m_srad_11.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 36361.0,
+                "mean": 1.0,
+                "minimum": 0.0,
+                "stddev": 1.0
+            },
+            "url": "http://biogeo.ucdavis.edu/data/worldclim/v2.0/tif/base/wc2.0_2.5m_srad.zip"
+        },
+        {
+            "band_name": "wc2.0_2.5m_srad_08_1",
+            "color_table": null,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "wc2_0_2_5m_srad_08",
+            "no_data_value": 65535.0,
+            "other_paths": "",
+            "path": "wc2.0_2.5m_srad_08.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 27256.0,
+                "mean": 1.0,
+                "minimum": 0.0,
+                "stddev": 1.0
+            },
+            "url": "http://biogeo.ucdavis.edu/data/worldclim/v2.0/tif/base/wc2.0_2.5m_srad.zip"
+        },
+        {
+            "band_name": "wc2.0_2.5m_srad_09_1",
+            "color_table": null,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "wc2_0_2_5m_srad_09",
+            "no_data_value": 65535.0,
+            "other_paths": "",
+            "path": "wc2.0_2.5m_srad_09.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 25421.0,
+                "mean": 1.0,
+                "minimum": 0.0,
+                "stddev": 1.0
+            },
+            "url": "http://biogeo.ucdavis.edu/data/worldclim/v2.0/tif/base/wc2.0_2.5m_srad.zip"
+        },
+        {
+            "band_name": "wc2.0_2.5m_vapr_03_1",
+            "color_table": null,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "wc2_0_2_5m_vapr_03",
+            "no_data_value": -3.4e+38,
+            "other_paths": "",
+            "path": "wc2.0_2.5m_vapr_03.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 3.3099999427795,
+                "mean": 1.0,
+                "minimum": 0.0,
+                "stddev": 1.0
+            },
+            "url": "http://biogeo.ucdavis.edu/data/worldclim/v2.0/tif/base/wc2.0_2.5m_vapr.zip"
+        },
+        {
+            "band_name": "wc2.0_2.5m_vapr_02_1",
+            "color_table": null,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "wc2_0_2_5m_vapr_02",
+            "no_data_value": -3.4e+38,
+            "other_paths": "",
+            "path": "wc2.0_2.5m_vapr_02.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 3.2999999523163,
+                "mean": 1.0,
+                "minimum": 0.0,
+                "stddev": 1.0
+            },
+            "url": "http://biogeo.ucdavis.edu/data/worldclim/v2.0/tif/base/wc2.0_2.5m_vapr.zip"
+        },
+        {
+            "band_name": "wc2.0_2.5m_vapr_01_1",
+            "color_table": null,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "wc2_0_2_5m_vapr_01",
+            "no_data_value": -3.4e+38,
+            "other_paths": "",
+            "path": "wc2.0_2.5m_vapr_01.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 3.2999999523163,
+                "mean": 1.0,
+                "minimum": 0.0,
+                "stddev": 1.0
+            },
+            "url": "http://biogeo.ucdavis.edu/data/worldclim/v2.0/tif/base/wc2.0_2.5m_vapr.zip"
+        },
+        {
+            "band_name": "wc2.0_2.5m_vapr_05_1",
+            "color_table": null,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "wc2_0_2_5m_vapr_05",
+            "no_data_value": -3.4e+38,
+            "other_paths": "",
+            "path": "wc2.0_2.5m_vapr_05.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 3.4400000572205,
+                "mean": 1.0,
+                "minimum": 0.0,
+                "stddev": 1.0
+            },
+            "url": "http://biogeo.ucdavis.edu/data/worldclim/v2.0/tif/base/wc2.0_2.5m_vapr.zip"
+        },
+        {
+            "band_name": "wc2.0_2.5m_vapr_11_1",
+            "color_table": null,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "wc2_0_2_5m_vapr_11",
+            "no_data_value": -3.4e+38,
+            "other_paths": "",
+            "path": "wc2.0_2.5m_vapr_11.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 3.25,
+                "mean": 1.0,
+                "minimum": 0.0,
+                "stddev": 1.0
+            },
+            "url": "http://biogeo.ucdavis.edu/data/worldclim/v2.0/tif/base/wc2.0_2.5m_vapr.zip"
+        },
+        {
+            "band_name": "wc2.0_2.5m_vapr_10_1",
+            "color_table": null,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "wc2_0_2_5m_vapr_10",
+            "no_data_value": -3.4e+38,
+            "other_paths": "",
+            "path": "wc2.0_2.5m_vapr_10.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 3.289999961853,
+                "mean": 1.0,
+                "minimum": 0.0,
+                "stddev": 1.0
+            },
+            "url": "http://biogeo.ucdavis.edu/data/worldclim/v2.0/tif/base/wc2.0_2.5m_vapr.zip"
+        },
+        {
+            "band_name": "wc2.0_2.5m_vapr_04_1",
+            "color_table": null,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "wc2_0_2_5m_vapr_04",
+            "no_data_value": -3.4e+38,
+            "other_paths": "",
+            "path": "wc2.0_2.5m_vapr_04.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 3.3399999141693,
+                "mean": 1.0,
+                "minimum": 0.0,
+                "stddev": 1.0
+            },
+            "url": "http://biogeo.ucdavis.edu/data/worldclim/v2.0/tif/base/wc2.0_2.5m_vapr.zip"
+        },
+        {
+            "band_name": "wc2.0_2.5m_vapr_12_1",
+            "color_table": null,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "wc2_0_2_5m_vapr_12",
+            "no_data_value": -3.4e+38,
+            "other_paths": "",
+            "path": "wc2.0_2.5m_vapr_12.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 3.2599999904633,
+                "mean": 1.0,
+                "minimum": 0.0,
+                "stddev": 1.0
+            },
+            "url": "http://biogeo.ucdavis.edu/data/worldclim/v2.0/tif/base/wc2.0_2.5m_vapr.zip"
+        },
+        {
+            "band_name": "wc2.0_2.5m_vapr_06_1",
+            "color_table": null,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "wc2_0_2_5m_vapr_06",
+            "no_data_value": -3.4e+38,
+            "other_paths": "",
+            "path": "wc2.0_2.5m_vapr_06.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 3.4700000286102,
+                "mean": 1.0,
+                "minimum": 0.0,
+                "stddev": 1.0
+            },
+            "url": "http://biogeo.ucdavis.edu/data/worldclim/v2.0/tif/base/wc2.0_2.5m_vapr.zip"
+        },
+        {
+            "band_name": "wc2.0_2.5m_vapr_07_1",
+            "color_table": null,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "wc2_0_2_5m_vapr_07",
+            "no_data_value": -3.4e+38,
+            "other_paths": "",
+            "path": "wc2.0_2.5m_vapr_07.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 3.5699999332428,
+                "mean": 1.0,
+                "minimum": 0.0,
+                "stddev": 1.0
+            },
+            "url": "http://biogeo.ucdavis.edu/data/worldclim/v2.0/tif/base/wc2.0_2.5m_vapr.zip"
+        },
+        {
+            "band_name": "wc2.0_2.5m_vapr_09_1",
+            "color_table": null,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "wc2_0_2_5m_vapr_09",
+            "no_data_value": -3.4e+38,
+            "other_paths": "",
+            "path": "wc2.0_2.5m_vapr_09.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 3.5199999809265,
+                "mean": 1.0,
+                "minimum": 0.0,
+                "stddev": 1.0
+            },
+            "url": "http://biogeo.ucdavis.edu/data/worldclim/v2.0/tif/base/wc2.0_2.5m_vapr.zip"
+        },
+        {
+            "band_name": "wc2.0_2.5m_vapr_08_1",
+            "color_table": null,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "wc2_0_2_5m_vapr_08",
+            "no_data_value": -3.4e+38,
+            "other_paths": "",
+            "path": "wc2.0_2.5m_vapr_08.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 3.5299999713898,
+                "mean": 1.0,
+                "minimum": 0.0,
+                "stddev": 1.0
+            },
+            "url": "http://biogeo.ucdavis.edu/data/worldclim/v2.0/tif/base/wc2.0_2.5m_vapr.zip"
+        },
+        {
+            "band_name": "wc2.0_bio_2.5m_09_1",
+            "color_table": null,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "wc2_0_bio_2_5m_09",
+            "no_data_value": -1.7e+308,
+            "other_paths": "",
+            "path": "wc2.0_bio_2.5m_09.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 38.476666132609,
+                "mean": 1.0,
+                "minimum": -48.737999598185,
+                "stddev": 1.0
+            },
+            "url": "http://biogeo.ucdavis.edu/data/worldclim/v2.0/tif/base/wc2.0_2.5m_bio.zip"
+        },
+        {
+            "band_name": "wc2.0_bio_2.5m_08_1",
+            "color_table": null,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "wc2_0_bio_2_5m_08",
+            "no_data_value": -1.7e+308,
+            "other_paths": "",
+            "path": "wc2.0_bio_2.5m_08.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 37.967999140422,
+                "mean": 1.0,
+                "minimum": -64.518665313721,
+                "stddev": 1.0
+            },
+            "url": "http://biogeo.ucdavis.edu/data/worldclim/v2.0/tif/base/wc2.0_2.5m_bio.zip"
+        },
+        {
+            "band_name": "wc2.0_bio_2.5m_18_1",
+            "color_table": null,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "wc2_0_bio_2_5m_18",
+            "no_data_value": -1.7e+308,
+            "other_paths": "",
+            "path": "wc2.0_bio_2.5m_18.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 5678.0,
+                "mean": 1.0,
+                "minimum": 0.0,
+                "stddev": 1.0
+            },
+            "url": "http://biogeo.ucdavis.edu/data/worldclim/v2.0/tif/base/wc2.0_2.5m_bio.zip"
+        },
+        {
+            "band_name": "wc2.0_bio_2.5m_19_1",
+            "color_table": null,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "wc2_0_bio_2_5m_19",
+            "no_data_value": -1.7e+308,
+            "other_paths": "",
+            "path": "wc2.0_bio_2.5m_19.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 5230.0,
+                "mean": 1.0,
+                "minimum": 0.0,
+                "stddev": 1.0
+            },
+            "url": "http://biogeo.ucdavis.edu/data/worldclim/v2.0/tif/base/wc2.0_2.5m_bio.zip"
+        },
+        {
+            "band_name": "wc2.0_bio_2.5m_14_1",
+            "color_table": null,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "wc2_0_bio_2_5m_14",
+            "no_data_value": -1.7e+308,
+            "other_paths": "",
+            "path": "wc2.0_bio_2.5m_14.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 507.0,
+                "mean": 1.0,
+                "minimum": 0.0,
+                "stddev": 1.0
+            },
+            "url": "http://biogeo.ucdavis.edu/data/worldclim/v2.0/tif/base/wc2.0_2.5m_bio.zip"
+        },
+        {
+            "band_name": "wc2.0_bio_2.5m_15_1",
+            "color_table": null,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "wc2_0_bio_2_5m_15",
+            "no_data_value": -1.7e+308,
+            "other_paths": "",
+            "path": "wc2.0_bio_2.5m_15.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 230.69151414334,
+                "mean": 1.0,
+                "minimum": 0.0,
+                "stddev": 1.0
+            },
+            "url": "http://biogeo.ucdavis.edu/data/worldclim/v2.0/tif/base/wc2.0_2.5m_bio.zip"
+        },
+        {
+            "band_name": "wc2.0_bio_2.5m_01_1",
+            "color_table": null,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "wc2_0_bio_2_5m_01",
+            "no_data_value": -1.7e+308,
+            "other_paths": "",
+            "path": "wc2.0_bio_2.5m_01.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 33.965000073115,
+                "mean": 1.0,
+                "minimum": -53.725333452225,
+                "stddev": 1.0
+            },
+            "url": "http://biogeo.ucdavis.edu/data/worldclim/v2.0/tif/base/wc2.0_2.5m_bio.zip"
+        },
+        {
+            "band_name": "wc2.0_bio_2.5m_17_1",
+            "color_table": null,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "wc2_0_bio_2_5m_17",
+            "no_data_value": -1.7e+308,
+            "other_paths": "",
+            "path": "wc2.0_bio_2.5m_17.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 1560.0,
+                "mean": 1.0,
+                "minimum": 0.0,
+                "stddev": 1.0
+            },
+            "url": "http://biogeo.ucdavis.edu/data/worldclim/v2.0/tif/base/wc2.0_2.5m_bio.zip"
+        },
+        {
+            "band_name": "wc2.0_bio_2.5m_03_1",
+            "color_table": null,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "wc2_0_bio_2_5m_03",
+            "no_data_value": -1.7e+308,
+            "other_paths": "",
+            "path": "wc2.0_bio_2.5m_03.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 100.0,
+                "mean": 1.0,
+                "minimum": 0.95294440475135,
+                "stddev": 1.0
+            },
+            "url": "http://biogeo.ucdavis.edu/data/worldclim/v2.0/tif/base/wc2.0_2.5m_bio.zip"
+        },
+        {
+            "band_name": "wc2.0_bio_2.5m_02_1",
+            "color_table": null,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "wc2_0_bio_2_5m_02",
+            "no_data_value": -1.7e+308,
+            "other_paths": "",
+            "path": "wc2.0_bio_2.5m_02.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 28.18299964567,
+                "mean": 1.0,
+                "minimum": 0.0,
+                "stddev": 1.0
+            },
+            "url": "http://biogeo.ucdavis.edu/data/worldclim/v2.0/tif/base/wc2.0_2.5m_bio.zip"
+        },
+        {
+            "band_name": "wc2.0_bio_2.5m_16_1",
+            "color_table": null,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "wc2_0_bio_2_5m_16",
+            "no_data_value": -1.7e+308,
+            "other_paths": "",
+            "path": "wc2.0_bio_2.5m_16.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 6174.0,
+                "mean": 1.0,
+                "minimum": 0.0,
+                "stddev": 1.0
+            },
+            "url": "http://biogeo.ucdavis.edu/data/worldclim/v2.0/tif/base/wc2.0_2.5m_bio.zip"
+        },
+        {
+            "band_name": "wc2.0_bio_2.5m_12_1",
+            "color_table": null,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "wc2_0_bio_2_5m_12",
+            "no_data_value": -1.7e+308,
+            "other_paths": "",
+            "path": "wc2.0_bio_2.5m_12.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 11246.0,
+                "mean": 1.0,
+                "minimum": 0.0,
+                "stddev": 1.0
+            },
+            "url": "http://biogeo.ucdavis.edu/data/worldclim/v2.0/tif/base/wc2.0_2.5m_bio.zip"
+        },
+        {
+            "band_name": "wc2.0_bio_2.5m_06_1",
+            "color_table": null,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "wc2_0_bio_2_5m_06",
+            "no_data_value": -1.7e+308,
+            "other_paths": "",
+            "path": "wc2.0_bio_2.5m_06.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 26.5,
+                "mean": 1.0,
+                "minimum": -71.868003845215,
+                "stddev": 1.0
+            },
+            "url": "http://biogeo.ucdavis.edu/data/worldclim/v2.0/tif/base/wc2.0_2.5m_bio.zip"
+        },
+        {
+            "band_name": "wc2.0_bio_2.5m_07_1",
+            "color_table": null,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "wc2_0_bio_2_5m_07",
+            "no_data_value": -1.7e+308,
+            "other_paths": "",
+            "path": "wc2.0_bio_2.5m_07.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 91.5,
+                "mean": 1.0,
+                "minimum": 0.0,
+                "stddev": 1.0
+            },
+            "url": "http://biogeo.ucdavis.edu/data/worldclim/v2.0/tif/base/wc2.0_2.5m_bio.zip"
+        },
+        {
+            "band_name": "wc2.0_bio_2.5m_13_1",
+            "color_table": null,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "wc2_0_bio_2_5m_13",
+            "no_data_value": -1.7e+308,
+            "other_paths": "",
+            "path": "wc2.0_bio_2.5m_13.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 2768.0,
+                "mean": 1.0,
+                "minimum": 0.0,
+                "stddev": 1.0
+            },
+            "url": "http://biogeo.ucdavis.edu/data/worldclim/v2.0/tif/base/wc2.0_2.5m_bio.zip"
+        },
+        {
+            "band_name": "wc2.0_bio_2.5m_05_1",
+            "color_table": null,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "wc2_0_bio_2_5m_05",
+            "no_data_value": -1.7e+308,
+            "other_paths": "",
+            "path": "wc2.0_bio_2.5m_05.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 50.52799987793,
+                "mean": 1.0,
+                "minimum": -27.247999191284,
+                "stddev": 1.0
+            },
+            "url": "http://biogeo.ucdavis.edu/data/worldclim/v2.0/tif/base/wc2.0_2.5m_bio.zip"
+        },
+        {
+            "band_name": "wc2.0_bio_2.5m_11_1",
+            "color_table": null,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "wc2_0_bio_2_5m_11",
+            "no_data_value": -1.7e+308,
+            "other_paths": "",
+            "path": "wc2.0_bio_2.5m_11.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 32.544666926066,
+                "mean": 1.0,
+                "minimum": -64.518665313721,
+                "stddev": 1.0
+            },
+            "url": "http://biogeo.ucdavis.edu/data/worldclim/v2.0/tif/base/wc2.0_2.5m_bio.zip"
+        },
+        {
+            "band_name": "wc2.0_bio_2.5m_10_1",
+            "color_table": null,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "wc2_0_bio_2_5m_10",
+            "no_data_value": -1.7e+308,
+            "other_paths": "",
+            "path": "wc2.0_bio_2.5m_10.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 38.891333262126,
+                "mean": 1.0,
+                "minimum": -36.0,
+                "stddev": 1.0
+            },
+            "url": "http://biogeo.ucdavis.edu/data/worldclim/v2.0/tif/base/wc2.0_2.5m_bio.zip"
+        },
+        {
+            "band_name": "wc2.0_bio_2.5m_04_1",
+            "color_table": null,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "wc2_0_bio_2_5m_04",
+            "no_data_value": -1.7e+308,
+            "other_paths": "",
+            "path": "wc2.0_bio_2.5m_04.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 2411.5344553621,
+                "mean": 1.0,
+                "minimum": 0.0,
+                "stddev": 1.0
+            },
+            "url": "http://biogeo.ucdavis.edu/data/worldclim/v2.0/tif/base/wc2.0_2.5m_bio.zip"
+        },
+        {
+            "band_name": "wc2.0_2.5m_tmax_04_1",
+            "color_table": null,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "wc2_0_2_5m_tmax_04",
+            "no_data_value": -3.4e+38,
+            "other_paths": "",
+            "path": "wc2.0_2.5m_tmax_04.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 41.668000335693,
+                "mean": 1.0,
+                "minimum": -59.759999847412,
+                "stddev": 1.0
+            },
+            "url": "http://biogeo.ucdavis.edu/data/worldclim/v2.0/tif/base/wc2.0_2.5m_tmax.zip"
+        },
+        {
+            "band_name": "wc2.0_2.5m_tmax_10_1",
+            "color_table": null,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "wc2_0_2_5m_tmax_10",
+            "no_data_value": -3.4e+38,
+            "other_paths": "",
+            "path": "wc2.0_2.5m_tmax_10.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 41.320000457764,
+                "mean": 1.0,
+                "minimum": -49.460000610352,
+                "stddev": 1.0
+            },
+            "url": "http://biogeo.ucdavis.edu/data/worldclim/v2.0/tif/base/wc2.0_2.5m_tmax.zip"
+        },
+        {
+            "band_name": "wc2.0_2.5m_tmax_11_1",
+            "color_table": null,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "wc2_0_2_5m_tmax_11",
+            "no_data_value": -3.4e+38,
+            "other_paths": "",
+            "path": "wc2.0_2.5m_tmax_11.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 41.62799911499,
+                "mean": 1.0,
+                "minimum": -36.799999237061,
+                "stddev": 1.0
+            },
+            "url": "http://biogeo.ucdavis.edu/data/worldclim/v2.0/tif/base/wc2.0_2.5m_tmax.zip"
+        },
+        {
+            "band_name": "wc2.0_2.5m_tmax_05_1",
+            "color_table": null,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "wc2_0_2_5m_tmax_05",
+            "no_data_value": -3.4e+38,
+            "other_paths": "",
+            "path": "wc2.0_2.5m_tmax_05.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 44.599998474121,
+                "mean": 1.0,
+                "minimum": -60.400001525879,
+                "stddev": 1.0
+            },
+            "url": "http://biogeo.ucdavis.edu/data/worldclim/v2.0/tif/base/wc2.0_2.5m_tmax.zip"
+        },
+        {
+            "band_name": "wc2.0_2.5m_tmax_07_1",
+            "color_table": null,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "wc2_0_2_5m_tmax_07",
+            "no_data_value": -3.4e+38,
+            "other_paths": "",
+            "path": "wc2.0_2.5m_tmax_07.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 49.524000244141,
+                "mean": 1.0,
+                "minimum": -61.799999237061,
+                "stddev": 1.0
+            },
+            "url": "http://biogeo.ucdavis.edu/data/worldclim/v2.0/tif/base/wc2.0_2.5m_tmax.zip"
+        },
+        {
+            "band_name": "wc2.0_2.5m_tmax_06_1",
+            "color_table": null,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "wc2_0_2_5m_tmax_06",
+            "no_data_value": -3.4e+38,
+            "other_paths": "",
+            "path": "wc2.0_2.5m_tmax_06.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 47.392001342773,
+                "mean": 1.0,
+                "minimum": -59.976000366211,
+                "stddev": 1.0
+            },
+            "url": "http://biogeo.ucdavis.edu/data/worldclim/v2.0/tif/base/wc2.0_2.5m_tmax.zip"
+        },
+        {
+            "band_name": "wc2.0_2.5m_tmax_12_1",
+            "color_table": null,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "wc2_0_2_5m_tmax_12",
+            "no_data_value": -3.4e+38,
+            "other_paths": "",
+            "path": "wc2.0_2.5m_tmax_12.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 43.216000518799,
+                "mean": 1.0,
+                "minimum": -41.280000762939,
+                "stddev": 1.0
+            },
+            "url": "http://biogeo.ucdavis.edu/data/worldclim/v2.0/tif/base/wc2.0_2.5m_tmax.zip"
+        },
+        {
+            "band_name": "wc2.0_2.5m_tmax_02_1",
+            "color_table": null,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "wc2_0_2_5m_tmax_02",
+            "no_data_value": -3.4e+38,
+            "other_paths": "",
+            "path": "wc2.0_2.5m_tmax_02.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 41.176000213623,
+                "mean": 1.0,
+                "minimum": -41.400001525879,
+                "stddev": 1.0
+            },
+            "url": "http://biogeo.ucdavis.edu/data/worldclim/v2.0/tif/base/wc2.0_2.5m_tmax.zip"
+        },
+        {
+            "band_name": "wc2.0_2.5m_tmax_03_1",
+            "color_table": null,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "wc2_0_2_5m_tmax_03",
+            "no_data_value": -3.4e+38,
+            "other_paths": "",
+            "path": "wc2.0_2.5m_tmax_03.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 41.984000091553,
+                "mean": 1.0,
+                "minimum": -53.896000823975,
+                "stddev": 1.0
+            },
+            "url": "http://biogeo.ucdavis.edu/data/worldclim/v2.0/tif/base/wc2.0_2.5m_tmax.zip"
+        },
+        {
+            "band_name": "wc2.0_2.5m_tmax_01_1",
+            "color_table": null,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "wc2_0_2_5m_tmax_01",
+            "no_data_value": -3.4e+38,
+            "other_paths": "",
+            "path": "wc2.0_2.5m_tmax_01.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 42.523999786377,
+                "mean": 1.0,
+                "minimum": -40.148000183105,
+                "stddev": 1.0
+            },
+            "url": "http://biogeo.ucdavis.edu/data/worldclim/v2.0/tif/base/wc2.0_2.5m_tmax.zip"
+        },
+        {
+            "band_name": "wc2.0_2.5m_tmax_08_1",
+            "color_table": null,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "wc2_0_2_5m_tmax_08",
+            "no_data_value": -3.4e+38,
+            "other_paths": "",
+            "path": "wc2.0_2.5m_tmax_08.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 50.528000335693,
+                "mean": 1.0,
+                "minimum": -60.019999694824,
+                "stddev": 1.0
+            },
+            "url": "http://biogeo.ucdavis.edu/data/worldclim/v2.0/tif/base/wc2.0_2.5m_tmax.zip"
+        },
+        {
+            "band_name": "wc2.0_2.5m_tmax_09_1",
+            "color_table": null,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "wc2_0_2_5m_tmax_09",
+            "no_data_value": -3.4e+38,
+            "other_paths": "",
+            "path": "wc2.0_2.5m_tmax_09.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 44.408000640869,
+                "mean": 1.0,
+                "minimum": -57.900001525879,
+                "stddev": 1.0
+            },
+            "url": "http://biogeo.ucdavis.edu/data/worldclim/v2.0/tif/base/wc2.0_2.5m_tmax.zip"
+        },
+        {
+            "band_name": "wc2.0_2.5m_prec_08_1",
+            "color_table": null,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "wc2_0_2_5m_prec_08",
+            "no_data_value": -32768.0,
+            "other_paths": "",
+            "path": "wc2.0_2.5m_prec_08.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 2027.0,
+                "mean": 1.0,
+                "minimum": 0.0,
+                "stddev": 1.0
+            },
+            "url": "http://biogeo.ucdavis.edu/data/worldclim/v2.0/tif/base/wc2.0_2.5m_prec.zip"
+        },
+        {
+            "band_name": "wc2.0_2.5m_prec_09_1",
+            "color_table": null,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "wc2_0_2_5m_prec_09",
+            "no_data_value": -32768.0,
+            "other_paths": "",
+            "path": "wc2.0_2.5m_prec_09.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 1968.0,
+                "mean": 1.0,
+                "minimum": 0.0,
+                "stddev": 1.0
+            },
+            "url": "http://biogeo.ucdavis.edu/data/worldclim/v2.0/tif/base/wc2.0_2.5m_prec.zip"
+        },
+        {
+            "band_name": "wc2.0_2.5m_prec_01_1",
+            "color_table": null,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "wc2_0_2_5m_prec_01",
+            "no_data_value": -32768.0,
+            "other_paths": "",
+            "path": "wc2.0_2.5m_prec_01.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 943.0,
+                "mean": 1.0,
+                "minimum": 0.0,
+                "stddev": 1.0
+            },
+            "url": "http://biogeo.ucdavis.edu/data/worldclim/v2.0/tif/base/wc2.0_2.5m_prec.zip"
+        },
+        {
+            "band_name": "wc2.0_2.5m_prec_02_1",
+            "color_table": null,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "wc2_0_2_5m_prec_02",
+            "no_data_value": -32768.0,
+            "other_paths": "",
+            "path": "wc2.0_2.5m_prec_02.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 1007.0,
+                "mean": 1.0,
+                "minimum": 0.0,
+                "stddev": 1.0
+            },
+            "url": "http://biogeo.ucdavis.edu/data/worldclim/v2.0/tif/base/wc2.0_2.5m_prec.zip"
+        },
+        {
+            "band_name": "wc2.0_2.5m_prec_03_1",
+            "color_table": null,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "wc2_0_2_5m_prec_03",
+            "no_data_value": -32768.0,
+            "other_paths": "",
+            "path": "wc2.0_2.5m_prec_03.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 878.0,
+                "mean": 1.0,
+                "minimum": 0.0,
+                "stddev": 1.0
+            },
+            "url": "http://biogeo.ucdavis.edu/data/worldclim/v2.0/tif/base/wc2.0_2.5m_prec.zip"
+        },
+        {
+            "band_name": "wc2.0_2.5m_prec_07_1",
+            "color_table": null,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "wc2_0_2_5m_prec_07",
+            "no_data_value": -32768.0,
+            "other_paths": "",
+            "path": "wc2.0_2.5m_prec_07.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 2768.0,
+                "mean": 1.0,
+                "minimum": 0.0,
+                "stddev": 1.0
+            },
+            "url": "http://biogeo.ucdavis.edu/data/worldclim/v2.0/tif/base/wc2.0_2.5m_prec.zip"
+        },
+        {
+            "band_name": "wc2.0_2.5m_prec_06_1",
+            "color_table": null,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "wc2_0_2_5m_prec_06",
+            "no_data_value": -32768.0,
+            "other_paths": "",
+            "path": "wc2.0_2.5m_prec_06.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 2226.0,
+                "mean": 1.0,
+                "minimum": 0.0,
+                "stddev": 1.0
+            },
+            "url": "http://biogeo.ucdavis.edu/data/worldclim/v2.0/tif/base/wc2.0_2.5m_prec.zip"
+        },
+        {
+            "band_name": "wc2.0_2.5m_prec_12_1",
+            "color_table": null,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "wc2_0_2_5m_prec_12",
+            "no_data_value": -32768.0,
+            "other_paths": "",
+            "path": "wc2.0_2.5m_prec_12.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 834.0,
+                "mean": 1.0,
+                "minimum": 0.0,
+                "stddev": 1.0
+            },
+            "url": "http://biogeo.ucdavis.edu/data/worldclim/v2.0/tif/base/wc2.0_2.5m_prec.zip"
+        },
+        {
+            "band_name": "wc2.0_2.5m_prec_04_1",
+            "color_table": null,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "wc2_0_2_5m_prec_04",
+            "no_data_value": -32768.0,
+            "other_paths": "",
+            "path": "wc2.0_2.5m_prec_04.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 1010.0,
+                "mean": 1.0,
+                "minimum": 0.0,
+                "stddev": 1.0
+            },
+            "url": "http://biogeo.ucdavis.edu/data/worldclim/v2.0/tif/base/wc2.0_2.5m_prec.zip"
+        },
+        {
+            "band_name": "wc2.0_2.5m_prec_10_1",
+            "color_table": null,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "wc2_0_2_5m_prec_10",
+            "no_data_value": -32768.0,
+            "other_paths": "",
+            "path": "wc2.0_2.5m_prec_10.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 2342.0,
+                "mean": 1.0,
+                "minimum": 0.0,
+                "stddev": 1.0
+            },
+            "url": "http://biogeo.ucdavis.edu/data/worldclim/v2.0/tif/base/wc2.0_2.5m_prec.zip"
+        },
+        {
+            "band_name": "wc2.0_2.5m_prec_11_1",
+            "color_table": null,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "wc2_0_2_5m_prec_11",
+            "no_data_value": -32768.0,
+            "other_paths": "",
+            "path": "wc2.0_2.5m_prec_11.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 755.0,
+                "mean": 1.0,
+                "minimum": 0.0,
+                "stddev": 1.0
+            },
+            "url": "http://biogeo.ucdavis.edu/data/worldclim/v2.0/tif/base/wc2.0_2.5m_prec.zip"
+        },
+        {
+            "band_name": "wc2.0_2.5m_prec_05_1",
+            "color_table": null,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "wc2_0_2_5m_prec_05",
+            "no_data_value": -32768.0,
+            "other_paths": "",
+            "path": "wc2.0_2.5m_prec_05.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 2077.0,
+                "mean": 1.0,
+                "minimum": 0.0,
+                "stddev": 1.0
+            },
+            "url": "http://biogeo.ucdavis.edu/data/worldclim/v2.0/tif/base/wc2.0_2.5m_prec.zip"
+        },
+        {
+            "band_name": "wc2.0_2.5m_tmin_12_1",
+            "color_table": null,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "wc2_0_2_5m_tmin_12",
+            "no_data_value": -3.4e+38,
+            "other_paths": "",
+            "path": "wc2.0_2.5m_tmin_12.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 28.299999237061,
+                "mean": 1.0,
+                "minimum": -50.40799987793,
+                "stddev": 1.0
+            },
+            "url": "http://biogeo.ucdavis.edu/data/worldclim/v2.0/tif/base/wc2.0_2.5m_tmin.zip"
+        },
+        {
+            "band_name": "wc2.0_2.5m_tmin_06_1",
+            "color_table": null,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "wc2_0_2_5m_tmin_06",
+            "no_data_value": -3.4e+38,
+            "other_paths": "",
+            "path": "wc2.0_2.5m_tmin_06.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 31.869999504089,
+                "mean": 1.0,
+                "minimum": -66.651997680664,
+                "stddev": 1.0
+            },
+            "url": "http://biogeo.ucdavis.edu/data/worldclim/v2.0/tif/base/wc2.0_2.5m_tmin.zip"
+        },
+        {
+            "band_name": "wc2.0_2.5m_tmin_07_1",
+            "color_table": null,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "wc2_0_2_5m_tmin_07",
+            "no_data_value": -3.4e+38,
+            "other_paths": "",
+            "path": "wc2.0_2.5m_tmin_07.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 37.896000213623,
+                "mean": 1.0,
+                "minimum": -71.86800201416,
+                "stddev": 1.0
+            },
+            "url": "http://biogeo.ucdavis.edu/data/worldclim/v2.0/tif/base/wc2.0_2.5m_tmin.zip"
+        },
+        {
+            "band_name": "wc2.0_2.5m_tmin_05_1",
+            "color_table": null,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "wc2_0_2_5m_tmin_05",
+            "no_data_value": -3.4e+38,
+            "other_paths": "",
+            "path": "wc2.0_2.5m_tmin_05.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 30.815999984741,
+                "mean": 1.0,
+                "minimum": -67.019999694824,
+                "stddev": 1.0
+            },
+            "url": "http://biogeo.ucdavis.edu/data/worldclim/v2.0/tif/base/wc2.0_2.5m_tmin.zip"
+        },
+        {
+            "band_name": "wc2.0_2.5m_tmin_11_1",
+            "color_table": null,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "wc2_0_2_5m_tmin_11",
+            "no_data_value": -3.4e+38,
+            "other_paths": "",
+            "path": "wc2.0_2.5m_tmin_11.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 27.799999237061,
+                "mean": 1.0,
+                "minimum": -47.200000762939,
+                "stddev": 1.0
+            },
+            "url": "http://biogeo.ucdavis.edu/data/worldclim/v2.0/tif/base/wc2.0_2.5m_tmin.zip"
+        },
+        {
+            "band_name": "wc2.0_2.5m_tmin_10_1",
+            "color_table": null,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "wc2_0_2_5m_tmin_10",
+            "no_data_value": -3.4e+38,
+            "other_paths": "",
+            "path": "wc2.0_2.5m_tmin_10.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 28.632000198364,
+                "mean": 1.0,
+                "minimum": -59.599998474121,
+                "stddev": 1.0
+            },
+            "url": "http://biogeo.ucdavis.edu/data/worldclim/v2.0/tif/base/wc2.0_2.5m_tmin.zip"
+        },
+        {
+            "band_name": "wc2.0_2.5m_tmin_04_1",
+            "color_table": null,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "wc2_0_2_5m_tmin_04",
+            "no_data_value": -3.4e+38,
+            "other_paths": "",
+            "path": "wc2.0_2.5m_tmin_04.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 29.387999572754,
+                "mean": 1.0,
+                "minimum": -66.5,
+                "stddev": 1.0
+            },
+            "url": "http://biogeo.ucdavis.edu/data/worldclim/v2.0/tif/base/wc2.0_2.5m_tmin.zip"
+        },
+        {
+            "band_name": "wc2.0_2.5m_tmin_01_1",
+            "color_table": null,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "wc2_0_2_5m_tmin_01",
+            "no_data_value": -3.4e+38,
+            "other_paths": "",
+            "path": "wc2.0_2.5m_tmin_01.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 28.128000488281,
+                "mean": 1.0,
+                "minimum": -54.46799987793,
+                "stddev": 1.0
+            },
+            "url": "http://biogeo.ucdavis.edu/data/worldclim/v2.0/tif/base/wc2.0_2.5m_tmin.zip"
+        },
+        {
+            "band_name": "wc2.0_2.5m_tmin_03_1",
+            "color_table": null,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "wc2_0_2_5m_tmin_03",
+            "no_data_value": -3.4e+38,
+            "other_paths": "",
+            "path": "wc2.0_2.5m_tmin_03.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 29.056000213623,
+                "mean": 1.0,
+                "minimum": -60.599998474121,
+                "stddev": 1.0
+            },
+            "url": "http://biogeo.ucdavis.edu/data/worldclim/v2.0/tif/base/wc2.0_2.5m_tmin.zip"
+        },
+        {
+            "band_name": "wc2.0_2.5m_tmin_02_1",
+            "color_table": null,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "wc2_0_2_5m_tmin_02",
+            "no_data_value": -3.4e+38,
+            "other_paths": "",
+            "path": "wc2.0_2.5m_tmin_02.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 27.60000038147,
+                "mean": 1.0,
+                "minimum": -50.803999328613,
+                "stddev": 1.0
+            },
+            "url": "http://biogeo.ucdavis.edu/data/worldclim/v2.0/tif/base/wc2.0_2.5m_tmin.zip"
+        },
+        {
+            "band_name": "wc2.0_2.5m_tmin_09_1",
+            "color_table": null,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "wc2_0_2_5m_tmin_09",
+            "no_data_value": -3.4e+38,
+            "other_paths": "",
+            "path": "wc2.0_2.5m_tmin_09.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 30.716000213623,
+                "mean": 1.0,
+                "minimum": -67.607998352051,
+                "stddev": 1.0
+            },
+            "url": "http://biogeo.ucdavis.edu/data/worldclim/v2.0/tif/base/wc2.0_2.5m_tmin.zip"
+        },
+        {
+            "band_name": "wc2.0_2.5m_tmin_08_1",
+            "color_table": null,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "wc2_0_2_5m_tmin_08",
+            "no_data_value": -3.4e+38,
+            "other_paths": "",
+            "path": "wc2.0_2.5m_tmin_08.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 38.191999816895,
+                "mean": 1.0,
+                "minimum": -70.219999694824,
+                "stddev": 1.0
+            },
+            "url": "http://biogeo.ucdavis.edu/data/worldclim/v2.0/tif/base/wc2.0_2.5m_tmin.zip"
+        },
+        {
+            "band_name": "wc2.0_2.5m_wind_08_1",
+            "color_table": null,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "wc2_0_2_5m_wind_08",
+            "no_data_value": -3.4e+38,
+            "other_paths": "",
+            "path": "wc2.0_2.5m_wind_08.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 20.89999961853,
+                "mean": 1.0,
+                "minimum": 0.084000001251698,
+                "stddev": 1.0
+            },
+            "url": "http://biogeo.ucdavis.edu/data/worldclim/v2.0/tif/base/wc2.0_2.5m_wind.zip"
+        },
+        {
+            "band_name": "wc2.0_2.5m_wind_09_1",
+            "color_table": null,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "wc2_0_2_5m_wind_09",
+            "no_data_value": -3.4e+38,
+            "other_paths": "",
+            "path": "wc2.0_2.5m_wind_09.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 18.700000762939,
+                "mean": 1.0,
+                "minimum": 0.2480000063777,
+                "stddev": 1.0
+            },
+            "url": "http://biogeo.ucdavis.edu/data/worldclim/v2.0/tif/base/wc2.0_2.5m_wind.zip"
+        },
+        {
+            "band_name": "wc2.0_2.5m_wind_04_1",
+            "color_table": null,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "wc2_0_2_5m_wind_04",
+            "no_data_value": -3.4e+38,
+            "other_paths": "",
+            "path": "wc2.0_2.5m_wind_04.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 27.39999961853,
+                "mean": 1.0,
+                "minimum": 0.028000000417233,
+                "stddev": 1.0
+            },
+            "url": "http://biogeo.ucdavis.edu/data/worldclim/v2.0/tif/base/wc2.0_2.5m_wind.zip"
+        },
+        {
+            "band_name": "wc2.0_2.5m_wind_10_1",
+            "color_table": null,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "wc2_0_2_5m_wind_10",
+            "no_data_value": -3.4e+38,
+            "other_paths": "",
+            "path": "wc2.0_2.5m_wind_10.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 19.607999839783,
+                "mean": 1.0,
+                "minimum": 0.22800000548363,
+                "stddev": 1.0
+            },
+            "url": "http://biogeo.ucdavis.edu/data/worldclim/v2.0/tif/base/wc2.0_2.5m_wind.zip"
+        },
+        {
+            "band_name": "wc2.0_2.5m_wind_11_1",
+            "color_table": null,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "wc2_0_2_5m_wind_11",
+            "no_data_value": -3.4e+38,
+            "other_paths": "",
+            "path": "wc2.0_2.5m_wind_11.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 22.311999778748,
+                "mean": 1.0,
+                "minimum": 0.38000000715256,
+                "stddev": 1.0
+            },
+            "url": "http://biogeo.ucdavis.edu/data/worldclim/v2.0/tif/base/wc2.0_2.5m_wind.zip"
+        },
+        {
+            "band_name": "wc2.0_2.5m_wind_05_1",
+            "color_table": null,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "wc2_0_2_5m_wind_05",
+            "no_data_value": -3.4e+38,
+            "other_paths": "",
+            "path": "wc2.0_2.5m_wind_05.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 27.60000038147,
+                "mean": 1.0,
+                "minimum": 0.18800000369549,
+                "stddev": 1.0
+            },
+            "url": "http://biogeo.ucdavis.edu/data/worldclim/v2.0/tif/base/wc2.0_2.5m_wind.zip"
+        },
+        {
+            "band_name": "wc2.0_2.5m_wind_07_1",
+            "color_table": null,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "wc2_0_2_5m_wind_07",
+            "no_data_value": -3.4e+38,
+            "other_paths": "",
+            "path": "wc2.0_2.5m_wind_07.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 23.60000038147,
+                "mean": 1.0,
+                "minimum": 0.040000000596046,
+                "stddev": 1.0
+            },
+            "url": "http://biogeo.ucdavis.edu/data/worldclim/v2.0/tif/base/wc2.0_2.5m_wind.zip"
+        },
+        {
+            "band_name": "wc2.0_2.5m_wind_06_1",
+            "color_table": null,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "wc2_0_2_5m_wind_06",
+            "no_data_value": -3.4e+38,
+            "other_paths": "",
+            "path": "wc2.0_2.5m_wind_06.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 25.10000038147,
+                "mean": 1.0,
+                "minimum": 0.11600000172853,
+                "stddev": 1.0
+            },
+            "url": "http://biogeo.ucdavis.edu/data/worldclim/v2.0/tif/base/wc2.0_2.5m_wind.zip"
+        },
+        {
+            "band_name": "wc2.0_2.5m_wind_12_1",
+            "color_table": null,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "wc2_0_2_5m_wind_12",
+            "no_data_value": -3.4e+38,
+            "other_paths": "",
+            "path": "wc2.0_2.5m_wind_12.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 22.523999900818,
+                "mean": 1.0,
+                "minimum": 0.20000000298023,
+                "stddev": 1.0
+            },
+            "url": "http://biogeo.ucdavis.edu/data/worldclim/v2.0/tif/base/wc2.0_2.5m_wind.zip"
+        },
+        {
+            "band_name": "wc2.0_2.5m_wind_02_1",
+            "color_table": null,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "wc2_0_2_5m_wind_02",
+            "no_data_value": -3.4e+38,
+            "other_paths": "",
+            "path": "wc2.0_2.5m_wind_02.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 23.228000030518,
+                "mean": 1.0,
+                "minimum": 0.10000000149012,
+                "stddev": 1.0
+            },
+            "url": "http://biogeo.ucdavis.edu/data/worldclim/v2.0/tif/base/wc2.0_2.5m_wind.zip"
+        },
+        {
+            "band_name": "wc2.0_2.5m_wind_03_1",
+            "color_table": null,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "wc2_0_2_5m_wind_03",
+            "no_data_value": -3.4e+38,
+            "other_paths": "",
+            "path": "wc2.0_2.5m_wind_03.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 24.200000762939,
+                "mean": 1.0,
+                "minimum": 0.22400000154972,
+                "stddev": 1.0
+            },
+            "url": "http://biogeo.ucdavis.edu/data/worldclim/v2.0/tif/base/wc2.0_2.5m_wind.zip"
+        },
+        {
+            "band_name": "wc2.0_2.5m_wind_01_1",
+            "color_table": null,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "wc2_0_2_5m_wind_01",
+            "no_data_value": -3.4e+38,
+            "other_paths": "",
+            "path": "wc2.0_2.5m_wind_01.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 24.588000183105,
+                "mean": 1.0,
+                "minimum": 0.20000000298023,
+                "stddev": 1.0
+            },
+            "url": "http://biogeo.ucdavis.edu/data/worldclim/v2.0/tif/base/wc2.0_2.5m_wind.zip"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "rows": "src_ds RasterYSize",
+    "title": "WorldClim [Bioclimatic] variables for WorldClim version 2",
+    "transform": {
+        "pixelHeight": -0.041666666666666664,
+        "pixelWidth": 0.041666666666666664,
+        "rotation_2": 0.0,
+        "rotation_4": 0.0,
+        "xOrigin": -180.0,
+        "yOrigin": 90.0
+    },
+    "version": "1.0.0"
+}
