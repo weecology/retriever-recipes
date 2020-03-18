@@ -1,0 +1,158 @@
+{
+    "archived": "zip",
+    "citation": "",
+    "description": "Coronavirus Disease 2019 cases in Italy",
+    "homepage": "https://www.kaggle.com/sudalairajkumar/covid19-in-italy",
+    "keywords": [
+        "corona",
+        "covid-19"
+    ],
+    "name": "covid19_italy",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ",",
+                "header_rows": 0
+            },
+            "name": "covid19_italy_region",
+            "path": "covid19_italy_region.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "SNo",
+                        "type": "double"
+                    },
+                    {
+                        "name": "Date",
+                        "type": "date"
+                    },
+                    {
+                        "name": "Country",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "RegionCode",
+                        "type": "double"
+                    },
+                    {
+                        "name": "RegionName",
+                        "type": "char"
+                    },
+                    {
+                        "name": "Latitude",
+                        "type": "float"
+                    },
+                    {
+                        "name": "Longitude",
+                        "type": "float"
+                    },
+                    {
+                        "name": "HospitalizedPatients",
+                        "type": "double"
+                    },
+                    {
+                        "name": "IntensiveCarePatients",
+                        "type": "double"
+                    },
+                    {
+                        "name": "TotalHospitalizedPatients",
+                        "type": "double"
+                    },
+                    {
+                        "name": "HomeConfinement",
+                        "type": "double"
+                    },
+                    {
+                        "name": "CurrentPositiveCases",
+                        "type": "double"
+                    },
+                    {
+                        "name": "NewPositiveCases",
+                        "type": "double"
+                    },
+                    {
+                        "name": "Recovered",
+                        "type": "double"
+                    },
+                    {
+                        "name": "Deaths",
+                        "type": "double"
+                    },
+                    {
+                        "name": "TotalPositiveCases",
+                        "type": "double"
+                    },
+                    {
+                        "name": "TestsPerformed",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "sudalairajkumar/covid19-in-italy"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "header_rows": 0
+            },
+            "name": "covid19_italy_province",
+            "path": "covid19_italy_province.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "SNo",
+                        "type": "double"
+                    },
+                    {
+                        "name": "Date",
+                        "type": "date"
+                    },
+                    {
+                        "name": "Country",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "RegionCode",
+                        "type": "double"
+                    },
+                    {
+                        "name": "RegionName",
+                        "type": "char"
+                    },
+                    {
+                        "name": "ProvinceCode",
+                        "type": "double"
+                    },
+                    {
+                        "name": "ProvinceName",
+                        "type": "char"
+                    },
+                    {
+                        "name": "ProvinceAbbreviation",
+                        "type": "char"
+                    },
+                    {
+                        "name": "Latitude",
+                        "type": "float"
+                    },
+                    {
+                        "name": "Longitude",
+                        "type": "float"
+                    },
+                    {
+                        "name": "TotalPositiveCases",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "sudalairajkumar/covid19-in-italy"
+        }
+    ],
+    "kaggle": "True",
+    "data_source": "dataset",
+    "retriever_minimum_version": "2.0.dev",
+    "title": "COVID-19 in Italy",
+    "version": "1.0"
+}
