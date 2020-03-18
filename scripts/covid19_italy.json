@@ -4,8 +4,11 @@
     "description": "Coronavirus Disease 2019 cases in Italy",
     "homepage": "https://www.kaggle.com/sudalairajkumar/covid19-in-italy",
     "keywords": [
-        "corona",
-        "covid-19"
+        "covid-19",
+        "South Korea",
+        "Coronavirus",
+        "Machine Learning",
+        "Italy"
     ],
     "name": "covid19_italy",
     "resources": [
