@@ -1,5 +1,6 @@
 Retriever Scripts Versions
 abalone_age.json,1.2.2
+airbnb_nyc_2019.json,1.0.0
 airports.json,1.0.3
 antarctic_breed_bird.json,1.2.2
 aquatic_animal_excretion.py,1.1.6
