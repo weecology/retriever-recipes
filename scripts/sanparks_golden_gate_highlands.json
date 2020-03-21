@@ -2,7 +2,7 @@
     "citation": "Golden Gate Highland National Parks Census Data.",
     "description": "These summary totals were derived from the annual reports on the census results for each year held by the Scientific Services Division of SANParks. Those for 1965-1976 were derived from aerial count totals corrected on the basis of differential ground counts. Those for 1977-1997 were the count totals recorded in the annual “Ecological Aerial Surveys” following a standard methodology.",
     "homepage": "http://dataknp.sanparks.org/sanparks/metacat/peggym.113.6/sanparks",
-    "encoding": "ISO-8859-1",
+    "encoding": "latin-1",
     "keywords": [
         "SANParks, South Africa",
         "Golden Gate Highland National Park,South Africa",
@@ -12,10 +12,84 @@
     "resources": [
         {
             "dialect": {
-                "delimiter": "\t",
-                "missingValues": "NA"
+                "delimiter": ","
             },
-            "name": "GGHNPcensusdata.txt",
+            "name": "peggym_110_1_gghnpqwaqwatotals",
+            "path": "peggym.110.1-GGHNPQWAQWATotals.txt",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "record_date",
+                        "size": "18",
+                        "type": "char"
+                    },
+                    {
+                        "name": "area",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "common_name",
+                        "size": "17",
+                        "type": "char"
+                    },
+                    {
+                        "name": "sumoftotal_number",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "http://dataknp.sanparks.org/sanparks/metacat?action=read&qformat=sanparks&sessionid=&docid=peggym.109.1"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "peggym_112_1_gghnptotals",
+            "path": "peggym.112.1-GGHNPTotals.txt",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "black_wildebeest",
+                        "size": "18",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "http://dataknp.sanparks.org/sanparks/metacat?action=read&qformat=sanparks&sessionid=&docid=peggym.110.1"
+        },
+        {
+            "dialect": {
+                "delimiter": "\t"
+            },
+            "name": "peggym_111_1_gghnpspeciecodes",
+            "path": "peggym.111.1-GGHNPSpecieCodes.txt",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "common_name",
+                        "size": "17",
+                        "type": "char"
+                    },
+                    {
+                        "name": "species_id",
+                        "size": "7",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "http://dataknp.sanparks.org/sanparks/metacat?action=read&qformat=sanparks&sessionid=&docid=peggym.111.1"
+        },
+        {
+            "dialect": {
+                "delimiter": "\t"
+            },
+            "name": "peggym_109_1_gghnpcensusdata",
+            "path": "peggym.109.1-GGHNPcensusdata.txt",
             "schema": {
                 "fields": [
                     {
@@ -36,7 +110,7 @@
                     },
                     {
                         "name": "Date",
-                        "type": "double"
+                        "type": "date"
                     },
                     {
                         "name": "Block / Stratum",
@@ -72,87 +146,11 @@
                     }
                 ]
             },
-            "url": "http://dataknp.sanparks.org/sanparks/metacat?action=read&qformat=sanparks&sessionid=&docid=peggym.109.1"
-        },
-        {
-            "dialect": {
-                "delimiter": "\t",
-                "missingValues": "NA"
-            },
-            "name": "GGHNPQWAQWATotals.txt",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "Date",
-                        "type": "double"
-                    },
-                    {
-                        "name": "Area",
-                        "type": "char"
-                    },
-                    {
-                        "name": "Common name",
-                        "type": "char"
-                    },
-                    {
-                        "name": "SumOfTotal number",
-                        "type": "double"
-                    }
-                ]
-            },
-            "url": "http://dataknp.sanparks.org/sanparks/metacat?action=read&qformat=sanparks&sessionid=&docid=peggym.110.1"
-        },
-        {
-            "dialect": {
-                "delimiter": "\t",
-                "missingValues": "NA"
-            },
-            "name": "GGHNPSpecieCodes.txt",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "ID",
-                        "type": "double"
-                    },
-                    {
-                        "name": "Common name",
-                        "type": "char"
-                    },
-                    {
-                        "name": "Species ID",
-                        "type": "char"
-                    }
-                ]
-            },
-            "url": "http://dataknp.sanparks.org/sanparks/metacat?action=read&qformat=sanparks&sessionid=&docid=peggym.111.1"
-        },
-        {
-            "dialect": {
-                "delimiter": "\t",
-                "missingValues": "NA"
-            },
-            "name": "GGHNPTotals.txt",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "Column 1",
-                        "type": "date"
-                    },
-                    {
-                        "name": "Column 2",
-                        "type": "double"
-                    },
-                    {
-                        "name": "Column 3",
-                        "type": "char"
-                    }
-                ]
-            },
             "url": "http://dataknp.sanparks.org/sanparks/metacat?action=read&qformat=sanparks&sessionid=&docid=peggym.112.1"
         }
     ],
     "retriever": "True",
-    "retriever_minimum_version": "2.0.dev",
+    "retriever_minimum_version": "2.1.0",
     "title": "Golden Gate Highland National Parks Census Data.",
     "version": "1.0.0"
 }

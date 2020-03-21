@@ -1,8 +1,8 @@
-//FIXME: The have some error with it.
 {
     "citation": "Karoo Natioanal Park Census Data. 1994 - 2009",
     "description": "Karoo National Park census was not conducted in 2007 and the data is only spatially explicit from 2008",
     "homepage": "http://dataknp.sanparks.org/sanparks/metacat/peggym.117.10/sanparks",
+    "encoding": "latin-1",
     "keywords": [
         "SANParks, South Africa",
         "Karoo National Park, South Africa",
@@ -12,18 +12,20 @@
     "resources": [
         {
             "dialect": {
-                "delimiter": "\t",
-                "missingValues": "NA"
+                "delimiter": ","
             },
-            "name": "KarooNationalParkCensuscodes.txt",
+            "name": "peggym_114_1_karoonationalparkcensuscodes",
+            "path": "peggym.114.1-KarooNationalParkCensuscodes.txt",
             "schema": {
                 "fields": [
                     {
-                        "name": "Common name",
+                        "name": "common_name",
+                        "size": "26",
                         "type": "char"
                     },
                     {
-                        "name": "Species",
+                        "name": "species",
+                        "size": "4",
                         "type": "char"
                     }
                 ]
@@ -32,62 +34,69 @@
         },
         {
             "dialect": {
-                "delimiter": "\t",
-                "missingValues": "NA"
+                "delimiter": "\t"
             },
-            "name": "KRNPCensusdata.txt",
+            "name": "peggym_115_1_krnpcensusdata",
+            "path": "peggym.115.1-KRNPCensusdata.txt",
             "schema": {
                 "fields": [
                     {
-                        "name": "ID",
+                        "name": "id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "unique_number",
                         "type": "double"
                     },
                     {
-                        "name": "Unique number",
+                        "name": "decimal_deg_e",
                         "type": "double"
                     },
                     {
-                        "name": "Decimal Deg E",
+                        "name": "decimal_deg_s",
                         "type": "double"
                     },
                     {
-                        "name": "Decimal Deg S",
-                        "type": "double"
-                    },
-                    {
-                        "name": "Date",
-                        "type": "double"
-                    },
-                    {
-                        "name": "Block / Stratum",
+                        "name": "record_date",
+                        "size": "18",
                         "type": "char"
                     },
                     {
-                        "name": "Transect",
-                        "type": "double"
-                    },
-                    {
-                        "name": "Species",
+                        "name": "block_stratum",
+                        "size": "25",
                         "type": "char"
                     },
                     {
-                        "name": "Total number",
-                        "type": "double"
-                    },
-                    {
-                        "name": "Juveniles / calves",
-                        "type": "double"
-                    },
-                    {
-                        "name": "Distance / Strip",
+                        "name": "transect",
+                        "size": "2",
                         "type": "char"
                     },
                     {
-                        "name": "Observer - L/R",
+                        "name": "species",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "total_number",
                         "type": "double"
                     },
                     {
-                        "name": "Comments",
+                        "name": "juveniles_calves",
+                        "type": "double"
+                    },
+                    {
+                        "name": "distance_strip",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "observer_l_r",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "comments",
+                        "size": "100",
                         "type": "char"
                     }
                 ]
@@ -96,22 +105,24 @@
         },
         {
             "dialect": {
-                "delimiter": "\t",
-                "missingValues": "NA"
+                "delimiter": ","
             },
-            "name": "KRNPTotals.txt",
+            "name": "peggym_116_1_krnptotals",
+            "path": "peggym.116.1-KRNPTotals.txt",
             "schema": {
                 "fields": [
                     {
-                        "name": "Date",
-                        "type": "date"
-                    },
-                    {
-                        "name": "Common name",
+                        "name": "record_date",
+                        "size": "18",
                         "type": "char"
                     },
                     {
-                        "name": "SumOfTotal number",
+                        "name": "common_name",
+                        "size": "26",
+                        "type": "char"
+                    },
+                    {
+                        "name": "sumoftotal_number",
                         "type": "double"
                     }
                 ]
@@ -120,79 +131,166 @@
         },
         {
             "dialect": {
-                "delimiter": "\t",
-                "missingValues": "NA"
+                "delimiter": ","
             },
-            "name": "karoo2008.txt",
+            "name": "peggym_1049_1_karoo2008",
+            "path": "peggym.1049.1-karoo2008.txt",
             "schema": {
                 "fields": [
                     {
-                        "name": "Date",
-                        "type": "date"
+                        "name": "record_date",
+                        "size": "10",
+                        "type": "char"
                     },
                     {
-                        "name": "CONTROL",
-                        "type": "date"
+                        "name": "control",
+                        "size": "15",
+                        "type": "char"
                     },
                     {
-                        "name": "TOTAL",
-                        "type": "date"
+                        "name": "total",
+                        "type": "int"
                     },
                     {
-                        "name": "BULLS",
-                        "type": "date"
+                        "name": "bulls",
+                        "type": "int"
                     },
                     {
-                        "name": "CALVES",
-                        "type": "date"
+                        "name": "calves",
+                        "type": "int"
                     },
                     {
-                        "name": "Longitude",
-                        "type": "date"
+                        "name": "longitude",
+                        "type": "double"
                     },
                     {
-                        "name": "Latitude",
-                        "type": "date"
-                    }
-                ]
-            },
-            "url": "http://dataknp.sanparks.org/sanparks/metacat?action=read&qformat=sanparks&sessionid=&docid=peggym.115.1"
-        },
-        {
-            "dialect": {
-                "delimiter": "\t",
-                "missingValues": "NA"
-            },
-            "name": "Karoo2006.txt",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "year",
+                        "name": "latitude",
                         "type": "double"
                     }
                 ]
             },
-            "url": "http://dataknp.sanparks.org/sanparks/metacat?action=read&qformat=sanparks&sessionid=&docid=peggym.115.1"
+            "url": "http://dataknp.sanparks.org/sanparks/metacat?action=read&qformat=sanparks&sessionid=&docid=peggym.1049.1"
         },
         {
             "dialect": {
-                "delimiter": "\t",
-                "missingValues": "NA"
+                "delimiter": ","
             },
-            "name": "Karoo09.txt",
+            "name": "peggym_1050_1_karoo2006",
+            "path": "peggym.1050.1-Karoo2006.txt",
             "schema": {
                 "fields": [
                     {
-                        "name": "year",
+                        "name": "record_date",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "stratum",
+                        "size": "20",
+                        "type": "char"
+                    },
+                    {
+                        "name": "transect",
+                        "type": "int"
+                    },
+                    {
+                        "name": "lat_s",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "long_e",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "species",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "total",
+                        "type": "int"
+                    },
+                    {
+                        "name": "juvenile",
+                        "type": "int"
+                    },
+                    {
+                        "name": "l_r",
+                        "type": "int"
+                    },
+                    {
+                        "name": "strip",
+                        "type": "int"
+                    },
+                    {
+                        "name": "comments",
+                        "size": "48",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "http://dataknp.sanparks.org/sanparks/metacat?action=read&qformat=sanparks&sessionid=&docid=peggym.1050.1"
+        },
+        {
+            "dialect": {
+                "delimiter": "\t"
+            },
+            "name": "peggym_1051_1_karoo09",
+            "path": "peggym.1051.1-Karoo09.txt",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "ref",
+                        "type": "int"
+                    },
+                    {
+                        "name": "record_date",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "time",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "control",
+                        "size": "15",
+                        "type": "char"
+                    },
+                    {
+                        "name": "total",
+                        "type": "int"
+                    },
+                    {
+                        "name": "bulls",
+                        "type": "int"
+                    },
+                    {
+                        "name": "calves",
+                        "type": "int"
+                    },
+                    {
+                        "name": "notes",
+                        "type": "int"
+                    },
+                    {
+                        "name": "latitude",
+                        "type": "double"
+                    },
+                    {
+                        "name": "longitude",
                         "type": "double"
                     }
                 ]
             },
-            "url": "http://dataknp.sanparks.org/sanparks/metacat?action=read&qformat=sanparks&sessionid=&docid=peggym.115.1"
+            "url": "http://dataknp.sanparks.org/sanparks/metacat?action=read&qformat=sanparks&sessionid=&docid=peggym.1051.1"
         }
     ],
     "retriever": "True",
-    "retriever_minimum_version": "2.0.dev",
+    "retriever_minimum_version": "2.1.0",
     "title": "Karoo Natioanal Park Census Data. 1994 - 2009",
     "version": "1.0.0"
 }
