@@ -8,7 +8,7 @@
         "Census data"
 
     ],
-    "name": "sanparks_kruger",
+    "name": "sanparks-kruger",
     "resources": [
         {
             "dialect": {
