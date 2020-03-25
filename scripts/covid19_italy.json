@@ -10,7 +10,7 @@
         "Machine Learning",
         "Italy"
     ],
-    "name": "covid19_italy",
+    "name": "coronavirus-italy  ",
     "resources": [
         {
             "dialect": {
@@ -155,7 +155,7 @@
     ],
     "kaggle": "True",
     "data_source": "dataset",
-    "retriever_minimum_version": "2.0.dev",
-    "title": "COVID-19 in Italy",
-    "version": "1.0"
+    "retriever_minimum_version": "2.1.0",
+    "title": "coronavirus-italy",
+    "version": "1.0.0"
 }
