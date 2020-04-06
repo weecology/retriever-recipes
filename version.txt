@@ -21,6 +21,7 @@ car_eval.json,1.1.2
 catalogos_dados_brasil.json,1.0.0
 chytr_disease_distr.json,1.0.2
 community_abundance_misc.json,1.0.3
+coronavirus-belgium.json,1.0.0
 croche_vegetation_data.json,1.0.2
 dicerandra_frutescens.json,1.0.2
 ecoregions_us.json,1.0.1
