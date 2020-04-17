@@ -1,0 +1,297 @@
+{
+    "citation": "",
+    "description": "Dataset of COVID-19 in Belgium",
+    "homepage": "https://epistat.wiv-isp.be/covid/",
+    "keywords": ["Belgium", "Coronavirus", "Covid-19", "Data Science"],
+    "licenses": [{"name": ""}],
+    "encoding": "latin-1",
+    "name": "coronavirus-belgium",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "hosp",
+            "path": "COVID19BE_HOSP.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "record_date",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "province",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "region",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "nr_reporting",
+                        "type": "int"
+                    },
+                    {
+                        "name": "total_in",
+                        "type": "int"
+                    },
+                    {
+                        "name": "total_in_icu",
+                        "type": "int"
+                    },
+                    {
+                        "name": "total_in_resp",
+                        "type": "int"
+                    },
+                    {
+                        "name": "total_in_ecmo",
+                        "type": "int"
+                    },
+                    {
+                        "name": "new_in",
+                        "type": "int"
+                    },
+                    {
+                        "name": "new_out",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://epistat.sciensano.be/Data/COVID19BE_HOSP.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "tests",
+            "path": "COVID19BE_tests.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "record_date",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "tests",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://epistat.sciensano.be/Data/COVID19BE_tests.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "cases_muni_cum",
+            "path": "COVID19BE_CASES_MUNI_CUM.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "nis5",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "tx_descr_nl",
+                        "size": "27",
+                        "type": "char"
+                    },
+                    {
+                        "name": "tx_descr_fr",
+                        "size": "29",
+                        "type": "char"
+                    },
+                    {
+                        "name": "tx_adm_dstr_descr_nl",
+                        "size": "32",
+                        "type": "char"
+                    },
+                    {
+                        "name": "tx_adm_dstr_descr_fr",
+                        "size": "36",
+                        "type": "char"
+                    },
+                    {
+                        "name": "tx_prov_descr_nl",
+                        "size": "25",
+                        "type": "char"
+                    },
+                    {
+                        "name": "tx_prov_descr_fr",
+                        "size": "31",
+                        "type": "char"
+                    },
+                    {
+                        "name": "tx_rgn_descr_nl",
+                        "size": "30",
+                        "type": "char"
+                    },
+                    {
+                        "name": "tx_rgn_descr_fr",
+                        "size": "29",
+                        "type": "char"
+                    },
+                    {
+                        "name": "cases",
+                        "size": "3",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://epistat.sciensano.be/Data/COVID19BE_CASES_MUNI_CUM.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "mort",
+            "path": "COVID19BE_MORT.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "record_date",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "region",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "agegroup",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "sex",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "deaths",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://epistat.sciensano.be/Data/COVID19BE_MORT.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "cases_muni",
+            "path": "COVID19BE_CASES_MUNI.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "record_date",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "nis5",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "tx_descr_nl",
+                        "size": "27",
+                        "type": "char"
+                    },
+                    {
+                        "name": "tx_descr_fr",
+                        "size": "29",
+                        "type": "char"
+                    },
+                    {
+                        "name": "tx_adm_dstr_descr_nl",
+                        "size": "32",
+                        "type": "char"
+                    },
+                    {
+                        "name": "tx_adm_dstr_descr_fr",
+                        "size": "36",
+                        "type": "char"
+                    },
+                    {
+                        "name": "tx_prov_descr_nl",
+                        "size": "25",
+                        "type": "char"
+                    },
+                    {
+                        "name": "tx_prov_descr_fr",
+                        "size": "31",
+                        "type": "char"
+                    },
+                    {
+                        "name": "tx_rgn_descr_nl",
+                        "size": "30",
+                        "type": "char"
+                    },
+                    {
+                        "name": "tx_rgn_descr_fr",
+                        "size": "29",
+                        "type": "char"
+                    },
+                    {
+                        "name": "cases",
+                        "size": "2",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://epistat.sciensano.be/Data/COVID19BE_CASES_MUNI.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "cases_agesex",
+            "path": "COVID19BE_CASES_AGESEX.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "record_date",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "province",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "region",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "agegroup",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "sex",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "cases",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://epistat.sciensano.be/Data/COVID19BE_CASES_AGESEX.csv"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "coronavirus-belgium",
+    "version": "1.0.0"
+}
