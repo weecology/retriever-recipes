@@ -27,7 +27,8 @@ class main(Script):
                            " and unpublished data sets and studies"
         self.keywords = []
         self.retriever_minimum_version = '2.0.dev'
-        self.version = '1.0.4'
+        self.version = '1.0.5'
+        self.encoding = "latin-1"
         self.urls = {"zip": "https://ndownloader.figshare.com/files/5618823"}
         self.cleanup_func_table = Cleanup(
             correct_invalid_value, missing_values=[

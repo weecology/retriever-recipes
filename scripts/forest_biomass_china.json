@@ -8,6 +8,7 @@
 	"climate",
 	"forest"
     ],
+    "encoding": "latin-1",
     "name": "forest-biomass-china",
     "resources": [
         {
@@ -24,5 +25,5 @@
     "retriever": "True",
     "retriever_minimum_version": "2.0.dev",
     "title": "Biomass and Its Allocation in Chinese Forest Ecosystems (Luo, et al., 2014)",
-    "version": "1.2.1"
+    "version": "1.2.2"
 }

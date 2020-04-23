@@ -6,6 +6,7 @@
         "Taxon > Plants"
     ],
     "name": "nematode-traits",
+    "encoding": "latin-1",
     "resources": [
         {
             "dialect": {},
@@ -22,6 +23,6 @@
     ],
     "retriever": "True",
     "retriever_minimum_version": "2.0.0-dev",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Nematode traits and environmental constraints in 200 soil systems"
 }

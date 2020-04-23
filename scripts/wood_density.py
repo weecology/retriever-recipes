@@ -30,10 +30,11 @@ class main(Script):
         self.title = "Global wood density database - Zanne et al. 2009"
         self.name = "wood-density"
         self.retriever_minimum_version = '2.0.dev'
-        self.version = '1.3.4'
+        self.version = '1.3.5'
         self.encoding = 'latin-1'
+        self.archive = "zip"
         self.urls = {
-            "GWDD": "http://datadryad.org/bitstream/handle/10255/dryad.235/GlobalWoodDensityDatabase.xls?sequence=1"}
+            "GWDD": "https://datadryad.org/stash/downloads/download_resource/26722"}
         self.keywords = ["Taxon > Plants", "Spatial Scale > Global",
                          "Data Type > Observational"]
         self.ref = "http://datadryad.org/resource/doi:10.5061/dryad.234"
@@ -60,7 +61,7 @@ class main(Script):
         if hasattr(sys, 'setdefaultencoding'):
             sys.setdefaultencoding("latin-1")
 
-        self.engine.download_file(self.urls["GWDD"], "GlobalWoodDensityDatabase.xls")
+        self.engine.download_files_from_archive(self.urls["GWDD"], ["GlobalWoodDensityDatabase.xls"], archive_type="zip")
         filename = os.path.basename("GlobalWoodDensityDatabase.xls")
         book = xlrd.open_workbook(self.engine.format_filename(filename))
         sh = book.sheet_by_index(1)

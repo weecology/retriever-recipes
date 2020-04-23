@@ -3,6 +3,7 @@
     "description": "streamflow in ecosystems",
     "homepage": "https://figshare.com/articles/Data_Paper_Data_Paper/3544358",
     "name": "streamflow-conditions",
+    "encoding": "latin-1",
     "resources": [
         {
             "dialect": {},
@@ -163,6 +164,6 @@
     ],
     "retriever": "True",
     "retriever_minimum_version": "2.0.0-dev",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "A stream gage database for evaluating natural and altered flow conditions in the conterminous United States."
 }

@@ -7,6 +7,7 @@
     ],
     "name": "biodiversity-response",
     "licenses": [{"name": "CC0-1.0"}],
+    "encoding": "latin-1",
     "resources": [
         {
             "dialect": {},
@@ -17,6 +18,6 @@
     ],
     "retriever": "True",
     "retriever_minimum_version": "2.0.dev",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "title": "The effects of biodiversity on ecosystem community, and population variables reported 1974-2004"
 }

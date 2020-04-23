@@ -18,7 +18,8 @@ class main(Script):
         self.title = "Marine Predator and Prey Body Sizes - Barnes et al. 2008"
         self.name = "predator-prey-size-marine"
         self.retriever_minimum_version = '2.0.dev'
-        self.version = '2.0.2'
+        self.version = '2.0.3'
+        self.archived = zip
         self.ref = "https://figshare.com/collections/PREDATOR_AND_PREY_BODY_SIZES_IN_MARINE_FOOD_WEBS/3300257"
         self.urls = {"data": "https://ndownloader.figshare.com/files/5601029"}
         self.citation = "C. Barnes, D. M. Bethea, R. D. Brodeur, J. Spitz, V. Ridoux, C. Pusineri, B. C. Chase, " \
@@ -29,7 +30,7 @@ class main(Script):
                            "describe interactions of species and size classes in food webs."
         self.keywords = ["fish", "literature-compilation", "size"]
         self.cleanup_func_table = Cleanup(correct_invalid_value, missing_values=['n/a', '0.0000E+00'])
-
+        self.encoding =  "latin-1"
         if parse_version(VERSION) <= parse_version("2.0.0"):
             self.shortname = self.name
             self.name = self.title
@@ -42,7 +43,7 @@ class main(Script):
         filename = "Predator_and_prey_body_sizes_in_marine_food_webs_vsn4.txt"
         engine.download_files_from_archive(self.urls["data"],
                                            [filename],
-                                           filetype="zip")
+                                           archive_type="zip")
 
         # Create table Species
 
