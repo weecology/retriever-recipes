@@ -4,6 +4,7 @@
     "homepage": "https://figshare.com/articles/Data_Paper_Data_Paper/3547077",
     "licenses": [{"name": "CC0-1.0"}],
     "name": "chytr-disease-distr",
+    "encoding": "latin-1",
     "resources": [
         {
             "dialect": {},
@@ -14,6 +15,6 @@
     ],
     "retriever": "True",
     "retriever_minimum_version": "2.0.0-dev",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "title": "The distribution and host range of the pandemic disease chytridiomycosis in Australia, spanning surveys from 1956-2007."
 }

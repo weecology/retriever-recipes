@@ -27,7 +27,7 @@ class main(Script):
         self.licenses = [{"name": "CC0-1.0"}]
         self.keywords = ['plants', 'observational']
         self.retriever_minimum_version = "2.0.dev"
-        self.version = "1.4.4"
+        self.version = "1.4.5"
         self.description = "The data set is a Biomass and allometry database " \
                            "(BAAD) for woody plants containing 259634 " \
                            "measurements collected in 176 different studies " \
@@ -42,6 +42,7 @@ class main(Script):
         else:
             self.cleanup_func_table = Cleanup(correct_invalid_value,
                                               missing_values=['NA'])
+            self.encoding = "latin-1"
 
     def download(self, engine=None, debug=False):
         Script.download(self, engine, debug)

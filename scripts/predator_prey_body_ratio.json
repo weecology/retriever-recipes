@@ -3,6 +3,7 @@
     "description": "Body size ratios between predators and their prey,",
     "homepage": "https://figshare.com/articles/Data_Paper_Data_Paper/3525119",
     "name": "predator-prey-body-ratio",
+    "encoding": "latin-1",
     "resources": [
         {
             "dialect": {},
@@ -13,6 +14,6 @@
     ],
     "retriever": "True",
     "retriever_minimum_version": "2.0.0-dev",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Body sizes of consumers and their resources"
 }

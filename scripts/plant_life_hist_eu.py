@@ -23,7 +23,7 @@ class main(Script):
         self.title = "A database on the life history traits of the Northwest European flora"
         self.name = "plant-life-hist-eu"
         self.retriever_minimum_version = '2.0.dev'
-        self.version = '1.4.3'
+        self.version = '1.4.4'
         self.ref = "http://www.uni-oldenburg.de/en/biology/landeco/research/projects/leda/"
         self.urls = {
             "Age_of_first_flowering": "http://www.uni-oldenburg.de/fileadmin/user_upload/biologie/ag/landeco/download/LEDA/Data_files/age_of_first_flowering.txt",
@@ -53,6 +53,7 @@ class main(Script):
             "Woodiness": "http://www.uni-oldenburg.de/fileadmin/user_upload/biologie/ag/landeco/download/LEDA/Data_files/ssd.txt",
             "Terminal_velocity": "http://www.uni-oldenburg.de/fileadmin/user_upload/biologie/ag/landeco/download/LEDA/Data_files/TV.txt",
         }
+        self.encoding = "latin-1"
         self.citation = "KLEYER, M., BEKKER, R.M., KNEVEL, I.C., BAKKER, J.P, THOMPSON, K., SONNENSCHEIN, M., POSCHLOD, P., VAN GROENENDAEL, J.M., KLIMES, L., KLIMESOVA, J., KLOTZ, S., RUSCH, G.M., HERMY, M., ADRIAENS, D., BOEDELTJE, G., BOSSUYT, B., DANNEMANN, A., ENDELS, P., GoeTZENBERGER, L., HODGSON, J.G., JACKEL, A-K., KueHN, I., KUNZMANN, D., OZINGA, W.A., RoeMERMANN, C., STADLER, M., SCHLEGELMILCH, J., STEENDAM, H.J., TACKENBERG, O., WILMANN, B., CORNELISSEN, J.H.C., ERIKSSON, O., GARNIER, E., PECO, B. (2008): The LEDA Traitbase: A database of life-history traits of Northwest European flora. Journal of Ecology 96: 1266-1274"
         self.keywords = ['plants', 'observational']
         self.description = "The LEDA Traitbase provides information on plant traits that describe three key features of plant dynamics: persistence, regeneration and dispersal. "

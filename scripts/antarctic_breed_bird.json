@@ -7,6 +7,7 @@
     ],
     "name": "antarctic-breed-bird",
     "licenses": [{"name": "CC0-1.0"}],
+    "encoding": "latin-1",
     "resources": [
         {
             "dialect": {},
@@ -18,5 +19,5 @@
     "retriever": "True",
     "retriever_minimum_version": "2.0.dev",
     "title": "Antarctic Site Inventory breeding bird survey data, 1994-2013",
-    "version": "1.2.2"
+    "version": "1.2.3"
 }
