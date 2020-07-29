@@ -18,7 +18,7 @@ class main(Script):
         self.title = "Tree demography in Western Ghats, India - Pelissier et al. 2011"
         self.name = "tree-demog-wghats"
         self.retriever_minimum_version = '2.0.dev'
-        self.version = '1.3.2'
+        self.version = '1.3.3'
         self.ref = "https://figshare.com/collections/Tree_demography_in_an_undisturbed_" \
                    "Dipterocarp_permanent_sample_plot_at_Uppangala_Western_Ghats_of_India/3304026"
         self.urls = {"data": "https://ndownloader.figshare.com/files/5619033"}
@@ -29,6 +29,7 @@ class main(Script):
         self.description = "A data set on demography of trees monitored over 20 years in " \
                            "Uppangala permanent sample plot (UPSP)."
         self.keywords = ["plants", "time-series", "observational"]
+        self.archive = "zip"
 
         if parse_version(VERSION) <= parse_version("2.0.0"):
             self.shortname = self.name
@@ -46,7 +47,7 @@ class main(Script):
         engine.download_files_from_archive(self.urls["data"],
                                            ["UPSP_Demo_data.txt",
                                             "UPSP_Species_list2.txt"],
-                                           filetype="zip")
+                                           archive_type="zip")
         # Create table sp_list(Species)
         filename = "UPSP_Species_list2.txt"
         engine.auto_create_table(

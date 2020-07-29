@@ -2,11 +2,12 @@
   "citation": "NA",
   "description": "The National Aquatic Resource Surveys (NARS) are statistical surveys designed to assess the status of and changes in quality of the coastal waters of the nation, lakes and reservoirs, rivers and streams, and wetlands.  Using sample sites selected at random, these surveys provide a snapshot of the overall condition of water belonging to the nation. Because the surveys use standardized field and lab methods, we can compare results from different parts of the country and between years. EPA works with state, tribal and federal partners to design and implement the National Aquatic Resource Surveys.",
   "homepage": "https://19january2017snapshot.epa.gov/national-aquatic-resource-surveys/data-national-aquatic-resource-surveys_.html",
-  "encoding": "UTF-8",
+  "encoding": "latin-1",
   "keywords": [
     "SITE",
     "LAKE"
   ],
+  "encoding": "latin-1",
   "name": "nla",
   "resources": [
     {
@@ -13315,5 +13316,5 @@
   "retriever": "True",
   "retriever_minimum_version": "2.1.dev",
   "title": "National_Lakes_Assessment_Data",
-  "version": "1.0.0"
+  "version": "1.0.1"
 }
