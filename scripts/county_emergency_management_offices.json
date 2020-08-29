@@ -1,0 +1,76 @@
+{
+  "citation": "",
+  "description": "Dataset lists all contacts for Emergency Management Offices within NYS",
+  "encoding": "utf-8",
+  "homepage": "https://catalog.data.gov/dataset/county-emergency-management-offices",
+  "keywords": ["Public Safety", "New York", "Office of Emergency Management", "OEM"],
+  "licenses": [],
+  "name": "county-emergency-management-offices",
+  "resources": [
+    {
+      "dialect": {
+        "delimiter": ","
+      },
+      "name": "county_emergency_management_offices",
+      "path": "County_Emergency_Management_Offices.csv",
+      "xml_data": "emergency_offices.xml",
+      "empty_rows": 1,
+      "schema": {
+        "fields": [
+          {
+            "name": "county",
+            "size": "11",
+            "type": "char"
+          },
+          {
+            "name": "emergency_manager",
+            "size": "20",
+            "type": "char"
+          },
+          {
+            "name": "address",
+            "size": "52",
+            "type": "char"
+          },
+          {
+            "name": "city",
+            "size": "13",
+            "type": "char"
+          },
+          {
+            "name": "state",
+            "size": "2",
+            "type": "char"
+          },
+          {
+            "name": "zip_code",
+            "type": "int"
+          },
+          {
+            "name": "business_phone",
+            "size": "14",
+            "type": "char"
+          },
+          {
+            "name": "latitude",
+            "type": "double"
+          },
+          {
+            "name": "longitude",
+            "type": "double"
+          },
+          {
+            "name": "location_1",
+            "size": "100",
+            "type": "char"
+          }
+        ]
+      },
+      "url": "https://data.ny.gov/api/views/jwkb-x5v6/rows.xml"
+    }
+  ],
+  "retriever": "True",
+  "retriever_minimum_version": "2.1.0",
+  "title": "County Emergency Management Offices New York",
+  "version": "1.0.0"
+}

@@ -1,0 +1,57 @@
+{
+    "citation": "",
+    "description": "List of restaurants on Baltimore City",
+    "encoding": "utf-8",
+    "homepage": "https://catalog.data.gov/dataset/restaurants-15baa",
+    "keywords": ["Restaurant", "Baltimore City"],
+    "licenses": [],
+    "name": "restaurants",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "restaurants",
+            "path": "Restaurants.csv",
+            "xml_data": "restaurants.xml",
+            "empty_rows": 1,
+            "schema": {
+                "fields": [
+                    {
+                        "name": "name",
+                        "size": "50",
+                        "type": "char"
+                    },
+                    {
+                        "name": "zipcode",
+                        "type": "int"
+                    },
+                    {
+                        "name": "neighborhood",
+                        "size": "32",
+                        "type": "char"
+                    },
+                    {
+                        "name": "councildistrict",
+                        "type": "int"
+                    },
+                    {
+                        "name": "policedistrict",
+                        "size": "12",
+                        "type": "char"
+                    },
+                    {
+                        "name": "location_1",
+                        "size": "200",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://data.baltimorecity.gov/api/views/k5ry-ef3g/rows.xml"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "Restaurant Baltimore city",
+    "version": "1.0.0"
+}
