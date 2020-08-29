@@ -1,0 +1,126 @@
+{
+    "citation": "",
+    "description": "The Portal Project Teaching Database is a simplified version of the Portal Project Database designed for teaching",
+    "encoding": "utf-8",
+    "homepage": "https://figshare.com/articles/Portal_Project_Teaching_Database/1314459",
+    "keywords": ["mammals", "desert", "time-series", "experimental", "observational"],
+    "licenses": [],
+    "name": "portal-project-test",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "species",
+            "path": "species.csv",
+            "sqlite_data": ["species","portal_project.sqlite"],
+            "schema": {
+                "fields": [
+                    {
+                        "name": "species_id",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "genus",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "species",
+                        "size": "15",
+                        "type": "char"
+                    },
+                    {
+                        "name": "taxa",
+                        "size": "7",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://ndownloader.figshare.com/files/11188550"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "plots",
+            "path": "plots.csv",
+            "sqlite_data": ["plots","portal_project.sqlite"],
+            "schema": {
+                "fields": [
+                    {
+                        "name": "plot_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plot_type",
+                        "size": "25",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://ndownloader.figshare.com/files/11188550"
+        },
+        {
+            "dialect": {
+                "contains_pk": "True",
+                "delimiter": ",",
+                "missingValues": [
+                    "",
+                    null
+                ]
+            },
+            "name": "surveys",
+            "path": "surveys.csv",
+            "sqlite_data": ["surveys","portal_project.sqlite"],
+            "schema": {
+                "fields": [
+                    {
+                        "name": "record_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "month",
+                        "type": "int"
+                    },
+                    {
+                        "name": "day",
+                        "type": "int"
+                    },
+                    {
+                        "name": "year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plot_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "species_id",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "sex",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "hindfoot_length",
+                        "type": "double"
+                    },
+                    {
+                        "name": "weight",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "https://ndownloader.figshare.com/files/11188550"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "Portal Project Teaching",
+    "version": "1.0.0"
+}
