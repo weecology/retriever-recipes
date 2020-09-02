@@ -1,0 +1,106 @@
+{
+    "citation": "",
+    "description": "Database with information about Nuclear Power Plants worldwide",
+    "encoding": "utf-8",
+    "homepage": "https://github.com/cristianst85/GeoNuclearData",
+    "keywords": [
+        "Power plant",
+        "Nuclear"
+    ],
+    "licenses": [],
+    "name": "nuclear-power-plants",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "nuclear_power_plants",
+            "path": "nuclear_power_plants.csv",
+            "json_data": "nuclear_power_plants.json",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "name",
+                        "size": "40",
+                        "type": "char"
+                    },
+                    {
+                        "name": "latitude",
+                        "type": "double"
+                    },
+                    {
+                        "name": "longitude",
+                        "type": "double"
+                    },
+                    {
+                        "name": "country",
+                        "size": "52",
+                        "type": "char"
+                    },
+                    {
+                        "name": "countrycode",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "status",
+                        "size": "22",
+                        "type": "char"
+                    },
+                    {
+                        "name": "reactortype",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "reactormodel",
+                        "size": "52",
+                        "type": "char"
+                    },
+                    {
+                        "name": "constructionstartat",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "operationalfrom",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "operationalto",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "capacity",
+                        "type": "int"
+                    },
+                    {
+                        "name": "lastupdatedat",
+                        "size": "25",
+                        "type": "char"
+                    },
+                    {
+                        "name": "source",
+                        "size": "18",
+                        "type": "char"
+                    },
+                    {
+                        "name": "iaeaid",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://raw.githubusercontent.com/cristianst85/GeoNuclearData/master/data/json/denormalized/nuclear_power_plants.json"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "Nuclear Power Plants Database",
+    "version": "1.0.0"
+}
