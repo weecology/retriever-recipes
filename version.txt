@@ -5,6 +5,7 @@ airports.json,1.0.3
 antarctic_breed_bird.json,1.2.3
 aquatic_animal_excretion.py,1.1.6
 arsenic_contamination_bangladesh.json,1.0.0
+baltimore_restaurants.json,1.0.1
 biodiversity_response.json,1.0.3
 biomass_allometry_db.py,1.4.5
 biotime.json,1.1.1
@@ -161,7 +162,6 @@ predator_prey_body_ratio.json,1.0.2
 predator_prey_size_marine.py,2.0.3
 prism_climate.py,1.2.3
 rainfall_in_india.json,1.0.0
-restaurants.json,1.0.0
 shortgrass_steppe_lter.json,1.0.0
 socean_diet_data.py,1.0.5
 sonoran_desert.json,1.0.0

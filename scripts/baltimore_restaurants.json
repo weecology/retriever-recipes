@@ -5,7 +5,7 @@
     "homepage": "https://catalog.data.gov/dataset/restaurants-15baa",
     "keywords": ["Restaurant", "Baltimore City"],
     "licenses": [],
-    "name": "restaurants",
+    "name": "baltimore-restaurants",
     "resources": [
         {
             "dialect": {
@@ -52,6 +52,6 @@
     ],
     "retriever": "True",
     "retriever_minimum_version": "2.1.0",
-    "title": "Restaurant Baltimore city",
-    "version": "1.0.0"
+    "title": "Restaurant in Baltimore city",
+    "version": "1.0.1"
 }
