@@ -162,6 +162,7 @@ predator_prey_body_ratio.json,1.0.2
 predator_prey_size_marine.py,2.0.3
 prism_climate.py,1.2.3
 rainfall_in_india.json,1.0.0
+sample_hdf.json,1.0.0
 shortgrass_steppe_lter.json,1.0.0
 socean_diet_data.py,1.0.5
 sonoran_desert.json,1.0.0
