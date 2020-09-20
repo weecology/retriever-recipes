@@ -13,7 +13,7 @@ RUN apt-get install -y --force-yes postgresql-client > /dev/null
 RUN apt-get install -y python3 python3-pip curl
 
 # Install requirements
-RUN pip3 install psycopg2-binary pytest
+RUN pip3 install psycopg2-binary pytest h5py Pillow kaggle
 RUN pip3 install git+https://git@github.com/weecology/retriever.git
 
 # Install Postgis after Python is setup
