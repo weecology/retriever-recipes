@@ -2,14 +2,14 @@
     "archived": "zip",
     "citation": "",
     "description": "Dataset of COVID-19 in South Korea",
+    "encoding": "utf-8",
     "homepage": "https://www.kaggle.com/kimjihoo/coronavirusdataset",
     "keywords": [
         "Kaggle",
         "South Korea",
         "Coronavirus",
         "Covid-19",
-        "Data Science"
-    ],
+        "Data Science"],
     "licenses": [
         {
             "name": "CC BY-NC-SA 4.0"
@@ -90,7 +90,7 @@
                     },
                     {
                         "name": "infection_case",
-                        "size": "37",
+                        "size": "45",
                         "type": "char"
                     },
                     {
@@ -99,12 +99,12 @@
                     },
                     {
                         "name": "latitude",
-                        "size": "9",
+                        "size": "10",
                         "type": "double"
                     },
                     {
                         "name": "longitude",
-                        "size": "10",
+                        "size": "11",
                         "type": "double"
                     }
                 ]
@@ -237,17 +237,9 @@
                         "type": "int"
                     },
                     {
-                        "name": "global_num",
-                        "type": "int"
-                    },
-                    {
                         "name": "sex",
                         "size": "6",
                         "type": "char"
-                    },
-                    {
-                        "name": "birth_year",
-                        "type": "int"
                     },
                     {
                         "name": "age",
@@ -256,7 +248,7 @@
                     },
                     {
                         "name": "country",
-                        "size": "8",
+                        "size": "14",
                         "type": "char"
                     },
                     {
@@ -270,25 +262,18 @@
                         "type": "char"
                     },
                     {
-                        "name": "disease",
-                        "size": "4",
-                        "type": "char"
-                    },
-                    {
                         "name": "infection_case",
-                        "size": "32",
+                        "size": "45",
                         "type": "char"
-                    },
-                    {
-                        "name": "infection_order",
-                        "type": "int"
                     },
                     {
                         "name": "infected_by",
+                        "size": "22",
                         "type": "int"
                     },
                     {
                         "name": "contact_number",
+                        "size": "10",
                         "type": "int"
                     },
                     {
@@ -314,6 +299,52 @@
                     {
                         "name": "state",
                         "size": "8",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "kimjihoo/coronavirusdataset"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "policy",
+            "path": "Policy.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "policy_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "country",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "type",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "gov_policy",
+                        "size": "45",
+                        "type": "char"
+                    },
+                    {
+                        "name": "detail",
+                        "size": "203",
+                        "type": "char"
+                    },
+                    {
+                        "name": "start_date",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "end_date",
+                        "size": "10",
                         "type": "char"
                     }
                 ]
@@ -502,53 +533,9 @@
                 ]
             },
             "url": "kimjihoo/coronavirusdataset"
-        },
-        {
-            "dialect": {
-                "delimiter": ","
-            },
-            "name": "patientroute",
-            "path": "PatientRoute.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "patient_id",
-                        "type": "int"
-                    },
-                    {
-                        "name": "global_num",
-                        "type": "int"
-                    },
-                    {
-                        "name": "record_date",
-                        "size": "10",
-                        "type": "char"
-                    },
-                    {
-                        "name": "province",
-                        "size": "12",
-                        "type": "char"
-                    },
-                    {
-                        "name": "city",
-                        "size": "15",
-                        "type": "char"
-                    },
-                    {
-                        "name": "latitude",
-                        "type": "double"
-                    },
-                    {
-                        "name": "longitude",
-                        "type": "double"
-                    }
-                ]
-            },
-            "url": "kimjihoo/coronavirusdataset"
         }
     ],
-    "kaggle": "True",
-    "data_source": "dataset",
+    "retriever": "True",
     "retriever_minimum_version": "2.1.0",
     "title": "coronavirus-south-korea",
     "version": "1.0.0"
