@@ -139,6 +139,7 @@ nd_gain.json,1.0.3
 nematode_traits.json,1.0.2
 ngreatplains_flowering_dates.json,1.0.3
 nla.json,1.0.1
+nlcd_rangeland_basemap.json,1.0.0
 noaa_fisheries_trade.py,1.0.0
 north_carolina_piedmont_mapped_foreset.json,1.0.0
 north_carolina_piedmont_permanent_plots.json,1.0.0
