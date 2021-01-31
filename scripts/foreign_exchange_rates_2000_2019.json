@@ -1,0 +1,132 @@
+{
+    "archived": "zip",
+    "citation": "",
+    "description": "Federal Reserve's time serie of foreign exchange rates per dollar from 2000 to 2019",
+    "homepage": "https://www.kaggle.com/brunotly/foreign-exchange-rates-per-dollar-20002019",
+    "keywords": [
+        "Federal Reserve",
+        "foreign exchange rates",
+        "Time series",
+        "Machine Learning",
+        "kaggle",
+        "kaggle dataset"
+    ],
+    "name": "foreign-exchange-rates-2000-2019",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "foreign_exchange_rates_2000_2019",
+            "path": "Foreign_Exchange_Rates.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "index",
+                        "type": "int"
+                    },
+                    {
+                        "name": "time_serie",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "australia_australian_dollar_us",
+                        "type": "double"
+                    },
+                    {
+                        "name": "euro_area_euro_us",
+                        "type": "double"
+                    },
+                    {
+                        "name": "new_zealand_new_zeland_dollar_us",
+                        "type": "double"
+                    },
+                    {
+                        "name": "united_kingdom_united_kingdom_pound_us",
+                        "type": "double"
+                    },
+                    {
+                        "name": "brazil_real_us",
+                        "type": "double"
+                    },
+                    {
+                        "name": "canada_canadian_dollar_us",
+                        "type": "double"
+                    },
+                    {
+                        "name": "china_yuan_us",
+                        "type": "double"
+                    },
+                    {
+                        "name": "hong_kong_hong_kong_dollar_us",
+                        "type": "double"
+                    },
+                    {
+                        "name": "india_indian_rupee_us",
+                        "type": "double"
+                    },
+                    {
+                        "name": "korea_won_us",
+                        "type": "double"
+                    },
+                    {
+                        "name": "mexico_mexican_peso_us",
+                        "type": "double"
+                    },
+                    {
+                        "name": "south_africa_rand_us",
+                        "type": "double"
+                    },
+                    {
+                        "name": "singapore_singapore_dollar_us",
+                        "type": "double"
+                    },
+                    {
+                        "name": "denmark_danish_krone_us",
+                        "type": "double"
+                    },
+                    {
+                        "name": "japan_yen_us",
+                        "type": "double"
+                    },
+                    {
+                        "name": "malaysia_ringgit_us",
+                        "type": "double"
+                    },
+                    {
+                        "name": "norway_norwegian_krone_us",
+                        "type": "double"
+                    },
+                    {
+                        "name": "sweden_krona_us",
+                        "type": "double"
+                    },
+                    {
+                        "name": "sri_lanka_sri_lankan_rupee_us",
+                        "type": "double"
+                    },
+                    {
+                        "name": "switzerland_franc_us",
+                        "type": "double"
+                    },
+                    {
+                        "name": "taiwan_new_taiwan_dollar_us",
+                        "type": "double"
+                    },
+                    {
+                        "name": "thailand_baht_us",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "brunotly/foreign-exchange-rates-per-dollar-20002019"
+        }
+    ],
+    "kaggle": "True",
+    "data_source": "dataset",
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "foreign-exchange-rates-2000-2019",
+    "version": "1.0.0"
+}

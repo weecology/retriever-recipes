@@ -1,0 +1,187 @@
+{
+    "archived": "zip",
+    "citation": "",
+    "description": "Anonymized credit card transactions labeled as fraudulent or genuine",
+    "homepage": "https://www.kaggle.com/mlg-ulb/creditcardfraud",
+    "keywords": [
+        "credit card",
+        "fraud",
+        "classification",
+        "Machine Learning",
+        "kaggle",
+        "kaggle dataset"
+    ],
+    "name": "credit-card-fraud",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "creditcard",
+            "path": "creditcard.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "time",
+                        "type": "double"
+                    },
+                    {
+                        "name": "v1",
+                        "size": "50,30",
+                        "type": "decimal"
+                    },
+                    {
+                        "name": "v2",
+                        "size": "50,30",
+                        "type": "decimal"
+                    },
+                    {
+                        "name": "v3",
+                        "size": "50,30",
+                        "type": "decimal"
+                    },
+                    {
+                        "name": "v4",
+                        "size": "50,30",
+                        "type": "decimal"
+                    },
+                    {
+                        "name": "v5",
+                        "size": "50,30",
+                        "type": "decimal"
+                    },
+                    {
+                        "name": "v6",
+                        "size": "50,30",
+                        "type": "decimal"
+                    },
+                    {
+                        "name": "v7",
+                        "size": "50,30",
+                        "type": "decimal"
+                    },
+                    {
+                        "name": "v8",
+                        "size": "50,30",
+                        "type": "decimal"
+                    },
+                    {
+                        "name": "v9",
+                        "size": "50,30",
+                        "type": "decimal"
+                    },
+                    {
+                        "name": "v10",
+                        "size": "50,30",
+                        "type": "decimal"
+                    },
+                    {
+                        "name": "v11",
+                        "size": "50,30",
+                        "type": "decimal"
+                    },
+                    {
+                        "name": "v12",
+                        "size": "50,30",
+                        "type": "decimal"
+                    },
+                    {
+                        "name": "v13",
+                        "size": "50,30",
+                        "type": "decimal"
+                    },
+                    {
+                        "name": "v14",
+                        "size": "50,30",
+                        "type": "decimal"
+                    },
+                    {
+                        "name": "v15",
+                        "size": "50,30",
+                        "type": "decimal"
+                    },
+                    {
+                        "name": "v16",
+                        "size": "50,30",
+                        "type": "decimal"
+                    },
+                    {
+                        "name": "v17",
+                        "size": "50,30",
+                        "type": "decimal"
+                    },
+                    {
+                        "name": "v18",
+                        "size": "50,30",
+                        "type": "decimal"
+                    },
+                    {
+                        "name": "v19",
+                        "size": "50,30",
+                        "type": "decimal"
+                    },
+                    {
+                        "name": "v20",
+                        "size": "50,30",
+                        "type": "decimal"
+                    },
+                    {
+                        "name": "v21",
+                        "size": "50,30",
+                        "type": "decimal"
+                    },
+                    {
+                        "name": "v22",
+                        "size": "50,30",
+                        "type": "decimal"
+                    },
+                    {
+                        "name": "v23",
+                        "size": "50,30",
+                        "type": "decimal"
+                    },
+                    {
+                        "name": "v24",
+                        "size": "50,30",
+                        "type": "decimal"
+                    },
+                    {
+                        "name": "v25",
+                        "size": "50,30",
+                        "type": "decimal"
+                    },
+                    {
+                        "name": "v26",
+                        "size": "50,30",
+                        "type": "decimal"
+                    },
+                    {
+                        "name": "v27",
+                        "size": "50,30",
+                        "type": "decimal"
+                    },
+                    {
+                        "name": "v28",
+                        "size": "50,30",
+                        "type": "decimal"
+                    },
+                    {
+                        "name": "amount",
+                        "type": "double"
+                    },
+                    {
+                        "name": "classes",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "mlg-ulb/creditcardfraud"
+        }
+    ],
+    "kaggle": "True",
+    "data_source": "dataset",
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "credit-card-fraud",
+    "version": "1.0.0"
+}

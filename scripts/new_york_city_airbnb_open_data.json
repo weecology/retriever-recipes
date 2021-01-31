@@ -1,0 +1,103 @@
+{
+    "archived": "zip",
+    "citation": "",
+    "description": "Airbnb listings and metrics in NYC, NY, USA (2019)",
+    "homepage": "https://www.kaggle.com/dgomonov/new-york-city-airbnb-open-data",
+    "keywords": [
+        "Airbnb",
+        "New York City",
+        "Kaggle",
+        "kaggle dataset"
+    ],
+    "name": "new-york-city-airbnb-open-data",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "ab_nyc_2019",
+            "path": "AB_NYC_2019.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "name",
+                        "size": "179",
+                        "type": "char"
+                    },
+                    {
+                        "name": "host_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "host_name",
+                        "size": "35",
+                        "type": "char"
+                    },
+                    {
+                        "name": "neighbourhood_group",
+                        "size": "13",
+                        "type": "char"
+                    },
+                    {
+                        "name": "neighbourhood",
+                        "size": "26",
+                        "type": "char"
+                    },
+                    {
+                        "name": "latitude",
+                        "type": "double"
+                    },
+                    {
+                        "name": "longitude",
+                        "type": "double"
+                    },
+                    {
+                        "name": "room_type",
+                        "size": "15",
+                        "type": "char"
+                    },
+                    {
+                        "name": "price",
+                        "type": "int"
+                    },
+                    {
+                        "name": "minimum_nights",
+                        "type": "int"
+                    },
+                    {
+                        "name": "number_of_reviews",
+                        "type": "int"
+                    },
+                    {
+                        "name": "last_review",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "reviews_per_month",
+                        "type": "double"
+                    },
+                    {
+                        "name": "calculated_host_listings_count",
+                        "type": "int"
+                    },
+                    {
+                        "name": "availability_365",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "dgomonov/new-york-city-airbnb-open-data"
+        }
+    ],
+    "kaggle": "True",
+    "data_source": "dataset",
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "new-york-city-airbnb-open-data",
+    "version": "1.0.0"
+} 

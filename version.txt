@@ -24,7 +24,9 @@ catalogos_dados_brasil.json,1.0.0
 chytr_disease_distr.json,1.0.3
 community_abundance_misc.json,1.0.3
 coronavirus-belgium.json,1.0.0
+coronavirus_south_korea.json,1.0.0
 county_emergency_management_offices.json,1.0.0
+credit_card_fraud.json,1.0.0
 croche_vegetation_data.json,1.0.2
 dicerandra_frutescens.json,1.0.2
 ecoregions_us.json,1.0.1
@@ -99,6 +101,7 @@ fia_wisconsin.json,1.1.0
 fia_wyoming.json,1.1.0
 fish_parasite_hosts.json,1.2.1
 flensburg_food_web.py,1.0.4
+foreign_exchange_rates_2000_2019.json,1.0.0
 forest_biomass_china.json,1.2.2
 forest_fires_portugal.json,1.1.4
 forest_inventory_analysis.py,1.4.4
@@ -137,6 +140,7 @@ mt_st_helens_veg.json,1.2.3
 nadp_precipitation_chemistry.json,1.0.0
 nd_gain.json,1.0.3
 nematode_traits.json,1.0.2
+new_york_city_airbnb_open_data.json,1.0.0
 ngreatplains_flowering_dates.json,1.0.3
 nla.json,1.0.1
 noaa_fisheries_trade.py,1.0.0
