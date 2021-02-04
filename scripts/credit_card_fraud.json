@@ -27,143 +27,115 @@
                     },
                     {
                         "name": "v1",
-                        "size": "50,30",
-                        "type": "decimal"
+                        "type": "double"
                     },
                     {
                         "name": "v2",
-                        "size": "50,30",
-                        "type": "decimal"
+                        "type": "double"
                     },
                     {
                         "name": "v3",
-                        "size": "50,30",
-                        "type": "decimal"
+                        "type": "double"
                     },
                     {
                         "name": "v4",
-                        "size": "50,30",
-                        "type": "decimal"
+                        "type": "double"
                     },
                     {
                         "name": "v5",
-                        "size": "50,30",
-                        "type": "decimal"
+                        "type": "double"
                     },
                     {
                         "name": "v6",
-                        "size": "50,30",
-                        "type": "decimal"
+                        "type": "double"
                     },
                     {
                         "name": "v7",
-                        "size": "50,30",
-                        "type": "decimal"
+                        "type": "double"
                     },
                     {
                         "name": "v8",
-                        "size": "50,30",
-                        "type": "decimal"
+                        "type": "double"
                     },
                     {
                         "name": "v9",
-                        "size": "50,30",
-                        "type": "decimal"
+                        "type": "double"
                     },
                     {
                         "name": "v10",
-                        "size": "50,30",
-                        "type": "decimal"
+                        "type": "double"
                     },
                     {
                         "name": "v11",
-                        "size": "50,30",
-                        "type": "decimal"
+                        "type": "double"
                     },
                     {
                         "name": "v12",
-                        "size": "50,30",
-                        "type": "decimal"
+                        "type": "double"
                     },
                     {
                         "name": "v13",
-                        "size": "50,30",
-                        "type": "decimal"
+                        "type": "double"
                     },
                     {
                         "name": "v14",
-                        "size": "50,30",
-                        "type": "decimal"
+                        "type": "double"
                     },
                     {
                         "name": "v15",
-                        "size": "50,30",
-                        "type": "decimal"
+                        "type": "double"
                     },
                     {
                         "name": "v16",
-                        "size": "50,30",
-                        "type": "decimal"
+                        "type": "double"
                     },
                     {
                         "name": "v17",
-                        "size": "50,30",
-                        "type": "decimal"
+                        "type": "double"
                     },
                     {
                         "name": "v18",
-                        "size": "50,30",
-                        "type": "decimal"
+                        "type": "double"
                     },
                     {
                         "name": "v19",
-                        "size": "50,30",
-                        "type": "decimal"
+                        "type": "double"
                     },
                     {
                         "name": "v20",
-                        "size": "50,30",
-                        "type": "decimal"
+                        "type": "double"
                     },
                     {
                         "name": "v21",
-                        "size": "50,30",
-                        "type": "decimal"
+                        "type": "double"
                     },
                     {
                         "name": "v22",
-                        "size": "50,30",
-                        "type": "decimal"
+                        "type": "double"
                     },
                     {
                         "name": "v23",
-                        "size": "50,30",
-                        "type": "decimal"
+                        "type": "double"
                     },
                     {
                         "name": "v24",
-                        "size": "50,30",
-                        "type": "decimal"
+                        "type": "double"
                     },
                     {
                         "name": "v25",
-                        "size": "50,30",
-                        "type": "decimal"
+                        "type": "double"
                     },
                     {
                         "name": "v26",
-                        "size": "50,30",
-                        "type": "decimal"
+                        "type": "double"
                     },
                     {
                         "name": "v27",
-                        "size": "50,30",
-                        "type": "decimal"
+                        "type": "double"
                     },
                     {
                         "name": "v28",
-                        "size": "50,30",
-                        "type": "decimal"
+                        "type": "double"
                     },
                     {
                         "name": "amount",
