@@ -15,16 +15,13 @@
     "resources": [
         {
             "dialect": {
-                "delimiter": ","
+                "delimiter": ",",
+                "missingValues": ["ND"]
             },
             "name": "foreign_exchange_rates_2000_2019",
             "path": "Foreign_Exchange_Rates.csv",
             "schema": {
                 "fields": [
-                    {
-                        "name": "index",
-                        "type": "int"
-                    },
                     {
                         "name": "time_serie",
                         "size": "10",

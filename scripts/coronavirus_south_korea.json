@@ -226,7 +226,8 @@
         },
         {
             "dialect": {
-                "delimiter": ","
+                "delimiter": ",",
+                "missingValues": [" ","-"]
             },
             "name": "patientinfo",
             "path": "PatientInfo.csv",
@@ -234,7 +235,8 @@
                 "fields": [
                     {
                         "name": "patient_id",
-                        "type": "bigint"
+                        "size": "26",
+                        "type": "char"
                     },
                     {
                         "name": "sex",
@@ -268,11 +270,13 @@
                     },
                     {
                         "name": "infected_by",
-                        "type": "bigint"
+                        "size": "22",
+                        "type": "char"
                     },
                     {
                         "name": "contact_number",
-                        "type": "bigint"
+                        "size": "10",
+                        "type": "char"
                     },
                     {
                         "name": "symptom_onset_date",
