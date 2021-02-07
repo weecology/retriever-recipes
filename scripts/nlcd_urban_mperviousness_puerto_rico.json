@@ -1,0 +1,50 @@
+{
+    "archived": "zip",
+    "extract_all": "True",
+    "citation": "fill",
+    "dataset_count": "--The number of individual datasets",
+    "datum": "--Coordinate Reference System",
+    "description": "pr_masked_imperv_10-25-08.img",
+    "driver": "HFA",
+    "file_size": "--size of file on disk",
+    "group_count": "--Number of groups in the dataset if applicable",
+    "homepage": "fill",
+    "keywords": [],
+    "licenses": [],
+    "name": "nlcd-urban-imperviousness-puerto-rico",
+    "projection": "PROJCS[\"Albers Conical Equal Area\",GEOGCS[\"NAD83\",DATUM[\"North_American_Datum_1983\",SPHEROID[\"GRS 1980\",6378137,298.257222101,AUTHORITY[\"EPSG\",\"7019\"]],AUTHORITY[\"EPSG\",\"6269\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4269\"]],PROJECTION[\"Albers_Conic_Equal_Area\"],PARAMETER[\"latitude_of_center\",23],PARAMETER[\"longitude_of_center\",-96],PARAMETER[\"standard_parallel_1\",29.5],PARAMETER[\"standard_parallel_2\",45.5],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"meters\",1],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+    "resources": [
+        {
+            "band_name": "pr_masked_imperv_10-25-08_1",
+            "color_table": true,
+            "extensions": [
+                "img"
+            ],
+            "format": "raster",
+            "name": "pr_masked_imperv_10_25_08",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "pr_masked_imperv_10-25-08.img",
+            "scale": null,
+            "statistics": {
+                "maximum": 100.0,
+                "mean": 1.4070864043228,
+                "minimum": 0.0,
+                "stddev": 8.6280709687299
+            },
+            "url": "https://s3-us-west-2.amazonaws.com/mrlc/PR_masked_imperv_10-25-08.zip"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "fill",
+    "transform": {
+        "pixelHeight": -30.0,
+        "pixelWidth": 30.0,
+        "rotation_2": 0.0,
+        "rotation_4": 0.0,
+        "xOrigin": 3092415.0,
+        "yOrigin": 59385.0
+    },
+    "version": "1.0.0"
+}

@@ -139,6 +139,10 @@ nd_gain.json,1.0.3
 nematode_traits.json,1.0.2
 ngreatplains_flowering_dates.json,1.0.3
 nla.json,1.0.1
+nlcd_imperviousness_conus.json,1.0.0
+nlcd_urban_imperviousness_alaska.json,1.0.0
+nlcd_urban_imperviousness_hawaii.json,1.0.0
+nlcd_urban_mperviousness_puerto_rico.json,1.0.0
 noaa_fisheries_trade.py,1.0.0
 north_carolina_piedmont_mapped_foreset.json,1.0.0
 north_carolina_piedmont_permanent_plots.json,1.0.0

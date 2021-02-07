@@ -1,0 +1,270 @@
+{
+    "archived": "zip",
+    "extract_all": "True",
+    "citation": "fill",
+    "dataset_count": "--The number of individual datasets",
+    "datum": "--Coordinate Reference System",
+    "description": "NLCD_2011_Urban_Descriptor_AK_20200724.img",
+    "driver": "HFA",
+    "file_size": "--size of file on disk",
+    "group_count": "--Number of groups in the dataset if applicable",
+    "homepage": "fill",
+    "keywords": [],
+    "licenses": [],
+    "name": "nlcd-urban-imperviousness-alaska",
+    "projection": "PROJCS[\"WGS_1984_Albers\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Albers_Conic_Equal_Area\"],PARAMETER[\"latitude_of_center\",50],PARAMETER[\"longitude_of_center\",-154],PARAMETER[\"standard_parallel_1\",55],PARAMETER[\"standard_parallel_2\",65],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"meters\",1],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+    "resources": [
+        {
+            "band_name": "NLCD_2016_Impervious_AK_20200724_1",
+            "color_table": true,
+            "extensions": [
+                "img"
+            ],
+            "format": "raster",
+            "name": "NLCD_2016_Impervious_AK_20200724",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "NLCD_2016_Impervious_AK_20200724.img",
+            "scale": null,
+            "statistics": {
+                "maximum": 127.0,
+                "mean": 43.580031977313,
+                "minimum": 0.0,
+                "stddev": 60.154000891137
+            },
+            "url": "https://s3-us-west-2.amazonaws.com/mrlc/NLCD_2016_Impervious_AK_20200724.zip"
+        },
+        {
+            "band_name": "NLCD_2016_Impervious_Descriptor_AK_20200724_1",
+            "color_table": true,
+            "extensions": [
+                "img"
+            ],
+            "format": "raster",
+            "name": "NLCD_2016_Impervious_Descriptor_AK_20200724",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "NLCD_2016_Impervious_Descriptor_AK_20200724.img",
+            "scale": null,
+            "statistics": {
+                "maximum": 127.0,
+                "mean": 43.432131120875,
+                "minimum": 0.0,
+                "stddev": 60.186665570993
+            },
+            "url": "https://s3-us-west-2.amazonaws.com/mrlc/NLCD_2016_Impervious_Descriptor_AK_20200724.zip"
+        },
+        {
+            "band_name": "NLCD_2016_Urban_Descriptor_AK_20200724_1",
+            "color_table": true,
+            "extensions": [
+                "img"
+            ],
+            "format": "raster",
+            "name": "NLCD_2016_Urban_Descriptor_AK_20200724",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "NLCD_2016_Urban_Descriptor_AK_20200724.img",
+            "scale": null,
+            "statistics": {
+                "maximum": 127.0,
+                "mean": 98.476649742871,
+                "minimum": 0.0,
+                "stddev": 52.996803575214
+            },
+            "url": "https://s3-us-west-2.amazonaws.com/mrlc/NLCD_2016_Urban_Descriptor_AK_20200724.zip"
+        },
+        {
+            "band_name": "NLCD_2011_Impervious_AK_20200724_1",
+            "color_table": true,
+            "extensions": [
+                "img"
+            ],
+            "format": "raster",
+            "name": "NLCD_2011_Impervious_AK_20200724",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "NLCD_2011_Impervious_AK_20200724.img",
+            "scale": null,
+            "statistics": {
+                "maximum": 127.0,
+                "mean": 43.575249231921,
+                "minimum": 0.0,
+                "stddev": 60.155015487682
+            },
+            "url": "https://s3-us-west-2.amazonaws.com/mrlc/NLCD_2016_Urban_Descriptor_AK_20200724.zip"
+        },
+        {
+            "band_name": "NLCD_2011_to_2016_Impervious_Change_Pixels_AK_20200724_1",
+            "color_table": true,
+            "extensions": [
+                "img"
+            ],
+            "format": "raster",
+            "name": "NLCD_2011_to_2016_Impervious_Change_Pixels_AK_20200724",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "NLCD_2011_to_2016_Impervious_Change_Pixels_AK_20200724.img",
+            "scale": null,
+            "statistics": {
+                "maximum": 127.0,
+                "mean": 43.378932368532,
+                "minimum": 0.0,
+                "stddev": 60.224230865569
+            },
+            "url": "https://s3-us-west-2.amazonaws.com/mrlc/NLCD_2011_to_2016_Impervious_Change_Pixels_AK_20200724.zip"
+        },
+        {
+            "band_name": "NLCD_2011_Impervious_Descriptor_AK_20200724_1",
+            "color_table": true,
+            "extensions": [
+                "img"
+            ],
+            "format": "raster",
+            "name": "NLCD_2011_Impervious_Descriptor_AK_20200724",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "NLCD_2011_Impervious_Descriptor_AK_20200724.img",
+            "scale": null,
+            "statistics": {
+                "maximum": 127.0,
+                "mean": 43.431306401735,
+                "minimum": 0.0,
+                "stddev": 60.187193171361
+            },
+            "url": "https://s3-us-west-2.amazonaws.com/mrlc/NLCD_2011_Impervious_Descriptor_AK_20200724.zip"
+        },
+        {
+            "band_name": "NLCD_2001_to_2011_Impervious_Change_Pixels_AK_20200724_1",
+            "color_table": true,
+            "extensions": [
+                "img"
+            ],
+            "format": "raster",
+            "name": "NLCD_2001_to_2011_Impervious_Change_Pixels_AK_20200724",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "NLCD_2001_to_2011_Impervious_Change_Pixels_AK_20200724.img",
+            "scale": null,
+            "statistics": {
+                "maximum": 127.0,
+                "mean": 43.380577820842,
+                "minimum": 0.0,
+                "stddev": 60.223435045385
+            },
+            "url": "https://s3-us-west-2.amazonaws.com/mrlc/NLCD_2001_to_2011_Impervious_Change_Pixels_AK_20200724.zip"
+        },
+        {
+            "band_name": "NLCD_2001_Impervious_AK_20200724_1",
+            "color_table": true,
+            "extensions": [
+                "img"
+            ],
+            "format": "raster",
+            "name": "NLCD_2001_Impervious_AK_20200724",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "NLCD_2001_Impervious_AK_20200724.img",
+            "scale": null,
+            "statistics": {
+                "maximum": 127.0,
+                "mean": 43.568079539203,
+                "minimum": 0.0,
+                "stddev": 60.156812192296
+            },
+            "url": "https://s3-us-west-2.amazonaws.com/mrlc/NLCD_2001_to_2011_Impervious_Change_Pixels_AK_20200724.zip"
+        },
+        {
+            "band_name": "NLCD_2001_to_2016_Impervious_Change_Pixels_AK_20200724_1",
+            "color_table": true,
+            "extensions": [
+                "img"
+            ],
+            "format": "raster",
+            "name": "NLCD_2001_to_2016_Impervious_Change_Pixels_AK_20200724",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "NLCD_2001_to_2016_Impervious_Change_Pixels_AK_20200724.img",
+            "scale": null,
+            "statistics": {
+                "maximum": 127.0,
+                "mean": 43.385909824514,
+                "minimum": 0.0,
+                "stddev": 60.222154572752
+            },
+            "url": "https://s3-us-west-2.amazonaws.com/mrlc/NLCD_2001_to_2016_Impervious_Change_Pixels_AK_20200724.zip"
+        },
+        {
+            "band_name": "NLCD_2001_Impervious_Descriptor_AK_20200724_1",
+            "color_table": true,
+            "extensions": [
+                "img"
+            ],
+            "format": "raster",
+            "name": "NLCD_2001_Impervious_Descriptor_AK_20200724",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "NLCD_2001_Impervious_Descriptor_AK_20200724.img",
+            "scale": null,
+            "statistics": {
+                "maximum": 127.0,
+                "mean": 43.429498769622,
+                "minimum": 0.0,
+                "stddev": 60.188347399724
+            },
+            "url": "https://s3-us-west-2.amazonaws.com/mrlc/NLCD_2001_to_2016_Impervious_Change_Pixels_AK_20200724.zip"
+        },
+        {
+            "band_name": "NLCD_2001_Urban_Descriptor_AK_20200724_1",
+            "color_table": true,
+            "extensions": [
+                "img"
+            ],
+            "format": "raster",
+            "name": "NLCD_2001_Urban_Descriptor_AK_20200724",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "NLCD_2001_Urban_Descriptor_AK_20200724.img",
+            "scale": null,
+            "statistics": {
+                "maximum": 127.0,
+                "mean": 98.476569516664,
+                "minimum": 0.0,
+                "stddev": 52.996946006368
+            },
+            "url": "https://s3-us-west-2.amazonaws.com/mrlc/NLCD_2001_Urban_Descriptor_AK_20200724.zip"
+        },
+        {
+            "band_name": "NLCD_2011_Urban_Descriptor_AK_20200724_1",
+            "color_table": true,
+            "extensions": [
+                "img"
+            ],
+            "format": "raster",
+            "name": "NLCD_2011_Urban_Descriptor_AK_20200724",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "NLCD_2011_Urban_Descriptor_AK_20200724.img",
+            "scale": null,
+            "statistics": {
+                "maximum": 127.0,
+                "mean": 98.476630530937,
+                "minimum": 0.0,
+                "stddev": 52.996837474597
+            },
+            "url": "https://s3-us-west-2.amazonaws.com/mrlc/NLCD_2011_Urban_Descriptor_AK_20200724.zip"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "fill",
+    "transform": {
+        "pixelHeight": -30.0,
+        "pixelWidth": 30.0,
+        "rotation_2": 0.0,
+        "rotation_4": 0.0,
+        "xOrigin": -2232345.0,
+        "yOrigin": 2380125.0
+    },
+    "version": "1.0.0"
+}

@@ -1,0 +1,190 @@
+{
+    "archived": "zip",
+    "extract_all": "True",
+    "citation": "fill",
+    "dataset_count": "--The number of individual datasets",
+    "datum": "--Coordinate Reference System",
+    "description": "NLCD_2001_Impervious_descriptor_L48_20190405.img",
+    "driver": "HFA",
+    "file_size": "--size of file on disk",
+    "group_count": "--Number of groups in the dataset if applicable",
+    "homepage": "fill",
+    "keywords": [],
+    "licenses": [],
+    "name": "nlcd-imperviousness-conus",
+    "projection": "PROJCS[\"Albers_Conical_Equal_Area\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Albers_Conic_Equal_Area\"],PARAMETER[\"latitude_of_center\",23],PARAMETER[\"longitude_of_center\",-96],PARAMETER[\"standard_parallel_1\",29.5],PARAMETER[\"standard_parallel_2\",45.5],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"meters\",1],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+    "resources": [
+        {
+            "band_name": "NLCD_2011_Impervious_L48_20190405_1",
+            "color_table": true,
+            "extensions": [
+                "img"
+            ],
+            "format": "raster",
+            "name": "NLCD_2011_Impervious_L48_20190405",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "NLCD_2011_Impervious_L48_20190405.img",
+            "scale": null,
+            "statistics": {
+                "maximum": 127.0,
+                "mean": 59.961390566362,
+                "minimum": 0.0,
+                "stddev": 62.97075912021
+            },
+            "url": "https://s3-us-west-2.amazonaws.com/mrlc/NLCD_Impervious_L48_20190405_full_zip.zip"
+        },
+        {
+            "band_name": "NLCD_2016_Impervious_descriptor_L48_20190405_1",
+            "color_table": true,
+            "extensions": [
+                "img"
+            ],
+            "format": "raster",
+            "name": "NLCD_2016_Impervious_descriptor_L48_20190405",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "NLCD_2016_Impervious_descriptor_L48_20190405.img",
+            "scale": null,
+            "statistics": {
+                "maximum": 127.0,
+                "mean": 119.65693706255,
+                "minimum": 1.0,
+                "stddev": 28.78565668524
+            },
+            "url": "https://s3-us-west-2.amazonaws.com/mrlc/NLCD_Impervious_L48_20190405_full_zip.zip"
+        },
+        {
+            "band_name": "NLCD_2006_Impervious_descriptor_L48_20190405_1",
+            "color_table": true,
+            "extensions": [
+                "img"
+            ],
+            "format": "raster",
+            "name": "NLCD_2006_Impervious_descriptor_L48_20190405",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "NLCD_2006_Impervious_descriptor_L48_20190405.img",
+            "scale": null,
+            "statistics": {
+                "maximum": 127.0,
+                "mean": 119.87942812093,
+                "minimum": 1.0,
+                "stddev": 28.380139183893
+            },
+            "url": "https://s3-us-west-2.amazonaws.com/mrlc/NLCD_Impervious_L48_20190405_full_zip.zip"
+        },
+        {
+            "band_name": "NLCD_2006_Impervious_L48_20190405_1",
+            "color_table": true,
+            "extensions": [
+                "img"
+            ],
+            "format": "raster",
+            "name": "NLCD_2006_Impervious_L48_20190405",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "NLCD_2006_Impervious_L48_20190405.img",
+            "scale": null,
+            "statistics": {
+                "maximum": 127.0,
+                "mean": 59.933646546276,
+                "minimum": 0.0,
+                "stddev": 62.982840763468
+            },
+            "url": "https://s3-us-west-2.amazonaws.com/mrlc/NLCD_Impervious_L48_20190405_full_zip.zip"
+        },
+        {
+            "band_name": "NLCD_2016_Impervious_L48_20190405_1",
+            "color_table": true,
+            "extensions": [
+                "img"
+            ],
+            "format": "raster",
+            "name": "NLCD_2016_Impervious_L48_20190405",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "NLCD_2016_Impervious_L48_20190405.img",
+            "scale": null,
+            "statistics": {
+                "maximum": 127.0,
+                "mean": 59.981555134957,
+                "minimum": 0.0,
+                "stddev": 62.961545157986
+            },
+            "url": "https://s3-us-west-2.amazonaws.com/mrlc/NLCD_Impervious_L48_20190405_full_zip.zip"
+        },
+        {
+            "band_name": "NLCD_2011_Impervious_descriptor_L48_20190405_1",
+            "color_table": true,
+            "extensions": [
+                "img"
+            ],
+            "format": "raster",
+            "name": "NLCD_2011_Impervious_descriptor_L48_20190405",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "NLCD_2011_Impervious_descriptor_L48_20190405.img",
+            "scale": null,
+            "statistics": {
+                "maximum": 127.0,
+                "mean": 119.74758579737,
+                "minimum": 1.0,
+                "stddev": 28.620064935449
+            },
+            "url": "https://s3-us-west-2.amazonaws.com/mrlc/NLCD_Impervious_L48_20190405_full_zip.zip"
+        },
+        {
+            "band_name": "NLCD_2001_Impervious_L48_20190405_1",
+            "color_table": true,
+            "extensions": [
+                "img"
+            ],
+            "format": "raster",
+            "name": "NLCD_2001_Impervious_L48_20190405",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "NLCD_2001_Impervious_L48_20190405.img",
+            "scale": null,
+            "statistics": {
+                "maximum": 127.0,
+                "mean": 59.894074932362,
+                "minimum": 0.0,
+                "stddev": 63.000369011728
+            },
+            "url": "https://s3-us-west-2.amazonaws.com/mrlc/NLCD_Impervious_L48_20190405_full_zip.zip"
+        },
+        {
+            "band_name": "NLCD_2001_Impervious_descriptor_L48_20190405_1",
+            "color_table": true,
+            "extensions": [
+                "img"
+            ],
+            "format": "raster",
+            "name": "NLCD_2001_Impervious_descriptor_L48_20190405",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "NLCD_2001_Impervious_descriptor_L48_20190405.img",
+            "scale": null,
+            "statistics": {
+                "maximum": 127.0,
+                "mean": 120.08208663656,
+                "minimum": 1.0,
+                "stddev": 28.003857803622
+            },
+            "url": "https://s3-us-west-2.amazonaws.com/mrlc/NLCD_Impervious_L48_20190405_full_zip.zip"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "fill",
+    "transform": {
+        "pixelHeight": -30.0,
+        "pixelWidth": 30.0,
+        "rotation_2": 0.0,
+        "rotation_4": 0.0,
+        "xOrigin": -2493045.0,
+        "yOrigin": 3310005.0
+    },
+    "version": "1.0.0"
+}
