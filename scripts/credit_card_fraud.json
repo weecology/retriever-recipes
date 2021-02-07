@@ -1,0 +1,159 @@
+{
+    "archived": "zip",
+    "citation": "",
+    "description": "Anonymized credit card transactions labeled as fraudulent or genuine",
+    "homepage": "https://www.kaggle.com/mlg-ulb/creditcardfraud",
+    "keywords": [
+        "credit card",
+        "fraud",
+        "classification",
+        "Machine Learning",
+        "kaggle",
+        "kaggle dataset"
+    ],
+    "name": "credit-card-fraud",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "creditcard",
+            "path": "creditcard.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "time",
+                        "type": "double"
+                    },
+                    {
+                        "name": "v1",
+                        "type": "double"
+                    },
+                    {
+                        "name": "v2",
+                        "type": "double"
+                    },
+                    {
+                        "name": "v3",
+                        "type": "double"
+                    },
+                    {
+                        "name": "v4",
+                        "type": "double"
+                    },
+                    {
+                        "name": "v5",
+                        "type": "double"
+                    },
+                    {
+                        "name": "v6",
+                        "type": "double"
+                    },
+                    {
+                        "name": "v7",
+                        "type": "double"
+                    },
+                    {
+                        "name": "v8",
+                        "type": "double"
+                    },
+                    {
+                        "name": "v9",
+                        "type": "double"
+                    },
+                    {
+                        "name": "v10",
+                        "type": "double"
+                    },
+                    {
+                        "name": "v11",
+                        "type": "double"
+                    },
+                    {
+                        "name": "v12",
+                        "type": "double"
+                    },
+                    {
+                        "name": "v13",
+                        "type": "double"
+                    },
+                    {
+                        "name": "v14",
+                        "type": "double"
+                    },
+                    {
+                        "name": "v15",
+                        "type": "double"
+                    },
+                    {
+                        "name": "v16",
+                        "type": "double"
+                    },
+                    {
+                        "name": "v17",
+                        "type": "double"
+                    },
+                    {
+                        "name": "v18",
+                        "type": "double"
+                    },
+                    {
+                        "name": "v19",
+                        "type": "double"
+                    },
+                    {
+                        "name": "v20",
+                        "type": "double"
+                    },
+                    {
+                        "name": "v21",
+                        "type": "double"
+                    },
+                    {
+                        "name": "v22",
+                        "type": "double"
+                    },
+                    {
+                        "name": "v23",
+                        "type": "double"
+                    },
+                    {
+                        "name": "v24",
+                        "type": "double"
+                    },
+                    {
+                        "name": "v25",
+                        "type": "double"
+                    },
+                    {
+                        "name": "v26",
+                        "type": "double"
+                    },
+                    {
+                        "name": "v27",
+                        "type": "double"
+                    },
+                    {
+                        "name": "v28",
+                        "type": "double"
+                    },
+                    {
+                        "name": "amount",
+                        "type": "double"
+                    },
+                    {
+                        "name": "classes",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "mlg-ulb/creditcardfraud"
+        }
+    ],
+    "kaggle": "True",
+    "data_source": "dataset",
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "Credit Card Fraud Detection Dataset",
+    "version": "1.0.0"
+}

@@ -1,0 +1,545 @@
+{
+    "archived": "zip",
+    "citation": "",
+    "description": "NeurIPS 2020 Data Science for COVID-19, South Korea",
+    "encoding": "utf-8",
+    "homepage": "https://www.kaggle.com/kimjihoo/coronavirusdataset",
+    "keywords": [
+        "Kaggle",
+        "South Korea",
+        "Coronavirus",
+        "Covid-19",
+        "Data Science",
+        "kaggle dataset"
+    ],
+    "licenses": [
+        {
+            "name": "CC BY-NC-SA 4.0"
+        }
+    ],
+    "name": "coronavirus-south-korea",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "seoulfloating",
+            "path": "SeoulFloating.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "record_date",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "hour",
+                        "type": "int"
+                    },
+                    {
+                        "name": "birth_year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "sex",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "province",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "city",
+                        "size": "15",
+                        "type": "char"
+                    },
+                    {
+                        "name": "fp_num",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "kimjihoo/coronavirusdataset"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "case",
+            "path": "Case.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "case_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "province",
+                        "size": "17",
+                        "type": "char"
+                    },
+                    {
+                        "name": "city",
+                        "size": "15",
+                        "type": "char"
+                    },
+                    {
+                        "name": "grp",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "infection_case",
+                        "size": "45",
+                        "type": "char"
+                    },
+                    {
+                        "name": "confirmed",
+                        "type": "int"
+                    },
+                    {
+                        "name": "latitude",
+                        "type": "double"
+                    },
+                    {
+                        "name": "longitude",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "kimjihoo/coronavirusdataset"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "timegender",
+            "path": "TimeGender.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "record_date",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "time",
+                        "type": "int"
+                    },
+                    {
+                        "name": "sex",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "confirmed",
+                        "type": "int"
+                    },
+                    {
+                        "name": "deceased",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "kimjihoo/coronavirusdataset"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "timeprovince",
+            "path": "TimeProvince.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "record_date",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "time",
+                        "type": "int"
+                    },
+                    {
+                        "name": "province",
+                        "size": "17",
+                        "type": "char"
+                    },
+                    {
+                        "name": "confirmed",
+                        "type": "int"
+                    },
+                    {
+                        "name": "released",
+                        "type": "int"
+                    },
+                    {
+                        "name": "deceased",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "kimjihoo/coronavirusdataset"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "time",
+            "path": "Time.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "record_date",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "time",
+                        "type": "int"
+                    },
+                    {
+                        "name": "test",
+                        "type": "int"
+                    },
+                    {
+                        "name": "negative",
+                        "type": "int"
+                    },
+                    {
+                        "name": "confirmed",
+                        "type": "int"
+                    },
+                    {
+                        "name": "released",
+                        "type": "int"
+                    },
+                    {
+                        "name": "deceased",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "kimjihoo/coronavirusdataset"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "missingValues": [" ","-"]
+            },
+            "name": "patientinfo",
+            "path": "PatientInfo.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "patient_id",
+                        "size": "26",
+                        "type": "char"
+                    },
+                    {
+                        "name": "sex",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "age",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "country",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "province",
+                        "size": "17",
+                        "type": "char"
+                    },
+                    {
+                        "name": "city",
+                        "size": "15",
+                        "type": "char"
+                    },
+                    {
+                        "name": "infection_case",
+                        "size": "45",
+                        "type": "char"
+                    },
+                    {
+                        "name": "infected_by",
+                        "size": "22",
+                        "type": "char"
+                    },
+                    {
+                        "name": "contact_number",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "symptom_onset_date",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "confirmed_date",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "released_date",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "deceased_date",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "state",
+                        "size": "8",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "kimjihoo/coronavirusdataset"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "policy",
+            "path": "Policy.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "policy_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "country",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "type",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "gov_policy",
+                        "size": "45",
+                        "type": "char"
+                    },
+                    {
+                        "name": "detail",
+                        "size": "203",
+                        "type": "char"
+                    },
+                    {
+                        "name": "start_date",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "end_date",
+                        "size": "10",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "kimjihoo/coronavirusdataset"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "timeage",
+            "path": "TimeAge.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "record_date",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "time",
+                        "type": "int"
+                    },
+                    {
+                        "name": "age",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "confirmed",
+                        "type": "int"
+                    },
+                    {
+                        "name": "deceased",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "kimjihoo/coronavirusdataset"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "weather",
+            "path": "Weather.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "code",
+                        "type": "int"
+                    },
+                    {
+                        "name": "province",
+                        "size": "17",
+                        "type": "char"
+                    },
+                    {
+                        "name": "record_date",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "avg_temp",
+                        "type": "double"
+                    },
+                    {
+                        "name": "min_temp",
+                        "type": "double"
+                    },
+                    {
+                        "name": "max_temp",
+                        "type": "double"
+                    },
+                    {
+                        "name": "precipitation",
+                        "type": "double"
+                    },
+                    {
+                        "name": "max_wind_speed",
+                        "type": "double"
+                    },
+                    {
+                        "name": "most_wind_direction",
+                        "type": "int"
+                    },
+                    {
+                        "name": "avg_relative_humidity",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "kimjihoo/coronavirusdataset"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "region",
+            "path": "Region.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "code",
+                        "type": "int"
+                    },
+                    {
+                        "name": "province",
+                        "size": "17",
+                        "type": "char"
+                    },
+                    {
+                        "name": "city",
+                        "size": "17",
+                        "type": "char"
+                    },
+                    {
+                        "name": "latitude",
+                        "type": "double"
+                    },
+                    {
+                        "name": "longitude",
+                        "type": "double"
+                    },
+                    {
+                        "name": "elementary_school_count",
+                        "type": "int"
+                    },
+                    {
+                        "name": "kindergarten_count",
+                        "type": "int"
+                    },
+                    {
+                        "name": "university_count",
+                        "type": "int"
+                    },
+                    {
+                        "name": "academy_ratio",
+                        "type": "double"
+                    },
+                    {
+                        "name": "elderly_population_ratio",
+                        "type": "double"
+                    },
+                    {
+                        "name": "elderly_alone_ratio",
+                        "type": "double"
+                    },
+                    {
+                        "name": "nursing_home_count",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "kimjihoo/coronavirusdataset"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "searchtrend",
+            "path": "SearchTrend.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "record_date",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "cold",
+                        "type": "double"
+                    },
+                    {
+                        "name": "flu",
+                        "type": "double"
+                    },
+                    {
+                        "name": "pneumonia",
+                        "type": "double"
+                    },
+                    {
+                        "name": "coronavirus",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "kimjihoo/coronavirusdataset"
+        }
+    ],
+    "kaggle": "True",
+    "data_source": "dataset",
+    "retriever_minimum_version": "2.1.0",
+    "title": "DS4C: Data Science for COVID-19 in South Korea",
+    "version": "1.0.0"
+}
