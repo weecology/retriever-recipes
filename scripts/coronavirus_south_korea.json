@@ -1,7 +1,7 @@
 {
     "archived": "zip",
     "citation": "",
-    "description": "Dataset of COVID-19 in South Korea",
+    "description": "NeurIPS 2020 Data Science for COVID-19, South Korea",
     "encoding": "utf-8",
     "homepage": "https://www.kaggle.com/kimjihoo/coronavirusdataset",
     "keywords": [
@@ -540,6 +540,6 @@
     "kaggle": "True",
     "data_source": "dataset",
     "retriever_minimum_version": "2.1.0",
-    "title": "coronavirus-south-korea",
+    "title": "DS4C: Data Science for COVID-19 in South Korea",
     "version": "1.0.0"
 }

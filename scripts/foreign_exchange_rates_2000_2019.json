@@ -124,6 +124,6 @@
     "data_source": "dataset",
     "retriever": "True",
     "retriever_minimum_version": "2.1.0",
-    "title": "foreign-exchange-rates-2000-2019",
+    "title": "Foreign Exchange rates for 2000 to 2019",
     "version": "1.0.0"
 }
