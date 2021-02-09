@@ -1,0 +1,158 @@
+{
+    "archived": "zip",
+    "citation": "",
+    "description": "Titanic passenger data use to predict survival on the Titanic",
+    "homepage": "https://www.kaggle.com/c/titanic",
+    "keywords": [
+        "Kaggle",
+        "ML",
+        "Titanic",
+        "Machine Learning",
+        "Disaster",
+        "kaggle competition"
+    ],
+    "name": "titanic",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "gender_submission",
+            "path": "gender_submission.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "PassengerId",
+                        "type": "double"
+                    },
+                    {
+                        "name": "Survived",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "titanic"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "train",
+            "path": "train.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "PassengerId",
+                        "type": "double"
+                    },
+                    {
+                        "name": "Survived",
+                        "type": "double"
+                    },
+                    {
+                        "name": "Pclass",
+                        "type": "double"
+                    },
+                    {
+                        "name": "Name",
+                        "type": "char"
+                    },
+                    {
+                        "name": "Sex",
+                        "type": "char"
+                    },
+                    {
+                        "name": "Age",
+                        "type": "double"
+                    },
+                    {
+                        "name": "SibSp",
+                        "type": "double"
+                    },
+                    {
+                        "name": "Parch",
+                        "type": "double"
+                    },
+                    {
+                        "name": "Ticket",
+                        "type": "char"
+                    },
+                    {
+                        "name": "Fare",
+                        "type": "float"
+                    },
+                    {
+                        "name": "Cabin",
+                        "type": "char"
+                    },
+                    {
+                        "name": "Embarked",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "titanic"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "test",
+            "path": "test.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "PassengerId",
+                        "type": "double"
+                    },
+                    {
+                        "name": "Pclass",
+                        "type": "double"
+                    },
+                    {
+                        "name": "Name",
+                        "type": "char"
+                    },
+                    {
+                        "name": "Sex",
+                        "type": "char"
+                    },
+                    {
+                        "name": "Age",
+                        "type": "double"
+                    },
+                    {
+                        "name": "SibSp",
+                        "type": "double"
+                    },
+                    {
+                        "name": "Parch",
+                        "type": "double"
+                    },
+                    {
+                        "name": "Ticket",
+                        "type": "char"
+                    },
+                    {
+                        "name": "Fare",
+                        "type": "float"
+                    },
+                    {
+                        "name": "Cabin",
+                        "type": "char"
+                    },
+                    {
+                        "name": "Embarked",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "titanic"
+        }
+    ],
+    "kaggle": "True",
+    "data_source": "competition",
+    "retriever_minimum_version": "2.1.0",
+    "title": "Titanic: Machine Learning from Disaster",
+    "version": "1.2.1"
+}
