@@ -1034,13 +1034,11 @@
                     },
                     {
                         "name": "shape_length",
-                        "size": "50,30",
-                        "type": "decimal"
+                        "type": "double"
                     },
                     {
                         "name": "shape_area",
-                        "size": "50,30",
-                        "type": "decimal"
+                        "type": "double"
                     }
                 ]
             },
@@ -1421,8 +1419,7 @@
                     },
                     {
                         "name": "shape_length",
-                        "size": "50,30",
-                        "type": "decimal"
+                        "type": "double"
                     },
                     {
                         "name": "shape_area",
@@ -2249,13 +2246,11 @@
                     },
                     {
                         "name": "shape_length",
-                        "size": "50,30",
-                        "type": "decimal"
+                        "type": "double"
                     },
                     {
                         "name": "shape_area",
-                        "size": "50,30",
-                        "type": "decimal"
+                        "type": "double"
                     }
                 ]
             },
@@ -2720,13 +2715,11 @@
                     },
                     {
                         "name": "shape_length",
-                        "size": "50,30",
-                        "type": "decimal"
+                        "type": "double"
                     },
                     {
                         "name": "shape_area",
-                        "size": "50,30",
-                        "type": "decimal"
+                        "type": "double"
                     }
                 ]
             },
@@ -3236,13 +3229,11 @@
                     },
                     {
                         "name": "shape_length",
-                        "size": "50,30",
-                        "type": "decimal"
+                        "type": "double"
                     },
                     {
                         "name": "shape_area",
-                        "size": "50,30",
-                        "type": "decimal"
+                        "type": "double"
                     }
                 ]
             },
@@ -3275,13 +3266,11 @@
                     },
                     {
                         "name": "shape_length",
-                        "size": "50,30",
-                        "type": "decimal"
+                        "type": "double"
                     },
                     {
                         "name": "shape_area",
-                        "size": "50,30",
-                        "type": "decimal"
+                        "type": "double"
                     }
                 ]
             },
@@ -4501,13 +4490,11 @@
                     },
                     {
                         "name": "shape_length",
-                        "size": "50,30",
-                        "type": "decimal"
+                        "type": "double"
                     },
                     {
                         "name": "shape_area",
-                        "size": "50,30",
-                        "type": "decimal"
+                        "type": "double"
                     }
                 ]
             },
