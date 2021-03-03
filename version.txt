@@ -139,6 +139,7 @@ marine_recruitment_data.json,1.0.1
 mediter_basin_plant_traits.json,1.0.2
 mt_st_helens_veg.json,1.2.3
 nadp_precipitation_chemistry.json,1.0.0
+ncaa_student_athletes_academic.json,1.0.0
 nd_gain.json,1.0.3
 nematode_traits.json,1.0.2
 new_york_city_airbnb_open_data.json,1.0.0
