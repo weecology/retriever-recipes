@@ -1,0 +1,258 @@
+{
+    "archived": "zip",
+    "extract_all": "True",
+    "citation": "",
+    "description": "The “Soil Landscapes of Canada (SLC) Version 2.2” dataset series provides a set of geo-referenced soil areas (polygons) that are linked to attribute data found in the associated Component Table (CMP), Landscape Table (LAT), Carbon Layer Table (CLYR), and Dom/Sub File (DOM_SUB)",
+    "encoding": "utf-8",
+    "homepage": "https://open.canada.ca/data/en/dataset/4b0ae142-9ff0-4d8f-abf5-36b2b4edd52d",
+    "keywords": ["Earth sciences", "Agriculture", "Soil taxonomy", "Soil", "Terrestrial ecosystems", "Wetlands"],
+    "licenses": [{"name": "Open Government Licence - Canada"}],
+    "name": "soil-landscapes-of-canada",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "ped_ca_slc_lat_v2_2",
+            "path": "PED_CA_SLC_LAT_V2_2.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "objectid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "sl",
+                        "type": "int"
+                    },
+                    {
+                        "name": "land_area",
+                        "type": "int"
+                    },
+                    {
+                        "name": "total_area",
+                        "type": "int"
+                    },
+                    {
+                        "name": "water_area",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fresh_water_area",
+                        "type": "int"
+                    },
+                    {
+                        "name": "ocean_area",
+                        "type": "int"
+                    },
+                    {
+                        "name": "hydro_fresh_water_area",
+                        "type": "int"
+                    },
+                    {
+                        "name": "small_water_area",
+                        "type": "int"
+                    },
+                    {
+                        "name": "small_land_area",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "http://www.agr.gc.ca/atlas/data_donnees/geo/soilLandscapesOfCanada2_2/csv/soilLandscapesOfCanada2_2_csv.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "ped_ca_slc_ecoregion_v2_2",
+            "path": "PED_CA_SLC_ECOREGION_V2_2.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "objectid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "ecoregion",
+                        "type": "int"
+                    },
+                    {
+                        "name": "region_nam",
+                        "size": "34",
+                        "type": "char"
+                    },
+                    {
+                        "name": "region_nom",
+                        "size": "53",
+                        "type": "char"
+                    },
+                    {
+                        "name": "ecozone",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "http://www.agr.gc.ca/atlas/data_donnees/geo/soilLandscapesOfCanada2_2/csv/soilLandscapesOfCanada2_2_csv.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "ped_ca_slc_ecodistrict_v2_2",
+            "path": "PED_CA_SLC_ECODISTRICT_V2_2.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "objectid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "ecodistric",
+                        "type": "int"
+                    },
+                    {
+                        "name": "ecoregion",
+                        "type": "int"
+                    },
+                    {
+                        "name": "region_pol",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "http://www.agr.gc.ca/atlas/data_donnees/geo/soilLandscapesOfCanada2_2/csv/soilLandscapesOfCanada2_2_csv.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "ped_ca_slc_cmp_v2_2",
+            "path": "PED_CA_SLC_CMP_V2_2.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "objectid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "sl",
+                        "type": "int"
+                    },
+                    {
+                        "name": "cmp",
+                        "type": "int"
+                    },
+                    {
+                        "name": "percent",
+                        "type": "int"
+                    },
+                    {
+                        "name": "kindmat",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "veget",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "pmdep",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "cfrag",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "rootdp",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "drain",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "devel",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "calc",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "locsf",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "slope",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "snf",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "soil_code",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "modifier",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "slcmp",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "http://www.agr.gc.ca/atlas/data_donnees/geo/soilLandscapesOfCanada2_2/csv/soilLandscapesOfCanada2_2_csv.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "ped_ca_slc_ecozone_v2_2",
+            "path": "PED_CA_SLC_ECOZONE_V2_2.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "objectid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "ecozone",
+                        "type": "int"
+                    },
+                    {
+                        "name": "zone_name",
+                        "size": "18",
+                        "type": "char"
+                    },
+                    {
+                        "name": "zone_nom",
+                        "size": "25",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "http://www.agr.gc.ca/atlas/data_donnees/geo/soilLandscapesOfCanada2_2/csv/soilLandscapesOfCanada2_2_csv.zip"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "Soil Landscapes of Canada Version",
+    "version": "1.0.0"
+}

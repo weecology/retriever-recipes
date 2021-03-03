@@ -1,0 +1,534 @@
+{
+    "archived": "zip",
+    "citation": "",
+    "description": "The Ontario Detailed Soil Survey dataset series is at a scale of 1: 50 000 and consists of geo-referenced soil polygons with linkages to attribute data found in the associated Component File (CMP), Soil Names File (SNF) and Soil Layer File (SLF).",
+    "encoding": "utf-8",
+    "homepage": "https://open.canada.ca/data/en/dataset/a75c3d6c-354d-436d-999d-431fb3a9de79",
+    "keywords": ["Soil taxonomy"],
+    "licenses": [{"name": "Open Government Licence - Canada"}],
+    "name": "ontario-detailed-soil-survey",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "ped_on_dtl_50k",
+            "path": "aafcOnDetailedSoils_csv/on/PED_ON_DTL_50K.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "geodb_oid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "objectid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "poly_id",
+                        "size": "12",
+                        "type": "char"
+                    },
+                    {
+                        "name": "hectares",
+                        "type": "int"
+                    },
+                    {
+                        "name": "shape_length",
+                        "size": "50,30",
+                        "type": "decimal"
+                    },
+                    {
+                        "name": "shape_area",
+                        "size": "50,30",
+                        "type": "decimal"
+                    }
+                ]
+            },
+            "url": "https://www.agr.gc.ca/atlas/data_donnees/geo/detailedSoilSurvey/csv/aafcOnDetailedSoils_csv.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "ped_on_dtl_cmp",
+            "path": "aafcOnDetailedSoils_csv/on/PED_ON_DTL_CMP.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "geodb_oid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "objectid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "poly_id",
+                        "size": "12",
+                        "type": "char"
+                    },
+                    {
+                        "name": "cmp",
+                        "type": "int"
+                    },
+                    {
+                        "name": "percent",
+                        "type": "int"
+                    },
+                    {
+                        "name": "slope_p",
+                        "type": "double"
+                    },
+                    {
+                        "name": "slope_len",
+                        "type": "int"
+                    },
+                    {
+                        "name": "stoniness",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "province",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "soil_code",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "modifier",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "profile",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "soil_id",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "cmp_id",
+                        "size": "14",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://www.agr.gc.ca/atlas/data_donnees/geo/detailedSoilSurvey/csv/aafcOnDetailedSoils_csv.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "ped_on_dtl_crt",
+            "path": "aafcOnDetailedSoils_csv/on/PED_ON_DTL_CRT.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "geodb_oid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "objectid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "cmp_id",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "cli",
+                        "type": "int"
+                    },
+                    {
+                        "name": "cli_1",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "cli_2",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "survey",
+                        "size": "30",
+                        "type": "char"
+                    },
+                    {
+                        "name": "drainage",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "hydro",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "atexture",
+                        "size": "4",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://www.agr.gc.ca/atlas/data_donnees/geo/detailedSoilSurvey/csv/aafcOnDetailedSoils_csv.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "ped_on_dtl_snt",
+            "path": "aafcOnDetailedSoils_csv/on/PED_ON_DTL_SNT.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "geodb_oid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "objectid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "soil_id",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "province",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "soil_code",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "modifier",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "profile",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "soilname",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "kind",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "watertbl",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "rootrestri",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "restr_type",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "drainage",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "pmtex1",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "pmtex2",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "pmtex3",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "pmchem1",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "pmchem2",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "pmchem3",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "mdep1",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "mdep2",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "mdep3",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "order2",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "g_group2",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "s_group2",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "order3",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "g_group3",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "s_group3",
+                        "size": "4",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://www.agr.gc.ca/atlas/data_donnees/geo/detailedSoilSurvey/csv/aafcOnDetailedSoils_csv.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "ped_on_dtl_prt",
+            "path": "aafcOnDetailedSoils_csv/on/PED_ON_DTL_PRT.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "geodb_oid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "objectid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "poly_id",
+                        "size": "12",
+                        "type": "char"
+                    },
+                    {
+                        "name": "mapunitnom",
+                        "size": "19",
+                        "type": "char"
+                    },
+                    {
+                        "name": "slc_v3r2",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://www.agr.gc.ca/atlas/data_donnees/geo/detailedSoilSurvey/csv/aafcOnDetailedSoils_csv.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "ped_on_dtl_slt",
+            "path": "aafcOnDetailedSoils_csv/on/PED_ON_DTL_SLT.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "geodb_oid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "objectid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "soil_id",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "province",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "soil_code",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "modifier",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "profile",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "layer_no",
+                        "type": "int"
+                    },
+                    {
+                        "name": "udepth",
+                        "type": "int"
+                    },
+                    {
+                        "name": "ldepth",
+                        "type": "int"
+                    },
+                    {
+                        "name": "hzn_lit",
+                        "type": "int"
+                    },
+                    {
+                        "name": "hzn_mas",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "hzn_suf",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "hzn_mod",
+                        "type": "int"
+                    },
+                    {
+                        "name": "cofrag",
+                        "type": "int"
+                    },
+                    {
+                        "name": "domsand",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "vfsand",
+                        "type": "int"
+                    },
+                    {
+                        "name": "tsand",
+                        "type": "int"
+                    },
+                    {
+                        "name": "tsilt",
+                        "type": "int"
+                    },
+                    {
+                        "name": "tclay",
+                        "type": "int"
+                    },
+                    {
+                        "name": "orgcarb",
+                        "type": "double"
+                    },
+                    {
+                        "name": "phca",
+                        "type": "double"
+                    },
+                    {
+                        "name": "ph2",
+                        "type": "double"
+                    },
+                    {
+                        "name": "bases",
+                        "type": "int"
+                    },
+                    {
+                        "name": "cec",
+                        "type": "int"
+                    },
+                    {
+                        "name": "ksat",
+                        "type": "double"
+                    },
+                    {
+                        "name": "kp0",
+                        "type": "int"
+                    },
+                    {
+                        "name": "kp10",
+                        "type": "int"
+                    },
+                    {
+                        "name": "kp33",
+                        "type": "int"
+                    },
+                    {
+                        "name": "kp1500",
+                        "type": "int"
+                    },
+                    {
+                        "name": "bd",
+                        "type": "double"
+                    },
+                    {
+                        "name": "ec",
+                        "type": "int"
+                    },
+                    {
+                        "name": "caco3",
+                        "type": "int"
+                    },
+                    {
+                        "name": "vonpost",
+                        "type": "int"
+                    },
+                    {
+                        "name": "wood",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://www.agr.gc.ca/atlas/data_donnees/geo/detailedSoilSurvey/csv/aafcOnDetailedSoils_csv.zip"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "Ontario Detailed Soil Survey",
+    "version": "1.0.0"
+}
