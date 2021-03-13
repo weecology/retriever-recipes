@@ -65,4 +65,4 @@ Some example usages of the CLI interface are:
 
 ## Website
 
-For more information, see the [Data Retriever website](https://www.data-retriever.org/). 
+For more information, see the [Data Retriever website](https://retriever.readthedocs.io/en/latest/). 
