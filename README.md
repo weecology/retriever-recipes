@@ -1,6 +1,6 @@
 # Retriever-Recipes
 
-[![Build Status](https://travis-ci.org/weecology/retriever-recipes.svg?branch=master)](https://travis-ci.org/weecology/retriever-recipes)
+[![Python package](https://github.com/weecology/retriever-recipes/actions/workflows/python-package.yml/badge.svg)](https://github.com/weecology/retriever-recipes/actions/workflows/python-package.yml)
 [![Documentation Status](https://readthedocs.org/projects/retriever/badge/?version=latest)](http://retriever.readthedocs.io/en/latest/?badge=latest)
 [![Join the chat at https://gitter.im/weecology/retriever](https://badges.gitter.im/weecology/retriever.svg)](https://gitter.im/weecology/retriever?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 <img alt="NumFOCUS"
