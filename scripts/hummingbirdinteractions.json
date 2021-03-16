@@ -1,0 +1,183 @@
+{
+    "description": "One of the largest ecological plant-pollinator networks collected",
+    "encoding": "utf-8",
+    "homepage": "https://onlinelibrary.wiley.com/doi/abs/10.1111/ele.12730",
+    "name": "fill",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "hummingbirdinteractions",
+            "path": "HummingbirdInteractions.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "video",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "record_date",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "flower",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "time",
+                        "size": "26",
+                        "type": "char"
+                    },
+                    {
+                        "name": "hummingbird",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "sex",
+                        "size": "25",
+                        "type": "char"
+                    },
+                    {
+                        "name": "pierce",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "comments",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "temp",
+                        "size": "116",
+                        "type": "char"
+                    },
+                    {
+                        "name": "photoid",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "videoclip",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "lon",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "lat",
+                        "size": "12",
+                        "type": "char"
+                    },
+                    {
+                        "name": "ele",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "name",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "link",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "sym",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "time",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "cmt",
+                        "size": "20",
+                        "type": "char"
+                    },
+                    {
+                        "name": "extensions",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "monthid",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "date_f",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "coords_x1",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "coords_x2",
+                        "size": "12",
+                        "type": "char"
+                    },
+                    {
+                        "name": "ele_nelly",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "iplant_double",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "month",
+                        "size": "26",
+                        "type": "char"
+                    },
+                    {
+                        "name": "gps_id",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "transectid",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "transect_r",
+                        "size": "12",
+                        "type": "char"
+                    },
+                    {
+                        "name": "datep",
+                        "size": "9",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "fill"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "fill",
+    "version": "1.0.0"
+}

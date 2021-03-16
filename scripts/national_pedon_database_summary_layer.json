@@ -1,0 +1,778 @@
+{
+    "archived": "zip",
+    "citation": "",
+    "description": "The National Pedon Database Summary Layer is a limited, vetted dataset of eight tables containing over a hundred soil properties. Additionally, the National Pedon Database Summary layer is only a subset of the information contained within the National Pedon Database holdings (NPDB)",
+    "encoding": "utf-8",
+    "homepage": "https://open.canada.ca/data/en/dataset/6457fad6-b6f5-47a3-9bd1-ad14aea4b9e0",
+    "keywords": ["Geographic data", "Agriculture", "Land management", "Rural environment", "Geographic information systems"],
+    "licenses": [{"name": "Open Government Licence - Canada"}],
+    "name": "national-pedon-database-summary-layer",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "morphology",
+            "path": "Morphology.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "objectid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "pedon_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "layer_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "u_depth",
+                        "type": "int"
+                    },
+                    {
+                        "name": "l_depth",
+                        "type": "int"
+                    },
+                    {
+                        "name": "colour_1",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "colour_2",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "consis_dry",
+                        "size": "13",
+                        "type": "char"
+                    },
+                    {
+                        "name": "consis_mst",
+                        "size": "12",
+                        "type": "char"
+                    },
+                    {
+                        "name": "consis_pls",
+                        "size": "12",
+                        "type": "char"
+                    },
+                    {
+                        "name": "consis_wet",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "mottle_frq",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "mottle_sze",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "root_freq",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "root_loctn",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "root_orien",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "root_thick",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "s_prm_grad",
+                        "size": "18",
+                        "type": "char"
+                    },
+                    {
+                        "name": "s_prm_kind",
+                        "size": "18",
+                        "type": "char"
+                    },
+                    {
+                        "name": "s_prm_mod",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "s_prm_size",
+                        "size": "17",
+                        "type": "char"
+                    },
+                    {
+                        "name": "s_sec_grad",
+                        "size": "18",
+                        "type": "char"
+                    },
+                    {
+                        "name": "s_sec_kind",
+                        "size": "18",
+                        "type": "char"
+                    },
+                    {
+                        "name": "s_sec_mod",
+                        "type": "int"
+                    },
+                    {
+                        "name": "s_sec_size",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "salinity",
+                        "size": "17",
+                        "type": "char"
+                    },
+                    {
+                        "name": "effervesc",
+                        "size": "9",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://www.agr.gc.ca/atlas/data_donnees/geo/nationalPedonDatabase/csv/npdb_summary_v1_csv.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "chemical",
+            "path": "Chemical.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "objectid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "pedon_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "layer_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "l_depth",
+                        "type": "int"
+                    },
+                    {
+                        "name": "u_depth",
+                        "type": "int"
+                    },
+                    {
+                        "name": "carb_org",
+                        "type": "double"
+                    },
+                    {
+                        "name": "caco3_eq",
+                        "type": "double"
+                    },
+                    {
+                        "name": "ph_h2o",
+                        "type": "double"
+                    },
+                    {
+                        "name": "ph_cacl2",
+                        "type": "double"
+                    },
+                    {
+                        "name": "exch_al",
+                        "type": "double"
+                    },
+                    {
+                        "name": "exch_ca",
+                        "type": "double"
+                    },
+                    {
+                        "name": "exch_h",
+                        "type": "int"
+                    },
+                    {
+                        "name": "exch_k",
+                        "type": "double"
+                    },
+                    {
+                        "name": "exch_mg",
+                        "type": "double"
+                    },
+                    {
+                        "name": "exch_na",
+                        "type": "double"
+                    },
+                    {
+                        "name": "exch_pchrg",
+                        "type": "double"
+                    },
+                    {
+                        "name": "cec",
+                        "type": "double"
+                    },
+                    {
+                        "name": "base_satn",
+                        "type": "double"
+                    },
+                    {
+                        "name": "x_acidity",
+                        "type": "double"
+                    },
+                    {
+                        "name": "no3",
+                        "type": "double"
+                    },
+                    {
+                        "name": "p_inorg",
+                        "type": "double"
+                    },
+                    {
+                        "name": "p_org",
+                        "type": "double"
+                    },
+                    {
+                        "name": "n_total",
+                        "type": "double"
+                    },
+                    {
+                        "name": "avail_k",
+                        "type": "int"
+                    },
+                    {
+                        "name": "calcite",
+                        "type": "double"
+                    },
+                    {
+                        "name": "dolomite",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "https://www.agr.gc.ca/atlas/data_donnees/geo/nationalPedonDatabase/csv/npdb_summary_v1_csv.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "profiles",
+            "path": "Profiles.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "objectid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "pedon_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "drainage",
+                        "size": "23",
+                        "type": "char"
+                    },
+                    {
+                        "name": "humus_form",
+                        "size": "12",
+                        "type": "char"
+                    },
+                    {
+                        "name": "humus_type",
+                        "type": "int"
+                    },
+                    {
+                        "name": "pm1_md_dep",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "pm1_phys",
+                        "size": "32",
+                        "type": "char"
+                    },
+                    {
+                        "name": "pm1_lit_md",
+                        "size": "43",
+                        "type": "char"
+                    },
+                    {
+                        "name": "pm1_chem",
+                        "size": "38",
+                        "type": "char"
+                    },
+                    {
+                        "name": "pm1_weathr",
+                        "size": "21",
+                        "type": "char"
+                    },
+                    {
+                        "name": "pm2_md_dep",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "pm2_phys",
+                        "size": "32",
+                        "type": "char"
+                    },
+                    {
+                        "name": "pm2_lit_md",
+                        "size": "36",
+                        "type": "char"
+                    },
+                    {
+                        "name": "pm2_chem",
+                        "size": "38",
+                        "type": "char"
+                    },
+                    {
+                        "name": "pm2_weathr",
+                        "size": "21",
+                        "type": "char"
+                    },
+                    {
+                        "name": "table_kind",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "table_dpth",
+                        "type": "double"
+                    },
+                    {
+                        "name": "rock_dpth",
+                        "type": "int"
+                    },
+                    {
+                        "name": "caco3_dpth",
+                        "type": "int"
+                    },
+                    {
+                        "name": "prof_notes",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://www.agr.gc.ca/atlas/data_donnees/geo/nationalPedonDatabase/csv/npdb_summary_v1_csv.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "physical",
+            "path": "Physical.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "objectid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "pedon_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "layer_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "u_depth",
+                        "type": "int"
+                    },
+                    {
+                        "name": "l_depth",
+                        "type": "int"
+                    },
+                    {
+                        "name": "t_silt",
+                        "type": "int"
+                    },
+                    {
+                        "name": "t_clay",
+                        "type": "int"
+                    },
+                    {
+                        "name": "t_sand",
+                        "type": "int"
+                    },
+                    {
+                        "name": "vc_sand",
+                        "type": "int"
+                    },
+                    {
+                        "name": "c_sand",
+                        "type": "int"
+                    },
+                    {
+                        "name": "f_sand",
+                        "type": "int"
+                    },
+                    {
+                        "name": "m_sand",
+                        "type": "int"
+                    },
+                    {
+                        "name": "vf_sand",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fibre",
+                        "type": "int"
+                    },
+                    {
+                        "name": "bulk_den",
+                        "type": "double"
+                    },
+                    {
+                        "name": "retn_hygr",
+                        "type": "double"
+                    },
+                    {
+                        "name": "retn_0kp",
+                        "type": "double"
+                    },
+                    {
+                        "name": "retn_33kp",
+                        "type": "double"
+                    },
+                    {
+                        "name": "retn_1500k",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "https://www.agr.gc.ca/atlas/data_donnees/geo/nationalPedonDatabase/csv/npdb_summary_v1_csv.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "info",
+            "path": "Info.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "objectid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "pedon_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "cal_year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "province",
+                        "size": "20",
+                        "type": "char"
+                    },
+                    {
+                        "name": "locality",
+                        "type": "int"
+                    },
+                    {
+                        "name": "dd_lat",
+                        "type": "double"
+                    },
+                    {
+                        "name": "dd_long",
+                        "type": "double"
+                    },
+                    {
+                        "name": "conf_metrs",
+                        "type": "int"
+                    },
+                    {
+                        "name": "elevation",
+                        "type": "int"
+                    },
+                    {
+                        "name": "extent",
+                        "size": "12",
+                        "type": "char"
+                    },
+                    {
+                        "name": "purpose",
+                        "size": "15",
+                        "type": "char"
+                    },
+                    {
+                        "name": "cssc_order",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "cssc_gtgrp",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "cssc_sbgrp",
+                        "size": "18",
+                        "type": "char"
+                    },
+                    {
+                        "name": "cssc_name",
+                        "type": "int"
+                    },
+                    {
+                        "name": "cssc_code",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "tx_fit",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "tx_factor1",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "tx_factor2",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "landuse",
+                        "size": "25",
+                        "type": "char"
+                    },
+                    {
+                        "name": "report_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "ped_notes",
+                        "type": "int"
+                    },
+                    {
+                        "name": "n_sites",
+                        "type": "int"
+                    },
+                    {
+                        "name": "n_profiles",
+                        "type": "int"
+                    },
+                    {
+                        "name": "n_chemical",
+                        "type": "int"
+                    },
+                    {
+                        "name": "n_morph",
+                        "type": "int"
+                    },
+                    {
+                        "name": "n_horizons",
+                        "type": "int"
+                    },
+                    {
+                        "name": "n_physical",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://www.agr.gc.ca/atlas/data_donnees/geo/nationalPedonDatabase/csv/npdb_summary_v1_csv.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "horizons",
+            "path": "Horizons.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "objectid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "pedon_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "layer_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "u_depth",
+                        "type": "int"
+                    },
+                    {
+                        "name": "l_depth",
+                        "type": "int"
+                    },
+                    {
+                        "name": "min_thick",
+                        "type": "int"
+                    },
+                    {
+                        "name": "max_thick",
+                        "type": "int"
+                    },
+                    {
+                        "name": "hzn_mas",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "hzn_suf",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "hzn_mod",
+                        "type": "int"
+                    },
+                    {
+                        "name": "hzn_lit",
+                        "type": "int"
+                    },
+                    {
+                        "name": "bndry_dist",
+                        "type": "int"
+                    },
+                    {
+                        "name": "bndry_form",
+                        "type": "int"
+                    },
+                    {
+                        "name": "hzn_notes",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://www.agr.gc.ca/atlas/data_donnees/geo/nationalPedonDatabase/csv/npdb_summary_v1_csv.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "sites",
+            "path": "Sites.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "objectid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "pedon_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "lf_materl",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "stoniness",
+                        "size": "17",
+                        "type": "char"
+                    },
+                    {
+                        "name": "rockiness",
+                        "size": "17",
+                        "type": "char"
+                    },
+                    {
+                        "name": "surf_exp_1",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "surf_exp_2",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "slp_pos",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "slp_pitch",
+                        "type": "double"
+                    },
+                    {
+                        "name": "slp_aspect",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "slp_length",
+                        "type": "int"
+                    },
+                    {
+                        "name": "slp_type",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "gen_mat1",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "gmat1_mod1",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "gmat1_mod2",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "gmat1_mod3",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "gen_mat2",
+                        "size": "33",
+                        "type": "char"
+                    },
+                    {
+                        "name": "mod_proc_1",
+                        "size": "12",
+                        "type": "char"
+                    },
+                    {
+                        "name": "mod_proc_2",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "micro_top",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://www.agr.gc.ca/atlas/data_donnees/geo/nationalPedonDatabase/csv/npdb_summary_v1_csv.zip"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "National Pedon Database Summary Layer",
+    "version": "1.0.0"
+}

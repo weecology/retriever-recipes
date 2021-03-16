@@ -1,0 +1,566 @@
+{
+    "archived": "zip",
+    "citation": "",
+    "description": "The Saskatchewan Detailed Soil Survey dataset series at a scale of 1:100 000 consists of geo-referenced soil polygons with linkages to attribute data found in the associated Component File (CMP), Soil Names File (SNF) and Soil Layer File (SLF)",
+    "encoding": "utf-8",
+    "homepage": "https://open.canada.ca/data/en/dataset/3734623c-25c5-4e69-936d-26f764a2807f",
+    "keywords": ["Soil taxonomy"],
+    "licenses": [{"name": "Open Government Licence - Canada"}],
+    "name": "saskatchewan-detailed-soil-survey",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "ped_sk_dtl_slf",
+            "path": "sk/PED_SK_DTL_SLF.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "geodb_oid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "objectid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "soiltype",
+                        "size": "12",
+                        "type": "char"
+                    },
+                    {
+                        "name": "layer_no",
+                        "type": "int"
+                    },
+                    {
+                        "name": "hzn_lit",
+                        "type": "int"
+                    },
+                    {
+                        "name": "hzn_mas",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "hzn_suf",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "hzn_mod",
+                        "type": "int"
+                    },
+                    {
+                        "name": "udepth",
+                        "type": "int"
+                    },
+                    {
+                        "name": "ldepth",
+                        "type": "int"
+                    },
+                    {
+                        "name": "cofrag",
+                        "type": "int"
+                    },
+                    {
+                        "name": "cofrag_n",
+                        "type": "double"
+                    },
+                    {
+                        "name": "domsand",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "vfsand",
+                        "type": "int"
+                    },
+                    {
+                        "name": "vfsand_n",
+                        "type": "double"
+                    },
+                    {
+                        "name": "tsand",
+                        "type": "int"
+                    },
+                    {
+                        "name": "tsand_n",
+                        "type": "double"
+                    },
+                    {
+                        "name": "tsilt",
+                        "type": "int"
+                    },
+                    {
+                        "name": "tsilt_n",
+                        "type": "double"
+                    },
+                    {
+                        "name": "tclay",
+                        "type": "int"
+                    },
+                    {
+                        "name": "tclay_n",
+                        "type": "double"
+                    },
+                    {
+                        "name": "orgcarb",
+                        "type": "double"
+                    },
+                    {
+                        "name": "orgcarb_n",
+                        "type": "double"
+                    },
+                    {
+                        "name": "phca",
+                        "type": "double"
+                    },
+                    {
+                        "name": "phca_n",
+                        "type": "int"
+                    },
+                    {
+                        "name": "ph2",
+                        "type": "double"
+                    },
+                    {
+                        "name": "ph2_n",
+                        "type": "double"
+                    },
+                    {
+                        "name": "bases",
+                        "type": "int"
+                    },
+                    {
+                        "name": "bases_n",
+                        "type": "double"
+                    },
+                    {
+                        "name": "cec",
+                        "type": "int"
+                    },
+                    {
+                        "name": "cec_n",
+                        "type": "double"
+                    },
+                    {
+                        "name": "ksat",
+                        "type": "double"
+                    },
+                    {
+                        "name": "ksat_n",
+                        "type": "double"
+                    },
+                    {
+                        "name": "kp0",
+                        "type": "int"
+                    },
+                    {
+                        "name": "kp0_n",
+                        "type": "double"
+                    },
+                    {
+                        "name": "kp10",
+                        "type": "int"
+                    },
+                    {
+                        "name": "kp10_n",
+                        "type": "double"
+                    },
+                    {
+                        "name": "kp33",
+                        "type": "int"
+                    },
+                    {
+                        "name": "kp33_n",
+                        "type": "int"
+                    },
+                    {
+                        "name": "kp1500",
+                        "type": "int"
+                    },
+                    {
+                        "name": "kp1500_n",
+                        "type": "double"
+                    },
+                    {
+                        "name": "bd",
+                        "type": "double"
+                    },
+                    {
+                        "name": "bd_n",
+                        "type": "double"
+                    },
+                    {
+                        "name": "ec",
+                        "type": "int"
+                    },
+                    {
+                        "name": "ec_n",
+                        "type": "double"
+                    },
+                    {
+                        "name": "caco3",
+                        "type": "int"
+                    },
+                    {
+                        "name": "caco3_n",
+                        "type": "double"
+                    },
+                    {
+                        "name": "vonpost",
+                        "type": "int"
+                    },
+                    {
+                        "name": "vonpost_n",
+                        "type": "int"
+                    },
+                    {
+                        "name": "wood",
+                        "type": "int"
+                    },
+                    {
+                        "name": "wood_n",
+                        "type": "double"
+                    },
+                    {
+                        "name": "layer_key",
+                        "size": "13",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://www.agr.gc.ca/atlas/data_donnees/geo/detailedSoilSurvey/csv/aafcSkDetailedSoils_csv.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "ped_sk_dtl_snf",
+            "path": "sk/PED_SK_DTL_SNF.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "geodb_oid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "objectid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "soiltype",
+                        "size": "12",
+                        "type": "char"
+                    },
+                    {
+                        "name": "lu_flag",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "soilname",
+                        "size": "24",
+                        "type": "char"
+                    },
+                    {
+                        "name": "kind",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "watertbl",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "rootrestri",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "restr_type",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "drainage",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "mdep1",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "mdep2",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "mdep3",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "ordered",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "s_group",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "g_group",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "order3",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "s_group3",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "g_group3",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "profile",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "pmtex1",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "pmtex2",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "pmtex3",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "pmchem1",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "pmchem2",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "pmchem3",
+                        "size": "2",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://www.agr.gc.ca/atlas/data_donnees/geo/detailedSoilSurvey/csv/aafcSkDetailedSoils_csv.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "ped_sk_dtl_100k",
+            "path": "sk/PED_SK_DTL_100K.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "geodb_oid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "objectid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "soil_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "land_area",
+                        "type": "int"
+                    },
+                    {
+                        "name": "water_area",
+                        "type": "int"
+                    },
+                    {
+                        "name": "total_area",
+                        "type": "int"
+                    },
+                    {
+                        "name": "mapunit",
+                        "size": "15",
+                        "type": "char"
+                    },
+                    {
+                        "name": "polynumb",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "mapunit_sk",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "mapumod",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "slope_rg",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "surfex",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "slpl",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "salsym",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "wind",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "water",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "irrig",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "nonsoil",
+                        "size": "25",
+                        "type": "char"
+                    },
+                    {
+                        "name": "shape_length",
+                        "type": "double"                    },
+                    {
+                        "name": "shape_area",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "https://www.agr.gc.ca/atlas/data_donnees/geo/detailedSoilSurvey/csv/aafcSkDetailedSoils_csv.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "ped_sk_dtl_cmp",
+            "path": "sk/PED_SK_DTL_CMP.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "geodb_oid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "objectid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "mapunit",
+                        "size": "15",
+                        "type": "char"
+                    },
+                    {
+                        "name": "cmp",
+                        "type": "int"
+                    },
+                    {
+                        "name": "percent",
+                        "type": "int"
+                    },
+                    {
+                        "name": "slope",
+                        "type": "double"
+                    },
+                    {
+                        "name": "stoniness",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "soiltype",
+                        "size": "12",
+                        "type": "char"
+                    },
+                    {
+                        "name": "polynumb",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "lu",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "soil_code",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "modifier",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "mapunit_sk",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "mapumod",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "texture",
+                        "size": "4",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://www.agr.gc.ca/atlas/data_donnees/geo/detailedSoilSurvey/csv/aafcSkDetailedSoils_csv.zip"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "Saskatchewan Detailed Soil Survey",
+    "version": "1.0.0"
+}
