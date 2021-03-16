@@ -9,7 +9,7 @@
 
 The [Data Retriever](http://data-retriever.org) earlier used a simple CLI for developing new dataset scripts. This allowed users with no programming experience to quickly add most standard datasets to the [Retriever](https://github.com/weecology/retriever) by specifying the names and locations of the tables along with additional information about the configuration of the data. The script is saved as a JSON file, that follows the [DataPackage](http://specs.frictionlessdata.io/data-packages/) standards.
 
-This functionality has been moved to this repository to separate the scripts from the core ``retriever`` functionalities to help with organization, maintenance, and testing. The `retriever-recipes` repository thus holds all the scripts which were earlier shipped with ``retriever`` and also all the script adding/editing functionalities.
+This functionality has been moved to this repository to separate the scripts from the core `retriever` functionalities to help with organization, maintenance, and testing. The `retriever-recipes` repository thus holds all the scripts which were earlier shipped with `retriever` and also all the script adding/editing functionalities.
 
 To facilitate the use of recipes as a command-line utility, the user can simply clone the repository and install it. The installation steps are mentioned in the next section.
 
@@ -45,19 +45,19 @@ To see the full list of command line options and datasets run `retriever-recipes
 
 Some example usages of the CLI interface are:
 
-1. Add a new JSON script: 
+1. Add a new JSON script:
 
 ```
     retriever-recipes new_json
 ```
 
-2. Delete an existing JSON script: 
+2. Delete an existing JSON script:
 
 ```
     retriever-recipes delete_json dataset
 ```
 
-3. Edit an existing JSON script: 
+3. Edit an existing JSON script:
 
 ```
     retriever-recipes edit_json dataset`
@@ -65,4 +65,4 @@ Some example usages of the CLI interface are:
 
 ## Website
 
-For more information, see the [Data Retriever website](https://www.data-retriever.org/). 
+For more information, see the [Data Retriever website](https://retriever.readthedocs.io/en/latest/).
