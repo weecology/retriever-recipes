@@ -1,0 +1,43 @@
+{
+  "citation": "https://zenodo.org/record/1227837#collapseCitations",
+  "description": "Hyperspectral benchmark dataset on soil moisture",
+  "encoding": "utf-8",
+  "homepage": "https://zenodo.org/record/1227837#.YFEga68zZPY",
+  "keywords": [],
+  "licenses": [],
+  "resources": [
+    {
+      "dialect": {
+        "delimiter": ","
+      },
+      "name": "soilmoisture_dataset",
+      "path": "soilmoisture_dataset.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "indices",
+            "type": "int"
+          },
+          {
+            "name": "datetime",
+            "size": "19",
+            "type": "char"
+          },
+          {
+            "name": "soil_moisture",
+            "type": "double"
+          },
+          {
+            "name": "soil_temperature",
+            "type": "double"
+          }
+        ]
+      },
+      "url": "fill"
+    }
+  ],
+  "retriever": "True",
+  "retriever_minimum_version": "2.1.0",
+  "title": "fill",
+  "version": "1.0.0"
+}
