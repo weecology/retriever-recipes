@@ -1,0 +1,189 @@
+{
+
+    "citation": "",
+    "description": "124 indicators by CDC's Division of Population Health used to uniformly define, collect, and report chronic disease data",
+    "encoding": "utf-8",
+    "homepage": "https://data.world/cdc/us-chronic-disease-indicators",
+    "keywords": [
+        "chronic",
+        "diabetes",
+        "hypertension",
+        "cardiovascular disease",
+        "public health",
+        "USA"
+    ],
+    "name": "chronic-disease-indicators-us",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "cdi_indicators",
+            "path": "Chronic_Disease_Indicators_In_Us__CDI.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "yearstart",
+                        "type": "int"
+                    },
+                    {
+                        "name": "yearend",
+                        "type": "int"
+                    },
+                    {
+                        "name": "locationabbr",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "locationdesc",
+                        "size": "20",
+                        "type": "char"
+                    },
+                    {
+                        "name": "datasource",
+                        "size": "54",
+                        "type": "char"
+                    },
+                    {
+                        "name": "topic",
+                        "size": "47",
+                        "type": "char"
+                    },
+                    {
+                        "name": "question",
+                        "size": "179",
+                        "type": "char"
+                    },
+                    {
+                        "name": "response",
+                        "type": "int"
+                    },
+                    {
+                        "name": "datavalueunit",
+                        "size": "21",
+                        "type": "char"
+                    },
+                    {
+                        "name": "datavaluetypeid",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "datavaluetype",
+                        "size": "64",
+                        "type": "char"
+                    },
+                    {
+                        "name": "datavalue",
+                        "size": "95",
+                        "type": "char"
+                    },
+                    {
+                        "name": "datavaluealt",
+                        "type": "double"
+                    },
+                    {
+                        "name": "datavaluefootnotesymbol",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "datavaluefootnote",
+                        "size": "302",
+                        "type": "char"
+                    },
+                    {
+                        "name": "lowconfidencelimit",
+                        "type": "double"
+                    },
+                    {
+                        "name": "highconfidencelimit",
+                        "type": "double"
+                    },
+                    {
+                        "name": "stratificationcategory1",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "stratification1",
+                        "size": "32",
+                        "type": "char"
+                    },
+                    {
+                        "name": "stratificationcategory2",
+                        "type": "int"
+                    },
+                    {
+                        "name": "stratification2",
+                        "type": "int"
+                    },
+                    {
+                        "name": "stratificationcategory3",
+                        "type": "int"
+                    },
+                    {
+                        "name": "stratification3",
+                        "type": "int"
+                    },
+                    {
+                        "name": "geolocation",
+                        "size": "41",
+                        "type": "char"
+                    },
+                    {
+                        "name": "topicid",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "questionid",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "responseid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "locationid",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "stratificationcategoryid1",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "stratificationid1",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "stratificationcategoryid2",
+                        "type": "int"
+                    },
+                    {
+                        "name": "stratificationid2",
+                        "type": "int"
+                    },
+                    {
+                        "name": "stratificationcategoryid3",
+                        "type": "int"
+                    },
+                    {
+                        "name": "stratificationid3",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://query.data.world/s/surj5vlyng2xxvolnruilm53dulrfn"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "Chronic disease indicators in US dataset",
+    "version": "1.0.0"
+} 
