@@ -1,20 +1,23 @@
 {
-  "description": "U.S. Department of Agriculture's PLANTS Database",
-  "encoding": "utf-8",
-  "homepage": "https://www.plants.usda.gov/dl_all.html",
-  "keywords": ["Symbol", "Name", "Family"],
-  "name": "Complete_plants",
+  "citation": "USDA, NRCS. 2017. The PLANTS Database (http://plants.usda.gov, DATEOFDOWNLOAD). National Plant Data Team, Greensboro, NC 27401-4901 USA.",
+  "description": "Plant taxonomy data for the United States from the USDA plants website",
+  "homepage": "http://plants.usda.gov",
+  "keywords": ["plants", "taxonomy"],
+  "name": "plant-taxonomy-us",
   "resources": [
     {
       "dialect": {
-        "delimiter": ","
+        "do_not_bulk_insert": "True"
       },
-      "name": "plant",
-      "path": "plant.csv",
+      "name": "PlantTaxonomy",
       "schema": {
         "fields": [
           {
-            "name": "\ufeffsymbol",
+            "name": "record_id",
+            "type": "pk-auto"
+          },
+          {
+            "name": "symbol",
             "size": "7",
             "type": "char"
           },
@@ -24,13 +27,12 @@
             "type": "char"
           },
           {
-            "name": "scientific_name_with_author",
-            "size": "183",
+            "name": "scientific_name",
             "type": "char"
           },
           {
             "name": "common_name",
-            "size": "42",
+            "size": "50",
             "type": "char"
           },
           {
@@ -45,6 +47,6 @@
   ],
   "retriever": "True",
   "retriever_minimum_version": "2.1.0",
-  "title": "fill",
-  "version": "1.0.0"
+  "title": "USDA plant list - taxonomy for US plant species",
+  "version": "1.1.3"
 }
