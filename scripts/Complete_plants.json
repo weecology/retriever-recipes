@@ -40,7 +40,7 @@
           }
         ]
       },
-      "url": "fill"
+      "url": "https://www.plants.usda.gov/Data/plantlst.txt"
     }
   ],
   "retriever": "True",
