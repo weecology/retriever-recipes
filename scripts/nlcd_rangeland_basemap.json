@@ -1,0 +1,209 @@
+{
+    "archived": "zip",
+    "extract_all": "True",
+    "dataset_count": "9",
+    "datum": "--Coordinate Reference System",
+    "description": "NLCD 2016 Shrub Component products characterize the percentage of each 30-meter pixel in the Western United States covered by shrub, herbaceous, bare ground, litter, sagebrush, big sagebrush and annual herbaceous, along with estimating shrub height and sagebrush height.",
+    "driver": "HFA",
+    "file_size": "--size of file on disk",
+    "group_count": "--Number of groups in the dataset if applicable",
+    "homepage": "https://www.mrlc.gov/data",
+    "keywords": [],
+    "licenses": [],
+    "name": "nlcd-rangeland-basemap",
+    "projection": "PROJCS[\"Albers Conical Equal Area\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Albers_Conic_Equal_Area\"],PARAMETER[\"latitude_of_center\",23],PARAMETER[\"longitude_of_center\",-96],PARAMETER[\"standard_parallel_1\",29.5],PARAMETER[\"standard_parallel_2\",45.5],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"meters\",1],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+    "resources": [
+        {
+            "band_name": "nlcd_2016_sagebrush_shrubland_fractional_component_20200715_1",
+            "color_table": true,
+            "extensions": [
+                "img"
+            ],
+            "format": "raster",
+            "name": "nlcd_2016_sagebrush_shrubland_fractional_component_20200715",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "nlcd_2016_sagebrush_shrubland_fractional_component_20200715.img",
+            "scale": null,
+            "statistics": {
+                "maximum": 102.0,
+                "mean": 66.029415840805,
+                "minimum": 0.0,
+                "stddev": 47.207184547
+            },
+            "url": "https://s3-us-west-2.amazonaws.com/mrlc/Base_All_Components_071520.zip"
+        },
+        {
+            "band_name": "nlcd_2016_shrub_shrubland_fractional_component_20200715_1",
+            "color_table": true,
+            "extensions": [
+                "img"
+            ],
+            "format": "raster",
+            "name": "nlcd_2016_shrub_shrubland_fractional_component_20200715",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "nlcd_2016_shrub_shrubland_fractional_component_20200715.img",
+            "scale": null,
+            "statistics": {
+                "maximum": 102.0,
+                "mean": 69.648765358078,
+                "minimum": 0.0,
+                "stddev": 42.783422485286
+            },
+            "url": "https://s3-us-west-2.amazonaws.com/mrlc/Base_All_Components_071520.zip"
+        },
+        {
+            "band_name": "nlcd_2016_herbaceous_shrubland_fractional_component_20200715_1",
+            "color_table": true,
+            "extensions": [
+                "img"
+            ],
+            "format": "raster",
+            "name": "nlcd_2016_herbaceous_shrubland_fractional_component_20200715",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "nlcd_2016_herbaceous_shrubland_fractional_component_20200715.img",
+            "scale": null,
+            "statistics": {
+                "maximum": 102.0,
+                "mean": 73.039329842883,
+                "minimum": 0.0,
+                "stddev": 39.194344184133
+            },
+            "url": "https://s3-us-west-2.amazonaws.com/mrlc/Base_All_Components_071520.zip"
+        },
+        {
+            "band_name": "nlcd_2016_sagebrush_height_shrubland_fractional_component_20200715_1",
+            "color_table": true,
+            "extensions": [
+                "img"
+            ],
+            "format": "raster",
+            "name": "nlcd_2016_sagebrush_height_shrubland_fractional_component_20200715",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "nlcd_2016_sagebrush_height_shrubland_fractional_component_20200715.img",
+            "scale": null,
+            "statistics": {
+                "maximum": 999.0,
+                "mean": 637.37372357943,
+                "minimum": 0.0,
+                "stddev": 476.26215010602
+            },
+            "url": "https://s3-us-west-2.amazonaws.com/mrlc/Base_All_Components_071520.zip"
+        },
+        {
+            "band_name": "nlcd_2016_big_sage_shrubland_fractional_component_20200715_1",
+            "color_table": true,
+            "extensions": [
+                "img"
+            ],
+            "format": "raster",
+            "name": "nlcd_2016_big_sage_shrubland_fractional_component_20200715",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "nlcd_2016_big_sage_shrubland_fractional_component_20200715.img",
+            "scale": null,
+            "statistics": {
+                "maximum": 102.0,
+                "mean": 65.580408079071,
+                "minimum": 0.0,
+                "stddev": 47.744935251299
+            },
+            "url": "https://s3-us-west-2.amazonaws.com/mrlc/Base_All_Components_071520.zip"
+        },
+        {
+            "band_name": "nlcd_2016_litter_shrubland_fractional_component_20200715_1",
+            "color_table": true,
+            "extensions": [
+                "img"
+            ],
+            "format": "raster",
+            "name": "nlcd_2016_litter_shrubland_fractional_component_20200715",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "nlcd_2016_litter_shrubland_fractional_component_20200715.img",
+            "scale": null,
+            "statistics": {
+                "maximum": 102.0,
+                "mean": 70.31470697799,
+                "minimum": 0.0,
+                "stddev": 41.666223267328
+            },
+            "url": "https://s3-us-west-2.amazonaws.com/mrlc/Base_All_Components_071520.zip"
+        },
+        {
+            "band_name": "nlcd_2016_annual_herbaceous_shrubland_fractional_component_20200715_1",
+            "color_table": true,
+            "extensions": [
+                "img"
+            ],
+            "format": "raster",
+            "name": "nlcd_2016_annual_herbaceous_shrubland_fractional_component_20200715",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "nlcd_2016_annual_herbaceous_shrubland_fractional_component_20200715.img",
+            "scale": null,
+            "statistics": {
+                "maximum": 102.0,
+                "mean": 66.128111575209,
+                "minimum": 0.0,
+                "stddev": 47.270402881835
+            },
+            "url": "https://s3-us-west-2.amazonaws.com/mrlc/Base_All_Components_071520.zip"
+        },
+        {
+            "band_name": "nlcd_2016_bare_ground_shrubland_fractional_component_20200715_1",
+            "color_table": true,
+            "extensions": [
+                "img"
+            ],
+            "format": "raster",
+            "name": "nlcd_2016_bare_ground_shrubland_fractional_component_20200715",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "nlcd_2016_bare_ground_shrubland_fractional_component_20200715.img",
+            "scale": null,
+            "statistics": {
+                "maximum": 102.0,
+                "mean": 81.366225879751,
+                "minimum": 0.0,
+                "stddev": 30.682224408918
+            },
+            "url": "https://s3-us-west-2.amazonaws.com/mrlc/Base_All_Components_071520.zip"
+        },
+        {
+            "band_name": "nlcd_2016_shrub_height_shrubland_fractional_component_20200715_1",
+            "color_table": true,
+            "extensions": [
+                "img"
+            ],
+            "format": "raster",
+            "name": "nlcd_2016_shrub_height_shrubland_fractional_component_20200715",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "nlcd_2016_shrub_height_shrubland_fractional_component_20200715.img",
+            "scale": null,
+            "statistics": {
+                "maximum": 999.0,
+                "mean": 648.59901558007,
+                "minimum": 0.0,
+                "stddev": 461.84835277809
+            },
+            "url": "https://s3-us-west-2.amazonaws.com/mrlc/Base_All_Components_071520.zip"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "fill",
+    "transform": {
+        "pixelHeight": -30.0,
+        "pixelWidth": 30.0,
+        "rotation_2": 0.0,
+        "rotation_4": 0.0,
+        "xOrigin": -2493345.0,
+        "yOrigin": 3310305.0
+    },
+    "version": "1.0.0"
+}
