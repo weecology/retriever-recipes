@@ -1,0 +1,635 @@
+{
+    "archived": "zip",
+    "extract_all": "True",
+    "citation": "",
+    "dataset_count": "6",
+    "datum": "--Coordinate Reference System",
+    "description": "bare_2020s_rcp_8_5.img",
+    "driver": "img",
+    "file_size": "--size of file on disk",
+    "group_count": "--Number of groups in the dataset if applicable",
+    "homepage": "https://www.mrlc.gov/data",
+    "keywords": [],
+    "licenses": [],
+    "name": "future-projections",
+    "projection": "PROJCS[\"Albers Conical Equal Area\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Albers_Conic_Equal_Area\"],PARAMETER[\"latitude_of_center\",23],PARAMETER[\"longitude_of_center\",-96],PARAMETER[\"standard_parallel_1\",29.5],PARAMETER[\"standard_parallel_2\",45.5],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"meters\",1],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+    "resources": [
+        {
+            "band_name": "sage_2020s_rcp_8_5_1",
+            "color_table": null,
+            "extensions": [
+                "img"
+            ],
+            "format": "raster",
+            "name": "sage_2020s_rcp_8_5",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "sage_2020s_rcp_8_5.img",
+            "scale": null,
+            "statistics": {
+                "maximum": 255.0,
+                "mean": 146.19202795554,
+                "minimum": 0.0,
+                "stddev": 123.49244334005
+            },
+            "url": "https://s3-us-west-2.amazonaws.com/mrlc/future_projections_2020s_rcp_8_5.zip"
+        },
+        {
+            "band_name": "annual_herb_2020s_rcp_8_5_1",
+            "color_table": null,
+            "extensions": [
+                "img"
+            ],
+            "format": "raster",
+            "name": "annual_herb_2020s_rcp_8_5",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "annual_herb_2020s_rcp_8_5.img",
+            "scale": null,
+            "statistics": {
+                "maximum": 255.0,
+                "mean": 144.99142859657,
+                "minimum": 0.0,
+                "stddev": 124.85352832052
+            },
+            "url": "https://s3-us-west-2.amazonaws.com/mrlc/future_projections_2020s_rcp_8_5.zip"
+        },
+        {
+            "band_name": "shrub_2020s_rcp_8_5_1",
+            "color_table": null,
+            "extensions": [
+                "img"
+            ],
+            "format": "raster",
+            "name": "shrub_2020s_rcp_8_5",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "shrub_2020s_rcp_8_5.img",
+            "scale": null,
+            "statistics": {
+                "maximum": 255.0,
+                "mean": 150.41816595971,
+                "minimum": 0.0,
+                "stddev": 118.76522486126
+            },
+            "url": "https://s3-us-west-2.amazonaws.com/mrlc/future_projections_2020s_rcp_8_5.zip"
+        },
+        {
+            "band_name": "herbaceous_2020s_rcp_8_5_1",
+            "color_table": null,
+            "extensions": [
+                "img"
+            ],
+            "format": "raster",
+            "name": "herbaceous_2020s_rcp_8_5",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "herbaceous_2020s_rcp_8_5.img",
+            "scale": null,
+            "statistics": {
+                "maximum": 255.0,
+                "mean": 153.3381622616,
+                "minimum": 0.0,
+                "stddev": 115.67472552024
+            },
+            "url": "https://s3-us-west-2.amazonaws.com/mrlc/future_projections_2020s_rcp_8_5.zip"
+        },
+        {
+            "band_name": "litter_2020s_rcp_8_5_1",
+            "color_table": null,
+            "extensions": [
+                "img"
+            ],
+            "format": "raster",
+            "name": "litter_2020s_rcp_8_5",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "litter_2020s_rcp_8_5.img",
+            "scale": null,
+            "statistics": {
+                "maximum": 255.0,
+                "mean": 150.47465669659,
+                "minimum": 0.0,
+                "stddev": 118.64461164387
+            },
+            "url": "https://s3-us-west-2.amazonaws.com/mrlc/future_projections_2020s_rcp_8_5.zip"
+        },
+        {
+            "band_name": "bare_2020s_rcp_8_5_1",
+            "color_table": null,
+            "extensions": [
+                "img"
+            ],
+            "format": "raster",
+            "name": "bare_2020s_rcp_8_5",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "bare_2020s_rcp_8_5.img",
+            "scale": null,
+            "statistics": {
+                "maximum": 255.0,
+                "mean": 162.96530560283,
+                "minimum": 0.0,
+                "stddev": 105.2003929956
+            },
+            "url": "https://s3-us-west-2.amazonaws.com/mrlc/future_projections_2020s_rcp_8_5.zip"
+        },
+        {
+            "band_name": "bare_2050s_rcp_4_5_1",
+            "color_table": null,
+            "extensions": [
+                "img"
+            ],
+            "format": "raster",
+            "name": "bare_2050s_rcp_4_5",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "bare_2050s_rcp_4_5.img",
+            "scale": null,
+            "statistics": {
+                "maximum": 255.0,
+                "mean": 163.17851612647,
+                "minimum": 0.0,
+                "stddev": 105.01649955792
+            },
+            "url": "https://s3-us-west-2.amazonaws.com/mrlc/future_projections_2050s_rcp_4_5.zip"
+        },
+        {
+            "band_name": "herbaceous_2050s_rcp_4_5_1",
+            "color_table": null,
+            "extensions": [
+                "img"
+            ],
+            "format": "raster",
+            "name": "herbaceous_2050s_rcp_4_5",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "herbaceous_2050s_rcp_4_5.img",
+            "scale": null,
+            "statistics": {
+                "maximum": 255.0,
+                "mean": 153.18393551548,
+                "minimum": 0.0,
+                "stddev": 115.85870025376
+            },
+            "url": "https://s3-us-west-2.amazonaws.com/mrlc/future_projections_2050s_rcp_4_5.zip"
+        },
+        {
+            "band_name": "litter_2050s_rcp_4_5_1",
+            "color_table": null,
+            "extensions": [
+                "img"
+            ],
+            "format": "raster",
+            "name": "litter_2050s_rcp_4_5",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "litter_2050s_rcp_4_5.img",
+            "scale": null,
+            "statistics": {
+                "maximum": 255.0,
+                "mean": 150.32335743854,
+                "minimum": 0.0,
+                "stddev": 118.81995165488
+            },
+            "url": "https://s3-us-west-2.amazonaws.com/mrlc/future_projections_2050s_rcp_4_5.zip"
+        },
+        {
+            "band_name": "annual_herb_2050s_rcp_4_5_1",
+            "color_table": null,
+            "extensions": [
+                "img"
+            ],
+            "format": "raster",
+            "name": "annual_herb_2050s_rcp_4_5",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "annual_herb_2050s_rcp_4_5.img",
+            "scale": null,
+            "statistics": {
+                "maximum": 255.0,
+                "mean": 145.032953854,
+                "minimum": 0.0,
+                "stddev": 124.80641610659
+            },
+            "url": "https://s3-us-west-2.amazonaws.com/mrlc/future_projections_2050s_rcp_4_5.zip"
+        },
+        {
+            "band_name": "shrub_2050s_rcp_4_5_1",
+            "color_table": null,
+            "extensions": [
+                "img"
+            ],
+            "format": "raster",
+            "name": "shrub_2050s_rcp_4_5",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "shrub_2050s_rcp_4_5.img",
+            "scale": null,
+            "statistics": {
+                "maximum": 255.0,
+                "mean": 150.51170919571,
+                "minimum": 0.0,
+                "stddev": 118.6660838843
+            },
+            "url": "https://s3-us-west-2.amazonaws.com/mrlc/future_projections_2050s_rcp_4_5.zip"
+        },
+        {
+            "band_name": "sage_2050s_rcp_4_5_1",
+            "color_table": null,
+            "extensions": [
+                "img"
+            ],
+            "format": "raster",
+            "name": "sage_2050s_rcp_4_5",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "sage_2050s_rcp_4_5.img",
+            "scale": null,
+            "statistics": {
+                "maximum": 255.0,
+                "mean": 145.95016599993,
+                "minimum": 0.0,
+                "stddev": 123.76547687725
+            },
+            "url": "https://s3-us-west-2.amazonaws.com/mrlc/future_projections_2050s_rcp_4_5.zip"
+        },
+        {
+            "band_name": "sage_2050s_rcp_8_5_1",
+            "color_table": null,
+            "extensions": [
+                "img"
+            ],
+            "format": "raster",
+            "name": "sage_2050s_rcp_8_5",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "sage_2050s_rcp_8_5.img",
+            "scale": null,
+            "statistics": {
+                "maximum": 255.0,
+                "mean": 145.75934328361,
+                "minimum": 0.0,
+                "stddev": 123.98012499301
+            },
+            "url": "https://s3-us-west-2.amazonaws.com/mrlc/future_projections_2050s_rcp_8_5.zip"
+        },
+        {
+            "band_name": "shrub_2050s_rcp_8_5_1",
+            "color_table": null,
+            "extensions": [
+                "img"
+            ],
+            "format": "raster",
+            "name": "shrub_2050s_rcp_8_5",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "shrub_2050s_rcp_8_5.img",
+            "scale": null,
+            "statistics": {
+                "maximum": 255.0,
+                "mean": 150.5581995241,
+                "minimum": 0.0,
+                "stddev": 118.61874999765
+            },
+            "url": "https://s3-us-west-2.amazonaws.com/mrlc/future_projections_2050s_rcp_8_5.zip"
+        },
+        {
+            "band_name": "annual_herb_2050s_rcp_8_5_1",
+            "color_table": null,
+            "extensions": [
+                "img"
+            ],
+            "format": "raster",
+            "name": "annual_herb_2050s_rcp_8_5",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "annual_herb_2050s_rcp_8_5.img",
+            "scale": null,
+            "statistics": {
+                "maximum": 255.0,
+                "mean": 145.06957246603,
+                "minimum": 0.0,
+                "stddev": 124.76464554449
+            },
+            "url": "https://s3-us-west-2.amazonaws.com/mrlc/future_projections_2050s_rcp_8_5.zip"
+        },
+        {
+            "band_name": "litter_2050s_rcp_8_5_1",
+            "color_table": null,
+            "extensions": [
+                "img"
+            ],
+            "format": "raster",
+            "name": "litter_2050s_rcp_8_5",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "litter_2050s_rcp_8_5.img",
+            "scale": null,
+            "statistics": {
+                "maximum": 255.0,
+                "mean": 150.0794320531,
+                "minimum": 0.0,
+                "stddev": 119.09986780037
+            },
+            "url": "https://s3-us-west-2.amazonaws.com/mrlc/future_projections_2050s_rcp_8_5.zip"
+        },
+        {
+            "band_name": "herbaceous_2050s_rcp_8_5_1",
+            "color_table": null,
+            "extensions": [
+                "img"
+            ],
+            "format": "raster",
+            "name": "herbaceous_2050s_rcp_8_5",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "herbaceous_2050s_rcp_8_5.img",
+            "scale": null,
+            "statistics": {
+                "maximum": 255.0,
+                "mean": 152.88544875169,
+                "minimum": 0.0,
+                "stddev": 116.20069779831
+            },
+            "url": "https://s3-us-west-2.amazonaws.com/mrlc/future_projections_2050s_rcp_8_5.zip"
+        },
+        {
+            "band_name": "bare_2050s_rcp_8_5_1",
+            "color_table": null,
+            "extensions": [
+                "img"
+            ],
+            "format": "raster",
+            "name": "bare_2050s_rcp_8_5",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "bare_2050s_rcp_8_5.img",
+            "scale": null,
+            "statistics": {
+                "maximum": 255.0,
+                "mean": 163.671646675,
+                "minimum": 0.0,
+                "stddev": 104.50686875497
+            },
+            "url": "https://s3-us-west-2.amazonaws.com/mrlc/future_projections_2050s_rcp_8_5.zip"
+        },
+        {
+            "band_name": "herbaceous_2080s_rcp_4_5_1",
+            "color_table": null,
+            "extensions": [
+                "img"
+            ],
+            "format": "raster",
+            "name": "herbaceous_2080s_rcp_4_5",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "herbaceous_2080s_rcp_4_5.img",
+            "scale": null,
+            "statistics": {
+                "maximum": 255.0,
+                "mean": 153.01005020544,
+                "minimum": 0.0,
+                "stddev": 116.0552242475
+            },
+            "url": "https://s3-us-west-2.amazonaws.com/mrlc/future_projections_2080s_rcp_4_5.zip"
+        },
+        {
+
+            "band_name": "litter_2080s_rcp_4_5_1",
+            "color_table": null,
+            "extensions": [
+                "img"
+            ],
+            "format": "raster",
+            "name": "litter_2080s_rcp_4_5",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "litter_2080s_rcp_4_5.img",
+            "scale": null,
+            "statistics": {
+                "maximum": 255.0,
+                "mean": 150.16498565589,
+                "minimum": 0.0,
+                "stddev": 119.00160223921
+            },
+            "url": "https://s3-us-west-2.amazonaws.com/mrlc/future_projections_2080s_rcp_4_5.zip"
+        },
+        {
+
+            "band_name": "bare_2080s_rcp_4_5_1",
+            "color_table": null,
+            "extensions": [
+                "img"
+            ],
+            "format": "raster",
+            "name": "bare_2080s_rcp_4_5",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "bare_2080s_rcp_4_5.img",
+            "scale": null,
+            "statistics": {
+                "maximum": 255.0,
+                "mean": 163.46193694889,
+                "minimum": 0.0,
+                "stddev": 104.72565075404
+            },
+            "url": "https://s3-us-west-2.amazonaws.com/mrlc/future_projections_2080s_rcp_4_5.zip"
+        },
+        {
+
+            "band_name": "sage_2080s_rcp_4_5_1",
+            "color_table": null,
+            "extensions": [
+                "img"
+            ],
+            "format": "raster",
+            "name": "sage_2080s_rcp_4_5",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "sage_2080s_rcp_4_5.img",
+            "scale": null,
+            "statistics": {
+                "maximum": 255.0,
+                "mean": 145.79818743769,
+                "minimum": 0.0,
+                "stddev": 123.93648122699
+            },
+            "url": "https://s3-us-west-2.amazonaws.com/mrlc/future_projections_2080s_rcp_4_5.zip"
+        },
+        {
+
+            "band_name": "annual_herb_2080s_rcp_4_5_1",
+            "color_table": null,
+            "extensions": [
+                "img"
+            ],
+            "format": "raster",
+            "name": "annual_herb_2080s_rcp_4_5",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "annual_herb_2080s_rcp_4_5.img",
+            "scale": null,
+            "statistics": {
+                "maximum": 255.0,
+                "mean": 145.06162332427,
+                "minimum": 0.0,
+                "stddev": 124.77374734836
+            },
+            "url": "https://s3-us-west-2.amazonaws.com/mrlc/future_projections_2080s_rcp_4_5.zip"
+        },
+        {
+
+            "band_name": "shrub_2080s_rcp_4_5_1",
+            "color_table": null,
+            "extensions": [
+                "img"
+            ],
+            "format": "raster",
+            "name": "shrub_2080s_rcp_4_5",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "shrub_2080s_rcp_4_5.img",
+            "scale": null,
+            "statistics": {
+                "maximum": 255.0,
+                "mean": 150.55803748586,
+                "minimum": 0.0,
+                "stddev": 118.61788519296
+            },
+            "url": "https://s3-us-west-2.amazonaws.com/mrlc/future_projections_2080s_rcp_4_5.zip"
+        },
+        {
+            "band_name": "shrub_2080s_rcp_8_5_1",
+            "color_table": null,
+            "extensions": [
+                "img"
+            ],
+            "format": "raster",
+            "name": "shrub_2080s_rcp_8_5",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "shrub_2080s_rcp_8_5.img",
+            "scale": null,
+            "statistics": {
+                "maximum": 255.0,
+                "mean": 150.67606644634,
+                "minimum": 0.0,
+                "stddev": 118.49541831147
+            },
+            "url": "https://s3-us-west-2.amazonaws.com/mrlc/future_projections_2080s_rcp_8_5.zip"
+        },
+        {
+            "band_name": "annual_herb_2080s_rcp_8_5_1",
+            "color_table": null,
+            "extensions": [
+                "img"
+            ],
+            "format": "raster",
+            "name": "annual_herb_2080s_rcp_8_5",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "annual_herb_2080s_rcp_8_5.img",
+            "scale": null,
+            "statistics": {
+                "maximum": 255.0,
+                "mean": 144.99510393903,
+                "minimum": 0.0,
+                "stddev": 124.84739276965
+            },
+            "url": "https://s3-us-west-2.amazonaws.com/mrlc/future_projections_2080s_rcp_8_5.zip"
+        },
+        {
+            "band_name": "sage_2080s_rcp_8_5_1",
+            "color_table": null,
+            "extensions": [
+                "img"
+            ],
+            "format": "raster",
+            "name": "sage_2080s_rcp_8_5",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "sage_2080s_rcp_8_5.img",
+            "scale": null,
+            "statistics": {
+                "maximum": 255.0,
+                "mean": 145.44985542703,
+                "minimum": 0.0,
+                "stddev": 124.32496201419
+            },
+            "url": "https://s3-us-west-2.amazonaws.com/mrlc/future_projections_2080s_rcp_8_5.zip"
+        },
+        {
+            "band_name": "bare_2080s_rcp_8_5_1",
+            "color_table": null,
+            "extensions": [
+                "img"
+            ],
+            "format": "raster",
+            "name": "bare_2080s_rcp_8_5",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "bare_2080s_rcp_8_5.img",
+            "scale": null,
+            "statistics": {
+                "maximum": 255.0,
+                "mean": 164.96412983227,
+                "minimum": 0.0,
+                "stddev": 103.11961135258
+            },
+            "url": "https://s3-us-west-2.amazonaws.com/mrlc/future_projections_2080s_rcp_8_5.zip"
+        },
+        {
+            "band_name": "litter_2080s_rcp_8_5_1",
+            "color_table": null,
+            "extensions": [
+                "img"
+            ],
+            "format": "raster",
+            "name": "litter_2080s_rcp_8_5",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "litter_2080s_rcp_8_5.img",
+            "scale": null,
+            "statistics": {
+                "maximum": 255.0,
+                "mean": 149.38663685805,
+                "minimum": 0.0,
+                "stddev": 119.88789957883
+            },
+            "url": "https://s3-us-west-2.amazonaws.com/mrlc/future_projections_2080s_rcp_8_5.zip"
+        },
+        {
+            "band_name": "herbaceous_2080s_rcp_8_5_1",
+            "color_table": null,
+            "extensions": [
+                "img"
+            ],
+            "format": "raster",
+            "name": "herbaceous_2080s_rcp_8_5",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "herbaceous_2080s_rcp_8_5.img",
+            "scale": null,
+            "statistics": {
+                "maximum": 255.0,
+                "mean": 152.16352614933,
+                "minimum": 0.0,
+                "stddev": 117.01951128607
+            },
+            "url": "https://s3-us-west-2.amazonaws.com/mrlc/future_projections_2080s_rcp_8_5.zip"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "fill",
+    "transform": {
+        "pixelHeight": -30.0,
+        "pixelWidth": 30.0,
+        "rotation_2": 0.0,
+        "rotation_4": 0.0,
+        "xOrigin": -2132865.0,
+        "yOrigin": 3106725.0
+    },
+    "version": "1.0.0"
+}
