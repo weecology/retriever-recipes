@@ -16,7 +16,11 @@
             "dialect": {
                 "delimiter": ","
             },
+<<<<<<< HEAD
             "name": "chronic_diseases",
+=======
+            "name": "chronic_disease_indicators_us",
+>>>>>>> 3c566f7ab45d8849cedf7ca445b89e3b004feebc
             "path": "chronic-disease-indicators-us.csv",
             "schema": {
                 "fields": [
@@ -176,7 +180,11 @@
                     }
                 ]
             },
+<<<<<<< HEAD
             "url": "https://data.world/cdc/us-chronic-disease-indicators"
+=======
+            "url": "fill"
+>>>>>>> 3c566f7ab45d8849cedf7ca445b89e3b004feebc
         }
     ],
     "retriever": "True",
