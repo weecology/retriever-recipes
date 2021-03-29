@@ -1,19 +1,23 @@
 {
-    "archived": "fill or remove this field if not archived",
-    "citation": "fill",
-    "description": "fill",
+    
+    "citation": "Centers for Disease Control and Prevention",
+    "description": "CDC's Division of Population Health provides cross-cutting set of 124 indicators that were developed by consensus and that allows states and territories and large metropolitan areas to uniformly define, collect, and report chronic disease data that are important to public health practice and available for states, territories and large metropolitan areas. In addition to providing access to state-specific indicator data, the CDI web site serves as a gateway to additional information and data resources.CDC's Division of Population Health provides cross-cutting set of 124 indicators that were developed by consensus and that allows states and territories and large metropolitan areas to uniformly define, collect, and report chronic disease data that are important to public health practice and available for states, territories and large metropolitan areas. In addition to providing access to state-specific indicator data, the CDI web site serves as a gateway to additional information and data resources.",
     "encoding": "utf-8",
-    "homepage": "fill",
-    "keywords": [],
+    "homepage": "https://data.world/cdc/us-chronic-disease-indicators",
+    "keywords": [
+        "chronic",
+        "diabetes",
+        "hypertension"
+    ],
     "licenses": [],
-    "name": "fill",
+    "name": "chronic-diseases-indicators-us",
     "resources": [
         {
             "dialect": {
                 "delimiter": ","
             },
-            "name": "chronic_disease_indicators_u_s",
-            "path": "Chronic-Disease-Indicators-U.S.csv",
+            "name": "chronic_diseases",
+            "path": "chronic-disease-indicators-us.csv",
             "schema": {
                 "fields": [
                     {
@@ -172,11 +176,11 @@
                     }
                 ]
             },
-            "url": "fill"
+            "url": "https://data.world/cdc/us-chronic-disease-indicators"
         }
     ],
     "retriever": "True",
     "retriever_minimum_version": "2.1.0",
-    "title": "fill",
+    "title": "Chronic Diseases Indicators US",
     "version": "1.0.0"
 }

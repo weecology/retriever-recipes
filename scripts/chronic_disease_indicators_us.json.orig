@@ -1,0 +1,186 @@
+{
+    
+    "citation": "Centers for Disease Control and Prevention",
+    "description": "CDC's Division of Population Health provides cross-cutting set of 124 indicators that were developed by consensus and that allows states and territories and large metropolitan areas to uniformly define, collect, and report chronic disease data that are important to public health practice and available for states, territories and large metropolitan areas. In addition to providing access to state-specific indicator data, the CDI web site serves as a gateway to additional information and data resources.CDC's Division of Population Health provides cross-cutting set of 124 indicators that were developed by consensus and that allows states and territories and large metropolitan areas to uniformly define, collect, and report chronic disease data that are important to public health practice and available for states, territories and large metropolitan areas. In addition to providing access to state-specific indicator data, the CDI web site serves as a gateway to additional information and data resources.",
+    "encoding": "utf-8",
+    "homepage": "https://data.world/cdc/us-chronic-disease-indicators",
+    "keywords": [
+        "chronic",
+        "diabetes",
+        "hypertension"
+    ],
+    "licenses": [],
+    "name": "chronic-diseases-indicators-us",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "chronic_diseases",
+            "path": "chronic-disease-indicators-us.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "yearstart",
+                        "type": "int"
+                    },
+                    {
+                        "name": "yearend",
+                        "type": "int"
+                    },
+                    {
+                        "name": "locationabbr",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "locationdesc",
+                        "size": "20",
+                        "type": "char"
+                    },
+                    {
+                        "name": "datasource",
+                        "size": "54",
+                        "type": "char"
+                    },
+                    {
+                        "name": "topic",
+                        "size": "47",
+                        "type": "char"
+                    },
+                    {
+                        "name": "question",
+                        "size": "179",
+                        "type": "char"
+                    },
+                    {
+                        "name": "response",
+                        "type": "int"
+                    },
+                    {
+                        "name": "datavalueunit",
+                        "size": "21",
+                        "type": "char"
+                    },
+                    {
+                        "name": "datavaluetype",
+                        "size": "64",
+                        "type": "char"
+                    },
+                    {
+                        "name": "datavalue",
+                        "size": "95",
+                        "type": "char"
+                    },
+                    {
+                        "name": "datavaluealt",
+                        "type": "double"
+                    },
+                    {
+                        "name": "datavaluefootnotesymbol",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "datavaluefootnote",
+                        "size": "254",
+                        "type": "char"
+                    },
+                    {
+                        "name": "lowconfidencelimit",
+                        "type": "double"
+                    },
+                    {
+                        "name": "highconfidencelimit",
+                        "type": "double"
+                    },
+                    {
+                        "name": "stratificationcategory1",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "stratification1",
+                        "size": "32",
+                        "type": "char"
+                    },
+                    {
+                        "name": "stratificationcategory2",
+                        "type": "int"
+                    },
+                    {
+                        "name": "stratification2",
+                        "type": "int"
+                    },
+                    {
+                        "name": "stratificationcategory3",
+                        "type": "int"
+                    },
+                    {
+                        "name": "stratification3",
+                        "type": "int"
+                    },
+                    {
+                        "name": "geolocation",
+                        "size": "32",
+                        "type": "char"
+                    },
+                    {
+                        "name": "responseid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "locationid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "topicid",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "questionid",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "datavaluetypeid",
+                        "size": "17",
+                        "type": "char"
+                    },
+                    {
+                        "name": "stratificationcategoryid1",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "stratificationid1",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "stratificationcategoryid2",
+                        "type": "int"
+                    },
+                    {
+                        "name": "stratificationid2",
+                        "type": "int"
+                    },
+                    {
+                        "name": "stratificationcategoryid3",
+                        "type": "int"
+                    },
+                    {
+                        "name": "stratificationid3",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://data.world/cdc/us-chronic-disease-indicators"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "Chronic Diseases Indicators US",
+    "version": "1.0.0"
+}
