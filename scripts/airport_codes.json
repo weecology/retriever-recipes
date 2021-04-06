@@ -4,14 +4,14 @@
     "encoding": "utf-8",
     "homepage": "https://datahub.io/core/airport-codes",
     "keywords": ["airport", "airport codes", "IATA"],
-    "licenses": [],
+    "licenses": [{"name": "Open Data Commons Public Domain Dedication and License"}],
     "name": "airport-codes",
     "resources": [
         {
             "dialect": {
                 "delimiter": ","
             },
-            "name": "airport-codes",
+            "name": "codes",
             "path": "airport_codes_csv.csv",
             "json_data": "airport-codes.json",
             "schema": {
@@ -32,7 +32,7 @@
                     },
                     {
                         "name": "ident",
-                        "size": "7",
+                        "size": "4",
                         "type": "char"
                     },
                     {
@@ -57,22 +57,22 @@
                     },
                     {
                         "name": "gps_code",
-                        "size": "4",
+                        "size": "7",
                         "type": "char"
                     },
                     {
                         "name": "municipality",
-                        "size": "43",
+                        "size": "53",
                         "type": "char"
                     },
                     {
                         "name": "name",
-                        "size": "43",
+                        "size": "89",
                         "type": "char"
                     },
                     {
                         "name": "type",
-                        "size": "12",
+                        "size": "14",
                         "type": "char"
                     }
                 ]
@@ -83,5 +83,5 @@
     "retriever": "True",
     "retriever_minimum_version": "2.1.0",
     "title": "IATA airport code",
-    "version": "1.0.0"
+    "version": "1.1.0"
 }
