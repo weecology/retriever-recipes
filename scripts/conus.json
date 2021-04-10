@@ -1,0 +1,1125 @@
+{
+    "citation": "Sohl, T.L., Reker, Ryan, Bouchard, Michelle, Sayler, Kristi, Dornbierer, Jordan, Wika, Steve, Quenzer, Rob, and Friesz, Aaron, 2018, Modeled historical land use and land cover for the conterminous United States: 1938-1992: U.S. Geological Survey data release, https://doi.org/10.5066/F7KK99RR.",
+    "description": "LULC maps developed for conterminous United States from 1938 back to 1992 through hindcasting methods",
+    "driver": "GTiff",
+    "file_size": "1.6GB",
+    "homepage": "https://www.sciencebase.gov/catalog/",
+    "keywords": ["LULC","hindcasting","historical", "land cover", "land use", "model", "USGS", "united states", "CONUS", "FORE-SCE"],
+    "licenses": [],
+    "name": "conus",
+    "projection": "PROJCS[\"Albers_Conical_Equal_Area\",GEOGCS[\"NAD83\",DATUM[\"North_American_Datum_1983\",SPHEROID[\"GRS 1980\",6378137,298.2572221010042,AUTHORITY[\"EPSG\",\"7019\"]],AUTHORITY[\"EPSG\",\"6269\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433],AUTHORITY[\"EPSG\",\"4269\"]],PROJECTION[\"Albers_Conic_Equal_Area\"],PARAMETER[\"standard_parallel_1\",29.5],PARAMETER[\"standard_parallel_2\",45.5],PARAMETER[\"latitude_of_center\",23],PARAMETER[\"longitude_of_center\",-96],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]]]",
+    "resources": [
+        {
+            "band_name": "CONUS_Backcasting_y1981_1",
+            "color_table": true,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "CONUS_Backcasting_y1981",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "CONUS_Backcasting_y1981.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 0.0,
+                "mean": 0.0,
+                "minimum": 0.0,
+                "stddev": -1.0
+            },
+            "url": "https://www.sciencebase.gov/catalog/file/get/59d3c73de4b05fe04cc3d1d1?f=__disk__f7%2Fba%2F7b%2Ff7ba7b9f5a55f54ea67605b9eebd361ff72f16d6"
+        },
+        {
+            "band_name": "CONUS_Backcasting_y1960_1",
+            "color_table": true,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "CONUS_Backcasting_y1960",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "CONUS_Backcasting_y1960.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 0.0,
+                "mean": 0.0,
+                "minimum": 0.0,
+                "stddev": -1.0
+            },
+            "url": "https://www.sciencebase.gov/catalog/file/get/59d3c73de4b05fe04cc3d1d1?f=__disk__13%2Fa9%2Fb5%2F13a9b50a957964f2ee726c5a882d7c2cc366b792"
+        },
+        {
+            "band_name": "CONUS_Backcasting_y1975_1",
+            "color_table": true,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "CONUS_Backcasting_y1975",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "CONUS_Backcasting_y1975.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 0.0,
+                "mean": 0.0,
+                "minimum": 0.0,
+                "stddev": -1.0
+            },
+            "url": "https://www.sciencebase.gov/catalog/file/get/59d3c73de4b05fe04cc3d1d1?f=__disk__1b%2F05%2Ffb%2F1b05fbbd2f454c05ab65dc05e9c4b2b28968a4fd"
+        },
+        {
+            "band_name": "CONUS_Backcasting_y1958_1",
+            "color_table": true,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "CONUS_Backcasting_y1958",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "CONUS_Backcasting_y1958.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 0.0,
+                "mean": 0.0,
+                "minimum": 0.0,
+                "stddev": -1.0
+            },
+            "url": "https://www.sciencebase.gov/catalog/file/get/59d3c73de4b05fe04cc3d1d1?f=__disk__ed%2Fb2%2Fde%2Fedb2def24ceae5c5660f2ad9384b58ba977d137c"
+        },
+        {
+            "band_name": "CONUS_Backcasting_y1984_1",
+            "color_table": true,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "CONUS_Backcasting_y1984",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "CONUS_Backcasting_y1984.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 0.0,
+                "mean": 0.0,
+                "minimum": 0.0,
+                "stddev": -1.0
+            },
+            "url": "https://www.sciencebase.gov/catalog/file/get/59d3c73de4b05fe04cc3d1d1?f=__disk__af%2F07%2Fc8%2Faf07c86eb73f2d1b4d4a25eb4f5198348c31c57a"
+        },
+        {
+            "band_name": "CONUS_Backcasting_y1953_1",
+            "color_table": true,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "CONUS_Backcasting_y1953",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "CONUS_Backcasting_y1953.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 0.0,
+                "mean": 0.0,
+                "minimum": 0.0,
+                "stddev": -1.0
+            },
+            "url": "https://www.sciencebase.gov/catalog/file/get/59d3c73de4b05fe04cc3d1d1?f=__disk__cd%2Fe4%2F94%2Fcde4946876711de7b98a204b8dabe57a3b75dd13"
+        },
+        {
+            "band_name": "CONUS_Backcasting_y1991_1",
+            "color_table": true,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "CONUS_Backcasting_y1991",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "CONUS_Backcasting_y1991.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 0.0,
+                "mean": 0.0,
+                "minimum": 0.0,
+                "stddev": -1.0
+            },
+            "url": "https://www.sciencebase.gov/catalog/file/get/59d3c73de4b05fe04cc3d1d1?f=__disk__e7%2F53%2Fb3%2Fe753b35da9dcc2dc56bf94e2aca04e36fef7fdaa"
+        },
+        {
+            "band_name": "CONUS_Backcasting_y1989_1",
+            "color_table": true,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "CONUS_Backcasting_y1989",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "CONUS_Backcasting_y1989.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 0.0,
+                "mean": 0.0,
+                "minimum": 0.0,
+                "stddev": -1.0
+            },
+            "url": "https://www.sciencebase.gov/catalog/file/get/59d3c73de4b05fe04cc3d1d1?f=__disk__e8%2Fe1%2F64%2Fe8e164856f6d8fc80bc2350fcf45077f05d15e58"
+        },
+        {
+            "band_name": "CONUS_Backcasting_y1990_1",
+            "color_table": true,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "CONUS_Backcasting_y1990",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "CONUS_Backcasting_y1990.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 0.0,
+                "mean": 0.0,
+                "minimum": 0.0,
+                "stddev": -1.0
+            },
+            "url": "https://www.sciencebase.gov/catalog/file/get/59d3c73de4b05fe04cc3d1d1?f=__disk__f1%2F6c%2F5e%2Ff16c5ec3aaf11fbe78613da3d3acba2119f863ae"
+        },
+        {
+            "band_name": "CONUS_Backcasting_y1959_1",
+            "color_table": true,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "CONUS_Backcasting_y1959",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "CONUS_Backcasting_y1959.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 0.0,
+                "mean": 0.0,
+                "minimum": 0.0,
+                "stddev": -1.0
+            },
+            "url": "https://www.sciencebase.gov/catalog/file/get/59d3c73de4b05fe04cc3d1d1?f=__disk__ee%2F0e%2Ff8%2Fee0ef824f511d095e84c850ad02c17194f48e283"
+        },
+        {
+            "band_name": "CONUS_Backcasting_y1970_1",
+            "color_table": true,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "CONUS_Backcasting_y1970",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "CONUS_Backcasting_y1970.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 0.0,
+                "mean": 0.0,
+                "minimum": 0.0,
+                "stddev": -1.0
+            },
+            "url": "https://www.sciencebase.gov/catalog/file/get/59d3c73de4b05fe04cc3d1d1?f=__disk__be%2F7f%2Fb5%2Fbe7fb56d9d71dd59efc17ac540f81d29efe9ef6c"
+        },
+        {
+            "band_name": "CONUS_Backcasting_y1967_1",
+            "color_table": true,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "CONUS_Backcasting_y1967",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "CONUS_Backcasting_y1967.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 0.0,
+                "mean": 0.0,
+                "minimum": 0.0,
+                "stddev": -1.0
+            },
+            "url": "https://www.sciencebase.gov/catalog/file/get/59d3c73de4b05fe04cc3d1d1?f=__disk__e7%2F9b%2F3d%2Fe79b3d89c0104e0c575c60211db617e51336f7ec"
+        },
+        {
+            "band_name": "CONUS_Backcasting_y1982_1",
+            "color_table": true,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "CONUS_Backcasting_y1982",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "CONUS_Backcasting_y1982.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 0.0,
+                "mean": 0.0,
+                "minimum": 0.0,
+                "stddev": -1.0
+            },
+            "url": "https://www.sciencebase.gov/catalog/file/get/59d3c73de4b05fe04cc3d1d1?f=__disk__43%2Fee%2Feb%2F43eeeb095201e7dedd5e2d2d3c1456085db218f0"
+        },
+        {
+            "band_name": "CONUS_Backcasting_y1946_1",
+            "color_table": true,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "CONUS_Backcasting_y1946",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "CONUS_Backcasting_y1946.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 0.0,
+                "mean": 0.0,
+                "minimum": 0.0,
+                "stddev": -1.0
+            },
+            "url": "https://www.sciencebase.gov/catalog/file/get/59d3c73de4b05fe04cc3d1d1?f=__disk__1b%2Fd0%2F4c%2F1bd04cd17cca8852285d11a3666199e888d4765e"
+        },
+        {
+            "band_name": "CONUS_Backcasting_y1944_1",
+            "color_table": true,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "CONUS_Backcasting_y1944",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "CONUS_Backcasting_y1944.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 0.0,
+                "mean": 0.0,
+                "minimum": 0.0,
+                "stddev": -1.0
+            },
+            "url": "https://www.sciencebase.gov/catalog/file/get/59d3c73de4b05fe04cc3d1d1?f=__disk__c8%2F22%2F6a%2Fc8226af4a5932f616b3d9fe43290abd1a88baeee"
+        },
+        {
+            "band_name": "CONUS_Backcasting_y1945_1",
+            "color_table": true,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "CONUS_Backcasting_y1945",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "CONUS_Backcasting_y1945.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 0.0,
+                "mean": 0.0,
+                "minimum": 0.0,
+                "stddev": -1.0
+            },
+            "url": "https://www.sciencebase.gov/catalog/file/get/59d3c73de4b05fe04cc3d1d1?f=__disk__24%2F02%2F72%2F240272a903e69441a84b39c888d03eee11f31ef0"
+        },
+        {
+            "band_name": "CONUS_Backcasting_y1942_1",
+            "color_table": true,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "CONUS_Backcasting_y1942",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "CONUS_Backcasting_y1942.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 0.0,
+                "mean": 0.0,
+                "minimum": 0.0,
+                "stddev": -1.0
+            },
+            "url": "https://www.sciencebase.gov/catalog/file/get/59d3c73de4b05fe04cc3d1d1?f=__disk__49%2F0f%2Fc1%2F490fc1d3e06dcd16c14091c5d6eb00059c775f4f"
+        },
+        {
+            "band_name": "CONUS_Backcasting_y1974_1",
+            "color_table": true,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "CONUS_Backcasting_y1974",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "CONUS_Backcasting_y1974.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 0.0,
+                "mean": 0.0,
+                "minimum": 0.0,
+                "stddev": -1.0
+            },
+            "url": "https://www.sciencebase.gov/catalog/file/get/59d3c73de4b05fe04cc3d1d1?f=__disk__cc%2F53%2F53%2Fcc5353181f67b20693c14037ab5f7d039c581d43"
+        },
+        {
+            "band_name": "CONUS_Backcasting_y1947_1",
+            "color_table": true,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "CONUS_Backcasting_y1947",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "CONUS_Backcasting_y1947.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 0.0,
+                "mean": 0.0,
+                "minimum": 0.0,
+                "stddev": -1.0
+            },
+            "url": "https://www.sciencebase.gov/catalog/file/get/59d3c73de4b05fe04cc3d1d1?f=__disk__e8%2F6f%2Fdb%2Fe86fdb4d8d888f915a786d49808688b9c2d61649"
+        },
+        {
+            "band_name": "CONUS_Backcasting_y1965_1",
+            "color_table": true,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "CONUS_Backcasting_y1965",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "CONUS_Backcasting_y1965.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 0.0,
+                "mean": 0.0,
+                "minimum": 0.0,
+                "stddev": -1.0
+            },
+            "url": "https://www.sciencebase.gov/catalog/file/get/59d3c73de4b05fe04cc3d1d1?f=__disk__5e%2Fad%2F3e%2F5ead3e422f230329fdaa30043a2de530de29df8e"
+        },
+        {
+            "band_name": "CONUS_Backcasting_y1964_1",
+            "color_table": true,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "CONUS_Backcasting_y1964",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "CONUS_Backcasting_y1964.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 0.0,
+                "mean": 0.0,
+                "minimum": 0.0,
+                "stddev": -1.0
+            },
+            "url": "https://www.sciencebase.gov/catalog/file/get/59d3c73de4b05fe04cc3d1d1?f=__disk__26%2Fa6%2F6f%2F26a66fb0d35a75239af09ef1796ffa497f0bbffd"
+        },
+        {
+            "band_name": "CONUS_Backcasting_y1940_1",
+            "color_table": true,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "CONUS_Backcasting_y1940",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "CONUS_Backcasting_y1940.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 0.0,
+                "mean": 0.0,
+                "minimum": 0.0,
+                "stddev": -1.0
+            },
+            "url": "https://www.sciencebase.gov/catalog/file/get/59d3c73de4b05fe04cc3d1d1?f=__disk__f7%2F28%2Fdd%2Ff728dda1af6d38019b9679f675f50e8389ab6e44"
+        },
+        {
+            "band_name": "CONUS_Backcasting_y1955_1",
+            "color_table": true,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "CONUS_Backcasting_y1955",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "CONUS_Backcasting_y1955.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 0.0,
+                "mean": 0.0,
+                "minimum": 0.0,
+                "stddev": -1.0
+            },
+            "url": "https://www.sciencebase.gov/catalog/file/get/59d3c73de4b05fe04cc3d1d1?f=__disk__f4%2F72%2Fe0%2Ff472e0a4f0305287b1175e6b05ff2883c18cd79e"
+        },
+        {
+            "band_name": "CONUS_Backcasting_y1972_1",
+            "color_table": true,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "CONUS_Backcasting_y1972",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "CONUS_Backcasting_y1972.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 0.0,
+                "mean": 0.0,
+                "minimum": 0.0,
+                "stddev": -1.0
+            },
+            "url": "https://www.sciencebase.gov/catalog/file/get/59d3c73de4b05fe04cc3d1d1?f=__disk__60%2Fc0%2F3c%2F60c03c824a7353c50e5d27d3af3a8276cbe30d75"
+        },
+        {
+            "band_name": "CONUS_Backcasting_y1977_1",
+            "color_table": true,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "CONUS_Backcasting_y1977",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "CONUS_Backcasting_y1977.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 0.0,
+                "mean": 0.0,
+                "minimum": 0.0,
+                "stddev": -1.0
+            },
+            "url": "https://www.sciencebase.gov/catalog/file/get/59d3c73de4b05fe04cc3d1d1?f=__disk__c8%2F22%2Fd7%2Fc822d707fc13a83a941c45e7906a5fbe6179fd07"
+        },
+        {
+            "band_name": "CONUS_Backcasting_y1980_1",
+            "color_table": true,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "CONUS_Backcasting_y1980",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "CONUS_Backcasting_y1980.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 0.0,
+                "mean": 0.0,
+                "minimum": 0.0,
+                "stddev": -1.0
+            },
+            "url": "https://www.sciencebase.gov/catalog/file/get/59d3c73de4b05fe04cc3d1d1?f=__disk__c6%2Fd3%2F0a%2Fc6d30a21ab8e504c98b875ce2febe1225c0dcec4"
+        },
+        {
+            "band_name": "CONUS_Backcasting_y1938_1",
+            "color_table": true,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "CONUS_Backcasting_y1938",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "CONUS_Backcasting_y1938.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 0.0,
+                "mean": 0.0,
+                "minimum": 0.0,
+                "stddev": -1.0
+            },
+            "url": "https://www.sciencebase.gov/catalog/file/get/59d3c73de4b05fe04cc3d1d1?f=__disk__66%2Fe4%2F79%2F66e479bcd6a53a0c68bf339385393142557ccdba"
+        },
+        {
+            "band_name": "CONUS_Backcasting_y1985_1",
+            "color_table": true,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "CONUS_Backcasting_y1985",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "CONUS_Backcasting_y1985.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 0.0,
+                "mean": 0.0,
+                "minimum": 0.0,
+                "stddev": -1.0
+            },
+            "url": "https://www.sciencebase.gov/catalog/file/get/59d3c73de4b05fe04cc3d1d1?f=__disk__c1%2Fdb%2F93%2Fc1db935e088c63da3777bdf1771498e6d0321bff"
+        },
+        {
+            "band_name": "CONUS_Backcasting_y1943_1",
+            "color_table": true,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "CONUS_Backcasting_y1943",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "CONUS_Backcasting_y1943.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 0.0,
+                "mean": 0.0,
+                "minimum": 0.0,
+                "stddev": -1.0
+            },
+            "url": "https://www.sciencebase.gov/catalog/file/get/59d3c73de4b05fe04cc3d1d1?f=__disk__d7%2F97%2F86%2Fd7978655f3bbbf7c171f09ceef7dabb3c6f0fbbb"
+        },
+        {
+            "band_name": "CONUS_Backcasting_y1941_1",
+            "color_table": true,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "CONUS_Backcasting_y1941",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "CONUS_Backcasting_y1941.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 0.0,
+                "mean": 0.0,
+                "minimum": 0.0,
+                "stddev": -1.0
+            },
+            "url": "https://www.sciencebase.gov/catalog/file/get/59d3c73de4b05fe04cc3d1d1?f=__disk__e5%2F7b%2F10%2Fe57b1007a15122872d0be0514b1d29cbff9d02a8"
+        },
+        {
+            "band_name": "CONUS_Backcasting_y1968_1",
+            "color_table": true,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "CONUS_Backcasting_y1968",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "CONUS_Backcasting_y1968.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 0.0,
+                "mean": 0.0,
+                "minimum": 0.0,
+                "stddev": -1.0
+            },
+            "url": "https://www.sciencebase.gov/catalog/file/get/59d3c73de4b05fe04cc3d1d1?f=__disk__82%2F7e%2Fba%2F827eba3848a169cb22a172176175eafc25f3d5e1"
+        },
+        {
+            "band_name": "CONUS_Backcasting_y1987_1",
+            "color_table": true,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "CONUS_Backcasting_y1987",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "CONUS_Backcasting_y1987.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 0.0,
+                "mean": 0.0,
+                "minimum": 0.0,
+                "stddev": -1.0
+            },
+            "url": "https://www.sciencebase.gov/catalog/file/get/59d3c73de4b05fe04cc3d1d1?f=__disk__51%2Ffc%2Fc1%2F51fcc110f5218aa98977d81aa62295abb8d9c0c0"
+        },
+        {
+            "band_name": "CONUS_Backcasting_y1978_1",
+            "color_table": true,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "CONUS_Backcasting_y1978",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "CONUS_Backcasting_y1978.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 0.0,
+                "mean": 0.0,
+                "minimum": 0.0,
+                "stddev": -1.0
+            },
+            "url": "https://www.sciencebase.gov/catalog/file/get/59d3c73de4b05fe04cc3d1d1?f=__disk__b4%2F90%2F08%2Fb4900802132d528f4d274717407292122e8ef5ea"
+        },
+        {
+            "band_name": "CONUS_Backcasting_y1962_1",
+            "color_table": true,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "CONUS_Backcasting_y1962",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "CONUS_Backcasting_y1962.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 0.0,
+                "mean": 0.0,
+                "minimum": 0.0,
+                "stddev": -1.0
+            },
+            "url": "https://www.sciencebase.gov/catalog/file/get/59d3c73de4b05fe04cc3d1d1?f=__disk__cc%2F89%2F52%2Fcc89521d07a146b5fdcb4e72c7e2fc41972829cd"
+        },
+        {
+            "band_name": "CONUS_Backcasting_y1949_1",
+            "color_table": true,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "CONUS_Backcasting_y1949",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "CONUS_Backcasting_y1949.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 0.0,
+                "mean": 0.0,
+                "minimum": 0.0,
+                "stddev": -1.0
+            },
+            "url": "https://www.sciencebase.gov/catalog/file/get/59d3c73de4b05fe04cc3d1d1?f=__disk__94%2Ff2%2F03%2F94f2030cd4ef1a58f5137933eda902a1768f61df"
+        },
+        {
+            "band_name": "CONUS_Backcasting_y1979_1",
+            "color_table": true,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "CONUS_Backcasting_y1979",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "CONUS_Backcasting_y1979.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 0.0,
+                "mean": 0.0,
+                "minimum": 0.0,
+                "stddev": -1.0
+            },
+            "url": "https://www.sciencebase.gov/catalog/file/get/59d3c73de4b05fe04cc3d1d1?f=__disk__89%2F88%2Fef%2F8988ef9ef0a73461749945e05e2c7d713e6eb780"
+        },
+        {
+            "band_name": "CONUS_Backcasting_y1951_1",
+            "color_table": true,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "CONUS_Backcasting_y1951",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "CONUS_Backcasting_y1951.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 0.0,
+                "mean": 0.0,
+                "minimum": 0.0,
+                "stddev": -1.0
+            },
+            "url": "https://www.sciencebase.gov/catalog/file/get/59d3c73de4b05fe04cc3d1d1?f=__disk__67%2F68%2F16%2F67681610db742c093b4f78bb4e2d1d9793b8572d"
+        },
+        {
+            "band_name": "CONUS_Backcasting_y1939_1",
+            "color_table": true,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "CONUS_Backcasting_y1939",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "CONUS_Backcasting_y1939.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 0.0,
+                "mean": 0.0,
+                "minimum": 0.0,
+                "stddev": -1.0
+            },
+            "url": "https://www.sciencebase.gov/catalog/file/get/59d3c73de4b05fe04cc3d1d1?f=__disk__52%2F31%2F79%2F523179fda73b92f11b852417a286ef232c8e67cc"
+        },
+        {
+            "band_name": "CONUS_Backcasting_y1971_1",
+            "color_table": true,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "CONUS_Backcasting_y1971",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "CONUS_Backcasting_y1971.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 0.0,
+                "mean": 0.0,
+                "minimum": 0.0,
+                "stddev": -1.0
+            },
+            "url": "https://www.sciencebase.gov/catalog/file/get/59d3c73de4b05fe04cc3d1d1?f=__disk__57%2F66%2Fcd%2F5766cd9aca6acacd90f05922334799b9485c38ba"
+        },
+        {
+            "band_name": "CONUS_Backcasting_y1988_1",
+            "color_table": true,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "CONUS_Backcasting_y1988",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "CONUS_Backcasting_y1988.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 0.0,
+                "mean": 0.0,
+                "minimum": 0.0,
+                "stddev": -1.0
+            },
+            "url": "https://www.sciencebase.gov/catalog/file/get/59d3c73de4b05fe04cc3d1d1?f=__disk__b6%2F75%2Fa3%2Fb675a37311fcae8b757a82d73d1f14ced3248210"
+        },
+        {
+            "band_name": "CONUS_Backcasting_y1973_1",
+            "color_table": true,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "CONUS_Backcasting_y1973",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "CONUS_Backcasting_y1973.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 0.0,
+                "mean": 0.0,
+                "minimum": 0.0,
+                "stddev": -1.0
+            },
+            "url": "https://www.sciencebase.gov/catalog/file/get/59d3c73de4b05fe04cc3d1d1?f=__disk__f6%2Fb6%2F35%2Ff6b6358c78684dace5d8a348ebffdc033f54d02f"
+        },
+        {
+            "band_name": "CONUS_Backcasting_y1954_1",
+            "color_table": true,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "CONUS_Backcasting_y1954",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "CONUS_Backcasting_y1954.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 0.0,
+                "mean": 0.0,
+                "minimum": 0.0,
+                "stddev": -1.0
+            },
+            "url": "https://www.sciencebase.gov/catalog/file/get/59d3c73de4b05fe04cc3d1d1?f=__disk__cd%2F51%2F95%2Fcd51950e7c8df424e47b5d700854cf0517558485"
+        },
+        {
+            "band_name": "CONUS_Backcasting_y1956_1",
+            "color_table": true,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "CONUS_Backcasting_y1956",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "CONUS_Backcasting_y1956.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 0.0,
+                "mean": 0.0,
+                "minimum": 0.0,
+                "stddev": -1.0
+            },
+            "url": "https://www.sciencebase.gov/catalog/file/get/59d3c73de4b05fe04cc3d1d1?f=__disk__1e%2Fd2%2Ffa%2F1ed2fae80f8028ce12bb876f5c80f35b4a96c33b"
+        },
+        {
+            "band_name": "CONUS_Backcasting_y1950_1",
+            "color_table": true,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "CONUS_Backcasting_y1950",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "CONUS_Backcasting_y1950.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 0.0,
+                "mean": 0.0,
+                "minimum": 0.0,
+                "stddev": -1.0
+            },
+            "url": "https://www.sciencebase.gov/catalog/file/get/59d3c73de4b05fe04cc3d1d1?f=__disk__8a%2F0f%2Fac%2F8a0fac01403927e4af4afe881175fd4aa337f73d"
+        },
+        {
+            "band_name": "CONUS_Backcasting_y1961_1",
+            "color_table": true,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "CONUS_Backcasting_y1961",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "CONUS_Backcasting_y1961.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 0.0,
+                "mean": 0.0,
+                "minimum": 0.0,
+                "stddev": -1.0
+            },
+            "url": "https://www.sciencebase.gov/catalog/file/get/59d3c73de4b05fe04cc3d1d1?f=__disk__75%2F2a%2F8a%2F752a8a31c7461ab1da2e75fecb55420b326abc0f"
+        },
+        {
+            "band_name": "CONUS_Backcasting_y1957_1",
+            "color_table": true,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "CONUS_Backcasting_y1957",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "CONUS_Backcasting_y1957.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 0.0,
+                "mean": 0.0,
+                "minimum": 0.0,
+                "stddev": -1.0
+            },
+            "url": "https://www.sciencebase.gov/catalog/file/get/59d3c73de4b05fe04cc3d1d1?f=__disk__a0%2F05%2Fe8%2Fa005e80a5c6674bd1afc54c6a8e3a9cd3d31e585"
+        },
+        {
+            "band_name": "CONUS_Backcasting_y1976_1",
+            "color_table": true,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "CONUS_Backcasting_y1976",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "CONUS_Backcasting_y1976.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 0.0,
+                "mean": 0.0,
+                "minimum": 0.0,
+                "stddev": -1.0
+            },
+            "url": "https://www.sciencebase.gov/catalog/file/get/59d3c73de4b05fe04cc3d1d1?f=__disk__9c%2Fdc%2F0e%2F9cdc0ea8d001227bb84c437235a47fa4d3fade0d"
+        },
+        {
+            "band_name": "CONUS_Backcasting_y1969_1",
+            "color_table": true,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "CONUS_Backcasting_y1969",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "CONUS_Backcasting_y1969.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 0.0,
+                "mean": 0.0,
+                "minimum": 0.0,
+                "stddev": -1.0
+            },
+            "url": "https://www.sciencebase.gov/catalog/file/get/59d3c73de4b05fe04cc3d1d1?f=__disk__48%2F10%2F9d%2F48109d49914055b2ccf22eebb847447c79937b15"
+        },
+        {
+            "band_name": "CONUS_Backcasting_y1948_1",
+            "color_table": true,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "CONUS_Backcasting_y1948",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "CONUS_Backcasting_y1948.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 0.0,
+                "mean": 0.0,
+                "minimum": 0.0,
+                "stddev": -1.0
+            },
+            "url": "https://www.sciencebase.gov/catalog/file/get/59d3c73de4b05fe04cc3d1d1?f=__disk__2b%2F14%2F2f%2F2b142fa1cf8ce2dd1863fe89606e346a9de324b0"
+        },
+        {
+            "band_name": "CONUS_Backcasting_y1966_1",
+            "color_table": true,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "CONUS_Backcasting_y1966",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "CONUS_Backcasting_y1966.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 0.0,
+                "mean": 0.0,
+                "minimum": 0.0,
+                "stddev": -1.0
+            },
+            "url": "https://www.sciencebase.gov/catalog/file/get/59d3c73de4b05fe04cc3d1d1?f=__disk__3e%2F59%2Ff0%2F3e59f0f8c425c0ffdfa62a50589c240d1fc04d7e"
+        },
+        {
+            "band_name": "CONUS_Backcasting_y1992_1",
+            "color_table": true,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "CONUS_Backcasting_y1992",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "CONUS_Backcasting_y1992.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 0.0,
+                "mean": 0.0,
+                "minimum": 0.0,
+                "stddev": -1.0
+            },
+            "url": "https://www.sciencebase.gov/catalog/file/get/59d3c73de4b05fe04cc3d1d1?f=__disk__12%2F37%2F59%2F123759f1bf4cc99164b3a178984d0f53288f3715"
+        },
+        {
+            "band_name": "CONUS_Backcasting_y1986_1",
+            "color_table": true,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "CONUS_Backcasting_y1986",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "CONUS_Backcasting_y1986.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 0.0,
+                "mean": 0.0,
+                "minimum": 0.0,
+                "stddev": -1.0
+            },
+            "url": "https://www.sciencebase.gov/catalog/file/get/59d3c73de4b05fe04cc3d1d1?f=__disk__dc%2Fda%2F1e%2Fdcda1ead018984f07bcef276d1798d811bc9c464"
+        },
+        {
+            "band_name": "CONUS_Backcasting_y1963_1",
+            "color_table": true,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "CONUS_Backcasting_y1963",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "CONUS_Backcasting_y1963.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 0.0,
+                "mean": 0.0,
+                "minimum": 0.0,
+                "stddev": -1.0
+            },
+            "url": "https://www.sciencebase.gov/catalog/file/get/59d3c73de4b05fe04cc3d1d1?f=__disk__96%2F84%2F38%2F9684384ed1ff1325ebf22c742e9b092839123543"
+        },
+        {
+            "band_name": "CONUS_Backcasting_y1952_1",
+            "color_table": true,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "CONUS_Backcasting_y1952",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "CONUS_Backcasting_y1952.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 0.0,
+                "mean": 0.0,
+                "minimum": 0.0,
+                "stddev": -1.0
+            },
+            "url": "https://www.sciencebase.gov/catalog/file/get/59d3c73de4b05fe04cc3d1d1?f=__disk__f6%2F71%2Fdb%2Ff671dbd5d340d562b35b7b2be884957ce2400312"
+        },
+        {
+            "band_name": "CONUS_Backcasting_y1983_1",
+            "color_table": true,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "CONUS_Backcasting_y1983",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "CONUS_Backcasting_y1983.tif",
+            "scale": 1.0,
+            "statistics": {
+                "maximum": 0.0,
+                "mean": 0.0,
+                "minimum": 0.0,
+                "stddev": -1.0
+            },
+            "url": "https://www.sciencebase.gov/catalog/file/get/59d3c73de4b05fe04cc3d1d1?f=__disk__92%2Fee%2F30%2F92ee3028ffa6c8437338334e662f8fd47b4e912f"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "Modeled Historical Land Use and Land Cover for the Conterminous United States: 1938-1992",
+    "transform": {
+        "pixelHeight": -250.0,
+        "pixelWidth": 250.0,
+        "rotation_2": 0.0,
+        "rotation_4": 0.0,
+        "xOrigin": -2357953.1839,
+        "yOrigin": 3175292.63
+    },
+    "version": "1.0.0"
+}
