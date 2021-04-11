@@ -33,6 +33,7 @@ county_emergency_management_offices.json,1.0.0
 credit_card_fraud.json,1.0.0
 croche_vegetation_data.json,1.0.2
 dicerandra_frutescens.json,1.0.2
+ebird.py,2.0.0
 ecoregions_us.json,1.0.1
 elton_traits.json,1.2.2
 fao_global_capture_product.py,1.0.0
