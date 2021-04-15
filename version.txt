@@ -116,6 +116,7 @@ fray_jorge_ecology.json,1.4.2
 gdp.json,1.0.2
 gentry_forest_transects.py,1.4.4
 global_population_dynamics.json,1.0.0
+global_river_density.json,1.0.0
 globi_interaction.json,1.0.2
 great_basin_mammal_abundance.json,1.0.1
 harvard_forest.json,2.0.0
