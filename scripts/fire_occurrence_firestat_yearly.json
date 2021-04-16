@@ -1,0 +1,486 @@
+{
+    "archived": "zip",
+    "extract_all": "True",
+    "format": "vector",
+    "citation": "United States Department of Agriculture - Forest Service. 20210407. FIRESTAT Fire Occurrence - Yearly Update: Fire Occurrence FIRESTAT yearly. https://data.fs.usda.gov/geodata/edw/edw_resources/meta/S_USA.Fire_Occurrence_FIRESTAT_YRLY.xml.",
+    "description": "The FIRESTAT (Fire Statistics System) Fire Occurrence point layer represents ignition points, or points of origin, from which individual wildland fires started on National Forest System lands",
+    "driver_name": "ESRI Shapefile",
+    "extent": {
+        "xMax": 121.48555555600001,
+        "xMin": -177.72166667,
+        "yMax": 84.92166666999998,
+        "yMin": 0.0
+    },
+    "geom_type": "Point",
+    "homepage": "https://data.fs.usda.gov/geodata/edw/datasets.php",
+    "keywords": ["FIRESTAT","wildfire", "fire occurrence", "ignition points"],
+    "licenses": [],
+    "name": "fire-occurrence-firestat-yearly",
+    "resources": [
+        {
+            "geom_type": "Point",
+            "name": "fire_occurrence_yrly",
+            "path": "S_USA.Fire_Occurrence_FIRESTAT_YRLY.shp",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "FIRE_NAME",
+                        "precision": 0,
+                        "size": 50,
+                        "type": "String"
+                    },
+                    {
+                        "name": "LOCAL_FIRE",
+                        "precision": 0,
+                        "size": 10,
+                        "type": "String"
+                    },
+                    {
+                        "name": "LOCATION",
+                        "precision": 0,
+                        "size": 30,
+                        "type": "String"
+                    },
+                    {
+                        "name": "TOWNSHIP",
+                        "precision": 0,
+                        "size": 5,
+                        "type": "String"
+                    },
+                    {
+                        "name": "RANGE",
+                        "precision": 0,
+                        "size": 5,
+                        "type": "String"
+                    },
+                    {
+                        "name": "SECTION",
+                        "precision": 0,
+                        "size": 2,
+                        "type": "String"
+                    },
+                    {
+                        "name": "SUB_SECTIO",
+                        "precision": 0,
+                        "size": 4,
+                        "type": "String"
+                    },
+                    {
+                        "name": "PRINCIPAL_",
+                        "precision": 0,
+                        "size": 22,
+                        "type": "String"
+                    },
+                    {
+                        "name": "REPORT_UNI",
+                        "precision": 0,
+                        "size": 10,
+                        "type": "String"
+                    },
+                    {
+                        "name": "REPORT_U_1",
+                        "precision": 0,
+                        "size": 100,
+                        "type": "String"
+                    },
+                    {
+                        "name": "DISTRICT",
+                        "precision": 0,
+                        "size": 2,
+                        "type": "String"
+                    },
+                    {
+                        "name": "FIRE_NUMBE",
+                        "precision": 0,
+                        "size": 6,
+                        "type": "String"
+                    },
+                    {
+                        "name": "ADMIN_UNIT",
+                        "precision": 0,
+                        "size": 10,
+                        "type": "String"
+                    },
+                    {
+                        "name": "ADMIN_UN_1",
+                        "precision": 0,
+                        "size": 100,
+                        "type": "String"
+                    },
+                    {
+                        "name": "PROTECTING",
+                        "precision": 0,
+                        "size": 50,
+                        "type": "String"
+                    },
+                    {
+                        "name": "PROTECTION",
+                        "precision": 0,
+                        "size": 10,
+                        "type": "String"
+                    },
+                    {
+                        "name": "PROTECTI_1",
+                        "precision": 0,
+                        "size": 100,
+                        "type": "String"
+                    },
+                    {
+                        "name": "OWNERSHIP_",
+                        "precision": 0,
+                        "size": 50,
+                        "type": "String"
+                    },
+                    {
+                        "name": "OWNERSHIP1",
+                        "precision": 0,
+                        "size": 10,
+                        "type": "String"
+                    },
+                    {
+                        "name": "OWNERSHI_1",
+                        "precision": 0,
+                        "size": 100,
+                        "type": "String"
+                    },
+                    {
+                        "name": "TOPO_LANDF",
+                        "precision": 0,
+                        "size": 2,
+                        "type": "String"
+                    },
+                    {
+                        "name": "STATE_CODE",
+                        "precision": 0,
+                        "size": 2,
+                        "type": "String"
+                    },
+                    {
+                        "name": "STATE_NAME",
+                        "precision": 0,
+                        "size": 40,
+                        "type": "String"
+                    },
+                    {
+                        "name": "COUNTY",
+                        "precision": 0,
+                        "size": 3,
+                        "type": "String"
+                    },
+                    {
+                        "name": "COUNTY_NAM",
+                        "precision": 0,
+                        "size": 100,
+                        "type": "String"
+                    },
+                    {
+                        "name": "COUNTY_STA",
+                        "precision": 0,
+                        "size": 2,
+                        "type": "String"
+                    },
+                    {
+                        "name": "FIRE_MANAG",
+                        "precision": 0,
+                        "size": 6,
+                        "type": "String"
+                    },
+                    {
+                        "name": "POO_LATITU",
+                        "precision": 8,
+                        "size": 19,
+                        "type": "Real"
+                    },
+                    {
+                        "name": "POO_LONGIT",
+                        "precision": 8,
+                        "size": 19,
+                        "type": "Real"
+                    },
+                    {
+                        "name": "LAT_DEG",
+                        "precision": 0,
+                        "size": 5,
+                        "type": "Integer"
+                    },
+                    {
+                        "name": "LAT_MIN",
+                        "precision": 0,
+                        "size": 5,
+                        "type": "Integer"
+                    },
+                    {
+                        "name": "LAT_SEC",
+                        "precision": 0,
+                        "size": 5,
+                        "type": "Integer"
+                    },
+                    {
+                        "name": "LONG_DEG",
+                        "precision": 0,
+                        "size": 5,
+                        "type": "Integer"
+                    },
+                    {
+                        "name": "LONG_MIN",
+                        "precision": 0,
+                        "size": 5,
+                        "type": "Integer"
+                    },
+                    {
+                        "name": "LONG_SEC",
+                        "precision": 0,
+                        "size": 5,
+                        "type": "Integer"
+                    },
+                    {
+                        "name": "DISCOVER_Y",
+                        "precision": 0,
+                        "size": 4,
+                        "type": "String"
+                    },
+                    {
+                        "name": "IGNITION",
+                        "precision": 0,
+                        "size": 10,
+                        "type": "Date"
+                    },
+                    {
+                        "name": "DISCOVERY",
+                        "precision": 0,
+                        "size": 10,
+                        "type": "Date"
+                    },
+                    {
+                        "name": "INITIAL_RE",
+                        "precision": 0,
+                        "size": 10,
+                        "type": "Date"
+                    },
+                    {
+                        "name": "FIRE_DETEC",
+                        "precision": 0,
+                        "size": 50,
+                        "type": "String"
+                    },
+                    {
+                        "name": "DISCOVERED",
+                        "precision": 0,
+                        "size": 30,
+                        "type": "String"
+                    },
+                    {
+                        "name": "STATISTICA",
+                        "precision": 0,
+                        "size": 50,
+                        "type": "String"
+                    },
+                    {
+                        "name": "INITIAL_ST",
+                        "precision": 0,
+                        "size": 50,
+                        "type": "String"
+                    },
+                    {
+                        "name": "STRATEGY_M",
+                        "precision": 0,
+                        "size": 10,
+                        "type": "Date"
+                    },
+                    {
+                        "name": "OBJECTIVES",
+                        "precision": 0,
+                        "size": 1,
+                        "type": "String"
+                    },
+                    {
+                        "name": "COMPLEX_FI",
+                        "precision": 0,
+                        "size": 1,
+                        "type": "String"
+                    },
+                    {
+                        "name": "COMPLEX_NA",
+                        "precision": 0,
+                        "size": 100,
+                        "type": "String"
+                    },
+                    {
+                        "name": "CONTAINED",
+                        "precision": 0,
+                        "size": 10,
+                        "type": "Date"
+                    },
+                    {
+                        "name": "FIRE_OUT",
+                        "precision": 0,
+                        "size": 10,
+                        "type": "Date"
+                    },
+                    {
+                        "name": "AGENCY_ACR",
+                        "precision": 8,
+                        "size": 19,
+                        "type": "Real"
+                    },
+                    {
+                        "name": "OTHER_ACRE",
+                        "precision": 8,
+                        "size": 19,
+                        "type": "Real"
+                    },
+                    {
+                        "name": "OTHER_AC_1",
+                        "precision": 8,
+                        "size": 19,
+                        "type": "Real"
+                    },
+                    {
+                        "name": "TOTAL_ACRE",
+                        "precision": 8,
+                        "size": 19,
+                        "type": "Real"
+                    },
+                    {
+                        "name": "FIRE_SIZE_",
+                        "precision": 0,
+                        "size": 50,
+                        "type": "String"
+                    },
+                    {
+                        "name": "PRESCRIBED",
+                        "precision": 0,
+                        "size": 1,
+                        "type": "String"
+                    },
+                    {
+                        "name": "PRESCRIB_1",
+                        "precision": 8,
+                        "size": 19,
+                        "type": "Real"
+                    },
+                    {
+                        "name": "WUI_FIRE",
+                        "precision": 0,
+                        "size": 1,
+                        "type": "String"
+                    },
+                    {
+                        "name": "WUI_ACRES",
+                        "precision": 8,
+                        "size": 19,
+                        "type": "Real"
+                    },
+                    {
+                        "name": "FIRE_INTEN",
+                        "precision": 0,
+                        "size": 50,
+                        "type": "String"
+                    },
+                    {
+                        "name": "REP_WX_STA",
+                        "precision": 0,
+                        "size": 10,
+                        "type": "Integer64"
+                    },
+                    {
+                        "name": "STATION_TY",
+                        "precision": 0,
+                        "size": 5,
+                        "type": "Integer"
+                    },
+                    {
+                        "name": "STATION_NA",
+                        "precision": 0,
+                        "size": 20,
+                        "type": "String"
+                    },
+                    {
+                        "name": "WIND_SPEED",
+                        "precision": 0,
+                        "size": 5,
+                        "type": "Integer"
+                    },
+                    {
+                        "name": "NFDRS_FUEL",
+                        "precision": 0,
+                        "size": 50,
+                        "type": "String"
+                    },
+                    {
+                        "name": "OTHER_FUEL",
+                        "precision": 0,
+                        "size": 5,
+                        "type": "Integer"
+                    },
+                    {
+                        "name": "COVER_CLAS",
+                        "precision": 0,
+                        "size": 50,
+                        "type": "String"
+                    },
+                    {
+                        "name": "SLOPE",
+                        "precision": 0,
+                        "size": 5,
+                        "type": "Integer"
+                    },
+                    {
+                        "name": "ASPECT",
+                        "precision": 0,
+                        "size": 50,
+                        "type": "String"
+                    },
+                    {
+                        "name": "ELEVATION",
+                        "precision": 0,
+                        "size": 10,
+                        "type": "Integer64"
+                    },
+                    {
+                        "name": "LOCAL_TIME",
+                        "precision": 0,
+                        "size": 50,
+                        "type": "String"
+                    },
+                    {
+                        "name": "RECORD_ENT",
+                        "precision": 0,
+                        "size": 10,
+                        "type": "Date"
+                    },
+                    {
+                        "name": "SUBMITTED_",
+                        "precision": 0,
+                        "size": 10,
+                        "type": "Date"
+                    },
+                    {
+                        "name": "APPROVED_D",
+                        "precision": 0,
+                        "size": 10,
+                        "type": "Date"
+                    },
+                    {
+                        "name": "CREATED_DA",
+                        "precision": 0,
+                        "size": 10,
+                        "type": "Date"
+                    },
+                    {
+                        "name": "LAST_MODIF",
+                        "precision": 0,
+                        "size": 10,
+                        "type": "Date"
+                    }
+                ]
+            },
+            "url": "https://data.fs.usda.gov/geodata/edw/edw_resources/shp/S_USA.Fire_Occurrence_FIRESTAT_YRLY.zip"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "spatial_ref": "GEOGCS[\"NAD83\",DATUM[\"North_American_Datum_1983\",SPHEROID[\"GRS 1980\",6378137,298.257222101,AUTHORITY[\"EPSG\",\"7019\"]],AUTHORITY[\"EPSG\",\"6269\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST],AUTHORITY[\"EPSG\",\"4269\"]]",
+    "title": "Fire Occurrence FIRESTAT yearly",
+    "version": "1.0.0"   
+}

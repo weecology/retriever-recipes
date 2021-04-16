@@ -106,6 +106,7 @@ fia_washington.json,1.1.0
 fia_west_virginia.json,1.1.0
 fia_wisconsin.json,1.1.0
 fia_wyoming.json,1.1.0
+fire_occurrence_firestat_yearly.json,1.0.0
 fish_parasite_hosts.json,1.2.1
 flensburg_food_web.py,1.0.4
 foreign_exchange_rates_2000_2019.json,1.0.0
