@@ -1,0 +1,210 @@
+{
+    "archived": "zip",
+    "extract_all": "True",
+    "format": "vector",
+    "citation": "United States Department of Agriculture - Forest Service. 20210415. National USFS Final Fire Perimeter: S_USA.FinalFirePerimeter. https://data.fs.usda.gov/geodata/edw/edw_resources/meta/S_USA.FinalFirePerimeter.xml.",
+    "description": "The FinalFirePerimeter polygon layer represents final mapped wildland fire perimeters",
+    "driver_name": "ESRI Shapefile",
+    "extent": {
+        "xMax": -70.78478000000001,
+        "xMin": -150.529214355,
+        "yMax": 60.99424206600003,
+        "yMin": 28.963761001000023
+    },
+    "geom_type": "Polygon",
+    "homepage": "https://data.fs.usda.gov/geodata/edw/datasets.php",
+    "keywords": ["environment", "wildland fire", "FIRESTAT", "NWCG", "US Forest Service National GIS Data Dictionary Standard", "GIS", "wildland fire perimeter"],
+    "licenses": [],
+    "name": "national-usfs-finalfire-perimeter",
+    "resources": [
+        {
+            "geom_type": "Polygon",
+            "name": "finalfireperimeter",
+            "path": "S_USA.FinalFirePerimeter.shp",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "GLOBALID",
+                        "precision": 0,
+                        "size": 38,
+                        "type": "String"
+                    },
+                    {
+                        "name": "FIREOCCURI",
+                        "precision": 0,
+                        "size": 50,
+                        "type": "String"
+                    },
+                    {
+                        "name": "CN",
+                        "precision": 0,
+                        "size": 34,
+                        "type": "String"
+                    },
+                    {
+                        "name": "REVDATE",
+                        "precision": 0,
+                        "size": 10,
+                        "type": "Date"
+                    },
+                    {
+                        "name": "FIRENAME",
+                        "precision": 0,
+                        "size": 50,
+                        "type": "String"
+                    },
+                    {
+                        "name": "COMPLEXNAM",
+                        "precision": 0,
+                        "size": 50,
+                        "type": "String"
+                    },
+                    {
+                        "name": "FIREYEAR",
+                        "precision": 0,
+                        "size": 4,
+                        "type": "Integer"
+                    },
+                    {
+                        "name": "UNIQFIREID",
+                        "precision": 0,
+                        "size": 22,
+                        "type": "String"
+                    },
+                    {
+                        "name": "SOFIRENUM",
+                        "precision": 0,
+                        "size": 3,
+                        "type": "String"
+                    },
+                    {
+                        "name": "LOCALFIREN",
+                        "precision": 0,
+                        "size": 10,
+                        "type": "String"
+                    },
+                    {
+                        "name": "REPORTINGU",
+                        "precision": 0,
+                        "size": 4,
+                        "type": "String"
+                    },
+                    {
+                        "name": "DISCOVERYD",
+                        "precision": 0,
+                        "size": 10,
+                        "type": "Date"
+                    },
+                    {
+                        "name": "TOTALACRES",
+                        "precision": 2,
+                        "size": 12,
+                        "type": "Real"
+                    },
+                    {
+                        "name": "GISACRES",
+                        "precision": 3,
+                        "size": 14,
+                        "type": "Real"
+                    },
+                    {
+                        "name": "SIZECLASS",
+                        "precision": 0,
+                        "size": 1,
+                        "type": "String"
+                    },
+                    {
+                        "name": "STATCAUSE",
+                        "precision": 0,
+                        "size": 20,
+                        "type": "String"
+                    },
+                    {
+                        "name": "COMMENTS",
+                        "precision": 0,
+                        "size": 254,
+                        "type": "String"
+                    },
+                    {
+                        "name": "DATASOURCE",
+                        "precision": 0,
+                        "size": 2,
+                        "type": "String"
+                    },
+                    {
+                        "name": "PERIMETERD",
+                        "precision": 0,
+                        "size": 10,
+                        "type": "Date"
+                    },
+                    {
+                        "name": "OWNERAGENC",
+                        "precision": 0,
+                        "size": 7,
+                        "type": "String"
+                    },
+                    {
+                        "name": "UNITIDOWNE",
+                        "precision": 0,
+                        "size": 6,
+                        "type": "String"
+                    },
+                    {
+                        "name": "PROTECTION",
+                        "precision": 0,
+                        "size": 7,
+                        "type": "String"
+                    },
+                    {
+                        "name": "UNITIDPROT",
+                        "precision": 0,
+                        "size": 6,
+                        "type": "String"
+                    },
+                    {
+                        "name": "FEATURECAT",
+                        "precision": 0,
+                        "size": 50,
+                        "type": "String"
+                    },
+                    {
+                        "name": "FIRESTATQC",
+                        "precision": 0,
+                        "size": 3,
+                        "type": "String"
+                    },
+                    {
+                        "name": "DBSOURCEID",
+                        "precision": 0,
+                        "size": 4,
+                        "type": "String"
+                    },
+                    {
+                        "name": "DBSOURCEDA",
+                        "precision": 0,
+                        "size": 10,
+                        "type": "Date"
+                    },
+                    {
+                        "name": "SHAPE_AREA",
+                        "precision": 11,
+                        "size": 19,
+                        "type": "Real"
+                    },
+                    {
+                        "name": "SHAPE_LEN",
+                        "precision": 11,
+                        "size": 19,
+                        "type": "Real"
+                    }
+                ]
+            },
+            "url": "https://data.fs.usda.gov/geodata/edw/edw_resources/shp/S_USA.FinalFirePerimeter.zip"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "spatial_ref": "GEOGCS[\"NAD83\",DATUM[\"North_American_Datum_1983\",SPHEROID[\"GRS 1980\",6378137,298.257222101,AUTHORITY[\"EPSG\",\"7019\"]],AUTHORITY[\"EPSG\",\"6269\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST],AUTHORITY[\"EPSG\",\"4269\"]]",
+    "title": "The USA Final Fire Perimeter dataset, National USFS Final Fire Perimeter",
+    "version": "1.0.0"
+}
