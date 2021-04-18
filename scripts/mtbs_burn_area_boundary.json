@@ -1,0 +1,90 @@
+{
+    "archived": "zip",
+    "extract_all": "True",
+    "format": "vector",
+    "citation": "United States Department of Agriculture - Forest Service. 20190826. MTBS Burn Area Boundary: MTBS Burn Area Boundary. https://data.fs.usda.gov/geodata/edw/edw_resources/meta/S_USA.MTBS_BURN_AREA_BOUNDARY.xml.",
+    "description": "The Monitoring Trends in Burn Severity (MTBS) project assesses the frequency, extent, and magnitude (size and severity)",
+    "driver_name": "ESRI Shapefile",
+    "extent": {
+        "xMax": -65.33821026200002,
+        "xMin": -165.925172265,
+        "yMax": 70.15892574399999,
+        "yMin": 17.947361089000026
+    },
+    "geom_type": "Polygon",
+    "homepage": "https://data.fs.usda.gov/geodata/edw/datasets.php",
+    "keywords": ["Fire Location", "Landsat", "MTBS", "Fire Occurrence", "Wildland Fire", "Prescribed Fire", "Wildfire", "location"],
+    "licenses": [],
+    "name": "mtbs-burn-area-boundary",
+    "resources": [
+        {
+            "geom_type": "Polygon",
+            "name": "mtbs_burn_area_boundary",
+            "path": "S_USA.MTBS_BURN_AREA_BOUNDARY.shp",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "FIRE_ID",
+                        "precision": 0,
+                        "size": 30,
+                        "type": "String"
+                    },
+                    {
+                        "name": "FIRE_NAME",
+                        "precision": 0,
+                        "size": 50,
+                        "type": "String"
+                    },
+                    {
+                        "name": "YEAR",
+                        "precision": 0,
+                        "size": 5,
+                        "type": "Integer"
+                    },
+                    {
+                        "name": "STARTMONTH",
+                        "precision": 0,
+                        "size": 5,
+                        "type": "Integer"
+                    },
+                    {
+                        "name": "STARTDAY",
+                        "precision": 0,
+                        "size": 5,
+                        "type": "Integer"
+                    },
+                    {
+                        "name": "FIRE_TYPE",
+                        "precision": 0,
+                        "size": 254,
+                        "type": "String"
+                    },
+                    {
+                        "name": "ACRES",
+                        "precision": 11,
+                        "size": 19,
+                        "type": "Real"
+                    },
+                    {
+                        "name": "SHAPE_AREA",
+                        "precision": 11,
+                        "size": 19,
+                        "type": "Real"
+                    },
+                    {
+                        "name": "SHAPE_LEN",
+                        "precision": 11,
+                        "size": 19,
+                        "type": "Real"
+                    }
+                ]
+            },
+            "url": "https://data.fs.usda.gov/geodata/edw/edw_resources/shp/S_USA.MTBS_BURN_AREA_BOUNDARY.zip"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "spatial_ref": "GEOGCS[\"NAD83\",DATUM[\"North_American_Datum_1983\",SPHEROID[\"GRS 1980\",6378137,298.257222101,AUTHORITY[\"EPSG\",\"7019\"]],AUTHORITY[\"EPSG\",\"6269\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST],AUTHORITY[\"EPSG\",\"4269\"]]",
+    "title": "The USA MTBS Burn Area Boundary",
+    "version": "1.0.0"
+}
