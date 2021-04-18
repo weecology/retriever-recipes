@@ -1,0 +1,397 @@
+{
+    "archived": "zip",
+    "extract_all": "True",
+    "format": "vector",
+    "citation": "United States Department of Agriculture - Forest Service. 20210407. Activity Range Vegetation Improvement: S_USA.Activity_RngVegImprove. https://data.fs.usda.gov/geodata/edw/edw_resources/meta/S_USA.Activity_RngVegImprove.xml.",
+    "description": "The Activity Range Vegetation Improvement depicts the area planned and accomplished areas treated as a part of the Range Vegetation Improvement program of work",
+    "driver_name": "ESRI Shapefile",
+    "extent": {
+        "xMax": -76.73396002300001,
+        "xMin": -124.062224001,
+        "yMax": 49.00045,
+        "yMin": 30.175023334000002
+    },
+    "geom_type": "Polygon",
+    "homepage": "https://data.fs.usda.gov/geodata/edw/datasets.php",
+    "keywords": ["environment", "U.S. Forest Service", "Range Vegetation Management"],
+    "licenses": [],
+    "name": "activity-range-vegetation-improvement",
+    "resources": [
+        {
+            "geom_type": "Polygon",
+            "name": "usa_activity_rngvegimprove",
+            "path": "S_USA.Activity_RngVegImprove.shp",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "ACTIVITY_U",
+                        "precision": 0,
+                        "size": 6,
+                        "type": "String"
+                    },
+                    {
+                        "name": "ADMIN_REGI",
+                        "precision": 0,
+                        "size": 2,
+                        "type": "String"
+                    },
+                    {
+                        "name": "ADMIN_FORE",
+                        "precision": 0,
+                        "size": 2,
+                        "type": "String"
+                    },
+                    {
+                        "name": "ADMIN_FO_1",
+                        "precision": 0,
+                        "size": 60,
+                        "type": "String"
+                    },
+                    {
+                        "name": "ADMIN_DIST",
+                        "precision": 0,
+                        "size": 2,
+                        "type": "String"
+                    },
+                    {
+                        "name": "ADMIN_DI_1",
+                        "precision": 0,
+                        "size": 60,
+                        "type": "String"
+                    },
+                    {
+                        "name": "PROCLAIMED",
+                        "precision": 0,
+                        "size": 4,
+                        "type": "String"
+                    },
+                    {
+                        "name": "HOME_ORG",
+                        "precision": 0,
+                        "size": 6,
+                        "type": "String"
+                    },
+                    {
+                        "name": "SUID",
+                        "precision": 0,
+                        "size": 19,
+                        "type": "String"
+                    },
+                    {
+                        "name": "FACTS_ID",
+                        "precision": 0,
+                        "size": 10,
+                        "type": "String"
+                    },
+                    {
+                        "name": "SUBUNIT",
+                        "precision": 0,
+                        "size": 3,
+                        "type": "String"
+                    },
+                    {
+                        "name": "SUBUNIT_NA",
+                        "precision": 0,
+                        "size": 60,
+                        "type": "String"
+                    },
+                    {
+                        "name": "ACTIVITY_C",
+                        "precision": 0,
+                        "size": 4,
+                        "type": "String"
+                    },
+                    {
+                        "name": "ACTIVITY_N",
+                        "precision": 0,
+                        "size": 80,
+                        "type": "String"
+                    },
+                    {
+                        "name": "ACTIVITY_1",
+                        "precision": 0,
+                        "size": 34,
+                        "type": "String"
+                    },
+                    {
+                        "name": "METHOD_COD",
+                        "precision": 0,
+                        "size": 3,
+                        "type": "String"
+                    },
+                    {
+                        "name": "METHOD_DES",
+                        "precision": 0,
+                        "size": 40,
+                        "type": "String"
+                    },
+                    {
+                        "name": "EQUIPMENT_",
+                        "precision": 0,
+                        "size": 3,
+                        "type": "String"
+                    },
+                    {
+                        "name": "EQUIPMENT1",
+                        "precision": 0,
+                        "size": 80,
+                        "type": "String"
+                    },
+                    {
+                        "name": "TREATMENT_",
+                        "precision": 0,
+                        "size": 20,
+                        "type": "String"
+                    },
+                    {
+                        "name": "NBR_UNITS_",
+                        "precision": 8,
+                        "size": 19,
+                        "type": "Real"
+                    },
+                    {
+                        "name": "NBR_UNITS1",
+                        "precision": 8,
+                        "size": 19,
+                        "type": "Real"
+                    },
+                    {
+                        "name": "UOM",
+                        "precision": 0,
+                        "size": 12,
+                        "type": "String"
+                    },
+                    {
+                        "name": "DATE_PLANN",
+                        "precision": 0,
+                        "size": 10,
+                        "type": "Date"
+                    },
+                    {
+                        "name": "DATE_AWARD",
+                        "precision": 0,
+                        "size": 10,
+                        "type": "Date"
+                    },
+                    {
+                        "name": "DATE_COMPL",
+                        "precision": 0,
+                        "size": 10,
+                        "type": "Date"
+                    },
+                    {
+                        "name": "FY_PLANNED",
+                        "precision": 0,
+                        "size": 5,
+                        "type": "Integer"
+                    },
+                    {
+                        "name": "FY_AWARDED",
+                        "precision": 0,
+                        "size": 5,
+                        "type": "Integer"
+                    },
+                    {
+                        "name": "FY_COMPLET",
+                        "precision": 0,
+                        "size": 5,
+                        "type": "Integer"
+                    },
+                    {
+                        "name": "FUND_CODES",
+                        "precision": 0,
+                        "size": 30,
+                        "type": "String"
+                    },
+                    {
+                        "name": "COST_PER_U",
+                        "precision": 8,
+                        "size": 19,
+                        "type": "Real"
+                    },
+                    {
+                        "name": "NEPA_PROJE",
+                        "precision": 0,
+                        "size": 10,
+                        "type": "String"
+                    },
+                    {
+                        "name": "NEPA_DOC_N",
+                        "precision": 0,
+                        "size": 80,
+                        "type": "String"
+                    },
+                    {
+                        "name": "NEPA_PRO_1",
+                        "precision": 0,
+                        "size": 34,
+                        "type": "String"
+                    },
+                    {
+                        "name": "IMPLEMENTA",
+                        "precision": 0,
+                        "size": 150,
+                        "type": "String"
+                    },
+                    {
+                        "name": "IMPLEMEN_1",
+                        "precision": 0,
+                        "size": 50,
+                        "type": "String"
+                    },
+                    {
+                        "name": "IMPLEMEN_2",
+                        "precision": 0,
+                        "size": 24,
+                        "type": "String"
+                    },
+                    {
+                        "name": "WORK_AGENT",
+                        "precision": 0,
+                        "size": 16,
+                        "type": "String"
+                    },
+                    {
+                        "name": "PRODUCTIVI",
+                        "precision": 0,
+                        "size": 1,
+                        "type": "String"
+                    },
+                    {
+                        "name": "SALE_NAME",
+                        "precision": 0,
+                        "size": 80,
+                        "type": "String"
+                    },
+                    {
+                        "name": "LAND_SUITA",
+                        "precision": 0,
+                        "size": 3,
+                        "type": "String"
+                    },
+                    {
+                        "name": "OWNERSHIP_",
+                        "precision": 0,
+                        "size": 3,
+                        "type": "String"
+                    },
+                    {
+                        "name": "OWNERSHIP1",
+                        "precision": 0,
+                        "size": 30,
+                        "type": "String"
+                    },
+                    {
+                        "name": "ASPECT",
+                        "precision": 0,
+                        "size": 2,
+                        "type": "String"
+                    },
+                    {
+                        "name": "ELEVATION",
+                        "precision": 0,
+                        "size": 10,
+                        "type": "Integer64"
+                    },
+                    {
+                        "name": "SLOPE",
+                        "precision": 0,
+                        "size": 5,
+                        "type": "Integer"
+                    },
+                    {
+                        "name": "STATE_ABBR",
+                        "precision": 0,
+                        "size": 2,
+                        "type": "String"
+                    },
+                    {
+                        "name": "WATERSHED_",
+                        "precision": 0,
+                        "size": 16,
+                        "type": "String"
+                    },
+                    {
+                        "name": "SUBUNIT_CN",
+                        "precision": 0,
+                        "size": 34,
+                        "type": "String"
+                    },
+                    {
+                        "name": "SUBUNIT_SI",
+                        "precision": 8,
+                        "size": 19,
+                        "type": "Real"
+                    },
+                    {
+                        "name": "SUBUNIT_UO",
+                        "precision": 0,
+                        "size": 10,
+                        "type": "String"
+                    },
+                    {
+                        "name": "STAGE",
+                        "precision": 0,
+                        "size": 5,
+                        "type": "Integer"
+                    },
+                    {
+                        "name": "STAGE_DESC",
+                        "precision": 0,
+                        "size": 25,
+                        "type": "String"
+                    },
+                    {
+                        "name": "ACCURACY",
+                        "precision": 0,
+                        "size": 10,
+                        "type": "Integer64"
+                    },
+                    {
+                        "name": "GIS_ACRES",
+                        "precision": 8,
+                        "size": 19,
+                        "type": "Real"
+                    },
+                    {
+                        "name": "REV_DATE",
+                        "precision": 0,
+                        "size": 10,
+                        "type": "Date"
+                    },
+                    {
+                        "name": "UK",
+                        "precision": 0,
+                        "size": 50,
+                        "type": "String"
+                    },
+                    {
+                        "name": "DATA_SOURC",
+                        "precision": 0,
+                        "size": 10,
+                        "type": "Integer64"
+                    },
+                    {
+                        "name": "SHAPE_AREA",
+                        "precision": 11,
+                        "size": 19,
+                        "type": "Real"
+                    },
+                    {
+                        "name": "SHAPE_LEN",
+                        "precision": 11,
+                        "size": 19,
+                        "type": "Real"
+                    }
+                ]
+            },
+            "url": "https://data.fs.usda.gov/geodata/edw/edw_resources/shp/S_USA.Activity_RngVegImprove.zip"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "spatial_ref": "GEOGCS[\"NAD83\",DATUM[\"North_American_Datum_1983\",SPHEROID[\"GRS 1980\",6378137,298.257222101,AUTHORITY[\"EPSG\",\"7019\"]],AUTHORITY[\"EPSG\",\"6269\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST],AUTHORITY[\"EPSG\",\"4269\"]]",
+    "title": "The USA Activity Range Vegetation Improvement dataset",
+    "version": "1.0.0"
+}
+
