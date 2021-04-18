@@ -149,6 +149,7 @@ mtbs_burn_area_boundary.json,1.0.0
 mtbs_fire_occurrence.json,1.0.0
 nadp_precipitation_chemistry.json,1.0.0
 national_pedon_database_summary_layer.json,1.0.0
+national_usfs_finalfire_perimeter.json,1.0.0
 nd_gain.json,1.0.3
 nematode_traits.json,1.0.2
 new_york_city_airbnb_open_data.json,1.0.0
