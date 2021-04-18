@@ -1,0 +1,126 @@
+{
+    "archived": "zip",
+    "extract_all": "True",
+    "format": "vector",
+    "citation": "United States Department of Agriculture - Forest Service. 20190826. MTBS Fire Occurrence Points: MTBS Fire Occurrence Points. https://data.fs.usda.gov/geodata/edw/edw_resources/meta/S_USA.MTBS_FIRE_OCCURRENCE_PT.xml.",
+    "description": "Monitoring Trends in Burn Severity Project",
+    "driver_name": "ESRI Shapefile",
+    "extent": {
+        "xMax": -65.35000000000002,
+        "xMin": -165.881,
+        "yMax": 70.13900000000001,
+        "yMin": 17.956999999999994
+    },
+    "geom_type": "Point",
+    "homepage": "https://data.fs.usda.gov/geodata/edw/datasets.php",
+    "keywords": ["Wildland Fire", "Fire Occurrence", "Wildfire", "MTBS", "Prescribed Fire", ",Fire Location", "Landsat"],
+    "licenses": [],
+    "name": "mtbs-fire-occurrence",
+    "resources": [
+        {
+            "geom_type": "Point",
+            "name": "mtbs_fire_occurrence_points",
+            "path": "S_USA.MTBS_FIRE_OCCURRENCE_PT.shp",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "FIRE_ID",
+                        "precision": 0,
+                        "size": 254,
+                        "type": "String"
+                    },
+                    {
+                        "name": "FIRE_NAME",
+                        "precision": 0,
+                        "size": 254,
+                        "type": "String"
+                    },
+                    {
+                        "name": "ASMNT_TYPE",
+                        "precision": 0,
+                        "size": 254,
+                        "type": "String"
+                    },
+                    {
+                        "name": "PRE_ID",
+                        "precision": 0,
+                        "size": 254,
+                        "type": "String"
+                    },
+                    {
+                        "name": "POST_ID",
+                        "precision": 11,
+                        "size": 19,
+                        "type": "Real"
+                    },
+                    {
+                        "name": "FIRE_TYPE",
+                        "precision": 0,
+                        "size": 254,
+                        "type": "String"
+                    },
+                    {
+                        "name": "NODATA_THR",
+                        "precision": 11,
+                        "size": 19,
+                        "type": "Real"
+                    },
+                    {
+                        "name": "GREENNESS_",
+                        "precision": 11,
+                        "size": 19,
+                        "type": "Real"
+                    },
+                    {
+                        "name": "LOW_THRESH",
+                        "precision": 11,
+                        "size": 19,
+                        "type": "Real"
+                    },
+                    {
+                        "name": "MODERATE_T",
+                        "precision": 11,
+                        "size": 19,
+                        "type": "Real"
+                    },
+                    {
+                        "name": "HIGH_THRES",
+                        "precision": 11,
+                        "size": 19,
+                        "type": "Real"
+                    },
+                    {
+                        "name": "IG_DATE",
+                        "precision": 0,
+                        "size": 10,
+                        "type": "Date"
+                    },
+                    {
+                        "name": "LATITUDE",
+                        "precision": 11,
+                        "size": 19,
+                        "type": "Real"
+                    },
+                    {
+                        "name": "LONGITUDE",
+                        "precision": 11,
+                        "size": 19,
+                        "type": "Real"
+                    },
+                    {
+                        "name": "ACRES",
+                        "precision": 11,
+                        "size": 19,
+                        "type": "Real"
+                    }
+                ]
+            },
+            "url": "https://data.fs.usda.gov/geodata/edw/edw_resources/shp/S_USA.MTBS_FIRE_OCCURRENCE_PT.zip"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "spatial_ref": "GEOGCS[\"NAD83\",DATUM[\"North_American_Datum_1983\",SPHEROID[\"GRS 1980\",6378137,298.257222101,AUTHORITY[\"EPSG\",\"7019\"]],AUTHORITY[\"EPSG\",\"6269\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST],AUTHORITY[\"EPSG\",\"4269\"]]",
+    "title": "The USA MTBS Fire Occurrence Points",
+    "version": "1.0.0"
+}
