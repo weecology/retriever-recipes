@@ -1,0 +1,210 @@
+{
+    "archived": "zip",
+    "extract_all": "True",
+    "citation": "fill",
+    "dataset_count": "8",
+    "datum": "WGS_1984",
+    "description": "National Land Cover Database 2016",
+    "driver": "HFA",
+    "file_size": "--size of file on disk",
+    "group_count": "--Number of groups in the dataset if applicable",
+    "homepage": "https://www.mrlc.gov/data?f%5B0%5D=category%3ALand%20Cover",
+    "keywords": ["Land Cover", "U.S", "Geological", "USGS"],
+    "licenses": [],
+    "name": "nlcd-land-cover",
+    "projection": "PROJCS[\"Albers_Conical_Equal_Area\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Albers_Conic_Equal_Area\"],PARAMETER[\"latitude_of_center\",23],PARAMETER[\"longitude_of_center\",-96],PARAMETER[\"standard_parallel_1\",29.5],PARAMETER[\"standard_parallel_2\",45.5],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"meters\",1],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+    "resources": [
+            {
+                "band_name": "NLCD_2016_Land_Cover_L48_20190424_1",
+                "color_table": true,
+                "extensions": [
+                    "img"
+                ],
+                "format": "raster",
+                "name": "NLCD_2016_Land_Cover_L48_20190424",
+                "no_data_value": null,
+                "other_paths": "",
+                "path": "NLCD_2016_Land_Cover_L48_20190424.img",
+                "scale": null,
+                "statistics": {
+                    "maximum": 95.0,
+                    "mean": 30.478061895963,
+                    "minimum": 0.0,
+                    "stddev": 32.691287884651
+                },
+                "url": "https://s3-us-west-2.amazonaws.com/mrlc/NLCD_Land_Cover_L48_20190424_full_zip.zip"
+            },
+            {
+                "band_name": "NLCD_2016_Land_Cover_L48_20190424_1",
+                "color_table": true,
+                "extensions": [
+                    "img"
+                ],
+                "format": "raster",
+                "name": "NLCD_2016_Land_Cover_L48_20190424",
+                "no_data_value": null,
+                "other_paths": "",
+                "path": "NLCD_2016_Land_Cover_L48_20190424.img",
+                "scale": null,
+                "statistics": {
+                    "maximum": 95.0,
+                    "mean": 30.478061895963,
+                    "minimum": 0.0,
+                    "stddev": 32.691287884651
+                },
+                "url": "https://s3-us-west-2.amazonaws.com/mrlc/NLCD_Land_Cover_L48_20190424_full_zip.zip"
+            },
+            {
+                "band_name": "NLCD_Land_Cover_Change_Index_L48_20190424_1",
+                "color_table": true,
+                "extensions": [
+                    "img"
+                ],
+                "format": "raster",
+                "name": "NLCD_Land_Cover_Change_Index_L48_20190424",
+                "no_data_value": null,
+                "other_paths": "",
+                "path": "NLCD_Land_Cover_Change_Index_L48_20190424.img",
+                "scale": null,
+                "statistics": {
+                    "maximum": 12.0,
+                    "mean": 0.83583003514802,
+                    "minimum": 0.0,
+                    "stddev": 1.7559288349243
+                },
+                "url": "https://s3-us-west-2.amazonaws.com/mrlc/NLCD_Land_Cover_L48_20190424_full_zip.zip"
+            },
+            {
+                "band_name": "NLCD_2013_Land_Cover_L48_20190424_1",
+                "color_table": true,
+                "extensions": [
+                    "img"
+                ],
+                "format": "raster",
+                "name": "NLCD_2013_Land_Cover_L48_20190424",
+                "no_data_value": null,
+                "other_paths": "",
+                "path": "NLCD_2013_Land_Cover_L48_20190424.img",
+                "scale": null,
+                "statistics": {
+                    "maximum": 95.0,
+                    "mean": 30.473913736489,
+                    "minimum": 0.0,
+                    "stddev": 32.680237337036
+                },
+                "url": "https://s3-us-west-2.amazonaws.com/mrlc/NLCD_Land_Cover_L48_20190424_full_zip.zip"
+            },
+            {
+                "band_name": "NLCD_2004_Land_Cover_L48_20190424_1",
+                "color_table": true,
+                "extensions": [
+                    "img"
+                ],
+                "format": "raster",
+                "name": "NLCD_2004_Land_Cover_L48_20190424",
+                "no_data_value": null,
+                "other_paths": "",
+                "path": "NLCD_2004_Land_Cover_L48_20190424.img",
+                "scale": null,
+                "statistics": {
+                    "maximum": 95.0,
+                    "mean": 30.482018627384,
+                    "minimum": 0.0,
+                    "stddev": 32.661823053618
+                },
+                "url": "https://s3-us-west-2.amazonaws.com/mrlc/NLCD_Land_Cover_L48_20190424_full_zip.zip"
+            },
+            {
+                "band_name": "NLCD_2001_Land_Cover_L48_20190424_1",
+                "color_table": true,
+                "extensions": [
+                    "img"
+                ],
+                "format": "raster",
+                "name": "NLCD_2001_Land_Cover_L48_20190424",
+                "no_data_value": null,
+                "other_paths": "",
+                "path": "NLCD_2001_Land_Cover_L48_20190424.img",
+                "scale": null,
+                "statistics": {
+                    "maximum": 95.0,
+                    "mean": 30.443443225973,
+                    "minimum": 0.0,
+                    "stddev": 32.635157580415
+                },
+                "url": "https://s3-us-west-2.amazonaws.com/mrlc/NLCD_Land_Cover_L48_20190424_full_zip.zip"
+            },
+            {
+                "band_name": "NLCD_2008_Land_Cover_L48_20190424_1",
+                "color_table": true,
+                "extensions": [
+                    "img"
+                ],
+                "format": "raster",
+                "name": "NLCD_2008_Land_Cover_L48_20190424",
+                "no_data_value": null,
+                "other_paths": "",
+                "path": "NLCD_2008_Land_Cover_L48_20190424.img",
+                "scale": null,
+                "statistics": {
+                    "maximum": 95.0,
+                    "mean": 30.490729234455,
+                    "minimum": 0.0,
+                    "stddev": 32.680753442887
+                },
+                "url": "https://s3-us-west-2.amazonaws.com/mrlc/NLCD_Land_Cover_L48_20190424_full_zip.zip"
+            },
+            {
+                "band_name": "NLCD_2011_Land_Cover_L48_20190424_1",
+                "color_table": true,
+                "extensions": [
+                    "img"
+                ],
+                "format": "raster",
+                "name": "NLCD_2011_Land_Cover_L48_20190424",
+                "no_data_value": null,
+                "other_paths": "",
+                "path": "NLCD_2011_Land_Cover_L48_20190424.img",
+                "scale": null,
+                "statistics": {
+                    "maximum": 95.0,
+                    "mean": 30.465078895161,
+                    "minimum": 0.0,
+                    "stddev": 32.677411172785
+                },
+                "url": "https://s3-us-west-2.amazonaws.com/mrlc/NLCD_Land_Cover_L48_20190424_full_zip.zip"
+            },
+            {
+                "band_name": "NLCD_2006_Land_Cover_L48_20190424_1",
+                "color_table": true,
+                "extensions": [
+                    "img"
+                ],
+                "format": "raster",
+                "name": "NLCD_2006_Land_Cover_L48_20190424",
+                "no_data_value": null,
+                "other_paths": "",
+                "path": "NLCD_2006_Land_Cover_L48_20190424.img",
+                "scale": null,
+                "statistics": {
+                    "maximum": 95.0,
+                    "mean": 30.487577413374,
+                    "minimum": 0.0,
+                    "stddev": 32.679104948653
+                },
+                "url": "https://s3-us-west-2.amazonaws.com/mrlc/NLCD_Land_Cover_L48_20190424_full_zip.zip"
+            }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "National Land Cover Database 2016",
+    "transform": {
+        "pixelHeight": -30.0,
+        "pixelWidth": 30.0,
+        "rotation_2": 0.0,
+        "rotation_4": 0.0,
+        "xOrigin": -2493045.0,
+        "yOrigin": 3310005.0
+    },
+    "version": "1.0.0"
+}
