@@ -1,0 +1,168 @@
+{
+    "citation": "Hengl, Tomislav. (2019). Global river density, seasonal and surface water occurrence and upstream area at 250 m in the Goode Homolosine projection (Version v0.1) [Data set]. Zenodo. http://doi.org/10.5281/zenodo.3355007",
+    "dataset_count": "8",
+    "datum": "WGS 84",
+    "description": "Several layers describing density of surface water streams projected to the Good Homolosine projection. ",
+    "driver": "GTiff",
+    "file_size": "",
+    "group_count": "",
+    "homepage": "https://zenodo.org/record/3355007#.YHfaE2RKib8",
+    "keywords": ["LandGIS","surface water", "global wetlands", "Upstream Drainage", "Area MERIT DEM"],
+    "licenses": [{"name": "Creative Commons Attribution Non Commercial Share Alike 4.0 International"}],
+    "name": "global-river-density",
+    "projection": "PROJCS[\"Interrupted_Goode_Homolosine\",GEOGCS[\"WGS 84\",DATUM[\"D_unknown\",SPHEROID[\"WGS84\",6378137,298.257223563]],PRIMEM[\"Greenwich\",0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Interrupted_Goode_Homolosine\"],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+    "resources": [
+        {
+            "band_name": "lcv_landmask_esacci.lc.l4_c_250m_s0..0cm_2000..2015_v1.0.gh_1",
+            "color_table": null,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "lcv_landmask",
+            "no_data_value": 255.0,
+            "other_paths": "",
+            "path": "lcv_landmask_esacci.lc.l4_c_250m_s0..0cm_2000..2015_v1.0.gh.tif",
+            "scale": null,
+            "statistics": {
+                "maximum": 0.0,
+                "mean": 0.0,
+                "minimum": 0.0,
+                "stddev": -1.0
+            },
+            "url": "https://zenodo.org/record/3355007/files/lcv_landmask_esacci.lc.l4_c_250m_s0..0cm_2000..2015_v1.0.gh.tif?download=1"
+        },
+        {
+            "band_name": "lcv_admin0_fao.gaul_c_250m_s0..0cm_2015_v1.0.gh_1",
+            "color_table": null,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "lcv_admin0_fao",
+            "no_data_value": -32768.0,
+            "other_paths": "",
+            "path": "lcv_admin0_fao.gaul_c_250m_s0..0cm_2015_v1.0.gh.tif",
+            "scale": null,
+            "statistics": {
+                "maximum": 0.0,
+                "mean": 0.0,
+                "minimum": 0.0,
+                "stddev": -1.0
+            },
+            "url": "https://zenodo.org/record/3355007/files/lcv_admin0_fao.gaul_c_250m_s0..0cm_2015_v1.0.gh.tif?download=1"
+        },
+        {
+            "band_name": "hyd_log1p.upstream.area_merit.hydro_m_250m_b0..0cm_2017_v1.0.gh_1",
+            "color_table": null,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "upstream_area_merit_hydro",
+            "no_data_value": 255.0,
+            "other_paths": "",
+            "path": "hyd_log1p.upstream.area_merit.hydro_m_250m_b0..0cm_2017_v1.0.gh.tif",
+            "scale": null,
+            "statistics": {
+                "maximum": 0.0,
+                "mean": 0.0,
+                "minimum": 0.0,
+                "stddev": -1.0
+            },
+            "url": "https://zenodo.org/record/3355007/files/hyd_log1p.upstream.area_merit.hydro_m_250m_b0..0cm_2017_v1.0.gh.tif?download=1"
+        },
+        {
+            "band_name": "lcv_water.seasonal_probav.glc.lc100_p_250m_b0..0cm_2015_v2.0.1.gh_1",
+            "color_table": null,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "lcv_water_seasonal_probav",
+            "no_data_value": 255.0,
+            "other_paths": "",
+            "path": "lcv_water.seasonal_probav.glc.lc100_p_250m_b0..0cm_2015_v2.0.1.gh.tif",
+            "scale": null,
+            "statistics": {
+                "maximum": 0.0,
+                "mean": 0.0,
+                "minimum": 0.0,
+                "stddev": -1.0
+            },
+            "url": "https://zenodo.org/record/3355007/files/lcv_water.seasonal_probav.glc.lc100_p_250m_b0..0cm_2015_v2.0.1.gh.tif?download=1"
+        },
+        {
+            "band_name": "hyd_river.density_gloric_p_250m_b0..0cm_2018_v10.gh_1",
+            "color_table": null,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "hyd_river_density_gloric",
+            "no_data_value": 255.0,
+            "other_paths": "",
+            "path": "hyd_river.density_gloric_p_250m_b0..0cm_2018_v10.gh.tif",
+            "scale": null,
+            "statistics": {
+                "maximum": 0.0,
+                "mean": 0.0,
+                "minimum": 0.0,
+                "stddev": -1.0
+            },
+            "url": "https://zenodo.org/record/3355007/files/hyd_river.density_gloric_p_250m_b0..0cm_2018_v10.gh.tif?download=1"
+        },
+        {
+            "band_name": "lcv_water.occurance_jrc.surfacewater_p_250m_b0..200cm_1984..2016_v1.0.gh_1",
+            "color_table": true,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "lcv_water_occurance",
+            "no_data_value": 255.0,
+            "other_paths": "",
+            "path": "lcv_water.occurance_jrc.surfacewater_p_250m_b0..200cm_1984..2016_v1.0.gh.tif",
+            "scale": null,
+            "statistics": {
+                "maximum": 0.0,
+                "mean": 0.0,
+                "minimum": 0.0,
+                "stddev": -1.0
+            },
+            "url": "https://zenodo.org/record/3355007/files/lcv_water.occurance_jrc.surfacewater_p_250m_b0..200cm_1984..2016_v1.0.gh.tif?download=1"
+        },
+        {
+            "band_name": "lcv_wetlands.cw_upmc.wtd_c_250m_b0..200cm_2010..2015_v1.0.gh_1",
+            "color_table": null,
+            "extensions": [
+                "tif"
+            ],
+            "format": "raster",
+            "name": "lcv_wetlands",
+            "no_data_value": 255.0,
+            "other_paths": "",
+            "path": "lcv_wetlands.cw_upmc.wtd_c_250m_b0..200cm_2010..2015_v1.0.gh.tif",
+            "scale": null,
+            "statistics": {
+                "maximum": 0.0,
+                "mean": 0.0,
+                "minimum": 0.0,
+                "stddev": -1.0
+            },
+            "url": "https://zenodo.org/record/3355007/files/lcv_wetlands.cw_upmc.wtd_c_250m_b0..200cm_2010..2015_v1.0.gh.tif?download=1"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "Global river density, seasonal and surface water occurrence and upstream area at 250 m in the Goode Homolosine projection",
+    "transform": {
+        "pixelHeight": -249.99966998333417,
+        "pixelWidth": 250.0000998128509,
+        "rotation_2": 0.0,
+        "rotation_4": 0.0,
+        "xOrigin": -20037508.0,
+        "yOrigin": 8421750.0
+    },
+    "version": "1.0.0"
+}
