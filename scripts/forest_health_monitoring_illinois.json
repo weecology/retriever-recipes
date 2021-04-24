@@ -1,0 +1,5356 @@
+{
+    "archived": "zip",
+    "citation": "",
+    "description": "The USDA Forest Service, Forest Health Monitoring (FHM) is a national program designed to determine the status, changes, and trends in indicators of forest condition on an annual basis.",
+    "encoding": "utf-8",
+    "homepage": "https://www.fia.fs.fed.us/tools-data/other_data/index.php",
+    "keywords": [],
+    "licenses": [],
+    "name": "forest-health-monitoring-illinois",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "il_area_percent_1997",
+            "path": "IL_AREA_PERCENT_1997.CSV",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "last_update",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "state",
+                        "type": "int"
+                    },
+                    {
+                        "name": "state_descr",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "state_abbrev",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "county",
+                        "type": "int"
+                    },
+                    {
+                        "name": "project",
+                        "type": "int"
+                    },
+                    {
+                        "name": "project_descr",
+                        "size": "31",
+                        "type": "char"
+                    },
+                    {
+                        "name": "hexagon_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plot_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "point_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "area_percent",
+                        "type": "double"
+                    },
+                    {
+                        "name": "condition_class_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plot_type",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plot_type_descr",
+                        "size": "18",
+                        "type": "char"
+                    },
+                    {
+                        "name": "p3id",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://www.fia.fs.fed.us/tools-data/other_data/csv/IL.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "il_o3_species_summary_1997",
+            "path": "IL_O3_SPECIES_SUMMARY_1997.CSV",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "state_descr",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "state",
+                        "type": "int"
+                    },
+                    {
+                        "name": "state_abbrev",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "county",
+                        "type": "int"
+                    },
+                    {
+                        "name": "federal_region",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fhm_mega_region",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "project",
+                        "type": "int"
+                    },
+                    {
+                        "name": "hexagon_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plot_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "bio_species",
+                        "type": "int"
+                    },
+                    {
+                        "name": "amount_maximum",
+                        "type": "double"
+                    },
+                    {
+                        "name": "amount_minimum",
+                        "type": "double"
+                    },
+                    {
+                        "name": "amount_mean",
+                        "type": "double"
+                    },
+                    {
+                        "name": "severity_maximum",
+                        "type": "double"
+                    },
+                    {
+                        "name": "severity_minimum",
+                        "type": "double"
+                    },
+                    {
+                        "name": "severity_mean",
+                        "type": "double"
+                    },
+                    {
+                        "name": "plants_inj_cnt",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plants_eval_cnt",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plants_ratio",
+                        "type": "double"
+                    },
+                    {
+                        "name": "species_sum",
+                        "type": "double"
+                    },
+                    {
+                        "name": "species_index",
+                        "type": "double"
+                    },
+                    {
+                        "name": "elevation_class",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plot_size",
+                        "type": "int"
+                    },
+                    {
+                        "name": "aspect",
+                        "type": "int"
+                    },
+                    {
+                        "name": "terrain_position",
+                        "type": "int"
+                    },
+                    {
+                        "name": "bio_plot_soil_depth",
+                        "type": "int"
+                    },
+                    {
+                        "name": "bio_plot_soil_drainage",
+                        "type": "int"
+                    },
+                    {
+                        "name": "bio_plot_disturbance",
+                        "type": "int"
+                    },
+                    {
+                        "name": "p3id",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://www.fia.fs.fed.us/tools-data/other_data/csv/IL.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "il_point_1997",
+            "path": "IL_POINT_1997.CSV",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "last_update",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "state",
+                        "type": "int"
+                    },
+                    {
+                        "name": "state_descr",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "state_abbrev",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "county",
+                        "type": "int"
+                    },
+                    {
+                        "name": "project",
+                        "type": "int"
+                    },
+                    {
+                        "name": "project_descr",
+                        "size": "31",
+                        "type": "char"
+                    },
+                    {
+                        "name": "hexagon_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plot_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "point_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "aspect",
+                        "type": "int"
+                    },
+                    {
+                        "name": "microplot_offset",
+                        "type": "int"
+                    },
+                    {
+                        "name": "subplot_offset",
+                        "type": "int"
+                    },
+                    {
+                        "name": "pct_slope",
+                        "type": "int"
+                    },
+                    {
+                        "name": "slope_correction",
+                        "type": "double"
+                    },
+                    {
+                        "name": "terrain_position",
+                        "type": "int"
+                    },
+                    {
+                        "name": "current_point_status",
+                        "type": "int"
+                    },
+                    {
+                        "name": "microplot_cntr_cond",
+                        "type": "int"
+                    },
+                    {
+                        "name": "subplot_cntr_cond",
+                        "type": "int"
+                    },
+                    {
+                        "name": "subplot_cond_class1",
+                        "type": "int"
+                    },
+                    {
+                        "name": "subplot_cond_class2",
+                        "type": "int"
+                    },
+                    {
+                        "name": "subplot_cond_class3",
+                        "type": "int"
+                    },
+                    {
+                        "name": "subplot_cond_class4",
+                        "type": "int"
+                    },
+                    {
+                        "name": "p3id",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://www.fia.fs.fed.us/tools-data/other_data/csv/IL.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "il_seedling_1997",
+            "path": "IL_SEEDLING_1997.CSV",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "last_update",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "state",
+                        "type": "int"
+                    },
+                    {
+                        "name": "state_descr",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "state_abbrev",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "county",
+                        "type": "int"
+                    },
+                    {
+                        "name": "project",
+                        "type": "int"
+                    },
+                    {
+                        "name": "project_descr",
+                        "size": "31",
+                        "type": "char"
+                    },
+                    {
+                        "name": "hexagon_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plot_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "point_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fhm_species",
+                        "type": "int"
+                    },
+                    {
+                        "name": "species_common_name",
+                        "size": "28",
+                        "type": "char"
+                    },
+                    {
+                        "name": "condition_class_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "crown_exposure",
+                        "type": "int"
+                    },
+                    {
+                        "name": "crown_position",
+                        "type": "int"
+                    },
+                    {
+                        "name": "crown_vigor_class",
+                        "type": "int"
+                    },
+                    {
+                        "name": "nbr_seedlings",
+                        "type": "int"
+                    },
+                    {
+                        "name": "land_use_class",
+                        "type": "int"
+                    },
+                    {
+                        "name": "land_use_class_descr",
+                        "size": "19",
+                        "type": "char"
+                    },
+                    {
+                        "name": "forest_type",
+                        "type": "int"
+                    },
+                    {
+                        "name": "forest_type_descr",
+                        "size": "33",
+                        "type": "char"
+                    },
+                    {
+                        "name": "stand_age",
+                        "type": "int"
+                    },
+                    {
+                        "name": "stand_origin",
+                        "type": "int"
+                    },
+                    {
+                        "name": "stand_size_class",
+                        "type": "int"
+                    },
+                    {
+                        "name": "p3id",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://www.fia.fs.fed.us/tools-data/other_data/csv/IL.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "il_tree_1997",
+            "path": "IL_TREE_1997.CSV",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "last_update",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "state",
+                        "type": "int"
+                    },
+                    {
+                        "name": "state_descr",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "state_abbrev",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "county",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fhm_region",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fhm_region_descr",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "project",
+                        "type": "int"
+                    },
+                    {
+                        "name": "project_descr",
+                        "size": "31",
+                        "type": "char"
+                    },
+                    {
+                        "name": "measurement_type",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plot_status",
+                        "type": "int"
+                    },
+                    {
+                        "name": "hexagon_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plot_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "point_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "tree_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "tree_type",
+                        "type": "int"
+                    },
+                    {
+                        "name": "pk_tree",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fhm_species",
+                        "type": "int"
+                    },
+                    {
+                        "name": "species_common_name",
+                        "size": "28",
+                        "type": "char"
+                    },
+                    {
+                        "name": "current_tree_history",
+                        "type": "int"
+                    },
+                    {
+                        "name": "old_tree_history",
+                        "type": "int"
+                    },
+                    {
+                        "name": "last_history",
+                        "type": "int"
+                    },
+                    {
+                        "name": "field_tree_history",
+                        "type": "int"
+                    },
+                    {
+                        "name": "history_check",
+                        "type": "int"
+                    },
+                    {
+                        "name": "dbh",
+                        "type": "double"
+                    },
+                    {
+                        "name": "dbh_check",
+                        "type": "int"
+                    },
+                    {
+                        "name": "previous_dbh",
+                        "type": "int"
+                    },
+                    {
+                        "name": "estimated_dbh",
+                        "type": "int"
+                    },
+                    {
+                        "name": "remeasured_dbh",
+                        "type": "int"
+                    },
+                    {
+                        "name": "drc",
+                        "type": "int"
+                    },
+                    {
+                        "name": "previous_drc",
+                        "type": "int"
+                    },
+                    {
+                        "name": "estimated_drc",
+                        "type": "int"
+                    },
+                    {
+                        "name": "nbr_stems",
+                        "type": "int"
+                    },
+                    {
+                        "name": "crown_exposure",
+                        "type": "int"
+                    },
+                    {
+                        "name": "crown_position",
+                        "type": "int"
+                    },
+                    {
+                        "name": "crown_density",
+                        "type": "int"
+                    },
+                    {
+                        "name": "crown_diameter_90",
+                        "type": "int"
+                    },
+                    {
+                        "name": "crown_diameter_wide",
+                        "type": "int"
+                    },
+                    {
+                        "name": "crown_dieback",
+                        "type": "int"
+                    },
+                    {
+                        "name": "crown_ratio",
+                        "type": "int"
+                    },
+                    {
+                        "name": "crown_vigor_class",
+                        "type": "int"
+                    },
+                    {
+                        "name": "foliage_transparency",
+                        "type": "int"
+                    },
+                    {
+                        "name": "cause_of_death",
+                        "type": "int"
+                    },
+                    {
+                        "name": "mortality_year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "ground_year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "non_forest_year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "tree_damage1_1997",
+                        "type": "int"
+                    },
+                    {
+                        "name": "tree_damage_loc1_1997",
+                        "type": "int"
+                    },
+                    {
+                        "name": "tree_damage_severity1_1997",
+                        "type": "int"
+                    },
+                    {
+                        "name": "tree_damage2_1997",
+                        "type": "int"
+                    },
+                    {
+                        "name": "tree_damage_loc2_1997",
+                        "type": "int"
+                    },
+                    {
+                        "name": "tree_damage_severity2_1997",
+                        "type": "int"
+                    },
+                    {
+                        "name": "tree_damage3_1997",
+                        "type": "int"
+                    },
+                    {
+                        "name": "tree_damage_loc3_1997",
+                        "type": "int"
+                    },
+                    {
+                        "name": "tree_damage_severity3_1997",
+                        "type": "int"
+                    },
+                    {
+                        "name": "previous_cond_class",
+                        "type": "int"
+                    },
+                    {
+                        "name": "condition_class_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plot_type",
+                        "type": "int"
+                    },
+                    {
+                        "name": "land_use_class",
+                        "type": "int"
+                    },
+                    {
+                        "name": "land_use_class_descr",
+                        "size": "19",
+                        "type": "char"
+                    },
+                    {
+                        "name": "forest_type",
+                        "type": "int"
+                    },
+                    {
+                        "name": "forest_type_descr",
+                        "size": "33",
+                        "type": "char"
+                    },
+                    {
+                        "name": "stand_age",
+                        "type": "int"
+                    },
+                    {
+                        "name": "stand_origin",
+                        "type": "int"
+                    },
+                    {
+                        "name": "stand_size_class",
+                        "type": "int"
+                    },
+                    {
+                        "name": "azimuth",
+                        "type": "int"
+                    },
+                    {
+                        "name": "distance",
+                        "type": "double"
+                    },
+                    {
+                        "name": "distance_reference",
+                        "type": "int"
+                    },
+                    {
+                        "name": "offset_point",
+                        "type": "int"
+                    },
+                    {
+                        "name": "entrance_year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "exit_year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "exit_reason",
+                        "type": "int"
+                    },
+                    {
+                        "name": "last_tally_year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "previous_tally_year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "mensuration_year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "last_mensuration_year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "year_determined_extra",
+                        "type": "int"
+                    },
+                    {
+                        "name": "year_determined_missing",
+                        "type": "int"
+                    },
+                    {
+                        "name": "tree_note",
+                        "size": "34",
+                        "type": "char"
+                    },
+                    {
+                        "name": "office_note_year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "office_note_short",
+                        "type": "int"
+                    },
+                    {
+                        "name": "office_note_long",
+                        "type": "int"
+                    },
+                    {
+                        "name": "year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "p3id",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://www.fia.fs.fed.us/tools-data/other_data/csv/IL.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "il_plot_1997",
+            "path": "IL_PLOT_1997.CSV",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "last_update",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "state",
+                        "type": "int"
+                    },
+                    {
+                        "name": "state_descr",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "state_abbrev",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "county",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fhm_region",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fhm_region_descr",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "project",
+                        "type": "int"
+                    },
+                    {
+                        "name": "project_descr",
+                        "size": "31",
+                        "type": "char"
+                    },
+                    {
+                        "name": "measurement_type",
+                        "type": "int"
+                    },
+                    {
+                        "name": "panel",
+                        "type": "int"
+                    },
+                    {
+                        "name": "overlap",
+                        "type": "int"
+                    },
+                    {
+                        "name": "hierarchial_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "grid_intensification",
+                        "type": "int"
+                    },
+                    {
+                        "name": "ecoregion_code",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "hexagon_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plot_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plot_status",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plot_status_descr",
+                        "size": "31",
+                        "type": "char"
+                    },
+                    {
+                        "name": "project_type",
+                        "type": "int"
+                    },
+                    {
+                        "name": "qa_status",
+                        "type": "int"
+                    },
+                    {
+                        "name": "qa_status_descr",
+                        "size": "19",
+                        "type": "char"
+                    },
+                    {
+                        "name": "elevation_class",
+                        "type": "int"
+                    },
+                    {
+                        "name": "inclusion_probability",
+                        "type": "int"
+                    },
+                    {
+                        "name": "last_plot_mens_year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "last_plot_tally_year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "last_plot_visit_year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "previous_visit_year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plot_cond_class_year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "cond_class_year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plot_entrance_year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plot_exit_year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plot_exit_reason",
+                        "type": "int"
+                    },
+                    {
+                        "name": "month",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "day",
+                        "type": "int"
+                    },
+                    {
+                        "name": "year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "crew_tally1",
+                        "type": "int"
+                    },
+                    {
+                        "name": "crew_tally2",
+                        "type": "int"
+                    },
+                    {
+                        "name": "crew_tally3",
+                        "type": "int"
+                    },
+                    {
+                        "name": "crew_tally4",
+                        "type": "int"
+                    },
+                    {
+                        "name": "crew_tally5",
+                        "type": "int"
+                    },
+                    {
+                        "name": "crew_type_1994",
+                        "type": "int"
+                    },
+                    {
+                        "name": "crew_type_1994_descr",
+                        "size": "19",
+                        "type": "char"
+                    },
+                    {
+                        "name": "disturb_year1",
+                        "type": "int"
+                    },
+                    {
+                        "name": "past_disturb1_1997",
+                        "type": "int"
+                    },
+                    {
+                        "name": "disturb_year2",
+                        "type": "int"
+                    },
+                    {
+                        "name": "past_disturb2_1997",
+                        "type": "int"
+                    },
+                    {
+                        "name": "disturb_year3",
+                        "type": "int"
+                    },
+                    {
+                        "name": "past_disturb3_1997",
+                        "type": "int"
+                    },
+                    {
+                        "name": "cntr_land_use_1",
+                        "type": "int"
+                    },
+                    {
+                        "name": "cntr_land_use_2",
+                        "type": "int"
+                    },
+                    {
+                        "name": "cntr_land_use_3",
+                        "type": "int"
+                    },
+                    {
+                        "name": "cntr_land_use_4",
+                        "type": "int"
+                    },
+                    {
+                        "name": "elevation",
+                        "type": "int"
+                    },
+                    {
+                        "name": "p3id",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://www.fia.fs.fed.us/tools-data/other_data/csv/IL.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "il_understory_1999",
+            "path": "IL_UNDERSTORY_1999.CSV",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "last_update",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "state",
+                        "type": "int"
+                    },
+                    {
+                        "name": "state_descr",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "state_abbrev",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "county",
+                        "type": "int"
+                    },
+                    {
+                        "name": "project",
+                        "type": "int"
+                    },
+                    {
+                        "name": "project_descr",
+                        "size": "31",
+                        "type": "char"
+                    },
+                    {
+                        "name": "hexagon_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plot_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "point_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "pct_ferns",
+                        "type": "int"
+                    },
+                    {
+                        "name": "pct_herbs_1998",
+                        "type": "int"
+                    },
+                    {
+                        "name": "pct_moss_1998",
+                        "type": "int"
+                    },
+                    {
+                        "name": "pct_seedlings",
+                        "type": "int"
+                    },
+                    {
+                        "name": "pct_shrubs",
+                        "type": "int"
+                    },
+                    {
+                        "name": "p3id",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://www.fia.fs.fed.us/tools-data/other_data/csv/IL.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "il_site_tree_1997",
+            "path": "IL_SITE_TREE_1997.CSV",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "last_update",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "state",
+                        "type": "int"
+                    },
+                    {
+                        "name": "state_descr",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "state_abbrev",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "county",
+                        "type": "int"
+                    },
+                    {
+                        "name": "project",
+                        "type": "int"
+                    },
+                    {
+                        "name": "project_descr",
+                        "size": "31",
+                        "type": "char"
+                    },
+                    {
+                        "name": "hexagon_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plot_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "point_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plot_tree_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "site_tree_type",
+                        "type": "int"
+                    },
+                    {
+                        "name": "pk_site_tree",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fhm_species",
+                        "type": "int"
+                    },
+                    {
+                        "name": "species_common_name",
+                        "size": "18",
+                        "type": "char"
+                    },
+                    {
+                        "name": "dbh",
+                        "type": "double"
+                    },
+                    {
+                        "name": "drc",
+                        "type": "int"
+                    },
+                    {
+                        "name": "crown_exposure",
+                        "type": "int"
+                    },
+                    {
+                        "name": "crown_position",
+                        "type": "int"
+                    },
+                    {
+                        "name": "competing_basal_area",
+                        "type": "int"
+                    },
+                    {
+                        "name": "crown_density",
+                        "type": "int"
+                    },
+                    {
+                        "name": "crown_diameter_90",
+                        "type": "int"
+                    },
+                    {
+                        "name": "crown_diameter_wide",
+                        "type": "int"
+                    },
+                    {
+                        "name": "crown_dieback",
+                        "type": "int"
+                    },
+                    {
+                        "name": "crown_ratio",
+                        "type": "int"
+                    },
+                    {
+                        "name": "nbr_stems",
+                        "type": "int"
+                    },
+                    {
+                        "name": "foliage_transparency",
+                        "type": "int"
+                    },
+                    {
+                        "name": "tree_damage1_1997",
+                        "type": "int"
+                    },
+                    {
+                        "name": "tree_damage_loc1_1997",
+                        "type": "int"
+                    },
+                    {
+                        "name": "tree_damage_severity1_1997",
+                        "type": "int"
+                    },
+                    {
+                        "name": "tree_damage2_1997",
+                        "type": "int"
+                    },
+                    {
+                        "name": "tree_damage_loc2_1997",
+                        "type": "int"
+                    },
+                    {
+                        "name": "tree_damage_severity2_1997",
+                        "type": "int"
+                    },
+                    {
+                        "name": "tree_damage3_1997",
+                        "type": "int"
+                    },
+                    {
+                        "name": "tree_damage_loc3_1997",
+                        "type": "int"
+                    },
+                    {
+                        "name": "tree_damage_severity3_1997",
+                        "type": "int"
+                    },
+                    {
+                        "name": "condition_class_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "land_use_class",
+                        "type": "int"
+                    },
+                    {
+                        "name": "land_use_class_descr",
+                        "size": "19",
+                        "type": "char"
+                    },
+                    {
+                        "name": "forest_type",
+                        "type": "int"
+                    },
+                    {
+                        "name": "forest_type_descr",
+                        "size": "33",
+                        "type": "char"
+                    },
+                    {
+                        "name": "stand_age",
+                        "type": "int"
+                    },
+                    {
+                        "name": "stand_origin",
+                        "type": "int"
+                    },
+                    {
+                        "name": "stand_size_class",
+                        "type": "int"
+                    },
+                    {
+                        "name": "azimuth",
+                        "type": "int"
+                    },
+                    {
+                        "name": "distance",
+                        "type": "double"
+                    },
+                    {
+                        "name": "entrance_year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "exit_year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "exit_reason",
+                        "type": "int"
+                    },
+                    {
+                        "name": "tree_age",
+                        "type": "int"
+                    },
+                    {
+                        "name": "tree_height",
+                        "type": "int"
+                    },
+                    {
+                        "name": "tree_note",
+                        "size": "32",
+                        "type": "char"
+                    },
+                    {
+                        "name": "office_note_year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "office_note_short",
+                        "type": "int"
+                    },
+                    {
+                        "name": "office_note_long",
+                        "type": "int"
+                    },
+                    {
+                        "name": "site_tree_history",
+                        "type": "int"
+                    },
+                    {
+                        "name": "current_tree_age",
+                        "type": "int"
+                    },
+                    {
+                        "name": "p3id",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://www.fia.fs.fed.us/tools-data/other_data/csv/IL.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "il_o3_plot_summary_1997",
+            "path": "IL_O3_PLOT_SUMMARY_1997.CSV",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "state_descr",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "state",
+                        "type": "int"
+                    },
+                    {
+                        "name": "state_abbrev",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "county",
+                        "type": "int"
+                    },
+                    {
+                        "name": "federal_region",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fhm_mega_region",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "project",
+                        "type": "int"
+                    },
+                    {
+                        "name": "hexagon_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plot_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "species_eval_cnt",
+                        "type": "int"
+                    },
+                    {
+                        "name": "biosite_index",
+                        "type": "double"
+                    },
+                    {
+                        "name": "elevation_class",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plot_size",
+                        "type": "int"
+                    },
+                    {
+                        "name": "aspect",
+                        "type": "int"
+                    },
+                    {
+                        "name": "terrain_position",
+                        "type": "int"
+                    },
+                    {
+                        "name": "bio_plot_soil_depth",
+                        "type": "int"
+                    },
+                    {
+                        "name": "bio_plot_soil_drainage",
+                        "type": "int"
+                    },
+                    {
+                        "name": "bio_plot_disturbance",
+                        "type": "int"
+                    },
+                    {
+                        "name": "p3id",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://www.fia.fs.fed.us/tools-data/other_data/csv/IL.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "il_understory_1998",
+            "path": "IL_UNDERSTORY_1998.CSV",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "last_update",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "state",
+                        "type": "int"
+                    },
+                    {
+                        "name": "state_descr",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "state_abbrev",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "county",
+                        "type": "int"
+                    },
+                    {
+                        "name": "project",
+                        "type": "int"
+                    },
+                    {
+                        "name": "project_descr",
+                        "size": "31",
+                        "type": "char"
+                    },
+                    {
+                        "name": "hexagon_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plot_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "point_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "pct_ferns",
+                        "type": "int"
+                    },
+                    {
+                        "name": "pct_herbs_1998",
+                        "type": "int"
+                    },
+                    {
+                        "name": "pct_moss_1998",
+                        "type": "int"
+                    },
+                    {
+                        "name": "pct_seedlings",
+                        "type": "int"
+                    },
+                    {
+                        "name": "pct_shrubs",
+                        "type": "int"
+                    },
+                    {
+                        "name": "p3id",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://www.fia.fs.fed.us/tools-data/other_data/csv/IL.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "il_plot_cond_class_1997",
+            "path": "IL_PLOT_COND_CLASS_1997.CSV",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "last_update",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "state",
+                        "type": "int"
+                    },
+                    {
+                        "name": "state_descr",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "state_abbrev",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "county",
+                        "type": "int"
+                    },
+                    {
+                        "name": "project",
+                        "type": "int"
+                    },
+                    {
+                        "name": "project_descr",
+                        "size": "31",
+                        "type": "char"
+                    },
+                    {
+                        "name": "hexagon_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plot_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "condition_class_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "land_use_class",
+                        "type": "int"
+                    },
+                    {
+                        "name": "land_use_class_descr",
+                        "size": "27",
+                        "type": "char"
+                    },
+                    {
+                        "name": "forest_type",
+                        "type": "int"
+                    },
+                    {
+                        "name": "forest_type_descr",
+                        "size": "33",
+                        "type": "char"
+                    },
+                    {
+                        "name": "plot_area_pct",
+                        "type": "double"
+                    },
+                    {
+                        "name": "stand_age",
+                        "type": "int"
+                    },
+                    {
+                        "name": "stand_origin",
+                        "type": "int"
+                    },
+                    {
+                        "name": "stand_size_class",
+                        "type": "int"
+                    },
+                    {
+                        "name": "disturb_year1",
+                        "type": "int"
+                    },
+                    {
+                        "name": "past_disturb1_1997",
+                        "type": "int"
+                    },
+                    {
+                        "name": "disturb_year2",
+                        "type": "int"
+                    },
+                    {
+                        "name": "past_disturb2_1997",
+                        "type": "int"
+                    },
+                    {
+                        "name": "disturb_year3",
+                        "type": "int"
+                    },
+                    {
+                        "name": "past_disturb3_1997",
+                        "type": "int"
+                    },
+                    {
+                        "name": "condition_class_change",
+                        "type": "int"
+                    },
+                    {
+                        "name": "p3id",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://www.fia.fs.fed.us/tools-data/other_data/csv/IL.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "il_boundary_1997",
+            "path": "IL_BOUNDARY_1997.CSV",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "last_update",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "state",
+                        "type": "int"
+                    },
+                    {
+                        "name": "state_descr",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "state_abbrev",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "county",
+                        "type": "int"
+                    },
+                    {
+                        "name": "project",
+                        "type": "int"
+                    },
+                    {
+                        "name": "project_descr",
+                        "size": "31",
+                        "type": "char"
+                    },
+                    {
+                        "name": "hexagon_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plot_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "point_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "condition_class_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plot_type",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plot_type_descr",
+                        "size": "18",
+                        "type": "char"
+                    },
+                    {
+                        "name": "offset_point",
+                        "type": "int"
+                    },
+                    {
+                        "name": "corner_azimuth",
+                        "type": "int"
+                    },
+                    {
+                        "name": "corner_distance",
+                        "type": "double"
+                    },
+                    {
+                        "name": "left_azimuth",
+                        "type": "int"
+                    },
+                    {
+                        "name": "left_distance",
+                        "type": "int"
+                    },
+                    {
+                        "name": "right_azimuth",
+                        "type": "int"
+                    },
+                    {
+                        "name": "right_distance",
+                        "type": "int"
+                    },
+                    {
+                        "name": "boundary_change",
+                        "type": "int"
+                    },
+                    {
+                        "name": "p3id",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://www.fia.fs.fed.us/tools-data/other_data/csv/IL.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "il_plot_cond_class_1999",
+            "path": "IL_PLOT_COND_CLASS_1999.CSV",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "last_update",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "state",
+                        "type": "int"
+                    },
+                    {
+                        "name": "state_descr",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "state_abbrev",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "county",
+                        "type": "int"
+                    },
+                    {
+                        "name": "project",
+                        "type": "int"
+                    },
+                    {
+                        "name": "project_descr",
+                        "size": "31",
+                        "type": "char"
+                    },
+                    {
+                        "name": "hexagon_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plot_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "condition_class_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "land_use_class",
+                        "type": "int"
+                    },
+                    {
+                        "name": "land_use_class_descr",
+                        "size": "27",
+                        "type": "char"
+                    },
+                    {
+                        "name": "forest_type",
+                        "type": "int"
+                    },
+                    {
+                        "name": "forest_type_descr",
+                        "size": "33",
+                        "type": "char"
+                    },
+                    {
+                        "name": "plot_area_pct",
+                        "type": "double"
+                    },
+                    {
+                        "name": "stand_age",
+                        "type": "int"
+                    },
+                    {
+                        "name": "stand_origin",
+                        "type": "int"
+                    },
+                    {
+                        "name": "stand_size_class",
+                        "type": "int"
+                    },
+                    {
+                        "name": "stand_density_check",
+                        "type": "int"
+                    },
+                    {
+                        "name": "disturb_year1",
+                        "type": "int"
+                    },
+                    {
+                        "name": "past_disturb1_1999",
+                        "type": "int"
+                    },
+                    {
+                        "name": "disturb_year2",
+                        "type": "int"
+                    },
+                    {
+                        "name": "past_disturb2_1999",
+                        "type": "int"
+                    },
+                    {
+                        "name": "disturb_year3",
+                        "type": "int"
+                    },
+                    {
+                        "name": "past_disturb3_1999",
+                        "type": "int"
+                    },
+                    {
+                        "name": "condition_class_change",
+                        "type": "int"
+                    },
+                    {
+                        "name": "p3id",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://www.fia.fs.fed.us/tools-data/other_data/csv/IL.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "il_plot_cond_class_1998",
+            "path": "IL_PLOT_COND_CLASS_1998.CSV",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "last_update",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "state",
+                        "type": "int"
+                    },
+                    {
+                        "name": "state_descr",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "state_abbrev",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "county",
+                        "type": "int"
+                    },
+                    {
+                        "name": "project",
+                        "type": "int"
+                    },
+                    {
+                        "name": "project_descr",
+                        "size": "31",
+                        "type": "char"
+                    },
+                    {
+                        "name": "hexagon_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plot_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "condition_class_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "land_use_class",
+                        "type": "int"
+                    },
+                    {
+                        "name": "land_use_class_descr",
+                        "size": "27",
+                        "type": "char"
+                    },
+                    {
+                        "name": "forest_type",
+                        "type": "int"
+                    },
+                    {
+                        "name": "forest_type_descr",
+                        "size": "32",
+                        "type": "char"
+                    },
+                    {
+                        "name": "plot_area_pct",
+                        "type": "double"
+                    },
+                    {
+                        "name": "stand_age",
+                        "type": "int"
+                    },
+                    {
+                        "name": "stand_origin",
+                        "type": "int"
+                    },
+                    {
+                        "name": "stand_size_class",
+                        "type": "int"
+                    },
+                    {
+                        "name": "stand_density_check",
+                        "type": "int"
+                    },
+                    {
+                        "name": "disturb_year1",
+                        "type": "int"
+                    },
+                    {
+                        "name": "past_disturb1_1998",
+                        "type": "int"
+                    },
+                    {
+                        "name": "disturb_year2",
+                        "type": "int"
+                    },
+                    {
+                        "name": "past_disturb2_1998",
+                        "type": "int"
+                    },
+                    {
+                        "name": "disturb_year3",
+                        "type": "int"
+                    },
+                    {
+                        "name": "past_disturb3_1998",
+                        "type": "int"
+                    },
+                    {
+                        "name": "condition_class_change",
+                        "type": "int"
+                    },
+                    {
+                        "name": "p3id",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://www.fia.fs.fed.us/tools-data/other_data/csv/IL.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "il_boundary_1998",
+            "path": "IL_BOUNDARY_1998.CSV",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "last_update",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "state",
+                        "type": "int"
+                    },
+                    {
+                        "name": "state_descr",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "state_abbrev",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "county",
+                        "type": "int"
+                    },
+                    {
+                        "name": "project",
+                        "type": "int"
+                    },
+                    {
+                        "name": "project_descr",
+                        "size": "31",
+                        "type": "char"
+                    },
+                    {
+                        "name": "hexagon_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plot_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "point_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "condition_class_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plot_type",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plot_type_descr",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "offset_point",
+                        "type": "int"
+                    },
+                    {
+                        "name": "corner_azimuth",
+                        "type": "int"
+                    },
+                    {
+                        "name": "corner_distance",
+                        "type": "int"
+                    },
+                    {
+                        "name": "left_azimuth",
+                        "type": "int"
+                    },
+                    {
+                        "name": "left_distance",
+                        "type": "int"
+                    },
+                    {
+                        "name": "right_azimuth",
+                        "type": "int"
+                    },
+                    {
+                        "name": "right_distance",
+                        "type": "int"
+                    },
+                    {
+                        "name": "boundary_change",
+                        "type": "int"
+                    },
+                    {
+                        "name": "p3id",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://www.fia.fs.fed.us/tools-data/other_data/csv/IL.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "il_boundary_1999",
+            "path": "IL_BOUNDARY_1999.CSV",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "last_update",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "state",
+                        "type": "int"
+                    },
+                    {
+                        "name": "state_descr",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "state_abbrev",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "county",
+                        "type": "int"
+                    },
+                    {
+                        "name": "project",
+                        "type": "int"
+                    },
+                    {
+                        "name": "project_descr",
+                        "size": "31",
+                        "type": "char"
+                    },
+                    {
+                        "name": "hexagon_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plot_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "point_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "condition_class_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plot_type",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plot_type_descr",
+                        "size": "18",
+                        "type": "char"
+                    },
+                    {
+                        "name": "offset_point",
+                        "type": "int"
+                    },
+                    {
+                        "name": "corner_azimuth",
+                        "type": "int"
+                    },
+                    {
+                        "name": "corner_distance",
+                        "type": "int"
+                    },
+                    {
+                        "name": "left_azimuth",
+                        "type": "int"
+                    },
+                    {
+                        "name": "left_distance",
+                        "type": "int"
+                    },
+                    {
+                        "name": "right_azimuth",
+                        "type": "int"
+                    },
+                    {
+                        "name": "right_distance",
+                        "type": "int"
+                    },
+                    {
+                        "name": "boundary_change",
+                        "type": "int"
+                    },
+                    {
+                        "name": "p3id",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://www.fia.fs.fed.us/tools-data/other_data/csv/IL.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "il_lichen_abundance_1998",
+            "path": "IL_LICHEN_ABUNDANCE_1998.CSV",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "last_update",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "state",
+                        "type": "int"
+                    },
+                    {
+                        "name": "state_descr",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "state_abbrev",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "county",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fhm_region",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fhm_region_descr",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "project",
+                        "type": "int"
+                    },
+                    {
+                        "name": "project_descr",
+                        "size": "31",
+                        "type": "char"
+                    },
+                    {
+                        "name": "measurement_type",
+                        "type": "int"
+                    },
+                    {
+                        "name": "panel",
+                        "type": "int"
+                    },
+                    {
+                        "name": "overlap",
+                        "type": "int"
+                    },
+                    {
+                        "name": "hierarchial_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "grid_intensification",
+                        "type": "int"
+                    },
+                    {
+                        "name": "ecoregion_code",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "hexagon_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plot_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plot_status",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plot_status_descr",
+                        "size": "31",
+                        "type": "char"
+                    },
+                    {
+                        "name": "project_type",
+                        "type": "int"
+                    },
+                    {
+                        "name": "qa_status",
+                        "type": "int"
+                    },
+                    {
+                        "name": "qa_status_descr",
+                        "size": "19",
+                        "type": "char"
+                    },
+                    {
+                        "name": "lichen_species_code",
+                        "type": "int"
+                    },
+                    {
+                        "name": "genus",
+                        "size": "13",
+                        "type": "char"
+                    },
+                    {
+                        "name": "species",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "abundance_class",
+                        "type": "int"
+                    },
+                    {
+                        "name": "p3id",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://www.fia.fs.fed.us/tools-data/other_data/csv/IL.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "il_lichen_abundance_1999",
+            "path": "IL_LICHEN_ABUNDANCE_1999.CSV",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "last_update",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "state",
+                        "type": "int"
+                    },
+                    {
+                        "name": "state_descr",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "state_abbrev",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "county",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fhm_region",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fhm_region_descr",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "project",
+                        "type": "int"
+                    },
+                    {
+                        "name": "project_descr",
+                        "size": "31",
+                        "type": "char"
+                    },
+                    {
+                        "name": "measurement_type",
+                        "type": "int"
+                    },
+                    {
+                        "name": "panel",
+                        "type": "int"
+                    },
+                    {
+                        "name": "overlap",
+                        "type": "int"
+                    },
+                    {
+                        "name": "hierarchial_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "grid_intensification",
+                        "type": "int"
+                    },
+                    {
+                        "name": "ecoregion_code",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "hexagon_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plot_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plot_status",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plot_status_descr",
+                        "size": "31",
+                        "type": "char"
+                    },
+                    {
+                        "name": "project_type",
+                        "type": "int"
+                    },
+                    {
+                        "name": "qa_status",
+                        "type": "int"
+                    },
+                    {
+                        "name": "qa_status_descr",
+                        "size": "19",
+                        "type": "char"
+                    },
+                    {
+                        "name": "lichen_species_code",
+                        "type": "int"
+                    },
+                    {
+                        "name": "genus",
+                        "size": "13",
+                        "type": "char"
+                    },
+                    {
+                        "name": "species",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "abundance_class",
+                        "type": "int"
+                    },
+                    {
+                        "name": "p3id",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://www.fia.fs.fed.us/tools-data/other_data/csv/IL.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "il_o3_plot_summary_1999",
+            "path": "IL_O3_PLOT_SUMMARY_1999.CSV",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "state_descr",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "state",
+                        "type": "int"
+                    },
+                    {
+                        "name": "state_abbrev",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "county",
+                        "type": "int"
+                    },
+                    {
+                        "name": "federal_region",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fhm_mega_region",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "project",
+                        "type": "int"
+                    },
+                    {
+                        "name": "hexagon_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plot_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "species_eval_cnt",
+                        "type": "int"
+                    },
+                    {
+                        "name": "biosite_index",
+                        "type": "double"
+                    },
+                    {
+                        "name": "elevation",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plot_size",
+                        "type": "int"
+                    },
+                    {
+                        "name": "aspect",
+                        "type": "int"
+                    },
+                    {
+                        "name": "terrain_position",
+                        "type": "int"
+                    },
+                    {
+                        "name": "bio_plot_soil_depth",
+                        "type": "int"
+                    },
+                    {
+                        "name": "bio_plot_soil_drainage",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plot_wetness",
+                        "type": "int"
+                    },
+                    {
+                        "name": "bio_plot_disturbance",
+                        "type": "int"
+                    },
+                    {
+                        "name": "p3id",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://www.fia.fs.fed.us/tools-data/other_data/csv/IL.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "il_site_tree_1998",
+            "path": "IL_SITE_TREE_1998.CSV",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "last_update",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "state",
+                        "type": "int"
+                    },
+                    {
+                        "name": "state_descr",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "state_abbrev",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "county",
+                        "type": "int"
+                    },
+                    {
+                        "name": "project",
+                        "type": "int"
+                    },
+                    {
+                        "name": "project_descr",
+                        "size": "31",
+                        "type": "char"
+                    },
+                    {
+                        "name": "hexagon_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plot_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "point_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plot_tree_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "site_tree_type",
+                        "type": "int"
+                    },
+                    {
+                        "name": "pk_site_tree",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fhm_species",
+                        "type": "int"
+                    },
+                    {
+                        "name": "species_common_name",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "dbh",
+                        "type": "double"
+                    },
+                    {
+                        "name": "drc",
+                        "type": "int"
+                    },
+                    {
+                        "name": "crown_light_exposure",
+                        "type": "int"
+                    },
+                    {
+                        "name": "crown_position",
+                        "type": "int"
+                    },
+                    {
+                        "name": "competing_basal_area",
+                        "type": "int"
+                    },
+                    {
+                        "name": "crown_density",
+                        "type": "int"
+                    },
+                    {
+                        "name": "crown_diameter_90",
+                        "type": "int"
+                    },
+                    {
+                        "name": "crown_diameter_wide",
+                        "type": "int"
+                    },
+                    {
+                        "name": "crown_dieback",
+                        "type": "int"
+                    },
+                    {
+                        "name": "crown_ratio",
+                        "type": "int"
+                    },
+                    {
+                        "name": "nbr_stems",
+                        "type": "int"
+                    },
+                    {
+                        "name": "foliage_transparency",
+                        "type": "int"
+                    },
+                    {
+                        "name": "tree_damage1_1998",
+                        "type": "int"
+                    },
+                    {
+                        "name": "tree_damage_loc1_1998",
+                        "type": "int"
+                    },
+                    {
+                        "name": "tree_damage_severity1_1998",
+                        "type": "int"
+                    },
+                    {
+                        "name": "tree_damage2_1998",
+                        "type": "int"
+                    },
+                    {
+                        "name": "tree_damage_loc2_1998",
+                        "type": "int"
+                    },
+                    {
+                        "name": "tree_damage_severity2_1998",
+                        "type": "int"
+                    },
+                    {
+                        "name": "tree_damage3_1998",
+                        "type": "int"
+                    },
+                    {
+                        "name": "tree_damage_loc3_1998",
+                        "type": "int"
+                    },
+                    {
+                        "name": "tree_damage_severity3_1998",
+                        "type": "int"
+                    },
+                    {
+                        "name": "condition_class_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "land_use_class",
+                        "type": "int"
+                    },
+                    {
+                        "name": "land_use_class_descr",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "forest_type",
+                        "type": "int"
+                    },
+                    {
+                        "name": "forest_type_descr",
+                        "size": "32",
+                        "type": "char"
+                    },
+                    {
+                        "name": "stand_age",
+                        "type": "int"
+                    },
+                    {
+                        "name": "stand_origin",
+                        "type": "int"
+                    },
+                    {
+                        "name": "stand_size_class",
+                        "type": "int"
+                    },
+                    {
+                        "name": "stand_density_check",
+                        "type": "int"
+                    },
+                    {
+                        "name": "azimuth",
+                        "type": "int"
+                    },
+                    {
+                        "name": "distance",
+                        "type": "double"
+                    },
+                    {
+                        "name": "entrance_year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "exit_year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "exit_reason",
+                        "type": "int"
+                    },
+                    {
+                        "name": "tree_age",
+                        "type": "int"
+                    },
+                    {
+                        "name": "tree_height",
+                        "type": "int"
+                    },
+                    {
+                        "name": "tree_note",
+                        "size": "28",
+                        "type": "char"
+                    },
+                    {
+                        "name": "office_note_year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "office_note_short",
+                        "type": "int"
+                    },
+                    {
+                        "name": "office_note_long",
+                        "type": "int"
+                    },
+                    {
+                        "name": "site_tree_history",
+                        "type": "int"
+                    },
+                    {
+                        "name": "current_tree_age",
+                        "type": "int"
+                    },
+                    {
+                        "name": "p3id",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://www.fia.fs.fed.us/tools-data/other_data/csv/IL.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "il_site_tree_1999",
+            "path": "IL_SITE_TREE_1999.CSV",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "last_update",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "state",
+                        "type": "int"
+                    },
+                    {
+                        "name": "state_descr",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "state_abbrev",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "county",
+                        "type": "int"
+                    },
+                    {
+                        "name": "project",
+                        "type": "int"
+                    },
+                    {
+                        "name": "project_descr",
+                        "size": "31",
+                        "type": "char"
+                    },
+                    {
+                        "name": "hexagon_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plot_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "point_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plot_tree_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "site_tree_type",
+                        "type": "int"
+                    },
+                    {
+                        "name": "pk_site_tree",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fhm_species",
+                        "type": "int"
+                    },
+                    {
+                        "name": "species_common_name",
+                        "size": "18",
+                        "type": "char"
+                    },
+                    {
+                        "name": "dbh",
+                        "type": "double"
+                    },
+                    {
+                        "name": "drc",
+                        "type": "int"
+                    },
+                    {
+                        "name": "crown_light_exposure",
+                        "type": "int"
+                    },
+                    {
+                        "name": "crown_position",
+                        "type": "int"
+                    },
+                    {
+                        "name": "competing_basal_area",
+                        "type": "int"
+                    },
+                    {
+                        "name": "crown_density",
+                        "type": "int"
+                    },
+                    {
+                        "name": "crown_diameter_90",
+                        "type": "int"
+                    },
+                    {
+                        "name": "crown_diameter_wide",
+                        "type": "int"
+                    },
+                    {
+                        "name": "crown_dieback",
+                        "type": "int"
+                    },
+                    {
+                        "name": "crown_ratio",
+                        "type": "int"
+                    },
+                    {
+                        "name": "nbr_stems",
+                        "type": "int"
+                    },
+                    {
+                        "name": "foliage_transparency",
+                        "type": "int"
+                    },
+                    {
+                        "name": "tree_damage1_1999",
+                        "type": "int"
+                    },
+                    {
+                        "name": "tree_damage_loc1_1999",
+                        "type": "int"
+                    },
+                    {
+                        "name": "tree_damage_severity1_1999",
+                        "type": "int"
+                    },
+                    {
+                        "name": "tree_damage2_1999",
+                        "type": "int"
+                    },
+                    {
+                        "name": "tree_damage_loc2_1999",
+                        "type": "int"
+                    },
+                    {
+                        "name": "tree_damage_severity2_1999",
+                        "type": "int"
+                    },
+                    {
+                        "name": "tree_damage3_1999",
+                        "type": "int"
+                    },
+                    {
+                        "name": "tree_damage_loc3_1999",
+                        "type": "int"
+                    },
+                    {
+                        "name": "tree_damage_severity3_1999",
+                        "type": "int"
+                    },
+                    {
+                        "name": "condition_class_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "land_use_class",
+                        "type": "int"
+                    },
+                    {
+                        "name": "land_use_class_descr",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "forest_type",
+                        "type": "int"
+                    },
+                    {
+                        "name": "forest_type_descr",
+                        "size": "33",
+                        "type": "char"
+                    },
+                    {
+                        "name": "stand_age",
+                        "type": "int"
+                    },
+                    {
+                        "name": "stand_origin",
+                        "type": "int"
+                    },
+                    {
+                        "name": "stand_size_class",
+                        "type": "int"
+                    },
+                    {
+                        "name": "stand_density_check",
+                        "type": "int"
+                    },
+                    {
+                        "name": "azimuth",
+                        "type": "int"
+                    },
+                    {
+                        "name": "distance",
+                        "type": "double"
+                    },
+                    {
+                        "name": "entrance_year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "exit_year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "exit_reason",
+                        "type": "int"
+                    },
+                    {
+                        "name": "tree_age",
+                        "type": "int"
+                    },
+                    {
+                        "name": "tree_height",
+                        "type": "int"
+                    },
+                    {
+                        "name": "tree_note",
+                        "type": "int"
+                    },
+                    {
+                        "name": "office_note_year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "office_note_short",
+                        "type": "int"
+                    },
+                    {
+                        "name": "office_note_long",
+                        "type": "int"
+                    },
+                    {
+                        "name": "site_tree_history",
+                        "type": "int"
+                    },
+                    {
+                        "name": "current_tree_age",
+                        "type": "int"
+                    },
+                    {
+                        "name": "p3id",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://www.fia.fs.fed.us/tools-data/other_data/csv/IL.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "il_o3_plot_summary_1998",
+            "path": "IL_O3_PLOT_SUMMARY_1998.CSV",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "state_descr",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "state",
+                        "type": "int"
+                    },
+                    {
+                        "name": "state_abbrev",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "county",
+                        "type": "int"
+                    },
+                    {
+                        "name": "federal_region",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fhm_mega_region",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "project",
+                        "type": "int"
+                    },
+                    {
+                        "name": "hexagon_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plot_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "species_eval_cnt",
+                        "type": "int"
+                    },
+                    {
+                        "name": "biosite_index",
+                        "type": "double"
+                    },
+                    {
+                        "name": "elevation",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plot_size",
+                        "type": "int"
+                    },
+                    {
+                        "name": "aspect",
+                        "type": "int"
+                    },
+                    {
+                        "name": "terrain_position",
+                        "type": "int"
+                    },
+                    {
+                        "name": "bio_plot_soil_depth",
+                        "type": "int"
+                    },
+                    {
+                        "name": "bio_plot_soil_drainage",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plot_wetness",
+                        "type": "int"
+                    },
+                    {
+                        "name": "bio_plot_disturbance",
+                        "type": "int"
+                    },
+                    {
+                        "name": "p3id",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://www.fia.fs.fed.us/tools-data/other_data/csv/IL.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "il_understory_1997",
+            "path": "IL_UNDERSTORY_1997.CSV",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "last_update",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "state",
+                        "type": "int"
+                    },
+                    {
+                        "name": "state_descr",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "state_abbrev",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "county",
+                        "type": "int"
+                    },
+                    {
+                        "name": "project",
+                        "type": "int"
+                    },
+                    {
+                        "name": "project_descr",
+                        "size": "31",
+                        "type": "char"
+                    },
+                    {
+                        "name": "hexagon_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plot_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "point_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "pct_ferns",
+                        "type": "int"
+                    },
+                    {
+                        "name": "pct_herbs",
+                        "type": "int"
+                    },
+                    {
+                        "name": "pct_lichens",
+                        "type": "int"
+                    },
+                    {
+                        "name": "pct_moss",
+                        "type": "int"
+                    },
+                    {
+                        "name": "pct_seedlings",
+                        "type": "int"
+                    },
+                    {
+                        "name": "pct_shrubs",
+                        "type": "int"
+                    },
+                    {
+                        "name": "pct_vines",
+                        "type": "int"
+                    },
+                    {
+                        "name": "p3id",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://www.fia.fs.fed.us/tools-data/other_data/csv/IL.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "il_plot_1999",
+            "path": "IL_PLOT_1999.CSV",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "last_update",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "state",
+                        "type": "int"
+                    },
+                    {
+                        "name": "state_descr",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "state_abbrev",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "county",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fhm_region",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fhm_region_descr",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "project",
+                        "type": "int"
+                    },
+                    {
+                        "name": "project_descr",
+                        "size": "31",
+                        "type": "char"
+                    },
+                    {
+                        "name": "measurement_type",
+                        "type": "int"
+                    },
+                    {
+                        "name": "panel",
+                        "type": "int"
+                    },
+                    {
+                        "name": "overlap",
+                        "type": "int"
+                    },
+                    {
+                        "name": "hierarchial_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "grid_intensification",
+                        "type": "int"
+                    },
+                    {
+                        "name": "ecoregion_code",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "hexagon_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plot_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plot_status",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plot_status_descr",
+                        "size": "31",
+                        "type": "char"
+                    },
+                    {
+                        "name": "project_type",
+                        "type": "int"
+                    },
+                    {
+                        "name": "qa_status",
+                        "type": "int"
+                    },
+                    {
+                        "name": "qa_status_descr",
+                        "size": "19",
+                        "type": "char"
+                    },
+                    {
+                        "name": "elevation_class",
+                        "type": "int"
+                    },
+                    {
+                        "name": "inclusion_probability",
+                        "type": "int"
+                    },
+                    {
+                        "name": "last_plot_mens_year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "last_plot_tally_year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "last_plot_visit_year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "previous_visit_year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plot_cond_class_year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "cond_class_year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plot_entrance_year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plot_exit_year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plot_exit_reason",
+                        "type": "int"
+                    },
+                    {
+                        "name": "month",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "day",
+                        "type": "int"
+                    },
+                    {
+                        "name": "year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "crew_tally1",
+                        "type": "int"
+                    },
+                    {
+                        "name": "crew_tally2",
+                        "type": "int"
+                    },
+                    {
+                        "name": "crew_tally3",
+                        "type": "int"
+                    },
+                    {
+                        "name": "crew_tally4",
+                        "type": "int"
+                    },
+                    {
+                        "name": "crew_tally5",
+                        "type": "int"
+                    },
+                    {
+                        "name": "crew_type_1999",
+                        "type": "int"
+                    },
+                    {
+                        "name": "crew_type_1999_descr",
+                        "size": "18",
+                        "type": "char"
+                    },
+                    {
+                        "name": "cntr_land_use_1",
+                        "type": "int"
+                    },
+                    {
+                        "name": "cntr_land_use_2",
+                        "type": "int"
+                    },
+                    {
+                        "name": "cntr_land_use_3",
+                        "type": "int"
+                    },
+                    {
+                        "name": "cntr_land_use_4",
+                        "type": "int"
+                    },
+                    {
+                        "name": "elevation",
+                        "type": "int"
+                    },
+                    {
+                        "name": "ownership",
+                        "type": "int"
+                    },
+                    {
+                        "name": "ownership_descr",
+                        "size": "13",
+                        "type": "char"
+                    },
+                    {
+                        "name": "p3id",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://www.fia.fs.fed.us/tools-data/other_data/csv/IL.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "il_tree_1999",
+            "path": "IL_TREE_1999.CSV",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "last_update",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "state",
+                        "type": "int"
+                    },
+                    {
+                        "name": "state_descr",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "state_abbrev",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "county",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fhm_region",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fhm_region_descr",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "project",
+                        "type": "int"
+                    },
+                    {
+                        "name": "project_descr",
+                        "size": "31",
+                        "type": "char"
+                    },
+                    {
+                        "name": "measurement_type",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plot_status",
+                        "type": "int"
+                    },
+                    {
+                        "name": "hexagon_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plot_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "point_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "tree_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "tree_type",
+                        "type": "int"
+                    },
+                    {
+                        "name": "pk_tree",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fhm_species",
+                        "type": "int"
+                    },
+                    {
+                        "name": "species_common_name",
+                        "size": "28",
+                        "type": "char"
+                    },
+                    {
+                        "name": "current_tree_history",
+                        "type": "int"
+                    },
+                    {
+                        "name": "old_tree_history",
+                        "type": "int"
+                    },
+                    {
+                        "name": "last_history",
+                        "type": "int"
+                    },
+                    {
+                        "name": "field_tree_history",
+                        "type": "int"
+                    },
+                    {
+                        "name": "history_check",
+                        "type": "int"
+                    },
+                    {
+                        "name": "dbh",
+                        "type": "double"
+                    },
+                    {
+                        "name": "dbh_check",
+                        "type": "int"
+                    },
+                    {
+                        "name": "previous_dbh",
+                        "type": "double"
+                    },
+                    {
+                        "name": "estimated_dbh",
+                        "type": "double"
+                    },
+                    {
+                        "name": "remeasured_dbh",
+                        "type": "double"
+                    },
+                    {
+                        "name": "drc",
+                        "type": "int"
+                    },
+                    {
+                        "name": "previous_drc",
+                        "type": "int"
+                    },
+                    {
+                        "name": "estimated_drc",
+                        "type": "int"
+                    },
+                    {
+                        "name": "nbr_stems",
+                        "type": "int"
+                    },
+                    {
+                        "name": "crown_light_exposure",
+                        "type": "int"
+                    },
+                    {
+                        "name": "crown_position",
+                        "type": "int"
+                    },
+                    {
+                        "name": "crown_density",
+                        "type": "int"
+                    },
+                    {
+                        "name": "crown_diameter_90",
+                        "type": "int"
+                    },
+                    {
+                        "name": "crown_diameter_wide",
+                        "type": "int"
+                    },
+                    {
+                        "name": "crown_dieback",
+                        "type": "int"
+                    },
+                    {
+                        "name": "crown_ratio",
+                        "type": "int"
+                    },
+                    {
+                        "name": "crown_vigor_class",
+                        "type": "int"
+                    },
+                    {
+                        "name": "foliage_transparency",
+                        "type": "int"
+                    },
+                    {
+                        "name": "cause_of_death",
+                        "type": "int"
+                    },
+                    {
+                        "name": "mortality_year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "ground_year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "non_forest_year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "tree_damage1_1999",
+                        "type": "int"
+                    },
+                    {
+                        "name": "tree_damage_loc1_1999",
+                        "type": "int"
+                    },
+                    {
+                        "name": "tree_damage_severity1_1999",
+                        "type": "int"
+                    },
+                    {
+                        "name": "tree_damage2_1999",
+                        "type": "int"
+                    },
+                    {
+                        "name": "tree_damage_loc2_1999",
+                        "type": "int"
+                    },
+                    {
+                        "name": "tree_damage_severity2_1999",
+                        "type": "int"
+                    },
+                    {
+                        "name": "tree_damage3_1999",
+                        "type": "int"
+                    },
+                    {
+                        "name": "tree_damage_loc3_1999",
+                        "type": "int"
+                    },
+                    {
+                        "name": "tree_damage_severity3_1999",
+                        "type": "int"
+                    },
+                    {
+                        "name": "previous_cond_class",
+                        "type": "int"
+                    },
+                    {
+                        "name": "condition_class_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plot_type",
+                        "type": "int"
+                    },
+                    {
+                        "name": "land_use_class",
+                        "type": "int"
+                    },
+                    {
+                        "name": "land_use_class_descr",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "forest_type",
+                        "type": "int"
+                    },
+                    {
+                        "name": "forest_type_descr",
+                        "size": "33",
+                        "type": "char"
+                    },
+                    {
+                        "name": "stand_age",
+                        "type": "int"
+                    },
+                    {
+                        "name": "stand_origin",
+                        "type": "int"
+                    },
+                    {
+                        "name": "stand_size_class",
+                        "type": "int"
+                    },
+                    {
+                        "name": "stand_density_check",
+                        "type": "int"
+                    },
+                    {
+                        "name": "azimuth",
+                        "type": "int"
+                    },
+                    {
+                        "name": "distance",
+                        "type": "double"
+                    },
+                    {
+                        "name": "distance_reference",
+                        "type": "int"
+                    },
+                    {
+                        "name": "offset_point",
+                        "type": "int"
+                    },
+                    {
+                        "name": "entrance_year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "exit_year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "exit_reason",
+                        "type": "int"
+                    },
+                    {
+                        "name": "last_tally_year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "previous_tally_year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "mensuration_year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "last_mensuration_year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "year_determined_extra",
+                        "type": "int"
+                    },
+                    {
+                        "name": "year_determined_missing",
+                        "type": "int"
+                    },
+                    {
+                        "name": "tree_note",
+                        "size": "34",
+                        "type": "char"
+                    },
+                    {
+                        "name": "office_note_year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "office_note_short",
+                        "type": "int"
+                    },
+                    {
+                        "name": "office_note_long",
+                        "type": "int"
+                    },
+                    {
+                        "name": "year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "p3id",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://www.fia.fs.fed.us/tools-data/other_data/csv/IL.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "il_tree_1998",
+            "path": "IL_TREE_1998.CSV",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "last_update",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "state",
+                        "type": "int"
+                    },
+                    {
+                        "name": "state_descr",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "state_abbrev",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "county",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fhm_region",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fhm_region_descr",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "project",
+                        "type": "int"
+                    },
+                    {
+                        "name": "project_descr",
+                        "size": "31",
+                        "type": "char"
+                    },
+                    {
+                        "name": "measurement_type",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plot_status",
+                        "type": "int"
+                    },
+                    {
+                        "name": "hexagon_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plot_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "point_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "tree_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "tree_type",
+                        "type": "int"
+                    },
+                    {
+                        "name": "pk_tree",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fhm_species",
+                        "type": "int"
+                    },
+                    {
+                        "name": "species_common_name",
+                        "size": "28",
+                        "type": "char"
+                    },
+                    {
+                        "name": "current_tree_history",
+                        "type": "int"
+                    },
+                    {
+                        "name": "old_tree_history",
+                        "type": "int"
+                    },
+                    {
+                        "name": "last_history",
+                        "type": "int"
+                    },
+                    {
+                        "name": "field_tree_history",
+                        "type": "int"
+                    },
+                    {
+                        "name": "history_check",
+                        "type": "int"
+                    },
+                    {
+                        "name": "dbh",
+                        "type": "double"
+                    },
+                    {
+                        "name": "dbh_check",
+                        "type": "int"
+                    },
+                    {
+                        "name": "previous_dbh",
+                        "type": "double"
+                    },
+                    {
+                        "name": "estimated_dbh",
+                        "type": "double"
+                    },
+                    {
+                        "name": "remeasured_dbh",
+                        "type": "int"
+                    },
+                    {
+                        "name": "drc",
+                        "type": "int"
+                    },
+                    {
+                        "name": "previous_drc",
+                        "type": "int"
+                    },
+                    {
+                        "name": "estimated_drc",
+                        "type": "int"
+                    },
+                    {
+                        "name": "nbr_stems",
+                        "type": "int"
+                    },
+                    {
+                        "name": "crown_light_exposure",
+                        "type": "int"
+                    },
+                    {
+                        "name": "crown_position",
+                        "type": "int"
+                    },
+                    {
+                        "name": "crown_density",
+                        "type": "int"
+                    },
+                    {
+                        "name": "crown_diameter_90",
+                        "type": "int"
+                    },
+                    {
+                        "name": "crown_diameter_wide",
+                        "type": "int"
+                    },
+                    {
+                        "name": "crown_dieback",
+                        "type": "int"
+                    },
+                    {
+                        "name": "crown_ratio",
+                        "type": "int"
+                    },
+                    {
+                        "name": "crown_vigor_class",
+                        "type": "int"
+                    },
+                    {
+                        "name": "foliage_transparency",
+                        "type": "int"
+                    },
+                    {
+                        "name": "cause_of_death",
+                        "type": "int"
+                    },
+                    {
+                        "name": "mortality_year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "ground_year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "non_forest_year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "tree_damage1_1998",
+                        "type": "int"
+                    },
+                    {
+                        "name": "tree_damage_loc1_1998",
+                        "type": "int"
+                    },
+                    {
+                        "name": "tree_damage_severity1_1998",
+                        "type": "int"
+                    },
+                    {
+                        "name": "tree_damage2_1998",
+                        "type": "int"
+                    },
+                    {
+                        "name": "tree_damage_loc2_1998",
+                        "type": "int"
+                    },
+                    {
+                        "name": "tree_damage_severity2_1998",
+                        "type": "int"
+                    },
+                    {
+                        "name": "tree_damage3_1998",
+                        "type": "int"
+                    },
+                    {
+                        "name": "tree_damage_loc3_1998",
+                        "type": "int"
+                    },
+                    {
+                        "name": "tree_damage_severity3_1998",
+                        "type": "int"
+                    },
+                    {
+                        "name": "previous_cond_class",
+                        "type": "int"
+                    },
+                    {
+                        "name": "condition_class_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plot_type",
+                        "type": "int"
+                    },
+                    {
+                        "name": "land_use_class",
+                        "type": "int"
+                    },
+                    {
+                        "name": "land_use_class_descr",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "forest_type",
+                        "type": "int"
+                    },
+                    {
+                        "name": "forest_type_descr",
+                        "size": "32",
+                        "type": "char"
+                    },
+                    {
+                        "name": "stand_age",
+                        "type": "int"
+                    },
+                    {
+                        "name": "stand_origin",
+                        "type": "int"
+                    },
+                    {
+                        "name": "stand_size_class",
+                        "type": "int"
+                    },
+                    {
+                        "name": "stand_density_check",
+                        "type": "int"
+                    },
+                    {
+                        "name": "azimuth",
+                        "type": "int"
+                    },
+                    {
+                        "name": "distance",
+                        "type": "double"
+                    },
+                    {
+                        "name": "distance_reference",
+                        "type": "int"
+                    },
+                    {
+                        "name": "offset_point",
+                        "type": "int"
+                    },
+                    {
+                        "name": "entrance_year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "exit_year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "exit_reason",
+                        "type": "int"
+                    },
+                    {
+                        "name": "last_tally_year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "previous_tally_year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "mensuration_year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "last_mensuration_year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "year_determined_extra",
+                        "type": "int"
+                    },
+                    {
+                        "name": "year_determined_missing",
+                        "type": "int"
+                    },
+                    {
+                        "name": "tree_note",
+                        "size": "34",
+                        "type": "char"
+                    },
+                    {
+                        "name": "office_note_year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "office_note_short",
+                        "type": "int"
+                    },
+                    {
+                        "name": "office_note_long",
+                        "type": "int"
+                    },
+                    {
+                        "name": "year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "p3id",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://www.fia.fs.fed.us/tools-data/other_data/csv/IL.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "il_plot_1998",
+            "path": "IL_PLOT_1998.CSV",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "last_update",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "state",
+                        "type": "int"
+                    },
+                    {
+                        "name": "state_descr",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "state_abbrev",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "county",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fhm_region",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fhm_region_descr",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "project",
+                        "type": "int"
+                    },
+                    {
+                        "name": "project_descr",
+                        "size": "31",
+                        "type": "char"
+                    },
+                    {
+                        "name": "measurement_type",
+                        "type": "int"
+                    },
+                    {
+                        "name": "panel",
+                        "type": "int"
+                    },
+                    {
+                        "name": "overlap",
+                        "type": "int"
+                    },
+                    {
+                        "name": "hierarchial_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "grid_intensification",
+                        "type": "int"
+                    },
+                    {
+                        "name": "ecoregion_code",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "hexagon_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plot_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plot_status",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plot_status_descr",
+                        "size": "31",
+                        "type": "char"
+                    },
+                    {
+                        "name": "project_type",
+                        "type": "int"
+                    },
+                    {
+                        "name": "qa_status",
+                        "type": "int"
+                    },
+                    {
+                        "name": "qa_status_descr",
+                        "size": "19",
+                        "type": "char"
+                    },
+                    {
+                        "name": "elevation_class",
+                        "type": "int"
+                    },
+                    {
+                        "name": "inclusion_probability",
+                        "type": "int"
+                    },
+                    {
+                        "name": "last_plot_mens_year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "last_plot_tally_year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "last_plot_visit_year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "previous_visit_year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plot_cond_class_year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "cond_class_year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plot_entrance_year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plot_exit_year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plot_exit_reason",
+                        "type": "int"
+                    },
+                    {
+                        "name": "month",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "day",
+                        "type": "int"
+                    },
+                    {
+                        "name": "year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "crew_tally1",
+                        "type": "int"
+                    },
+                    {
+                        "name": "crew_tally2",
+                        "type": "int"
+                    },
+                    {
+                        "name": "crew_tally3",
+                        "type": "int"
+                    },
+                    {
+                        "name": "crew_tally4",
+                        "type": "int"
+                    },
+                    {
+                        "name": "crew_tally5",
+                        "type": "int"
+                    },
+                    {
+                        "name": "crew_type_1994",
+                        "type": "int"
+                    },
+                    {
+                        "name": "crew_type_1994_descr",
+                        "size": "19",
+                        "type": "char"
+                    },
+                    {
+                        "name": "cntr_land_use_1",
+                        "type": "int"
+                    },
+                    {
+                        "name": "cntr_land_use_2",
+                        "type": "int"
+                    },
+                    {
+                        "name": "cntr_land_use_3",
+                        "type": "int"
+                    },
+                    {
+                        "name": "cntr_land_use_4",
+                        "type": "int"
+                    },
+                    {
+                        "name": "elevation",
+                        "type": "int"
+                    },
+                    {
+                        "name": "p3id",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://www.fia.fs.fed.us/tools-data/other_data/csv/IL.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "il_area_percent_1998",
+            "path": "IL_AREA_PERCENT_1998.CSV",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "last_update",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "state",
+                        "type": "int"
+                    },
+                    {
+                        "name": "state_descr",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "state_abbrev",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "county",
+                        "type": "int"
+                    },
+                    {
+                        "name": "project",
+                        "type": "int"
+                    },
+                    {
+                        "name": "project_descr",
+                        "size": "31",
+                        "type": "char"
+                    },
+                    {
+                        "name": "hexagon_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plot_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "point_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "area_percent",
+                        "type": "double"
+                    },
+                    {
+                        "name": "condition_class_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plot_type",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plot_type_descr",
+                        "size": "18",
+                        "type": "char"
+                    },
+                    {
+                        "name": "p3id",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://www.fia.fs.fed.us/tools-data/other_data/csv/IL.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "il_point_1999",
+            "path": "IL_POINT_1999.CSV",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "last_update",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "state",
+                        "type": "int"
+                    },
+                    {
+                        "name": "state_descr",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "state_abbrev",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "county",
+                        "type": "int"
+                    },
+                    {
+                        "name": "project",
+                        "type": "int"
+                    },
+                    {
+                        "name": "project_descr",
+                        "size": "31",
+                        "type": "char"
+                    },
+                    {
+                        "name": "hexagon_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plot_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "point_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "aspect",
+                        "type": "int"
+                    },
+                    {
+                        "name": "microplot_offset",
+                        "type": "int"
+                    },
+                    {
+                        "name": "subplot_offset",
+                        "type": "int"
+                    },
+                    {
+                        "name": "pct_slope",
+                        "type": "int"
+                    },
+                    {
+                        "name": "slope_correction",
+                        "type": "double"
+                    },
+                    {
+                        "name": "terrain_position",
+                        "type": "int"
+                    },
+                    {
+                        "name": "current_point_status",
+                        "type": "int"
+                    },
+                    {
+                        "name": "microplot_cntr_cond",
+                        "type": "int"
+                    },
+                    {
+                        "name": "subplot_cntr_cond",
+                        "type": "int"
+                    },
+                    {
+                        "name": "subplot_cond_class1",
+                        "type": "int"
+                    },
+                    {
+                        "name": "subplot_cond_class2",
+                        "type": "int"
+                    },
+                    {
+                        "name": "subplot_cond_class3",
+                        "type": "int"
+                    },
+                    {
+                        "name": "subplot_cond_class4",
+                        "type": "int"
+                    },
+                    {
+                        "name": "p3id",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://www.fia.fs.fed.us/tools-data/other_data/csv/IL.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "il_o3_species_summary_1999",
+            "path": "IL_O3_SPECIES_SUMMARY_1999.CSV",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "state_descr",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "state",
+                        "type": "int"
+                    },
+                    {
+                        "name": "state_abbrev",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "county",
+                        "type": "int"
+                    },
+                    {
+                        "name": "federal_region",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fhm_mega_region",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "project",
+                        "type": "int"
+                    },
+                    {
+                        "name": "hexagon_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plot_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "bio_species",
+                        "type": "int"
+                    },
+                    {
+                        "name": "amount_maximum",
+                        "type": "double"
+                    },
+                    {
+                        "name": "amount_minimum",
+                        "type": "double"
+                    },
+                    {
+                        "name": "amount_mean",
+                        "type": "double"
+                    },
+                    {
+                        "name": "severity_maximum",
+                        "type": "double"
+                    },
+                    {
+                        "name": "severity_minimum",
+                        "type": "double"
+                    },
+                    {
+                        "name": "severity_mean",
+                        "type": "double"
+                    },
+                    {
+                        "name": "plants_inj_cnt",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plants_eval_cnt",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plants_ratio",
+                        "type": "double"
+                    },
+                    {
+                        "name": "species_sum",
+                        "type": "double"
+                    },
+                    {
+                        "name": "species_index",
+                        "type": "double"
+                    },
+                    {
+                        "name": "elevation",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plot_size",
+                        "type": "int"
+                    },
+                    {
+                        "name": "aspect",
+                        "type": "int"
+                    },
+                    {
+                        "name": "terrain_position",
+                        "type": "int"
+                    },
+                    {
+                        "name": "bio_plot_soil_depth",
+                        "type": "int"
+                    },
+                    {
+                        "name": "bio_plot_soil_drainage",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plot_wetness",
+                        "type": "int"
+                    },
+                    {
+                        "name": "bio_plot_disturbance",
+                        "type": "int"
+                    },
+                    {
+                        "name": "p3id",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://www.fia.fs.fed.us/tools-data/other_data/csv/IL.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "il_o3_species_summary_1998",
+            "path": "IL_O3_SPECIES_SUMMARY_1998.CSV",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "state_descr",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "state",
+                        "type": "int"
+                    },
+                    {
+                        "name": "state_abbrev",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "county",
+                        "type": "int"
+                    },
+                    {
+                        "name": "federal_region",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fhm_mega_region",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "project",
+                        "type": "int"
+                    },
+                    {
+                        "name": "hexagon_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plot_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "bio_species",
+                        "type": "int"
+                    },
+                    {
+                        "name": "amount_maximum",
+                        "type": "double"
+                    },
+                    {
+                        "name": "amount_minimum",
+                        "type": "double"
+                    },
+                    {
+                        "name": "amount_mean",
+                        "type": "double"
+                    },
+                    {
+                        "name": "severity_maximum",
+                        "type": "double"
+                    },
+                    {
+                        "name": "severity_minimum",
+                        "type": "double"
+                    },
+                    {
+                        "name": "severity_mean",
+                        "type": "double"
+                    },
+                    {
+                        "name": "plants_inj_cnt",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plants_eval_cnt",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plants_ratio",
+                        "type": "double"
+                    },
+                    {
+                        "name": "species_sum",
+                        "type": "double"
+                    },
+                    {
+                        "name": "species_index",
+                        "type": "double"
+                    },
+                    {
+                        "name": "elevation",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plot_size",
+                        "type": "int"
+                    },
+                    {
+                        "name": "aspect",
+                        "type": "int"
+                    },
+                    {
+                        "name": "terrain_position",
+                        "type": "int"
+                    },
+                    {
+                        "name": "bio_plot_soil_depth",
+                        "type": "int"
+                    },
+                    {
+                        "name": "bio_plot_soil_drainage",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plot_wetness",
+                        "type": "int"
+                    },
+                    {
+                        "name": "bio_plot_disturbance",
+                        "type": "int"
+                    },
+                    {
+                        "name": "p3id",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://www.fia.fs.fed.us/tools-data/other_data/csv/IL.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "il_point_1998",
+            "path": "IL_POINT_1998.CSV",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "last_update",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "state",
+                        "type": "int"
+                    },
+                    {
+                        "name": "state_descr",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "state_abbrev",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "county",
+                        "type": "int"
+                    },
+                    {
+                        "name": "project",
+                        "type": "int"
+                    },
+                    {
+                        "name": "project_descr",
+                        "size": "31",
+                        "type": "char"
+                    },
+                    {
+                        "name": "hexagon_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plot_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "point_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "aspect",
+                        "type": "int"
+                    },
+                    {
+                        "name": "microplot_offset",
+                        "type": "int"
+                    },
+                    {
+                        "name": "subplot_offset",
+                        "type": "int"
+                    },
+                    {
+                        "name": "pct_slope",
+                        "type": "int"
+                    },
+                    {
+                        "name": "slope_correction",
+                        "type": "double"
+                    },
+                    {
+                        "name": "terrain_position",
+                        "type": "int"
+                    },
+                    {
+                        "name": "current_point_status",
+                        "type": "int"
+                    },
+                    {
+                        "name": "microplot_cntr_cond",
+                        "type": "int"
+                    },
+                    {
+                        "name": "subplot_cntr_cond",
+                        "type": "int"
+                    },
+                    {
+                        "name": "subplot_cond_class1",
+                        "type": "int"
+                    },
+                    {
+                        "name": "subplot_cond_class2",
+                        "type": "int"
+                    },
+                    {
+                        "name": "subplot_cond_class3",
+                        "type": "int"
+                    },
+                    {
+                        "name": "subplot_cond_class4",
+                        "type": "int"
+                    },
+                    {
+                        "name": "p3id",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://www.fia.fs.fed.us/tools-data/other_data/csv/IL.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "il_area_percent_1999",
+            "path": "IL_AREA_PERCENT_1999.CSV",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "last_update",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "state",
+                        "type": "int"
+                    },
+                    {
+                        "name": "state_descr",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "state_abbrev",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "county",
+                        "type": "int"
+                    },
+                    {
+                        "name": "project",
+                        "type": "int"
+                    },
+                    {
+                        "name": "project_descr",
+                        "size": "31",
+                        "type": "char"
+                    },
+                    {
+                        "name": "hexagon_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plot_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "point_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "area_percent",
+                        "type": "double"
+                    },
+                    {
+                        "name": "condition_class_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plot_type",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plot_type_descr",
+                        "size": "18",
+                        "type": "char"
+                    },
+                    {
+                        "name": "p3id",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://www.fia.fs.fed.us/tools-data/other_data/csv/IL.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "il_seedling_1999",
+            "path": "IL_SEEDLING_1999.CSV",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "last_update",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "state",
+                        "type": "int"
+                    },
+                    {
+                        "name": "state_descr",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "state_abbrev",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "county",
+                        "type": "int"
+                    },
+                    {
+                        "name": "project",
+                        "type": "int"
+                    },
+                    {
+                        "name": "project_descr",
+                        "size": "31",
+                        "type": "char"
+                    },
+                    {
+                        "name": "hexagon_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plot_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "point_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fhm_species",
+                        "type": "int"
+                    },
+                    {
+                        "name": "species_common_name",
+                        "size": "28",
+                        "type": "char"
+                    },
+                    {
+                        "name": "condition_class_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "crown_light_exposure",
+                        "type": "int"
+                    },
+                    {
+                        "name": "crown_position",
+                        "type": "int"
+                    },
+                    {
+                        "name": "crown_vigor_class",
+                        "type": "int"
+                    },
+                    {
+                        "name": "nbr_seedlings",
+                        "type": "int"
+                    },
+                    {
+                        "name": "land_use_class",
+                        "type": "int"
+                    },
+                    {
+                        "name": "land_use_class_descr",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "forest_type",
+                        "type": "int"
+                    },
+                    {
+                        "name": "forest_type_descr",
+                        "size": "33",
+                        "type": "char"
+                    },
+                    {
+                        "name": "stand_age",
+                        "type": "int"
+                    },
+                    {
+                        "name": "stand_origin",
+                        "type": "int"
+                    },
+                    {
+                        "name": "stand_size_class",
+                        "type": "int"
+                    },
+                    {
+                        "name": "stand_density_check",
+                        "type": "int"
+                    },
+                    {
+                        "name": "p3id",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://www.fia.fs.fed.us/tools-data/other_data/csv/IL.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "il_seedling_1998",
+            "path": "IL_SEEDLING_1998.CSV",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "last_update",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "state",
+                        "type": "int"
+                    },
+                    {
+                        "name": "state_descr",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "state_abbrev",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "county",
+                        "type": "int"
+                    },
+                    {
+                        "name": "project",
+                        "type": "int"
+                    },
+                    {
+                        "name": "project_descr",
+                        "size": "31",
+                        "type": "char"
+                    },
+                    {
+                        "name": "hexagon_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plot_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "point_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fhm_species",
+                        "type": "int"
+                    },
+                    {
+                        "name": "species_common_name",
+                        "size": "28",
+                        "type": "char"
+                    },
+                    {
+                        "name": "condition_class_nbr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "crown_light_exposure",
+                        "type": "int"
+                    },
+                    {
+                        "name": "crown_position",
+                        "type": "int"
+                    },
+                    {
+                        "name": "crown_vigor_class",
+                        "type": "int"
+                    },
+                    {
+                        "name": "nbr_seedlings",
+                        "type": "int"
+                    },
+                    {
+                        "name": "land_use_class",
+                        "type": "int"
+                    },
+                    {
+                        "name": "land_use_class_descr",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "forest_type",
+                        "type": "int"
+                    },
+                    {
+                        "name": "forest_type_descr",
+                        "size": "32",
+                        "type": "char"
+                    },
+                    {
+                        "name": "stand_age",
+                        "type": "int"
+                    },
+                    {
+                        "name": "stand_origin",
+                        "type": "int"
+                    },
+                    {
+                        "name": "stand_size_class",
+                        "type": "int"
+                    },
+                    {
+                        "name": "stand_density_check",
+                        "type": "int"
+                    },
+                    {
+                        "name": "p3id",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://www.fia.fs.fed.us/tools-data/other_data/csv/IL.zip"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "The US Forest Service, Forest Health Monitoring, Illinois",
+    "version": "1.0.0"
+}
