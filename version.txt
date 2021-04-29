@@ -116,7 +116,7 @@ forest_health_monitoring_alabama.json,1.0.0
 forest_health_monitoring_california.json,1.0.0
 forest_health_monitoring_colorado.json,1.0.0
 forest_health_monitoring_connecticut.json,1.0.0
-forest_health_monitoring_delaware.json,1.0.0
+forest_health_monitoring_Delaware.json,1.0.0
 forest_health_monitoring_florida.json,1.0.0
 forest_health_monitoring_georgia.json,1.0.0
 forest_health_monitoring_idaho.json,1.0.0
@@ -157,6 +157,7 @@ globi_interaction.json,1.0.2
 great_basin_mammal_abundance.json,1.0.1
 harvard_forest.json,2.0.0
 home_ranges.json,1.1.3
+hummingbird_plant_interactions.json,1.0.0
 intertidal_abund_me.py,1.5.3
 jornada_lter_rodent.json,1.0.0
 la_selva_trees.py,1.4.2

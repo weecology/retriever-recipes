@@ -1,0 +1,809 @@
+{
+    "citation": "Weinstein, B. G. and Graham, C. H. (2017), Persistent bill and corolla matching despite shifting temporal resources in tropical hummingbird-plant interactions. Ecol Lett, 20: 326\u2013335. doi:10.1111/ele.12730",
+    "description": "The Humming bird plant interactions, beta-diversity",
+    "encoding": "latin-1",
+    "homepage": "https://github.com/bw4sz/BetaNetwork",
+    "keywords": ["beta-diversity", "Humming bird", "Species interactions"],
+    "licenses": [],
+    "name": "hummingbird-plant-interactions",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ",",
+                "missingValues": [ "NA" ],
+                "do_not_bulk_insert": "False"
+            },
+            "name": "flowermorphology",
+            "path": "FlowerMorphology.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "record_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "iplant_double",
+                        "size": "25",
+                        "type": "char"
+                    },
+                    {
+                        "name": "totalcorolla",
+                        "type": "double"
+                    },
+                    {
+                        "name": "effectivecorolla",
+                        "type": "double"
+                    },
+                    {
+                        "name": "corolla_width",
+                        "type": "double"
+                    },
+                    {
+                        "name": "corolla",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "https://raw.githubusercontent.com/bw4sz/BetaNetwork/master/data/FlowerMorphology.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "missingValues": [ "NA" ],
+                "do_not_bulk_insert": "False"
+            },
+            "name": "flowertransectclean",
+            "path": "FlowerTransectClean.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "record_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gps_id",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "month",
+                        "type": "int"
+                    },
+                    {
+                        "name": "year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "x_record",
+                        "type": "int"
+                    },
+                    {
+                        "name": "id",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "transect_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "record_date",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "time_record",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "family",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "genus",
+                        "size": "13",
+                        "type": "char"
+                    },
+                    {
+                        "name": "species",
+                        "size": "21",
+                        "type": "char"
+                    },
+                    {
+                        "name": "height",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "flowers",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "stalks",
+                        "type": "double"
+                    },
+                    {
+                        "name": "inflorescences_plants",
+                        "type": "int"
+                    },
+                    {
+                        "name": "hummingbird_species",
+                        "size": "54",
+                        "type": "char"
+                    },
+                    {
+                        "name": "comment",
+                        "size": "284",
+                        "type": "char"
+                    },
+                    {
+                        "name": "photo",
+                        "size": "93",
+                        "type": "char"
+                    },
+                    {
+                        "name": "elevation_begin",
+                        "type": "int"
+                    },
+                    {
+                        "name": "elevation_end",
+                        "type": "int"
+                    },
+                    {
+                        "name": "accuracy",
+                        "type": "int"
+                    },
+                    {
+                        "name": "revise_remove",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "observer",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "time_start",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "gps_start",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "time_end",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "gps_end",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "type",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "replicate_number",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "transect_r",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "iplant_family",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "iplant_double",
+                        "size": "26",
+                        "type": "char"
+                    },
+                    {
+                        "name": "mean_flowerstalk",
+                        "type": "double"
+                    },
+                    {
+                        "name": "mean_stalk",
+                        "type": "double"
+                    },
+                    {
+                        "name": "mean_inflorescences",
+                        "type": "int"
+                    },
+                    {
+                        "name": "total_flowers",
+                        "type": "double"
+                    },
+                    {
+                        "name": "year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "lon",
+                        "type": "double"
+                    },
+                    {
+                        "name": "lat",
+                        "type": "double"
+                    },
+                    {
+                        "name": "ele",
+                        "type": "int"
+                    },
+                    {
+                        "name": "time_stamp",
+                        "size": "20",
+                        "type": "char"
+                    },
+                    {
+                        "name": "name",
+                        "type": "int"
+                    },
+                    {
+                        "name": "sym",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "extensions",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "cmt",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "link",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "date_f",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "coords_x1",
+                        "type": "double"
+                    },
+                    {
+                        "name": "coords_x2",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "https://raw.githubusercontent.com/bw4sz/BetaNetwork/master/data/FlowerTransectClean.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "missingValues": [ "NA" ],
+                "do_not_bulk_insert": "False"
+            },
+            "name": "hummingbirdinteractions",
+            "path": "HummingbirdInteractions.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "record_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "camera_placement_id",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "video_id",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "record_date",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "flower_species",
+                        "size": "26",
+                        "type": "char"
+                    },
+                    {
+                        "name": "time_of_visit",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "hummingbird_species",
+                        "size": "25",
+                        "type": "char"
+                    },
+                    {
+                        "name": "sex",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "pierce_corolla",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "comments",
+                        "size": "116",
+                        "type": "char"
+                    },
+                    {
+                        "name": "temp",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "photoid",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "videoclip",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "lon",
+                        "type": "double"
+                    },
+                    {
+                        "name": "lat",
+                        "type": "double"
+                    },
+                    {
+                        "name": "ele",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "name",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "link",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "sym",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "time",
+                        "size": "20",
+                        "type": "char"
+                    },
+                    {
+                        "name": "cmt",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "extensions",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "monthid",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "date_f",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "coords_x1",
+                        "type": "double"
+                    },
+                    {
+                        "name": "coords_x2",
+                        "type": "double"
+                    },
+                    {
+                        "name": "ele_nelly",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "iplant",
+                        "size": "26",
+                        "type": "char"
+                    },
+                    {
+                        "name": "month",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "gps_id",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "transectid",
+                        "size": "12",
+                        "type": "char"
+                    },
+                    {
+                        "name": "transect_r",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "datep",
+                        "size": "10",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://raw.githubusercontent.com/bw4sz/BetaNetwork/master/data/HummingbirdInteractions.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "missingValues": [ "NA" ],
+                "do_not_bulk_insert": "False"
+            },
+            "name": "missingtrait",
+            "path": "Missingtrait.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "record_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "plant",
+                        "size": "26",
+                        "type": "char"
+                    },
+                    {
+                        "name": "n",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://raw.githubusercontent.com/bw4sz/BetaNetwork/master/data/Missingtrait.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "missingValues": [ "NA" ],
+                "do_not_bulk_insert": "False"
+            },
+            "name": "hummingbirdelevation",
+            "path": "HummingbirdElevation.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "record_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "hummingbird",
+                        "size": "25",
+                        "type": "char"
+                    },
+                    {
+                        "name": "low",
+                        "type": "double"
+                    },
+                    {
+                        "name": "m",
+                        "type": "double"
+                    },
+                    {
+                        "name": "high",
+                        "type": "double"
+                    },
+                    {
+                        "name": "indices",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://raw.githubusercontent.com/bw4sz/BetaNetwork/master/data/HummingbirdElevation.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "missingValues": [ "NA" ],
+                "do_not_bulk_insert": "False"
+            },
+            "name": "fulldat",
+            "path": "fulldat.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "record_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "id",
+                        "size": "24",
+                        "type": "char"
+                    },
+                    {
+                        "name": "video",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "time",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "hummingbird",
+                        "size": "25",
+                        "type": "char"
+                    },
+                    {
+                        "name": "sex",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "pierce",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "ele",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "iplant_double",
+                        "size": "26",
+                        "type": "char"
+                    },
+                    {
+                        "name": "datep",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "timestamp",
+                        "size": "21",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://raw.githubusercontent.com/bw4sz/BetaNetwork/master/data/fulldat.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "missingValues": [ "NA" ],
+                "do_not_bulk_insert": "False"
+            },
+            "name": "hummingbirdmorphology",
+            "path": "HummingbirdMorphology.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "record_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "row_names",
+                        "size": "25",
+                        "type": "char"
+                    },
+                    {
+                        "name": "morphid",
+                        "type": "double"
+                    },
+                    {
+                        "name": "spid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "sex",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "n",
+                        "type": "double"
+                    },
+                    {
+                        "name": "bill",
+                        "type": "double"
+                    },
+                    {
+                        "name": "mass",
+                        "type": "double"
+                    },
+                    {
+                        "name": "bill_width",
+                        "type": "double"
+                    },
+                    {
+                        "name": "total_culmen",
+                        "type": "double"
+                    },
+                    {
+                        "name": "wingchord",
+                        "type": "double"
+                    },
+                    {
+                        "name": "bill_depth",
+                        "type": "double"
+                    },
+                    {
+                        "name": "wing_width",
+                        "type": "double"
+                    },
+                    {
+                        "name": "wing_length",
+                        "type": "double"
+                    },
+                    {
+                        "name": "aspect_ratio",
+                        "type": "double"
+                    },
+                    {
+                        "name": "wing_area",
+                        "type": "double"
+                    },
+                    {
+                        "name": "wing_loading",
+                        "type": "double"
+                    },
+                    {
+                        "name": "wing_taper",
+                        "type": "double"
+                    },
+                    {
+                        "name": "wing_area_alarea",
+                        "type": "double"
+                    },
+                    {
+                        "name": "tail_length",
+                        "type": "double"
+                    },
+                    {
+                        "name": "foot_extension",
+                        "type": "double"
+                    },
+                    {
+                        "name": "tarsus_length",
+                        "type": "double"
+                    },
+                    {
+                        "name": "nail_length",
+                        "type": "double"
+                    },
+                    {
+                        "name": "clade",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "genus",
+                        "size": "12",
+                        "type": "char"
+                    },
+                    {
+                        "name": "species",
+                        "size": "13",
+                        "type": "char"
+                    },
+                    {
+                        "name": "scientific_name",
+                        "size": "25",
+                        "type": "char"
+                    },
+                    {
+                        "name": "english",
+                        "size": "25",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://raw.githubusercontent.com/bw4sz/BetaNetwork/master/data/HummingbirdMorphology.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "missingValues": [ "NA" ],
+                "do_not_bulk_insert": "False"
+            },
+            "name": "missingele",
+            "path": "missingele.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "record_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "id",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "n",
+                        "type": "int"
+                    },
+                    {
+                        "name": "first_date",
+                        "size": "11",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://raw.githubusercontent.com/bw4sz/BetaNetwork/master/data/missingele.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "missingValues": [ "NA" ],
+                "do_not_bulk_insert": "False"
+            },
+            "name": "plantelevation",
+            "path": "PlantElevation.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "record_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "iplant_double",
+                        "size": "26",
+                        "type": "char"
+                    },
+                    {
+                        "name": "low",
+                        "type": "int"
+                    },
+                    {
+                        "name": "m",
+                        "type": "double"
+                    },
+                    {
+                        "name": "high",
+                        "type": "int"
+                    },
+                    {
+                        "name": "indices",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://raw.githubusercontent.com/bw4sz/BetaNetwork/master/data/PlantElevation.csv"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "The Humming bird plant interactions data",
+    "version": "1.0.0"
+}
