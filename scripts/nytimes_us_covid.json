@@ -1,0 +1,714 @@
+{
+    "archived": "zip",
+    "citation": "Data from The New York Times, based on reports from state and local health agencies.",
+    "description": "The New York Times' data files with cumulative counts of coronavirus cases in the United States",
+    "encoding": "utf-8",
+    "homepage": "https://github.com/nytimes/covid-19-data",
+    "keywords": ["U.S. National-Level Data", "covid", "nytimes", "new york time", "live"],
+    "licenses": [{"name": "CC BY-NC"}],
+    "name": "nytimes-us-covid",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "mask_use_by_county",
+            "path": "covid-19-data-master/mask-use/mask-use-by-county.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "countyfp",
+                        "type": "int"
+                    },
+                    {
+                        "name": "never",
+                        "type": "double"
+                    },
+                    {
+                        "name": "rarely",
+                        "type": "double"
+                    },
+                    {
+                        "name": "sometimes",
+                        "type": "double"
+                    },
+                    {
+                        "name": "frequently",
+                        "type": "double"
+                    },
+                    {
+                        "name": "always",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "https://github.com/nytimes/covid-19-data/archive/refs/heads/master.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "rolling_averages_anomalies",
+            "path": "covid-19-data-master/rolling-averages/anomalies.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "record_date",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "end_date",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "county",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "state",
+                        "size": "20",
+                        "type": "char"
+                    },
+                    {
+                        "name": "geoid",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "type",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "omit_from_rolling_average",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "omit_from_rolling_average_on_subgeographies",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "description",
+                        "size": "236",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://github.com/nytimes/covid-19-data/archive/refs/heads/master.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "rolling_averages_us_counties",
+            "path": "covid-19-data-master/rolling-averages/us-counties.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "record_date",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "geoid",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "county",
+                        "size": "35",
+                        "type": "char"
+                    },
+                    {
+                        "name": "state",
+                        "size": "24",
+                        "type": "char"
+                    },
+                    {
+                        "name": "cases",
+                        "type": "int"
+                    },
+                    {
+                        "name": "cases_avg",
+                        "type": "double"
+                    },
+                    {
+                        "name": "cases_avg_per_100k",
+                        "type": "double"
+                    },
+                    {
+                        "name": "deaths",
+                        "type": "int"
+                    },
+                    {
+                        "name": "deaths_avg",
+                        "type": "double"
+                    },
+                    {
+                        "name": "deaths_avg_per_100k",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "https://github.com/nytimes/covid-19-data/archive/refs/heads/master.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "rolling_averages_us_counties_recent",
+            "path": "covid-19-data-master/rolling-averages/us-counties-recent.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "record_date",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "geoid",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "county",
+                        "size": "35",
+                        "type": "char"
+                    },
+                    {
+                        "name": "state",
+                        "size": "24",
+                        "type": "char"
+                    },
+                    {
+                        "name": "cases",
+                        "type": "int"
+                    },
+                    {
+                        "name": "cases_avg",
+                        "type": "double"
+                    },
+                    {
+                        "name": "cases_avg_per_100k",
+                        "type": "double"
+                    },
+                    {
+                        "name": "deaths",
+                        "type": "int"
+                    },
+                    {
+                        "name": "deaths_avg",
+                        "type": "double"
+                    },
+                    {
+                        "name": "deaths_avg_per_100k",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "https://github.com/nytimes/covid-19-data/archive/refs/heads/master.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "rolling_averages_us",
+            "path": "covid-19-data-master/rolling-averages/us.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "record_date",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "geoid",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "cases",
+                        "type": "int"
+                    },
+                    {
+                        "name": "cases_avg",
+                        "type": "double"
+                    },
+                    {
+                        "name": "cases_avg_per_100k",
+                        "type": "double"
+                    },
+                    {
+                        "name": "deaths",
+                        "type": "int"
+                    },
+                    {
+                        "name": "deaths_avg",
+                        "type": "double"
+                    },
+                    {
+                        "name": "deaths_avg_per_100k",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "https://github.com/nytimes/covid-19-data/archive/refs/heads/master.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "rolling_averages_us_states",
+            "path": "covid-19-data-master/rolling-averages/us-states.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "record_date",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "geoid",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "state",
+                        "size": "24",
+                        "type": "char"
+                    },
+                    {
+                        "name": "cases",
+                        "type": "int"
+                    },
+                    {
+                        "name": "cases_avg",
+                        "type": "double"
+                    },
+                    {
+                        "name": "cases_avg_per_100k",
+                        "type": "double"
+                    },
+                    {
+                        "name": "deaths",
+                        "type": "int"
+                    },
+                    {
+                        "name": "deaths_avg",
+                        "type": "double"
+                    },
+                    {
+                        "name": "deaths_avg_per_100k",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "https://github.com/nytimes/covid-19-data/archive/refs/heads/master.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "deaths",
+            "path": "covid-19-data-master/excess-deaths/deaths.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "placename",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "frequency",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "start_date",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "end_date",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "year",
+                        "size": "17",
+                        "type": "char"
+                    },
+                    {
+                        "name": "month",
+                        "type": "int"
+                    },
+                    {
+                        "name": "week",
+                        "type": "int"
+                    },
+                    {
+                        "name": "deaths",
+                        "type": "int"
+                    },
+                    {
+                        "name": "expected_deaths",
+                        "type": "int"
+                    },
+                    {
+                        "name": "excess_deaths",
+                        "type": "int"
+                    },
+                    {
+                        "name": "baseline",
+                        "size": "25",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://github.com/nytimes/covid-19-data/archive/refs/heads/master.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "colleges",
+            "path": "covid-19-data-master/colleges/colleges.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "record_date",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "state",
+                        "size": "24",
+                        "type": "char"
+                    },
+                    {
+                        "name": "county",
+                        "size": "28",
+                        "type": "char"
+                    },
+                    {
+                        "name": "city",
+                        "size": "23",
+                        "type": "char"
+                    },
+                    {
+                        "name": "ipeds_id",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "college",
+                        "size": "77",
+                        "type": "char"
+                    },
+                    {
+                        "name": "cases",
+                        "type": "int"
+                    },
+                    {
+                        "name": "cases_2021",
+                        "type": "int"
+                    },
+                    {
+                        "name": "notes",
+                        "size": "164",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://github.com/nytimes/covid-19-data/archive/refs/heads/master.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "facilities",
+            "path": "covid-19-data-master/prisons/facilities.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "nyt_id",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "facility_name",
+                        "size": "89",
+                        "type": "char"
+                    },
+                    {
+                        "name": "facility_type",
+                        "size": "27",
+                        "type": "char"
+                    },
+                    {
+                        "name": "facility_city",
+                        "size": "40",
+                        "type": "char"
+                    },
+                    {
+                        "name": "facility_county",
+                        "size": "20",
+                        "type": "char"
+                    },
+                    {
+                        "name": "facility_county_fips",
+                        "type": "int"
+                    },
+                    {
+                        "name": "facility_state",
+                        "size": "20",
+                        "type": "char"
+                    },
+                    {
+                        "name": "facility_lng",
+                        "type": "double"
+                    },
+                    {
+                        "name": "facility_lat",
+                        "type": "double"
+                    },
+                    {
+                        "name": "latest_inmate_population",
+                        "type": "int"
+                    },
+                    {
+                        "name": "max_inmate_population_2020",
+                        "type": "int"
+                    },
+                    {
+                        "name": "total_inmate_cases",
+                        "type": "int"
+                    },
+                    {
+                        "name": "total_inmate_deaths",
+                        "type": "int"
+                    },
+                    {
+                        "name": "total_officer_cases",
+                        "type": "int"
+                    },
+                    {
+                        "name": "total_officer_deaths",
+                        "type": "int"
+                    },
+                    {
+                        "name": "note",
+                        "size": "116",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://github.com/nytimes/covid-19-data/archive/refs/heads/master.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "systems",
+            "path": "covid-19-data-master/prisons/systems.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "systems",
+                        "size": "21",
+                        "type": "char"
+                    },
+                    {
+                        "name": "inmate_tests",
+                        "type": "int"
+                    },
+                    {
+                        "name": "total_inmate_cases",
+                        "type": "int"
+                    },
+                    {
+                        "name": "total_inmate_deaths",
+                        "type": "int"
+                    },
+                    {
+                        "name": "latest_inmate_population",
+                        "type": "int"
+                    },
+                    {
+                        "name": "max_inmate_population_2020",
+                        "type": "int"
+                    },
+                    {
+                        "name": "total_officer_cases",
+                        "type": "int"
+                    },
+                    {
+                        "name": "total_officer_deaths",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://github.com/nytimes/covid-19-data/archive/refs/heads/master.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "us",
+            "path": "covid-19-data-master/us.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "record_date",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "cases",
+                        "type": "int"
+                    },
+                    {
+                        "name": "deaths",
+                        "type": "int"
+                    },
+                    {
+                        "name": "confirmed_cases",
+                        "type": "int"
+                    },
+                    {
+                        "name": "confirmed_deaths",
+                        "type": "int"
+                    },
+                    {
+                        "name": "probable_cases",
+                        "type": "int"
+                    },
+                    {
+                        "name": "probable_deaths",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://github.com/nytimes/covid-19-data/archive/refs/heads/master.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "us_counties",
+            "path": "covid-19-data-master/us-counties.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "record_date",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "county",
+                        "size": "35",
+                        "type": "char"
+                    },
+                    {
+                        "name": "state",
+                        "size": "24",
+                        "type": "char"
+                    },
+                    {
+                        "name": "fips",
+                        "type": "int"
+                    },
+                    {
+                        "name": "cases",
+                        "type": "int"
+                    },
+                    {
+                        "name": "deaths",
+                        "type": "int"
+                    },
+                    {
+                        "name": "confirmed_cases",
+                        "type": "int"
+                    },
+                    {
+                        "name": "confirmed_deaths",
+                        "type": "int"
+                    },
+                    {
+                        "name": "probable_cases",
+                        "type": "int"
+                    },
+                    {
+                        "name": "probable_deaths",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://github.com/nytimes/covid-19-data/archive/refs/heads/master.zip"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "us_states",
+            "path": "covid-19-data-master/us-states.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "record_date",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "state",
+                        "size": "24",
+                        "type": "char"
+                    },
+                    {
+                        "name": "fips",
+                        "type": "int"
+                    },
+                    {
+                        "name": "cases",
+                        "type": "int"
+                    },
+                    {
+                        "name": "deaths",
+                        "type": "int"
+                    },
+                    {
+                        "name": "confirmed_cases",
+                        "type": "int"
+                    },
+                    {
+                        "name": "confirmed_deaths",
+                        "type": "int"
+                    },
+                    {
+                        "name": "probable_cases",
+                        "type": "int"
+                    },
+                    {
+                        "name": "probable_deaths",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://github.com/nytimes/covid-19-data/archive/refs/heads/master.zip"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "The New York Times Coronavirus (Covid-19) Data in the United States",
+    "version": "1.0.0"
+}
