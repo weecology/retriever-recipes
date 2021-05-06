@@ -1,0 +1,151 @@
+{
+    "citation": "N/A",
+    "description": "This a legacy dataset which contains records of non-emergency City services requests before the launch of the Boston 311 platform, between the periods of November 2012 and February 2013.",
+    "homepage": "https://data.boston.gov/dataset/",
+    "keywords": [
+        "Analyze Boston", "311", "legacy portal", "mayors office", "service requests"
+    ],
+    "licenses": [
+        {
+            "name": "PDDL"
+        }
+    ],
+    "name": "boston-mayor-hotline",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "mayors_24_hour_hotline_cases_created_last_90_days",
+            "path": "mayors-24-hour-hotline-cases-created-last-90-days.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "case_enquiry_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "open_dt",
+                        "size": "22",
+                        "type": "char"
+                    },
+                    {
+                        "name": "closed_dt",
+                        "size": "22",
+                        "type": "char"
+                    },
+                    {
+                        "name": "case_status",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "closure_reason",
+                        "size": "262",
+                        "type": "char"
+                    },
+                    {
+                        "name": "case_title",
+                        "size": "63",
+                        "type": "char"
+                    },
+                    {
+                        "name": "subject",
+                        "size": "33",
+                        "type": "char"
+                    },
+                    {
+                        "name": "reason",
+                        "size": "33",
+                        "type": "char"
+                    },
+                    {
+                        "name": "type",
+                        "size": "49",
+                        "type": "char"
+                    },
+                    {
+                        "name": "queue",
+                        "size": "65",
+                        "type": "char"
+                    },
+                    {
+                        "name": "department",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "location",
+                        "size": "91",
+                        "type": "char"
+                    },
+                    {
+                        "name": "fire_district",
+                        "type": "int"
+                    },
+                    {
+                        "name": "pwd_district",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "city_council_district",
+                        "type": "int"
+                    },
+                    {
+                        "name": "police_district",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "neighborhood",
+                        "size": "44",
+                        "type": "char"
+                    },
+                    {
+                        "name": "neighborhood_services_district",
+                        "type": "int"
+                    },
+                    {
+                        "name": "ward",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "precinct",
+                        "type": "int"
+                    },
+                    {
+                        "name": "land_usage",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "location_street_name",
+                        "size": "70",
+                        "type": "char"
+                    },
+                    {
+                        "name": "location_zipcode",
+                        "type": "int"
+                    },
+                    {
+                        "name": "source",
+                        "size": "20",
+                        "type": "char"
+                    },
+                    {
+                        "name": "geocoded_location",
+                        "size": "23",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/mayors-24-hour-hotline"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "Boston mayor's 24 hotline",
+    "version": "1.0.0"
+}

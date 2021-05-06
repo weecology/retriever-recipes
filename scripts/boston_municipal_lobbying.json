@@ -1,0 +1,62 @@
+{
+    "citation": "N/A",
+    "description": "This dataset contains the list of all persons registered as engaging in lobbying activities.",
+    "homepage": "https://data.boston.gov/dataset/municipal-lobbying",
+    "keywords": [
+        "Analyze Boston", "lobbying"
+    ],
+    "licenses": [
+        {
+            "name": "PDDL"
+        }
+    ],
+    "name": "boston-municipal-lobbying",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "lobbying",
+            "path": "tmp4l8e4kry.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "licenseno",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "registration_type",
+                        "size": "21",
+                        "type": "char"
+                    },
+                    {
+                        "name": "issdttm",
+                        "size": "19",
+                        "type": "char"
+                    },
+                    {
+                        "name": "namefirst",
+                        "size": "30",
+                        "type": "char"
+                    },
+                    {
+                        "name": "namelast",
+                        "size": "50",
+                        "type": "char"
+                    },
+                    {
+                        "name": "reporting_statement",
+                        "size": "697",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/d02c0c78-7bb5-4668-a9c7-8187da0968f7/resource/8e1288b7-aabf-48cc-a733-ca28be0dd0f0/download/tmpn7x9fw8_.csv"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "Boston municipal lobbying",
+    "version": "1.0.0"
+}

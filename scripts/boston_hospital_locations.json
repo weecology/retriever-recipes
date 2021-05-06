@@ -1,0 +1,66 @@
+{
+    "citation": "N/A",
+    "description": "This is a legacy dataset containing the name, address, neighborhood, and coordinates of hospital locations throughout the City.",
+    "homepage": "https://data.boston.gov/dataset/hospital-locations",
+    "keywords": [
+        "Analyze Boston", "facilities", "health", "hospitals", "legacy portal"
+    ],
+    "licenses": [
+        {
+            "name": "PDDL"
+        }
+    ],
+    "name": "boston-hospital-locations",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "hospital_locations",
+            "path": "hospital-locations.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "name",
+                        "size": "45",
+                        "type": "char"
+                    },
+                    {
+                        "name": "ad",
+                        "size": "20",
+                        "type": "char"
+                    },
+                    {
+                        "name": "zipcode",
+                        "type": "int"
+                    },
+                    {
+                        "name": "neigh",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xcoord",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "ycoord",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "location",
+                        "size": "87",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/d9871e89-2d1e-4ecf-b0de-046f553027c0/resource/6222085d-ee88-45c6-ae40-0c7464620d64/download/hospital-locations.csv"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "Boston hospital locations",
+    "version": "1.0.0"
+}

@@ -1,0 +1,46 @@
+{
+    "citation": "N/A",
+    "description": "This is a legacy dataset shoiwng the total daily number of connections to Wicked Free Wifi, by neighborhood, between May 2015 and March 2016",
+    "homepage": "https://data.boston.gov/dataset/wicked-free-wi-fi-daily-connections",
+    "keywords": [
+        "Analyze Boston", "connectivity", "internet", "legacy portal", "web", "wi-fi", "wifi", "wireless"
+    ],
+    "licenses": [
+        {
+            "name": "PDDL"
+        }
+    ],
+    "name": "boston-free-wi-fi-daily",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "wicked_free_connections",
+            "path": "wicked-free-wi-fi-daily-connections.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "neighborhood",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "record_date",
+                        "size": "22",
+                        "type": "char"
+                    },
+                    {
+                        "name": "connections",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/c3251b69-b0e9-4525-8770-d8df382e4b89/resource/3fe9760f-2e4b-4992-8c26-e2e6df59cf3b/download/wicked-free-wi-fi-daily-connections.csv"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "Boston wicked free wi-fi daily connections",
+    "version": "1.0.0"
+}

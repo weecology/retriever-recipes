@@ -1,0 +1,89 @@
+{
+    "citation": "N/A",
+    "description": "This is a legacy dataset of 572 ParkBoston locations, including the number of transactions each month at those locations from January to July of 2015.",
+    "homepage": "https://data.boston.gov/dataset/park-boston-monthly-transactions-by-zone-2015",
+    "keywords": [
+        "Analyze Boston", "Legacy portal", "meters", "parking", "transactions", "transportation"
+    ],
+    "licenses": [
+        {
+            "name": "PDDL"
+        }
+    ],
+    "name": "boston-park-transactions",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "park_boston_monthly_transactions_by_zone_2015",
+            "path": "park-boston-monthly-transactions-by-zone-2015.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "zone_name",
+                        "type": "int"
+                    },
+                    {
+                        "name": "january",
+                        "size": "46",
+                        "type": "char"
+                    },
+                    {
+                        "name": "february",
+                        "type": "int"
+                    },
+                    {
+                        "name": "march",
+                        "type": "int"
+                    },
+                    {
+                        "name": "april",
+                        "type": "int"
+                    },
+                    {
+                        "name": "may",
+                        "type": "int"
+                    },
+                    {
+                        "name": "june",
+                        "type": "int"
+                    },
+                    {
+                        "name": "july",
+                        "type": "int"
+                    },
+                    {
+                        "name": "august",
+                        "type": "int"
+                    },
+                    {
+                        "name": "september",
+                        "type": "int"
+                    },
+                    {
+                        "name": "october",
+                        "type": "int"
+                    },
+                    {
+                        "name": "november",
+                        "type": "int"
+                    },
+                    {
+                        "name": "december",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gt_by_zone",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/5abefcc1-0440-40c8-928b-fae74e41511d/resource/8d38cc9d-8c58-462e-b2df-b793e9c05612/download/park-boston-monthly-transactions-by-zone-2015.csv"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "Park Boston Monthly Transactions by Zone 2015",
+    "version": "1.0.0"
+}

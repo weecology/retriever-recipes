@@ -1,0 +1,167 @@
+{
+    "citation": "N/A",
+    "description": "This is a legacy dataset containing licenses issued by the Office of Consumer Affairs and Licensing from November 2014 through Februrary 2015",
+    "homepage": "https://data.boston.gov/dataset/entertainment-licenses-legacy",
+    "keywords": [
+        "Analyze Boston", "entertainment", "hubhacks", "legacy portal", "licenses", "permits", "venues"
+    ],
+    "licenses": [
+        {
+            "name": "PDDL"
+        }
+    ],
+    "name": "boston-entertainment-licenses",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "entertainment_licenses",
+            "path": "entertainment-licenses.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "licenseno",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "licensedttm",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "issdttm",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "expdttm",
+                        "size": "15",
+                        "type": "char"
+                    },
+                    {
+                        "name": "licstatus",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "liccatdesc",
+                        "size": "22",
+                        "type": "char"
+                    },
+                    {
+                        "name": "primapplicant",
+                        "size": "40",
+                        "type": "char"
+                    },
+                    {
+                        "name": "contact",
+                        "size": "30",
+                        "type": "char"
+                    },
+                    {
+                        "name": "dbaname",
+                        "size": "45",
+                        "type": "char"
+                    },
+                    {
+                        "name": "businessname",
+                        "size": "60",
+                        "type": "char"
+                    },
+                    {
+                        "name": "manager",
+                        "size": "25",
+                        "type": "char"
+                    },
+                    {
+                        "name": "totalcapacity",
+                        "type": "int"
+                    },
+                    {
+                        "name": "feeamount",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "capacity",
+                        "type": "int"
+                    },
+                    {
+                        "name": "endtime",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "numberofunits",
+                        "type": "int"
+                    },
+                    {
+                        "name": "neighborhood",
+                        "size": "30",
+                        "type": "char"
+                    },
+                    {
+                        "name": "cal_policedistrictcode",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "cal_unittypecode",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "unittypedescript",
+                        "size": "26",
+                        "type": "char"
+                    },
+                    {
+                        "name": "totalentcapacity",
+                        "type": "int"
+                    },
+                    {
+                        "name": "stno",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "stnohi",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "address",
+                        "size": "28",
+                        "type": "char"
+                    },
+                    {
+                        "name": "city",
+                        "size": "27",
+                        "type": "char"
+                    },
+                    {
+                        "name": "state",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "zip",
+                        "type": "int"
+                    },
+                    {
+                        "name": "location",
+                        "size": "29",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/0d93d762-da11-4cea-9bf0-77aaa5d25c36/resource/7920c501-b410-4a9c-85ab-51338c9b34af/download/entertainment-licenses.csv"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "Boston entertainment licenses",
+    "version": "1.0.0"
+}

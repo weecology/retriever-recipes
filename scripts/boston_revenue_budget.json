@@ -1,0 +1,72 @@
+{
+    "citation": "N/A",
+    "description": "The Boston FY20 recommended budget ",
+    "homepage": "https://data.boston.gov/dataset/revenue-budget",
+    "keywords": [
+        "Analyze Boston"
+    ],
+    "licenses": [
+        {
+            "name": "PDDL"
+        }
+    ],
+    "name": "boston-revenue-budget",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "revenue_open",
+            "path": "revenue-open-data_04.03.19-1.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "revenue_category",
+                        "size": "25",
+                        "type": "char"
+                    },
+                    {
+                        "name": "account",
+                        "size": "35",
+                        "type": "char"
+                    },
+                    {
+                        "name": "cabinet",
+                        "size": "34",
+                        "type": "char"
+                    },
+                    {
+                        "name": "department",
+                        "size": "39",
+                        "type": "char"
+                    },
+                    {
+                        "name": "fy17_actual",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "fy18_actual",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "fy19_approp",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "fy20_recommended",
+                        "size": "16",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/ff9eeb02-9842-4aff-a725-4fc591fdc6cd/resource/c5421df1-a23a-491b-b7b2-e7b110b65f8a/download/revenue-open-data_04.03.19-1.csv"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "Boston revenue budget",
+    "version": "1.0.0"
+}

@@ -1,0 +1,148 @@
+{
+    "citation": "N/A",
+    "description": "This dataset represents the annual greenhouse gas emissions produced by the City of Boston from 2005 to 2016.",
+    "homepage": "https://data.boston.gov/dataset/greenhouse-gas-emissions",
+    "keywords": [
+        "Analyze Boston", "annual update", "Climate Ready Boston", "climate change", "emissions energy", "environment", "greenhouse"
+    ],
+    "licenses": [
+        {
+            "name": "PDDL"
+        }
+    ],
+    "name": "boston-greenhouse-gas-emissions",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "community_greenhouse_gas",
+            "path": "community-greenhouse-gas.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "protocol",
+                        "size": "71",
+                        "type": "char"
+                    },
+                    {
+                        "name": "sector",
+                        "size": "39",
+                        "type": "char"
+                    },
+                    {
+                        "name": "source",
+                        "size": "22",
+                        "type": "char"
+                    },
+                    {
+                        "name": "year_calendar_year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "ghg_emissions_mt_co2e",
+                        "size": "9",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/12747030-fb0c-4c61-8fa5-d903b8ce45e9/resource/bd8dd4bb-867e-4ca2-b6c7-6c3bd9e6c290/download/community-greenhouse-gas.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "fuels",
+            "path": "local-government-fuels.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "department_longname",
+                        "size": "32",
+                        "type": "char"
+                    },
+                    {
+                        "name": "department",
+                        "size": "19",
+                        "type": "char"
+                    },
+                    {
+                        "name": "sector",
+                        "size": "13",
+                        "type": "char"
+                    },
+                    {
+                        "name": "fuel_type",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "year_fiscal_year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "quantity",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "units",
+                        "size": "7",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/12747030-fb0c-4c61-8fa5-d903b8ce45e9/resource/38041b38-a7d4-495a-957e-d7c2d514fc64/download/local-government-operations-fuels.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "local-government-gas",
+            "path": "local-government-operations-greenhouse-gas.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "protocol",
+                        "size": "43",
+                        "type": "char"
+                    },
+                    {
+                        "name": "department_longname",
+                        "size": "32",
+                        "type": "char"
+                    },
+                    {
+                        "name": "department",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "sector",
+                        "size": "13",
+                        "type": "char"
+                    },
+                    {
+                        "name": "fuel_type",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "year_fiscal_year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "ghg_emissions_t_co2e",
+                        "size": "6",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/12747030-fb0c-4c61-8fa5-d903b8ce45e9/resource/d2b83ed7-ce3c-448d-b20a-971ed911d9e7/download/local-government-operations-greenhouse-gas.csv"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "Boston greenhouse gas emissions",
+    "version": "1.0.0"
+}

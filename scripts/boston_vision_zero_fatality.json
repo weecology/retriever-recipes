@@ -1,0 +1,80 @@
+{
+    "citation": "N/A",
+    "description": "This dataset, provided as part of the Vision Zero Boston program, contains records of the date, time, location, and type of fatality for Vision Zero related crashes resulting in a fatality.",
+    "homepage": "https://data.boston.gov/dataset/vision-zero-fatality-records",
+    "keywords": [
+        "Analyze Boston", "monthly update", "accidents", "bikes", "cars", "crashes", "fatalities", "pedestrians", "safety", "streets", "traffic", "vision zero"
+    ],
+    "licenses": [
+        {
+            "name": "PDDL"
+        }
+    ],
+    "name": "boston-vision-zero-fatality",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "vision_zero",
+            "path": "tmpm9inwcu7.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "date_time",
+                        "size": "19",
+                        "type": "char"
+                    },
+                    {
+                        "name": "mode_type",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "location_type",
+                        "size": "12",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street",
+                        "size": "17",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xstreet1",
+                        "size": "23",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xstreet2",
+                        "size": "23",
+                        "type": "char"
+                    },
+                    {
+                        "name": "x_cord",
+                        "type": "double"
+                    },
+                    {
+                        "name": "y_cord",
+                        "type": "double"
+                    },
+                    {
+                        "name": "lon",
+                        "size": "50,30",
+                        "type": "decimal"
+                    },
+                    {
+                        "name": "lat",
+                        "size": "50,30",
+                        "type": "decimal"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/d326a4e3-75f2-42ac-9b32-e2920566d04c/resource/92f18923-d4ec-4c17-9405-4e0da63e1d6c/download/tmpm9inwcu7.csv"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "Boston vision zero fatality",
+    "version": "1.0.0"
+}

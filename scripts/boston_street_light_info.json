@@ -1,0 +1,314 @@
+{
+    "citation": "N/A",
+    "description": "This is a legacy dataset containing details on electric power usage and costs from among the City's 1,600 unique control box locations during the period of February to September of 2014 and  details on LED retrofitted streetlights, including their locations, date of replacement, cost savings per year, and more.",
+    "homepage": "https://data.boston.gov/dataset/",
+    "keywords": [
+        "Analyze Boston"
+    ],
+    "licenses": [
+        {
+            "name": "PDDL"
+        }
+    ],
+    "name": "boston-street-light-info",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "control_box_cost_usage",
+            "path": "street-light-control-box-electric-power-cost-usage-details.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "division_sitegroup",
+                        "size": "30",
+                        "type": "char"
+                    },
+                    {
+                        "name": "site",
+                        "size": "32",
+                        "type": "char"
+                    },
+                    {
+                        "name": "city",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "state",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "country",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "type",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "category",
+                        "size": "12",
+                        "type": "char"
+                    },
+                    {
+                        "name": "uom",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "feb_14",
+                        "type": "double"
+                    },
+                    {
+                        "name": "mar_14",
+                        "type": "double"
+                    },
+                    {
+                        "name": "apr_14",
+                        "type": "double"
+                    },
+                    {
+                        "name": "may_14",
+                        "type": "double"
+                    },
+                    {
+                        "name": "jun_14",
+                        "type": "double"
+                    },
+                    {
+                        "name": "jul_14",
+                        "type": "double"
+                    },
+                    {
+                        "name": "aug_14",
+                        "type": "double"
+                    },
+                    {
+                        "name": "sep_14",
+                        "type": "double"
+                    },
+                    {
+                        "name": "total",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/d7112e58-9531-42fc-9dcc-95c5b03b781b/resource/b056ffa3-9c22-4d01-9c8f-b91dd47f38f3/download/street-light-control-box-electric-power-cost-usage-details.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "street_light_retrofits2014",
+            "path": "street-light-retrofits2014.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "street",
+                        "size": "27",
+                        "type": "char"
+                    },
+                    {
+                        "name": "district",
+                        "size": "12",
+                        "type": "char"
+                    },
+                    {
+                        "name": "citylampnumber",
+                        "type": "int"
+                    },
+                    {
+                        "name": "nstaracct",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "existingsizelumens",
+                        "type": "int"
+                    },
+                    {
+                        "name": "existingwattage",
+                        "type": "double"
+                    },
+                    {
+                        "name": "type",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "kwh_yr",
+                        "type": "double"
+                    },
+                    {
+                        "name": "cost_yr",
+                        "type": "double"
+                    },
+                    {
+                        "name": "newsize",
+                        "type": "int"
+                    },
+                    {
+                        "name": "newwattage",
+                        "type": "double"
+                    },
+                    {
+                        "name": "type1",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "kwh_yr",
+                        "type": "double"
+                    },
+                    {
+                        "name": "cost_yr",
+                        "type": "double"
+                    },
+                    {
+                        "name": "savings",
+                        "type": "double"
+                    },
+                    {
+                        "name": "installeddate",
+                        "size": "22",
+                        "type": "char"
+                    },
+                    {
+                        "name": "kwh_yr_savings",
+                        "type": "double"
+                    },
+                    {
+                        "name": "w",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "w",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "jan",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "jan",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "jan",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "jan",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "feb",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "feb",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "feb",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "feb",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "mar",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "mar",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "mar",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "mar",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "mar",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "apr",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "apr",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "apr",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "apr",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "may",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "slcb",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "slcb_description",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "sl_number",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "sl_description",
+                        "size": "4",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/3967f151-24bc-4669-8871-43434ef2cd41/resource/aa3a03c5-003a-485e-997b-cf483add3ba2/download/street-light-retrofits2014.csv"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "Boston street light info",
+    "version": "1.0.0"
+}

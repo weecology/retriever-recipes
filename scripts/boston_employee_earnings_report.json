@@ -1,0 +1,596 @@
+{
+    "citation": "N/A",
+    "description": "This dataset contains employee names, job details, and earnings information including base salary, overtime, and total compensation for employees of the City.",
+    "homepage": "https://data.boston.gov/dataset/employee-earnings-report",
+    "keywords": [
+        "Analyze Boston", "earnings", "employees", "overtime", "payroll", "salary", "wages"
+    ],
+    "licenses": [
+        {
+            "name": "PDDL"
+        }
+    ],
+    "name": "boston-employee-earnings-report",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "employee_earnings_report_2011",
+            "path": "employee-earnings-report-2011.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "name",
+                        "size": "35",
+                        "type": "char"
+                    },
+                    {
+                        "name": "department_name",
+                        "size": "30",
+                        "type": "char"
+                    },
+                    {
+                        "name": "title",
+                        "size": "30",
+                        "type": "char"
+                    },
+                    {
+                        "name": "regular",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "retro",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "other",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "overtime",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "injured",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "detail",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "quinn",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "total_earnings",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "zip_code",
+                        "size": "10",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/418983dc-7cae-42bb-88e4-d56f5adcf869/resource/a861eff8-facc-4372-9b2d-262c2887b19e/download/employee-earnings-report-2011.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "employee_earnings_report_2012",
+            "path": "employee-earnings-report-2012.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "name",
+                        "size": "35",
+                        "type": "char"
+                    },
+                    {
+                        "name": "department",
+                        "size": "30",
+                        "type": "char"
+                    },
+                    {
+                        "name": "title",
+                        "size": "30",
+                        "type": "char"
+                    },
+                    {
+                        "name": "regular",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "retro",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "other",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "overtime",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "injured",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "detail",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "quinn",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "total_earnings",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "zip",
+                        "size": "10",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/418983dc-7cae-42bb-88e4-d56f5adcf869/resource/d96dd8ad-9396-484a-87af-4d15e9e2ccb2/download/employee-earnings-report-2012.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "employee_earnings_report_2013",
+            "path": "employee-earnings-report-2013.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "name",
+                        "size": "35",
+                        "type": "char"
+                    },
+                    {
+                        "name": "title",
+                        "size": "30",
+                        "type": "char"
+                    },
+                    {
+                        "name": "department",
+                        "size": "30",
+                        "type": "char"
+                    },
+                    {
+                        "name": "regular",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "retro",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "other",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "overtime",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "injured",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "detail",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "quinn",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "total_earnings",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "zip",
+                        "size": "10",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/418983dc-7cae-42bb-88e4-d56f5adcf869/resource/fac6a421-72fb-4f85-b4ac-4aca1e32d94e/download/employee-earnings-report-2013.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "employee_earnings_report_2014",
+            "path": "employee-earnings-report-2014.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "name",
+                        "size": "38",
+                        "type": "char"
+                    },
+                    {
+                        "name": "title",
+                        "size": "30",
+                        "type": "char"
+                    },
+                    {
+                        "name": "department_name",
+                        "size": "30",
+                        "type": "char"
+                    },
+                    {
+                        "name": "regular",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "retro",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "other",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "overtime",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "injured",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "detail",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "quinn",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "total_earnings",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "zip",
+                        "size": "5",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/418983dc-7cae-42bb-88e4-d56f5adcf869/resource/941c9de4-fb91-41bb-ad5a-43a35f5dc80f/download/employee-earnings-report-2014.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "employee_earnings_report_2015",
+            "path": "employee-earnings-report-2015.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "name",
+                        "size": "39",
+                        "type": "char"
+                    },
+                    {
+                        "name": "department_name",
+                        "size": "30",
+                        "type": "char"
+                    },
+                    {
+                        "name": "title",
+                        "size": "30",
+                        "type": "char"
+                    },
+                    {
+                        "name": "regular",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "retro",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "other",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "overtime",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "injured",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "details",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "quinn_education_incentive",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "total_earnings",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "postal",
+                        "size": "5",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/418983dc-7cae-42bb-88e4-d56f5adcf869/resource/2ff6343f-850d-46e7-98d1-aca79b619fd6/download/employee-earnings-report-2015.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "employee_earnings_report_2016",
+            "path": "employee-earnings-report-2016.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "name",
+                        "size": "39",
+                        "type": "char"
+                    },
+                    {
+                        "name": "department_name",
+                        "size": "30",
+                        "type": "char"
+                    },
+                    {
+                        "name": "title",
+                        "size": "30",
+                        "type": "char"
+                    },
+                    {
+                        "name": "regular",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "retro",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "other",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "overtime",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "injured",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "detail",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "quinn_education_incentive",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "total_earnings",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "postal",
+                        "size": "5",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/418983dc-7cae-42bb-88e4-d56f5adcf869/resource/8368bd3d-3633-4927-8355-2a2f9811ab4f/download/employee-earnings-report-2016.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "employee_earnings_report_2017",
+            "path": "employee-earnings-report-2017.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "name",
+                        "size": "39",
+                        "type": "char"
+                    },
+                    {
+                        "name": "department_name",
+                        "size": "30",
+                        "type": "char"
+                    },
+                    {
+                        "name": "title",
+                        "size": "30",
+                        "type": "char"
+                    },
+                    {
+                        "name": "regular",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "retro",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "other",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "overtime",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "injured",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "detail",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "quinn_education_incentive",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "total_earnings",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "postal",
+                        "size": "5",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/418983dc-7cae-42bb-88e4-d56f5adcf869/resource/70129b87-bd4e-49bb-aa09-77644da73503/download/employee-earnings-report-2017.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "employeeearningscy18full",
+            "path": "employeeearningscy18full.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "name",
+                        "size": "47",
+                        "type": "char"
+                    },
+                    {
+                        "name": "department_name",
+                        "size": "30",
+                        "type": "char"
+                    },
+                    {
+                        "name": "title",
+                        "size": "30",
+                        "type": "char"
+                    },
+                    {
+                        "name": "regular",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "retro",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "other",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "overtime",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "injured",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "detail",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "quinn_education_incentive",
+                        "size": "25",
+                        "type": "char"
+                    },
+                    {
+                        "name": "total_earnings",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "postal",
+                        "size": "6",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/418983dc-7cae-42bb-88e4-d56f5adcf869/resource/31358fd1-849a-48e0-8285-e813f6efbdf1/download/employeeearningscy18full.csv"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "Boston employee earnings report",
+    "version": "1.0.0"
+}

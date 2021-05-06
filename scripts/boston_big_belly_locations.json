@@ -1,0 +1,42 @@
+{
+    "citation": "N/A",
+    "description": "Big Belly trash receptacles are solar powered, internet connected, compacting trash receptacles that can collect up to five times as much waste as traditional bins and help the city more efficiently manage the waste collection process. This data set contains descriptions and geographic coordinates for all of the Big Belly receptacles located within the City.",
+    "homepage": "https://data.boston.gov/dataset/big-belly-locations",
+    "keywords": [
+        "Analyze Boston", "big belly", "hubhacks", "legacy portal", "public works", "sanitation", "trash"
+    ],
+    "licenses": [
+        {
+            "name": "PDDL"
+        }
+    ],
+    "name": "boston-big-belly-locations",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "big_belly_locations",
+            "path": "big-belly-locations.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "description",
+                        "size": "86",
+                        "type": "char"
+                    },
+                    {
+                        "name": "location",
+                        "size": "27",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/8ea35b68-534e-4ded-af07-c224cf4b71dc/resource/15e7fa44-b9a8-42da-82e1-304e43460095/download/big-belly-locations.csv"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "Boston big belly locations",
+    "version": "1.0.0"
+}

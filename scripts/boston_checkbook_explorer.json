@@ -1,0 +1,783 @@
+{
+    "citation": "N/A",
+    "description": "The Checkbook Explorer web application provides up-to-date financial information about the City’s expenditures, allowing users to interact with data on how the City is spending money. The data is updated monthly, with certain personal information omitted in order to ensure privacy. More data is in boston-checkbook-explorer-extra",
+    "homepage": "https://data.boston.gov/dataset/checkbook-explorer",
+    "keywords": [
+        "Analyze Boston", "semimonthly update"
+    ],
+    "licenses": [
+        {
+            "name": "PDDL"
+        }
+    ],
+    "name": "boston-checkbook-explorer",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "checkbook_explorer_fy19",
+            "path": "checkbook-explorer-fy19.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "voucher",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "voucher_line",
+                        "type": "int"
+                    },
+                    {
+                        "name": "distribution_line",
+                        "type": "int"
+                    },
+                    {
+                        "name": "entered",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "month_number",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fiscal_month",
+                        "type": "int"
+                    },
+                    {
+                        "name": "month",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "fiscal_year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "vendor_name",
+                        "size": "40",
+                        "type": "char"
+                    },
+                    {
+                        "name": "account",
+                        "type": "int"
+                    },
+                    {
+                        "name": "account_descr",
+                        "size": "30",
+                        "type": "char"
+                    },
+                    {
+                        "name": "dept",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "department_name",
+                        "size": "30",
+                        "type": "char"
+                    },
+                    {
+                        "name": "program",
+                        "size": "30",
+                        "type": "char"
+                    },
+                    {
+                        "name": "monetary_amount",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/eed1e776-e26e-4123-a3a4-648f286bfa1e/resource/38227f56-46ed-47fe-9e1c-5d2fce52908d/download/checkbook-explorer-fy19.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "checkbook_explorer_fy20",
+            "path": "checkbook-explorer-fy20.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "voucher",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "voucher_line",
+                        "type": "int"
+                    },
+                    {
+                        "name": "distribution_line",
+                        "type": "int"
+                    },
+                    {
+                        "name": "entered",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "month_number",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fiscal_month",
+                        "type": "int"
+                    },
+                    {
+                        "name": "month",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "fiscal_year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "vendor_name",
+                        "size": "40",
+                        "type": "char"
+                    },
+                    {
+                        "name": "account",
+                        "type": "int"
+                    },
+                    {
+                        "name": "account_descr",
+                        "size": "30",
+                        "type": "char"
+                    },
+                    {
+                        "name": "dept",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "department_name",
+                        "size": "30",
+                        "type": "char"
+                    },
+                    {
+                        "name": "program",
+                        "size": "30",
+                        "type": "char"
+                    },
+                    {
+                        "name": "monetary_amount",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/eed1e776-e26e-4123-a3a4-648f286bfa1e/resource/c093700f-d78a-49de-a8fe-508ba834ff6f/download/checkbook-explorer-fy20.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "checkbook_explorerfy12",
+            "path": "checkbook-explorerfy12.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "voucher",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "voucher_line",
+                        "type": "int"
+                    },
+                    {
+                        "name": "distribution_line",
+                        "type": "int"
+                    },
+                    {
+                        "name": "entered",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "month_number",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fiscal_month",
+                        "type": "int"
+                    },
+                    {
+                        "name": "month",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "fiscal_year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "vendor_name",
+                        "size": "40",
+                        "type": "char"
+                    },
+                    {
+                        "name": "account",
+                        "type": "int"
+                    },
+                    {
+                        "name": "account_descr",
+                        "size": "30",
+                        "type": "char"
+                    },
+                    {
+                        "name": "dept",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "department_name",
+                        "size": "30",
+                        "type": "char"
+                    },
+                    {
+                        "name": "program",
+                        "size": "30",
+                        "type": "char"
+                    },
+                    {
+                        "name": "monetary_amount",
+                        "size": "16",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/eed1e776-e26e-4123-a3a4-648f286bfa1e/resource/fd5c56a7-224f-41c4-a011-969b8aee457d/download/checkbook-explorerfy12.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "checkbook_explorerfy13",
+            "path": "checkbook-explorerfy13.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "voucher",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "voucher_line",
+                        "type": "int"
+                    },
+                    {
+                        "name": "distribution_line",
+                        "type": "int"
+                    },
+                    {
+                        "name": "entered",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "month_number",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fiscal_month",
+                        "type": "int"
+                    },
+                    {
+                        "name": "month",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "fiscal_year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "vendor_name",
+                        "size": "40",
+                        "type": "char"
+                    },
+                    {
+                        "name": "account",
+                        "type": "int"
+                    },
+                    {
+                        "name": "account_descr",
+                        "size": "30",
+                        "type": "char"
+                    },
+                    {
+                        "name": "dept",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "department_name",
+                        "size": "30",
+                        "type": "char"
+                    },
+                    {
+                        "name": "program",
+                        "size": "30",
+                        "type": "char"
+                    },
+                    {
+                        "name": "monetary_amount",
+                        "size": "14",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/eed1e776-e26e-4123-a3a4-648f286bfa1e/resource/c2bc5615-9478-4a9b-b71c-f63f6364e409/download/checkbook-explorerfy13.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "checkbook_explorerfy14",
+            "path": "checkbook-explorerfy14.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "voucher",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "voucher_line",
+                        "type": "int"
+                    },
+                    {
+                        "name": "distribution_line",
+                        "type": "int"
+                    },
+                    {
+                        "name": "entered",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "month_number",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fiscal_month",
+                        "type": "int"
+                    },
+                    {
+                        "name": "month",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "fiscal_year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "vendor_name",
+                        "size": "40",
+                        "type": "char"
+                    },
+                    {
+                        "name": "account",
+                        "type": "int"
+                    },
+                    {
+                        "name": "account_descr",
+                        "size": "30",
+                        "type": "char"
+                    },
+                    {
+                        "name": "dept",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "department_name",
+                        "size": "30",
+                        "type": "char"
+                    },
+                    {
+                        "name": "program",
+                        "size": "30",
+                        "type": "char"
+                    },
+                    {
+                        "name": "monetary_amount",
+                        "size": "16",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/eed1e776-e26e-4123-a3a4-648f286bfa1e/resource/69eab395-07d3-41b8-a021-a0d314bd8046/download/checkbook-explorerfy14.csv"
+            
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "checkbook_explorerfy15",
+            "path": "checkbook-explorerfy15.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "voucher",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "voucher_line",
+                        "type": "int"
+                    },
+                    {
+                        "name": "distribution_line",
+                        "type": "int"
+                    },
+                    {
+                        "name": "entered",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "month_number",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fiscal_month",
+                        "type": "int"
+                    },
+                    {
+                        "name": "month",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "fiscal_year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "vendor_name",
+                        "size": "40",
+                        "type": "char"
+                    },
+                    {
+                        "name": "account",
+                        "type": "int"
+                    },
+                    {
+                        "name": "account_descr",
+                        "size": "30",
+                        "type": "char"
+                    },
+                    {
+                        "name": "dept",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "department_name",
+                        "size": "30",
+                        "type": "char"
+                    },
+                    {
+                        "name": "program",
+                        "size": "30",
+                        "type": "char"
+                    },
+                    {
+                        "name": "monetary_amount",
+                        "size": "14",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "FILL"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "checkbook_explorerfy16",
+            "path": "checkbook-explorerfy16.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "voucher",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "voucher_line",
+                        "type": "int"
+                    },
+                    {
+                        "name": "distribution_line",
+                        "type": "int"
+                    },
+                    {
+                        "name": "entered",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "month_number",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fiscal_month",
+                        "type": "int"
+                    },
+                    {
+                        "name": "month",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "fiscal_year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "vendor_name",
+                        "size": "40",
+                        "type": "char"
+                    },
+                    {
+                        "name": "account",
+                        "type": "int"
+                    },
+                    {
+                        "name": "account_descr",
+                        "size": "30",
+                        "type": "char"
+                    },
+                    {
+                        "name": "dept",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "department_name",
+                        "size": "30",
+                        "type": "char"
+                    },
+                    {
+                        "name": "program",
+                        "size": "30",
+                        "type": "char"
+                    },
+                    {
+                        "name": "monetary_amount",
+                        "size": "14",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "FILL"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "checkbook_explorerfy17",
+            "path": "checkbook-explorerfy17.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "voucher",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "voucher_line",
+                        "type": "int"
+                    },
+                    {
+                        "name": "distribution_line",
+                        "type": "int"
+                    },
+                    {
+                        "name": "entered",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "month_number",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fiscal_month",
+                        "type": "int"
+                    },
+                    {
+                        "name": "month",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "fiscal_year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "vendor_name",
+                        "size": "40",
+                        "type": "char"
+                    },
+                    {
+                        "name": "account",
+                        "type": "int"
+                    },
+                    {
+                        "name": "account_descr",
+                        "size": "30",
+                        "type": "char"
+                    },
+                    {
+                        "name": "dept",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "department_name",
+                        "size": "30",
+                        "type": "char"
+                    },
+                    {
+                        "name": "program",
+                        "size": "30",
+                        "type": "char"
+                    },
+                    {
+                        "name": "monetary_amount",
+                        "size": "14",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "FILL"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "checkbook_explorerfy18",
+            "path": "checkbook-explorerfy18.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "voucher",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "voucher_line",
+                        "type": "int"
+                    },
+                    {
+                        "name": "distribution_line",
+                        "type": "int"
+                    },
+                    {
+                        "name": "entered",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "month_number",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fiscal_month",
+                        "type": "int"
+                    },
+                    {
+                        "name": "month",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "fiscal_year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "vendor_name",
+                        "size": "40",
+                        "type": "char"
+                    },
+                    {
+                        "name": "account",
+                        "type": "int"
+                    },
+                    {
+                        "name": "account_descr",
+                        "size": "30",
+                        "type": "char"
+                    },
+                    {
+                        "name": "dept",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "department_name",
+                        "size": "30",
+                        "type": "char"
+                    },
+                    {
+                        "name": "program",
+                        "size": "30",
+                        "type": "char"
+                    },
+                    {
+                        "name": "monetary_amount",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "FILL"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "Boston checkbook explorer",
+    "version": "1.0.0"
+}

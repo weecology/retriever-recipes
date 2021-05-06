@@ -1,0 +1,49 @@
+{
+    "citation": "N/A",
+    "description": "This dataset provides daily counts of firearms recovered by Boston Police Department since August 20, 2014. Recovery totals are provided for three distinct channels: crime, voluntary surrender, and gun buyback programs.",
+    "homepage": "https://data.boston.gov/dataset/boston-police-department-firearm-recovery-counts",
+    "keywords": [
+        "Analyze Boston", "crime", "firearms", "guns", "police", "safety", "monthly update"
+    ],
+    "licenses": [
+        {
+            "name": "PDDL"
+        }
+    ],
+    "name": "boston-bpd-firearm-recovery",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "firearmrecoveries",
+            "path": "bpdfirearmrecoveries20190624.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "collectiondate",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "crimegunsrecovered",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gunssurrenderedsafeguarded",
+                        "type": "int"
+                    },
+                    {
+                        "name": "buybackgunsrecovered",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/3937b427-6aa4-4515-b30d-c76771313feb/resource/a3d2260f-8a41-4e95-9134-d14711b0f954/download/bpdfirearmrecoveries20190624.csv"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "Boston bpd firearm recovery counts",
+    "version": "1.0.0"
+}

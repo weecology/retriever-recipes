@@ -1,0 +1,120 @@
+{
+    "citation": "N/A",
+    "description": "FILL",
+    "homepage": "https://data.boston.gov/dataset/btd-sign-shop-completed-workorders",
+    "keywords": [
+        "Analyze Boston", "legacy portal", "signs", "transit", "work order"
+    ],
+    "licenses": [
+        {
+            "name": "PDDL"
+        }
+    ],
+    "name": "boston-btd-sign-orders",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "completed_workorders",
+            "path": "btd-sign-shop-completed-workorders.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "workorder",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street",
+                        "size": "20",
+                        "type": "char"
+                    },
+                    {
+                        "name": "description",
+                        "size": "13",
+                        "type": "char"
+                    },
+                    {
+                        "name": "reason",
+                        "size": "15",
+                        "type": "char"
+                    },
+                    {
+                        "name": "opendt",
+                        "type": "int"
+                    },
+                    {
+                        "name": "opentime",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fielddt",
+                        "type": "int"
+                    },
+                    {
+                        "name": "completeddt",
+                        "type": "int"
+                    },
+                    {
+                        "name": "completedtime",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fdate",
+                        "type": "int"
+                    },
+                    {
+                        "name": "ftime",
+                        "type": "int"
+                    },
+                    {
+                        "name": "details",
+                        "size": "20",
+                        "type": "char"
+                    },
+                    {
+                        "name": "description",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "sign_type",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "description",
+                        "size": "20",
+                        "type": "char"
+                    },
+                    {
+                        "name": "dimension1",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "dimension2",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "dimension3",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "shape",
+                        "size": "4",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/f4ebabbf-00e1-43a9-b941-08d864b15713/resource/a09d02c0-57c6-4da1-b719-645707bea538/download/btd-sign-shop-completed-workorders.csv"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "Boston BTD sign shop completed work orders",
+    "version": "1.0.0"
+}

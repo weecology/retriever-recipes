@@ -1,0 +1,336 @@
+{
+    "citation": "N/A",
+    "description": "Daily page views for City Archives' Digital Repository for a given month",
+    "homepage": "https://data.boston.gov/dataset/monthly-page-views-for-city-archives-digital-repository",
+    "keywords": [
+        "Analyze Boston", "Digital Records", "Google Analytics", "Page Views", "Statistics", "Website"
+    ],
+    "licenses": [
+        {
+            "name": "PDDL"
+        }
+    ],
+    "name": "boston-monthly-pageviews-cityarchives",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "digitalrecords_pageviews_2018_01",
+            "path": "digitalrecords-pageviews-2018-01.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "record_date",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "number_of_users",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/ba26208d-02c4-4a78-9145-16a52784c7f8/resource/2fe1d262-9f2f-405d-a336-fd3c71343b56/download/digitalrecords-pageviews-2018-01.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "digitalrecords_pageviews_2018_02",
+            "path": "digitalrecords-pageviews-2018-02.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "day_index",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "pageviews",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/ba26208d-02c4-4a78-9145-16a52784c7f8/resource/2b9a9e3e-b6d5-46d5-8b11-e8242b00b9b0/download/digitalrecords-pageviews-2018-02.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "digitalrecords_pageviews_2018_03",
+            "path": "digitalrecords-pageviews-2018-03.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "day_index",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "pageviews",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/ba26208d-02c4-4a78-9145-16a52784c7f8/resource/328e8ef2-bfd4-4394-8a5b-1eef6f7fbe50/download/digitalrecords-pageviews-2018-03.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "digitalrecords_pageviews_2018_04",
+            "path": "digitalrecords-pageviews-2018-04.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "day_index",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "pageviews",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/ba26208d-02c4-4a78-9145-16a52784c7f8/resource/df1f9773-9318-495c-90e5-c0ae265ce2a6/download/digitalrecords-pageviews-2018-04.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "digitalrecords_pageviews_2018_05",
+            "path": "digitalrecords-pageviews-2018-05.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "day_index",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "pageviews",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/ba26208d-02c4-4a78-9145-16a52784c7f8/resource/8d33389b-f822-4063-b240-9a5b9f38b17a/download/digitalrecords-pageviews-2018-05.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "digitalrecords_pageviews_2018_06",
+            "path": "digitalrecords-pageviews-2018-06.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "day_index",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "pageviews",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/ba26208d-02c4-4a78-9145-16a52784c7f8/resource/f06af7ae-aed8-492e-8014-054aef22abe6/download/digitalrecords-pageviews-2018-06.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "digitalrecords_pageviews_2018_07",
+            "path": "digitalrecords-pageviews-2018-07.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "day_index",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "users",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/ba26208d-02c4-4a78-9145-16a52784c7f8/resource/d1f9d1b7-e87d-474e-b3d8-9cac835ea109/download/digitalrecords-pageviews-2018-07.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "digitalrecords_pageviews_2018_08",
+            "path": "digitalrecords-pageviews-2018-08.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "day_index",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "users",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/ba26208d-02c4-4a78-9145-16a52784c7f8/resource/13de7fcb-45f5-4bfc-9afc-d696e205c273/download/digitalrecords-pageviews-2018-08.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "digitalrecords_pageviews_2018_09",
+            "path": "digitalrecords-pageviews-2018-09.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "day_index",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "pageviews",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/ba26208d-02c4-4a78-9145-16a52784c7f8/resource/8aaf678f-fb81-499d-9019-eee585fcc4a3/download/digitalrecords-pageviews-2018-09.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "digitalrecords_pageviews_2018_10",
+            "path": "digitalrecords-pageviews-2018-10.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "day_index",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "pageviews",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/ba26208d-02c4-4a78-9145-16a52784c7f8/resource/19754862-2f20-4ed0-ab2a-ee0b01f6c5e7/download/digitalrecords-pageviews-2018-10.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "digitalrecords_pageviews_2018_11",
+            "path": "digitalrecords-pageviews-2018-11.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "day_index",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "pageviews",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/ba26208d-02c4-4a78-9145-16a52784c7f8/resource/ff0d2263-4d8a-4a49-9e04-c61c9e40f6c1/download/digitalrecords-pageviews-2018-11.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "digitalrecords_pageviews_2018_12",
+            "path": "digitalrecords-pageviews-2018-12.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "day_index",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "pageviews",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/ba26208d-02c4-4a78-9145-16a52784c7f8/resource/75402ab8-c4f6-49c0-88e4-f3dd150340ec/download/digitalrecords-pageviews-2018-12.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "digitalrecords_pageviews_2019_01",
+            "path": "digitalrecords-pageviews-2019-01.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "day_index",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "pageviews",
+                        "size": "5",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/ba26208d-02c4-4a78-9145-16a52784c7f8/resource/7ae21358-c126-4b9a-80f8-d3a6a280d8c1/download/digitalrecords-pageviews-2019-01.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "digitalrecords_pageviews_2019_031",
+            "path": "digitalrecords-pageviews-2019-031.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "day_index",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "pageviews",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/ba26208d-02c4-4a78-9145-16a52784c7f8/resource/d991e1cb-225e-496d-bdc4-9069b370a37b/download/digitalrecords-pageviews-2019-031.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "digitalrecordspageviews_2019_021",
+            "path": "digitalrecordspageviews-2019-021.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "day_index",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "pageviews",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/ba26208d-02c4-4a78-9145-16a52784c7f8/resource/c1a1e2d1-5a25-44bd-a0e8-187fdc13f088/download/digitalrecordspageviews-2019-021.csv"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "Boston monthly pageviews cityarchives",
+    "version": "1.0.0"
+}

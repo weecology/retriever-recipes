@@ -1,0 +1,65 @@
+{
+    "citation": "N/A",
+    "description": "This a legacy dataset from the period of November 1, 2010 to April 21, 2014 showing daily counts of 911 dispatches by City of Boston public safety agencies. Agencies included are the Boston Police Department, Boston Fire Department, and Boston Emergency Medical Services",
+    "homepage": "https://data.boston.gov/dataset/911-daily-dispatch-count-by-agency",
+    "keywords": [
+        "Analyze Boston", "911", "dispatch", "legacy portal", "public safety"
+    ],
+    "licenses": [
+        {
+            "name": "PDDL"
+        }
+    ],
+    "name": "boston-nineoneone-daily-dispatch",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "daily_dispatch_count",
+            "path": "911-daily-dispatch-count-by-agency.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "record_date",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "month",
+                        "type": "int"
+                    },
+                    {
+                        "name": "dayofyear",
+                        "type": "int"
+                    },
+                    {
+                        "name": "total",
+                        "type": "int"
+                    },
+                    {
+                        "name": "bpd",
+                        "type": "int"
+                    },
+                    {
+                        "name": "bfd",
+                        "type": "int"
+                    },
+                    {
+                        "name": "ems",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/17129fad-fff9-4eac-ad74-51fb4bf63c22/resource/2459542e-7026-48e2-9128-ca29dd3bebf8/download/911-daily-dispatch-count-by-agency.csv"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "Boston 911 daily dispatch count by agency",
+    "version": "1.0.0"
+}

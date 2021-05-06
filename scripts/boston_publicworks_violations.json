@@ -1,0 +1,114 @@
+{
+    "citation": "N/A",
+    "description": "Citations issued by the Public Works Department's Code Enforcement Division.",
+    "homepage": "https://data.boston.gov/dataset/public-works-violations",
+    "keywords": [
+        "Analyze Boston", "regular update", "citations", "code", "enforcement", "permits", "snow", "violations"
+    ],
+    "licenses": [
+        {
+            "name": "PDDL"
+        }
+    ],
+    "name": "boston-publicworks-violations",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "code_enforcement_violations",
+            "path": "tmp0u_v554i.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "ticket_no",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "status_dttm",
+                        "size": "19",
+                        "type": "char"
+                    },
+                    {
+                        "name": "status",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "code",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "value",
+                        "type": "int"
+                    },
+                    {
+                        "name": "description",
+                        "size": "35",
+                        "type": "char"
+                    },
+                    {
+                        "name": "stno",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "sthigh",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street",
+                        "size": "27",
+                        "type": "char"
+                    },
+                    {
+                        "name": "suffix",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "city",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "state",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "zip",
+                        "type": "double"
+                    },
+                    {
+                        "name": "sam_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "latitude",
+                        "size": "50,30",
+                        "type": "decimal"
+                    },
+                    {
+                        "name": "longitude",
+                        "size": "50,30",
+                        "type": "decimal"
+                    },
+                    {
+                        "name": "location",
+                        "size": "37",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/5e634724-fe64-4762-9648-b4ceb3da5510/resource/90ed3816-5e70-443c-803d-9a71f44470be/download/tmp0u_v554i.csv"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "Boston publicworks violations",
+    "version": "1.0.0"
+}

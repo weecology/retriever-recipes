@@ -1,0 +1,136 @@
+{
+    "citation": "N/A",
+    "description": "FILL",
+    "homepage": "https://data.boston.gov/dataset/public-works-active-work-zones",
+    "keywords": [
+        "Analyze Boston"
+    ],
+    "licenses": [
+        {
+            "name": "PDDL"
+        }
+    ],
+    "name": "boston-active-workzones",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "active_workzones",
+            "path": "tmph8gec1__.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "neighborhood",
+                        "size": "25",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street",
+                        "size": "26",
+                        "type": "char"
+                    },
+                    {
+                        "name": "address_1",
+                        "type": "int"
+                    },
+                    {
+                        "name": "address_2",
+                        "type": "int"
+                    },
+                    {
+                        "name": "intersection",
+                        "size": "20",
+                        "type": "char"
+                    },
+                    {
+                        "name": "from",
+                        "size": "13",
+                        "type": "char"
+                    },
+                    {
+                        "name": "to",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "permittee",
+                        "size": "32",
+                        "type": "char"
+                    },
+                    {
+                        "name": "contractor",
+                        "size": "26",
+                        "type": "char"
+                    },
+                    {
+                        "name": "permit",
+                        "size": "12",
+                        "type": "char"
+                    },
+                    {
+                        "name": "project_category",
+                        "size": "34",
+                        "type": "char"
+                    },
+                    {
+                        "name": "construction_notes",
+                        "size": "96",
+                        "type": "char"
+                    },
+                    {
+                        "name": "work_schedule",
+                        "size": "17",
+                        "type": "char"
+                    },
+                    {
+                        "name": "expirationdate",
+                        "size": "19",
+                        "type": "char"
+                    },
+                    {
+                        "name": "estimated_completion_date",
+                        "size": "19",
+                        "type": "char"
+                    },
+                    {
+                        "name": "roadway_plates_in_use",
+                        "type": "int"
+                    },
+                    {
+                        "name": "sidewalk_plates_in_use",
+                        "type": "int"
+                    },
+                    {
+                        "name": "status",
+                        "size": "32",
+                        "type": "char"
+                    },
+                    {
+                        "name": "trench_length",
+                        "type": "int"
+                    },
+                    {
+                        "name": "contact_number",
+                        "size": "12",
+                        "type": "char"
+                    },
+                    {
+                        "name": "numberofworkzones",
+                        "type": "int"
+                    },
+                    {
+                        "name": "district",
+                        "size": "3",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/f9f57091-92f3-463a-8f1c-93e46361296d/resource/36fcf981-e414-4891-93ea-f5905cec46fc/download/tmph8gec1__.csv"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "Boston active workzones",
+    "version": "1.0.0"
+}

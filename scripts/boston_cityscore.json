@@ -1,0 +1,311 @@
+{
+    "citation": "N/A",
+    "description": "Provides metrics on overall city health based on work done across all facets of the City of Boston. note: files downloaded do not correpond to the names",
+    "homepage": "https://data.boston.gov/dataset/cityscore",
+    "keywords": [
+        "Analyze Boston", " daily update", "City services", "dashboard", "metrics", "performance", "public safety", "public works", "scores", "targets"
+    ],
+    "licenses": [
+        {
+            "name": "PDDL"
+        }
+    ],
+    "name": "boston-cityscore",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "cityscore_summary_legacy",
+            "path": "rpt_city_score_agg_v.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "etl_load_date",
+                        "size": "19",
+                        "type": "char"
+                    },
+                    {
+                        "name": "etl_load_is_active_flag",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "cty_scr_day_agg",
+                        "type": "double"
+                    },
+                    {
+                        "name": "cty_scr_week_agg",
+                        "type": "double"
+                    },
+                    {
+                        "name": "cty_scr_month_agg",
+                        "type": "double"
+                    },
+                    {
+                        "name": "cty_scr_quarter_agg",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/7ae458ed-cd6a-47fa-8571-e323e488b70b/resource/edc24d12-4e0d-43dd-a61d-687fc65e2d1b/download/rpt_city_score_agg_v.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "cityscore_full_legacy",
+            "path": "rpt_city_score_summary.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "cty_scr_name",
+                        "size": "34",
+                        "type": "char"
+                    },
+                    {
+                        "name": "cty_scr_nbr_dy_01",
+                        "type": "double"
+                    },
+                    {
+                        "name": "cty_scr_nbr_dy_02",
+                        "type": "double"
+                    },
+                    {
+                        "name": "cty_scr_nbr_wk_01",
+                        "type": "double"
+                    },
+                    {
+                        "name": "cty_scr_nbr_wk_02",
+                        "type": "double"
+                    },
+                    {
+                        "name": "cty_scr_nbr_mo_01",
+                        "type": "double"
+                    },
+                    {
+                        "name": "cty_scr_nbr_mo_02",
+                        "type": "double"
+                    },
+                    {
+                        "name": "cty_scr_nbr_qt_01",
+                        "type": "double"
+                    },
+                    {
+                        "name": "cty_scr_nbr_qt_02",
+                        "type": "double"
+                    },
+                    {
+                        "name": "cty_scr_tgt_01",
+                        "type": "double"
+                    },
+                    {
+                        "name": "cty_scr_avg_01",
+                        "type": "double"
+                    },
+                    {
+                        "name": "cty_scr_avg_02",
+                        "type": "double"
+                    },
+                    {
+                        "name": "cty_scr_dev_01",
+                        "type": "double"
+                    },
+                    {
+                        "name": "cty_scr_dev_02",
+                        "type": "double"
+                    },
+                    {
+                        "name": "etl_load_date",
+                        "size": "19",
+                        "type": "char"
+                    },
+                    {
+                        "name": "etl_load_is_active_flag",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "cty_scr_open_data_source",
+                        "size": "100",
+                        "type": "char"
+                    },
+                    {
+                        "name": "cty_scr_metric_type",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "cty_scr_day",
+                        "type": "double"
+                    },
+                    {
+                        "name": "cty_scr_week",
+                        "type": "double"
+                    },
+                    {
+                        "name": "cty_scr_month",
+                        "type": "double"
+                    },
+                    {
+                        "name": "cty_scr_quarter",
+                        "type": "double"
+                    },
+                    {
+                        "name": "cty_scr_day_name",
+                        "size": "9",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/7ae458ed-cd6a-47fa-8571-e323e488b70b/resource/5bce8e71-5192-48c0-ab13-8faff8fef4d7/download/rpt_city_score_summary.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "cityscore_summary",
+            "path": "tmp5srvh811.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "metric_name",
+                        "size": "34",
+                        "type": "char"
+                    },
+                    {
+                        "name": "score_calculated_ts",
+                        "size": "26",
+                        "type": "char"
+                    },
+                    {
+                        "name": "score_final_table_ts",
+                        "size": "26",
+                        "type": "char"
+                    },
+                    {
+                        "name": "previous_day_score",
+                        "type": "double"
+                    },
+                    {
+                        "name": "previous_week_score",
+                        "type": "double"
+                    },
+                    {
+                        "name": "previous_month_score",
+                        "type": "double"
+                    },
+                    {
+                        "name": "previous_quarter_score",
+                        "type": "double"
+                    },
+                    {
+                        "name": "score_day_name",
+                        "size": "9",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/7ae458ed-cd6a-47fa-8571-e323e488b70b/resource/6c0529d0-47ff-4cd2-91a9-309ee649ef55/download/tmp5srvh811.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "cityscore_full",
+            "path": "tmprrey1d0r.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "metric_name",
+                        "size": "34",
+                        "type": "char"
+                    },
+                    {
+                        "name": "score_calculated_ts",
+                        "size": "26",
+                        "type": "char"
+                    },
+                    {
+                        "name": "target",
+                        "type": "double"
+                    },
+                    {
+                        "name": "metric_logic",
+                        "size": "63",
+                        "type": "char"
+                    },
+                    {
+                        "name": "day_score",
+                        "size": "50,30",
+                        "type": "decimal"
+                    },
+                    {
+                        "name": "day_numerator",
+                        "size": "50,30",
+                        "type": "decimal"
+                    },
+                    {
+                        "name": "day_denominator",
+                        "size": "50,30",
+                        "type": "decimal"
+                    },
+                    {
+                        "name": "week_score",
+                        "size": "50,30",
+                        "type": "decimal"
+                    },
+                    {
+                        "name": "week_numerator",
+                        "size": "50,30",
+                        "type": "decimal"
+                    },
+                    {
+                        "name": "week_denominator",
+                        "size": "50,30",
+                        "type": "decimal"
+                    },
+                    {
+                        "name": "month_score",
+                        "size": "50,30",
+                        "type": "decimal"
+                    },
+                    {
+                        "name": "month_numerator",
+                        "size": "50,30",
+                        "type": "decimal"
+                    },
+                    {
+                        "name": "month_denominator",
+                        "size": "50,30",
+                        "type": "decimal"
+                    },
+                    {
+                        "name": "quarter_score",
+                        "size": "50,30",
+                        "type": "decimal"
+                    },
+                    {
+                        "name": "quarter_numerator",
+                        "size": "50,30",
+                        "type": "decimal"
+                    },
+                    {
+                        "name": "quarter_denominator",
+                        "size": "50,30",
+                        "type": "decimal"
+                    },
+                    {
+                        "name": "latest_score_flag",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/7ae458ed-cd6a-47fa-8571-e323e488b70b/resource/dd657c02-3443-4c00-8b29-56a40cfe7ee4/download/tmprrey1d0r.csv"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "Boston cityscore",
+    "version": "1.0.0"
+}

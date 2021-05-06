@@ -1,0 +1,159 @@
+{
+    "citation": "N/A",
+    "description": "This is a legacy dataset containing records of individual inspections and results ensuring food establishments in the City of Boston meet relevant sanitary codes and standards",
+    "homepage": "https://data.boston.gov/dataset/food-establishment-inspections",
+    "keywords": [
+        "Analyze Boston", "regular updates", "food", "health", "inspections", "legacy portal", "restaurants", "violations"
+    ],
+    "licenses": [
+        {
+            "name": "PDDL"
+        }
+    ],
+    "name": "boston-food-inspections",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "food_inspections",
+            "path": "tmp50gas1ri.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "businessname",
+                        "size": "56",
+                        "type": "char"
+                    },
+                    {
+                        "name": "dbaname",
+                        "size": "36",
+                        "type": "char"
+                    },
+                    {
+                        "name": "legalowner",
+                        "size": "46",
+                        "type": "char"
+                    },
+                    {
+                        "name": "namelast",
+                        "size": "48",
+                        "type": "char"
+                    },
+                    {
+                        "name": "namefirst",
+                        "size": "34",
+                        "type": "char"
+                    },
+                    {
+                        "name": "licenseno",
+                        "type": "int"
+                    },
+                    {
+                        "name": "issdttm",
+                        "size": "19",
+                        "type": "char"
+                    },
+                    {
+                        "name": "expdttm",
+                        "size": "19",
+                        "type": "char"
+                    },
+                    {
+                        "name": "licstatus",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "licensecat",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "descript",
+                        "size": "29",
+                        "type": "char"
+                    },
+                    {
+                        "name": "result",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "resultdttm",
+                        "size": "19",
+                        "type": "char"
+                    },
+                    {
+                        "name": "violation",
+                        "size": "24",
+                        "type": "char"
+                    },
+                    {
+                        "name": "viollevel",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "violdesc",
+                        "size": "141",
+                        "type": "char"
+                    },
+                    {
+                        "name": "violdttm",
+                        "size": "19",
+                        "type": "char"
+                    },
+                    {
+                        "name": "violstatus",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "statusdate",
+                        "size": "19",
+                        "type": "char"
+                    },
+                    {
+                        "name": "comments",
+                        "size": "5000",
+                        "type": "char"
+                    },
+                    {
+                        "name": "address",
+                        "size": "34",
+                        "type": "char"
+                    },
+                    {
+                        "name": "city",
+                        "size": "27",
+                        "type": "char"
+                    },
+                    {
+                        "name": "state",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "zip",
+                        "type": "int"
+                    },
+                    {
+                        "name": "property_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "location",
+                        "size": "29",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/03693648-2c62-4a2c-a4ec-48de2ee14e18/resource/4582bec6-2b4f-4f9e-bc55-cbaa73117f4c/download/tmp50gas1ri.csv"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "Boston food inspections",
+    "version": "1.0.0"
+}

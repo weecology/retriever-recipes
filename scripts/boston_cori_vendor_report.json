@@ -1,0 +1,199 @@
+{
+    "citation": "N/A",
+    "description": "This dataset contains a list of vendors that are in compliance with the City's policy and have City of Boston contracts over $5,000 as of the dates listed on each file below.",
+    "homepage": "https://data.boston.gov/dataset/cori-vendor-report",
+    "keywords": [
+        "Analyze Boston", "contracts", "cori", "finance", "endors"
+    ],
+    "licenses": [
+        {
+            "name": "PDDL"
+        }
+    ],
+    "name": "boston-cori-vendor-report",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "cori_vendor_report17",
+            "path": "cori-vendor-report-20170825.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "vendor_name",
+                        "size": "40",
+                        "type": "char"
+                    },
+                    {
+                        "name": "address_1",
+                        "size": "55",
+                        "type": "char"
+                    },
+                    {
+                        "name": "address_2",
+                        "size": "42",
+                        "type": "char"
+                    },
+                    {
+                        "name": "address_3",
+                        "size": "28",
+                        "type": "char"
+                    },
+                    {
+                        "name": "city",
+                        "size": "26",
+                        "type": "char"
+                    },
+                    {
+                        "name": "state",
+                        "size": "2",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/98d0d8fe-7de3-48fc-9863-de526ded0b23/resource/1926548a-9502-4bc9-bd08-230c39669111/download/cori-vendor-report-20170825.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "cori_vendor_report16",
+            "path": "cori-vendor-report-updated-as-of-may-2016.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "vendor_name",
+                        "size": "40",
+                        "type": "char"
+                    },
+                    {
+                        "name": "address_1",
+                        "size": "54",
+                        "type": "char"
+                    },
+                    {
+                        "name": "address_2",
+                        "size": "42",
+                        "type": "char"
+                    },
+                    {
+                        "name": "address_3",
+                        "size": "28",
+                        "type": "char"
+                    },
+                    {
+                        "name": "city",
+                        "size": "26",
+                        "type": "char"
+                    },
+                    {
+                        "name": "state",
+                        "size": "5",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/98d0d8fe-7de3-48fc-9863-de526ded0b23/resource/3a64e3d2-dde5-424e-ba8c-ebaf86a8b8d9/download/cori-vendor-report-updated-as-of-may-2016.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "cori_vendor_report15",
+            "path": "cori-vendor-report.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "name",
+                        "size": "40",
+                        "type": "char"
+                    },
+                    {
+                        "name": "address_1",
+                        "size": "54",
+                        "type": "char"
+                    },
+                    {
+                        "name": "address_2",
+                        "size": "54",
+                        "type": "char"
+                    },
+                    {
+                        "name": "address_3",
+                        "size": "29",
+                        "type": "char"
+                    },
+                    {
+                        "name": "city",
+                        "size": "22",
+                        "type": "char"
+                    },
+                    {
+                        "name": "state",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "contact_type",
+                        "size": "28",
+                        "type": "char"
+                    },
+                    {
+                        "name": "contact_name",
+                        "size": "50",
+                        "type": "char"
+                    },
+                    {
+                        "name": "contact_title",
+                        "size": "35",
+                        "type": "char"
+                    },
+                    {
+                        "name": "internet",
+                        "size": "44",
+                        "type": "char"
+                    },
+                    {
+                        "name": "email_id",
+                        "size": "68",
+                        "type": "char"
+                    },
+                    {
+                        "name": "phone_type_1",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "phone_number_1",
+                        "size": "20",
+                        "type": "char"
+                    },
+                    {
+                        "name": "phone_extension_1",
+                        "type": "int"
+                    },
+                    {
+                        "name": "phone_type_2",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "phone_number_2",
+                        "size": "15",
+                        "type": "char"
+                    },
+                    {
+                        "name": "phone_extension_2",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/98d0d8fe-7de3-48fc-9863-de526ded0b23/resource/d91ddbf2-5a82-41e1-894b-365a32615cf0/download/cori-vendor-report.csv"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "Boston cori vendor report",
+    "version": "1.0.0"
+}

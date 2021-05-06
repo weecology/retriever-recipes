@@ -1,0 +1,41 @@
+{
+    "citation": "N/A",
+    "description": "Electric power load at Boston Public Library's Central Branch (700 Boylston Street, in Copley Square) measured every five minutes.",
+    "homepage": "https://data.boston.gov/dataset/",
+    "keywords": [
+        "Analyze Boston", "daily update", "BPL", "demand", "electric", "energy", "interval", "library", "load", "power"
+    ],
+    "licenses": [
+        {
+            "name": "PDDL"
+        }
+    ],
+    "name": "boston-central-library-electricity-usage",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "usage",
+            "path": "tmpqz3sxzay.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "datetime_utc_measured",
+                        "size": "19",
+                        "type": "char"
+                    },
+                    {
+                        "name": "total_demand_kw",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/652762e9-2556-47cd-8e80-798546992a57/resource/87c759ee-63b9-4aec-a00b-bba1672a20ef/download/tmpqz3sxzay.csv"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "Boston central library electricity usage",
+    "version": "1.0.0"
+}
