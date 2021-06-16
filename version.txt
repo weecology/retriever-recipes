@@ -178,7 +178,7 @@ mapped_plant_quads_mt.json,1.2.1
 marine_recruitment_data.json,1.0.1
 mediter_basin_plant_traits.json,1.0.2
 mt_st_helens_veg.json,1.2.3
-mtbs_burn_area_boundary.json,1.0.0
+mtbs_burn_area_boundary.json,1.0.1
 mtbs_fire_occurrence.json,1.0.0
 nadp_precipitation_chemistry.json,1.0.0
 national_pedon_database_summary_layer.json,1.0.0
