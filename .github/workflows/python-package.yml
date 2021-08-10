@@ -51,6 +51,7 @@ jobs:
         run : |
           echo "export PATH="/usr/bin/python:$PATH"" >> ~/.profile
           echo "export PYTHONPATH="/usr/bin/python:$PYTHONPATH"" >> ~/.profile
+          echo "localhost:*:*:postgres:Password12!" > ~/.pgpass
           echo "export PGPASSFILE="~/.pgpass"" >> ~/.profile
           chmod 0644 ~/.profile
       
@@ -72,7 +73,6 @@ jobs:
           pip install -e .
           export PGPASSFILE="~/.pgpass"
           chmod 600 ~/.pgpass
-          chmod 600 ~/.my.cnf
 
       - name: Run pytest
         run: |
