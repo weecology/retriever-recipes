@@ -23,11 +23,22 @@ jobs:
       uses: actions/setup-python@v2
       with:
         python-version: ${{ matrix.python-version }}
+
     - name: Install dependencies
+      env:
+        LC_ALL : en_US.UTF-8
+        ENV LANG : en_US.UTF-8
+        ENV LANGUAGE : en_US.UTF-8
+        TZ: America/New_York
+        DEBIAN_FRONTEND: noninteractive
+        run: |
+          sudo apt-get update && sudo apt-get install -y --no-install-recommends apt-utils
+          sudo apt-get install -y --force-yes tzdata
+          sudo apt-get install -y --force-yes build-essential wget git locales locales-all > /dev/null
       run: |
         python -m pip install --upgrade pip
         python -m pip install flake8 pytest
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-    - name: Run Tests in docker
+    - name: Run Pytests
       run: |
-        docker-compose run -e IN_TRAVIS=true --service-ports python_recipes pytest -v -k "not sqlite"
+        pytest -v -k "not sqlite"
