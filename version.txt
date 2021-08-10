@@ -33,6 +33,7 @@ coronavirus-belgium.json,1.0.0
 coronavirus_italy.json,1.0.0
 coronavirus_south_korea.json,1.0.0
 county_emergency_management_offices.json,1.0.0
+covid_case_surveillance.json,1.0.0
 credit_card_fraud.json,1.0.0
 croche_vegetation_data.json,1.0.2
 dicerandra_frutescens.json,1.0.2
