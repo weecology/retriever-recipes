@@ -29,7 +29,7 @@ car_eval.json,1.1.2
 catalogos_dados_brasil.json,1.0.0
 chytr_disease_distr.json,1.0.3
 community_abundance_misc.json,1.0.3
-coronavirus-belgium.json,1.0.0
+coronavirus-belgium.json,2.0.0
 coronavirus_italy.json,1.0.0
 coronavirus_south_korea.json,1.0.0
 county_emergency_management_offices.json,1.0.0

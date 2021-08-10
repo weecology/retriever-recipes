@@ -76,7 +76,21 @@
                         "type": "char"
                     },
                     {
-                        "name": "tests",
+                        "name": "province",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "region",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "tests_all",
+                        "type": "int"
+                    },
+                    {
+                        "name": "tests_all_pos",
                         "type": "int"
                     }
                 ]
@@ -190,13 +204,13 @@
             "schema": {
                 "fields": [
                     {
-                        "name": "record_date",
-                        "size": "10",
+                        "name": "nis5",
+                        "size": "5",
                         "type": "char"
                     },
                     {
-                        "name": "nis5",
-                        "size": "5",
+                        "name": "record_date",
+                        "size": "10",
                         "type": "char"
                     },
                     {
@@ -293,5 +307,5 @@
     "retriever": "True",
     "retriever_minimum_version": "2.1.0",
     "title": "coronavirus-belgium",
-    "version": "1.0.0"
+    "version": "2.0.0"
 }
