@@ -1,0 +1,125 @@
+{
+    "citation": "",
+    "description": "This case surveillance public use dataset has 19 elements for all COVID-19 cases shared with CDC and includes demographics, geography (county and state of residence), any exposure history, disease severity indicators and outcomes, and presence of any underlying medical conditions and risk behaviors.",
+    "encoding": "utf-8",
+    "homepage": "https://dev.socrata.com/foundry/data.cdc.gov/n8mc-b4w4",
+    "keywords": [
+        "covid",
+        "coronavirus",
+        "covid19",
+        "CDC"
+    ],
+    "licenses": [],
+    "name": "covid-case-surveillance",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "covid_19_case_surveillance",
+            "path": "COVID-19_Case_Surveillance_Public_Use_Data_with_Geography.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "case_month",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "res_state",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "state_fips_code",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "res_county",
+                        "size": "20",
+                        "type": "char"
+                    },
+                    {
+                        "name": "county_fips_code",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "age_group",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "sex",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "race",
+                        "size": "38",
+                        "type": "char"
+                    },
+                    {
+                        "name": "ethnicity",
+                        "size": "19",
+                        "type": "char"
+                    },
+                    {
+                        "name": "case_positive_specimen_interval",
+                        "type": "int"
+                    },
+                    {
+                        "name": "case_onset_interval",
+                        "type": "int"
+                    },
+                    {
+                        "name": "process",
+                        "size": "32",
+                        "type": "char"
+                    },
+                    {
+                        "name": "exposure_yn",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "current_status",
+                        "size": "25",
+                        "type": "char"
+                    },
+                    {
+                        "name": "symptom_status",
+                        "size": "12",
+                        "type": "char"
+                    },
+                    {
+                        "name": "hosp_yn",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "icu_yn",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "death_yn",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "underlying_conditions_yn",
+                        "size": "3",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://data.cdc.gov/api/views/n8mc-b4w4/rows.csv?accessType=DOWNLOAD&api_foundry=true"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "COVID-19 Case Surveillance Public Use Data with Geography",
+    "version": "1.0.0"
+}
