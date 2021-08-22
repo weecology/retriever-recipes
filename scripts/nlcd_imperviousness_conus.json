@@ -1,10 +1,10 @@
 {
     "archived": "zip",
     "extract_all": "True",
-    "citation": "fill",
-    "dataset_count": "--The number of individual datasets",
-    "datum": "--Coordinate Reference System",
-    "description": "NLCD_2001_Impervious_descriptor_L48_20190405.img",
+    "citation": "",
+    "dataset_count": "",
+    "datum": "WGS 84",
+    "description": "NLCD imperviousness products. Default bounding box is [xmin,ymax,xmax,ymin][-110,50,-100,30]",
     "driver": "HFA",
     "file_size": "--size of file on disk",
     "group_count": "--Number of groups in the dataset if applicable",
@@ -13,6 +13,12 @@
     "licenses": [],
     "name": "nlcd-imperviousness-conus",
     "projection": "PROJCS[\"Albers_Conical_Equal_Area\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Albers_Conic_Equal_Area\"],PARAMETER[\"latitude_of_center\",23],PARAMETER[\"longitude_of_center\",-96],PARAMETER[\"standard_parallel_1\",29.5],PARAMETER[\"standard_parallel_2\",45.5],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"meters\",1],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+    "extent":{
+        "xMin":-110,
+        "yMax":50,
+        "xMax":-100,
+        "yMin":30
+    },
     "resources": [
         {
             "band_name": "NLCD_2011_Impervious_L48_20190405_1",
