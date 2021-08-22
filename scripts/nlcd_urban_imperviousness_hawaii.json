@@ -1,0 +1,50 @@
+{
+    "archived": "zip",
+    "extract_all": "True",
+    "citation": "fill",
+    "dataset_count": "--The number of individual datasets",
+    "datum": "--Coordinate Reference System",
+    "description": "hi_masked_imperv_9-30-08.img",
+    "driver": "HFA",
+    "file_size": "--size of file on disk",
+    "group_count": "--Number of groups in the dataset if applicable",
+    "homepage": "fill",
+    "keywords": [],
+    "licenses": [],
+    "name": "nlcd-urban-imperviousness-hawaii",
+    "projection": "PROJCS[\"Albers Conical Equal Area\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Albers_Conic_Equal_Area\"],PARAMETER[\"latitude_of_center\",3],PARAMETER[\"longitude_of_center\",-157],PARAMETER[\"standard_parallel_1\",8],PARAMETER[\"standard_parallel_2\",18],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"meters\",1],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+    "resources": [
+        {
+            "band_name": "hi_masked_imperv_9-30-08_1",
+            "color_table": true,
+            "extensions": [
+                "img"
+            ],
+            "format": "raster",
+            "name": "hi_masked_imperv_9_30_08",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "hi_masked_imperv_9-30-08.img",
+            "scale": null,
+            "statistics": {
+                "maximum": 100.0,
+                "mean": 0.18014420983298,
+                "minimum": 0.0,
+                "stddev": 3.1506399611703
+            },
+            "url": "https://s3-us-west-2.amazonaws.com/mrlc/HI_masked_imperv_9-30-08.zip"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "fill",
+    "transform": {
+        "pixelHeight": -30.0,
+        "pixelWidth": 30.0,
+        "rotation_2": 0.0,
+        "rotation_4": 0.0,
+        "xOrigin": -345945.0,
+        "yOrigin": 2132415.0
+    },
+    "version": "1.0.0"
+}
