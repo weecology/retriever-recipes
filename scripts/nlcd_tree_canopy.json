@@ -1,0 +1,350 @@
+{
+    "archived": "zip",
+    "extract_all": "True",
+    "citation": "",
+    "dataset_count": "16",
+    "datum": "--Coordinate Reference System",
+    "description": "NLCD tree canopy cover is a 30 m raster geospatial dataset that is available for the conterminous United States, coastal Alaska, Hawaii, and Puerto Rico.",
+    "driver": "HFA",
+    "file_size": "--size of file on disk",
+    "group_count": "--Number of groups in the dataset if applicable",
+    "homepage": "https://www.mrlc.gov/data",
+    "keywords": [],
+    "licenses": [],
+    "name": "nlcd-tree-canopy",
+    "projection": "PROJCS[\"Albers_Conical_Equal_Area\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Albers_Conic_Equal_Area\"],PARAMETER[\"latitude_of_center\",3],PARAMETER[\"longitude_of_center\",-157],PARAMETER[\"standard_parallel_1\",8],PARAMETER[\"standard_parallel_2\",18],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"meters\",1],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+    "resources": [
+        {
+            "band_name": "nlcd_2016_prusvi_treecanopy_20191017_1",
+            "color_table": true,
+            "extensions": [
+                "img"
+            ],
+            "format": "raster",
+            "name": "nlcd_2016_prusvi_treecanopy_20191017",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "nlcd_2016_prusvi_treecanopy_20191017.img",
+            "scale": null,
+            "statistics": {
+                "maximum": 255.0,
+                "mean": 248.36356614647,
+                "minimum": 0.0,
+                "stddev": 36.907393475787
+            },
+            "url": "https://s3-us-west-2.amazonaws.com/mrlc/nlcd_tcc_prusvi_2016.zip"
+        },
+        {
+            "band_name": "nlcd_2011_to_2016_treecanopy_change_2019_08_31_u8_1",
+            "color_table": true,
+            "extensions": [
+                "img"
+            ],
+            "format": "raster",
+            "name": "nlcd_2011_to_2016_treecanopy_change_2019_08_31_u8",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "nlcd_2011_to_2016_treecanopy_change_2019_08_31_u8.img",
+            "scale": null,
+            "statistics": {
+                "maximum": 255.0,
+                "mean": 120.29836046806,
+                "minimum": 0.0,
+                "stddev": 126.71209794274
+            },
+            "url": "https://s3-us-west-2.amazonaws.com/mrlc/nlcd_2011_to_2016_treecanopy_change_2019_08_31.zip"
+        },
+        {
+            "band_name": "nlcd_2011_treecanopy_2019_08_31_1",
+            "color_table": true,
+            "extensions": [
+                "img"
+            ],
+            "format": "raster",
+            "name": "nlcd_2011_treecanopy_2019_08_31",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "nlcd_2011_treecanopy_2019_08_31.img",
+            "scale": null,
+            "statistics": {
+                "maximum": 255.0,
+                "mean": 130.85746105394,
+                "minimum": 0.0,
+                "stddev": 118.74313178556
+            },
+            "url": "https://s3-us-west-2.amazonaws.com/mrlc/nlcd_2011_treecanopy_2019_08_31.zip"
+        },
+        {
+            "band_name": "nlcd_2011_to_2016_treecanopy_change_2019_08_31_1",
+            "color_table": true,
+            "extensions": [
+                "img"
+            ],
+            "format": "raster",
+            "name": "nlcd_2011_to_2016_treecanopy_change_2019_08_31",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "nlcd_2011_to_2016_treecanopy_change_2019_08_31.img",
+            "scale": null,
+            "statistics": {
+                "maximum": 110.0,
+                "mean": 51.092858856504,
+                "minimum": -100.0,
+                "stddev": 55.375675428306
+            },
+            "url": "https://s3-us-west-2.amazonaws.com/mrlc/nlcd_2011_to_2016_treecanopy_change_2019_08_31.zip"
+        },
+        {
+            "band_name": "nlcd_2016_coastal_alaska_treecanopy_1",
+            "color_table": true,
+            "extensions": [
+                "img"
+            ],
+            "format": "raster",
+            "name": "nlcd_2016_coastal_alaska_treecanopy",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "nlcd_2016_coastal_alaska_treecanopy.img",
+            "scale": null,
+            "statistics": {
+                "maximum": 255.0,
+                "mean": 239.98103645084,
+                "minimum": 11.0,
+                "stddev": 52.028764109611
+            },
+            "url": "https://s3-us-west-2.amazonaws.com/mrlc/nlcd_tcc_coastalAK_2016.zip"
+        },
+        {
+            "band_name": "nlcd_2011_prusvi_treecanopy_20191017_1",
+            "color_table": true,
+            "extensions": [
+                "img"
+            ],
+            "format": "raster",
+            "name": "nlcd_2011_prusvi_treecanopy_20191017",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "nlcd_2011_prusvi_treecanopy_20191017.img",
+            "scale": null,
+            "statistics": {
+                "maximum": 255.0,
+                "mean": 248.36369391426,
+                "minimum": 0.0,
+                "stddev": 36.902675745371
+            },
+            "url": "https://s3-us-west-2.amazonaws.com/mrlc/nlcd_tcc_prusvi_2011.zip"
+        },
+        {
+            "band_name": "nlcd_2016_treecanopy_2019_08_31_1",
+            "color_table": true,
+            "extensions": [
+                "img"
+            ],
+            "format": "raster",
+            "name": "nlcd_2016_treecanopy_2019_08_31",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "nlcd_2016_treecanopy_2019_08_31.img",
+            "scale": null,
+            "statistics": {
+                "maximum": 255.0,
+                "mean": 130.6213123499,
+                "minimum": 0.0,
+                "stddev": 118.88047458067
+            },
+            "url": "https://s3-us-west-2.amazonaws.com/mrlc/nlcd_2016_treecanopy_2019_08_31.zip"
+        },
+        {
+            "band_name": "nlcd_2011_coastal_alaska_treecanopy_1",
+            "color_table": true,
+            "extensions": [
+                "img"
+            ],
+            "format": "raster",
+            "name": "nlcd_2011_coastal_alaska_treecanopy",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "nlcd_2011_coastal_alaska_treecanopy.img",
+            "scale": null,
+            "statistics": {
+                "maximum": 255.0,
+                "mean": 239.97957775391,
+                "minimum": 1.0,
+                "stddev": 52.036257856991
+            },
+            "url": "https://s3-us-west-2.amazonaws.com/mrlc/nlcd_tcc_coastalAK_2011.zip"
+        },
+        {
+            "band_name": "nlcd_2011_to_2016_prusvi_treecanopy_change_20191017_u8_1",
+            "color_table": true,
+            "extensions": [
+                "img"
+            ],
+            "format": "raster",
+            "name": "nlcd_2011_to_2016_prusvi_treecanopy_change_20191017_u8",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "nlcd_2011_to_2016_prusvi_treecanopy_change_20191017_u8.img",
+            "scale": null,
+            "statistics": {
+                "maximum": 227.0,
+                "mean": 219.67756314959,
+                "minimum": 0.0,
+                "stddev": 40.061554842299
+            },
+            "url": "https://s3-us-west-2.amazonaws.com/mrlc/nlcd_tcc_change_prusvi.zip"
+        },
+        {
+            "band_name": "nlcd_2011_to_2016_coastal_alaska_treecanopy_change_s8_1",
+            "color_table": true,
+            "extensions": [
+                "img"
+            ],
+            "format": "raster",
+            "name": "nlcd_2011_to_2016_coastal_alaska_treecanopy_change_s8",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "nlcd_2011_to_2016_coastal_alaska_treecanopy_change_s8.img",
+            "scale": null,
+            "statistics": {
+                "maximum": 127.0,
+                "mean": 93.767175514623,
+                "minimum": -57.0,
+                "stddev": 55.799959757422
+            },
+            "url": "https://s3-us-west-2.amazonaws.com/mrlc/nlcd_tcc_change_coastalAK.zip"
+        },
+        {
+            "band_name": "nlcd_2011_to_2016_hi_treecanopy_change_20191018_s8_1",
+            "color_table": true,
+            "extensions": [
+                "img"
+            ],
+            "format": "raster",
+            "name": "nlcd_2011_to_2016_hi_treecanopy_change_20191018_s8",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "nlcd_2011_to_2016_hi_treecanopy_change_20191018_s8.img",
+            "scale": null,
+            "statistics": {
+                "maximum": 127.0,
+                "mean": 114.03211965179,
+                "minimum": -98.0,
+                "stddev": 38.563481274384
+            },
+            "url": "https://s3-us-west-2.amazonaws.com/mrlc/nlcd_tcc_change_hi.zip"
+        },
+        {
+            "band_name": "nlcd_2011_hi_treecanopy_20191018_1",
+            "color_table": true,
+            "extensions": [
+                "img"
+            ],
+            "format": "raster",
+            "name": "nlcd_2011_hi_treecanopy_20191018",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "nlcd_2011_hi_treecanopy_20191018.img",
+            "scale": null,
+            "statistics": {
+                "maximum": 255.0,
+                "mean": 250.42434503337,
+                "minimum": 5.0,
+                "stddev": 27.928038466358
+            },
+            "url": "https://s3-us-west-2.amazonaws.com/mrlc/nlcd_tcc_hi_2011.zip"
+        },
+        {
+            "band_name": "nlcd_2011_to_2016_prusvi_treecanopy_change_20191017_s8_1",
+            "color_table": true,
+            "extensions": [
+                "img"
+            ],
+            "format": "raster",
+            "name": "nlcd_2011_to_2016_prusvi_treecanopy_change_20191017_s8",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "nlcd_2011_to_2016_prusvi_treecanopy_change_20191017_s8.img",
+            "scale": null,
+            "statistics": {
+                "maximum": 127.0,
+                "mean": 122.88411001871,
+                "minimum": -97.0,
+                "stddev": 22.502313407772
+            },
+            "url": "https://s3-us-west-2.amazonaws.com/mrlc/nlcd_tcc_change_prusvi.zip"
+        },
+        {
+            "band_name": "nlcd_2016_hi_treecanopy_20191018_1",
+            "color_table": true,
+            "extensions": [
+                "img"
+            ],
+            "format": "raster",
+            "name": "nlcd_2016_hi_treecanopy_20191018",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "nlcd_2016_hi_treecanopy_20191018.img",
+            "scale": null,
+            "statistics": {
+                "maximum": 255.0,
+                "mean": 250.45743856914,
+                "minimum": 5.0,
+                "stddev": 27.825979486352
+            },
+            "url": "https://s3-us-west-2.amazonaws.com/mrlc/nlcd_tcc_hi_2016.zip"
+        },
+        {
+            "band_name": "nlcd_2011_to_2016_coastal_alaska_treecanopy_change_u8_1",
+            "color_table": true,
+            "extensions": [
+                "img"
+            ],
+            "format": "raster",
+            "name": "nlcd_2011_to_2016_coastal_alaska_treecanopy_change_u8",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "nlcd_2011_to_2016_coastal_alaska_treecanopy_change_u8.img",
+            "scale": null,
+            "statistics": {
+                "maximum": 227.0,
+                "mean": 167.62826674481,
+                "minimum": 0.0,
+                "stddev": 99.729390101109
+            },
+            "url": "https://s3-us-west-2.amazonaws.com/mrlc/nlcd_tcc_change_coastalAK.zip"
+        },
+        {
+            "band_name": "nlcd_2011_to_2016_hi_treecanopy_change_20191018_u8_1",
+            "color_table": true,
+            "extensions": [
+                "img"
+            ],
+            "format": "raster",
+            "name": "nlcd_2011_to_2016_hi_treecanopy_change_20191018_u8",
+            "no_data_value": null,
+            "other_paths": "",
+            "path": "nlcd_2011_to_2016_hi_treecanopy_change_20191018_u8.img",
+            "scale": null,
+            "statistics": {
+                "maximum": 227.0,
+                "mean": 204.02081006504,
+                "minimum": 0.0,
+                "stddev": 68.367172833419
+            },
+            "url": "https://s3-us-west-2.amazonaws.com/mrlc/nlcd_tcc_change_hi.zip"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "NLCD tree canopy cover",
+    "transform": {
+        "pixelHeight": -30.0,
+        "pixelWidth": 30.0,
+        "rotation_2": 0.0,
+        "rotation_4": 0.0,
+        "xOrigin": -342585.0,
+        "yOrigin": 2127135.0
+    },
+    "version": "1.0.0"
+}
