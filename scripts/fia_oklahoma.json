@@ -8591,7 +8591,7 @@
         }
     ],
     "retriever": "True",
-    "retriever_minimum_version": "2.2.0",
+    "retriever_minimum_version": "2.1.0",
     "title": "Fia oklahoma, OK",
-    "version": "1.1.0"
+    "version": "1.2.0"
 }

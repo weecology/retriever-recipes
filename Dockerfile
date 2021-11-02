@@ -33,6 +33,7 @@ RUN pip3 install pytest
 RUN pip3 install h5py
 RUN pip3 install Pillow
 RUN pip3 install kaggle
+RUN pip3 install openpyxl
 RUN pip3 install git+https://git@github.com/weecology/retriever.git
 
 # Install Postgis after Python is setup

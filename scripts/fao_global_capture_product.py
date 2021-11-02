@@ -30,7 +30,7 @@ class main(Script):
         Script.__init__(self, **kwargs)
         self.title = "Commercial Fisheries Monthly Trade Data by Product, Country/Association"
         self.name = "fao-global-capture-product"
-        self.retriever_minimum_version = '2.1.dev'
+        self.retriever_minimum_version = '3.0.1-dev'
         self.urls = {
             "capture": "http://www.fao.org/fishery/static/Data/Capture_2018.1.2.zip"}
         self.version = '1.1.0'
@@ -55,7 +55,7 @@ class main(Script):
         xlsx_file = self.engine.format_filename("DSD_FI_CAPTURE.xlsx")
         file_path = self.engine.format_filename("DSD_FI_CAPTURE.csv")
         df = pd.read_excel(xlsx_file)
-        df.to_csv(file_path, sep=',', encoding='utf-8', index=False, header=False)
+        df.to_csv(file_path, sep=',', encoding=self.encoding, index=False, header=False)
 
         file_names = [
             ('DSD_FI_CAPTURE.csv', 'capture_data'),

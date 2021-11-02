@@ -21,7 +21,7 @@ class main(Script):
                      "Geological Survey topographic data"
         self.name = "usgs-elevation"
         self.retriever_minimum_version = '2.0.dev'
-        self.version = '1.0.0'
+        self.version = '1.1.0'
         self.ref = "https://pubs.er.usgs.gov/publication/fs20163022"
         self.citation = "Lukas, Vicki, Stoker, J.M., 2016, " \
                         "3D Elevation Program—Virtual USA in 3D: U.S. " \
@@ -31,11 +31,12 @@ class main(Script):
                            "3D Elevation Program (3DEP) " \
                            "uses lidar to create a virtual reality maps."
         self.keywords = ["Elevation", "Map", "lidar", "Radar"]
+        self.extent = {"xMin": -110, "yMax": 31, "xMax": -108, "yMin": 32},
 
     def download(self, engine=None, debug=False):
         Script.download(self, engine, debug)
         # IMG
-        request_query = "https://viewer.nationalmap.gov/tnmaccess/api/products?&bbox={}&q=&start=&end=&dateType=&datasets=National+Elevation+Dataset+(NED)+1/3+arc-second&prodFormats=IMG&prodExtents=1+x+1+degree&polyCode=&polyType=&max=40&offset=0&_=1519665242114".format(",".join(str(i) for i in engine.opts["bbox"] if i))
+        request_query = "https://viewer.nationalmap.gov/tnmaccess/api/products?&bbox={}&q=&start=&end=&dateType=&datasets=National+Elevation+Dataset+(NED)+1/3+arc-second&prodFormats=IMG&prodExtents=1+x+1+degree&polyCode=&polyType=&max=40&offset=0&_=1519665242114".format(",".join(str(i) for i in self.extent if i))
         engine = self.engine
         res = requests.get(request_query).text
         data_url = json.loads(res)

@@ -1,7 +1,7 @@
 {
     "citation": "Stapp P. 2013. SGS-LTER Long-Term Monitoring Project: Small Mammals on Trapping Webs on the Central Plains Experimental Range, Nunn, Colorado, USA 1994 -2006, ARS Study Number 118. Environmental Data Initiative. https://doi.org/10.6073/pasta/2e311b4e40fea38e573890f473807ba9. Dataset accessed 1/30/2020.",
     "description": "SGS-LTER Long-Term Monitoring Project: Small Mammals on Trapping Webs on the Central Plains Experimental Range, Nunn, Colorado, USA 1994 -2006, ARS Study Number 118",
-   "homepage": "https://portal.edirepository.org/nis/mapbrowse?packageid=knb-lter-sgs.137.17",
+    "homepage": "https://portal.edirepository.org/nis/mapbrowse?packageid=knb-lter-sgs.137.17",
     "keywords": ["populations",  "mammals",  "population dynamics",  "community dynamics",  "rodents",  "grasslands",  "shrublands"],
     "licenses": [{"name": "CC BY"}],
     "name": "shortgrass-steppe-lter",
