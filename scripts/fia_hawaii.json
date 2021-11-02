@@ -8557,7 +8557,7 @@
         }
     ],
     "retriever": "True",
-    "retriever_minimum_version": "2.1.0",
+    "retriever_minimum_version": "2.2.0",
     "title": "Fia hawaii, HI",
     "version": "1.1.0"
 }

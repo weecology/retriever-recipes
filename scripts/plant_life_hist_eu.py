@@ -23,7 +23,7 @@ class main(Script):
         self.title = "A database on the life history traits of the Northwest European flora"
         self.name = "plant-life-hist-eu"
         self.retriever_minimum_version = '2.0.dev'
-        self.version = '1.4.4'
+        self.version = '1.5.4'
         self.ref = "http://www.uni-oldenburg.de/en/biology/landeco/research/projects/leda/"
         self.urls = {
             "Age_of_first_flowering": "http://www.uni-oldenburg.de/fileadmin/user_upload/biologie/ag/landeco/download/LEDA/Data_files/age_of_first_flowering.txt",
@@ -71,8 +71,8 @@ class main(Script):
         for key in self.urls:
             self.engine.download_file(self.urls[key], self.urls[key].rpartition('/')[-1])
             new_file_path = self.engine.format_filename("new" + key)
-            old_data = open_fr(self.engine.find_file(self.urls[key].rpartition('/')[-1]))
-            new_data = open_fw(new_file_path)
+            old_data = open_fr(self.engine.find_file(self.urls[key].rpartition('/')[-1]), encoding=self.encoding)
+            new_data = open_fw(new_file_path, encoding=self.encoding)
             with old_data as file_block:
 
                 # after the metadata lines, set data to True
