@@ -6471,114 +6471,6 @@
             "dialect": {
                 "delimiter": ","
             },
-            "name": "ut_boundary",
-            "path": "UT_BOUNDARY.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "cn",
-                        "size": "17",
-                        "type": "char"
-                    },
-                    {
-                        "name": "plt_cn",
-                        "size": "16",
-                        "type": "char"
-                    },
-                    {
-                        "name": "invyr",
-                        "type": "int"
-                    },
-                    {
-                        "name": "statecd",
-                        "type": "int"
-                    },
-                    {
-                        "name": "unitcd",
-                        "type": "int"
-                    },
-                    {
-                        "name": "countycd",
-                        "type": "int"
-                    },
-                    {
-                        "name": "plot",
-                        "type": "int"
-                    },
-                    {
-                        "name": "subp",
-                        "type": "int"
-                    },
-                    {
-                        "name": "subptyp",
-                        "type": "int"
-                    },
-                    {
-                        "name": "bndchg",
-                        "type": "int"
-                    },
-                    {
-                        "name": "contrast",
-                        "type": "int"
-                    },
-                    {
-                        "name": "azmleft",
-                        "type": "int"
-                    },
-                    {
-                        "name": "azmcorn",
-                        "type": "int"
-                    },
-                    {
-                        "name": "distcorn",
-                        "type": "int"
-                    },
-                    {
-                        "name": "azmright",
-                        "type": "int"
-                    },
-                    {
-                        "name": "cycle",
-                        "type": "int"
-                    },
-                    {
-                        "name": "subcycle",
-                        "type": "int"
-                    },
-                    {
-                        "name": "created_by",
-                        "type": "int"
-                    },
-                    {
-                        "name": "created_date",
-                        "size": "10",
-                        "type": "char"
-                    },
-                    {
-                        "name": "created_in_instance",
-                        "size": "8",
-                        "type": "char"
-                    },
-                    {
-                        "name": "modified_by",
-                        "type": "int"
-                    },
-                    {
-                        "name": "modified_date",
-                        "type": "int"
-                    },
-                    {
-                        "name": "modified_in_instance",
-                        "type": "int"
-                    }
-                ]
-            },
-            "url": "https://apps.fs.usda.gov/fia/datamart/CSV/UT.zip"
-        },
-        {
-            "dialect": {
-                "delimiter": ","
-            },
             "name": "tree_grm_midpt",
             "path": "UT_TREE_GRM_MIDPT.csv",
             "schema": {
@@ -8691,7 +8583,7 @@
         }
     ],
     "retriever": "True",
-    "retriever_minimum_version": "2.1.0",
+    "retriever_minimum_version": "2.2.0",
     "title": "Fia utah, UT",
     "version": "1.1.0"
 }
