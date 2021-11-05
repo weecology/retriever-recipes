@@ -8099,118 +8099,6 @@
             "dialect": {
                 "delimiter": ","
             },
-            "name": "boundary",
-            "path": "CT_BOUNDARY.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "cn",
-                        "size": "34",
-                        "type": "char"
-                    },
-                    {
-                        "name": "plt_cn",
-                        "size": "34",
-                        "type": "char"
-                    },
-                    {
-                        "name": "invyr",
-                        "type": "int"
-                    },
-                    {
-                        "name": "statecd",
-                        "type": "int"
-                    },
-                    {
-                        "name": "unitcd",
-                        "type": "int"
-                    },
-                    {
-                        "name": "countycd",
-                        "type": "int"
-                    },
-                    {
-                        "name": "plot",
-                        "type": "int"
-                    },
-                    {
-                        "name": "subp",
-                        "type": "int"
-                    },
-                    {
-                        "name": "subptyp",
-                        "type": "int"
-                    },
-                    {
-                        "name": "bndchg",
-                        "type": "int"
-                    },
-                    {
-                        "name": "contrast",
-                        "type": "int"
-                    },
-                    {
-                        "name": "azmleft",
-                        "type": "int"
-                    },
-                    {
-                        "name": "azmcorn",
-                        "type": "int"
-                    },
-                    {
-                        "name": "distcorn",
-                        "type": "int"
-                    },
-                    {
-                        "name": "azmright",
-                        "type": "int"
-                    },
-                    {
-                        "name": "cycle",
-                        "type": "int"
-                    },
-                    {
-                        "name": "subcycle",
-                        "type": "int"
-                    },
-                    {
-                        "name": "created_by",
-                        "size": "30",
-                        "type": "char"
-                    },
-                    {
-                        "name": "created_date",
-                        "size": "25",
-                        "type": "char"
-                    },
-                    {
-                        "name": "created_in_instance",
-                        "size": "6",
-                        "type": "char"
-                    },
-                    {
-                        "name": "modified_by",
-                        "size": "30",
-                        "type": "char"
-                    },
-                    {
-                        "name": "modified_date",
-                        "size": "25",
-                        "type": "char"
-                    },
-                    {
-                        "name": "modified_in_instance",
-                        "size": "6",
-                        "type": "char"
-                    }
-                ]
-            },
-            "url": "https://apps.fs.usda.gov/fia/datamart/CSV/CT.zip"
-        },
-        {
-            "dialect": {
-                "delimiter": ","
-            },
             "name": "tree_grm_begin",
             "path": "CT_TREE_GRM_BEGIN.csv",
             "schema": {
@@ -8635,7 +8523,7 @@
         }
     ],
     "retriever": "True",
-    "retriever_minimum_version": "2.1.0",
+    "retriever_minimum_version": "2.2.0",
     "title": "Fia connecticut, CT",
     "version": "1.1.0"
 }
