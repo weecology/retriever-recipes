@@ -40,6 +40,7 @@ dicerandra_frutescens.json,1.0.2
 ecoregions_us.json,1.0.1
 elton_traits.json,1.2.2
 fao_global_capture_product.py,1.0.0
+fbi-hate-crime-stats.json,1.0.0
 felix_riese_hyperspectral_soilmoisture.json,1.0.0
 fernow_air_temperature.json,1.0.0
 fernow_biomass.json,1.0.0
