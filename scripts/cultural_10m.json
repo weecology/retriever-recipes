@@ -23,7 +23,7 @@
     "version": "1.0.0",
     "resources": [
         {
-            "path": "10m_cultural/ne_10m_time_zones.shp",
+            "path":  "10m_cultural/ne_10m_time_zones.shp",
             "geom_type": "Polygon",
             "name": "ne_10m_time_zones",
             "schema": {
@@ -155,7 +155,7 @@
                 ]
             },
             "url": "https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/10m_cultural.zip",
-            "path": "ne_10m_admin_0_pacific_groupings.shp"
+            "path":  "10m_cultural/ne_10m_admin_0_pacific_groupings.shp"
         },
         {
             "geom_type": "Point",
@@ -531,7 +531,7 @@
                 ]
             },
             "url": "https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/10m_cultural.zip",
-            "path": "ne_10m_admin_2_label_points_details.shp"
+            "path":  "10m_cultural/ne_10m_admin_2_label_points_details.shp"
         },
         {
             "geom_type": "Polygon",
@@ -565,7 +565,7 @@
                 ]
             },
             "url": "https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/10m_cultural.zip",
-            "path": "ne_10m_urban_areas.shp"
+            "path":  "10m_cultural/ne_10m_urban_areas.shp"
         },
         {
             "geom_type": "Line String",
@@ -653,7 +653,7 @@
                 ]
             },
             "url": "https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/10m_cultural.zip",
-            "path": "ne_10m_roads_north_america.shp"
+            "path":  "10m_cultural/ne_10m_roads_north_america.shp"
         },
         {
             "geom_type": "Polygon",
@@ -1629,7 +1629,7 @@
                 ]
             },
             "url": "https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/10m_cultural.zip",
-            "path": "ne_10m_admin_0_countries_rus.shp"
+            "path":  "10m_cultural/ne_10m_admin_0_countries_rus.shp"
         },
         {
             "geom_type": "Polygon",
@@ -2359,7 +2359,7 @@
                 ]
             },
             "url": "https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/10m_cultural.zip",
-            "path": "ne_10m_admin_1_states_provinces.shp"
+            "path":  "10m_cultural/ne_10m_admin_1_states_provinces.shp"
         },
         {
             "geom_type": "Line String",
@@ -2699,7 +2699,7 @@
                 ]
             },
             "url": "https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/10m_cultural.zip",
-            "path": "ne_10m_admin_1_states_provinces_lines.shp"
+            "path":  "10m_cultural/ne_10m_admin_1_states_provinces_lines.shp"
         },
         {
             "geom_type": "Polygon",
@@ -3675,7 +3675,7 @@
                 ]
             },
             "url": "https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/10m_cultural.zip",
-            "path": "ne_10m_admin_0_countries_ind.shp"
+            "path":  "10m_cultural/ne_10m_admin_0_countries_ind.shp"
         },
         {
             "geom_type": "Point",
@@ -3727,7 +3727,7 @@
                 ]
             },
             "url": "https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/10m_cultural.zip",
-            "path": "ne_10m_parks_and_protected_lands_point.shp"
+            "path":  "10m_cultural/ne_10m_parks_and_protected_lands_point.shp"
         },
         {
             "geom_type": "Polygon",
@@ -4703,7 +4703,7 @@
                 ]
             },
             "url": "https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/10m_cultural.zip",
-            "path": "ne_10m_admin_0_countries_jpn.shp"
+            "path":  "10m_cultural/ne_10m_admin_0_countries_jpn.shp"
         },
         {
             "geom_type": "Polygon",
@@ -5679,7 +5679,7 @@
                 ]
             },
             "url": "https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/10m_cultural.zip",
-            "path": "ne_10m_admin_0_countries_pse.shp"
+            "path":  "10m_cultural/ne_10m_admin_0_countries_pse.shp"
         },
         {
             "geom_type": "Polygon",
@@ -6655,7 +6655,7 @@
                 ]
             },
             "url": "https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/10m_cultural.zip",
-            "path": "ne_10m_admin_0_countries_lakes.shp"
+            "path":  "10m_cultural/ne_10m_admin_0_countries_lakes.shp"
         },
         {
             "geom_type": "Polygon",
@@ -7631,7 +7631,7 @@
                 ]
             },
             "url": "https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/10m_cultural.zip",
-            "path": "ne_10m_admin_0_countries_kor.shp"
+            "path":  "10m_cultural/ne_10m_admin_0_countries_kor.shp"
         },
         {
             "geom_type": "Polygon",
@@ -8607,7 +8607,7 @@
                 ]
             },
             "url": "https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/10m_cultural.zip",
-            "path": "ne_10m_admin_0_countries_twn.shp"
+            "path":  "10m_cultural/ne_10m_admin_0_countries_twn.shp"
         },
         {
             "geom_type": "Point",
@@ -9433,7 +9433,7 @@
                 ]
             },
             "url": "https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/10m_cultural.zip",
-            "path": "ne_10m_populated_places.shp"
+            "path":  "10m_cultural/ne_10m_populated_places.shp"
         },
         {
             "geom_type": "Point",
@@ -10163,7 +10163,7 @@
                 ]
             },
             "url": "https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/10m_cultural.zip",
-            "path": "ne_10m_admin_1_label_points_details.shp"
+            "path":  "10m_cultural/ne_10m_admin_1_label_points_details.shp"
         },
         {
             "geom_type": "Polygon",
@@ -11139,7 +11139,7 @@
                 ]
             },
             "url": "https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/10m_cultural.zip",
-            "path": "ne_10m_admin_0_countries_egy.shp"
+            "path":  "10m_cultural/ne_10m_admin_0_countries_egy.shp"
         },
         {
             "geom_type": "Point",
@@ -11185,7 +11185,7 @@
                 ]
             },
             "url": "https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/10m_cultural.zip",
-            "path": "ne_10m_ports.shp"
+            "path":  "10m_cultural/ne_10m_ports.shp"
         },
         {
             "geom_type": "Polygon",
@@ -11243,7 +11243,7 @@
                 ]
             },
             "url": "https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/10m_cultural.zip",
-            "path": "ne_10m_parks_and_protected_lands_area.shp"
+            "path":  "10m_cultural/ne_10m_parks_and_protected_lands_area.shp"
         },
         {
             "geom_type": "Point",
@@ -11307,7 +11307,7 @@
                 ]
             },
             "url": "https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/10m_cultural.zip",
-            "path": "ne_10m_admin_0_label_points.shp"
+            "path":  "10m_cultural/ne_10m_admin_0_label_points.shp"
         },
         {
             "geom_type": "Polygon",
@@ -12283,7 +12283,7 @@
                 ]
             },
             "url": "https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/10m_cultural.zip",
-            "path": "ne_10m_admin_0_countries_sau.shp"
+            "path":  "10m_cultural/ne_10m_admin_0_countries_sau.shp"
         },
         {
             "geom_type": "Polygon",
@@ -13259,7 +13259,7 @@
                 ]
             },
             "url": "https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/10m_cultural.zip",
-            "path": "ne_10m_admin_0_countries_arg.shp"
+            "path":  "10m_cultural/ne_10m_admin_0_countries_arg.shp"
         },
         {
             "geom_type": "Polygon",
@@ -13317,7 +13317,7 @@
                 ]
             },
             "url": "https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/10m_cultural.zip",
-            "path": "ne_10m_parks_and_protected_lands_scale_rank.shp"
+            "path":  "10m_cultural/ne_10m_parks_and_protected_lands_scale_rank.shp"
         },
         {
             "geom_type": "Polygon",
@@ -14293,7 +14293,7 @@
                 ]
             },
             "url": "https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/10m_cultural.zip",
-            "path": "ne_10m_admin_0_countries_nld.shp"
+            "path":  "10m_cultural/ne_10m_admin_0_countries_nld.shp"
         },
         {
             "geom_type": "Line String",
@@ -14615,7 +14615,7 @@
                 ]
             },
             "url": "https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/10m_cultural.zip",
-            "path": "ne_10m_admin_0_boundary_lines_land.shp"
+            "path":  "10m_cultural/ne_10m_admin_0_boundary_lines_land.shp"
         },
         {
             "geom_type": "Polygon",
@@ -15345,7 +15345,7 @@
                 ]
             },
             "url": "https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/10m_cultural.zip",
-            "path": "ne_10m_admin_1_states_provinces_lakes.shp"
+            "path":  "10m_cultural/ne_10m_admin_1_states_provinces_lakes.shp"
         },
         {
             "geom_type": "Polygon",
@@ -16321,7 +16321,7 @@
                 ]
             },
             "url": "https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/10m_cultural.zip",
-            "path": "ne_10m_admin_0_map_units.shp"
+            "path":  "10m_cultural/ne_10m_admin_0_map_units.shp"
         },
         {
             "geom_type": "Polygon",
@@ -17297,7 +17297,7 @@
                 ]
             },
             "url": "https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/10m_cultural.zip",
-            "path": "ne_10m_admin_0_countries_vnm.shp"
+            "path":  "10m_cultural/ne_10m_admin_0_countries_vnm.shp"
         },
         {
             "geom_type": "Line String",
@@ -17337,7 +17337,7 @@
                 ]
             },
             "url": "https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/10m_cultural.zip",
-            "path": "ne_10m_admin_0_antarctic_claim_limit_lines.shp"
+            "path":  "10m_cultural/ne_10m_admin_0_antarctic_claim_limit_lines.shp"
         },
         {
             "geom_type": "Polygon",
@@ -18313,7 +18313,7 @@
                 ]
             },
             "url": "https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/10m_cultural.zip",
-            "path": "ne_10m_admin_0_countries_bdg.shp"
+            "path":  "10m_cultural/ne_10m_admin_0_countries_bdg.shp"
         },
         {
             "geom_type": "Polygon",
@@ -18401,7 +18401,7 @@
                 ]
             },
             "url": "https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/10m_cultural.zip",
-            "path": "ne_10m_admin_1_states_provinces_scale_rank_minor_islands.shp"
+            "path":  "10m_cultural/ne_10m_admin_1_states_provinces_scale_rank_minor_islands.shp"
         },
         {
             "geom_type": "Line String",
@@ -18423,7 +18423,7 @@
                 ]
             },
             "url": "https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/10m_cultural.zip",
-            "path": "ne_10m_admin_1_seams.shp"
+            "path":  "10m_cultural/ne_10m_admin_1_seams.shp"
         },
         {
             "geom_type": "Polygon",
@@ -19399,7 +19399,7 @@
                 ]
             },
             "url": "https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/10m_cultural.zip",
-            "path": "ne_10m_admin_0_countries_esp.shp"
+            "path":  "10m_cultural/ne_10m_admin_0_countries_esp.shp"
         },
         {
             "geom_type": "Polygon",
@@ -20375,7 +20375,7 @@
                 ]
             },
             "url": "https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/10m_cultural.zip",
-            "path": "ne_10m_admin_0_disputed_areas.shp"
+            "path":  "10m_cultural/ne_10m_admin_0_disputed_areas.shp"
         },
         {
             "geom_type": "Polygon",
@@ -20751,7 +20751,7 @@
                 ]
             },
             "url": "https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/10m_cultural.zip",
-            "path": "ne_10m_admin_2_counties.shp"
+            "path":  "10m_cultural/ne_10m_admin_2_counties.shp"
         },
         {
             "geom_type": "Polygon",
@@ -21727,7 +21727,7 @@
                 ]
             },
             "url": "https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/10m_cultural.zip",
-            "path": "ne_10m_admin_0_countries_bra.shp"
+            "path":  "10m_cultural/ne_10m_admin_0_countries_bra.shp"
         },
         {
             "geom_type": "Polygon",
@@ -22703,7 +22703,7 @@
                 ]
             },
             "url": "https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/10m_cultural.zip",
-            "path": "ne_10m_admin_0_countries_deu.shp"
+            "path":  "10m_cultural/ne_10m_admin_0_countries_deu.shp"
         },
         {
             "geom_type": "Point",
@@ -22791,7 +22791,7 @@
                 ]
             },
             "url": "https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/10m_cultural.zip",
-            "path": "ne_10m_admin_1_label_points.shp"
+            "path":  "10m_cultural/ne_10m_admin_1_label_points.shp"
         },
         {
             "geom_type": "Polygon",
@@ -22855,7 +22855,7 @@
                 ]
             },
             "url": "https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/10m_cultural.zip",
-            "path": "ne_10m_admin_0_scale_rank.shp"
+            "path":  "10m_cultural/ne_10m_admin_0_scale_rank.shp"
         },
         {
             "geom_type": "Polygon",
@@ -22943,7 +22943,7 @@
                 ]
             },
             "url": "https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/10m_cultural.zip",
-            "path": "ne_10m_admin_1_states_provinces_scale_rank.shp"
+            "path":  "10m_cultural/ne_10m_admin_1_states_provinces_scale_rank.shp"
         },
         {
             "geom_type": "Polygon",
@@ -23007,7 +23007,7 @@
                 ]
             },
             "url": "https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/10m_cultural.zip",
-            "path": "ne_10m_admin_0_scale_rank_minor_islands.shp"
+            "path":  "10m_cultural/ne_10m_admin_0_scale_rank_minor_islands.shp"
         },
         {
             "geom_type": "Line String",
@@ -23305,7 +23305,7 @@
                 ]
             },
             "url": "https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/10m_cultural.zip",
-            "path": "ne_10m_admin_2_counties_lines.shp"
+            "path":  "10m_cultural/ne_10m_admin_2_counties_lines.shp"
         },
         {
             "geom_type": "Line String",
@@ -23555,7 +23555,7 @@
                 ]
             },
             "url": "https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/10m_cultural.zip",
-            "path": "ne_10m_admin_0_boundary_lines_maritime_indicator.shp"
+            "path":  "10m_cultural/ne_10m_admin_0_boundary_lines_maritime_indicator.shp"
         },
         {
             "geom_type": "Polygon",
@@ -24531,7 +24531,7 @@
                 ]
             },
             "url": "https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/10m_cultural.zip",
-            "path": "ne_10m_admin_0_countries_pol.shp"
+            "path":  "10m_cultural/ne_10m_admin_0_countries_pol.shp"
         },
         {
             "geom_type": "Polygon",
@@ -25507,7 +25507,7 @@
                 ]
             },
             "url": "https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/10m_cultural.zip",
-            "path": "ne_10m_admin_0_countries_fra.shp"
+            "path":  "10m_cultural/ne_10m_admin_0_countries_fra.shp"
         },
         {
             "geom_type": "Line String",
@@ -25769,7 +25769,7 @@
                 ]
             },
             "url": "https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/10m_cultural.zip",
-            "path": "ne_10m_admin_0_boundary_lines_map_units.shp"
+            "path":  "10m_cultural/ne_10m_admin_0_boundary_lines_map_units.shp"
         },
         {
             "geom_type": "Point",
@@ -26019,7 +26019,7 @@
                 ]
             },
             "url": "https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/10m_cultural.zip",
-            "path": "ne_10m_airports.shp"
+            "path":  "10m_cultural/ne_10m_airports.shp"
         },
         {
             "geom_type": "Polygon",
@@ -26995,7 +26995,7 @@
                 ]
             },
             "url": "https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/10m_cultural.zip",
-            "path": "ne_10m_admin_0_countries_nep.shp"
+            "path":  "10m_cultural/ne_10m_admin_0_countries_nep.shp"
         },
         {
             "geom_type": "Polygon",
@@ -27971,7 +27971,7 @@
                 ]
             },
             "url": "https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/10m_cultural.zip",
-            "path": "ne_10m_admin_0_map_subunits.shp"
+            "path":  "10m_cultural/ne_10m_admin_0_map_subunits.shp"
         },
         {
             "geom_type": "Polygon",
@@ -28947,7 +28947,7 @@
                 ]
             },
             "url": "https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/10m_cultural.zip",
-            "path": "ne_10m_admin_0_countries_ukr.shp"
+            "path":  "10m_cultural/ne_10m_admin_0_countries_ukr.shp"
         },
         {
             "geom_type": "Polygon",
@@ -29107,7 +29107,7 @@
                 ]
             },
             "url": "https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/10m_cultural.zip",
-            "path": "ne_10m_urban_areas_landscan.shp"
+            "path":  "10m_cultural/ne_10m_urban_areas_landscan.shp"
         },
         {
             "geom_type": "Line String",
@@ -29435,7 +29435,7 @@
                 ]
             },
             "url": "https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/10m_cultural.zip",
-            "path": "ne_10m_admin_0_boundary_lines_disputed_areas.shp"
+            "path":  "10m_cultural/ne_10m_admin_0_boundary_lines_disputed_areas.shp"
         },
         {
             "geom_type": "Point",
@@ -29505,7 +29505,7 @@
                 ]
             },
             "url": "https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/10m_cultural.zip",
-            "path": "ne_10m_admin_2_label_points.shp"
+            "path":  "10m_cultural/ne_10m_admin_2_label_points.shp"
         },
         {
             "geom_type": "Polygon",
@@ -29569,7 +29569,7 @@
                 ]
             },
             "url": "https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/10m_cultural.zip",
-            "path": "ne_10m_admin_0_disputed_areas_scale_rank_minor_islands.shp"
+            "path":  "10m_cultural/ne_10m_admin_0_disputed_areas_scale_rank_minor_islands.shp"
         },
         {
             "geom_type": "Polygon",
@@ -30545,7 +30545,7 @@
                 ]
             },
             "url": "https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/10m_cultural.zip",
-            "path": "ne_10m_admin_0_countries_swe.shp"
+            "path":  "10m_cultural/ne_10m_admin_0_countries_swe.shp"
         },
         {
             "geom_type": "Polygon",
@@ -30615,7 +30615,7 @@
                 ]
             },
             "url": "https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/10m_cultural.zip",
-            "path": "ne_10m_admin_2_counties_scale_rank.shp"
+            "path":  "10m_cultural/ne_10m_admin_2_counties_scale_rank.shp"
         },
         {
             "geom_type": "Polygon",
@@ -30685,7 +30685,7 @@
                 ]
             },
             "url": "https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/10m_cultural.zip",
-            "path": "ne_10m_admin_2_counties_scale_rank_minor_islands.shp"
+            "path":  "10m_cultural/ne_10m_admin_2_counties_scale_rank_minor_islands.shp"
         },
         {
             "geom_type": "Line String",
@@ -30935,7 +30935,7 @@
                 ]
             },
             "url": "https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/10m_cultural.zip",
-            "path": "ne_10m_admin_0_boundary_lines_maritime_indicator_chn.shp"
+            "path":  "10m_cultural/ne_10m_admin_0_boundary_lines_maritime_indicator_chn.shp"
         },
         {
             "geom_type": "Line String",
@@ -31131,7 +31131,7 @@
                 ]
             },
             "url": "https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/10m_cultural.zip",
-            "path": "ne_10m_roads.shp"
+            "path":  "10m_cultural/ne_10m_roads.shp"
         },
         {
             "geom_type": "Polygon",
@@ -31339,7 +31339,7 @@
                 ]
             },
             "url": "https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/10m_cultural.zip",
-            "path": "ne_10m_admin_2_counties_to_match.shp"
+            "path":  "10m_cultural/ne_10m_admin_2_counties_to_match.shp"
         },
         {
             "geom_type": "Polygon",
@@ -32315,7 +32315,7 @@
                 ]
             },
             "url": "https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/10m_cultural.zip",
-            "path": "ne_10m_admin_0_countries_usa.shp"
+            "path":  "10m_cultural/ne_10m_admin_0_countries_usa.shp"
         },
         {
             "geom_type": "Polygon",
@@ -33291,7 +33291,7 @@
                 ]
             },
             "url": "https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/10m_cultural.zip",
-            "path": "ne_10m_admin_0_countries_tur.shp"
+            "path":  "10m_cultural/ne_10m_admin_0_countries_tur.shp"
         },
         {
             "geom_type": "Polygon",
@@ -34267,7 +34267,7 @@
                 ]
             },
             "url": "https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/10m_cultural.zip",
-            "path": "ne_10m_admin_0_countries_idn.shp"
+            "path":  "10m_cultural/ne_10m_admin_0_countries_idn.shp"
         },
         {
             "geom_type": "Polygon",
@@ -34643,7 +34643,7 @@
                 ]
             },
             "url": "https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/10m_cultural.zip",
-            "path": "ne_10m_admin_2_counties_lakes.shp"
+            "path":  "10m_cultural/ne_10m_admin_2_counties_lakes.shp"
         },
         {
             "geom_type": "Polygon",
@@ -35619,7 +35619,7 @@
                 ]
             },
             "url": "https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/10m_cultural.zip",
-            "path": "ne_10m_admin_0_countries_grc.shp"
+            "path":  "10m_cultural/ne_10m_admin_0_countries_grc.shp"
         },
         {
             "geom_type": "Polygon",
@@ -36595,7 +36595,7 @@
                 ]
             },
             "url": "https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/10m_cultural.zip",
-            "path": "ne_10m_admin_0_countries_chn.shp"
+            "path":  "10m_cultural/ne_10m_admin_0_countries_chn.shp"
         },
         {
             "geom_type": "Polygon",
@@ -37571,7 +37571,7 @@
                 ]
             },
             "url": "https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/10m_cultural.zip",
-            "path": "ne_10m_admin_0_countries_mar.shp"
+            "path":  "10m_cultural/ne_10m_admin_0_countries_mar.shp"
         },
         {
             "geom_type": "Line String",
@@ -37593,7 +37593,7 @@
                 ]
             },
             "url": "https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/10m_cultural.zip",
-            "path": "ne_10m_admin_0_seams.shp"
+            "path":  "10m_cultural/ne_10m_admin_0_seams.shp"
         },
         {
             "geom_type": "Polygon",
@@ -38569,7 +38569,7 @@
                 ]
             },
             "url": "https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/10m_cultural.zip",
-            "path": "ne_10m_admin_0_countries_ita.shp"
+            "path":  "10m_cultural/ne_10m_admin_0_countries_ita.shp"
         },
         {
             "geom_type": "Line String",
@@ -38621,7 +38621,7 @@
                 ]
             },
             "url": "https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/10m_cultural.zip",
-            "path": "ne_10m_railroads_north_america.shp"
+            "path":  "10m_cultural/ne_10m_railroads_north_america.shp"
         },
         {
             "geom_type": "Line String",
@@ -38679,7 +38679,7 @@
                 ]
             },
             "url": "https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/10m_cultural.zip",
-            "path": "ne_10m_parks_and_protected_lands_line.shp"
+            "path":  "10m_cultural/ne_10m_parks_and_protected_lands_line.shp"
         },
         {
             "geom_type": "Polygon",
@@ -39655,7 +39655,7 @@
                 ]
             },
             "url": "https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/10m_cultural.zip",
-            "path": "ne_10m_admin_0_countries_pak.shp"
+            "path":  "10m_cultural/ne_10m_admin_0_countries_pak.shp"
         },
         {
             "geom_type": "Point",
@@ -39851,7 +39851,7 @@
                 ]
             },
             "url": "https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/10m_cultural.zip",
-            "path": "ne_10m_populated_places_simple.shp"
+            "path":  "10m_cultural/ne_10m_populated_places_simple.shp"
         },
         {
             "geom_type": "Point",
@@ -40815,7 +40815,7 @@
                 ]
             },
             "url": "https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/10m_cultural.zip",
-            "path": "ne_10m_admin_0_names.shp"
+            "path":  "10m_cultural/ne_10m_admin_0_names.shp"
         },
         {
             "geom_type": "Polygon",
@@ -41791,7 +41791,7 @@
                 ]
             },
             "url": "https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/10m_cultural.zip",
-            "path": "ne_10m_admin_0_countries.shp"
+            "path":  "10m_cultural/ne_10m_admin_0_countries.shp"
         },
         {
             "geom_type": "Polygon",
@@ -41849,7 +41849,7 @@
                 ]
             },
             "url": "https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/10m_cultural.zip",
-            "path": "ne_10m_admin_0_antarctic_claims.shp"
+            "path":  "10m_cultural/ne_10m_admin_0_antarctic_claims.shp"
         },
         {
             "geom_type": "Polygon",
@@ -42825,7 +42825,7 @@
                 ]
             },
             "url": "https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/10m_cultural.zip",
-            "path": "ne_10m_admin_0_countries_isr.shp"
+            "path":  "10m_cultural/ne_10m_admin_0_countries_isr.shp"
         },
         {
             "geom_type": "Polygon",
@@ -43801,7 +43801,7 @@
                 ]
             },
             "url": "https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/10m_cultural.zip",
-            "path": "ne_10m_admin_0_countries_prt.shp"
+            "path":  "10m_cultural/ne_10m_admin_0_countries_prt.shp"
         },
         {
             "geom_type": "Polygon",
@@ -44777,7 +44777,7 @@
                 ]
             },
             "url": "https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/10m_cultural.zip",
-            "path": "ne_10m_admin_0_countries_gbr.shp"
+            "path":  "10m_cultural/ne_10m_admin_0_countries_gbr.shp"
         },
         {
             "geom_type": "Polygon",
@@ -45753,7 +45753,7 @@
                 ]
             },
             "url": "https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/10m_cultural.zip",
-            "path": "ne_10m_admin_0_sovereignty.shp"
+            "path":  "10m_cultural/ne_10m_admin_0_sovereignty.shp"
         },
         {
             "geom_type": "Line String",
@@ -45835,7 +45835,7 @@
                 ]
             },
             "url": "https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/10m_cultural.zip",
-            "path": "ne_10m_railroads.shp"
+            "path":  "10m_cultural/ne_10m_railroads.shp"
         }
     ]
 }
