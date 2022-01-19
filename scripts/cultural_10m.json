@@ -23,7 +23,7 @@
     "version": "1.0.0",
     "resources": [
         {
-            "path": "ne_10m_time_zones.shp",
+            "path": "10m_cultural/ne_10m_time_zones.shp",
             "geom_type": "Polygon",
             "name": "ne_10m_time_zones",
             "schema": {
