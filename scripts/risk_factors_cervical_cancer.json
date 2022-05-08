@@ -1,0 +1,197 @@
+{
+    "citation": "Kelwin Fernandes, Jaime S. Cardoso, and Jessica Fernandes. 'Transfer Learning with Partial Observability Applied to Cervical Cancer Screening.' Iberian Conference on Pattern Recognition and Image Analysis. Springer International Publishing, 2017.",
+    "description": "This dataset focuses on the prediction of indicators/diagnosis of cervical cancer. The features cover demographic information, habits, and historic medical records.",
+    "encoding": "utf-8",
+    "homepage": "http://archive.ics.uci.edu/ml/datasets/Cervical+cancer+%28Risk+Factors%29",
+    "keywords": ["cervical cancer", "classification"],
+    "licenses": [],
+    "name": "risk-factors-cervical-cancer",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "risk_factors_cervical_cancer",
+            "path": "risk_factors_cervical_cancer.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "age",
+                        "type": "int"
+                    },
+                    {
+                        "name": "number_of_sexual_partners",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "first_sexual_intercourse",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "num_of_pregnancies",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smokes",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smokes_years",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "smokes_packs_year",
+                        "size": "12",
+                        "type": "char"
+                    },
+                    {
+                        "name": "hormonal_contraceptives",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "hormonal_contraceptives_years",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "iud",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "iud_years",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "stds",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "stds_number",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "stds_condylomatosis",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "stds_cervical_condylomatosis",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "stds_vaginal_condylomatosis",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "stds_vulvo_perineal_condylomatosis",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "stds_syphilis",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "stds_pelvic_inflammatory_disease",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "stds_genital_herpes",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "stds_molluscum_contagiosum",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "stds_aids",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "stds_hiv",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "stds_hepatitis_b",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "stds_hpv",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "stds_number_of_diagnosis",
+                        "type": "int"
+                    },
+                    {
+                        "name": "stds_time_since_first_diagnosis",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "stds_time_since_last_diagnosis",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "dx_cancer",
+                        "type": "int"
+                    },
+                    {
+                        "name": "dx_cin",
+                        "type": "int"
+                    },
+                    {
+                        "name": "dx_hpv",
+                        "type": "int"
+                    },
+                    {
+                        "name": "dx",
+                        "type": "int"
+                    },
+                    {
+                        "name": "hinselmann",
+                        "type": "int"
+                    },
+                    {
+                        "name": "schiller",
+                        "type": "int"
+                    },
+                    {
+                        "name": "citology",
+                        "type": "int"
+                    },
+                    {
+                        "name": "biopsy",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "http://archive.ics.uci.edu/ml/machine-learning-databases/00383/risk_factors_cervical_cancer.csv"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "Cervical cancer (Risk Factors) Data Set",
+    "version": "1.0.0"
+}
