@@ -2,7 +2,7 @@
     "citation": "Bestelmeyer B., D. Lightfoot, R. Schooley. 2019. Rodent data from trapping webs in the long-term Small Mammal Exclusion Study (SMES) at Jornada Basin LTER, 1995-2007. Environmental Data Initiative. https://doi.org/10.6073/pasta/0c38baecb2e10b4fe70d187ba6f08dda. Dataset accessed 1/30/2020.",
     "description": "This data package contains rodent trapping data from plots with various levels of herbivore exclusion on the Jornada Experimental Range (JER) and Chihuahuan Desert Rangeland Research Center (CDRRC) lands.",
     "homepage": "https://portal.lternet.edu/nis/mapbrowse?packageid=knb-lter-jrn.210086009.74",
-    "keywords": ["land use", "herbivory", "deserts", "grasslands", "shrubs", "long term monitoring", "populations", "consumers", "abundance", "long term", "small mammals", "rabbits", "vertebrates", "fauna", "trapping"],
+    "keywords": ["EDI Data Portal", "land use", "herbivory", "deserts", "grasslands", "shrubs", "long term monitoring", "populations", "consumers", "abundance", "long term", "small mammals", "rabbits", "vertebrates", "fauna", "trapping"],
     "licenses": [{"name": "CC BY"}],
     "name": "jornada-lter-rodent",
     "resources": [
@@ -106,11 +106,11 @@
                     }
                 ]
             },
-            "url": "https://portal.lternet.edu/nis/dataviewer?packageid=knb-lter-jrn.210086009.74&entityid=13a46a4f5f39850e42ea0ba710db71e8"
+            "url": "https://portal.edirepository.org/nis/dataviewer?packageid=knb-lter-jrn.210086009.74&entityid=13a46a4f5f39850e42ea0ba710db71e8"
         }
     ],
     "retriever": "True",
     "retriever_minimum_version": "2.1.0",
     "title": "Rodent data from trapping webs in the long-term Small Mammal Exclusion Study (SMES) at Jornada Basin LTER, 1995-2007",
-    "version": "1.0.0"
+    "version": "1.0.1"
 }
