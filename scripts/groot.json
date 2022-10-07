@@ -1,0 +1,412 @@
+{
+    "archived": "zip",
+    "citation": "Guerrero-Ramirez N, Mommer L, Freschet GT, Iversen CM, McCormack M.L, Kattge J, Poorter H, van der Plas F, Bergmann J, Kuyper TW, York LM, Bruelheide H, Laughlin DC, Meier IC, Roumet C, Semchenko M, Sweeney CJ, van Ruijven J, Valverde-Barrantes OJ, Aubin I, Catford JA, Manning P, Martin A, Milla R, Minden V, Pausas JG, Smith SW, Soudzilovskaia NA, Ammer C, Butterfield B, Craine J, Cornelissen JHC, de Vries FT, Isaac ME, Kramer K, König C, Lamb EG, Onipchenko VG, Peñuelas J, Reich PB, Rillig MC, Sack L, Shipley B, Tedersoo L, Valladares F, van Bodegom P, Weigelt P, Wright JP, Weigelt A. 2020. Global Root Traits (GRooT) Database. Global Ecology and Biogeography. doi.org/10.1111/geb.13179",
+    "description": "The GRooT database contains about 114,222 trait records on 38 continuous root traits.",
+    "encoding": "latin-1",
+    "homepage": "https://github.com/GRooT-Database/GRooT-Data",
+    "keywords": ["Geographic patterns", "Traits", "root traits"],
+    "licenses": [],
+    "name": "groot",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "grootfullversion",
+            "path": "GRooTFullVersion.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "grootid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "source",
+                        "size": "26",
+                        "type": "char"
+                    },
+                    {
+                        "name": "versionsource",
+                        "type": "double"
+                    },
+                    {
+                        "name": "originalid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "referencesabbreviated",
+                        "size": "126",
+                        "type": "char"
+                    },
+                    {
+                        "name": "refs",
+                        "size": "1165",
+                        "type": "char"
+                    },
+                    {
+                        "name": "referencesdataset",
+                        "size": "1165",
+                        "type": "char"
+                    },
+                    {
+                        "name": "referencesadditional",
+                        "size": "330",
+                        "type": "char"
+                    },
+                    {
+                        "name": "family",
+                        "size": "27",
+                        "type": "char"
+                    },
+                    {
+                        "name": "genus",
+                        "size": "18",
+                        "type": "char"
+                    },
+                    {
+                        "name": "species",
+                        "size": "21",
+                        "type": "char"
+                    },
+                    {
+                        "name": "infraspecific",
+                        "size": "22",
+                        "type": "char"
+                    },
+                    {
+                        "name": "familytnrs",
+                        "size": "18",
+                        "type": "char"
+                    },
+                    {
+                        "name": "genustnrs",
+                        "size": "18",
+                        "type": "char"
+                    },
+                    {
+                        "name": "speciestnrs",
+                        "size": "21",
+                        "type": "char"
+                    },
+                    {
+                        "name": "infraspecifictnrs",
+                        "size": "21",
+                        "type": "char"
+                    },
+                    {
+                        "name": "taxonomicstatus",
+                        "size": "12",
+                        "type": "char"
+                    },
+                    {
+                        "name": "taxonomicinformation",
+                        "size": "50",
+                        "type": "char"
+                    },
+                    {
+                        "name": "grp",
+                        "size": "20",
+                        "type": "char"
+                    },
+                    {
+                        "name": "ordered",
+                        "size": "26",
+                        "type": "char"
+                    },
+                    {
+                        "name": "growthform",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "photosyntheticpathway",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "woodiness",
+                        "size": "15",
+                        "type": "char"
+                    },
+                    {
+                        "name": "mycorrhizalassociationtype",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "mycorrhizalassociationtypefungalroot",
+                        "size": "43",
+                        "type": "char"
+                    },
+                    {
+                        "name": "nitrogenfixationnoddb",
+                        "size": "17",
+                        "type": "char"
+                    },
+                    {
+                        "name": "abilitytogrownclonallyclopla",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "budbearingorganclopla",
+                        "size": "21",
+                        "type": "char"
+                    },
+                    {
+                        "name": "vitality",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "measurementprovenance",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "measurementtreatments",
+                        "size": "123",
+                        "type": "char"
+                    },
+                    {
+                        "name": "measurementmethod",
+                        "size": "129",
+                        "type": "char"
+                    },
+                    {
+                        "name": "year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "yearbegin",
+                        "type": "int"
+                    },
+                    {
+                        "name": "yearend",
+                        "type": "int"
+                    },
+                    {
+                        "name": "agestand",
+                        "type": "double"
+                    },
+                    {
+                        "name": "ageplant",
+                        "type": "double"
+                    },
+                    {
+                        "name": "locationid",
+                        "size": "98",
+                        "type": "char"
+                    },
+                    {
+                        "name": "location",
+                        "size": "267",
+                        "type": "char"
+                    },
+                    {
+                        "name": "decimallatitude",
+                        "type": "double"
+                    },
+                    {
+                        "name": "decimallongitud",
+                        "type": "double"
+                    },
+                    {
+                        "name": "climaticinformation",
+                        "size": "45",
+                        "type": "char"
+                    },
+                    {
+                        "name": "biomeskoeppen",
+                        "size": "25",
+                        "type": "char"
+                    },
+                    {
+                        "name": "biomeskoeppengroup",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "temperaturecoldestmonth",
+                        "type": "double"
+                    },
+                    {
+                        "name": "temperaturewarmestmonth",
+                        "type": "double"
+                    },
+                    {
+                        "name": "meanannualtemperature",
+                        "type": "double"
+                    },
+                    {
+                        "name": "meanannualprecipitation",
+                        "type": "double"
+                    },
+                    {
+                        "name": "elevation",
+                        "type": "double"
+                    },
+                    {
+                        "name": "slope",
+                        "type": "double"
+                    },
+                    {
+                        "name": "soilph",
+                        "type": "double"
+                    },
+                    {
+                        "name": "soiltexture",
+                        "size": "41",
+                        "type": "char"
+                    },
+                    {
+                        "name": "soilcarbon",
+                        "type": "double"
+                    },
+                    {
+                        "name": "soilnitrogen",
+                        "type": "double"
+                    },
+                    {
+                        "name": "soilphosphorus",
+                        "type": "double"
+                    },
+                    {
+                        "name": "soilcarbontonitrogen",
+                        "type": "double"
+                    },
+                    {
+                        "name": "soilbasecationsaturation",
+                        "type": "double"
+                    },
+                    {
+                        "name": "soilcationexchangecapacity",
+                        "type": "double"
+                    },
+                    {
+                        "name": "soilorganicmatter",
+                        "type": "double"
+                    },
+                    {
+                        "name": "soilwatergravimetric",
+                        "type": "double"
+                    },
+                    {
+                        "name": "soilwatervolumetric",
+                        "type": "double"
+                    },
+                    {
+                        "name": "belowgroundentities",
+                        "size": "12",
+                        "type": "char"
+                    },
+                    {
+                        "name": "belowgroundentitiesorderclassification",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "belowgroundentitiesorder",
+                        "type": "int"
+                    },
+                    {
+                        "name": "belowgroundentitiesordermin",
+                        "type": "int"
+                    },
+                    {
+                        "name": "belowgroundentitiesordermax",
+                        "type": "int"
+                    },
+                    {
+                        "name": "belowgroundentitiesfunctional",
+                        "size": "22",
+                        "type": "char"
+                    },
+                    {
+                        "name": "belowgroundentitiesdiametermin",
+                        "type": "double"
+                    },
+                    {
+                        "name": "belowgroundentitiesdiametermax",
+                        "type": "double"
+                    },
+                    {
+                        "name": "traitname",
+                        "size": "48",
+                        "type": "char"
+                    },
+                    {
+                        "name": "traitvalue",
+                        "size": "50,30",
+                        "type": "decimal"
+                    },
+                    {
+                        "name": "errorriskentries",
+                        "type": "int"
+                    },
+                    {
+                        "name": "errorrisk",
+                        "size": "50,30",
+                        "type": "decimal"
+                    }
+                ]
+            },
+            "url": "https://github.com/GRooT-Database/GRooT-Data/blob/master/DataFiles/GRooTFullVersion.zip?raw=true"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "grootaggregatespeciesversion",
+            "path": "GRooTAggregateSpeciesVersion.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "genustnrs",
+                        "size": "18",
+                        "type": "char"
+                    },
+                    {
+                        "name": "speciestnrs",
+                        "size": "21",
+                        "type": "char"
+                    },
+                    {
+                        "name": "traitname",
+                        "size": "48",
+                        "type": "char"
+                    },
+                    {
+                        "name": "entriesstudysite",
+                        "type": "int"
+                    },
+                    {
+                        "name": "meanspecies",
+                        "size": "50,30",
+                        "type": "decimal"
+                    },
+                    {
+                        "name": "medianspecies",
+                        "size": "50,30",
+                        "type": "decimal"
+                    },
+                    {
+                        "name": "firstquantile",
+                        "size": "50,30",
+                        "type": "decimal"
+                    },
+                    {
+                        "name": "thirdquantile",
+                        "size": "50,30",
+                        "type": "decimal"
+                    }
+                ]
+            },
+            "url": "https://github.com/GRooT-Database/GRooT-Data/blob/master/DataFiles/GRooTAggregateSpeciesVersion.zip?raw=true"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "The Global Root Trait, GRooT Database",
+    "version": "1.0.0"
+}
