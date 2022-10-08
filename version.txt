@@ -165,6 +165,7 @@ la_selva_trees.py,1.4.2
 lake_county_illinois_cancer_rates.json,1.0.0
 lakecats_final_tables.json,2.0.0
 leaf_herbivory.json,1.2.2
+long_term_insect_assemblage.json,1.0.0
 macroalgal_communities.json,2.0.0
 macrocystis_variation.json,1.0.1
 mammal_community_db.json,1.2.2
