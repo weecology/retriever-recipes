@@ -1,0 +1,110 @@
+{
+    "archived": "zip",
+    "extract_all": "True",
+    "citation": "Robert Lee, “Morrill Act of 1862 Indigenous Land Parcels Database,” High Country News, March 2020.",
+    "description": "Expropriated Indigenous land by land grant university system Polygons.",
+    "driver_name": "ESRI Shapefile",
+    "extent": {
+        "xMax": -8908637.249999998,
+        "xMin": -13885366.260099998,
+        "yMax": 6275475.625000006,
+        "yMin": 2887991.7500000075
+    },
+    "geom_type": "Polygon",
+    "homepage": "https://github.com/HCN-Digital-Projects/landgrabu-data",
+    "keywords": ["Indigenous land", "United States", "grant universities", "Tribal", "tribal nations", "Land Grab Universities"],
+    "license": [{"name": "Open Data Commons Open Database License (ODbL) v1.0"},
+                {"name": "Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)"}],
+    "name": "land-grab-universities-spatial",
+    "resources": [
+        {
+            "geom_type": "Multi Point",
+            "name": "University_Points",
+            "path": "University_Points.shp",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "OBJECTID",
+                        "precision": 0,
+                        "size": 10,
+                        "type": "Integer64"
+                    },
+                    {
+                        "name": "Uni_Name",
+                        "precision": 0,
+                        "size": 254,
+                        "type": "String"
+                    },
+                    {
+                        "name": "Lat",
+                        "precision": 11,
+                        "size": 19,
+                        "type": "Real"
+                    },
+                    {
+                        "name": "Long_",
+                        "precision": 11,
+                        "size": 19,
+                        "type": "Real"
+                    }
+                ]
+            },
+            "url": "https://github.com/HCN-Digital-Projects/landgrabu-data.git"
+        },
+        {
+            "geom_type": "3D Polygon",
+            "name": "Parcel_Polygons",
+            "path": "Parcel_Polygons.shp",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "OBJECTID_1",
+                        "precision": 0,
+                        "size": 10,
+                        "type": "Integer64"
+                    },
+                    {
+                        "name": "MTRSA_LG",
+                        "precision": 0,
+                        "size": 50,
+                        "type": "String"
+                    },
+                    {
+                        "name": "Shape_Leng",
+                        "precision": 11,
+                        "size": 19,
+                        "type": "Real"
+                    },
+                    {
+                        "name": "Shape_Area",
+                        "precision": 11,
+                        "size": 19,
+                        "type": "Real"
+                    }
+                ]
+            },
+            "url": "https://github.com/HCN-Digital-Projects/landgrabu-data.git"
+        },
+        {
+            "geom_type": "Polygon",
+            "name": "Cession_Polygons",
+            "path": "Cession_Polygons.shp",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "Royce_Num",
+                        "precision": 0,
+                        "size": 5,
+                        "type": "Integer"
+                    }
+                ]
+            },
+            "url": "https://github.com/HCN-Digital-Projects/landgrabu-data.git"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "spatial_ref": "PROJCS[\"WGS 84 / Pseudo-Mercator\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Mercator_1SP\"],PARAMETER[\"central_meridian\",0],PARAMETER[\"scale_factor\",1],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],EXTENSION[\"PROJ4\",\"+proj=merc +a=6378137 +b=6378137 +lat_ts=0 +lon_0=0 +x_0=0 +y_0=0 +k=1 +units=m +nadgrids=@null +wktext +no_defs\"],AUTHORITY[\"EPSG\",\"3857\"]]",
+    "title": "Land Grab Universities Polygons",
+    "version": "1.0.0"
+}
