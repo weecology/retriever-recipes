@@ -1,0 +1,475 @@
+{
+    "citation": "Census totals for large herbivores in the Kruger National Park summarized by year and region 1965-1997",
+    "description": "These summary totals were derived from the annual reports on the census results for each year held by the Scientific Services Division of SANParks. Those for 1965-1976 were derived from aerial count totals corrected on the basis of differential ground counts. Those for 1977-1997 were the count totals recorded in the annual “Ecological Aerial Surveys” following a standard methodology.",
+    "homepage": "http://dataknp.sanparks.org/sanparks/metacat/judithk.814.4/sanparks",
+    "keywords": [
+        "SANParks, South Africa",
+        "Kruger National Park, South Africa",
+        "Census data"
+
+    ],
+    "name": "sanparks",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": "\t"
+            },
+            "name": "judithk_815_1_815",
+            "path": "judithk.815.1-815.1",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "species",
+                        "size": "15",
+                        "type": "char"
+                    },
+                    {
+                        "name": "south",
+                        "type": "int"
+                    },
+                    {
+                        "name": "central",
+                        "type": "int"
+                    },
+                    {
+                        "name": "north",
+                        "type": "int"
+                    },
+                    {
+                        "name": "farnorth",
+                        "type": "int"
+                    },
+                    {
+                        "name": "total",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "http://dataknp.sanparks.org/sanparks/metacat?action=read&qformat=sanparks&sessionid=&docid=judithk.815.1"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "peggym_110_1_gghnpqwaqwatotals",
+            "path": "peggym.110.1-GGHNPQWAQWATotals.txt",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "record_date",
+                        "size": "18",
+                        "type": "char"
+                    },
+                    {
+                        "name": "area",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "common_name",
+                        "size": "17",
+                        "type": "char"
+                    },
+                    {
+                        "name": "sumoftotal_number",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "http://dataknp.sanparks.org/sanparks/metacat?action=read&qformat=sanparks&sessionid=&docid=peggym.109.1"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "peggym_112_1_gghnptotals",
+            "path": "peggym.112.1-GGHNPTotals.txt",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "black_wildebeest",
+                        "size": "18",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "http://dataknp.sanparks.org/sanparks/metacat?action=read&qformat=sanparks&sessionid=&docid=peggym.110.1"
+        },
+        {
+            "dialect": {
+                "delimiter": "\t"
+            },
+            "name": "peggym_111_1_gghnpspeciecodes",
+            "path": "peggym.111.1-GGHNPSpecieCodes.txt",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "common_name",
+                        "size": "17",
+                        "type": "char"
+                    },
+                    {
+                        "name": "species_id",
+                        "size": "7",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "http://dataknp.sanparks.org/sanparks/metacat?action=read&qformat=sanparks&sessionid=&docid=peggym.111.1"
+        },
+        {
+            "dialect": {
+                "delimiter": "\t"
+            },
+            "name": "peggym_109_1_gghnpcensusdata",
+            "path": "peggym.109.1-GGHNPcensusdata.txt",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "ID",
+                        "type": "double"
+                    },
+                    {
+                        "name": "Unique number",
+                        "type": "double"
+                    },
+                    {
+                        "name": "Decimal Deg E",
+                        "type": "double"
+                    },
+                    {
+                        "name": "Decimal Deg S",
+                        "type": "double"
+                    },
+                    {
+                        "name": "Date",
+                        "type": "date"
+                    },
+                    {
+                        "name": "Block / Stratum",
+                        "type": "char"
+                    },
+                    {
+                        "name": "Transect",
+                        "type": "double"
+                    },
+                    {
+                        "name": "Species",
+                        "type": "char"
+                    },
+                    {
+                        "name": "Total number",
+                        "type": "double"
+                    },
+                    {
+                        "name": "Juveniles / calves",
+                        "type": "double"
+                    },
+                    {
+                        "name": "Distance / Strip",
+                        "type": "char"
+                    },
+                    {
+                        "name": "Observer - L/R",
+                        "type": "double"
+                    },
+                    {
+                        "name": "Comments",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "http://dataknp.sanparks.org/sanparks/metacat?action=read&qformat=sanparks&sessionid=&docid=peggym.112.1"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "peggym_114_1_karoonationalparkcensuscodes",
+            "path": "peggym.114.1-KarooNationalParkCensuscodes.txt",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "common_name",
+                        "size": "26",
+                        "type": "char"
+                    },
+                    {
+                        "name": "species",
+                        "size": "4",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "http://dataknp.sanparks.org/sanparks/metacat?action=read&qformat=sanparks&sessionid=&docid=peggym.114.1"
+        },
+        {
+            "dialect": {
+                "delimiter": "\t"
+            },
+            "name": "peggym_115_1_krnpcensusdata",
+            "path": "peggym.115.1-KRNPCensusdata.txt",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "unique_number",
+                        "type": "double"
+                    },
+                    {
+                        "name": "decimal_deg_e",
+                        "type": "double"
+                    },
+                    {
+                        "name": "decimal_deg_s",
+                        "type": "double"
+                    },
+                    {
+                        "name": "record_date",
+                        "size": "18",
+                        "type": "char"
+                    },
+                    {
+                        "name": "block_stratum",
+                        "size": "25",
+                        "type": "char"
+                    },
+                    {
+                        "name": "transect",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "species",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "total_number",
+                        "type": "double"
+                    },
+                    {
+                        "name": "juveniles_calves",
+                        "type": "double"
+                    },
+                    {
+                        "name": "distance_strip",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "observer_l_r",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "comments",
+                        "size": "100",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "http://dataknp.sanparks.org/sanparks/metacat?action=read&qformat=sanparks&sessionid=&docid=peggym.115.1"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "peggym_116_1_krnptotals",
+            "path": "peggym.116.1-KRNPTotals.txt",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "record_date",
+                        "size": "18",
+                        "type": "char"
+                    },
+                    {
+                        "name": "common_name",
+                        "size": "26",
+                        "type": "char"
+                    },
+                    {
+                        "name": "sumoftotal_number",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "http://dataknp.sanparks.org/sanparks/metacat?action=read&qformat=sanparks&sessionid=&docid=peggym.116.1"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "peggym_1049_1_karoo2008",
+            "path": "peggym.1049.1-karoo2008.txt",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "record_date",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "control",
+                        "size": "15",
+                        "type": "char"
+                    },
+                    {
+                        "name": "total",
+                        "type": "int"
+                    },
+                    {
+                        "name": "bulls",
+                        "type": "int"
+                    },
+                    {
+                        "name": "calves",
+                        "type": "int"
+                    },
+                    {
+                        "name": "longitude",
+                        "type": "double"
+                    },
+                    {
+                        "name": "latitude",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "http://dataknp.sanparks.org/sanparks/metacat?action=read&qformat=sanparks&sessionid=&docid=peggym.1049.1"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "peggym_1050_1_karoo2006",
+            "path": "peggym.1050.1-Karoo2006.txt",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "record_date",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "stratum",
+                        "size": "20",
+                        "type": "char"
+                    },
+                    {
+                        "name": "transect",
+                        "type": "int"
+                    },
+                    {
+                        "name": "lat_s",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "long_e",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "species",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "total",
+                        "type": "int"
+                    },
+                    {
+                        "name": "juvenile",
+                        "type": "int"
+                    },
+                    {
+                        "name": "l_r",
+                        "type": "int"
+                    },
+                    {
+                        "name": "strip",
+                        "type": "int"
+                    },
+                    {
+                        "name": "comments",
+                        "size": "48",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "http://dataknp.sanparks.org/sanparks/metacat?action=read&qformat=sanparks&sessionid=&docid=peggym.1050.1"
+        },
+        {
+            "dialect": {
+                "delimiter": "\t"
+            },
+            "name": "peggym_1051_1_karoo09",
+            "path": "peggym.1051.1-Karoo09.txt",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "ref",
+                        "type": "int"
+                    },
+                    {
+                        "name": "record_date",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "time",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "control",
+                        "size": "15",
+                        "type": "char"
+                    },
+                    {
+                        "name": "total",
+                        "type": "int"
+                    },
+                    {
+                        "name": "bulls",
+                        "type": "int"
+                    },
+                    {
+                        "name": "calves",
+                        "type": "int"
+                    },
+                    {
+                        "name": "notes",
+                        "type": "int"
+                    },
+                    {
+                        "name": "latitude",
+                        "type": "double"
+                    },
+                    {
+                        "name": "longitude",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "http://dataknp.sanparks.org/sanparks/metacat?action=read&qformat=sanparks&sessionid=&docid=peggym.1051.1"
+        }        
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "Census totals for large herbivores in the Kruger National Park summarized by year and region 1965-1997",
+    "version": "1.0.0"
+}
