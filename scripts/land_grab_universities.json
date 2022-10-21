@@ -1,0 +1,982 @@
+{
+    "citation": "Robert Lee, “Morrill Act of 1862 Indigenous Land Parcels Database,” High Country News, March 2020.",
+    "description": "Expropriated Indigenous land by land grant university system.",
+    "encoding": "latin-1",
+    "homepage": "https://github.com/HCN-Digital-Projects/landgrabu-data",
+    "keywords": ["Indigenous land", "United States", "grant universities", "Tribal", "tribal nations", "Land Grab Universities"],
+    "license": [{"name": "Open Data Commons Open Database License (ODbL) v1.0"},
+                {"name": "Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)"} ],
+    "name": "land-grab-universities",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "parcels",
+            "path": "Parcels.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "mtrsa_lg",
+                        "size": "51",
+                        "type": "char"
+                    },
+                    {
+                        "name": "loc_state",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "loc_county",
+                        "size": "15",
+                        "type": "char"
+                    },
+                    {
+                        "name": "acres",
+                        "type": "double"
+                    },
+                    {
+                        "name": "lg_state",
+                        "size": "12",
+                        "type": "char"
+                    },
+                    {
+                        "name": "lg_reason",
+                        "size": "137",
+                        "type": "char"
+                    },
+                    {
+                        "name": "university",
+                        "size": "65",
+                        "type": "char"
+                    },
+                    {
+                        "name": "uni_ben_history",
+                        "size": "215",
+                        "type": "char"
+                    },
+                    {
+                        "name": "royce_id",
+                        "size": "12",
+                        "type": "char"
+                    },
+                    {
+                        "name": "tribal_nation",
+                        "size": "200",
+                        "type": "char"
+                    },
+                    {
+                        "name": "us_acquired_mode",
+                        "size": "72",
+                        "type": "char"
+                    },
+                    {
+                        "name": "cession_states",
+                        "size": "18",
+                        "type": "char"
+                    },
+                    {
+                        "name": "royce_link",
+                        "size": "132",
+                        "type": "char"
+                    },
+                    {
+                        "name": "yr_us_acquire",
+                        "size": "12",
+                        "type": "char"
+                    },
+                    {
+                        "name": "date_us_acquire",
+                        "size": "12",
+                        "type": "char"
+                    },
+                    {
+                        "name": "us_paid_for_parcel",
+                        "size": "12",
+                        "type": "char"
+                    },
+                    {
+                        "name": "endow_raised_parcel",
+                        "size": "12",
+                        "type": "char"
+                    },
+                    {
+                        "name": "uni_raise_us_pay_multiple",
+                        "size": "12",
+                        "type": "char"
+                    },
+                    {
+                        "name": "yr_st_accept",
+                        "size": "12",
+                        "type": "char"
+                    },
+                    {
+                        "name": "yr_uni_assign",
+                        "size": "12",
+                        "type": "char"
+                    },
+                    {
+                        "name": "yr_patent",
+                        "type": "int"
+                    },
+                    {
+                        "name": "date_patent",
+                        "type": "int"
+                    },
+                    {
+                        "name": "patentees",
+                        "size": "166",
+                        "type": "char"
+                    },
+                    {
+                        "name": "patent_source_reason",
+                        "size": "69",
+                        "type": "char"
+                    },
+                    {
+                        "name": "source_id",
+                        "size": "22",
+                        "type": "char"
+                    },
+                    {
+                        "name": "source",
+                        "size": "132",
+                        "type": "char"
+                    },
+                    {
+                        "name": "source_loc",
+                        "size": "137",
+                        "type": "char"
+                    },
+                    {
+                        "name": "source_type",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "source_form",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "source_acqu",
+                        "size": "19",
+                        "type": "char"
+                    },
+                    {
+                        "name": "source_acqu_detail",
+                        "size": "132",
+                        "type": "char"
+                    },
+                    {
+                        "name": "located_gis",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "parcel_link",
+                        "size": "104",
+                        "type": "char"
+                    },
+                    {
+                        "name": "mtrsa",
+                        "size": "49",
+                        "type": "char"
+                    },
+                    {
+                        "name": "mtrs",
+                        "size": "27",
+                        "type": "char"
+                    },
+                    {
+                        "name": "a_or_l",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "aliquot",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "types",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "gisacres",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "gis_acre_div_list_acre",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "polygon",
+                        "size": "110",
+                        "type": "char"
+                    },
+                    {
+                        "name": "accuracy",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "lg_royce",
+                        "size": "14",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://github.com/HCN-Digital-Projects/landgrabu-data/blob/master/Morrill_Act_of_1862_Indigenous_Land_Parcels_Database/CSVs/Parcels.csv?raw=true"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "cessions",
+            "path": "Cessions.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "royce_id_num",
+                        "type": "int"
+                    },
+                    {
+                        "name": "royce_id",
+                        "size": "12",
+                        "type": "char"
+                    },
+                    {
+                        "name": "tribal_nation",
+                        "size": "200",
+                        "type": "char"
+                    },
+                    {
+                        "name": "us_acquired_mode",
+                        "size": "72",
+                        "type": "char"
+                    },
+                    {
+                        "name": "cession_state",
+                        "size": "18",
+                        "type": "char"
+                    },
+                    {
+                        "name": "yr_us_acquire",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "date_us_acquire",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "total_acres",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "total_us_paid",
+                        "size": "13",
+                        "type": "char"
+                    },
+                    {
+                        "name": "us_paid_per_acre",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "total_area_source",
+                        "size": "207",
+                        "type": "char"
+                    },
+                    {
+                        "name": "total_us_paid_source",
+                        "size": "254",
+                        "type": "char"
+                    },
+                    {
+                        "name": "royce_link",
+                        "size": "132",
+                        "type": "char"
+                    },
+                    {
+                        "name": "notes",
+                        "size": "555",
+                        "type": "char"
+                    },
+                    {
+                        "name": "gis_source",
+                        "size": "125",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://raw.githubusercontent.com/HCN-Digital-Projects/landgrabu-data/master/Morrill_Act_of_1862_Indigenous_Land_Parcels_Database/CSVs/Cessions.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "lg_state_treaty_list",
+            "xls_sheets": [2, "Summaries_Uni_State_Treaty_Tribe.xlsx"],
+            "path": "LG_State_Treaty_List.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "lg_royce",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "lg_state",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "uni_beneficiary",
+                        "size": "77",
+                        "type": "char"
+                    },
+                    {
+                        "name": "royce_id",
+                        "size": "12",
+                        "type": "char"
+                    },
+                    {
+                        "name": "tribal_nation",
+                        "size": "200",
+                        "type": "char"
+                    },
+                    {
+                        "name": "us_acquired_mode",
+                        "size": "72",
+                        "type": "char"
+                    },
+                    {
+                        "name": "royce_link",
+                        "size": "132",
+                        "type": "char"
+                    },
+                    {
+                        "name": "yr_us_acquire",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "date_us_acquire",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "yr_st_accept",
+                        "type": "int"
+                    },
+                    {
+                        "name": "yr_uni_assign",
+                        "type": "int"
+                    },
+                    {
+                        "name": "acres",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "us_paid",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "endow_raised",
+                        "size": "13",
+                        "type": "char"
+                    },
+                    {
+                        "name": "pay_raise_multiple",
+                        "size": "11",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://github.com/HCN-Digital-Projects/landgrabu-data/blob/master/Morrill_Act_of_1862_Indigenous_Land_Parcels_Database/Summaries_Uni_State_Treaty_Tribe.xlsx?raw=true"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "loc_state_sums",
+            "xls_sheets": [1, "Summaries_Uni_State_Treaty_Tribe.xlsx"],
+            "path": "Loc_State_Sums.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "loc_state",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "num_grant_states",
+                        "type": "int"
+                    },
+                    {
+                        "name": "num_lgus",
+                        "type": "int"
+                    },
+                    {
+                        "name": "acres",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "us_paid",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "endow_raised",
+                        "size": "13",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://github.com/HCN-Digital-Projects/landgrabu-data/blob/master/Morrill_Act_of_1862_Indigenous_Land_Parcels_Database/Summaries_Uni_State_Treaty_Tribe.xlsx?raw=true"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "ceded_by_single_name",
+            "xls_sheets": [3, "Summaries_Uni_State_Treaty_Tribe.xlsx"],
+            "path": "ceded_by_single_name.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "lg_royce",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "royce_id",
+                        "size": "12",
+                        "type": "char"
+                    },
+                    {
+                        "name": "ceded_by_single_name",
+                        "size": "118",
+                        "type": "char"
+                    },
+                    {
+                        "name": "tribal_nation_count",
+                        "type": "int"
+                    },
+                    {
+                        "name": "tribal_nation",
+                        "size": "200",
+                        "type": "char"
+                    },
+                    {
+                        "name": "lg_state",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "uni_beneficiary",
+                        "size": "77",
+                        "type": "char"
+                    },
+                    {
+                        "name": "us_acquired_mode",
+                        "size": "72",
+                        "type": "char"
+                    },
+                    {
+                        "name": "royce_link",
+                        "size": "132",
+                        "type": "char"
+                    },
+                    {
+                        "name": "yr_us_acquire",
+                        "type": "int"
+                    },
+                    {
+                        "name": "date_us_acquire",
+                        "type": "int"
+                    },
+                    {
+                        "name": "yr_st_accept",
+                        "type": "int"
+                    },
+                    {
+                        "name": "yr_uni_assign",
+                        "type": "int"
+                    },
+                    {
+                        "name": "acres",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "us_paid",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "endow_raised",
+                        "size": "13",
+                        "type": "char"
+                    },
+                    {
+                        "name": "pay_raise_multiple",
+                        "size": "11",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://github.com/HCN-Digital-Projects/landgrabu-data/blob/master/Morrill_Act_of_1862_Indigenous_Land_Parcels_Database/Summaries_Uni_State_Treaty_Tribe.xlsx?raw=true"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "universities",
+            "path": "Universities.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "university",
+                        "size": "37",
+                        "type": "char"
+                    },
+                    {
+                        "name": "lg_state",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "city",
+                        "size": "15",
+                        "type": "char"
+                    },
+                    {
+                        "name": "benefit_share",
+                        "type": "double"
+                    },
+                    {
+                        "name": "endow_shared_with",
+                        "size": "37",
+                        "type": "char"
+                    },
+                    {
+                        "name": "num_unis",
+                        "type": "int"
+                    },
+                    {
+                        "name": "current_uni_ben_yr",
+                        "size": "93",
+                        "type": "char"
+                    },
+                    {
+                        "name": "prior_uni_ben_yr",
+                        "size": "72",
+                        "type": "char"
+                    },
+                    {
+                        "name": "uni_ben_history",
+                        "size": "215",
+                        "type": "char"
+                    },
+                    {
+                        "name": "uni_type",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "grant_type",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "yr_uni_founded",
+                        "type": "int"
+                    },
+                    {
+                        "name": "yr_st_accept",
+                        "type": "int"
+                    },
+                    {
+                        "name": "yr_uni_assign",
+                        "type": "int"
+                    },
+                    {
+                        "name": "year_uni_open",
+                        "type": "int"
+                    },
+                    {
+                        "name": "uni_site_purchase",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "uni_created",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "bulk_disposal",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "disposal_complete",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "total_acres_exp",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "total_acres_found",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "sold_acres_1914",
+                        "type": "double"
+                    },
+                    {
+                        "name": "unsold_acres_1914",
+                        "type": "int"
+                    },
+                    {
+                        "name": "endow_raised_1914",
+                        "type": "double"
+                    },
+                    {
+                        "name": "value_per_acre_unsold_1914",
+                        "type": "double"
+                    },
+                    {
+                        "name": "value_unsold_acres_1914",
+                        "type": "double"
+                    },
+                    {
+                        "name": "total_value_1914",
+                        "type": "double"
+                    },
+                    {
+                        "name": "per_acre_total_value_1914",
+                        "type": "double"
+                    },
+                    {
+                        "name": "inf_value_assign_yr_2020",
+                        "type": "double"
+                    },
+                    {
+                        "name": "inf_value_1914_2020",
+                        "type": "double"
+                    },
+                    {
+                        "name": "inf_factor_adjust_2020",
+                        "type": "double"
+                    },
+                    {
+                        "name": "unsold_acres_value_1918",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "unsold_acres_1918",
+                        "type": "int"
+                    },
+                    {
+                        "name": "per_acre_value_unsold_1918",
+                        "type": "double"
+                    },
+                    {
+                        "name": "us_paid",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "no_indig_cessions",
+                        "type": "int"
+                    },
+                    {
+                        "name": "no_loc_states",
+                        "type": "int"
+                    },
+                    {
+                        "name": "adjusted_acreage",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "adjusted_us_paid",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "adjusted_endow_raised_1914",
+                        "size": "13",
+                        "type": "char"
+                    },
+                    {
+                        "name": "adjusted_value_unsold_acres_1914",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "adjusted_total_value_1914",
+                        "size": "13",
+                        "type": "char"
+                    },
+                    {
+                        "name": "pay_raise_multiple",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "adjusted_inf_value_assign_yr_2020",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "adjusted_inf_value_1914_2020",
+                        "size": "12",
+                        "type": "char"
+                    },
+                    {
+                        "name": "disposal_notes",
+                        "size": "1076",
+                        "type": "char"
+                    },
+                    {
+                        "name": "disposal_notes_source",
+                        "size": "347",
+                        "type": "char"
+                    },
+                    {
+                        "name": "notes_value_unsold_acres_1914",
+                        "size": "182",
+                        "type": "char"
+                    },
+                    {
+                        "name": "notes_sold_acres_1914",
+                        "size": "161",
+                        "type": "char"
+                    },
+                    {
+                        "name": "tot_acres_exp_source",
+                        "size": "204",
+                        "type": "char"
+                    },
+                    {
+                        "name": "source_principal_acres_sold_1914",
+                        "size": "281",
+                        "type": "char"
+                    },
+                    {
+                        "name": "inflation_source",
+                        "size": "22",
+                        "type": "char"
+                    },
+                    {
+                        "name": "source_acre_1918",
+                        "size": "73",
+                        "type": "char"
+                    },
+                    {
+                        "name": "unsold_value_source_1918",
+                        "size": "73",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://raw.githubusercontent.com/HCN-Digital-Projects/landgrabu-data/master/Morrill_Act_of_1862_Indigenous_Land_Parcels_Database/CSVs/Universities.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "unis_remaining_acreage_summaries",
+            "path": "Unis_Remaining_Acreage_Summaries_8_17_20.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "university",
+                        "size": "29",
+                        "type": "char"
+                    },
+                    {
+                        "name": "lg_state",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "city",
+                        "size": "12",
+                        "type": "char"
+                    },
+                    {
+                        "name": "granttype",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "total_morrill_acres_found",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "adjusted_endow_raised_1914",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "remaining_surfaceacres",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "fy19_totalsurfaceroyalties",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "remaining_mineralacres",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "fy19_totalmineralroyalties",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "perc_remain_surfaceacres",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "perc_remain_mineralacres",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "retention_notes",
+                        "size": "1409",
+                        "type": "char"
+                    },
+                    {
+                        "name": "retention_notes_source",
+                        "size": "56",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://raw.githubusercontent.com/HCN-Digital-Projects/landgrabu-data/master/Morrill_Act_of_1862_Indigenous_Land_Parcels_Database/Unis_Remaining_Acreage_Summaries_8_17_20.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ",",
+                "do_not_bulk_insert": "True"
+            },
+            "name": "university_summary",
+            "xls_sheets": [0, "Summaries_Uni_State_Treaty_Tribe.xlsx"],
+            "path": "University_Summary.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "university",
+                        "size": "37",
+                        "type": "char"
+                    },
+                    {
+                        "name": "lg_state",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "city",
+                        "size": "15",
+                        "type": "char"
+                    },
+                    {
+                        "name": "benefit_share",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "endow_shared_with",
+                        "size": "37",
+                        "type": "char"
+                    },
+                    {
+                        "name": "total_acres_exp",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "total_acres_found",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "percent_found",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "no_indig_cessions",
+                        "type": "int"
+                    },
+                    {
+                        "name": "no_loc_states",
+                        "type": "int"
+                    },
+                    {
+                        "name": "adjusted_acreage",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "adjusted_us_paid",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "adjusted_endow_raised_1914",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "adjusted_value_unsold_acres_1914",
+                        "size": "8",
+                        "type": "char"
+                    },
+                    {
+                        "name": "adjusted_total_value_1914",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "pay_raise_multiple",
+                        "size": "11",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://github.com/HCN-Digital-Projects/landgrabu-data/blob/master/Morrill_Act_of_1862_Indigenous_Land_Parcels_Database/Summaries_Uni_State_Treaty_Tribe.xlsx?raw=true"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "Land Grab Universities",
+    "version": "1.0.0"
+}
