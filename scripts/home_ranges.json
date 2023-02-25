@@ -1,5 +1,4 @@
 {
-    "archived": "zip",
     "citation": "Tamburello N, Cote IM, Dulvy NK (2015) Energy and the scaling of animal space use. The American Naturalist 186(2):196-211. http://dx.doi.org/10.1086/682070.",
     "description": "Database of mean species masses and corresponding empirically measured home range sizes for 569 vertebrate species from across the globe, including birds, mammals, reptiles, and fishes.",
     "homepage": "http://datadryad.org/resource/doi:10.5061/dryad.q5j65/1",
@@ -17,7 +16,8 @@
             "dialect": {
                 "missingValues": [
                     "NA", "\\"
-                ]
+                ],
+                "delimiter": ","
             },
             "name": "tamburelloetal_homerangedatabase",
             "path": "Tamburelloetal_HomeRangeDatabase.csv",
@@ -141,7 +141,7 @@
                     }
                 ]
             },
-            "url": "https://datadryad.org/stash/downloads/download_resource/25519"
+            "url": "https://datadryad.org/stash/downloads/file_stream/90415"
         },
         {
             "dialect": {
@@ -190,7 +190,7 @@
                     }
                 ]
             },
-            "url": "https://datadryad.org/stash/downloads/download_resource/25519"
+            "url": "https://datadryad.org/stash/downloads/file_stream/90417"
         },
         {
             "dialect": {
@@ -243,11 +243,11 @@
                     }
                 ]
             },
-            "url": "https://datadryad.org/stash/downloads/download_resource/25519"
+            "url": "https://datadryad.org/stash/downloads/file_stream/90416"
         }
     ],
     "retriever": "True",
     "retriever_minimum_version": "2.0.dev",
     "title": "Database of Vertebrate Home Range Sizes - Tamburello et al., 2015",
-    "version": "1.1.3"
+    "version": "1.1.4"
 }
