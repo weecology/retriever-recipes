@@ -5,7 +5,7 @@ activity_silviculture_timber_stand_improvement.json,1.0.0
 activity_timberharvest.json,1.0.0
 airport_codes.json,1.1.0
 airports.json,1.0.3
-alberta_detailed_soil_survey.json,1.0.0
+alberta_detailed_soil_survey.json,1.0.1
 antarctic_breed_bird.json,1.2.3
 aquatic_animal_excretion.py,1.1.6
 arsenic_contamination_bangladesh.json,1.0.0
