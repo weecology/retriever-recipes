@@ -231,7 +231,7 @@
                     }
                 ]
             },
-            "url": "https://www.agr.gc.ca/atlas/data_donnees/geo/detailedSoilSurvey/csv/aafcBcDetailedSoils_csv.zip"
+            "url": "https://agriculture.canada.ca/atlas/data_donnees/detailedSoilSurvey/data_donnees/csv/aafcBcDetailedSoils_csv.zip"
         },
         {
             "dialect": {
@@ -381,7 +381,7 @@
                     }
                 ]
             },
-            "url": "https://www.agr.gc.ca/atlas/data_donnees/geo/detailedSoilSurvey/csv/aafcBcDetailedSoils_csv.zip"
+            "url": "https://agriculture.canada.ca/atlas/data_donnees/detailedSoilSurvey/data_donnees/csv/aafcBcDetailedSoils_csv.zip"
         },
         {
             "dialect": {
@@ -446,7 +446,7 @@
                     }
                 ]
             },
-            "url": "https://www.agr.gc.ca/atlas/data_donnees/geo/detailedSoilSurvey/csv/aafcBcDetailedSoils_csv.zip"
+            "url": "https://agriculture.canada.ca/atlas/data_donnees/detailedSoilSurvey/data_donnees/csv/aafcBcDetailedSoils_csv.zip"
         },
         {
             "dialect": {
@@ -509,11 +509,11 @@
                     }
                 ]
             },
-            "url": "https://www.agr.gc.ca/atlas/data_donnees/geo/detailedSoilSurvey/csv/aafcBcDetailedSoils_csv.zip"
+            "url": "https://agriculture.canada.ca/atlas/data_donnees/detailedSoilSurvey/data_donnees/csv/aafcBcDetailedSoils_csv.zip"
         }
     ],
     "retriever": "True",
     "retriever_minimum_version": "2.1.0",
     "title": "British Columbia Detailed Soil Survey",
-    "version": "1.0.0"
+    "version": "1.0.1"
 }
