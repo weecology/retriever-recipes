@@ -1,0 +1,114 @@
+{
+    "citation": "N/A",
+    "description": "Violations on Boston buildings or properties issued by inspectors from the Building and Structures Division of the Inspectional Services Department. Note: property_id is equivalent to sam_id",
+    "homepage": "https://data.boston.gov/dataset/building-and-property-violations1",
+    "keywords": [
+        "Analyze Boston"
+    ],
+    "licenses": [
+        {
+            "name": "PDDL"
+        }
+    ],
+    "name": "boston-building-violations",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "violations",
+            "path": "tmphzx7_95u.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "ticket_no",
+                        "size": "12",
+                        "type": "char"
+                    },
+                    {
+                        "name": "status_dttm",
+                        "size": "19",
+                        "type": "char"
+                    },
+                    {
+                        "name": "status",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "code",
+                        "size": "30",
+                        "type": "char"
+                    },
+                    {
+                        "name": "value",
+                        "type": "int"
+                    },
+                    {
+                        "name": "description",
+                        "size": "299",
+                        "type": "char"
+                    },
+                    {
+                        "name": "stno",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "sthigh",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street",
+                        "size": "28",
+                        "type": "char"
+                    },
+                    {
+                        "name": "suffix",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "city",
+                        "size": "13",
+                        "type": "char"
+                    },
+                    {
+                        "name": "state",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "zip",
+                        "type": "int"
+                    },
+                    {
+                        "name": "sam_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "latitude",
+                        "size": "50,30",
+                        "type": "decimal"
+                    },
+                    {
+                        "name": "longitude",
+                        "size": "50,30",
+                        "type": "decimal"
+                    },
+                    {
+                        "name": "location",
+                        "size": "37",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/705244a6-70a6-4ff8-ab8e-56441aff18e7/resource/800a2663-1d6a-46e7-9356-bedb70f5332c/download/tmphzx7_95u.csv"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "Boston building violations",
+    "version": "1.0.0"
+}

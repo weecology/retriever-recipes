@@ -1,0 +1,143 @@
+{
+    "citation": "N/A",
+    "description": "This is a legacy dataset containing active licenses for on premises consumption as of June 2016.",
+    "homepage": "https://data.boston.gov/dataset/liquor-licenses",
+    "keywords": [
+        "Analyze Boston", "alcohol", "hubhacks", "legacy portal", "licensing board", "liquor licenses"
+    ],
+    "licenses": [
+        {
+            "name": "PDDL"
+        }
+    ],
+    "name": "boston-liquor-licenses",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "liquor_licenses",
+            "path": "liquor-licenses.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "licenseno",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "businessname",
+                        "size": "73",
+                        "type": "char"
+                    },
+                    {
+                        "name": "dbaname",
+                        "size": "41",
+                        "type": "char"
+                    },
+                    {
+                        "name": "comments",
+                        "size": "1654",
+                        "type": "char"
+                    },
+                    {
+                        "name": "locationcomments",
+                        "size": "305",
+                        "type": "char"
+                    },
+                    {
+                        "name": "issdttm",
+                        "size": "22",
+                        "type": "char"
+                    },
+                    {
+                        "name": "expdttm",
+                        "size": "22",
+                        "type": "char"
+                    },
+                    {
+                        "name": "licstatus",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "liccat",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "liccatdesc",
+                        "size": "33",
+                        "type": "char"
+                    },
+                    {
+                        "name": "opening",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "closing",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "patronsout",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "capacity",
+                        "type": "int"
+                    },
+                    {
+                        "name": "primapplicant",
+                        "size": "71",
+                        "type": "char"
+                    },
+                    {
+                        "name": "phone",
+                        "size": "15",
+                        "type": "char"
+                    },
+                    {
+                        "name": "stno",
+                        "type": "int"
+                    },
+                    {
+                        "name": "stnohi",
+                        "type": "int"
+                    },
+                    {
+                        "name": "address",
+                        "size": "28",
+                        "type": "char"
+                    },
+                    {
+                        "name": "city",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "state",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "zip",
+                        "type": "int"
+                    },
+                    {
+                        "name": "location",
+                        "size": "23",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/47d501bf-8bfa-4076-944f-da0aedb60c8a/resource/aab353c1-c797-4053-a3fc-e893f5ccf547/download/liquor-licenses.csv"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "Boston liquor licenses",
+    "version": "1.0.0"
+}

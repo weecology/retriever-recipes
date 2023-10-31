@@ -1,0 +1,821 @@
+{
+    "citation": "N/A",
+    "description": "Monthly statistics for most viewed digital records in the City Archives Digital Repository",
+    "homepage": "https://data.boston.gov/dataset/most-viewed-digital-records-in-city-archives-digital-repository",
+    "keywords": [
+        "Analyze Boston", "Digital Records", "Google Analytics", "Page Views", "Statistics", "Website"
+    ],
+    "licenses": [
+        {
+            "name": "PDDL"
+        }
+    ],
+    "name": "boston-digital-records-views",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "digitalrecords_most_viewedrecords_2019_01",
+            "path": "digitalrecords-most-viewedrecords-2019-01.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "page",
+                        "size": "137",
+                        "type": "char"
+                    },
+                    {
+                        "name": "page_title",
+                        "size": "86",
+                        "type": "char"
+                    },
+                    {
+                        "name": "pageviews",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "unique_pageviews",
+                        "type": "int"
+                    },
+                    {
+                        "name": "avg_time_on_page",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "entrances",
+                        "type": "int"
+                    },
+                    {
+                        "name": "bounce_rate",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "percent_exit",
+                        "size": "6",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/510aa56a-0902-45ae-b4fc-a124df1ec4dc/resource/f5b4dae7-1954-42f8-bdea-67b907da16b4/download/digitalrecords-most-viewedrecords-2019-01.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "digitalrecords_mostviewedrecords_2018_01",
+            "path": "digitalrecords-mostviewedrecords-2018-01.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "page",
+                        "size": "85",
+                        "type": "char"
+                    },
+                    {
+                        "name": "page_title",
+                        "size": "123",
+                        "type": "char"
+                    },
+                    {
+                        "name": "pageviews",
+                        "type": "int"
+                    },
+                    {
+                        "name": "unique_pageviews",
+                        "type": "int"
+                    },
+                    {
+                        "name": "avg_time_on_page",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "entrances",
+                        "type": "int"
+                    },
+                    {
+                        "name": "bounce_rate",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "percent_exit",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "page_value",
+                        "size": "5",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/510aa56a-0902-45ae-b4fc-a124df1ec4dc/resource/3da6f418-48e9-4eaf-90f6-2d978e994cfd/download/digitalrecords-mostviewedrecords-2018-01.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "digitalrecords_mostviewedrecords_2018_02",
+            "path": "digitalrecords-mostviewedrecords-2018-02.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "page",
+                        "size": "84",
+                        "type": "char"
+                    },
+                    {
+                        "name": "page_title",
+                        "size": "106",
+                        "type": "char"
+                    },
+                    {
+                        "name": "pageviews",
+                        "type": "int"
+                    },
+                    {
+                        "name": "unique_pageviews",
+                        "type": "int"
+                    },
+                    {
+                        "name": "avg_time_on_page",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "entrances",
+                        "type": "int"
+                    },
+                    {
+                        "name": "bounce_rate",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "percent_exit",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "page_value",
+                        "size": "5",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/510aa56a-0902-45ae-b4fc-a124df1ec4dc/resource/c49dd3b3-a957-4524-a380-3ad33d2762b4/download/digitalrecords-mostviewedrecords-2018-02.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "digitalrecords_mostviewedrecords_2018_03",
+            "path": "digitalrecords-mostviewedrecords-2018-03.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "page",
+                        "size": "119",
+                        "type": "char"
+                    },
+                    {
+                        "name": "page_title",
+                        "size": "116",
+                        "type": "char"
+                    },
+                    {
+                        "name": "pageviews",
+                        "type": "int"
+                    },
+                    {
+                        "name": "unique_pageviews",
+                        "type": "int"
+                    },
+                    {
+                        "name": "avg_time_on_page",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "entrances",
+                        "type": "int"
+                    },
+                    {
+                        "name": "bounce_rate",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "percent_exit",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "page_value",
+                        "size": "5",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/510aa56a-0902-45ae-b4fc-a124df1ec4dc/resource/e8fdc727-14c2-4bb7-8c83-2c9ec01ec3b2/download/digitalrecords-mostviewedrecords-2018-03.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "digitalrecords_mostviewedrecords_2018_04",
+            "path": "digitalrecords-mostviewedrecords-2018-04.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "page",
+                        "size": "125",
+                        "type": "char"
+                    },
+                    {
+                        "name": "page_title",
+                        "size": "94",
+                        "type": "char"
+                    },
+                    {
+                        "name": "pageviews",
+                        "type": "int"
+                    },
+                    {
+                        "name": "unique_pageviews",
+                        "type": "int"
+                    },
+                    {
+                        "name": "avg_time_on_page",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "entrances",
+                        "type": "int"
+                    },
+                    {
+                        "name": "bounce_rate",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "percent_exit",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "page_value",
+                        "size": "5",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/510aa56a-0902-45ae-b4fc-a124df1ec4dc/resource/9b4ef7fd-c955-4a6a-aee6-c8158ef59ffa/download/digitalrecords-mostviewedrecords-2018-04.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "digitalrecords_mostviewedrecords_2018_05",
+            "path": "digitalrecords-mostviewedrecords-2018-05.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "page",
+                        "size": "68",
+                        "type": "char"
+                    },
+                    {
+                        "name": "page_title",
+                        "size": "69",
+                        "type": "char"
+                    },
+                    {
+                        "name": "pageviews",
+                        "type": "int"
+                    },
+                    {
+                        "name": "unique_pageviews",
+                        "type": "int"
+                    },
+                    {
+                        "name": "avg_time_on_page",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "entrances",
+                        "type": "int"
+                    },
+                    {
+                        "name": "bounce_rate",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "percent_exit",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "page_value",
+                        "size": "5",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/510aa56a-0902-45ae-b4fc-a124df1ec4dc/resource/326e40e6-0480-4952-b205-f917125e170b/download/digitalrecords-mostviewedrecords-2018-05.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "digitalrecords_mostviewedrecords_2018_06",
+            "path": "digitalrecords-mostviewedrecords-2018-06.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "page",
+                        "size": "80",
+                        "type": "char"
+                    },
+                    {
+                        "name": "page_title",
+                        "size": "81",
+                        "type": "char"
+                    },
+                    {
+                        "name": "pageviews",
+                        "type": "int"
+                    },
+                    {
+                        "name": "unique_pageviews",
+                        "type": "int"
+                    },
+                    {
+                        "name": "avg_time_on_page",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "entrances",
+                        "type": "int"
+                    },
+                    {
+                        "name": "bounce_rate",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "percent_exit",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "page_value",
+                        "size": "5",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/510aa56a-0902-45ae-b4fc-a124df1ec4dc/resource/5f0d3a48-c49b-4f49-937a-32a97c1ef612/download/digitalrecords-mostviewedrecords-2018-06.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "digitalrecords_mostviewedrecords_2018_07",
+            "path": "digitalrecords-mostviewedrecords-2018-07.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "page",
+                        "size": "68",
+                        "type": "char"
+                    },
+                    {
+                        "name": "page_title",
+                        "size": "81",
+                        "type": "char"
+                    },
+                    {
+                        "name": "pageviews",
+                        "type": "int"
+                    },
+                    {
+                        "name": "unique_pageviews",
+                        "type": "int"
+                    },
+                    {
+                        "name": "avg_time_on_page",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "entrances",
+                        "type": "int"
+                    },
+                    {
+                        "name": "bounce_rate",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "percent_exit",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "page_value",
+                        "size": "5",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/510aa56a-0902-45ae-b4fc-a124df1ec4dc/resource/610aaeb2-ddc9-4bcd-a169-731538ffb12c/download/digitalrecords-mostviewedrecords-2018-07.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "digitalrecords_mostviewedrecords_2018_08",
+            "path": "digitalrecords-mostviewedrecords-2018-08.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "page",
+                        "size": "68",
+                        "type": "char"
+                    },
+                    {
+                        "name": "page_title",
+                        "size": "86",
+                        "type": "char"
+                    },
+                    {
+                        "name": "pageviews",
+                        "type": "int"
+                    },
+                    {
+                        "name": "unique_pageviews",
+                        "type": "int"
+                    },
+                    {
+                        "name": "avg_time_on_page",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "entrances",
+                        "type": "int"
+                    },
+                    {
+                        "name": "bounce_rate",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "percent_exit",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "page_value",
+                        "size": "5",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/510aa56a-0902-45ae-b4fc-a124df1ec4dc/resource/c3f22ea1-8649-46ef-a70a-a4e0d780b132/download/digitalrecords-mostviewedrecords-2018-08.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "digitalrecords_mostviewedrecords_2018_09",
+            "path": "digitalrecords-mostviewedrecords-2018-09.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "page",
+                        "size": "68",
+                        "type": "char"
+                    },
+                    {
+                        "name": "page_title",
+                        "size": "81",
+                        "type": "char"
+                    },
+                    {
+                        "name": "pageviews",
+                        "type": "int"
+                    },
+                    {
+                        "name": "unique_pageviews",
+                        "type": "int"
+                    },
+                    {
+                        "name": "avg_time_on_page",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "entrances",
+                        "type": "int"
+                    },
+                    {
+                        "name": "bounce_rate",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "percent_exit",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "page_value",
+                        "size": "5",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/510aa56a-0902-45ae-b4fc-a124df1ec4dc/resource/38090316-efe6-4a78-85f1-08592b37fa76/download/digitalrecords-mostviewedrecords-2018-09.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "digitalrecords_mostviewedrecords_2018_10",
+            "path": "digitalrecords-mostviewedrecords-2018-10.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "page",
+                        "size": "68",
+                        "type": "char"
+                    },
+                    {
+                        "name": "page_title",
+                        "size": "81",
+                        "type": "char"
+                    },
+                    {
+                        "name": "pageviews",
+                        "type": "int"
+                    },
+                    {
+                        "name": "unique_pageviews",
+                        "type": "int"
+                    },
+                    {
+                        "name": "avg_time_on_page",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "entrances",
+                        "type": "int"
+                    },
+                    {
+                        "name": "bounce_rate",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "percent_exit",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "page_value",
+                        "size": "5",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/510aa56a-0902-45ae-b4fc-a124df1ec4dc/resource/7ed3841e-0217-4c83-bf9f-e7fa09c09fe4/download/digitalrecords-mostviewedrecords-2018-10.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "digitalrecords_mostviewedrecords_2018_11",
+            "path": "digitalrecords-mostviewedrecords-2018-11.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "page",
+                        "size": "68",
+                        "type": "char"
+                    },
+                    {
+                        "name": "page_title",
+                        "size": "81",
+                        "type": "char"
+                    },
+                    {
+                        "name": "pageviews",
+                        "type": "int"
+                    },
+                    {
+                        "name": "unique_pageviews",
+                        "type": "int"
+                    },
+                    {
+                        "name": "avg_time_on_page",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "entrances",
+                        "type": "int"
+                    },
+                    {
+                        "name": "bounce_rate",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "percent_exit",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "page_value",
+                        "size": "5",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/510aa56a-0902-45ae-b4fc-a124df1ec4dc/resource/e0d6bf9d-fa04-49e3-9c04-080aafb65d51/download/digitalrecords-mostviewedrecords-2018-11.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "digitalrecords_mostviewedrecords_2018_12",
+            "path": "digitalrecords-mostviewedrecords-2018-12.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "page",
+                        "size": "119",
+                        "type": "char"
+                    },
+                    {
+                        "name": "page_title",
+                        "size": "80",
+                        "type": "char"
+                    },
+                    {
+                        "name": "pageviews",
+                        "type": "int"
+                    },
+                    {
+                        "name": "unique_pageviews",
+                        "type": "int"
+                    },
+                    {
+                        "name": "avg_time_on_page",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "entrances",
+                        "type": "int"
+                    },
+                    {
+                        "name": "bounce_rate",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "percent_exit",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "page_value",
+                        "size": "5",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/510aa56a-0902-45ae-b4fc-a124df1ec4dc/resource/5ee9182c-b219-4271-9880-ccab391df18b/download/digitalrecords-mostviewedrecords-2018-12.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "digitalrecords_mostviewedrecords_2019_021",
+            "path": "digitalrecords-mostviewedrecords-2019-021.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "page",
+                        "size": "68",
+                        "type": "char"
+                    },
+                    {
+                        "name": "page_title",
+                        "size": "81",
+                        "type": "char"
+                    },
+                    {
+                        "name": "pageviews",
+                        "type": "int"
+                    },
+                    {
+                        "name": "unique_pageviews",
+                        "type": "int"
+                    },
+                    {
+                        "name": "avg_time_on_page",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "entrances",
+                        "type": "int"
+                    },
+                    {
+                        "name": "bounce_rate",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "percent_exit",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "page_value",
+                        "size": "5",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/510aa56a-0902-45ae-b4fc-a124df1ec4dc/resource/db78d1ff-5d47-41c9-bc44-58e35ba81698/download/digitalrecords-mostviewedrecords-2019-021.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "digitalrecords_mostviewedrecords_2019_031",
+            "path": "digitalrecords-mostviewedrecords-2019-031.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "page",
+                        "size": "68",
+                        "type": "char"
+                    },
+                    {
+                        "name": "page_title",
+                        "size": "84",
+                        "type": "char"
+                    },
+                    {
+                        "name": "pageviews",
+                        "type": "int"
+                    },
+                    {
+                        "name": "unique_pageviews",
+                        "type": "int"
+                    },
+                    {
+                        "name": "avg_time_on_page",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "entrances",
+                        "type": "int"
+                    },
+                    {
+                        "name": "bounce_rate",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "percent_exit",
+                        "size": "6",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/510aa56a-0902-45ae-b4fc-a124df1ec4dc/resource/f2042c1d-923a-46a3-9d0b-a610629b8959/download/digitalrecords-mostviewedrecords-2019-031.csv"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "Boston most viewed digital records in city archives digital repository",
+    "version": "1.0.0"
+}

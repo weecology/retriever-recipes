@@ -1,0 +1,111 @@
+{
+    "citation": "N/A",
+    "description": "The dataset provides information on how project managers and specific development projects are meeting the requirements of the policy based on the workers they employ",
+    "homepage": "https://data.boston.gov/dataset/public-works-violations",
+    "keywords": [
+        "Analyze Boston", "jobs", "regular update"
+    ],
+    "licenses": [
+        {
+            "name": "PDDL"
+        }
+    ],
+    "name": "boston-jobs-policy",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "job-policy",
+            "path": "tmpplv97ata.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "agency",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "projectname",
+                        "size": "43",
+                        "type": "char"
+                    },
+                    {
+                        "name": "projectaddress_1",
+                        "size": "40",
+                        "type": "char"
+                    },
+                    {
+                        "name": "projectneigborhood",
+                        "size": "23",
+                        "type": "char"
+                    },
+                    {
+                        "name": "developer",
+                        "size": "50",
+                        "type": "char"
+                    },
+                    {
+                        "name": "generalcontractor",
+                        "size": "43",
+                        "type": "char"
+                    },
+                    {
+                        "name": "subcontractor",
+                        "size": "45",
+                        "type": "char"
+                    },
+                    {
+                        "name": "subcontractoraddress_1",
+                        "size": "40",
+                        "type": "char"
+                    },
+                    {
+                        "name": "subcontractoraddress_2",
+                        "size": "32",
+                        "type": "char"
+                    },
+                    {
+                        "name": "trade",
+                        "size": "21",
+                        "type": "char"
+                    },
+                    {
+                        "name": "dateentered",
+                        "size": "19",
+                        "type": "char"
+                    },
+                    {
+                        "name": "sex",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "minor",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "race_desc",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "resident",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "totalhours",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/7344db71-87f6-4598-8d20-edbcaad4b9b2/resource/5ab4b4de-c970-4619-ab55-ce4338535b24/download/tmpplv97ata.csv"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": " Boston jobs policy compliance reports",
+    "version": "1.0.0"
+}

@@ -1,0 +1,80 @@
+{
+    "citation": "N/A",
+    "description": "This dataset, provided as part of the Vision Zero Boston program, contains records of the date, time, location, and type of crash for incidents requiring public safety response which may involve injuries or fatalities. ",
+    "homepage": "https://data.boston.gov/dataset/vision-zero-crash-records",
+    "keywords": [
+        "Analyze Boston", "monthly update", "accidents", "bikes", "cars", "crashes", "injuries", "pedestrians", "safety", "streets", "traffic", "vision zero"
+    ],
+    "licenses": [
+        {
+            "name": "PDDL"
+        }
+    ],
+    "name": "boston-vision-zero-crashes",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "vision_zero",
+            "path": "tmp3au5ecto.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "dispatch_ts",
+                        "size": "22",
+                        "type": "char"
+                    },
+                    {
+                        "name": "mode_type",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "location_type",
+                        "size": "12",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street",
+                        "size": "35",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xstreet1",
+                        "size": "33",
+                        "type": "char"
+                    },
+                    {
+                        "name": "xstreet2",
+                        "size": "33",
+                        "type": "char"
+                    },
+                    {
+                        "name": "x_cord",
+                        "type": "double"
+                    },
+                    {
+                        "name": "y_cord",
+                        "type": "double"
+                    },
+                    {
+                        "name": "lat",
+                        "size": "50,30",
+                        "type": "decimal"
+                    },
+                    {
+                        "name": "lon",
+                        "size": "50,30",
+                        "type": "decimal"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/7b29c1b2-7ec2-4023-8292-c24f5d8f0905/resource/e4bfe397-6bfc-49c5-9367-c879fac7401d/download/tmp3au5ecto.csv"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "Boston vision zero crashes",
+    "version": "1.0.0"
+}

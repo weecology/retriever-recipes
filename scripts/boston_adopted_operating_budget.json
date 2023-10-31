@@ -1,0 +1,100 @@
+{
+    "citation": "N/A",
+    "description": "Adopted operating budget information for FY14 thru FY19. This dataset contains line item detail of appropriations to each department and program from the City's General Fund. The City's budget is planned and built on the program level for each department.",
+    "homepage": "https://data.boston.gov/dataset/adopted-operating-budget",
+    "keywords": [
+        "Analyze Boston", "Budget"
+    ],
+    "licenses": [
+        {
+            "name": "PDDL"
+        }
+    ],
+    "name": "boston-adopted-operating-budget",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "budget",
+            "path": "historical-open-data-may-2019.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "service_cabinet",
+                        "size": "34",
+                        "type": "char"
+                    },
+                    {
+                        "name": "department",
+                        "size": "40",
+                        "type": "char"
+                    },
+                    {
+                        "name": "program",
+                        "size": "47",
+                        "type": "char"
+                    },
+                    {
+                        "name": "program",
+                        "size": "29",
+                        "type": "char"
+                    },
+                    {
+                        "name": "acct",
+                        "type": "int"
+                    },
+                    {
+                        "name": "expense_type",
+                        "size": "31",
+                        "type": "char"
+                    },
+                    {
+                        "name": "expense_category_account",
+                        "size": "29",
+                        "type": "char"
+                    },
+                    {
+                        "name": "fund",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fy14",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "fy15",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "fy16",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "fy17",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "fy18",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "fy19",
+                        "size": "11",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/3da555c3-079d-441c-8306-d022d614208d/resource/883bdf9c-8e3a-47a9-9f91-11af3ea144a5/download/historical-open-data-may-2019.csv"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "Boston adopted operating budget",
+    "version": "1.0.0"
+}

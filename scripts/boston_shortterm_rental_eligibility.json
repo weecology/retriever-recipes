@@ -1,0 +1,113 @@
+{
+    "citation": "N/A",
+    "description": "Short-Term Rental Eligibility Dataset is designed to incorporate the growth of the home-share industry into the City's work to create affordable housing for all residents.",
+    "homepage": "https://data.boston.gov/dataset/short-term-rental-eligibility",
+    "keywords": [
+        "Analyze Boston", "daily update"
+    ],
+    "licenses": [
+        {
+            "name": ""
+        }
+    ],
+    "name": "boston-shortterm-rental-eligibility",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "shortterm",
+            "path": "tmp1j4yfpao.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sam_address_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "issued_registration",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "sam_address",
+                        "size": "45",
+                        "type": "char"
+                    },
+                    {
+                        "name": "home_share_eligible",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "limited_share_eligible",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "owner_adjacent_eligible",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "owners_current_license_types",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "income_restricted",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "problem_property",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "problem_property_owner",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "open_violation_count",
+                        "type": "int"
+                    },
+                    {
+                        "name": "violations_in_the_last_6_months",
+                        "type": "int"
+                    },
+                    {
+                        "name": "legally_restricted",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "unit_owner_occupied",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "building_owner_occupied",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "units_in_building",
+                        "type": "int"
+                    },
+                    {
+                        "name": "building_single_owner",
+                        "size": "1",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/b6af4d9e-a693-483f-aed1-ba059302efab/resource/83621b97-9a00-4aa7-bf43-28cae04969d4/download/tmp1j4yfpao.csv"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "Boston short term rental eligibility",
+    "version": "1.0.0"
+}

@@ -1,0 +1,56 @@
+{
+    "citation": "N/A",
+    "description": "Boston trash recycling schedules by address",
+    "homepage": "https://data.boston.gov/dataset/trash-schedules-by-address",
+    "keywords": [
+        "Analyze Boston", "legacy portal", "recycling", "sanitation", "trash"
+    ],
+    "licenses": [
+        {
+            "name": "PDDL"
+        }
+    ],
+    "name": "boston-track-schedules-address",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "trash_schedules_by_address",
+            "path": "trash-schedules-by-address.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "address",
+                        "size": "39",
+                        "type": "char"
+                    },
+                    {
+                        "name": "publicworksdistrict",
+                        "type": "int"
+                    },
+                    {
+                        "name": "trash",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "recycling",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "location",
+                        "size": "23",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/e9beda4e-cbf0-4527-b05c-b2349ae4ea14/resource/fee8ee07-b8b5-4ee5-b540-5162590ba5c1/download/trash-schedules-by-address.csv"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "Boston track schedules address",
+    "version": "1.0.0"
+}

@@ -1,0 +1,56 @@
+{
+    "citation": "N/A",
+    "description": "Boston city council roll call votes",
+    "homepage": "https://data.boston.gov/dataset/city-council-roll-call-votes",
+    "keywords": [
+        "Analyze Boston", "monthly update"
+    ],
+    "licenses": [
+        {
+            "name": "PDDL"
+        }
+    ],
+    "name": "boston-city-council-roll-call-votes",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "city_council_roll_call_votes",
+            "path": "city_council_roll_call_votes.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "docket_number",
+                        "type": "int"
+                    },
+                    {
+                        "name": "subject",
+                        "size": "2297",
+                        "type": "char"
+                    },
+                    {
+                        "name": "vote_date",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "councillor",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "vote",
+                        "size": "7",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/85da310a-83b5-4588-a378-95dd4169892c/resource/e41f49ac-5233-487e-976c-3c2d8f6e1c8e/download/city_council_roll_call_votes.csv"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "Boston city council roll call votes",
+    "version": "1.0.0"
+}

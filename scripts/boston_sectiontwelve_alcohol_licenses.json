@@ -1,0 +1,110 @@
+{
+    "citation": "N/A",
+    "description": "This is a legacy dataset showing all establishments licensed to sell alcohol for on premise consumption by the Licensing Board.",
+    "homepage": "https://data.boston.gov/dataset/all-section-12-alcohol-licenses",
+    "keywords": [
+        "Analyze Boston", "alcohol", "legacy portal", "license", "liquor", "permitting"
+    ],
+    "licenses": [
+        {
+            "name": "PDDL"
+        }
+    ],
+    "name": "boston-sectiontwelve-alcohol-licenses",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "alcohol_licenses",
+            "path": "all-section-12-alcohol-licenses.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "license_number",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "historicallicensenum",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "license_category",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "description",
+                        "size": "28",
+                        "type": "char"
+                    },
+                    {
+                        "name": "business_name",
+                        "size": "73",
+                        "type": "char"
+                    },
+                    {
+                        "name": "dba",
+                        "size": "41",
+                        "type": "char"
+                    },
+                    {
+                        "name": "opening",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "closing",
+                        "size": "12",
+                        "type": "char"
+                    },
+                    {
+                        "name": "capacity",
+                        "type": "int"
+                    },
+                    {
+                        "name": "day_phone",
+                        "size": "13",
+                        "type": "char"
+                    },
+                    {
+                        "name": "evening_phone",
+                        "size": "15",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_number",
+                        "size": "12",
+                        "type": "char"
+                    },
+                    {
+                        "name": "street_name",
+                        "size": "28",
+                        "type": "char"
+                    },
+                    {
+                        "name": "suffix",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "city",
+                        "size": "16",
+                        "type": "char"
+                    },
+                    {
+                        "name": "zip",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/df9987bb-3459-4594-9764-c907b53f2abe/resource/9e15f457-1923-4c12-9992-43ba2f0dd5e5/download/all-section-12-alcohol-licenses.csv"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "Boston, Section 12 Alcohol Licenses",
+    "version": "1.0.0"
+}

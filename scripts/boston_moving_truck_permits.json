@@ -1,0 +1,129 @@
+{
+    "citation": "N/A",
+    "description": "This dataset is a daily export of all moving truck permits issued by the city. Both the raw data and the interactive map are updated daily with the latest available data.",
+    "homepage": "https://data.boston.gov/dataset/moving-truck-permits",
+    "keywords": [
+        "Analyze Boston", "moving", "parking", "permits", "daily update"
+    ],
+    "licenses": [
+        {
+            "name": "PDDL"
+        }
+    ],
+    "name": "boston-moving-truck-permits",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "truck_permits",
+            "path": "tmp5qnv4ubk.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "permitnumber",
+                        "size": "12",
+                        "type": "char"
+                    },
+                    {
+                        "name": "worktype",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "permittypedescr",
+                        "size": "23",
+                        "type": "char"
+                    },
+                    {
+                        "name": "description",
+                        "size": "13",
+                        "type": "char"
+                    },
+                    {
+                        "name": "comments",
+                        "size": "209",
+                        "type": "char"
+                    },
+                    {
+                        "name": "applicationmethod",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "applicant_city",
+                        "size": "27",
+                        "type": "char"
+                    },
+                    {
+                        "name": "applicant_state",
+                        "size": "13",
+                        "type": "char"
+                    },
+                    {
+                        "name": "applicant_zip",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "is_contractor",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "total_fees",
+                        "type": "int"
+                    },
+                    {
+                        "name": "issued_date",
+                        "size": "19",
+                        "type": "char"
+                    },
+                    {
+                        "name": "expiration_date",
+                        "size": "19",
+                        "type": "char"
+                    },
+                    {
+                        "name": "status",
+                        "size": "7",
+                        "type": "char"
+                    },
+                    {
+                        "name": "occupancytype",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "city",
+                        "size": "19",
+                        "type": "char"
+                    },
+                    {
+                        "name": "state",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "zip",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "lat",
+                        "type": "double"
+                    },
+                    {
+                        "name": "lon",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/5b83680a-0df4-45b0-94e0-9ab1c420d0d2/resource/fde6709d-62a7-4523-a8eb-76eac2004f4b/download/tmp5qnv4ubk.csv"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "Boston moving truck permits",
+    "version": "1.0.0"
+}

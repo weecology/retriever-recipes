@@ -1,0 +1,3945 @@
+{
+    "citation": "N/A",
+    "description": "Gives property, or parcel, ownership together with value information, which ensures fair assessment of Boston taxable and non-taxable property of all types and classifications. To preserve their integrity, the identifiers PID, CM_ID, GIS_ID, ZIPCODE, and MAIL_ZIPCODE all are marked with an underscore as the last character.",
+    "homepage": "https://data.boston.gov/dataset/property-assessment",
+    "keywords": [
+        "Analyze Boston", "parcel", "property", "property value", "tax"
+    ],
+    "licenses": [
+        {
+            "name": "PDDL"
+        }
+    ],
+    "name": "boston-property-assessment",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "ast2018full",
+            "path": "ast2018full.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "pid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "cm_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gis_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "st_num",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "st_name",
+                        "size": "24",
+                        "type": "char"
+                    },
+                    {
+                        "name": "st_name_suf",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "unit_num",
+                        "size": "13",
+                        "type": "char"
+                    },
+                    {
+                        "name": "zipcode",
+                        "type": "int"
+                    },
+                    {
+                        "name": "ptype",
+                        "type": "int"
+                    },
+                    {
+                        "name": "lu",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "own_occ",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "owner",
+                        "size": "28",
+                        "type": "char"
+                    },
+                    {
+                        "name": "mail_addressee",
+                        "size": "28",
+                        "type": "char"
+                    },
+                    {
+                        "name": "mail_address",
+                        "size": "28",
+                        "type": "char"
+                    },
+                    {
+                        "name": "mail_cs",
+                        "size": "20",
+                        "type": "char"
+                    },
+                    {
+                        "name": "mail_zipcode",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "av_land",
+                        "type": "int"
+                    },
+                    {
+                        "name": "av_bldg",
+                        "type": "int"
+                    },
+                    {
+                        "name": "av_total",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gross_tax",
+                        "type": "int"
+                    },
+                    {
+                        "name": "land_sf",
+                        "type": "int"
+                    },
+                    {
+                        "name": "yr_built",
+                        "type": "int"
+                    },
+                    {
+                        "name": "yr_remod",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gross_area",
+                        "type": "int"
+                    },
+                    {
+                        "name": "living_area",
+                        "type": "int"
+                    },
+                    {
+                        "name": "num_floors",
+                        "type": "double"
+                    },
+                    {
+                        "name": "structure_class",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_bldg_styl",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_roof_typ",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_ext_fin",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_total_rms",
+                        "type": "int"
+                    },
+                    {
+                        "name": "r_bdrms",
+                        "type": "int"
+                    },
+                    {
+                        "name": "r_full_bth",
+                        "type": "int"
+                    },
+                    {
+                        "name": "r_half_bth",
+                        "type": "int"
+                    },
+                    {
+                        "name": "r_bth_style",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_bth_style2",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_bth_style3",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_kitch",
+                        "type": "int"
+                    },
+                    {
+                        "name": "r_kitch_style",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_kitch_style2",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_kitch_style3",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_heat_typ",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_ac",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_fplace",
+                        "type": "int"
+                    },
+                    {
+                        "name": "r_ext_cnd",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_ovrall_cnd",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_int_cnd",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_int_fin",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_view",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "s_num_bldg",
+                        "type": "int"
+                    },
+                    {
+                        "name": "s_bldg_styl",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "s_unit_res",
+                        "type": "int"
+                    },
+                    {
+                        "name": "s_unit_com",
+                        "type": "int"
+                    },
+                    {
+                        "name": "s_unit_rc",
+                        "type": "int"
+                    },
+                    {
+                        "name": "s_ext_fin",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "s_ext_cnd",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u_base_floor",
+                        "type": "int"
+                    },
+                    {
+                        "name": "u_num_park",
+                        "type": "int"
+                    },
+                    {
+                        "name": "u_corner",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u_orient",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u_tot_rms",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u_bdrms",
+                        "type": "int"
+                    },
+                    {
+                        "name": "u_full_bth",
+                        "type": "int"
+                    },
+                    {
+                        "name": "u_half_bth",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u_bth_style",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u_bth_style2",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u_bth_style3",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u_kitch_type",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u_kitch_style",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u_heat_typ",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u_ac",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u_fplace",
+                        "type": "int"
+                    },
+                    {
+                        "name": "u_int_fin",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u_int_cnd",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u_view",
+                        "size": "1",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/e02c44d2-3c64-459c-8fe2-e1ce5f38a035/resource/fd351943-c2c6-4630-992d-3f895360febd/download/ast2018full.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "data2004",
+            "path": "data2004-lite.txt",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "pid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "cm_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "st_num",
+                        "type": "int"
+                    },
+                    {
+                        "name": "st_name",
+                        "size": "25",
+                        "type": "char"
+                    },
+                    {
+                        "name": "st_name_sfx",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "unit_num",
+                        "size": "12",
+                        "type": "char"
+                    },
+                    {
+                        "name": "zipcode",
+                        "type": "int"
+                    },
+                    {
+                        "name": "ptype",
+                        "type": "int"
+                    },
+                    {
+                        "name": "lu",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "own_occ",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "owner_fy04",
+                        "size": "30",
+                        "type": "char"
+                    },
+                    {
+                        "name": "mail_address",
+                        "size": "28",
+                        "type": "char"
+                    },
+                    {
+                        "name": "mail_city_state",
+                        "size": "20",
+                        "type": "char"
+                    },
+                    {
+                        "name": "mail_zip",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "lotsize",
+                        "type": "double"
+                    },
+                    {
+                        "name": "gross_area",
+                        "type": "double"
+                    },
+                    {
+                        "name": "living_area",
+                        "type": "double"
+                    },
+                    {
+                        "name": "fy2004_total",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fy200_land",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fy2004_bldg",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gross_tax",
+                        "type": "double"
+                    },
+                    {
+                        "name": "num_floors",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/e02c44d2-3c64-459c-8fe2-e1ce5f38a035/resource/d3be93ad-7939-4425-8b3b-73b69a747fa4/download/data2004-lite.txt"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "data2005",
+            "path": "data2005-lite.txt",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "pid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "cm_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "st_num",
+                        "size": "31",
+                        "type": "char"
+                    },
+                    {
+                        "name": "st_name",
+                        "size": "15",
+                        "type": "char"
+                    },
+                    {
+                        "name": "st_name_sfx",
+                        "size": "25",
+                        "type": "char"
+                    },
+                    {
+                        "name": "unit_num",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "zipcode",
+                        "size": "12",
+                        "type": "char"
+                    },
+                    {
+                        "name": "ptype",
+                        "type": "int"
+                    },
+                    {
+                        "name": "lu",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "own_occ",
+                        "type": "int"
+                    },
+                    {
+                        "name": "owner_fy04",
+                        "type": "double"
+                    },
+                    {
+                        "name": "mail_address",
+                        "size": "31",
+                        "type": "char"
+                    },
+                    {
+                        "name": "mail_city_state",
+                        "size": "21",
+                        "type": "char"
+                    },
+                    {
+                        "name": "mail_zip",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "lotsize",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "gross_area",
+                        "type": "double"
+                    },
+                    {
+                        "name": "living_area",
+                        "type": "double"
+                    },
+                    {
+                        "name": "fy2004_total",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fy200_land",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fy2004_bldg",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gross_tax",
+                        "type": "double"
+                    },
+                    {
+                        "name": "num_floors",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/e02c44d2-3c64-459c-8fe2-e1ce5f38a035/resource/5bfe4ca0-71c0-4751-bdcf-dad4d58445e0/download/data2005-lite.txt"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "data2006",
+            "path": "data2006lite.txt",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "pid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "cm_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "owner",
+                        "size": "30",
+                        "type": "char"
+                    },
+                    {
+                        "name": "st_num",
+                        "size": "15",
+                        "type": "char"
+                    },
+                    {
+                        "name": "st_name",
+                        "size": "25",
+                        "type": "char"
+                    },
+                    {
+                        "name": "st_sfx",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "unit_num",
+                        "size": "12",
+                        "type": "char"
+                    },
+                    {
+                        "name": "zipcode",
+                        "type": "int"
+                    },
+                    {
+                        "name": "lu",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "ptype",
+                        "type": "int"
+                    },
+                    {
+                        "name": "lotsize",
+                        "type": "int"
+                    },
+                    {
+                        "name": "mail_address",
+                        "size": "31",
+                        "type": "char"
+                    },
+                    {
+                        "name": "mail_cs",
+                        "size": "24",
+                        "type": "char"
+                    },
+                    {
+                        "name": "mail_zip",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "own_occ",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "gross_area",
+                        "type": "int"
+                    },
+                    {
+                        "name": "sfla",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fy2006_total",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fy2006_land",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fy2006_bldg",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gross_tax",
+                        "type": "double"
+                    },
+                    {
+                        "name": "num_floors",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/e02c44d2-3c64-459c-8fe2-e1ce5f38a035/resource/327af2fd-e386-4822-8a7f-aaab6d4d2c62/download/data2006lite.txt"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "data2007",
+            "path": "data2007-lite.txt",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "pid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "cm_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "owner_fy07",
+                        "size": "40",
+                        "type": "char"
+                    },
+                    {
+                        "name": "st_num_char",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "st_name",
+                        "size": "37",
+                        "type": "char"
+                    },
+                    {
+                        "name": "st_name_suf",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "unit_num",
+                        "size": "12",
+                        "type": "char"
+                    },
+                    {
+                        "name": "zipcode",
+                        "type": "int"
+                    },
+                    {
+                        "name": "lu",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "ptype",
+                        "type": "int"
+                    },
+                    {
+                        "name": "lotsize",
+                        "type": "int"
+                    },
+                    {
+                        "name": "mail_address",
+                        "size": "31",
+                        "type": "char"
+                    },
+                    {
+                        "name": "mail_cs",
+                        "size": "30",
+                        "type": "char"
+                    },
+                    {
+                        "name": "mail_zip",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "own_occ",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "gross_area",
+                        "type": "int"
+                    },
+                    {
+                        "name": "bldg_area",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fy2007_total",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fy2007_land",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fy2007_bldg",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gross_tax",
+                        "type": "int"
+                    },
+                    {
+                        "name": "num_floors",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/e02c44d2-3c64-459c-8fe2-e1ce5f38a035/resource/b3862082-216b-4a24-9f31-f47782079c3c/download/data2007-lite.txt"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "fy19fullpropassess",
+            "path": "fy19fullpropassess.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "pid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "cm_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gis_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "st_num",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "st_name",
+                        "size": "24",
+                        "type": "char"
+                    },
+                    {
+                        "name": "st_name_suf",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "unit_num",
+                        "size": "13",
+                        "type": "char"
+                    },
+                    {
+                        "name": "zipcode",
+                        "type": "int"
+                    },
+                    {
+                        "name": "ptype",
+                        "type": "int"
+                    },
+                    {
+                        "name": "lu",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "own_occ",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "owner",
+                        "size": "28",
+                        "type": "char"
+                    },
+                    {
+                        "name": "mail_addressee",
+                        "size": "28",
+                        "type": "char"
+                    },
+                    {
+                        "name": "mail_address",
+                        "size": "28",
+                        "type": "char"
+                    },
+                    {
+                        "name": "mail_cs",
+                        "size": "20",
+                        "type": "char"
+                    },
+                    {
+                        "name": "mail_zipcode",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "av_land",
+                        "type": "int"
+                    },
+                    {
+                        "name": "av_bldg",
+                        "type": "int"
+                    },
+                    {
+                        "name": "av_total",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gross_tax",
+                        "type": "int"
+                    },
+                    {
+                        "name": "land_sf",
+                        "type": "int"
+                    },
+                    {
+                        "name": "yr_built",
+                        "type": "int"
+                    },
+                    {
+                        "name": "yr_remod",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gross_area",
+                        "type": "int"
+                    },
+                    {
+                        "name": "living_area",
+                        "type": "int"
+                    },
+                    {
+                        "name": "num_floors",
+                        "type": "double"
+                    },
+                    {
+                        "name": "structure_class",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_bldg_styl",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_roof_typ",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_ext_fin",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_total_rms",
+                        "type": "int"
+                    },
+                    {
+                        "name": "r_bdrms",
+                        "type": "int"
+                    },
+                    {
+                        "name": "r_full_bth",
+                        "type": "int"
+                    },
+                    {
+                        "name": "r_half_bth",
+                        "type": "int"
+                    },
+                    {
+                        "name": "r_bth_style",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_bth_style2",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_bth_style3",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_kitch",
+                        "type": "int"
+                    },
+                    {
+                        "name": "r_kitch_style",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_kitch_style2",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_kitch_style3",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_heat_typ",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_ac",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_fplace",
+                        "type": "int"
+                    },
+                    {
+                        "name": "r_ext_cnd",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_ovrall_cnd",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_int_cnd",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_int_fin",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_view",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "s_num_bldg",
+                        "type": "int"
+                    },
+                    {
+                        "name": "s_bldg_styl",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "s_unit_res",
+                        "type": "int"
+                    },
+                    {
+                        "name": "s_unit_com",
+                        "type": "int"
+                    },
+                    {
+                        "name": "s_unit_rc",
+                        "type": "int"
+                    },
+                    {
+                        "name": "s_ext_fin",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "s_ext_cnd",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u_base_floor",
+                        "type": "int"
+                    },
+                    {
+                        "name": "u_num_park",
+                        "type": "int"
+                    },
+                    {
+                        "name": "u_corner",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u_orient",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u_tot_rms",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u_bdrms",
+                        "type": "int"
+                    },
+                    {
+                        "name": "u_full_bth",
+                        "type": "int"
+                    },
+                    {
+                        "name": "u_half_bth",
+                        "type": "int"
+                    },
+                    {
+                        "name": "u_bth_style",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u_bth_style2",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u_bth_style3",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u_kitch_type",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u_kitch_style",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u_heat_typ",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u_ac",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u_fplace",
+                        "type": "int"
+                    },
+                    {
+                        "name": "u_int_fin",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u_int_cnd",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u_view",
+                        "size": "1",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/e02c44d2-3c64-459c-8fe2-e1ce5f38a035/resource/695a8596-5458-442b-a017-7cd72471aade/download/fy19fullpropassess.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "property_assessment_fy08",
+            "path": "property-assessment-fy08.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "pid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "cm_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "st_num",
+                        "size": "15",
+                        "type": "char"
+                    },
+                    {
+                        "name": "st_name",
+                        "size": "37",
+                        "type": "char"
+                    },
+                    {
+                        "name": "st_name_suf",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "unit_num",
+                        "size": "12",
+                        "type": "char"
+                    },
+                    {
+                        "name": "zipcode",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "ptype",
+                        "type": "int"
+                    },
+                    {
+                        "name": "lu",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "own_occ",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "owner",
+                        "size": "40",
+                        "type": "char"
+                    },
+                    {
+                        "name": "mail_address",
+                        "size": "31",
+                        "type": "char"
+                    },
+                    {
+                        "name": "mail_cs",
+                        "size": "35",
+                        "type": "char"
+                    },
+                    {
+                        "name": "mail_zipcode",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "fy2008_land",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fy2008_bldg",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fy2008_total",
+                        "type": "int"
+                    },
+                    {
+                        "name": "fy2008_gross_tax",
+                        "type": "int"
+                    },
+                    {
+                        "name": "land_sf",
+                        "type": "int"
+                    },
+                    {
+                        "name": "yr_built",
+                        "type": "int"
+                    },
+                    {
+                        "name": "yr_remod",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gross_area",
+                        "type": "int"
+                    },
+                    {
+                        "name": "living_area",
+                        "type": "int"
+                    },
+                    {
+                        "name": "num_floors",
+                        "type": "double"
+                    },
+                    {
+                        "name": "struct_cls",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_bldg_styl",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_roof_typ",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_ext_fin",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_total_rms",
+                        "type": "int"
+                    },
+                    {
+                        "name": "r_bdrms",
+                        "type": "int"
+                    },
+                    {
+                        "name": "r_full_bth",
+                        "type": "int"
+                    },
+                    {
+                        "name": "r_half_bth",
+                        "type": "int"
+                    },
+                    {
+                        "name": "r_kitch",
+                        "type": "int"
+                    },
+                    {
+                        "name": "r_heat_typ",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_ac",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_fplace",
+                        "type": "int"
+                    },
+                    {
+                        "name": "s_num_bldg",
+                        "type": "int"
+                    },
+                    {
+                        "name": "s_bldg_styl",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "s_unit_res",
+                        "type": "int"
+                    },
+                    {
+                        "name": "s_unit_com",
+                        "type": "int"
+                    },
+                    {
+                        "name": "s_unit_rc",
+                        "type": "int"
+                    },
+                    {
+                        "name": "s_ext_fin",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u_base_floor",
+                        "type": "int"
+                    },
+                    {
+                        "name": "u_num_park",
+                        "type": "int"
+                    },
+                    {
+                        "name": "u_corner",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u_orient",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u_tot_rms",
+                        "type": "int"
+                    },
+                    {
+                        "name": "u_bdrms",
+                        "type": "int"
+                    },
+                    {
+                        "name": "u_full_bth",
+                        "type": "int"
+                    },
+                    {
+                        "name": "u_half_bth",
+                        "type": "int"
+                    },
+                    {
+                        "name": "u_kit_type",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u_heat_typ",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u_ac",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u_fplace",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/e02c44d2-3c64-459c-8fe2-e1ce5f38a035/resource/81f34da8-ec6d-45f6-8d6c-65c57e71023e/download/property-assessment-fy08.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "property_assessment_fy09",
+            "path": "property-assessment-fy09.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "pid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "cm_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "st_num",
+                        "size": "15",
+                        "type": "char"
+                    },
+                    {
+                        "name": "st_name",
+                        "size": "24",
+                        "type": "char"
+                    },
+                    {
+                        "name": "st_name_suf",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "unit_num",
+                        "size": "13",
+                        "type": "char"
+                    },
+                    {
+                        "name": "zipcode",
+                        "type": "int"
+                    },
+                    {
+                        "name": "ptype",
+                        "type": "int"
+                    },
+                    {
+                        "name": "lu",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "own_occ",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "owner",
+                        "size": "28",
+                        "type": "char"
+                    },
+                    {
+                        "name": "mail_address",
+                        "size": "28",
+                        "type": "char"
+                    },
+                    {
+                        "name": "mail_cs",
+                        "size": "20",
+                        "type": "char"
+                    },
+                    {
+                        "name": "mail_zipcode",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "av_land",
+                        "type": "int"
+                    },
+                    {
+                        "name": "av_bldg",
+                        "type": "int"
+                    },
+                    {
+                        "name": "av_total",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gross_tax",
+                        "type": "int"
+                    },
+                    {
+                        "name": "land_sf",
+                        "type": "int"
+                    },
+                    {
+                        "name": "yr_built",
+                        "type": "int"
+                    },
+                    {
+                        "name": "yr_remod",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gross_area",
+                        "type": "int"
+                    },
+                    {
+                        "name": "living_area",
+                        "type": "int"
+                    },
+                    {
+                        "name": "num_floors",
+                        "type": "double"
+                    },
+                    {
+                        "name": "struct_cls",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_bldg_styl",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_roof_typ",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_ext_fin",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_total_rms",
+                        "type": "int"
+                    },
+                    {
+                        "name": "r_bdrms",
+                        "type": "int"
+                    },
+                    {
+                        "name": "r_full_bth",
+                        "type": "int"
+                    },
+                    {
+                        "name": "r_half_bth",
+                        "type": "int"
+                    },
+                    {
+                        "name": "r_kitch",
+                        "type": "int"
+                    },
+                    {
+                        "name": "r_heat_typ",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_ac",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_fplace",
+                        "type": "double"
+                    },
+                    {
+                        "name": "s_num_bldg",
+                        "type": "int"
+                    },
+                    {
+                        "name": "s_bldg_styl",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "s_unit_res",
+                        "type": "int"
+                    },
+                    {
+                        "name": "s_unit_com",
+                        "type": "int"
+                    },
+                    {
+                        "name": "s_unit_rc",
+                        "type": "int"
+                    },
+                    {
+                        "name": "s_ext_fin",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u_base_floor",
+                        "type": "int"
+                    },
+                    {
+                        "name": "u_num_park",
+                        "type": "int"
+                    },
+                    {
+                        "name": "u_corner",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u_orient",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u_tot_rms",
+                        "type": "int"
+                    },
+                    {
+                        "name": "u_bdrms",
+                        "type": "int"
+                    },
+                    {
+                        "name": "u_full_bth",
+                        "type": "int"
+                    },
+                    {
+                        "name": "u_half_bth",
+                        "type": "int"
+                    },
+                    {
+                        "name": "u_kit_type",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u_heat_typ",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u_ac",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u_fplace",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/e02c44d2-3c64-459c-8fe2-e1ce5f38a035/resource/1a374bd0-1ff9-4d1a-8727-ddfc201254fe/download/property-assessment-fy09.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "property_assessment_fy10",
+            "path": "property-assessment-fy10.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "pid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "cm_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "st_num",
+                        "size": "15",
+                        "type": "char"
+                    },
+                    {
+                        "name": "st_name",
+                        "size": "24",
+                        "type": "char"
+                    },
+                    {
+                        "name": "st_name_suf",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "unit_num",
+                        "size": "13",
+                        "type": "char"
+                    },
+                    {
+                        "name": "zipcode",
+                        "type": "int"
+                    },
+                    {
+                        "name": "ptype",
+                        "type": "int"
+                    },
+                    {
+                        "name": "lu",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "own_occ",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "owner",
+                        "size": "28",
+                        "type": "char"
+                    },
+                    {
+                        "name": "mail_address",
+                        "size": "28",
+                        "type": "char"
+                    },
+                    {
+                        "name": "mail_cs",
+                        "size": "20",
+                        "type": "char"
+                    },
+                    {
+                        "name": "mail_zipcode",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "av_land",
+                        "type": "int"
+                    },
+                    {
+                        "name": "av_bldg",
+                        "type": "int"
+                    },
+                    {
+                        "name": "av_total",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gross_tax",
+                        "type": "int"
+                    },
+                    {
+                        "name": "land_sf",
+                        "type": "int"
+                    },
+                    {
+                        "name": "yr_built",
+                        "type": "int"
+                    },
+                    {
+                        "name": "yr_remod",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gross_area",
+                        "type": "int"
+                    },
+                    {
+                        "name": "living_area",
+                        "type": "int"
+                    },
+                    {
+                        "name": "num_floors",
+                        "type": "double"
+                    },
+                    {
+                        "name": "struct_cls",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_bldg_styl",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_roof_typ",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_ext_fin",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_total_rms",
+                        "type": "int"
+                    },
+                    {
+                        "name": "r_bdrms",
+                        "type": "int"
+                    },
+                    {
+                        "name": "r_full_bth",
+                        "type": "int"
+                    },
+                    {
+                        "name": "r_half_bth",
+                        "type": "int"
+                    },
+                    {
+                        "name": "r_kitch",
+                        "type": "int"
+                    },
+                    {
+                        "name": "r_heat_typ",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_ac",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_fplace",
+                        "type": "int"
+                    },
+                    {
+                        "name": "s_num_bldg",
+                        "type": "int"
+                    },
+                    {
+                        "name": "s_bldg_styl",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "s_unit_res",
+                        "type": "int"
+                    },
+                    {
+                        "name": "s_unit_com",
+                        "type": "int"
+                    },
+                    {
+                        "name": "s_unit_rc",
+                        "type": "int"
+                    },
+                    {
+                        "name": "s_ext_fin",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u_base_floor",
+                        "type": "int"
+                    },
+                    {
+                        "name": "u_num_park",
+                        "type": "int"
+                    },
+                    {
+                        "name": "u_corner",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u_orient",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u_tot_rms",
+                        "type": "int"
+                    },
+                    {
+                        "name": "u_bdrms",
+                        "type": "int"
+                    },
+                    {
+                        "name": "u_full_bth",
+                        "type": "int"
+                    },
+                    {
+                        "name": "u_half_bth",
+                        "type": "int"
+                    },
+                    {
+                        "name": "u_kit_type",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u_heat_typ",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u_ac",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u_fplace",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/e02c44d2-3c64-459c-8fe2-e1ce5f38a035/resource/738ece37-5ae0-4f04-bf69-eca3ae1940b2/download/property-assessment-fy10.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "property_assessment_fy11",
+            "path": "property-assessment-fy11.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "pid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "cm_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "st_num",
+                        "size": "15",
+                        "type": "char"
+                    },
+                    {
+                        "name": "st_name",
+                        "size": "24",
+                        "type": "char"
+                    },
+                    {
+                        "name": "st_name_suf",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "unit_num",
+                        "size": "13",
+                        "type": "char"
+                    },
+                    {
+                        "name": "zipcode",
+                        "type": "int"
+                    },
+                    {
+                        "name": "ptype",
+                        "type": "int"
+                    },
+                    {
+                        "name": "lu",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "own_occ",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "owner",
+                        "size": "28",
+                        "type": "char"
+                    },
+                    {
+                        "name": "mail_address",
+                        "size": "28",
+                        "type": "char"
+                    },
+                    {
+                        "name": "mail_cs",
+                        "size": "20",
+                        "type": "char"
+                    },
+                    {
+                        "name": "mail_zipcode",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "av_land",
+                        "type": "int"
+                    },
+                    {
+                        "name": "av_bldg",
+                        "type": "int"
+                    },
+                    {
+                        "name": "av_total",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gross_tax",
+                        "type": "int"
+                    },
+                    {
+                        "name": "land_sf",
+                        "type": "int"
+                    },
+                    {
+                        "name": "yr_built",
+                        "type": "int"
+                    },
+                    {
+                        "name": "yr_remod",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gross_area",
+                        "type": "int"
+                    },
+                    {
+                        "name": "living_area",
+                        "type": "int"
+                    },
+                    {
+                        "name": "num_floors",
+                        "type": "double"
+                    },
+                    {
+                        "name": "struct_cls",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_bldg_styl",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_roof_typ",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_ext_fin",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_total_rms",
+                        "type": "int"
+                    },
+                    {
+                        "name": "r_bdrms",
+                        "type": "int"
+                    },
+                    {
+                        "name": "r_full_bth",
+                        "type": "int"
+                    },
+                    {
+                        "name": "r_half_bth",
+                        "type": "int"
+                    },
+                    {
+                        "name": "r_kitch",
+                        "type": "int"
+                    },
+                    {
+                        "name": "r_heat_typ",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_ac",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_fplace",
+                        "type": "int"
+                    },
+                    {
+                        "name": "s_num_bldg",
+                        "type": "int"
+                    },
+                    {
+                        "name": "s_bldg_styl",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "s_unit_res",
+                        "type": "int"
+                    },
+                    {
+                        "name": "s_unit_com",
+                        "type": "int"
+                    },
+                    {
+                        "name": "s_unit_rc",
+                        "type": "int"
+                    },
+                    {
+                        "name": "s_ext_fin",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u_base_floor",
+                        "type": "int"
+                    },
+                    {
+                        "name": "u_num_park",
+                        "type": "int"
+                    },
+                    {
+                        "name": "u_corner",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u_orient",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u_tot_rms",
+                        "type": "int"
+                    },
+                    {
+                        "name": "u_bdrms",
+                        "type": "int"
+                    },
+                    {
+                        "name": "u_full_bth",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u_half_bth",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u_kit_type",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u_heat_typ",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u_ac",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u_fplace",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/e02c44d2-3c64-459c-8fe2-e1ce5f38a035/resource/110e8ded-d7cd-40d2-a72c-e4f3c7e9c541/download/property-assessment-fy11.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "property_assessment_fy12",
+            "path": "property-assessment-fy12.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "pid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "cm_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "st_num",
+                        "size": "15",
+                        "type": "char"
+                    },
+                    {
+                        "name": "st_name",
+                        "size": "24",
+                        "type": "char"
+                    },
+                    {
+                        "name": "st_name_suf",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "unit_num",
+                        "size": "13",
+                        "type": "char"
+                    },
+                    {
+                        "name": "zipcode",
+                        "type": "int"
+                    },
+                    {
+                        "name": "ptype",
+                        "type": "int"
+                    },
+                    {
+                        "name": "lu",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "own_occ",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "owner",
+                        "size": "28",
+                        "type": "char"
+                    },
+                    {
+                        "name": "mail_address",
+                        "size": "28",
+                        "type": "char"
+                    },
+                    {
+                        "name": "mail_cs",
+                        "size": "20",
+                        "type": "char"
+                    },
+                    {
+                        "name": "mail_zipcode",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "av_land",
+                        "type": "int"
+                    },
+                    {
+                        "name": "av_bldg",
+                        "type": "int"
+                    },
+                    {
+                        "name": "av_total",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gross_tax",
+                        "type": "int"
+                    },
+                    {
+                        "name": "land_sf",
+                        "type": "int"
+                    },
+                    {
+                        "name": "yr_built",
+                        "type": "int"
+                    },
+                    {
+                        "name": "yr_remod",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gross_area",
+                        "type": "int"
+                    },
+                    {
+                        "name": "living_area",
+                        "type": "int"
+                    },
+                    {
+                        "name": "num_floors",
+                        "type": "double"
+                    },
+                    {
+                        "name": "structure_class",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_bldg_styl",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_roof_typ",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_ext_fin",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_total_rms",
+                        "type": "int"
+                    },
+                    {
+                        "name": "r_bdrms",
+                        "type": "int"
+                    },
+                    {
+                        "name": "r_full_bth",
+                        "type": "int"
+                    },
+                    {
+                        "name": "r_half_bth",
+                        "type": "int"
+                    },
+                    {
+                        "name": "r_kitch",
+                        "type": "int"
+                    },
+                    {
+                        "name": "r_heat_typ",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_ac",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_fplace",
+                        "type": "int"
+                    },
+                    {
+                        "name": "s_num_bldg",
+                        "type": "int"
+                    },
+                    {
+                        "name": "s_bldg_styl",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "s_unit_res",
+                        "type": "int"
+                    },
+                    {
+                        "name": "s_unit_com",
+                        "type": "int"
+                    },
+                    {
+                        "name": "s_unit_rc",
+                        "type": "int"
+                    },
+                    {
+                        "name": "s_ext_fin",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u_base_floor",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u_num_park",
+                        "type": "int"
+                    },
+                    {
+                        "name": "u_corner",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u_orient",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u_tot_rms",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u_bdrms",
+                        "type": "int"
+                    },
+                    {
+                        "name": "u_full_bth",
+                        "type": "int"
+                    },
+                    {
+                        "name": "u_half_bth",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u_kit_type",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u_heat_typ",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u_ac",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u_fplace",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/e02c44d2-3c64-459c-8fe2-e1ce5f38a035/resource/4326ca95-09ec-42e0-8cee-f048e00e6728/download/property-assessment-fy12.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "property_assessment_fy13",
+            "path": "property-assessment-fy13.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "pid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "cm_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "st_num",
+                        "size": "15",
+                        "type": "char"
+                    },
+                    {
+                        "name": "st_name",
+                        "size": "24",
+                        "type": "char"
+                    },
+                    {
+                        "name": "st_name_suf",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "unit_num",
+                        "size": "13",
+                        "type": "char"
+                    },
+                    {
+                        "name": "zipcode",
+                        "type": "int"
+                    },
+                    {
+                        "name": "ptype",
+                        "type": "int"
+                    },
+                    {
+                        "name": "lu",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "own_occ",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "owner",
+                        "size": "28",
+                        "type": "char"
+                    },
+                    {
+                        "name": "mail_address",
+                        "size": "28",
+                        "type": "char"
+                    },
+                    {
+                        "name": "mail_cs",
+                        "size": "20",
+                        "type": "char"
+                    },
+                    {
+                        "name": "mail_zipcode",
+                        "size": "5",
+                        "type": "char"
+                    },
+                    {
+                        "name": "av_land",
+                        "type": "int"
+                    },
+                    {
+                        "name": "av_bldg",
+                        "type": "int"
+                    },
+                    {
+                        "name": "av_total",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gross_tax",
+                        "type": "int"
+                    },
+                    {
+                        "name": "land_sf",
+                        "type": "int"
+                    },
+                    {
+                        "name": "yr_built",
+                        "type": "int"
+                    },
+                    {
+                        "name": "yr_remod",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gross_area",
+                        "type": "int"
+                    },
+                    {
+                        "name": "living_area",
+                        "type": "int"
+                    },
+                    {
+                        "name": "num_floors",
+                        "type": "double"
+                    },
+                    {
+                        "name": "structure_class",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_bldg_styl",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_roof_typ",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_ext_fin",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_total_rms",
+                        "type": "int"
+                    },
+                    {
+                        "name": "r_bdrms",
+                        "type": "int"
+                    },
+                    {
+                        "name": "r_full_bth",
+                        "type": "int"
+                    },
+                    {
+                        "name": "r_half_bth",
+                        "type": "int"
+                    },
+                    {
+                        "name": "r_kitch",
+                        "type": "int"
+                    },
+                    {
+                        "name": "r_heat_typ",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_ac",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_fplace",
+                        "type": "int"
+                    },
+                    {
+                        "name": "s_num_bldg",
+                        "type": "int"
+                    },
+                    {
+                        "name": "s_bldg_styl",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "s_unit_res",
+                        "type": "int"
+                    },
+                    {
+                        "name": "s_unit_com",
+                        "type": "int"
+                    },
+                    {
+                        "name": "s_unit_rc",
+                        "type": "int"
+                    },
+                    {
+                        "name": "s_ext_fin",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u_base_floor",
+                        "type": "int"
+                    },
+                    {
+                        "name": "u_num_park",
+                        "type": "int"
+                    },
+                    {
+                        "name": "u_corner",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u_orient",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u_tot_rms",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u_bdrms",
+                        "type": "int"
+                    },
+                    {
+                        "name": "u_full_bth",
+                        "type": "int"
+                    },
+                    {
+                        "name": "u_half_bth",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u_kit_type",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u_heat_typ",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u_ac",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u_fplace",
+                        "type": "int"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/e02c44d2-3c64-459c-8fe2-e1ce5f38a035/resource/425fd527-e26b-49c9-853c-1c4d3d2bdd97/download/property-assessment-fy13.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "property_assessment_fy2014",
+            "path": "property-assessment-fy2014.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "parcel_id",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "cm_id",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "st_num",
+                        "size": "15",
+                        "type": "char"
+                    },
+                    {
+                        "name": "st_name",
+                        "size": "24",
+                        "type": "char"
+                    },
+                    {
+                        "name": "st_name_suf",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "unit_num",
+                        "size": "13",
+                        "type": "char"
+                    },
+                    {
+                        "name": "zipcode",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "full_address",
+                        "size": "41",
+                        "type": "char"
+                    },
+                    {
+                        "name": "ptype",
+                        "type": "int"
+                    },
+                    {
+                        "name": "lu",
+                        "size": "21",
+                        "type": "char"
+                    },
+                    {
+                        "name": "own_occ",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "owner",
+                        "size": "28",
+                        "type": "char"
+                    },
+                    {
+                        "name": "owner_mail_address",
+                        "size": "28",
+                        "type": "char"
+                    },
+                    {
+                        "name": "owner_mail_cs",
+                        "size": "28",
+                        "type": "char"
+                    },
+                    {
+                        "name": "owner_mail_zipcode",
+                        "size": "24",
+                        "type": "char"
+                    },
+                    {
+                        "name": "av_land",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "av_bldg",
+                        "type": "int"
+                    },
+                    {
+                        "name": "av_total",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gross_tax",
+                        "type": "int"
+                    },
+                    {
+                        "name": "land_sf",
+                        "type": "int"
+                    },
+                    {
+                        "name": "yr_built",
+                        "type": "int"
+                    },
+                    {
+                        "name": "yr_remod",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gross_area",
+                        "type": "int"
+                    },
+                    {
+                        "name": "living_area",
+                        "type": "int"
+                    },
+                    {
+                        "name": "num_floors",
+                        "type": "double"
+                    },
+                    {
+                        "name": "structure_class",
+                        "size": "4",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_bldg_styl",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_roof_typ",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_ext_fin",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_total_rms",
+                        "type": "int"
+                    },
+                    {
+                        "name": "r_bdrms",
+                        "type": "int"
+                    },
+                    {
+                        "name": "r_full_bth",
+                        "type": "int"
+                    },
+                    {
+                        "name": "r_half_bth",
+                        "type": "int"
+                    },
+                    {
+                        "name": "r_kitch",
+                        "type": "int"
+                    },
+                    {
+                        "name": "r_heat_typ",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_ac",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_fplace",
+                        "type": "int"
+                    },
+                    {
+                        "name": "s_num_bldg",
+                        "type": "int"
+                    },
+                    {
+                        "name": "s_bldg_styl",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "s_unit_res",
+                        "type": "int"
+                    },
+                    {
+                        "name": "s_unit_com",
+                        "type": "int"
+                    },
+                    {
+                        "name": "s_unit_rc",
+                        "type": "int"
+                    },
+                    {
+                        "name": "s_ext_fin",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u_base_floor",
+                        "type": "int"
+                    },
+                    {
+                        "name": "u_corner",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u_orient",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u_tot_rms",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u_bdrms",
+                        "type": "int"
+                    },
+                    {
+                        "name": "u_full_bth",
+                        "type": "int"
+                    },
+                    {
+                        "name": "u_half_bth",
+                        "type": "int"
+                    },
+                    {
+                        "name": "u_kit_type",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u_heat_typ",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u_ac",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u_fplace",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "location",
+                        "size": "29",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/e02c44d2-3c64-459c-8fe2-e1ce5f38a035/resource/7190b0a4-30c4-44c5-911d-c34f60b22181/download/property-assessment-fy2014.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "property_assessment_fy2015",
+            "path": "property-assessment-fy2015.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "pid",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "cm_id",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "st_num",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "st_name",
+                        "size": "24",
+                        "type": "char"
+                    },
+                    {
+                        "name": "st_name_suf",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "unit_num",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "zipcode",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "full_address",
+                        "size": "48",
+                        "type": "char"
+                    },
+                    {
+                        "name": "ptype",
+                        "type": "int"
+                    },
+                    {
+                        "name": "lu",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "own_occ",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "owner",
+                        "size": "28",
+                        "type": "char"
+                    },
+                    {
+                        "name": "owner_mail_address",
+                        "size": "28",
+                        "type": "char"
+                    },
+                    {
+                        "name": "owner_mail_cs",
+                        "size": "20",
+                        "type": "char"
+                    },
+                    {
+                        "name": "owner_mail_zipcode",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "av_land",
+                        "type": "int"
+                    },
+                    {
+                        "name": "av_bldg",
+                        "type": "int"
+                    },
+                    {
+                        "name": "av_total",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gross_tax",
+                        "type": "int"
+                    },
+                    {
+                        "name": "land_sf",
+                        "type": "int"
+                    },
+                    {
+                        "name": "yr_built",
+                        "type": "int"
+                    },
+                    {
+                        "name": "yr_remod",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gross_area",
+                        "type": "int"
+                    },
+                    {
+                        "name": "living_area",
+                        "type": "int"
+                    },
+                    {
+                        "name": "num_floors",
+                        "type": "double"
+                    },
+                    {
+                        "name": "structure_class",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_bldg_styl",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_roof_typ",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_ext_fin",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_total_rms",
+                        "type": "int"
+                    },
+                    {
+                        "name": "r_bdrms",
+                        "type": "int"
+                    },
+                    {
+                        "name": "r_full_bth",
+                        "type": "int"
+                    },
+                    {
+                        "name": "r_half_bth",
+                        "type": "int"
+                    },
+                    {
+                        "name": "r_kitch",
+                        "type": "int"
+                    },
+                    {
+                        "name": "r_heat_typ",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_ac",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_fplace",
+                        "type": "int"
+                    },
+                    {
+                        "name": "s_num_bldg",
+                        "type": "int"
+                    },
+                    {
+                        "name": "s_bldg_styl",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "s_unit_res",
+                        "type": "int"
+                    },
+                    {
+                        "name": "s_unit_com",
+                        "type": "int"
+                    },
+                    {
+                        "name": "s_unit_rc",
+                        "type": "int"
+                    },
+                    {
+                        "name": "s_ext_fin",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u_base_floor",
+                        "type": "int"
+                    },
+                    {
+                        "name": "u_num_park",
+                        "type": "int"
+                    },
+                    {
+                        "name": "u_corner",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u_orient",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u_tot_rms",
+                        "type": "int"
+                    },
+                    {
+                        "name": "u_bdrms",
+                        "type": "int"
+                    },
+                    {
+                        "name": "u_full_bth",
+                        "type": "int"
+                    },
+                    {
+                        "name": "u_half_bth",
+                        "type": "int"
+                    },
+                    {
+                        "name": "u_kit_type",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u_heat_typ",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u_ac",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u_fplace",
+                        "type": "int"
+                    },
+                    {
+                        "name": "location",
+                        "size": "29",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/e02c44d2-3c64-459c-8fe2-e1ce5f38a035/resource/bdb17c2b-e9ab-44e4-a070-bf804a0e1a7f/download/property-assessment-fy2015.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "property_assessment_fy2016",
+            "path": "property-assessment-fy2016.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "pid",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "cm_id",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "gis_id",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "st_num",
+                        "size": "12",
+                        "type": "char"
+                    },
+                    {
+                        "name": "st_name",
+                        "size": "24",
+                        "type": "char"
+                    },
+                    {
+                        "name": "st_name_suf",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "unit_num",
+                        "size": "13",
+                        "type": "char"
+                    },
+                    {
+                        "name": "zipcode",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "ptype",
+                        "type": "int"
+                    },
+                    {
+                        "name": "lu",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "own_occ",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "owner",
+                        "size": "28",
+                        "type": "char"
+                    },
+                    {
+                        "name": "mail_addressee",
+                        "size": "28",
+                        "type": "char"
+                    },
+                    {
+                        "name": "mail_address",
+                        "size": "28",
+                        "type": "char"
+                    },
+                    {
+                        "name": "mail_cs",
+                        "size": "20",
+                        "type": "char"
+                    },
+                    {
+                        "name": "mail_zipcode",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "av_land",
+                        "type": "int"
+                    },
+                    {
+                        "name": "av_bldg",
+                        "type": "int"
+                    },
+                    {
+                        "name": "av_total",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gross_tax",
+                        "type": "int"
+                    },
+                    {
+                        "name": "land_sf",
+                        "type": "int"
+                    },
+                    {
+                        "name": "yr_built",
+                        "type": "int"
+                    },
+                    {
+                        "name": "yr_remod",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gross_area",
+                        "type": "int"
+                    },
+                    {
+                        "name": "living_area",
+                        "type": "int"
+                    },
+                    {
+                        "name": "num_floors",
+                        "type": "double"
+                    },
+                    {
+                        "name": "structure_class",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_bldg_styl",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_roof_typ",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_ext_fin",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_total_rms",
+                        "type": "int"
+                    },
+                    {
+                        "name": "r_bdrms",
+                        "type": "int"
+                    },
+                    {
+                        "name": "r_full_bth",
+                        "type": "int"
+                    },
+                    {
+                        "name": "r_half_bth",
+                        "type": "int"
+                    },
+                    {
+                        "name": "r_bth_style",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_bth_style2",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_bth_style3",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_kitch",
+                        "type": "int"
+                    },
+                    {
+                        "name": "r_kitch_style",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_kitch_style2",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_kitch_style3",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_heat_typ",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_ac",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_fplace",
+                        "type": "int"
+                    },
+                    {
+                        "name": "r_ext_cnd",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_ovrall_cnd",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_int_cnd",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_int_fin",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_view",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "s_num_bldg",
+                        "type": "int"
+                    },
+                    {
+                        "name": "s_bldg_styl",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "s_unit_res",
+                        "type": "int"
+                    },
+                    {
+                        "name": "s_unit_com",
+                        "type": "int"
+                    },
+                    {
+                        "name": "s_unit_rc",
+                        "type": "int"
+                    },
+                    {
+                        "name": "s_ext_fin",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "s_ext_cnd",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u_base_floor",
+                        "type": "int"
+                    },
+                    {
+                        "name": "u_num_park",
+                        "type": "int"
+                    },
+                    {
+                        "name": "u_corner",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u_orient",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u_tot_rms",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u_bdrms",
+                        "type": "int"
+                    },
+                    {
+                        "name": "u_full_bth",
+                        "type": "int"
+                    },
+                    {
+                        "name": "u_half_bth",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u_bth_style",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u_bth_style2",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u_bth_style3",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u_kitch_type",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u_kitch_style",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u_heat_typ",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u_ac",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u_fplace",
+                        "type": "int"
+                    },
+                    {
+                        "name": "u_int_fin",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u_int_cnd",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u_view",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "latitude",
+                        "size": "18",
+                        "type": "char"
+                    },
+                    {
+                        "name": "longitude",
+                        "size": "19",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/e02c44d2-3c64-459c-8fe2-e1ce5f38a035/resource/cecdf003-9348-4ddb-94e1-673b63940bb8/download/property-assessment-fy2016.csv"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "property_assessment_fy2017",
+            "path": "property-assessment-fy2017.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "pid",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "cm_id",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "gis_id",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "st_num",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "st_name",
+                        "size": "24",
+                        "type": "char"
+                    },
+                    {
+                        "name": "st_name_suf",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "unit_num",
+                        "size": "13",
+                        "type": "char"
+                    },
+                    {
+                        "name": "zipcode",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "ptype",
+                        "type": "int"
+                    },
+                    {
+                        "name": "lu",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "own_occ",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "owner",
+                        "size": "28",
+                        "type": "char"
+                    },
+                    {
+                        "name": "mail_addressee",
+                        "size": "28",
+                        "type": "char"
+                    },
+                    {
+                        "name": "mail_address",
+                        "size": "28",
+                        "type": "char"
+                    },
+                    {
+                        "name": "mail_cs",
+                        "size": "20",
+                        "type": "char"
+                    },
+                    {
+                        "name": "mail_zipcode",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "av_land",
+                        "type": "int"
+                    },
+                    {
+                        "name": "av_bldg",
+                        "type": "int"
+                    },
+                    {
+                        "name": "av_total",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gross_tax",
+                        "type": "int"
+                    },
+                    {
+                        "name": "land_sf",
+                        "type": "int"
+                    },
+                    {
+                        "name": "yr_built",
+                        "type": "int"
+                    },
+                    {
+                        "name": "yr_remod",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gross_area",
+                        "type": "int"
+                    },
+                    {
+                        "name": "living_area",
+                        "type": "int"
+                    },
+                    {
+                        "name": "num_floors",
+                        "type": "double"
+                    },
+                    {
+                        "name": "structure_class",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_bldg_styl",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_roof_typ",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_ext_fin",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_total_rms",
+                        "type": "int"
+                    },
+                    {
+                        "name": "r_bdrms",
+                        "type": "int"
+                    },
+                    {
+                        "name": "r_full_bth",
+                        "type": "int"
+                    },
+                    {
+                        "name": "r_half_bth",
+                        "type": "int"
+                    },
+                    {
+                        "name": "r_bth_style",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_bth_style2",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_bth_style3",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_kitch",
+                        "type": "int"
+                    },
+                    {
+                        "name": "r_kitch_style",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_kitch_style2",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_kitch_style3",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_heat_typ",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_ac",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_fplace",
+                        "type": "int"
+                    },
+                    {
+                        "name": "r_ext_cnd",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_ovrall_cnd",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_int_cnd",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_int_fin",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "r_view",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "s_num_bldg",
+                        "type": "int"
+                    },
+                    {
+                        "name": "s_bldg_styl",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "s_unit_res",
+                        "type": "int"
+                    },
+                    {
+                        "name": "s_unit_com",
+                        "type": "int"
+                    },
+                    {
+                        "name": "s_unit_rc",
+                        "type": "int"
+                    },
+                    {
+                        "name": "s_ext_fin",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "s_ext_cnd",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u_base_floor",
+                        "type": "int"
+                    },
+                    {
+                        "name": "u_num_park",
+                        "type": "int"
+                    },
+                    {
+                        "name": "u_corner",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u_orient",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u_tot_rms",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u_bdrms",
+                        "type": "int"
+                    },
+                    {
+                        "name": "u_full_bth",
+                        "type": "int"
+                    },
+                    {
+                        "name": "u_half_bth",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u_bth_style",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u_bth_style2",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u_bth_style3",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u_kitch_type",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u_kitch_style",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u_heat_typ",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u_ac",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u_fplace",
+                        "type": "int"
+                    },
+                    {
+                        "name": "u_int_fin",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u_int_cnd",
+                        "size": "1",
+                        "type": "char"
+                    },
+                    {
+                        "name": "u_view",
+                        "size": "1",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/e02c44d2-3c64-459c-8fe2-e1ce5f38a035/resource/062fc6fa-b5ff-4270-86cf-202225e40858/download/property-assessment-fy2017.csv"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "Boston property assessment",
+    "version": "1.0.0"
+}

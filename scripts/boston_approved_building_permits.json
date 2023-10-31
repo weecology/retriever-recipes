@@ -1,0 +1,134 @@
+{
+    "citation": "N/A",
+    "description": "Boston approved building permits, Various projects require different types of applications, and work cannot begin until a building permit card is issued.",
+    "homepage": "https://data.boston.gov/dataset/approved-building-permits",
+    "keywords": [
+        "Analyze Boston", "building", "construction", "legacy portal", "permits"
+    ],
+    "licenses": [
+        {
+            "name": "PDDL"
+        }
+    ],
+    "name": "boston-approved-building-permits",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "tmp1u5ocxkn",
+            "path": "tmp1u5ocxkn.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "permitnumber",
+                        "size": "12",
+                        "type": "char"
+                    },
+                    {
+                        "name": "worktype",
+                        "size": "10",
+                        "type": "char"
+                    },
+                    {
+                        "name": "permittypedescr",
+                        "size": "28",
+                        "type": "char"
+                    },
+                    {
+                        "name": "description",
+                        "size": "34",
+                        "type": "char"
+                    },
+                    {
+                        "name": "comments",
+                        "size": "5358",
+                        "type": "char"
+                    },
+                    {
+                        "name": "applicant",
+                        "size": "96",
+                        "type": "char"
+                    },
+                    {
+                        "name": "declared_valuation",
+                        "type": "double"
+                    },
+                    {
+                        "name": "total_fees",
+                        "type": "double"
+                    },
+                    {
+                        "name": "issued_date",
+                        "size": "19",
+                        "type": "char"
+                    },
+                    {
+                        "name": "expiration_date",
+                        "size": "19",
+                        "type": "char"
+                    },
+                    {
+                        "name": "status",
+                        "size": "9",
+                        "type": "char"
+                    },
+                    {
+                        "name": "owner",
+                        "size": "50",
+                        "type": "char"
+                    },
+                    {
+                        "name": "occupancytype",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "sq_feet",
+                        "type": "double"
+                    },
+                    {
+                        "name": "address",
+                        "size": "40",
+                        "type": "char"
+                    },
+                    {
+                        "name": "city",
+                        "size": "28",
+                        "type": "char"
+                    },
+                    {
+                        "name": "state",
+                        "size": "2",
+                        "type": "char"
+                    },
+                    {
+                        "name": "zip",
+                        "type": "int"
+                    },
+                    {
+                        "name": "property_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "parcel_id",
+                        "type": "int"
+                    },
+                    {
+                        "name": "lat",
+                        "type": "double"
+                    },
+                    {
+                        "name": "lon",
+                        "type": "double"
+                    }
+                ]
+            },
+            "url": "https://data.boston.gov/dataset/cd1ec3ff-6ebf-4a65-af68-8329eceab740/resource/6ddcd912-32a0-43df-9908-63574f8c7e77/download/tmph0_9nwdo.csv"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "Boston approved building permits",
+    "version": "1.0.0"
+}
