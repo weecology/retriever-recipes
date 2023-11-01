@@ -1,0 +1,128 @@
+{
+    "citation": "Comte, L, Carvajal-Quintero, J, Tedesco, PA, et al. RivFishTIME: A global database of fish time-series to study global change ecology in riverine systems. Global Ecol Biogeogr. 2020; 30: 38 – 50. https://doi.org/10.1111/geb.13210",
+    "description": "RivFishTIME: A global database of fish time-series to study global change ecology in riverine systems",
+    "encoding": "latin-1",
+    "homepage": "https://onlinelibrary.wiley.com/doi/10.1111/geb.13210",
+    "keywords": ["species abundance", "biodiversity", "conservation", "freshwater streams and rivers", "Actinopterygii", "temporal trends"],
+    "licenses": [{"name": "Open (CC BY 4.0)"}],
+    "name": "riv-fish-time",
+    "resources": [
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "1873_10_1873_2_rivfishtime_surveytable",
+            "path": "1873_10_1873_2_RivFishTIME_SurveyTable.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "timeseriesid",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "surveyid",
+                        "size": "14",
+                        "type": "char"
+                    },
+                    {
+                        "name": "year",
+                        "type": "int"
+                    },
+                    {
+                        "name": "quarter",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "species",
+                        "size": "34",
+                        "type": "char"
+                    },
+                    {
+                        "name": "abundance",
+                        "type": "double"
+                    },
+                    {
+                        "name": "unitabundance",
+                        "size": "20",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://github.com/sRealmWG/simRealm/blob/main/case_study/RivFishTIME/1873_10_1873_2_RivFishTIME_SurveyTable.csv?raw=true"
+        },
+        {
+            "dialect": {
+                "delimiter": ","
+            },
+            "name": "1873_10_1873_2_rivfishtime_timeseriestable",
+            "path": "1873_10_1873_2_RivFishTIME_TimeseriesTable.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sourceid",
+                        "type": "int"
+                    },
+                    {
+                        "name": "siteid",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "timeseriesid",
+                        "size": "6",
+                        "type": "char"
+                    },
+                    {
+                        "name": "protocol",
+                        "size": "29",
+                        "type": "char"
+                    },
+                    {
+                        "name": "latitude",
+                        "type": "double"
+                    },
+                    {
+                        "name": "longitude",
+                        "type": "double"
+                    },
+                    {
+                        "name": "biorealm",
+                        "size": "11",
+                        "type": "char"
+                    },
+                    {
+                        "name": "hydrobasin",
+                        "type": "int"
+                    },
+                    {
+                        "name": "country",
+                        "size": "3",
+                        "type": "char"
+                    },
+                    {
+                        "name": "region",
+                        "size": "26",
+                        "type": "char"
+                    },
+                    {
+                        "name": "province",
+                        "size": "39",
+                        "type": "char"
+                    },
+                    {
+                        "name": "waterbody",
+                        "size": "43",
+                        "type": "char"
+                    }
+                ]
+            },
+            "url": "https://github.com/sRealmWG/simRealm/blob/main/case_study/RivFishTIME/1873_10_1873_2_RivFishTIME_TimeseriesTable.csv?raw=true"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.1.0",
+    "title": "fill",
+    "version": "1.0.0"
+}
